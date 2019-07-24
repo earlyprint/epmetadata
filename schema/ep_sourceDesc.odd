@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EarlyPrint sourceDesc fragment schema</title>
+                <author></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.w3.org/1999/xhtml</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>EarlyPrint project.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>A schema to validate sourceDesc fragments for the EarlyPrint project.</p>
+            <schemaSpec ident="ep_sourceDesc" docLang="en" prefix="tei_" xml:lang="en" start="TEI sourceDesc">
+                <moduleRef key="core"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="namesdates"/>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
