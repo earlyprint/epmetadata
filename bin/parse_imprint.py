@@ -15,8 +15,37 @@ def preprocess(pub_text):
     return pub_text
 
 def basic_match(pub_text):
-    basic_re = r"(?:\[?by|^\[?[Bb]y|\band by) (?P<printer>.*?(?=(?:\bfor\b|\band are\b|\band sold\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the )(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?) (?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\band reprinted\b|\b(?:the )?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot farr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|$)))|\bfor (?P<publisher>.*?(?=(?:\bfor\b|\band are\b|\band published\b|\band sold\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\bne[ae]re?\b|\bto be\b|\b(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?) (?:[uv]n)?to\b|\band reprinted\b|\b(?:the )?assigne?e?s?(?:ment)?\b|\bon\b|\bbooke?-?seller\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot farr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|$)))|\b[Ssh]?ou?ld?e? by (?P<bookseller>.*?(?=(?:\band are\b|\bat\b|\bin\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\bne[ae]re?\b|\bon\b|\bbooke?-?seller\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot farr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|$)))|\b(?:at|d(?:w|vv)ell[iy]nge? (?:without|in)|in|ne[ae]re?|over against|next|within|on) (?P<location>.*?(?=(?:\bby\b|\band by\b|\band for\b|\bfor\b|$)))|\b(?:the )?assigne?e?s?(?:ment)? of (?P<assigns>.*?(?=(?:\bfor\b|\band are\b|\band sold\b|\bat\b|\b[Ssh]?ou?ld?e?\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the )(?:[Pp]rinters?|[Ss]er[vu]ants?) (?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\band reprinted\b|\b(?:the )?assigne?e?s?(?:ment)?\b|\bon\b|$)))|\b(?<!the )(?:[Pp]rinters?|[Ss]er[uv]ants?) (?:[uv]n)?to (?P<patron>.*?(?=(?:\bfor\b|\breprinted\b|\band are\b|\band sold\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the )[Pp]rinters? to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\band reprinted\b|\b(?:the )?assigne?e?s?(?:ment)?\b|\bon\b|\b\d+|$)))"
-    m = re.finditer(basic_re, pub_text)
+    """
+    This function looks in a cleaned imprint string for text in any of
+    five categories: printer, publisher, bookseller, location, assigns,
+    and patron. It uses a long regular expression to sort through the
+    string and categorize chunks correctly. Then it splits and cleans
+    the resulting text using clean_list().
+    """
+
+    # A regular expression for the lookahead, which determines when to stop
+    # greedily capturing text. This is inserting into the main regex via
+    # string formatting.
+    ahead = r"(?=(?:\bfor\b|\band\sare\b|\band\ssold\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|$))"
+
+    # The main regex, which defines the correct categories and
+    # assigns them to named capture groups. Verbose mode is
+    # turned on to make this more readable.
+    basic_re = r"""
+
+(?:\b[Bb]y\b|\b[Aa]nd\s[Bb]y\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
+
+\bfor\b(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
+
+\b[Ssh]?ou?ld?e?\sby\b(?P<bookseller>.*?{ahead})| # Regex for booksellers, with lookahead
+
+\b(?:at|d(?:w|vv)ell[iy]nge?\s(?:without|in)|in|ne[ae]re?|over\sagainst|next|within|on)\b(?P<location>.*?(?=(?:\bby\b|\band\sby\b|\band\sfor\b|\bfor\b|$)))| # Regex for location, with custom lookahead to capture as much location as possible in a single string
+
+\b(?:the\s)?assigne?e?s?(?:ment)?\sof\b(?P<assigns>.*?{ahead})| # Regex for assigns, with lookahead
+
+\b(?<!the\s)(?:[Pp]rinters?|[Ss]er[uv]ants?)\s(?:[uv]n)?to\b(?P<patron>.*?{ahead}) # Regex for patron, with lookahead
+""".format(ahead=ahead)
+    m = re.finditer(basic_re, pub_text, flags=re.VERBOSE)
     new_dict = defaultdict(list)
     for g in m:
         for k,v in g.groupdict().items():
