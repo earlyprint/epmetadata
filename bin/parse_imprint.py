@@ -26,7 +26,7 @@ def basic_match(pub_text):
     # A regular expression for the lookahead, which determines when to stop
     # greedily capturing text. This is inserting into the main regex via
     # string formatting.
-    ahead = r"(?=(?:\bfor\b|\band\sare\b|\band\ssold\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|$))"
+    ahead = r"(?=(?:\b(?:and\s)?for\b|\band\sare\b|\band\ssold\b|\b\[?sold\b|\bare\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|\bnigh\b|\b[uv]nto\b|$))"
 
     # The main regex, which defines the correct categories and
     # assigns them to named capture groups. Verbose mode is
@@ -35,11 +35,11 @@ def basic_match(pub_text):
 
 (?:\b[Bb]y\b|\b[Aa]nd\s[Bb]y\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
 
-\bfor\b(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
+(?:\bfor\b|\bat\sthe\sexpensis\sof\b)(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
 
-\b[Ssh]?ou?ld?e?\sby\b(?P<bookseller>.*?{ahead})| # Regex for booksellers, with lookahead
+\b[Ssh]?[oa]u?ld?e?\s\[?by\b(?P<bookseller>.*?{ahead})| # Regex for booksellers, with lookahead
 
-\b(?:at|d(?:w|vv)ell[iy]nge?\s(?:without|in)|in|ne[ae]re?|over\sagainst|next|within|on)\b(?P<location>.*?(?=(?:\bby\b|\band\sby\b|\band\sfor\b|\bfor\b|$)))| # Regex for location, with custom lookahead to capture as much location as possible in a single string
+\b(?:[aA]t(?!\slarge)|d(?:w|vv)ell[iy]nge?\s(?:without|in|[uv]pon)|in|[uv]nto|ne[ae]re?|over\sagainst|next|within|on)\b(?P<location>.*?(?=(?:\bby\b|\band\sby\b|\band\sfor\b|\bfor\b|\band\sare?\b|\b(?:and\s)?reprinted\b|$)))| # Regex for location, with custom lookahead to capture as much location as possible in a single string
 
 \b(?:the\s)?assigne?e?s?(?:ment)?\sof\b(?P<assigns>.*?{ahead})| # Regex for assigns, with lookahead
 
