@@ -10,7 +10,8 @@ def preprocess(pub_text):
     # print(pub_text)
     pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? by ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed by '+r'\g<1>'+r'\g<2>'+' and sold by '+r'\g<1>'+r'\g<2>', pub_text)
     pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? for ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed for '+r'\g<1>'+r'\g<2>'+' and sold by '+r'\g<1>'+r'\g<2>', pub_text)
-    pub_text = re.sub(r"\.\.\.","",pub_text)
+    pub_text = re.sub(r"((\bfor\b|\bsold\sby\b).*and\s)(?:\bby\s)?([A-Z]\.?[a-z]*\.?\s[A-Z]\.?[a-z]*)", r"\g<1>\g<2> \g<3>", pub_text)
+    #pub_text = re.sub(r"\.\.\.","",pub_text)
     pub_text = pub_text.strip(",: ;?")
     return pub_text
 
@@ -33,13 +34,13 @@ def basic_match(pub_text):
     # turned on to make this more readable.
     basic_re = r"""
 
-(?:\b[Bb]y\b|\b[Aa]nd\s[Bb]y\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
+(?:\b[Bb]y\b|\b[Aa]nd\s[Bb]y\b|\b[Ii]mprentit\sb[ey]\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
 
 (?:\bfor\b|\bat\sthe\sexpensis\sof\b)(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
 
 \b[Ssh]?[oa]u?ld?e?\s\[?by\b(?P<bookseller>.*?{ahead})| # Regex for booksellers, with lookahead
 
-\b(?:[aA]t(?!\slarge)|d(?:w|vv)ell[iy]nge?\s(?:without|in|[uv]pon)|in|[uv]nto|ne[ae]re?|over\sagainst|next|within|on)\b(?P<location>.*?(?=(?:\bby\b|\band\sby\b|\band\sfor\b|\bfor\b|\band\sare?\b|\b(?:and\s)?reprinted\b|$)))| # Regex for location, with custom lookahead to capture as much location as possible in a single string
+\b(?:[aA]t(?!\slarge)|d(?:w|vv)ell[iy]nge?\s(?:without|in|[uv]pon)|in|[uv]nto|ne[ae]re?|over\sagainst|next|within|on)\b(?P<location>.*?(?=(?:\bby\b|\band\b|\bfor\b|\breprinted\b|$)))| # Regex for location, with custom lookahead to capture as much location as possible in a single string
 
 \b(?:the\s)?assigne?e?s?(?:ment)?\sof\b(?P<assigns>.*?{ahead})| # Regex for assigns, with lookahead
 
@@ -54,7 +55,9 @@ def basic_match(pub_text):
     return all_parsed
 
 def clean_list(l):
-    return sorted(list(set(list(sum([re.split(r"(?:, \[?and | \[?and | \& |, | \.\.\. |)(?![a-z])", item.strip(', /()')) for item in l if item is not None], [])))))
+    cleaned_list = sorted(list(set(list(sum([re.split(r"(?:, \[?and | \[?and | \& |, | \.\.\. |)(?![a-z])", item.strip(', /()')) for item in l if item is not None], [])))))
+    cleaned_list = [re.sub(r"\s?\.\.\.\s?", "", c) for c in cleaned_list]
+    return cleaned_list
 
 def add_internal_xml(pub_text, parsed_dict):
     for k,v in parsed_dict.items():
