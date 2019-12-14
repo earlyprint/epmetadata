@@ -3,14 +3,16 @@
 from lxml import etree
 import glob, re
 from collections import defaultdict
-import pandas as pd
+#import pandas as pd
 from random import sample
 
 def preprocess(pub_text):
     # print(pub_text)
-    pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? by ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed by '+r'\g<1>'+r'\g<2>'+' and sold by '+r'\g<1>'+r'\g<2>', pub_text)
-    pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? for ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed for '+r'\g<1>'+r'\g<2>'+' and sold by '+r'\g<1>'+r'\g<2>', pub_text)
-    pub_text = re.sub(r"((\bfor\b|\bsold\sby\b).*and\s)(?:\bby\s)?([A-Z]\.?[a-z]*\.?\s[A-Z]\.?[a-z]*)", r"\g<1>\g<2> \g<3>", pub_text)
+    pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? by ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed by \g<1>\g<2> and sold by \g<1>\g<2>', pub_text)
+    pub_text = re.sub('^(?:[EeIij][mn])?[Pp][ir][iye]nt[ye]d and(?: are)?(?: to)?(?: be)? [Ssh]?ou?lde? for ([A-Z](?:\.|[a-z]+\.?) ?)([A-Z](?:\.|[a-z]+\.?)),?', r'printed for \g<1>\g<2> and sold by \g<1>\g<2>', pub_text)
+    pub_text = re.sub(r"((\bfor\b|\bsold\sby\b).*and\s)(?:\bby\s)?([A-Z]\.?[a-z]*\.?\s?[A-Z]\.?[a-z]\.*)", r"\g<1>\g<2> \g<3>", pub_text)
+    pub_text = re.sub(r"(\bsold\sat\b.*)(\bby\s)([A-Z]\.?[a-z]*\.?\s?[A-Z]\.?[a-z]*\.?)", r"\g<1>and sold \g<2>\g<3>", pub_text)
+
     #pub_text = re.sub(r"\.\.\.","",pub_text)
     pub_text = pub_text.strip(",: ;?")
     return pub_text
@@ -27,7 +29,7 @@ def basic_match(pub_text):
     # A regular expression for the lookahead, which determines when to stop
     # greedily capturing text. This is inserting into the main regex via
     # string formatting.
-    ahead = r"(?=(?:\b(?:and\s)?for\b|\band\sare\b|\band\ssold\b|\b\[?sold\b|\bare\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|\bnigh\b|\b[uv]nto\b|$))"
+    ahead = r"(?=(?:\b(?:and\s)?for\b|\band\sare\b|\band\ssold\b|\b\[?sold\b|\bare\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|\bnigh\b|\b[uv]nto\b|\b,?\s?[bB]ooke?-?seller\b|$))"
 
     # The main regex, which defines the correct categories and
     # assigns them to named capture groups. Verbose mode is
@@ -55,8 +57,8 @@ def basic_match(pub_text):
     return all_parsed
 
 def clean_list(l):
-    cleaned_list = sorted(list(set(list(sum([re.split(r"(?:, \[?and | \[?and | \& |, | \.\.\. |)(?![a-z])", item.strip(', /()')) for item in l if item is not None], [])))))
-    cleaned_list = [re.sub(r"\s?\.\.\.\s?", "", c) for c in cleaned_list]
+    cleaned_list = sorted(list(set(list(sum([re.split(r"(?:, \[?and | \[?and | \& |, | \.\.\. )(?![a-z])", item.strip(', /()')) for item in l if item is not None], [])))))
+    cleaned_list = [re.sub(r"\s?\.\.\.\s?", "", c) for c in cleaned_list if c != "me"]
     return cleaned_list
 
 def add_internal_xml(pub_text, parsed_dict):
@@ -65,11 +67,17 @@ def add_internal_xml(pub_text, parsed_dict):
             for name in v:
                 if name != "":
                     if k != "location":
+                        # Test for weird names
+                        #name_match = re.match("^[A-Z]\.?[a-z]*\.?\s?[A-Z]\.?[a-z]*\.?$", name)
+                        #if not name_match:
+                            #print(pub_text)
+                            #print(name)
                         pub_text = pub_text.replace(name, "<persName type='{}'>{}</persName>".format(k,name))
                     else:
                         pub_text = pub_text.replace(name, "<placeName>{}</placeName>".format(name))
     pub_text = "<publisher>{}</publisher>".format(pub_text)
     pub_text = pub_text.replace('&', '&amp;')
+    print(pub_text)
     new_xml = etree.fromstring(pub_text)
     return new_xml
 
@@ -98,7 +106,7 @@ if __name__ == "__main__":
     all_parsed = {}
     for f in files:
         filekey = f.split("/")[1].split("_")[0]
-        #print(filekey)
+        print(filekey, "DONE")
         with open(f, 'r') as xml_file:
             xml = etree.fromstring(xml_file.read())
             pubStmt = xml.find(".//{*}publicationStmt")
@@ -114,7 +122,10 @@ if __name__ == "__main__":
                     new_xml = add_internal_xml(pub_text, parsed_pub_text)
                     pubStmt.replace(publisher,new_xml)
                     add_lists(xml, parsed_pub_text)
-                    print(etree.tostring(xml, pretty_print=True))
+                    #print(etree.tostring(xml, pretty_print=True))
+                    full_filestring = '<?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>\n{}'.format(etree.tostring(xml, pretty_print=True).decode('utf8'))
+                    with open('parsedmeta/{}_parsed.xml'.format(filekey), 'w') as writefile:
+                        writefile.write(full_filestring)
                     # all_parsed[filekey] = parsed_pub_text
                     # all_parsed[filekey]['orig_text'] = pub_text
 
