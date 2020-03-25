@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Histoire des larrons, or The history of theeves. Written in French, and translated out of the originall, by Paul Godwin</title>
-         <title>Histoire generale des larrons. English</title>
-         <author>Calvi, Fran&#231;ois de.</author>
-         <author>Godwin, Paul, fl. 1638.</author>
-      </titleStmt>
-      <extent>[16], 315, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Iohn Raworth</persName>, and are to be sold by <persName type="bookseller">Thomas Slater</persName>, at <placeName>the signe of the Swan in Duck-lane</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Calvi, Fran&#231;ois de.  Histoire generale des larrons.</note>
-         <note>With a preliminary imprimatur leaf.</note>
-         <note>Running title reads: The history of theeves.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Iohn Raworth</persName></person><person type="bookseller"><persName>Thomas Slater</persName></person></listPerson><listPlace><place type="location"><placeName>the signe of the Swan in Duck-lane</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Histoire des larrons, or The history of theeves. Written in French, and translated out of the originall, by Paul Godwin</title>
+      <title>Histoire generale des larrons. English</title>
+      <author>Calvi, Fran&#231;ois de.</author>
+      <author>Godwin, Paul, fl. 1638.</author>
+    </titleStmt>
+    <extent>[16], 315, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Raworth</persName>, and are to be sold by <persName type="bookseller">Thomas Slater</persName>, at <placeName>the signe of the Swan in Duck-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Calvi, Fran&#231;ois de.  Histoire generale des larrons.</note>
+      <note>With a preliminary imprimatur leaf.</note>
+      <note>Running title reads: The history of theeves.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Thomas Slater</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Raworth</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Swan in Duck-lane</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

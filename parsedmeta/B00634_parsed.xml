@@ -1,21 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of Frier Rush: how he came to a house of religion to seeke seruice, and being entertained by the priour, was first made vnder cooke. : Being full of pleasant mirth and delight for young people.</title>
-         <title>Friar Rush.</title>
-      </titleStmt>
-      <extent>[40] p. : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>by <persName type="printer">Edw. All-de</persName>, <persName type="printer">&amp;</persName> are to be solde by <persName type="bookseller">Francis Groue</persName> dwelling on <placeName>Snow hill.</placeName>,</publisher><pubPlace>Imprinted at London :</pubPlace>
-         <date>1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Illus. t.p., initial, head- and tail-piece; wood cut illustrations.</note>
-         <note>Signatures: A-E&#8308;.</note>
-         <note>C&#8323;r line two from bottom begins 'said, he'; D&#8324;v line two from bottom has 'shooes and, I'.</note>
-         <note>Imperfect: stained, and with print show-through.</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>&amp;</persName></person><person type="printer"><persName>Edw. All-de</persName></person><person type="bookseller"><persName>Francis Groue</persName></person></listPerson><listPlace><place type="location"><placeName>Snow hill.</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of Frier Rush: how he came to a house of religion to seeke seruice, and being entertained by the priour, was first made vnder cooke. : Being full of pleasant mirth and delight for young people.</title>
+      <title>Friar Rush.</title>
+    </titleStmt>
+    <extent>[40] p. : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Edw. All-de</persName>, <persName type="printer">&amp;</persName> are to be solde by <persName type="bookseller">Francis Groue</persName> dwelling on <placeName>Snow hill.</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Illus. t.p., initial, head- and tail-piece; wood cut illustrations.</note>
+      <note>Signatures: A-E&#8308;.</note>
+      <note>C&#8323;r line two from bottom begins 'said, he'; D&#8324;v line two from bottom has 'shooes and, I'.</note>
+      <note>Imperfect: stained, and with print show-through.</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Groue</persName>
+    </person>
+    <person type="printer">
+      <persName>&amp;</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw. All-de</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Snow hill.</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

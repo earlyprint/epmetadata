@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A courtly masque: the deuice called the vvorld tost at tennis As it hath beene diuers times presented to the contentment of many noble and worthy spectators, by the prince his seruants. Inuented, and set downe, by Tho: Middleton &amp; William Rowley gent.</title>
-         <author>Middleton, Thomas, d. 1627.</author>
-         <author>Rowley, William, 1585?-1642? aut</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">George Purslowe</persName>, and are to be sold by <persName type="bookseller">Edward Wright</persName>, at <placeName>Christ-Church Gate</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A&#8308;(-A1) B-E&#8308; F&#8308;(-F4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>George Purslowe</persName></person><person type="bookseller"><persName>Edward Wright</persName></person></listPerson><listPlace><place type="location"><placeName>Christ-Church Gate</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A courtly masque: the deuice called the vvorld tost at tennis As it hath beene diuers times presented to the contentment of many noble and worthy spectators, by the prince his seruants. Inuented, and set downe, by Tho: Middleton &amp; William Rowley gent.</title>
+      <author>Middleton, Thomas, d. 1627.</author>
+      <author>Rowley, William, 1585?-1642? aut</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Purslowe</persName>, and are to be sold by <persName type="bookseller">Edward Wright</persName>, at <placeName>Christ-Church Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8308;(-A1) B-E&#8308; F&#8308;(-F4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Edward Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Christ-Church Gate</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

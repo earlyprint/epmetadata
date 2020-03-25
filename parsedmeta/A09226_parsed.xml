@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A farewell Entituled to the famous and fortunate generalls of our English forces: Sir Iohn Norris &amp; Syr Frauncis Drake Knights, and all theyr braue and resolute followers. VVhereunto is annexed: a tale of Troy. Doone by George Peele, Maister of Artes in Oxforde.</title>
-         <author>Peele, George, 1556-1596.</author>
-      </titleStmt>
-      <extent>21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">I[ohn] C[harlewood]</persName> and are to bee solde by <persName type="bookseller">William Wright</persName>, at <placeName>his shop adioyning to S. Mildreds Church in the Poultrie</placeName>,</publisher><pubPlace>At London :</pubPlace>
-         <date>Anno. 1589.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>I[ohn] C[harlewood]</persName></person><person type="bookseller"><persName>William Wright</persName></person></listPerson><listPlace><place type="location"><placeName>his shop adioyning to S. Mildreds Church in the Poultrie</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A farewell Entituled to the famous and fortunate generalls of our English forces: Sir Iohn Norris &amp; Syr Frauncis Drake Knights, and all theyr braue and resolute followers. VVhereunto is annexed: a tale of Troy. Doone by George Peele, Maister of Artes in Oxforde.</title>
+      <author>Peele, George, 1556-1596.</author>
+    </titleStmt>
+    <extent>21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] C[harlewood]</persName> and are to bee solde by <persName type="bookseller">William Wright</persName>, at <placeName>his shop adioyning to S. Mildreds Church in the Poultrie</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>Anno. 1589.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] C[harlewood]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop adioyning to S. Mildreds Church in the Poultrie</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

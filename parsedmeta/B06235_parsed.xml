@@ -1,17 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true list of the lords spiritual and temporal, together with the knights, citizens, and burgesses of the Parliament at Westminster on the 22th [sic] of this instant November, 1695; as they have been returned into the Crown Office in Chancery.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">Edward Jones</persName> in <placeName>the Savoy</placeName>, and <persName type="publisher">Jacob Tonson</persName> in <placeName>Fleetstreet</placeName>, and published by <persName type="printer">J. Whitlock</persName> near <placeName>Stationers-Hall</placeName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from internal evidence.</note>
-         <note>Reproduction of original in: University of Glasgow Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edward Jones</persName></person><person type="publisher"><persName>Jacob Tonson</persName></person><person type="printer"><persName>J. Whitlock</persName></person></listPerson><listPlace><place type="location"><placeName>Fleetstreet</placeName></place><place type="location"><placeName>Stationers-Hall</placeName></place><place type="location"><placeName>the Savoy</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A true list of the lords spiritual and temporal, together with the knights, citizens, and burgesses of the Parliament at Westminster on the 22th [sic] of this instant November, 1695; as they have been returned into the Crown Office in Chancery.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Jones</persName> in <placeName>the Savoy</placeName>, and <persName type="publisher">Jacob Tonson</persName> in <placeName>Fleetstreet</placeName>, and published by <persName type="printer">J. Whitlock</persName> near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from internal evidence.</note>
+      <note>Reproduction of original in: University of Glasgow Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Jones</persName>
+    </person>
+    <person type="publisher">
+      <persName>Jacob Tonson</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

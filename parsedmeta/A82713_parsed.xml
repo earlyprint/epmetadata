@@ -1,17 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords and Commons assembled in Parliament that the sheriffes of London shall be saved and kept harmelesse by the authority of both Houses, for not publishing some late messages and proclamations lately sent them in his Majesties name.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>March 11. Printed at <placeName>London</placeName> for <persName type="publisher">John Wright</persName> in <placeName>the Old-bailey</placeName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Offical date from Steele.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>John Wright</persName></person></listPerson><listPlace><place type="location"><placeName>London</placeName></place><place type="location"><placeName>the Old-bailey</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords and Commons assembled in Parliament that the sheriffes of London shall be saved and kept harmelesse by the authority of both Houses, for not publishing some late messages and proclamations lately sent them in his Majesties name.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>March 11. Printed at <placeName>London</placeName> for <persName type="publisher">John Wright</persName> in <placeName>the Old-bailey</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Offical date from Steele.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Old-bailey</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

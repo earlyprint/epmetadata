@@ -1,19 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>George Keith his saying, that the light within is not sufficient to salvation without something else: prov'd to be contrary to the foundation of the Christian religion. By Edmund Elys</title>
-         <author>Elys, Edmund, ca. 1634-ca. 1707.</author>
-      </titleStmt>
-      <extent>3, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed and sold by <persName type="printer">T. Sowle</persName>, next door to the Meeting-House in <placeName>White-Hart-Court in Gracious-Street</placeName>, and at <placeName>the Bible in Leaden-Hall-Street near the Market</placeName>,</publisher><pubPlace>[London :</pubPlace>
-         <date>1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>T. Sowle</persName></person><person type="bookseller"><persName>T. Sowle next door to the Meeting-House</persName></person></listPerson><listPlace><place type="location"><placeName>White-Hart-Court in Gracious-Street</placeName></place><place type="location"><placeName>the Bible in Leaden-Hall-Street near the Market</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>George Keith his saying, that the light within is not sufficient to salvation without something else: prov'd to be contrary to the foundation of the Christian religion. By Edmund Elys</title>
+      <author>Elys, Edmund, ca. 1634-ca. 1707.</author>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed and sold by <persName type="printer">T. Sowle</persName>, next door to the Meeting-House in <placeName>White-Hart-Court in Gracious-Street</placeName>, and at <placeName>the Bible in Leaden-Hall-Street near the Market</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Sowle next door to the Meeting-House</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>White-Hart-Court in Gracious-Street</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible in Leaden-Hall-Street near the Market</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

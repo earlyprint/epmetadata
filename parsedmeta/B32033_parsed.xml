@@ -1,20 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the king and queen.  A proclamation. William R.  Declaring the war in Ireland to be ended.</title>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-         <author>William III, King of England, 1650-1702.</author>
-         <author>Mary II, Queen of England, 1662-1694.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Andrew Crook</persName> assignee of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King</persName> and <persName type="patron">Queen's Most Excellent Majesties</persName> on <placeName>Ormond-Key</placeName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>Queen's Most Excellent Majesties</persName></person><person type="patron"><persName>the King</persName></person><person type="assigns"><persName>Benjamin Tooke</persName></person><person type="printer"><persName>Andrew Crook</persName></person></listPerson><listPlace><place type="location"><placeName>Ormond-Key</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the king and queen.  A proclamation. William R.  Declaring the war in Ireland to be ended.</title>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+      <author>William III, King of England, 1650-1702.</author>
+      <author>Mary II, Queen of England, 1662-1694.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> assignee of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King</persName> and <persName type="patron">Queen's Most Excellent Majesties</persName> on <placeName>Ormond-Key</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Queen's Most Excellent Majesties</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ormond-Key</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of the officers of the Army in Scotland under the commander in chief there, to the officers of the Army in England.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh, Printed by <persName type="printer">Christopher Higgins</persName>, in <placeName>Harts Close, over against the Trone-Church</placeName>, and re-printed at <placeName>London</placeName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signed at end: William Clarke, secretary.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Christopher Higgins</persName></person></listPerson><listPlace><place type="location"><placeName>Harts Close, over against the Trone-Church</placeName></place><place type="location"><placeName>London</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of the officers of the Army in Scotland under the commander in chief there, to the officers of the Army in England.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh, Printed by <persName type="printer">Christopher Higgins</persName>, in <placeName>Harts Close, over against the Trone-Church</placeName>, and re-printed at <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signed at end: William Clarke, secretary.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Higgins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Harts Close, over against the Trone-Church</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

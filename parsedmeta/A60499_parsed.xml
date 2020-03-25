@@ -1,19 +1,48 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The art of painting according to the theory and practise of the best Italian, French, and Germane masters Treating of the antiquity of painting. The reputation it always had. The characters of several masters. Proportion. Action and passion. The effects of light. Perspective. Draught. Colouring. Ordonnance. Far more compleat and compendious then hath yet been publisht by any, antient or modern. The second edition. By M.S. gent.</title>
-         <author>[Smith, Marshall, fl. 1693].</author>
-      </titleStmt>
-      <extent>[10], 89, [1] p. :   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">M.B.</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">R. Bently</persName>, in <placeName>Russel-street</placeName>, <placeName>Covent-Garden</placeName>, and <persName type="publisher">J. Hancock</persName>, in <placeName>Castle Ally</placeName> by <persName type="printer">the Royal-Exchange. Price 2s. 6d.</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>M.S. = Marshall Smtih.</note>
-         <note>The words "the antiquity .. passion." and "The effects .. Ordonnance." are joined with brackets in title.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>J. Hancock</persName></person><person type="publisher"><persName>the author</persName></person><person type="printer"><persName>M.B.</persName></person><person type="printer"><persName>the Royal-Exchange. Price 2s. 6d.</persName></person><person type="bookseller"><persName>R. Bently</persName></person></listPerson><listPlace><place type="location"><placeName>Castle Ally</placeName></place><place type="location"><placeName>Covent-Garden</placeName></place><place type="location"><placeName>Russel-street</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The art of painting according to the theory and practise of the best Italian, French, and Germane masters Treating of the antiquity of painting. The reputation it always had. The characters of several masters. Proportion. Action and passion. The effects of light. Perspective. Draught. Colouring. Ordonnance. Far more compleat and compendious then hath yet been publisht by any, antient or modern. The second edition. By M.S. gent.</title>
+      <author>[Smith, Marshall, fl. 1693].</author>
+    </titleStmt>
+    <extent>[10], 89, [1] p. :   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M.B.</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">R. Bently</persName>, in <placeName>Russel-street</placeName>, <placeName>Covent-Garden</placeName>, and <persName type="publisher">J. Hancock</persName>, in <placeName>Castle Ally</placeName> by <persName type="printer">the Royal-Exchange. Price 2s. 6d.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>M.S. = Marshall Smtih.</note>
+      <note>The words "the antiquity .. passion." and "The effects .. Ordonnance." are joined with brackets in title.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Hancock</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Bently</persName>
+    </person>
+    <person type="printer">
+      <persName>M.B.</persName>
+    </person>
+    <person type="printer">
+      <persName>the Royal-Exchange. Price 2s. 6d.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle Ally</placeName>
+    </place>
+    <place type="location">
+      <placeName>Covent-Garden</placeName>
+    </place>
+    <place type="location">
+      <placeName>Russel-street</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

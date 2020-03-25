@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bersaba, or, The love of David a poem / written by Samuel Cobb ...</title>
-         <author>Cobb, Samuel, 1675-1713.</author>
-      </titleStmt>
-      <extent>[10], 15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">J. Whitlock</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. 15.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J. Whitlock</persName></person><person type="bookseller"><persName>J. Whitlock</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Bersaba, or, The love of David a poem / written by Samuel Cobb ...</title>
+      <author>Cobb, Samuel, 1675-1713.</author>
+    </titleStmt>
+    <extent>[10], 15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">J. Whitlock</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. 15.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Whitlock</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

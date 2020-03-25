@@ -119,7 +119,6 @@ if __name__ == "__main__":
                 pubStmt.replace(publisher,new_xml)
                 add_lists(xml, parsed_pub_text)
         new_filename = 'parsedmeta/{}_parsed.xml'.format(filekey)
-	tree.write(new_filename, pretty_print=True)
- 
-    print(filekey, "DONE")
+        tree.write(new_filename, pretty_print=True)
+        print(filekey, "DONE")
 

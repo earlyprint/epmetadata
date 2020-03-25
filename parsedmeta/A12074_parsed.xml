@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cupids vvhirligig As it hath bene sundry times acted by the Children of the Kings Majesties Reuels.</title>
-         <author>Sharpham, Edward, 1576-1608.</author>
-         <author>Boccaccio, Giovanni, 1313-1375. Decamerone. Day 7. Novel 6.</author>
-      </titleStmt>
-      <extent>[84] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by <persName type="printer">E. Allde</persName>, and are to bee solde by <persName type="bookseller">Arthur Iohnson</persName>, at <placeName>the signe of the white Horse, nere the great north doore of Saint Paules Church</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: E:S, i.e. Edward Sharpham.</note>
-         <note>Based in part on day 7, novel 6 of: Boccaccio, Giovanni. Decamerone.</note>
-         <note>Signatures: A&#178;  B-L&#8308;.</note>
-         <note>The last leaf is blank.</note>
-         <note>Variant: lacks words "As it hath .. Reuels." on title page.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>E. Allde</persName></person><person type="bookseller"><persName>Arthur Iohnson</persName></person></listPerson><listPlace><place type="location"><placeName>the signe of the white Horse, nere the great north doore of Saint Paules Church</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Cupids vvhirligig As it hath bene sundry times acted by the Children of the Kings Majesties Reuels.</title>
+      <author>Sharpham, Edward, 1576-1608.</author>
+      <author>Boccaccio, Giovanni, 1313-1375. Decamerone. Day 7. Novel 6.</author>
+    </titleStmt>
+    <extent>[84] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">E. Allde</persName>, and are to bee solde by <persName type="bookseller">Arthur Iohnson</persName>, at <placeName>the signe of the white Horse, nere the great north doore of Saint Paules Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: E:S, i.e. Edward Sharpham.</note>
+      <note>Based in part on day 7, novel 6 of: Boccaccio, Giovanni. Decamerone.</note>
+      <note>Signatures: A&#178;  B-L&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Variant: lacks words "As it hath .. Reuels." on title page.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Arthur Iohnson</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the white Horse, nere the great north doore of Saint Paules Church</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

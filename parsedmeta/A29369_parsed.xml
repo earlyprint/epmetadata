@@ -1,19 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bridge's remains, being VIII sermons ... by that learned and judicious divine, Mr. William Bridge ...</title>
-         <author>Bridge, William, 1600?-1670.</author>
-      </titleStmt>
-      <extent>[16], 204 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer">John Hancock</persName> Senior and <persName type="bookseller">Junior</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Designed by himself for the press, as appears by the marginal notes, except the eighth sermon, which was the last that he preached, was taken exactly in short-hand, and published by his son-in-law after they were perused by Mr. Greenhill"</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>(from t.p.) 1. Of mans blessedness -- 2. Affections rightly placed -- 3. How to walk with God in our calling -- 4. Of good and bad company -- 5. The carnality of professors -- 6. What our work is, and how to be done -- 7. Soul resignation into the hands of God -- 8. The dignity and duty of Gods called ones.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>John Hancock</persName></person><person type="bookseller"><persName>John Hancock Senior</persName></person><person type="bookseller"><persName>Junior</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Bridge's remains, being VIII sermons ... by that learned and judicious divine, Mr. William Bridge ...</title>
+      <author>Bridge, William, 1600?-1670.</author>
+    </titleStmt>
+    <extent>[16], 204 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">John Hancock</persName> Senior</persName> and <persName type="bookseller">Junior</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Designed by himself for the press, as appears by the marginal notes, except the eighth sermon, which was the last that he preached, was taken exactly in short-hand, and published by his son-in-law after they were perused by Mr. Greenhill"</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>(from t.p.) 1. Of mans blessedness -- 2. Affections rightly placed -- 3. How to walk with God in our calling -- 4. Of good and bad company -- 5. The carnality of professors -- 6. What our work is, and how to be done -- 7. Soul resignation into the hands of God -- 8. The dignity and duty of Gods called ones.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Hancock Senior</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Junior</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hancock</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

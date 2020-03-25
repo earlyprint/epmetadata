@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sad, amazing and dreadful relation of a farmer's wife, near Wallingford in Barkshire who abusing her husband, for selling cor[n] cheap to the poor, and wishing, the dev[il] might thrash, the next day found him thrashing in the barn, and was by him thrown o[n] the mow, remaining there in a pitious manne[r] not to be removed, feeding on the ears o[f] corn, and refusing all other food. With her description of the devil; ho[w] he vanished from her, and a great quantit[y] of corn he had thrashed was found black an[d] burned.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed and sold by <persName type="printer"><persName type="bookseller">J.W.</persName></persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Cropped and tightly bound with some loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J.W.</persName></person><person type="bookseller"><persName>J.W.</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A sad, amazing and dreadful relation of a farmer's wife, near Wallingford in Barkshire who abusing her husband, for selling cor[n] cheap to the poor, and wishing, the dev[il] might thrash, the next day found him thrashing in the barn, and was by him thrown o[n] the mow, remaining there in a pitious manne[r] not to be removed, feeding on the ears o[f] corn, and refusing all other food. With her description of the devil; ho[w] he vanished from her, and a great quantit[y] of corn he had thrashed was found black an[d] burned.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed and sold by <persName type="bookseller"><persName type="printer">J.W.</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Cropped and tightly bound with some loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J.W.</persName>
+    </person>
+    <person type="printer">
+      <persName>J.W.</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

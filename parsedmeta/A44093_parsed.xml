@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short examination of A Discourse concerning edification, by Dr. Hascard where it is inquired, how well the author of the said discourse hath proved that it is not lawful for a man to go from his parish church to meetings, that he might be better edifie [sic] / in a letter to a friend.</title>
-         <author>Hody, Humphrey, 1659-1707.</author>
-      </titleStmt>
-      <extent>[2], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">A. Baldwin</persName></persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing to Humphry Hody.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>A. Baldwin</persName></person><person type="bookseller"><persName>A. Baldwin</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A short examination of A Discourse concerning edification, by Dr. Hascard where it is inquired, how well the author of the said discourse hath proved that it is not lawful for a man to go from his parish church to meetings, that he might be better edifie [sic] / in a letter to a friend.</title>
+      <author>Hody, Humphrey, 1659-1707.</author>
+    </titleStmt>
+    <extent>[2], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">A. Baldwin</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing to Humphry Hody.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

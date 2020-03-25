@@ -1,21 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Shepheards kalender newly augmented and corrected.</title>
-         <title>Compost et kalendrier des bergiers.</title>
-         <author>Barclay, Alexander, 1475?-1552.</author>
-         <author>Copland, Robert, fl. 1508-1547.</author>
-      </titleStmt>
-      <extent>1 v. [200] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Robert Ibbitson</persName> and are to bee sold by <persName type="bookseller">Francis Grove</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated by Robert Copland. Cf. NUC pre-1956.</note>
-         <note>Illustrated t.p.</note>
-         <note>Attributed to Barclay. Cf. Wing.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Robert Ibbitson</persName></person><person type="bookseller"><persName>Francis Grove</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The Shepheards kalender newly augmented and corrected.</title>
+      <title>Compost et kalendrier des bergiers.</title>
+      <author>Barclay, Alexander, 1475?-1552.</author>
+      <author>Copland, Robert, fl. 1508-1547.</author>
+    </titleStmt>
+    <extent>1 v. [200] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Ibbitson</persName> and are to bee sold by <persName type="bookseller">Francis Grove</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated by Robert Copland. Cf. NUC pre-1956.</note>
+      <note>Illustrated t.p.</note>
+      <note>Attributed to Barclay. Cf. Wing.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Grove</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

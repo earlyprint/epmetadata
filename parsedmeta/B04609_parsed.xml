@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The old non-conformist, touching the Book of Common-prayer, and ceremonies. To which is annexed the reasons why Scotland refused the Book of Common-Prayer.</title>
-      </titleStmt>
-      <extent>43 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">H.C.</persName></persName> in <placeName>Popes-head Alley</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print fade with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Wales.</note>
-         <note>With: An expedient humbly presented to the King and Parliament for the happy settlement of ecclesiastical affairs.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>H.C.</persName></person><person type="bookseller"><persName>H.C.</persName></person></listPerson><listPlace><place type="location"><placeName>Popes-head Alley</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The old non-conformist, touching the Book of Common-prayer, and ceremonies. To which is annexed the reasons why Scotland refused the Book of Common-Prayer.</title>
+    </titleStmt>
+    <extent>43 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">H.C.</persName></persName> in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print fade with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Wales.</note>
+      <note>With: An expedient humbly presented to the King and Parliament for the happy settlement of ecclesiastical affairs.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>H.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

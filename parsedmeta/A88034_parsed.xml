@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Letter to Leiutenant [sic] Collonel Iohn Lilburn now prisoner in the Tower.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Henry Hills</persName>, and are to be sold at <placeName>the sign of Sir John Old-castle, in Py-corner</placeName>,</publisher><pubPlace>London, :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Annotation on Thomason copy: "Sept. 8".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Henry Hills</persName></person></listPerson><listPlace><place type="location"><placeName>the sign of Sir John Old-castle, in Py-corner</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A Letter to Leiutenant [sic] Collonel Iohn Lilburn now prisoner in the Tower.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName>, and are to be sold at <placeName>the sign of Sir John Old-castle, in Py-corner</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Annotation on Thomason copy: "Sept. 8".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of Sir John Old-castle, in Py-corner</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

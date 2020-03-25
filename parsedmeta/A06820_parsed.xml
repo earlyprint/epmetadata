@@ -1,19 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new booke, intituled, I am for you all, complexions castle as well in the time of the pestilence, as other times, out of the which you may learne your complexion, your disease incident to the same, and the remedies for the same. Published by Iames Manning, minister of the word.</title>
-         <title>I am for you all, complexions castle</title>
-         <author>Manning, James, minister at Wellingborough.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Iohn Legat</persName>, printer to <persName type="patron">the Vniuersitie of Cambridge. 1604. And</persName> are to be sold at <placeName>the signe of the Crowne in Pauls Church-yard [</placeName>, <placeName>London]</placeName> by <persName type="bookseller">Simon Waterson</persName>,</publisher><pubPlace>[Cambridge] :</pubPlace>
-         <date>[1604]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: I am for you all, complexions castle.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Vniuersitie of Cambridge. 1604. And</persName></person><person type="printer"><persName>Iohn Legat</persName></person><person type="bookseller"><persName>Simon Waterson</persName></person></listPerson><listPlace><place type="location"><placeName>London]</placeName></place><place type="location"><placeName>the signe of the Crowne in Pauls Church-yard [</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A new booke, intituled, I am for you all, complexions castle as well in the time of the pestilence, as other times, out of the which you may learne your complexion, your disease incident to the same, and the remedies for the same. Published by Iames Manning, minister of the word.</title>
+      <title>I am for you all, complexions castle</title>
+      <author>Manning, James, minister at Wellingborough.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legat</persName>, printer to <persName type="patron">the Vniuersitie of Cambridge. 1604. And</persName> are to be sold at <placeName>the signe of the Crowne in Pauls Church-yard [</placeName>, <placeName>London]</placeName> by <persName type="bookseller">Simon Waterson</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date>[1604]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: I am for you all, complexions castle.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniuersitie of Cambridge. 1604. And</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Simon Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Legat</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London]</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Crowne in Pauls Church-yard [</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

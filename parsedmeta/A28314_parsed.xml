@@ -1,19 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the Queen at White-hall, August 23, 1691 by Jonathan Blagrave ...</title>
-         <author>Blagrave, Jonathan, 1652-1698.</author>
-      </titleStmt>
-      <extent>31, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">G.C.</persName> for <persName type="publisher">John Southby</persName> ... and <persName type="publisher">T. Jones</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by Her Majesties command"</note>
-         <note>Advertisement on p. [1] at end.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>John Southby</persName></person><person type="publisher"><persName>T. Jones</persName></person><person type="printer"><persName>G.C.</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the Queen at White-hall, August 23, 1691 by Jonathan Blagrave ...</title>
+      <author>Blagrave, Jonathan, 1652-1698.</author>
+    </titleStmt>
+    <extent>31, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.C.</persName> for <persName type="publisher">John Southby</persName> ... and <persName type="publisher">T. Jones</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by Her Majesties command"</note>
+      <note>Advertisement on p. [1] at end.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Southby</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>G.C.</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

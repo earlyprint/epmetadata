@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pray for the rising generation, or, A sermon wherein godly parents are encouraged, to pray and believe for their children preached the third day of the fifth month, 1678, which day was set apart by the second church in Boston in New-England, humbly to seek unto God by fasting and prayer, for a spirit of converting grace, to be poured out upon the children and rising generation in New-England / by Increase Mather ...</title>
-         <author>Mather, Increase, 1639-1723.</author>
-      </titleStmt>
-      <extent>23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Samuel Green</persName>, and sold by <persName type="bookseller">Edmund Ranger</persName> in <placeName>Boston</placeName>,</publisher><pubPlace>Cambridge [Mass.] :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Marginal notes.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Samuel Green</persName></person><person type="bookseller"><persName>Edmund Ranger</persName></person></listPerson><listPlace><place type="location"><placeName>Boston</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Pray for the rising generation, or, A sermon wherein godly parents are encouraged, to pray and believe for their children preached the third day of the fifth month, 1678, which day was set apart by the second church in Boston in New-England, humbly to seek unto God by fasting and prayer, for a spirit of converting grace, to be poured out upon the children and rising generation in New-England / by Increase Mather ...</title>
+      <author>Mather, Increase, 1639-1723.</author>
+    </titleStmt>
+    <extent>23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Samuel Green</persName>, and sold by <persName type="bookseller">Edmund Ranger</persName> in <placeName>Boston</placeName>,</publisher>
+      <pubPlace>Cambridge [Mass.] :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Marginal notes.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Edmund Ranger</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Green</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Boston</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

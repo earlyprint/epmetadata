@@ -1,20 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of Charles Trinder, recorder of Gloucester at his entrance upon that office, January the 8th, 1687/8.</title>
-         <author>Trinder, Charles.</author>
-      </titleStmt>
-      <extent>[3], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Randal Taylor</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1687/8 [i.e. 1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"White-Hall, January 21st, 1687/8."</note>
-         <note>Errata: p. 16.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-         <note>Imperfect: print show-through.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Randal Taylor</persName></person><person type="bookseller"><persName>Randal Taylor</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of Charles Trinder, recorder of Gloucester at his entrance upon that office, January the 8th, 1687/8.</title>
+      <author>Trinder, Charles.</author>
+    </titleStmt>
+    <extent>[3], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randal Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687/8 [i.e. 1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"White-Hall, January 21st, 1687/8."</note>
+      <note>Errata: p. 16.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+      <note>Imperfect: print show-through.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

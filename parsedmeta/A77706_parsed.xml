@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Quaker-Jesuite, or, Popery in Quakerisme: being a clear discovery 1. That their doctrines, with their proofs and arguments, are fetcht out of the Council of Trent, Bellarmine, and others. 2. That their practises are fetcht out of the rules and practises of popish monks. With a serious admonition to the Quakers, to consider their ways, and return from whence they are fallen. / By William Brownsword, minister of the gospel at Kendal.</title>
-         <author>Brownsword, William, b. 1625 or 6.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">J.M.</persName> and are to be sold by <persName type="bookseller">Miles Harrison</persName>, bookseller in <placeName>Kendal</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Jan: 5. 1659".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J.M.</persName></person><person type="bookseller"><persName>Miles Harrison</persName></person></listPerson><listPlace><place type="location"><placeName>Kendal</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The Quaker-Jesuite, or, Popery in Quakerisme: being a clear discovery 1. That their doctrines, with their proofs and arguments, are fetcht out of the Council of Trent, Bellarmine, and others. 2. That their practises are fetcht out of the rules and practises of popish monks. With a serious admonition to the Quakers, to consider their ways, and return from whence they are fallen. / By William Brownsword, minister of the gospel at Kendal.</title>
+      <author>Brownsword, William, b. 1625 or 6.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.M.</persName> and are to be sold by <persName type="bookseller">Miles Harrison</persName>, bookseller in <placeName>Kendal</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Jan: 5. 1659".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Miles Harrison</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Kendal</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

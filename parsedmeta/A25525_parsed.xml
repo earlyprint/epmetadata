@@ -1,17 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to A letter from a gentleman in the country, to a Member of the House of Commons: on the votes of the 14th instant. Relating to the trade of Ireland</title>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>re-printed by <persName type="printer">Andrew Crook</persName>, printer to <persName type="patron">the King's Most Excellent Majesty</persName>, on <placeName>Cork-Hill:</placeName> and are to be sold by <persName type="bookseller">William Norman</persName> and <persName type="bookseller">Eliphel Dobson, booksellers</persName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: A letter from a gentleman in the country, to a member of the House of Commons; in reference to the votes of the 14th instant.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the King's Most Excellent Majesty</persName></person><person type="printer"><persName>Andrew Crook</persName></person><person type="bookseller"><persName>Eliphel Dobson, booksellers</persName></person><person type="bookseller"><persName>William Norman</persName></person></listPerson><listPlace><place type="location"><placeName>Cork-Hill:</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to A letter from a gentleman in the country, to a Member of the House of Commons: on the votes of the 14th instant. Relating to the trade of Ireland</title>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>re-printed by <persName type="printer">Andrew Crook</persName>, printer to <persName type="patron">the King's Most Excellent Majesty</persName>, on <placeName>Cork-Hill:</placeName> and are to be sold by <persName type="bookseller">William Norman</persName> and <persName type="bookseller">Eliphel Dobson, booksellers</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: A letter from a gentleman in the country, to a member of the House of Commons; in reference to the votes of the 14th instant.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's Most Excellent Majesty</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Eliphel Dobson, booksellers</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Norman</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cork-Hill:</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

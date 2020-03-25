@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true list of the knights, citizens and burgesses of the Parliament that met at Westminster the 20th of March, 1689/90. As they have been return'd into the Crown-Office in Chancery Published by authority. Note, that those that have this mark *, were not members of the late Parliament.</title>
-         <title>Lists. 1690-03-20.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In the Savoy: printed by <persName type="printer">Edward Jones;</persName> and sold by <persName type="bookseller">Richard Baldwin</persName> in <placeName>the Old-Bayly. MDCXC. Price 2 d</placeName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>[1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Edward Jones;</persName></person><person type="bookseller"><persName>Richard Baldwin</persName></person></listPerson><listPlace><place type="location"><placeName>the Old-Bayly. MDCXC. Price 2 d</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A true list of the knights, citizens and burgesses of the Parliament that met at Westminster the 20th of March, 1689/90. As they have been return'd into the Crown-Office in Chancery Published by authority. Note, that those that have this mark *, were not members of the late Parliament.</title>
+      <title>Lists. 1690-03-20.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In the Savoy: printed by <persName type="printer">Edward Jones;</persName> and sold by <persName type="bookseller">Richard Baldwin</persName> in <placeName>the Old-Bayly. MDCXC. Price 2 d</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Jones;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Bayly. MDCXC. Price 2 d</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,19 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflexions upon ancient and modern philosophy, moral and natural. Treating of the Aegyptians, Arabians, Gretians, Romans, &amp;c. philosophers; as Thales, Zeno, Socrates, Plato, Pythagoras, Aristotle, Epicurus, &amp;c.  Also of the English, Germans, French, Spanish, Italian, &amp;c.  As Bacon, Boyle, Descartes, Hobbes, Vanhelmont, Gassendus, Galilens, Harvey, Paracelsus, Marsennus, Digby, &amp;c.  Together with the use that is to be made thereof.  Licensed, Octob. 4. 1677.  Ro. L' Estrange.</title>
-         <title>Reflexions sur la philosophie ancienne et moderne. English</title>
-         <author>Rapin, Ren&#233;, 1621-1687.</author>
-      </titleStmt>
-      <extent>[8], 253 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">William Cademan</persName></persName> and <persName type="bookseller">William Crooke</persName> at <placeName>the New-Exchange</placeName>, and without Temple-bar and at <placeName>Mr. Man's Coffee house</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Ren&#233; Rapin.  Cf.  Wing (2nd ed.).</note>
-         <note>Reproduction of original in: Queen's College (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>William Cademan</persName></person><person type="bookseller"><persName>William Cademan</persName></person><person type="bookseller"><persName>William Crooke</persName></person></listPerson><listPlace><place type="location"><placeName>Mr. Man's Coffee house</placeName></place><place type="location"><placeName>the New-Exchange</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Reflexions upon ancient and modern philosophy, moral and natural. Treating of the Aegyptians, Arabians, Gretians, Romans, &amp;c. philosophers; as Thales, Zeno, Socrates, Plato, Pythagoras, Aristotle, Epicurus, &amp;c.  Also of the English, Germans, French, Spanish, Italian, &amp;c.  As Bacon, Boyle, Descartes, Hobbes, Vanhelmont, Gassendus, Galilens, Harvey, Paracelsus, Marsennus, Digby, &amp;c.  Together with the use that is to be made thereof.  Licensed, Octob. 4. 1677.  Ro. L' Estrange.</title>
+      <title>Reflexions sur la philosophie ancienne et moderne. English</title>
+      <author>Rapin, Ren&#233;, 1621-1687.</author>
+    </titleStmt>
+    <extent>[8], 253 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">William Cademan</persName></persName> and <persName type="bookseller">William Crooke</persName> at <placeName>the New-Exchange</placeName>, and without Temple-bar and at <placeName>Mr. Man's Coffee house</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Ren&#233; Rapin.  Cf.  Wing (2nd ed.).</note>
+      <note>Reproduction of original in: Queen's College (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Cademan</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>William Cademan</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Man's Coffee house</placeName>
+    </place>
+    <place type="location">
+      <placeName>the New-Exchange</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

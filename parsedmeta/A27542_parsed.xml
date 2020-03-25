@@ -1,20 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cupid's court of salutations full of complemental dialogues, and other amorous passages, as well commodious as delightful for young-men and maids to read and exercise.</title>
-         <author>W. B.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">J. Deacon</persName>, and are to be sold by <persName type="bookseller">R. Kell</persName> ...,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: W.B.</note>
-         <note>"This may be printed, R. P."</note>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J. Deacon</persName></person><person type="bookseller"><persName>R. Kell</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Cupid's court of salutations full of complemental dialogues, and other amorous passages, as well commodious as delightful for young-men and maids to read and exercise.</title>
+      <author>W. B.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Deacon</persName>, and are to be sold by <persName type="bookseller">R. Kell</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: W.B.</note>
+      <note>"This may be printed, R. P."</note>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Kell</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Deacon</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

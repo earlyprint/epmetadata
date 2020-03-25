@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of life and death: written in French, by Phil. Mornay. Done in English by the Countesse of Pembroke</title>
-         <title>Excellent discours de la vie et de la mort. English</title>
-         <author>Mornay, Philippe de, seigneur du Plessis-Marly, 1549-1623.</author>
-         <author>Pembroke, Mary Sidney Herbert, Countess of, 1561-1621.</author>
-      </titleStmt>
-      <extent>[144] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">H. L[ownes]</persName> for <persName type="publisher">Mathew Lownes</persName>, and are to bee soulde at <placeName>his shop in Paules Churchyard</placeName>,</publisher><pubPlace>At London :</pubPlace>
-         <date>1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F&#185;&#178; .</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Mathew Lownes</persName></person><person type="printer"><persName>H. L[ownes]</persName></person></listPerson><listPlace><place type="location"><placeName>his shop in Paules Churchyard</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of life and death: written in French, by Phil. Mornay. Done in English by the Countesse of Pembroke</title>
+      <title>Excellent discours de la vie et de la mort. English</title>
+      <author>Mornay, Philippe de, seigneur du Plessis-Marly, 1549-1623.</author>
+      <author>Pembroke, Mary Sidney Herbert, Countess of, 1561-1621.</author>
+    </titleStmt>
+    <extent>[144] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. L[ownes]</persName> for <persName type="publisher">Mathew Lownes</persName>, and are to bee soulde at <placeName>his shop in Paules Churchyard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#185;&#178; .</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mathew Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>H. L[ownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Churchyard</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

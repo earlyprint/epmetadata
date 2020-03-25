@@ -1,20 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act for a day of publique thanksgiving to be observed throughout England and Wales, on Thursday on the first of November, 1649 Together with a declaration of the grounds thereof.</title>
-         <title>Public General Acts. 1649-10-11.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">John Field</persName> for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an order to print dated 11 Oct. 1649.</note>
-         <note>Arms 48A; Steele notation: forth them of.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edward Husband</persName></person><person type="patron"><persName>the Parliament of England</persName></person><person type="printer"><persName>John Field</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An Act for a day of publique thanksgiving to be observed throughout England and Wales, on Thursday on the first of November, 1649 Together with a declaration of the grounds thereof.</title>
+      <title>Public General Acts. 1649-10-11.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Field</persName> for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an order to print dated 11 Oct. 1649.</note>
+      <note>Arms 48A; Steele notation: forth them of.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,23 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVits A.B.C. or A centurie of epigrams</title>
-         <author>West, Richard, fl. 1606-1619, attributed name.</author>
-         <author>Willet, Roland, b. 1588 or 9, attributed name.</author>
-      </titleStmt>
-      <extent>[46] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by <persName type="printer">George Eld]</persName> for <persName type="publisher">Thomas Thorp</persName>, and are to be sould [by <persName type="bookseller">L. Lisle]</persName> at <placeName>the signe of the Tigers head in Paules Church-yard</placeName>,</publisher><pubPlace>At London :</pubPlace>
-         <date>[1608]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes attributed to Richard West and to Roland Willet.</note>
-         <note>In verse.</note>
-         <note>Printer's and bookseller's names and publication date from STC.</note>
-         <note>Signatures: A-F&#8308; (-F4).</note>
-         <note>Running title reads: Epigrams.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Thomas Thorp</persName></person><person type="printer"><persName>George Eld]</persName></person><person type="bookseller"><persName>L. Lisle]</persName></person></listPerson><listPlace><place type="location"><placeName>the signe of the Tigers head in Paules Church-yard</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>VVits A.B.C. or A centurie of epigrams</title>
+      <author>West, Richard, fl. 1606-1619, attributed name.</author>
+      <author>Willet, Roland, b. 1588 or 9, attributed name.</author>
+    </titleStmt>
+    <extent>[46] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">George Eld]</persName> for <persName type="publisher">Thomas Thorp</persName>, and are to be sould [by <persName type="bookseller">L. Lisle]</persName> at <placeName>the signe of the Tigers head in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>[1608]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes attributed to Richard West and to Roland Willet.</note>
+      <note>In verse.</note>
+      <note>Printer's and bookseller's names and publication date from STC.</note>
+      <note>Signatures: A-F&#8308; (-F4).</note>
+      <note>Running title reads: Epigrams.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Thorp</persName>
+    </person>
+    <person type="bookseller">
+      <persName>L. Lisle]</persName>
+    </person>
+    <person type="printer">
+      <persName>George Eld]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Tigers head in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

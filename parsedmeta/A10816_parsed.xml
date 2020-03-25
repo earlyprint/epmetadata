@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The trumpet o[f] fame: or Sir Fraunces Drakes and Sir Iohn Hawkins f[are]well with an encouragement to all saile[rs] and souldiers that are minded to go in this worthie enterprise. VVith the names of many ships, and what they h[aue] done against our foes. Written by H.R.</title>
-         <author>H. R. (Henry Roberts), fl. 1585-1616.</author>
-      </titleStmt>
-      <extent>[2], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By <persName type="printer">Thomas Creede, and a[re] to be</persName> sold by <persName type="bookseller">William Barley</persName>, at <placeName>his shop in Gra[ti]ous streete</placeName>,</publisher><pubPlace>Imprinted at London :</pubPlace>
-         <date>1595.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>H.R. = Henry Roberts.</note>
-         <note>Title page cropped in only known copy.</note>
-         <note>In verse.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Thomas Creede, and a[re] to be</persName></person><person type="bookseller"><persName>William Barley</persName></person></listPerson><listPlace><place type="location"><placeName>his shop in Gra[ti]ous streete</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The trumpet o[f] fame: or Sir Fraunces Drakes and Sir Iohn Hawkins f[are]well with an encouragement to all saile[rs] and souldiers that are minded to go in this worthie enterprise. VVith the names of many ships, and what they h[aue] done against our foes. Written by H.R.</title>
+      <author>H. R. (Henry Roberts), fl. 1585-1616.</author>
+    </titleStmt>
+    <extent>[2], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Creede, and a[re] to be</persName> sold by <persName type="bookseller">William Barley</persName>, at <placeName>his shop in Gra[ti]ous streete</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1595.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>H.R. = Henry Roberts.</note>
+      <note>Title page cropped in only known copy.</note>
+      <note>In verse.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Barley</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede, and a[re] to be</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Gra[ti]ous streete</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

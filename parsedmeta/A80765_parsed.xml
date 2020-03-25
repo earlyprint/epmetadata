@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The disputes between Mr. Cranford, and Dr. Chamberlen. At the house of Mr. William Webb, at the end of Bartholomew Lane, by the Old Exchange: on March 1. 1652, and April 1. 6. 13. / Published for the satisfaction of all that love the truth.</title>
-         <author>Cranford, James, d. 1657.</author>
-         <author>Chamberlen, Peter, 1601-1683.</author>
-      </titleStmt>
-      <extent>[6], 28 [i.e. 30], [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Gartrude Dawson</persName>, and are to be sold by <persName type="bookseller">Gyles Calvert</persName> at <placeName>the Black Spread-Eagle near the west end of Paules</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>P. 29, 30 misnumbered 62, 28.</note>
-         <note>Annotation on Thomason copy: "June 8".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Gartrude Dawson</persName></person><person type="bookseller"><persName>Gyles Calvert</persName></person></listPerson><listPlace><place type="location"><placeName>the Black Spread-Eagle near the west end of Paules</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The disputes between Mr. Cranford, and Dr. Chamberlen. At the house of Mr. William Webb, at the end of Bartholomew Lane, by the Old Exchange: on March 1. 1652, and April 1. 6. 13. / Published for the satisfaction of all that love the truth.</title>
+      <author>Cranford, James, d. 1657.</author>
+      <author>Chamberlen, Peter, 1601-1683.</author>
+    </titleStmt>
+    <extent>[6], 28 [i.e. 30], [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Gartrude Dawson</persName>, and are to be sold by <persName type="bookseller">Gyles Calvert</persName> at <placeName>the Black Spread-Eagle near the west end of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>P. 29, 30 misnumbered 62, 28.</note>
+      <note>Annotation on Thomason copy: "June 8".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Gyles Calvert</persName>
+    </person>
+    <person type="printer">
+      <persName>Gartrude Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Spread-Eagle near the west end of Paules</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

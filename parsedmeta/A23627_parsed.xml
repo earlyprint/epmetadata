@@ -1,19 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The natural history of the chalybeat and purging waters of England with their particular essays and uses : among which are treated at large, the apoplexy &amp; hypochondriacism : to which are added some observations on the bath waters in Somersetshire ... / by Benjamin Allen ...</title>
-         <author>Allen, Benjamin, 1663-1738.</author>
-      </titleStmt>
-      <extent>[45], 185, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">S. Smith</persName></persName> and <persName type="bookseller">B. Walford</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [45].</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Includes indexes.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>S. Smith</persName></person><person type="bookseller"><persName>B. Walford</persName></person><person type="bookseller"><persName>S. Smith</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The natural history of the chalybeat and purging waters of England with their particular essays and uses : among which are treated at large, the apoplexy &amp; hypochondriacism : to which are added some observations on the bath waters in Somersetshire ... / by Benjamin Allen ...</title>
+      <author>Allen, Benjamin, 1663-1738.</author>
+    </titleStmt>
+    <extent>[45], 185, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">S. Smith</persName></persName> and <persName type="bookseller">B. Walford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [45].</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Includes indexes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>B. Walford</persName>
+    </person>
+    <person type="bookseller">
+      <persName>S. Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Smith</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

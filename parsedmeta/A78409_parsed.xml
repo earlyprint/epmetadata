@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Daphnis. A pastoral elegy on the death of that hopeful young gentleman Mr. Francis Wollaston.</title>
-         <author>Cave, John, d. 1690.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the University</persName>, for <persName type="publisher">the author.</persName>,</publisher><pubPlace>Oxford, :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: John Cave, A.B. Linc. Coll.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>the author.</persName></person><person type="patron"><persName>the University</persName></person><person type="printer"><persName>Leonard Lichfield</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Daphnis. A pastoral elegy on the death of that hopeful young gentleman Mr. Francis Wollaston.</title>
+      <author>Cave, John, d. 1690.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the University</persName>, for <persName type="publisher">the author.</persName>,</publisher>
+      <pubPlace>Oxford, :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: John Cave, A.B. Linc. Coll.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author.</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

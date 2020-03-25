@@ -1,17 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An essay towards the setlement of a national credit in the kingdom of England humbly presented to the two honourable Houses of Parliament / by John Cary ...</title>
-         <author>Cary, John, d. 1720?</author>
-      </titleStmt>
-      <extent>[2], 19 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Freeman Collins</persName>, and are to be sold by <persName type="bookseller">S. Crouch</persName> ..., and <persName type="bookseller">E. Whitlock</persName> ...</publisher><pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Freeman Collins</persName></person><person type="bookseller"><persName>E. Whitlock</persName></person><person type="bookseller"><persName>S. Crouch</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An essay towards the setlement of a national credit in the kingdom of England humbly presented to the two honourable Houses of Parliament / by John Cary ...</title>
+      <author>Cary, John, d. 1720?</author>
+    </titleStmt>
+    <extent>[2], 19 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Freeman Collins</persName>, and are to be sold by <persName type="bookseller">S. Crouch</persName> ..., and <persName type="bookseller">E. Whitlock</persName> ...</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="bookseller">
+      <persName>S. Crouch</persName>
+    </person>
+    <person type="printer">
+      <persName>Freeman Collins</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

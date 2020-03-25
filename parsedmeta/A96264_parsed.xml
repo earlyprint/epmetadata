@@ -1,18 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon touching the divine right and due observation of the Lords day Preached before the Lord Deputy, and the Lords Spiritual &amp; Temporal of the kingdom of Ireland; in time of Parliament. At Christ-Church Dublin. On Sunday the 6th. of October, 1695. With a preface humbly address'd to the whole body of English Protestants: especially those inhabiting the kingdom of Ireland. By Edward Lord Bishop of Cork and Ross.</title>
-         <author>Wettenhall, Edward, 1636-1713.</author>
-      </titleStmt>
-      <extent>[2], xx, 44 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">Joseph Ray</persName> in <placeName>Essex-street</placeName>, and are to be sold by <persName type="bookseller">John North</persName> bookseller in <placeName>Skinner-row</placeName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edward Lord Bishop of Cork and Ross = Edward Wettenhall.</note>
-         <note>Reproduction of original in the Trinity College Library, Dublin.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Joseph Ray</persName></person><person type="bookseller"><persName>John North</persName></person></listPerson><listPlace><place type="location"><placeName>Essex-street</placeName></place><place type="location"><placeName>Skinner-row</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon touching the divine right and due observation of the Lords day Preached before the Lord Deputy, and the Lords Spiritual &amp; Temporal of the kingdom of Ireland; in time of Parliament. At Christ-Church Dublin. On Sunday the 6th. of October, 1695. With a preface humbly address'd to the whole body of English Protestants: especially those inhabiting the kingdom of Ireland. By Edward Lord Bishop of Cork and Ross.</title>
+      <author>Wettenhall, Edward, 1636-1713.</author>
+    </titleStmt>
+    <extent>[2], xx, 44 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Joseph Ray</persName> in <placeName>Essex-street</placeName>, and are to be sold by <persName type="bookseller">John North</persName> bookseller in <placeName>Skinner-row</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edward Lord Bishop of Cork and Ross = Edward Wettenhall.</note>
+      <note>Reproduction of original in the Trinity College Library, Dublin.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John North</persName>
+    </person>
+    <person type="printer">
+      <persName>Joseph Ray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Essex-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>Skinner-row</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

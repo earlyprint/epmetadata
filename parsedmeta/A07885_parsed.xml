@@ -1,17 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The lamentable destruction of Mulheim, a Protestant towne in Germany Done by the inhabitants of Cologne the 30. of September last 1615. at three of the clock in the morning. Printed according to the Dutch originall.</title>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">G. Eld</persName> for <persName type="publisher">Richard Lea</persName>, and are to bee sold at <placeName>his shop at the North entry of the Royall Exchange</placeName>, and in <placeName>Paules Church yard</placeName> by <persName type="bookseller">Edward Marchant</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: [par]&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Richard Lea</persName></person><person type="printer"><persName>G. Eld</persName></person><person type="bookseller"><persName>Edward Marchant</persName></person></listPerson><listPlace><place type="location"><placeName>Paules Church yard</placeName></place><place type="location"><placeName>his shop at the North entry of the Royall Exchange</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The lamentable destruction of Mulheim, a Protestant towne in Germany Done by the inhabitants of Cologne the 30. of September last 1615. at three of the clock in the morning. Printed according to the Dutch originall.</title>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Eld</persName> for <persName type="publisher">Richard Lea</persName>, and are to bee sold at <placeName>his shop at the North entry of the Royall Exchange</placeName>, and in <placeName>Paules Church yard</placeName> by <persName type="bookseller">Edward Marchant</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: [par]&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lea</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Edward Marchant</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop at the North entry of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

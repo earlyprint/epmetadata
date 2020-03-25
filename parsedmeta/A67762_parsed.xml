@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>No wicked man a wise man, true wisdom described the excellency of spiritual, experimental, and saving knowledge, above all humane wisdom and learning ... / by R. Younge ...</title>
-         <author>Younge, Richard.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Tho. Milbourn</persName>, and are to be sold by <persName type="bookseller">James Crumpe</persName> ... and by <persName type="bookseller">Peter Parker</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed and entred according to order"</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Tho. Milbourn</persName></person><person type="bookseller"><persName>James Crumpe</persName></person><person type="bookseller"><persName>Peter Parker</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>No wicked man a wise man, true wisdom described the excellency of spiritual, experimental, and saving knowledge, above all humane wisdom and learning ... / by R. Younge ...</title>
+      <author>Younge, Richard.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Milbourn</persName>, and are to be sold by <persName type="bookseller">James Crumpe</persName> ... and by <persName type="bookseller">Peter Parker</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed and entred according to order"</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>James Crumpe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Peter Parker</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Milbourn</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,27 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to a friend concerning the sickness and death of His Highness the Duke of Gloucester With the true copies of three letters wrote by Dr. Hannes, Dr. Gibbons, and Dr. Radcliffe, to the King; and also the surgeons certificate who dissected him. Publish'd for the rectifying the many mistaken rumours spread on this most lamented loss.</title>
-         <author>B. P.</author>
-         <author>Hannes, Edward, Sir, d. 1710.</author>
-         <author>Gibbons, William, 1649-1728.</author>
-         <author>Radcliffe, John, 1650-1714.</author>
-         <author>Bernard, Charles, 1650-1711.</author>
-         <author>Cowper, William, 1666-1709.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">A. Baldwin</persName></persName> in <placeName>Warwick-Lane</placeName>,</publisher><pubPlace>London. :</pubPlace>
-         <date>[1700].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed and dated on p.2: B.P. 1st. of Octob. 1700.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>"A copy of Dr. Hannes's letter to the King,", "A copy of Dr. Gibbons's letter," and "A copy of Dr. Radcliff's letter," have caption titles.</note>
-         <note>"The opinion of the surgeons, that dissected the Duke of Gloucester" is signed: Charles Bernard, Edward Green, William Cowper.</note>
-         <note>Reproduction of the original in the Goldsmiths' Company, University of London.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>A. Baldwin</persName></person><person type="bookseller"><persName>A. Baldwin</persName></person></listPerson><listPlace><place type="location"><placeName>Warwick-Lane</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to a friend concerning the sickness and death of His Highness the Duke of Gloucester With the true copies of three letters wrote by Dr. Hannes, Dr. Gibbons, and Dr. Radcliffe, to the King; and also the surgeons certificate who dissected him. Publish'd for the rectifying the many mistaken rumours spread on this most lamented loss.</title>
+      <author>B. P.</author>
+      <author>Hannes, Edward, Sir, d. 1710.</author>
+      <author>Gibbons, William, 1649-1728.</author>
+      <author>Radcliffe, John, 1650-1714.</author>
+      <author>Bernard, Charles, 1650-1711.</author>
+      <author>Cowper, William, 1666-1709.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">A. Baldwin</persName></persName> in <placeName>Warwick-Lane</placeName>,</publisher>
+      <pubPlace>London. :</pubPlace>
+      <date>[1700].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed and dated on p.2: B.P. 1st. of Octob. 1700.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>"A copy of Dr. Hannes's letter to the King,", "A copy of Dr. Gibbons's letter," and "A copy of Dr. Radcliff's letter," have caption titles.</note>
+      <note>"The opinion of the surgeons, that dissected the Duke of Gloucester" is signed: Charles Bernard, Edward Green, William Cowper.</note>
+      <note>Reproduction of the original in the Goldsmiths' Company, University of London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Warwick-Lane</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

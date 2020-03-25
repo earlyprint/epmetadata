@@ -1,19 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Vergins advice to the maids of London to the tune of Oh! that I were but young for you.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Charles Barnet</persName></persName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>[between 1680 and 1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by Wing (2nd. ed)</note>
-         <note>Printed on right half of sheet which also contains Wing (2nd ed.)  R1793, "Roger the West-country lad".</note>
-         <note>Imperfect: faded, with loss of print.</note>
-         <note>Reproduction of original in the Magdalene College Library, University of Cambridge.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Charles Barnet</persName></person><person type="bookseller"><persName>Charles Barnet</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The Vergins advice to the maids of London to the tune of Oh! that I were but young for you.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Charles Barnet</persName></persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[between 1680 and 1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by Wing (2nd. ed)</note>
+      <note>Printed on right half of sheet which also contains Wing (2nd ed.)  R1793, "Roger the West-country lad".</note>
+      <note>Imperfect: faded, with loss of print.</note>
+      <note>Reproduction of original in the Magdalene College Library, University of Cambridge.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Charles Barnet</persName>
+    </person>
+    <person type="printer">
+      <persName>Charles Barnet</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

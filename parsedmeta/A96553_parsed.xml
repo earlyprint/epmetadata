@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious speech to both Houses of Parliament, on Thursday the 22th [sic] day of October, 1691</title>
-         <title>Speeches. 1691-10-22</title>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at <placeName>London</placeName>, and re-printed at <placeName>Edinburgh</placeName>, by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">their Most Excellent Majesties</persName>,</publisher><pubPlace>[Edinburgh] :</pubPlace>
-         <date>anno Dom. 1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A request for payment for the Army for the war in Ireland and to maintain both Army and Navy in preparation for the coming war with France.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>their Most Excellent Majesties</persName></person><person type="printer"><persName>the heir of Andrew Anderson</persName></person></listPerson><listPlace><place type="location"><placeName>Edinburgh</placeName></place><place type="location"><placeName>London</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious speech to both Houses of Parliament, on Thursday the 22th [sic] day of October, 1691</title>
+      <title>Speeches. 1691-10-22</title>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName>, and re-printed at <placeName>Edinburgh</placeName>, by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">their Most Excellent Majesties</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date>anno Dom. 1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A request for payment for the Army for the war in Ireland and to maintain both Army and Navy in preparation for the coming war with France.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>their Most Excellent Majesties</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

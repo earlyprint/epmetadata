@@ -1,21 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant. Ormonde. Whereas the present Parliament is adjourned until the five and twentieth day of this present May: ...</title>
-         <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">John Crook</persName>, printer to <persName type="patron">the Kings most Excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Samuel Dancer, next door to the Bear</persName> and <persName type="bookseller">Ragged-staffe</persName> in <placeName>Castle-street</placeName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from heading and first lines of text.</note>
-         <note>At end: Given at His Majesties Castle of Dublin the 21th day of May, 1663. God save the King.</note>
-         <note>Prorogues the Parliament until 21 July 1663.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Kings most Excellent Majesty;</persName></person><person type="printer"><persName>John Crook</persName></person><person type="bookseller"><persName>Ragged-staffe</persName></person><person type="bookseller"><persName>Samuel Dancer, next door to the Bear</persName></person></listPerson><listPlace><place type="location"><placeName>Castle-street</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant. Ormonde. Whereas the present Parliament is adjourned until the five and twentieth day of this present May: ...</title>
+      <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Crook</persName>, printer to <persName type="patron">the Kings most Excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Samuel Dancer, next door to the Bear</persName> and <persName type="bookseller">Ragged-staffe</persName> in <placeName>Castle-street</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from heading and first lines of text.</note>
+      <note>At end: Given at His Majesties Castle of Dublin the 21th day of May, 1663. God save the King.</note>
+      <note>Prorogues the Parliament until 21 July 1663.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty;</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Ragged-staffe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer, next door to the Bear</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

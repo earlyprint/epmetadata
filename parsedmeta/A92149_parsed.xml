@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegie upon the death of the thrice noble generall, Richard Dean, who departed this life the 2d. of June, 1653.</title>
-         <author>J. R.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Tho: Rycroft</persName>, and are to be sold by <persName type="bookseller">Tho: Jenner</persName>, at <placeName>the Royall Exchange</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: By J: R: Merchant.</note>
-         <note>Verse - "Mourne drooping eye with pearly trickling teares,".</note>
-         <note>Annotation on Thomason copy: "June 17".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Tho: Rycroft</persName></person><person type="bookseller"><persName>Tho: Jenner</persName></person></listPerson><listPlace><place type="location"><placeName>the Royall Exchange</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An elegie upon the death of the thrice noble generall, Richard Dean, who departed this life the 2d. of June, 1653.</title>
+      <author>J. R.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho: Rycroft</persName>, and are to be sold by <persName type="bookseller">Tho: Jenner</persName>, at <placeName>the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: By J: R: Merchant.</note>
+      <note>Verse - "Mourne drooping eye with pearly trickling teares,".</note>
+      <note>Annotation on Thomason copy: "June 17".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Tho: Jenner</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho: Rycroft</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royall Exchange</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short introduction to the art of painting and varnishing</title>
-         <author>Smith, John, fl. 1673-1680.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for <persName type="publisher">George Dawes, over against Lincolns-Inn-Gate</persName>, in <placeName>Chancery-Lane</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Smith.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>George Dawes, over against Lincolns-Inn-Gate</persName></person></listPerson><listPlace><place type="location"><placeName>Chancery-Lane</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A short introduction to the art of painting and varnishing</title>
+      <author>Smith, John, fl. 1673-1680.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">George Dawes, over against Lincolns-Inn-Gate</persName>, in <placeName>Chancery-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Smith.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Dawes, over against Lincolns-Inn-Gate</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Chancery-Lane</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

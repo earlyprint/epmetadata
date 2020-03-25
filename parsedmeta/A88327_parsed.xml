@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of such ships and frigots belonging to the Parliament as also of such merchants ships as are set forth to sea, and prepared for the service of the Parliament in this summers expedition, 1647. Together with the names of the captains and commanders of the said ships and frigots.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the honorable House of Commons</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>May 20. 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With decorative border.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edward Husband</persName></person><person type="patron"><persName>the honorable House of Commons</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A list of such ships and frigots belonging to the Parliament as also of such merchants ships as are set forth to sea, and prepared for the service of the Parliament in this summers expedition, 1647. Together with the names of the captains and commanders of the said ships and frigots.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>May 20. 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With decorative border.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

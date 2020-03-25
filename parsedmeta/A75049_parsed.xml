@@ -1,16 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The abstract of the claims of all persons claiming as innocents in the city, county of the city, and county of Dublin</title>
-      </titleStmt>
-      <extent>[4], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">John Crook</persName>, printer to <persName type="patron">the Kings most excellent Majestie</persName>, and are to be sold by <persName type="bookseller">Samuel Dancer</persName>, bookseller in <placeName>Castlestreet</placeName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Kings most excellent Majestie</persName></person><person type="printer"><persName>John Crook</persName></person><person type="bookseller"><persName>Samuel Dancer</persName></person></listPerson><listPlace><place type="location"><placeName>Castlestreet</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The abstract of the claims of all persons claiming as innocents in the city, county of the city, and county of Dublin</title>
+    </titleStmt>
+    <extent>[4], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Crook</persName>, printer to <persName type="patron">the Kings most excellent Majestie</persName>, and are to be sold by <persName type="bookseller">Samuel Dancer</persName>, bookseller in <placeName>Castlestreet</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castlestreet</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

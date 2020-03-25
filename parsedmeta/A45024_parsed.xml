@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Kings Most Excellent Majestie, the humble petition of the countie of Cornvvall</title>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at <placeName>London</placeName> by Robert Barker ... and by the assignes of <persName type="assigns">John Bill</persName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At foot: His Majesties answer to the petition of Cornwall, at the court at York. 26. June 1642.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="assigns"><persName>John Bill</persName></person><person type="printer"><persName>Robert Barkerand</persName></person></listPerson><listPlace><place type="location"><placeName>London</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>To the Kings Most Excellent Majestie, the humble petition of the countie of Cornvvall</title>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London</placeName> by Robert Barker ... and by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At foot: His Majesties answer to the petition of Cornwall, at the court at York. 26. June 1642.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barkerand</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

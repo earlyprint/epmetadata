@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Man's great duty, or, A discourse of the care every man should take to make sure the salvation of his own Soul by Samuel Bold, rector of Styple in Dorsetshire.</title>
-         <author>Bold, S. (Samuel), 1649-1737.</author>
-      </titleStmt>
-      <extent>[24], 116 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">R. Smith</persName> and are to be sold by <persName type="bookseller">R. Baldwin</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>R. Smith</persName></person><person type="bookseller"><persName>R. Baldwin</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Man's great duty, or, A discourse of the care every man should take to make sure the salvation of his own Soul by Samuel Bold, rector of Styple in Dorsetshire.</title>
+      <author>Bold, S. (Samuel), 1649-1737.</author>
+    </titleStmt>
+    <extent>[24], 116 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Smith</persName> and are to be sold by <persName type="bookseller">R. Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Smith</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

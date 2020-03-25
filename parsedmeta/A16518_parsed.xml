@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A booke called the treasure for traueilers deuided into fiue bookes or partes, contayning very necessary matters, for all sortes of trauailers, eyther by sea or by lande, written by William Bourne.</title>
-         <author>Bourne, William, d. 1583.</author>
-      </titleStmt>
-      <extent>[12], 32, [1], 25, [1], 22, [2], 21, [3], 5-16, [4] leaves : ill.  </extent>
-      <publicationStmt>
-         <publisher>[By <persName type="printer">Thomas Dawson]</persName> for <persName type="publisher">Thomas Woodcocke</persName>, dwelling in <placeName>Paules Churchyarde, at the sygne of the blacke Beare</placeName>,</publisher><pubPlace>Imprinted at London :</pubPlace>
-         <date>1578.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Each book has separate pagination and register re-commencing 2A, 3A etc.</note>
-         <note>With a final errata and colophon leaf.</note>
-         <note>Variant: lacking book 5.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Thomas Woodcocke</persName></person><person type="printer"><persName>Thomas Dawson]</persName></person></listPerson><listPlace><place type="location"><placeName>Paules Churchyarde, at the sygne of the blacke Beare</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A booke called the treasure for traueilers deuided into fiue bookes or partes, contayning very necessary matters, for all sortes of trauailers, eyther by sea or by lande, written by William Bourne.</title>
+      <author>Bourne, William, d. 1583.</author>
+    </titleStmt>
+    <extent>[12], 32, [1], 25, [1], 22, [2], 21, [3], 5-16, [4] leaves : ill.  </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Thomas Dawson]</persName> for <persName type="publisher">Thomas Woodcocke</persName>, dwelling in <placeName>Paules Churchyarde, at the sygne of the blacke Beare</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1578.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Each book has separate pagination and register re-commencing 2A, 3A etc.</note>
+      <note>With a final errata and colophon leaf.</note>
+      <note>Variant: lacking book 5.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Woodcocke</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyarde, at the sygne of the blacke Beare</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

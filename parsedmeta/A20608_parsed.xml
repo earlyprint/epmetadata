@@ -1,19 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation sent from Rome, of the processe, sentence, and execution, done vpon the body, picture, and bookes, of Marcus Antonius de Dominis, Archbishop of Spalato, after his death Published by command.</title>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">[George Eld</persName> and <persName type="printer">Miles Flesher?</persName> for<persName type="publisher">] John Bill</persName>, printer to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names conjectured by STC.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>Running title reads: The proceedings at Rome against the Archb. of Spalato.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>] John Bill</persName></person><person type="patron"><persName>the Kings most Excellent Maiestie</persName></person><person type="printer"><persName>Miles Flesher?</persName></person><person type="printer"><persName>[George Eld</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A relation sent from Rome, of the processe, sentence, and execution, done vpon the body, picture, and bookes, of Marcus Antonius de Dominis, Archbishop of Spalato, after his death Published by command.</title>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[George Eld</persName> and <persName type="printer">Miles Flesher?</persName> for<persName type="publisher">] John Bill</persName>, printer to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names conjectured by STC.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Running title reads: The proceedings at Rome against the Archb. of Spalato.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="publisher">
+      <persName>] John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher?</persName>
+    </person>
+    <person type="printer">
+      <persName>[George Eld</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

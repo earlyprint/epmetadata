@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Reign of Gustavus, King of Sueden, son of Ericus collected out of the histories of those times and offered to the service of these.</title>
-      </titleStmt>
-      <extent>[4], 79 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">A. Maxey</persName> and are to be sold by <persName type="bookseller">J. Rothwel</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained, with print show-through and considerable loss of print.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>A. Maxey</persName></person><person type="bookseller"><persName>J. Rothwel</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The Reign of Gustavus, King of Sueden, son of Ericus collected out of the histories of those times and offered to the service of these.</title>
+    </titleStmt>
+    <extent>[4], 79 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Maxey</persName> and are to be sold by <persName type="bookseller">J. Rothwel</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained, with print show-through and considerable loss of print.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Rothwel</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Maxey</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,20 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for making currant certaine French coyne.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>by <persName type="printer">I.L.</persName> and <persName type="printer">W.T.</persName> for <persName type="publisher">Bonham Norton</persName>, and <persName type="publisher">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiestie.</persName>,</publisher><pubPlace>Printed at Oxford :</pubPlace>
-         <date>Anno Dom. M.DC.XXV [1625].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Initial.</note>
-         <note>"Given at the Court at Tichfield the fourth day of September, in the first yeere of His Maiesties Reigne of Great Brittaine, France, and Ireland."</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Bonham Norton</persName></person><person type="publisher"><persName>Iohn Bill</persName></person><person type="patron"><persName>the Kings most Excellent Maiestie.</persName></person><person type="printer"><persName>I.L.</persName></person><person type="printer"><persName>W.T.</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for making currant certaine French coyne.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">I.L.</persName> and <persName type="printer">W.T.</persName> for <persName type="publisher">Bonham Norton</persName>, and <persName type="publisher">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiestie.</persName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date>Anno Dom. M.DC.XXV [1625].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Initial.</note>
+      <note>"Given at the Court at Tichfield the fourth day of September, in the first yeere of His Maiesties Reigne of Great Brittaine, France, and Ireland."</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>I.L.</persName>
+    </person>
+    <person type="printer">
+      <persName>W.T.</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

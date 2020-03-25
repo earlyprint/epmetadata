@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from William Penn, poprietary and governour of Pennsylvania in America, to the Committee of the Free Society of Traders of that province residing in London containing a general description of the said province, its soil, air, water, seasons, and produce ... of the natives, or, aborigines, their language, customs, and manners ... of the first planters, the Dutch &amp;c. ... to which is added an account of the city of Philadelphia ...</title>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>14 p. : folded plan.  </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Andrew Sowle</persName></persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Andrew Sowle</persName></person><person type="bookseller"><persName>Andrew Sowle</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from William Penn, poprietary and governour of Pennsylvania in America, to the Committee of the Free Society of Traders of that province residing in London containing a general description of the said province, its soil, air, water, seasons, and produce ... of the natives, or, aborigines, their language, customs, and manners ... of the first planters, the Dutch &amp;c. ... to which is added an account of the city of Philadelphia ...</title>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>14 p. : folded plan.  </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Andrew Sowle</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

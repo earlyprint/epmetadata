@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and perfect narrative of the strange and unexpected finding the crucifix &amp; gold-chain of that pious prince, St. Edward, the King and Confessor which was found after 620 years interment and presented to His Most Sacred Majesty, King James the Second / by Charles Taylour, Gent.</title>
-         <author>H. K. (Henry Keepe), 1652-1688.</author>
-      </titleStmt>
-      <extent>[5], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">J.B.</persName> and are to be sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Charles Taylour is a pseudonym for Henry Keepe.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J.B.</persName></person><person type="bookseller"><persName>Randal Taylor</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A true and perfect narrative of the strange and unexpected finding the crucifix &amp; gold-chain of that pious prince, St. Edward, the King and Confessor which was found after 620 years interment and presented to His Most Sacred Majesty, King James the Second / by Charles Taylour, Gent.</title>
+      <author>H. K. (Henry Keepe), 1652-1688.</author>
+    </titleStmt>
+    <extent>[5], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.B.</persName> and are to be sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Charles Taylour is a pseudonym for Henry Keepe.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

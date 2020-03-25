@@ -1,17 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Brief notes upon the whole book of Psalms put forth for the help of such who desire to exercise themselves in them and cannot understand without a guide : being a pithie and clear opening of the scope and meaning of the text to the capacitie of the weakest / by George Abbot.</title>
-         <author>Abbot, George, 1604-1649.</author>
-      </titleStmt>
-      <extent>[14], 772 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">William Bentley</persName> and are to be sold by <persName type="bookseller">John Williams</persName> ... and <persName type="bookseller">Francis Eglesfield</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>William Bentley</persName></person><person type="bookseller"><persName>Francis Eglesfield</persName></person><person type="bookseller"><persName>John Williams</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Brief notes upon the whole book of Psalms put forth for the help of such who desire to exercise themselves in them and cannot understand without a guide : being a pithie and clear opening of the scope and meaning of the text to the capacitie of the weakest / by George Abbot.</title>
+      <author>Abbot, George, 1604-1649.</author>
+    </titleStmt>
+    <extent>[14], 772 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bentley</persName> and are to be sold by <persName type="bookseller">John Williams</persName> ... and <persName type="bookseller">Francis Eglesfield</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Eglesfield</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bentley</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

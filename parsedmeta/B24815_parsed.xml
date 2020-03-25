@@ -1,23 +1,52 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Deputy and Council. Tyrconnell. Whereas it hath pleased almighty God of his great and continued mercy to his Majesty and his kingdoms to bless him and his royal consort, the Queen, with a Son; ...</title>
-         <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
-         <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer"><persName type="bookseller">Andrew Crook</persName></persName> and <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName>, assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold by <persName type="printer"><persName type="bookseller">Andrew Crook</persName></persName> at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and by <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName> at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher><pubPlace>Dublin, :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at the Council-Chamber in Dublin the 23th day of June. 1688".</note>
-         <note>Arms 185.</note>
-         <note>On account of the birth of a prince, Sunday, 1 July, in Dublin and Sunday 8 July, elsewhere to be kept as a day of public thanksgiving. Cf. Steele.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Kings most excellent Majesty;</persName></person><person type="assigns"><persName>Benjamin Tooke</persName></person><person type="printer"><persName>Andrew Crook</persName></person><person type="printer"><persName>Samuel Helsham</persName></person><person type="bookseller"><persName>Andrew Crook</persName></person><person type="bookseller"><persName>Samuel Helsham</persName></person></listPerson><listPlace><place type="location"><placeName>his Majesties printing-house on Ormonde-Key</placeName></place><place type="location"><placeName>the Colledge-Arms in Castle-street.</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Deputy and Council. Tyrconnell. Whereas it hath pleased almighty God of his great and continued mercy to his Majesty and his kingdoms to bless him and his royal consort, the Queen, with a Son; ...</title>
+      <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
+      <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="bookseller"><persName type="printer">Andrew Crook</persName></persName> and <persName type="bookseller"><persName type="printer">Samuel Helsham</persName></persName>, assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold by <persName type="bookseller"><persName type="printer">Andrew Crook</persName></persName> at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and by <persName type="bookseller"><persName type="printer">Samuel Helsham</persName></persName> at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at the Council-Chamber in Dublin the 23th day of June. 1688".</note>
+      <note>Arms 185.</note>
+      <note>On account of the birth of a prince, Sunday, 1 July, in Dublin and Sunday 8 July, elsewhere to be kept as a day of public thanksgiving. Cf. Steele.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty;</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street.</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

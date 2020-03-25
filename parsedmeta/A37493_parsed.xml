@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Baptism&#333;n didach&#275;, or, The doctrine of baptisms reduced from its ancient and modern corruptions and restored to its primitive soundness and integrity, according to the word of truth, the substance of faith &amp; the nature of Christ's kingdom / by William Dell ...</title>
-         <author>Dell, William, d. 1664.</author>
-      </titleStmt>
-      <extent>[8], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First 2 words of title in Greek characters.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>T. Sowle</persName></person><person type="bookseller"><persName>T. Sowle</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Baptism&#333;n didach&#275;, or, The doctrine of baptisms reduced from its ancient and modern corruptions and restored to its primitive soundness and integrity, according to the word of truth, the substance of faith &amp; the nature of Christ's kingdom / by William Dell ...</title>
+      <author>Dell, William, d. 1664.</author>
+    </titleStmt>
+    <extent>[8], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First 2 words of title in Greek characters.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Count of Gabalis, or, The extravagant mysteries of the Cabalists exposed in five pleasant discourses on the secret sciences / done into English by P.A. Gent., with short animadversions.</title>
-         <title>Comte de Gabalis. English</title>
-         <author>Villars, abb&#233; de (Nicolas-Pierre-Henri), 1635-1673.</author>
-         <author>Ayres, Philip, 1638-1712.</author>
-      </titleStmt>
-      <extent>[8], 183, 11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">B.M.</persName>, Printer to <persName type="patron">the Cabalistical Society of the Sages</persName>, at <placeName>the sign of the Rosy-Crucian</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [1] at end.</note>
-         <note>First edition in English.</note>
-         <note>Translation by Philip Ayres of the author's Le comte de Gabalis.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>B.M.</persName></person><person type="patron"><persName>the Cabalistical Society of the Sages</persName></person></listPerson><listPlace><place type="location"><placeName>the sign of the Rosy-Crucian</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The Count of Gabalis, or, The extravagant mysteries of the Cabalists exposed in five pleasant discourses on the secret sciences / done into English by P.A. Gent., with short animadversions.</title>
+      <title>Comte de Gabalis. English</title>
+      <author>Villars, abb&#233; de (Nicolas-Pierre-Henri), 1635-1673.</author>
+      <author>Ayres, Philip, 1638-1712.</author>
+    </titleStmt>
+    <extent>[8], 183, 11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">B.M.</persName>, Printer to <persName type="patron">the Cabalistical Society of the Sages</persName>, at <placeName>the sign of the Rosy-Crucian</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [1] at end.</note>
+      <note>First edition in English.</note>
+      <note>Translation by Philip Ayres of the author's Le comte de Gabalis.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Cabalistical Society of the Sages</persName>
+    </person>
+    <person type="publisher">
+      <persName>B.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Rosy-Crucian</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir John Digby's letter to Colonel Kerr Governour of Plymouth, perswading him to betray his trust, and deliver up the town and forts of Plymouth, to the Kings party. Together with Col. Kerrs answer. Wherein is exprest his faithfull resolution in keeping the trust he hath undertaken.</title>
-         <author>Digby, John, Sir, 1605-1645.</author>
-         <author>Kerr, James, Colonel.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">Edw. Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>, and are to be sold at <placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName>,</publisher><pubPlace>London, :</pubPlace>
-         <date>January. 2. 1645. [i.e. 1646]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edw. Husband</persName></person><person type="patron"><persName>the Honorable House of Commons</persName></person></listPerson><listPlace><place type="location"><placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Sir John Digby's letter to Colonel Kerr Governour of Plymouth, perswading him to betray his trust, and deliver up the town and forts of Plymouth, to the Kings party. Together with Col. Kerrs answer. Wherein is exprest his faithfull resolution in keeping the trust he hath undertaken.</title>
+      <author>Digby, John, Sir, 1605-1645.</author>
+      <author>Kerr, James, Colonel.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edw. Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>, and are to be sold at <placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>January. 2. 1645. [i.e. 1646]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edw. Husband</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

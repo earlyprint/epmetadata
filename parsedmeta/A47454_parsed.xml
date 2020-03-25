@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The counterfeit Christian, or, The danger of hypocrisy opened in two sermons : containing an exposition of that parabolical speech of our Blessed Saviour, Matth. XII, 43, 44, 45 ... / by Benjamin Keach ...</title>
-         <author>Keach, Benjamin, 1640-1704.</author>
-      </titleStmt>
-      <extent>[4], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are sold by <persName type="printer">John Pike</persName> ... and by <persName type="printer">the author</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [4].</note>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>John Pike</persName></person><person type="printer"><persName>the author</persName></person><person type="bookseller"><persName>John Pikeand</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The counterfeit Christian, or, The danger of hypocrisy opened in two sermons : containing an exposition of that parabolical speech of our Blessed Saviour, Matth. XII, 43, 44, 45 ... / by Benjamin Keach ...</title>
+      <author>Keach, Benjamin, 1640-1704.</author>
+    </titleStmt>
+    <extent>[4], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are sold by <persName type="printer">John Pike</persName> ... and by <persName type="printer">the author</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [4].</note>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Pikeand</persName>
+    </person>
+    <person type="printer">
+      <persName>John Pike</persName>
+    </person>
+    <person type="printer">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

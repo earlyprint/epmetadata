@@ -1,22 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation, commanding all sea-men and mariners to return to their service in His Majesties Navy, by the 20th day of February next.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">Leonard Lichfeild</persName> printer to <persName type="patron">the University</persName>, for <persName type="publisher">John Bill</persName>, and <persName type="publisher">Christopher Barker</persName>, printers to <persName type="patron">His Majesty</persName>,</publisher><pubPlace>Oxford :</pubPlace>
-         <date>anno Dom. 1665. [i.e. 1666]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Because the printers' name is spelled Lichfeild instead of Lichfield, "it seems likely that the King's Printers printed [this], perhaps at Oxford on a press sent down from London"--cf. Madan, III, 2731.</note>
-         <note>"Given at our court at Oxford the 8th day of January, 1665. in the Seventeenth Year of Our Reign.".</note>
-         <note>Years are given according to Lady Day dating.</note>
-         <note>Arms 76; Steele notation: His doth deserve.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Christopher Barker</persName></person><person type="publisher"><persName>John Bill</persName></person><person type="patron"><persName>His Majesty</persName></person><person type="patron"><persName>the University</persName></person><person type="printer"><persName>Leonard Lichfeild</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation, commanding all sea-men and mariners to return to their service in His Majesties Navy, by the 20th day of February next.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Leonard Lichfeild</persName> printer to <persName type="patron">the University</persName>, for <persName type="publisher">John Bill</persName>, and <persName type="publisher">Christopher Barker</persName>, printers to <persName type="patron">His Majesty</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>anno Dom. 1665. [i.e. 1666]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Because the printers' name is spelled Lichfeild instead of Lichfield, "it seems likely that the King's Printers printed [this], perhaps at Oxford on a press sent down from London"--cf. Madan, III, 2731.</note>
+      <note>"Given at our court at Oxford the 8th day of January, 1665. in the Seventeenth Year of Our Reign.".</note>
+      <note>Years are given according to Lady Day dating.</note>
+      <note>Arms 76; Steele notation: His doth deserve.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His Majesty</persName>
+    </person>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="publisher">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfeild</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

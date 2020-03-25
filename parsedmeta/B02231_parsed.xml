@@ -1,20 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rebellion of the rude multitude under Wat Tyler and his priests Baal and Straw, in the dayes of King Richard the IId, Anno. 1381. Parallel'd with the late rebellion in 1640, against King Charles I of ever blessed memory. / By a lover of his King and countrey.</title>
-         <author>Cleveland, John, 1613-1658.</author>
-      </titleStmt>
-      <extent>[11], 155 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer">J.R.</persName> and in <placeName>Westminster Hall</placeName>, and at <placeName>the New Exchange</placeName>, <placeName>Fleetstreet</placeName>, and <persName type="bookseller">St. Pauls Church-Yard</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>[1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Cleveland. Cf. Wing.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Page 80 misnumbered as 82.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J.R.</persName></person><person type="bookseller"><persName>J.R. and</persName></person><person type="bookseller"><persName>St. Pauls Church-Yard</persName></person></listPerson><listPlace><place type="location"><placeName>Fleetstreet</placeName></place><place type="location"><placeName>Westminster Hall</placeName></place><place type="location"><placeName>the New Exchange</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The rebellion of the rude multitude under Wat Tyler and his priests Baal and Straw, in the dayes of King Richard the IId, Anno. 1381. Parallel'd with the late rebellion in 1640, against King Charles I of ever blessed memory. / By a lover of his King and countrey.</title>
+      <author>Cleveland, John, 1613-1658.</author>
+    </titleStmt>
+    <extent>[11], 155 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">J.R.</persName> and</persName> in <placeName>Westminster Hall</placeName>, and at <placeName>the New Exchange</placeName>, <placeName>Fleetstreet</placeName>, and <persName type="bookseller">St. Pauls Church-Yard</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Cleveland. Cf. Wing.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Page 80 misnumbered as 82.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J.R. and</persName>
+    </person>
+    <person type="bookseller">
+      <persName>St. Pauls Church-Yard</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>Westminster Hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the New Exchange</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Martis, 16 Januarii, 1648. An Act of the Commons of England assembled in Parliament, for the adjourning of part of the term of Hilary, 1648.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honourable House of Commons</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>Jan. 16. 1648 [i.e. 1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: H: Scobel, Cler. Parl. D. Com.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edward Husband</persName></person><person type="patron"><persName>the Honourable House of Commons</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Die Martis, 16 Januarii, 1648. An Act of the Commons of England assembled in Parliament, for the adjourning of part of the term of Hilary, 1648.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honourable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Jan. 16. 1648 [i.e. 1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: H: Scobel, Cler. Parl. D. Com.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honourable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

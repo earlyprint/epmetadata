@@ -1,16 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True and perfect description of the cittadell or fort of St. Martins in the Isle of Ree</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>For Thomas Walkley and are to be solde at <placeName>the Eagle</placeName> and Childe in <placeName>Britaines Bursse</placeName>,</publisher><pubPlace>Printed at London :</pubPlace>
-         <date>1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
-<listPlace><place type="location"><placeName>Britaines Bursse</placeName></place><place type="location"><placeName>the Eagle</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A True and perfect description of the cittadell or fort of St. Martins in the Isle of Ree</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Thomas Walkley</persName> and are to be solde at <placeName>the Eagle</placeName> and Childe in <placeName>Britaines Bursse</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Britaines Bursse</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Eagle</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

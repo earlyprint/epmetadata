@@ -1,17 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A moral discourse of the power of interest by David Abercromby ...</title>
-         <author>Abercromby, David, d. 1701 or 2.</author>
-      </titleStmt>
-      <extent>[24], 191 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Tho. Hodgkin</persName> for <persName type="publisher">the author</persName>, and are to be sold by John Taylor ... and may be had at <placeName>Mr. Trehern's</placeName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>the author</persName></person><person type="printer"><persName>Tho. Hodgkin</persName></person><person type="bookseller"><persName>John Taylorand may be had</persName></person></listPerson><listPlace><place type="location"><placeName>Mr. Trehern's</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A moral discourse of the power of interest by David Abercromby ...</title>
+      <author>Abercromby, David, d. 1701 or 2.</author>
+    </titleStmt>
+    <extent>[24], 191 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Hodgkin</persName> for <persName type="publisher">the author</persName>, and are to be sold by John Taylor ... and may be had at <placeName>Mr. Trehern's</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Taylorand may be had</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Hodgkin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Trehern's</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

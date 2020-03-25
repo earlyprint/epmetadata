@@ -1,16 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bellum belgicum secundum, or, A poem attempting something on His Majesties proceedings against the Dutch</title>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">J. Field</persName> and are to be sold by <persName type="bookseller">Robert Nicholson</persName> ...,</publisher><pubPlace>Cambridge :</pubPlace>
-         <date>1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J. Field</persName></person><person type="bookseller"><persName>Robert Nicholson</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Bellum belgicum secundum, or, A poem attempting something on His Majesties proceedings against the Dutch</title>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Field</persName> and are to be sold by <persName type="bookseller">Robert Nicholson</persName> ...,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date>1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Robert Nicholson</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Field</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

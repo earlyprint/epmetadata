@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for incouraging Protestant-strangers and others to inhabit and plant in the kingdom of Ireland</title>
-         <author>Ireland.</author>
-      </titleStmt>
-      <extent>10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">John Crook</persName> and are to be sold by <persName type="bookseller">Sam. Dancer</persName>,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>John Crook</persName></person><person type="bookseller"><persName>Sam. Dancer</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An act for incouraging Protestant-strangers and others to inhabit and plant in the kingdom of Ireland</title>
+      <author>Ireland.</author>
+    </titleStmt>
+    <extent>10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Crook</persName> and are to be sold by <persName type="bookseller">Sam. Dancer</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Sam. Dancer</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

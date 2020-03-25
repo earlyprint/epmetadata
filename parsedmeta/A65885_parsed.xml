@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rector examined about his book scandalously stiled, An antidote against the venom of Quakerism, by John Meriton, who calls himself A.M. rector of Boughton in Norfolk : and his observations remarked, and the Christianity of the people commonly called Quakers, re-asserted and vindicated, from his perversions and aspersions / by George Whitehead.</title>
-         <author>Whitehead, George, 1636?-1723.</author>
-      </titleStmt>
-      <extent>47 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>T. Sowle</persName></person><person type="bookseller"><persName>T. Sowle</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The rector examined about his book scandalously stiled, An antidote against the venom of Quakerism, by John Meriton, who calls himself A.M. rector of Boughton in Norfolk : and his observations remarked, and the Christianity of the people commonly called Quakers, re-asserted and vindicated, from his perversions and aspersions / by George Whitehead.</title>
+      <author>Whitehead, George, 1636?-1723.</author>
+    </titleStmt>
+    <extent>47 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

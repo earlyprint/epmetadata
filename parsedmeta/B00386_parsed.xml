@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new ditty: of a lover, tost hither and th[i]ther, that cannot speake his mind when they are together. To the tune of, Hide Park.</title>
-         <author>Lowberry, Peter.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>For Edward Wright dwelling neere <placeName>Christs Church gate</placeName>,</publisher><pubPlace>Printed at London :</pubPlace>
-         <date>[ca. 1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Peter Lowberry.</note>
-         <note>Publication date suggested by STC.</note>
-         <note>Verse: "Alas I am in love ..."</note>
-         <note>In two parts, separated for mounting; woodcuts at head of each part.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPlace><place type="location"><placeName>Christs Church gate</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A new ditty: of a lover, tost hither and th[i]ther, that cannot speake his mind when they are together. To the tune of, Hide Park.</title>
+      <author>Lowberry, Peter.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Edward Wright</persName> dwelling neere <placeName>Christs Church gate</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[ca. 1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Peter Lowberry.</note>
+      <note>Publication date suggested by STC.</note>
+      <note>Verse: "Alas I am in love ..."</note>
+      <note>In two parts, separated for mounting; woodcuts at head of each part.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Christs Church gate</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

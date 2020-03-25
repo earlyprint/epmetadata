@@ -1,21 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Whereas by some letters scattered about the streets of this city of Dublin, and by other informations, we have lately received notice of a conspiracy against the life of us the lord lieutenant ... by the Lord Lieutenant and Council, Ormonde.</title>
-         <author>Ireland. Lord Lieutenant (1677-1685 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Benjamin Took</persName> ... and are to be sold by <persName type="bookseller">Mary Crook</persName> ...,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from first 5 lines of text.</note>
-         <note>Statement of responsibility transposed from head of title.</note>
-         <note>"Given at the Council chamber in Dublin, the 13th. day of December, 1678."</note>
-         <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Benjamin Took</persName></person><person type="bookseller"><persName>Mary Crook</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Whereas by some letters scattered about the streets of this city of Dublin, and by other informations, we have lately received notice of a conspiracy against the life of us the lord lieutenant ... by the Lord Lieutenant and Council, Ormonde.</title>
+      <author>Ireland. Lord Lieutenant (1677-1685 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Benjamin Took</persName> ... and are to be sold by <persName type="bookseller">Mary Crook</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from first 5 lines of text.</note>
+      <note>Statement of responsibility transposed from head of title.</note>
+      <note>"Given at the Council chamber in Dublin, the 13th. day of December, 1678."</note>
+      <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Mary Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Benjamin Took</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

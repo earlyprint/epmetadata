@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of temptation the nature and povver of it. The danger of entring into it. And the meanes of preventing the danger. With a resolution of sundry cases thereunto belonging, / by John Owen, D.D.</title>
-         <author>Owen, John, 1616-1683.</author>
-      </titleStmt>
-      <extent>[8], 184 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">H. Hall</persName>, printer to <persName type="patron">the University</persName>, for <persName type="publisher">T. Robinson</persName>,</publisher><pubPlace>Oxford :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>T. Robinson</persName></person><person type="patron"><persName>the University</persName></person><person type="printer"><persName>H. Hall</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Of temptation the nature and povver of it. The danger of entring into it. And the meanes of preventing the danger. With a resolution of sundry cases thereunto belonging, / by John Owen, D.D.</title>
+      <author>Owen, John, 1616-1683.</author>
+    </titleStmt>
+    <extent>[8], 184 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hall</persName>, printer to <persName type="patron">the University</persName>, for <persName type="publisher">T. Robinson</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hall</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

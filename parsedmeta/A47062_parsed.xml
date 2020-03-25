@@ -1,17 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>De morbis hibernorum; speciatim vero de dysenteria hibernica exercitatio medica; apud Academiam Dubliniensem, (kalend. quintilis, MDCXCVII.) pro gradu doctoratus in medicina, recitata, a Johanne Jones, M. D. Accesserunt sub calcem nonnulla, De dysenteria epidemica.</title>
-         <author>Jones, John, 1645-1709.</author>
-      </titleStmt>
-      <extent>[4], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>impensis S. Keble bibliopol&#230;, ad insigne capitis turcarum imperatoris, in <placeName>vico vulg&#242; dicto Fleet-street</placeName>,</publisher><pubPlace>Londini :</pubPlace>
-         <date>anno. M DC XC VIII. [1698]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPlace><place type="location"><placeName>vico vulg&#242; dicto Fleet-street</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>De morbis hibernorum; speciatim vero de dysenteria hibernica exercitatio medica; apud Academiam Dubliniensem, (kalend. quintilis, MDCXCVII.) pro gradu doctoratus in medicina, recitata, a Johanne Jones, M. D. Accesserunt sub calcem nonnulla, De dysenteria epidemica.</title>
+      <author>Jones, John, 1645-1709.</author>
+    </titleStmt>
+    <extent>[4], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>impensis <persName type="publisher">S. Keble bibliopol&#230;, ad insigne capitis turcarum imperatoris</persName>, in <placeName>vico vulg&#242; dicto Fleet-street</placeName>,</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date>anno. M DC XC VIII. [1698]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S. Keble bibliopol&#230;, ad insigne capitis turcarum imperatoris</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>vico vulg&#242; dicto Fleet-street</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant conceited historie, called The taming of a shrew As it was sundry times acted by the Right honorable the Earle of Pembrook his seruants.</title>
-         <title>Taming of a shrew.</title>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>By <persName type="printer">Peter Short</persName> and are to be sold by <persName type="bookseller">Cutbert Burbie</persName>, at <placeName>his shop at the Royall Exchange</placeName>,</publisher><pubPlace>Printed at London :</pubPlace>
-         <date>1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-F&#8308; G&#178; .</note>
-         <note>The connection with Shakespeare's play is obscure.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Peter Short</persName></person><person type="bookseller"><persName>Cutbert Burbie</persName></person></listPerson><listPlace><place type="location"><placeName>his shop at the Royall Exchange</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant conceited historie, called The taming of a shrew As it was sundry times acted by the Right honorable the Earle of Pembrook his seruants.</title>
+      <title>Taming of a shrew.</title>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Peter Short</persName> and are to be sold by <persName type="bookseller">Cutbert Burbie</persName>, at <placeName>his shop at the Royall Exchange</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-F&#8308; G&#178; .</note>
+      <note>The connection with Shakespeare's play is obscure.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Cutbert Burbie</persName>
+    </person>
+    <person type="printer">
+      <persName>Peter Short</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Royall Exchange</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

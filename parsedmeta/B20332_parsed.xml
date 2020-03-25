@@ -1,17 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act published by the General Assembly of Scotland being a forme of examination at the speciall desire of the Kirke, by them thought to be so needfull, that every pastor exhort his flocke to buy the said booke and reade the same in their families, whereby they may be better instructed, and that the same may be read and learned in lector schooles.</title>
-         <author>Church of Scotland.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>First printed at <placeName>Edinburg</placeName>  by <persName type="printer">R.W.  And now</persName> reprinted at <placeName>London</placeName> by <persName type="printer">B. Alsop</persName> and are to be sold by <persName type="bookseller">Henry Walker</persName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>B. Alsop</persName></person><person type="printer"><persName>R.W.  And now</persName></person><person type="bookseller"><persName>Henry Walker</persName></person></listPerson><listPlace><place type="location"><placeName>Edinburg</placeName></place><place type="location"><placeName>London</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An act published by the General Assembly of Scotland being a forme of examination at the speciall desire of the Kirke, by them thought to be so needfull, that every pastor exhort his flocke to buy the said booke and reade the same in their families, whereby they may be better instructed, and that the same may be read and learned in lector schooles.</title>
+      <author>Church of Scotland.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>First printed at <placeName>Edinburg</placeName>  by <persName type="printer">R.W.  And now</persName> reprinted at <placeName>London</placeName> by <persName type="printer">B. Alsop</persName> and are to be sold by <persName type="bookseller">Henry Walker</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Henry Walker</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.  And now</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburg</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

@@ -1,20 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of a conference held about religion at London, the third of April, 1676 by Edw. Stillingfleet ... and Gilbert Burnet, with some gentlemen of the Church of Rome.</title>
-         <author>Burnet, Gilbert, 1643-1715.</author>
-         <author>Stillingfleet, Edward, 1635-1699.</author>
-      </titleStmt>
-      <extent>[19], 58, 193 [i.e. 197], [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Moses Pitt</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [5].</note>
-         <note>Advertisement: p. [2]-[3] at end.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Moses Pitt</persName></person><person type="bookseller"><persName>Moses Pitt</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of a conference held about religion at London, the third of April, 1676 by Edw. Stillingfleet ... and Gilbert Burnet, with some gentlemen of the Church of Rome.</title>
+      <author>Burnet, Gilbert, 1643-1715.</author>
+      <author>Stillingfleet, Edward, 1635-1699.</author>
+    </titleStmt>
+    <extent>[19], 58, 193 [i.e. 197], [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Moses Pitt</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [5].</note>
+      <note>Advertisement: p. [2]-[3] at end.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Moses Pitt</persName>
+    </person>
+    <person type="printer">
+      <persName>Moses Pitt</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

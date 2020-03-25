@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Protestancy destitute of Scripture-proofs</title>
-      </titleStmt>
-      <extent>11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">Henry Hills</persName>, printer to <persName type="patron">the King's Most Excellent Majesty</persName>, for <persName type="publisher">his houshold and chappel</persName>,</publisher><pubPlace>[London :</pubPlace>
-         <date>1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>his houshold and chappel</persName></person><person type="patron"><persName>the King's Most Excellent Majesty</persName></person><person type="printer"><persName>Henry Hills</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Protestancy destitute of Scripture-proofs</title>
+    </titleStmt>
+    <extent>11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName>, printer to <persName type="patron">the King's Most Excellent Majesty</persName>, for <persName type="publisher">his houshold and chappel</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's Most Excellent Majesty</persName>
+    </person>
+    <person type="publisher">
+      <persName>his houshold and chappel</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

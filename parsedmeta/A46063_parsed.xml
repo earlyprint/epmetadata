@@ -1,19 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant, a proclamation appointing the time for putting in of claims</title>
-         <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">John Crook</persName> ... and are to be sold by <persName type="bookseller">Samuel Dancer</persName> ...,</publisher><pubPlace>Dublin :</pubPlace>
-         <date>1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at His Majesties Castle of Dublin, the 23. day of September, 1662."</note>
-         <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>John Crook</persName></person><person type="bookseller"><persName>Samuel Dancer</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant, a proclamation appointing the time for putting in of claims</title>
+      <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Crook</persName> ... and are to be sold by <persName type="bookseller">Samuel Dancer</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at His Majesties Castle of Dublin, the 23. day of September, 1662."</note>
+      <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

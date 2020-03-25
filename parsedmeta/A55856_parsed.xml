@@ -1,21 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true idioma of the Italian tongue wherein is contained many choice sentences and dialogues in Italian and English : also delightful dialects and apophthegms taken out of a famous author : and other necessary things mentioned in the table ... / published by P.P., an Italian, and teacher of the Italian tongue ...</title>
-         <author>Paravicino, Pietro.</author>
-         <author>Guicciardini, Lodovico, 1521-1589. Hore di ricreatione. Selections.</author>
-      </titleStmt>
-      <extent>[8], 304, [24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">E.C.</persName> and are to be sold by <persName type="bookseller">H. Seile</persName> ... <persName type="bookseller">N. Brook</persName> ... and <persName type="bookseller">Peter Dring</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by P. Paravicino. Cf. BM.</note>
-         <note>"Never printed before"</note>
-         <note>Reproduction of original in Trinity College Library, Cambridge, England.</note>
-         <note>"Hore de ricreatione del Signor Guicciardini": p. 156-200.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>E.C.</persName></person><person type="bookseller"><persName>H. Seile</persName></person><person type="bookseller"><persName>N. Brook</persName></person><person type="bookseller"><persName>Peter Dring</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The true idioma of the Italian tongue wherein is contained many choice sentences and dialogues in Italian and English : also delightful dialects and apophthegms taken out of a famous author : and other necessary things mentioned in the table ... / published by P.P., an Italian, and teacher of the Italian tongue ...</title>
+      <author>Paravicino, Pietro.</author>
+      <author>Guicciardini, Lodovico, 1521-1589. Hore di ricreatione. Selections.</author>
+    </titleStmt>
+    <extent>[8], 304, [24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.C.</persName> and are to be sold by <persName type="bookseller">H. Seile</persName> ... <persName type="bookseller">N. Brook</persName> ... and <persName type="bookseller">Peter Dring</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by P. Paravicino. Cf. BM.</note>
+      <note>"Never printed before"</note>
+      <note>Reproduction of original in Trinity College Library, Cambridge, England.</note>
+      <note>"Hore de ricreatione del Signor Guicciardini": p. 156-200.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H. Seile</persName>
+    </person>
+    <person type="bookseller">
+      <persName>N. Brook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Peter Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>E.C.</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

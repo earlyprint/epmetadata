@@ -1,20 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Great Britains Salomon A sermon preached at the magnificent funerall, of the most high and mighty king, Iames, the late King of Great Britaine, France, and Ireland, defender of the faith, &amp;c. At the Collegiat Church of Saint Peter at Westminster, the seuenth of May 1625. By the Right Honorable, and Right Reuerend Father in God, Iohn, Lord Bishop of Lincolne, Lord Keeper of the Great Seale of England, &amp;c.</title>
-         <author>Williams, John, 1582-1650.</author>
-      </titleStmt>
-      <extent>[2], 76, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">[Eliot's Court Press</persName> for<persName type="publisher">] Iohn Bill</persName>, printer to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Identification of actual printer from STC.</note>
-         <note>In this edition A3r line 1 begins: on,.</note>
-         <note>With a final colophon leaf.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>] Iohn Bill</persName></person><person type="patron"><persName>the Kings most excellent Maiestie</persName></person><person type="printer"><persName>[Eliot's Court Press</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Great Britains Salomon A sermon preached at the magnificent funerall, of the most high and mighty king, Iames, the late King of Great Britaine, France, and Ireland, defender of the faith, &amp;c. At the Collegiat Church of Saint Peter at Westminster, the seuenth of May 1625. By the Right Honorable, and Right Reuerend Father in God, Iohn, Lord Bishop of Lincolne, Lord Keeper of the Great Seale of England, &amp;c.</title>
+      <author>Williams, John, 1582-1650.</author>
+    </titleStmt>
+    <extent>[2], 76, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[Eliot's Court Press</persName> for<persName type="publisher">] Iohn Bill</persName>, printer to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Identification of actual printer from STC.</note>
+      <note>In this edition A3r line 1 begins: on,.</note>
+      <note>With a final colophon leaf.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="publisher">
+      <persName>] Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>[Eliot's Court Press</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

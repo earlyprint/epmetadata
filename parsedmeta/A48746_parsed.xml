@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A project of a descent upon France by a person of quality.</title>
-         <author>Littleton, Edward, b. 1626.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Rich. Baldwin</persName></persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>M DC XCI.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Littleton by Wing.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Rich. Baldwin</persName></person><person type="bookseller"><persName>Rich. Baldwin</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A project of a descent upon France by a person of quality.</title>
+      <author>Littleton, Edward, b. 1626.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Rich. Baldwin</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M DC XCI.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Littleton by Wing.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Rich. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Rich. Baldwin</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,17 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The arraignment, confession, and condemnation of Alexander Knightley for the horrid and execrable conspiracy to assassinate His sacred Majesty, K. William, in order to a French invasion of this kingdom: at the Kings Bench Bar, Westminster, on the 30th of April, and the 20th and 25th of May.</title>
-         <author>Knightley, Alexander, d. 1696.</author>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for <persName type="publisher">Samuel Heyrick</persName> at <placeName>Greys-Inn-Gate in Holbourn</placeName>, and <persName type="publisher">Isaac Cleave</persName> at <placeName>the Star, next to Sergeants-Inn in Chancery-lane</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>MDCXCVI. [1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Isaac Cleave</persName></person><person type="publisher"><persName>Samuel Heyrick</persName></person></listPerson><listPlace><place type="location"><placeName>Greys-Inn-Gate in Holbourn</placeName></place><place type="location"><placeName>the Star, next to Sergeants-Inn in Chancery-lane</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The arraignment, confession, and condemnation of Alexander Knightley for the horrid and execrable conspiracy to assassinate His sacred Majesty, K. William, in order to a French invasion of this kingdom: at the Kings Bench Bar, Westminster, on the 30th of April, and the 20th and 25th of May.</title>
+      <author>Knightley, Alexander, d. 1696.</author>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Samuel Heyrick</persName> at <placeName>Greys-Inn-Gate in Holbourn</placeName>, and <persName type="publisher">Isaac Cleave</persName> at <placeName>the Star, next to Sergeants-Inn in Chancery-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXCVI. [1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Isaac Cleave</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuel Heyrick</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Greys-Inn-Gate in Holbourn</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Star, next to Sergeants-Inn in Chancery-lane</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

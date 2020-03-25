@@ -1,19 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the knights, citizens, and burgesses, of the honourable House of Commons now assembled in Parliament. The humble proposals of Captain Anthony Stampe, for regulating the abuses of the curra[] coyns, and for raising the price of money, and plate, within the kingdom of England.</title>
-         <author>Stampe, Anthony.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Obediah Blagrave</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Obediah Blagrave</persName></person><person type="bookseller"><persName>Obediah Blagrave</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>To the knights, citizens, and burgesses, of the honourable House of Commons now assembled in Parliament. The humble proposals of Captain Anthony Stampe, for regulating the abuses of the curra[] coyns, and for raising the price of money, and plate, within the kingdom of England.</title>
+      <author>Stampe, Anthony.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Obediah Blagrave</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Obediah Blagrave</persName>
+    </person>
+    <person type="printer">
+      <persName>Obediah Blagrave</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

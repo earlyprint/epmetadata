@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Madrigalls to foure voyces newly published by Iohn Bennet his first works</title>
-         <title>Madrigals</title>
-         <author>Bennet, John, fl. 1599-1614.</author>
-      </titleStmt>
-      <extent>[96] p. : letterpress music  </extent>
-      <publicationStmt>
-         <publisher>Printed in <placeName>little Saint Hellens</placeName> by <persName type="printer">[H. Ballard</persName> for<persName type="publisher">] William Barley</persName>, the assigne of <persName type="assigns">Thomas Morley.</persName> Cum priuilegio,</publisher><pubPlace>At London :</pubPlace>
-         <date>M.D.XC.IX. [1599]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Four partbooks, each with separate dated title page and register. At foot of title, part 1: "Cantus"; part 2: "Altus"; part 3: "Tenor"; part 4: "Bassus".</note>
-         <note>Signatures: A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>] William Barley</persName></person><person type="assigns"><persName>Thomas Morley.</persName></person><person type="printer"><persName>[H. Ballard</persName></person></listPerson><listPlace><place type="location"><placeName>little Saint Hellens</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Madrigalls to foure voyces newly published by Iohn Bennet his first works</title>
+      <title>Madrigals</title>
+      <author>Bennet, John, fl. 1599-1614.</author>
+    </titleStmt>
+    <extent>[96] p. : letterpress music  </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>little Saint Hellens</placeName> by <persName type="printer">[H. Ballard</persName> for<persName type="publisher">] William Barley</persName>, the assigne of <persName type="assigns">Thomas Morley.</persName> Cum priuilegio,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>M.D.XC.IX. [1599]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Four partbooks, each with separate dated title page and register. At foot of title, part 1: "Cantus"; part 2: "Altus"; part 3: "Tenor"; part 4: "Bassus".</note>
+      <note>Signatures: A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Thomas Morley.</persName>
+    </person>
+    <person type="publisher">
+      <persName>] William Barley</persName>
+    </person>
+    <person type="printer">
+      <persName>[H. Ballard</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>little Saint Hellens</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

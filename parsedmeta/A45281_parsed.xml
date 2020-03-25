@@ -1,20 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the famous Prince Giolo, son of the King of Gilolo, now in England with an account of his life, parentage, and his strange and wonderful adventures, the manner of his being brought for England : with a description of the island of Gilolo, and the adjacent isle of Celebes, their religion and manners / written from his own mouth.</title>
-         <author>Hyde, Thomas, 1636-1703.</author>
-         <author>Giolo, Prince of Gilolo, b. ca. 1662.</author>
-      </titleStmt>
-      <extent>[3], 27 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">R. Taylor</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by Thomas Hyde. Cf. Halkett &amp; Laing (2nd ed.); DNB.</note>
-         <note>"Licens'd and enter'd according to order"</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>R. Taylor</persName></person><person type="bookseller"><persName>R. Taylor</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the famous Prince Giolo, son of the King of Gilolo, now in England with an account of his life, parentage, and his strange and wonderful adventures, the manner of his being brought for England : with a description of the island of Gilolo, and the adjacent isle of Celebes, their religion and manners / written from his own mouth.</title>
+      <author>Hyde, Thomas, 1636-1703.</author>
+      <author>Giolo, Prince of Gilolo, b. ca. 1662.</author>
+    </titleStmt>
+    <extent>[3], 27 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">R. Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by Thomas Hyde. Cf. Halkett &amp; Laing (2nd ed.); DNB.</note>
+      <note>"Licens'd and enter'd according to order"</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Taylor</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Finch his alphabet, or, A godly direction, fit to be perused of each true Christian</title>
-         <author>Finch, Mr.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>For John Wright, and are to be sold at <placeName>his  shop in Gilt-spur-street</placeName>,</publisher><pubPlace>Printed at London :</pubPlace>
-         <date>[ca. 1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Date of publication suggested by STC (2nd ed.).</note>
-         <note>Reproduction of original in the Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
-<listPlace><place type="location"><placeName>his  shop in Gilt-spur-street</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Finch his alphabet, or, A godly direction, fit to be perused of each true Christian</title>
+      <author>Finch, Mr.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">John Wright</persName>, and are to be sold at <placeName>his  shop in Gilt-spur-street</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[ca. 1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Date of publication suggested by STC (2nd ed.).</note>
+      <note>Reproduction of original in the Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his  shop in Gilt-spur-street</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

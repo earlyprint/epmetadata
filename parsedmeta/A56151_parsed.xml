@@ -1,20 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Conscientious, serious theological and legal qu&#230;res, propounded to the twice-dissipated, self-created anti-Parliamentary Westminster juncto, and its members... by William Prynne ...</title>
-         <author>Prynne, William, 1600-1669.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition, corrected and enlarged.</edition>
-      </editionStmt>
-      <extent>[2], 54 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Edward Thomas</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Edward Thomas</persName></person><person type="bookseller"><persName>Edward Thomas</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Conscientious, serious theological and legal qu&#230;res, propounded to the twice-dissipated, self-created anti-Parliamentary Westminster juncto, and its members... by William Prynne ...</title>
+      <author>Prynne, William, 1600-1669.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition, corrected and enlarged.</edition>
+    </editionStmt>
+    <extent>[2], 54 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Edward Thomas</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Edward Thomas</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Thomas</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

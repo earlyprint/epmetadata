@@ -1,19 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A meditation vpon the Lords prayer, written by the Kings Maiestie, for the benefit of all his subiects, especially of such as follow the court</title>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>[16], 146, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiesty</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>M.DC.XIX. [1619]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The Kings Majestie = James I.</note>
-         <note>With a final colophon leaf.</note>
-         <note>Reproduction of original British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Kings most excellent Maiesty</persName></person><person type="printer"><persName>Bonham Norton</persName></person><person type="printer"><persName>Iohn Bill</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A meditation vpon the Lords prayer, written by the Kings Maiestie, for the benefit of all his subiects, especially of such as follow the court</title>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>[16], 146, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.XIX. [1619]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The Kings Majestie = James I.</note>
+      <note>With a final colophon leaf.</note>
+      <note>Reproduction of original British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

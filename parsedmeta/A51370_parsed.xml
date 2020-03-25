@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heraldry epitomiz'd and its reason essay'd / by Silvanus Morgan...</title>
-         <author>Morgan, Sylvanus, 1620-1693.</author>
-      </titleStmt>
-      <extent>1 broadside : ill., port.  </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">William Bromwich</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>MDCLXX1X [1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Engraved portrait of William Camden.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>William Bromwich</persName></person><person type="bookseller"><persName>William Bromwich</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Heraldry epitomiz'd and its reason essay'd / by Silvanus Morgan...</title>
+      <author>Morgan, Sylvanus, 1620-1693.</author>
+    </titleStmt>
+    <extent>1 broadside : ill., port.  </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">William Bromwich</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXX1X [1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Engraved portrait of William Camden.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Bromwich</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bromwich</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

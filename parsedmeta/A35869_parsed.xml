@@ -1,17 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dialogue between Anthony Earl of Shaftsbury, and Captain Thomas Walcott, upon their meeting in Pluto's kingdome.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">W.D.</persName> and are to be sold by <persName type="bookseller">W. Davis</persName> in <placeName>Amen-Corner</placeName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Curs'd be those eyes that sees him".</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>W.D.</persName></person><person type="bookseller"><persName>W. Davis</persName></person></listPerson><listPlace><place type="location"><placeName>Amen-Corner</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A dialogue between Anthony Earl of Shaftsbury, and Captain Thomas Walcott, upon their meeting in Pluto's kingdome.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W.D.</persName> and are to be sold by <persName type="bookseller">W. Davis</persName> in <placeName>Amen-Corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Curs'd be those eyes that sees him".</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W. Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>W.D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Amen-Corner</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

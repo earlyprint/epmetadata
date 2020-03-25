@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some bodyes answer to a letter sent from no body in the city, to no body in the country written at the request of some body.</title>
-         <author>Some body.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Some Body</persName>, for <persName type="publisher">Any Body</persName>,</publisher><pubPlace>[London] :</pubPlace>
-         <date>1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Some Body.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Any Body</persName></person><person type="printer"><persName>Some Body</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Some bodyes answer to a letter sent from no body in the city, to no body in the country written at the request of some body.</title>
+      <author>Some body.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Some Body</persName>, for <persName type="publisher">Any Body</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Some Body.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Any Body</persName>
+    </person>
+    <person type="printer">
+      <persName>Some Body</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

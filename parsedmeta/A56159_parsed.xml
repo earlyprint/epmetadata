@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact catalogue of all printed books and papers of various subjects written upon sundry occasions by William Prynne ... ; before, during, since his imprisonments.</title>
-         <author>Prynne, William, 1600-1669.</author>
-      </titleStmt>
-      <extent>[4], 15 p.   </extent>
-      <publicationStmt>
-         <publisher>... For Edward Thomas ... by <persName type="printer">T. Childe</persName> and <persName type="printer">L. Parry</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published: London: Michael Sparke, Senior, 1643.</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>L. Parry</persName></person><person type="printer"><persName>T. Childe</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An exact catalogue of all printed books and papers of various subjects written upon sundry occasions by William Prynne ... ; before, during, since his imprisonments.</title>
+      <author>Prynne, William, 1600-1669.</author>
+    </titleStmt>
+    <extent>[4], 15 p.   </extent>
+    <publicationStmt>
+      <publisher>... For <persName type="publisher">Edward Thomas</persName> ... by <persName type="printer">T. Childe</persName> and <persName type="printer">L. Parry</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published: London: Michael Sparke, Senior, 1643.</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Thomas</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Parry</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Childe</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pindarick poem on the Royal Navy most humbly dedicated to Their August Majesties, K. William, and Q. Mary / written by Mr. Durfey.</title>
-         <author>D'Urfey, Thomas, 1653-1723.</author>
-      </titleStmt>
-      <extent>[2], 15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Randall Taylor</persName></persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Reissued in 1692, with cancel t.p.: A pindarick poem upon the fleet.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Randall Taylor</persName></person><person type="bookseller"><persName>Randall Taylor</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A pindarick poem on the Royal Navy most humbly dedicated to Their August Majesties, K. William, and Q. Mary / written by Mr. Durfey.</title>
+      <author>D'Urfey, Thomas, 1653-1723.</author>
+    </titleStmt>
+    <extent>[2], 15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randall Taylor</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Reissued in 1692, with cancel t.p.: A pindarick poem upon the fleet.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randall Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randall Taylor</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The addres [sic] of the University of St. Andrews to the King by the rector, vice-chancellor, heads of the colledges, deans of faculties and the rest of the masters and professors of the University of St. Andrews, whose names are insert at the end of their address; also a letter from the arch-bishops and bishops to the Kings Most Excellent Majesty.</title>
-         <author>University of St. Andrews.</author>
-      </titleStmt>
-      <extent>20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">J.R. to be</persName> sold by <persName type="bookseller">A.L.</persName>,</publisher><pubPlace>London:</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J.R. to be</persName></person><person type="bookseller"><persName>A.L.</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>The addres [sic] of the University of St. Andrews to the King by the rector, vice-chancellor, heads of the colledges, deans of faculties and the rest of the masters and professors of the University of St. Andrews, whose names are insert at the end of their address; also a letter from the arch-bishops and bishops to the Kings Most Excellent Majesty.</title>
+      <author>University of St. Andrews.</author>
+    </titleStmt>
+    <extent>20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R. to be</persName> sold by <persName type="bookseller">A.L.</persName>,</publisher>
+      <pubPlace>London:</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A.L.</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R. to be</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

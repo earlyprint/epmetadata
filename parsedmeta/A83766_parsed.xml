@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An order of the Commons assembled in Parliament, for taking off the priviledge and protection of any persons belonging to any member of the said House, or for concerning the lands or estate of any Members of the said House. Ordered by the Commons assembled in Parliament, that this order be forthwith printed and published. H: Elsynge, Cler. Parl. D. Com.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>6, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher><pubPlace>London :</pubPlace>
-         <date>Jan. 6. 1647 [i.e. 1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="publisher"><persName>Edward Husband</persName></person><person type="patron"><persName>the Honorable House of Commons</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>An order of the Commons assembled in Parliament, for taking off the priviledge and protection of any persons belonging to any member of the said House, or for concerning the lands or estate of any Members of the said House. Ordered by the Commons assembled in Parliament, that this order be forthwith printed and published. H: Elsynge, Cler. Parl. D. Com.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>6, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Jan. 6. 1647 [i.e. 1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

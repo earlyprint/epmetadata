@@ -1,23 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A learned discourse of iustification, workes, and how the foundation of faith is overthrowne. By Richard Hooker, sometimes fellow of Corpus Christi College in Oxford</title>
-         <author>Hooker, Richard, 1553 or 4-1600.</author>
-         <author>Jackson, Henry,  1586-1662.</author>
-         <author>Spenser, John, 1559-1614.</author>
-      </titleStmt>
-      <extent>[4], 69, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">Joseph Barnes</persName>, and are to be sold by <persName type="bookseller">John Barnes</persName>, dwelling neere <placeName>Holborne Conduit [</placeName>, <placeName>London]</placeName>,</publisher><pubPlace>At Oxford :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's note "To the Christian reader" signed: Henry Iackson.</note>
-         <note>Edited under the direction of John Spenser (DNB, under Jackson).</note>
-         <note>Cf. Folger catalogue, which gives signatures: [par.]&#178;  A-I&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Page 48 print faded; title page and pages 40-55 from the Henry E. Huntington Library and Art Gallery copy spliced at end.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Joseph Barnes</persName></person><person type="bookseller"><persName>John Barnes</persName></person></listPerson><listPlace><place type="location"><placeName>Holborne Conduit [</placeName></place><place type="location"><placeName>London]</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A learned discourse of iustification, workes, and how the foundation of faith is overthrowne. By Richard Hooker, sometimes fellow of Corpus Christi College in Oxford</title>
+      <author>Hooker, Richard, 1553 or 4-1600.</author>
+      <author>Jackson, Henry,  1586-1662.</author>
+      <author>Spenser, John, 1559-1614.</author>
+    </titleStmt>
+    <extent>[4], 69, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Joseph Barnes</persName>, and are to be sold by <persName type="bookseller">John Barnes</persName>, dwelling neere <placeName>Holborne Conduit [</placeName>, <placeName>London]</placeName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's note "To the Christian reader" signed: Henry Iackson.</note>
+      <note>Edited under the direction of John Spenser (DNB, under Jackson).</note>
+      <note>Cf. Folger catalogue, which gives signatures: [par.]&#178;  A-I&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Page 48 print faded; title page and pages 40-55 from the Henry E. Huntington Library and Art Gallery copy spliced at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Barnes</persName>
+    </person>
+    <person type="printer">
+      <persName>Joseph Barnes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holborne Conduit [</placeName>
+    </place>
+    <place type="location">
+      <placeName>London]</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>

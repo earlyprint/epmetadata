@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached upon the anniversary solemnity of the happy inauguration of our dread soveraign Lord King James II in the Collegiate Church of Ripon, February the 6th. 1685/6 / by Thomas Cartwright ...</title>
-         <author>Cartwright, Thomas, 1634-1689.</author>
-      </titleStmt>
-      <extent>[6], 38, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">J. Leake</persName>, and are to be sold by <persName type="bookseller">Walter Davis</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Advertisement: p. [2] at end.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>J. Leake</persName></person><person type="bookseller"><persName>Walter Davis</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached upon the anniversary solemnity of the happy inauguration of our dread soveraign Lord King James II in the Collegiate Church of Ripon, February the 6th. 1685/6 / by Thomas Cartwright ...</title>
+      <author>Cartwright, Thomas, 1634-1689.</author>
+    </titleStmt>
+    <extent>[6], 38, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Leake</persName>, and are to be sold by <persName type="bookseller">Walter Davis</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Advertisement: p. [2] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Leake</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

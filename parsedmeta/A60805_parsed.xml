@@ -1,17 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some modest reflections upon Mr. Stephens's late book, entituled, A plain relation of the late action at sea, between the English, Dutch, and French fleets, from June 22 to July 5 last with reflections thereupon, and upon the present state of the nation, &amp;c. : with a vindication of the Church of England from what he has therein advanc'd against her / by a hearty lover of King William and Queen Mary.</title>
-         <author>Hearty lover of King William and Queen Mary.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Randall Taylor</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Randall Taylor</persName></person><person type="bookseller"><persName>Randall Taylor</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Some modest reflections upon Mr. Stephens's late book, entituled, A plain relation of the late action at sea, between the English, Dutch, and French fleets, from June 22 to July 5 last with reflections thereupon, and upon the present state of the nation, &amp;c. : with a vindication of the Church of England from what he has therein advanc'd against her / by a hearty lover of King William and Queen Mary.</title>
+      <author>Hearty lover of King William and Queen Mary.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Randall Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randall Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randall Taylor</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

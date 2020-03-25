@@ -1,18 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Moses his self-denyall delivered in a treatise upon Hebrewes 11, the 24. verse, by Ieremy Burroughs.</title>
-         <author>Burroughs, Jeremiah, 1599-1646.</author>
-      </titleStmt>
-      <extent>[14], 262, [9] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by <persName type="printer">T. Paine</persName> and are to be sold by <persName type="bookseller">H. Overton</persName> and <persName type="bookseller">T. Nichols</persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [7] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>T. Paine</persName></person><person type="bookseller"><persName>H. Overton</persName></person><person type="bookseller"><persName>T. Nichols</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>Moses his self-denyall delivered in a treatise upon Hebrewes 11, the 24. verse, by Ieremy Burroughs.</title>
+      <author>Burroughs, Jeremiah, 1599-1646.</author>
+    </titleStmt>
+    <extent>[14], 262, [9] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Paine</persName> and are to be sold by <persName type="bookseller">H. Overton</persName> and <persName type="bookseller">T. Nichols</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [7] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H. Overton</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Nichols</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Paine</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

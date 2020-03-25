@@ -1,18 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>State tracts, being a farther collection of several choice treaties relating to the government from the year 1660 to 1689 : now published in a body, to shew the necessity, and clear the legality of the late revolution, and our present happy settlement, under the auspicious reign of their majesties, King William and Queen Mary.</title>
-         <author>William III, King of England, 1650-1702.</author>
-         <author>Mary II, Queen of England, 1662-1694.</author>
-      </titleStmt>
-      <extent>[8], 499 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Richard Baldwin</persName></persName> ...,</publisher><pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="printer"><persName>Richard Baldwin</persName></person><person type="bookseller"><persName>Richard Baldwin</persName></person></listPerson></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>State tracts, being a farther collection of several choice treaties relating to the government from the year 1660 to 1689 : now published in a body, to shew the necessity, and clear the legality of the late revolution, and our present happy settlement, under the auspicious reign of their majesties, King William and Queen Mary.</title>
+      <author>William III, King of England, 1650-1702.</author>
+      <author>Mary II, Queen of England, 1662-1694.</author>
+    </titleStmt>
+    <extent>[8], 499 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Richard Baldwin</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+</sourceDesc>

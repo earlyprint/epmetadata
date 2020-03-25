@@ -1,20 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant and Council. Ormonde. Whereas there hath been a notorious and unnatural rebellion lately raised in Scotland, ...</title>
-         <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by <persName type="printer">Benjamin Tooke</persName> and <persName type="printer">John Crook</persName>, printers to <persName type="patron">the Kings Most Excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Mary Crook</persName> at <placeName>His Majesties Printing-house in Skinner-Row</placeName>,</publisher><pubPlace>[Dublin :</pubPlace>
-         <date>[1679]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from heading and first lines of text.</note>
-         <note>Imprint from colophon; publication date from Wing.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
-<listPerson><person type="patron"><persName>the Kings Most Excellent Majesty;</persName></person><person type="printer"><persName>Benjamin Tooke</persName></person><person type="printer"><persName>John Crook</persName></person><person type="bookseller"><persName>Mary Crook</persName></person></listPerson><listPlace><place type="location"><placeName>His Majesties Printing-house in Skinner-Row</placeName></place></listPlace></sourceDesc>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant and Council. Ormonde. Whereas there hath been a notorious and unnatural rebellion lately raised in Scotland, ...</title>
+      <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Benjamin Tooke</persName> and <persName type="printer">John Crook</persName>, printers to <persName type="patron">the Kings Most Excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Mary Crook</persName> at <placeName>His Majesties Printing-house in Skinner-Row</placeName>,</publisher>
+      <pubPlace>[Dublin :</pubPlace>
+      <date>[1679]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from heading and first lines of text.</note>
+      <note>Imprint from colophon; publication date from Wing.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty;</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mary Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>His Majesties Printing-house in Skinner-Row</placeName>
+    </place>
+  </listPlace>
+</sourceDesc>
