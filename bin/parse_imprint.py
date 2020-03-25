@@ -29,16 +29,16 @@ def basic_match(pub_text):
     # A regular expression for the lookahead, which determines when to stop
     # greedily capturing text. This is inserting into the main regex via
     # string formatting.
-    ahead = r"(?=(?:\b(?:and\s)?for\b|\band\sare\b|\band\ssold\b|\b\[?sold\b|\bare\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|\bnigh\b|\b[uv]nto\b|\b,?\s?[bB]ooke?-?seller\b|$))"
+    ahead = r"(?=(?:\b(?:and\s)?for\b|\band\sare\b|\band\ssold\b|\b\[?sold\b|\bare\b|\bat\b|\b(?:with)?in\b|\bby\b|\bd(?:w|vv)ell[iy]nge?\b|\b(?<!the\s)(?:[Pp]r[iy]nters?|[Ss]er[vu]ants?)\s(?:[uv]n)?to\b|\bne[ae]re?\b|\bliving\b|\bto be\b|\b(?:and\s)?reprinted\b|\b(?:the\s)?assigne?e?s?(?:ment)?\b|\bon\b|\b[Aa]nno\b|\b[Cc]um\b|\bnot\sfarr?e?\b|\b(?:W|VV|vv|w)ith\b|\b[Pp]ermissu\b|\bnigh\b|\b[uv]nto\b|\b,?\s?[bB]ooke?-?seller\b|\bkah\b|$))"
 
     # The main regex, which defines the correct categories and
     # assigns them to named capture groups. Verbose mode is
     # turned on to make this more readable.
     basic_re = r"""
 
-(?:\b[Bb]y\b|\b[Aa]nd\s[Bb]y\b|\b[Ii]mprentit\sb[ey]\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
+(?:\b[Bb]\]?y\b|\b[Aa]nd\s[Bb]y\b|\b[Ii]mprentit\sb[ey]\b|[Ee]xc[eu]deban?t\b|[Ii]mprimebat\b|\b[Pp][ea]r\b|[Ee]x\s[Oo]fficin.?a\b|^[Aa]p(?:ud|\.)\b|[Tt]ypis\b|\be\b|\b[Cc]hez\b|\b[Nn]ashpe\b|\b[Ee]x?\s[Tt]ypograph\w{{2,3}}\b)(?P<printer>.*?{ahead})| # Regex for printers, with lookahead
 
-(?:\bfor\b|\bat\sthe\sexpensis\sof\b)(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
+(?:\b[Ff]or\b|\b\[?[Ff]\.|\bat\sthe\sexpensis\sof\b|(?:[Ii]m|[Ee]x)pensis\b|\bkah\b)(?P<publisher>.*?{ahead})| # Regex for publishers, with lookahead
 
 \b[Ssh]?[oa]u?ld?e?\s\[?by\b(?P<bookseller>.*?{ahead})| # Regex for booksellers, with lookahead
 
@@ -77,7 +77,6 @@ def add_internal_xml(pub_text, parsed_dict):
                         pub_text = pub_text.replace(name, "<placeName>{}</placeName>".format(name))
     pub_text = "<publisher>{}</publisher>".format(pub_text)
     pub_text = pub_text.replace('&', '&amp;')
-    print(pub_text)
     new_xml = etree.fromstring(pub_text)
     return new_xml
 
@@ -106,33 +105,21 @@ if __name__ == "__main__":
     all_parsed = {}
     for f in files:
         filekey = f.split("/")[1].split("_")[0]
-        print(filekey, "DONE")
-        with open(f, 'r') as xml_file:
-            xml = etree.fromstring(xml_file.read())
-            pubStmt = xml.find(".//{*}publicationStmt")
-            publisher = xml.find(".//{*}publisher")
-            if publisher is not None:
-                pub_text = publisher.text
-                processed_pub_text = preprocess(pub_text)
-                parsed_pub_text = basic_match(processed_pub_text)
-                # print(parsed_pub_text)
-                #print()
-                if parsed_pub_text != {}:
-                    # print(etree.tostring(pubStmt, pretty_print=True))
-                    new_xml = add_internal_xml(pub_text, parsed_pub_text)
-                    pubStmt.replace(publisher,new_xml)
-                    add_lists(xml, parsed_pub_text)
-                    #print(etree.tostring(xml, pretty_print=True))
-                    full_filestring = '<?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>\n{}'.format(etree.tostring(xml, pretty_print=True).decode('utf8'))
-                    with open('parsedmeta/{}_parsed.xml'.format(filekey), 'w') as writefile:
-                        writefile.write(full_filestring)
-                    # all_parsed[filekey] = parsed_pub_text
-                    # all_parsed[filekey]['orig_text'] = pub_text
+        parser = etree.XMLParser(remove_blank_text=True)
+        tree = etree.parse(f, parser)
+        xml = tree.getroot()
+        pubStmt = xml.find(".//{*}publicationStmt")
+        publisher = xml.find(".//{*}publisher")
+        if publisher is not None:
+            pub_text = publisher.text
+            processed_pub_text = preprocess(pub_text)
+            parsed_pub_text = basic_match(processed_pub_text)
+            if parsed_pub_text != {}:
+                new_xml = add_internal_xml(pub_text, parsed_pub_text)
+                pubStmt.replace(publisher,new_xml)
+                add_lists(xml, parsed_pub_text)
+        new_filename = 'parsedmeta/{}_parsed.xml'.format(filekey)
+	tree.write(new_filename, pretty_print=True)
+ 
+    print(filekey, "DONE")
 
-
-
-
-# df = pd.DataFrame(all_parsed)
-# df = df.T
-
-# df.to_csv("~/publisher_parsed_nomissing.csv")
