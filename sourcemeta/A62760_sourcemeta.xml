@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>To the King's Most Excellent Majesty, the humble address of the Lord Mayor, aldermen and sheriffs of the city and liberties of Dublin, in behalf of themselves and others, the Protestant freemen and inhabitants thereof</title>
@@ -15,4 +16,46 @@
          <note>Reproduction of original in Huntington Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>To the King's Most Excellent Majesty, the humble address of the Lord Mayor, aldermen and sheriffs of the city and liberties of Dublin, in behalf of themselves and others, the Protestant freemen and inhabitants thereof</title>
+      <author>Dublin (Ireland). Common Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Dublin, printed by <persName type="printer">Andrew Crook</persName>, assignee of <persName type="assigns">Benjamin Took</persName>, printer to <persName type="patron">the King</persName> and <persName type="patron">Queens Most Excellent Majesties and re-printed</persName> by <persName type="printer">him</persName> at <placeName>London</placeName>, and sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Queens Most Excellent Majesties and re-printed</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>him</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Took</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

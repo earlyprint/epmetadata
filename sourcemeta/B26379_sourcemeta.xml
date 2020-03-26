@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A letter from an English merchant in London, to his Dutch correspondant in Amsterdam, about publick affairs</title>
@@ -19,4 +20,33 @@
          <note>Reproduction of original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A letter from an English merchant in London, to his Dutch correspondant in Amsterdam, about publick affairs</title>
+      <author>G. M.</author>
+    </titleStmt>
+    <extent>3 [i.e. 4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R.C.</persName> and <persName type="publisher">H.L.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>"With allowance."</note>
+      <note>Signed: G.M.</note>
+      <note>Imprint from colophon; date of publication suggested by Wing.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H.L.</persName>
+    </person>
+    <person type="publisher">
+      <persName>R.C.</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A compleat practice of physick. Wherein is plainly described, the nature, causes, differences, and signs, of all diseases in the body of man. VVith the choicest cures for the same. / By John Smith, Doctor in Physick.</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A compleat practice of physick. Wherein is plainly described, the nature, causes, differences, and signs, of all diseases in the body of man. VVith the choicest cures for the same. / By John Smith, Doctor in Physick.</title>
+      <author>Smith, John, doctor in Physic.</author>
+    </titleStmt>
+    <extent>[12], 369, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Streater</persName>, for <persName type="publisher">Simon Miller</persName> at <placeName>the Star in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Miller</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Star in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

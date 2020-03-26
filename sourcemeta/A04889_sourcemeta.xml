@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A pleasant conceited comedie, called, A knacke to know an honest man As it hath beene sundrie times plaied about the citie of London.</title>
@@ -17,4 +18,39 @@
          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant conceited comedie, called, A knacke to know an honest man As it hath beene sundrie times plaied about the citie of London.</title>
+      <title>Knack to know an honest man.</title>
+    </titleStmt>
+    <extent>[62] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Scarlet]</persName> for <persName type="publisher">Cuthbert Burby</persName>, and are to be solde at <placeName>his shop</placeName> by <persName type="printer">the Royall Exchange</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308; (-A1).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cuthbert Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Scarlet]</persName>
+    </person>
+    <person type="printer">
+      <persName>the Royall Exchange</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

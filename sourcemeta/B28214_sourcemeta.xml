@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A poem occasioned by the death of Her Majesty. By a person of honour</title>
@@ -17,4 +18,33 @@
          <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A poem occasioned by the death of Her Majesty. By a person of honour</title>
+      <author>Person of honour.</author>
+    </titleStmt>
+    <extent>[2], 2 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed, and are to be sold by <persName type="bookseller">J. Whitlock</persName>, near <placeName>Stationers-hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With added caption title on p. 1: On Her Majesty's decease.</note>
+      <note>In verse.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-hall</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

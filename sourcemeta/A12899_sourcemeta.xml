@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Vocabula Magistri, Stanbrigij nuper emendata ac edita.</title>
@@ -19,4 +20,38 @@
          <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Vocabula Magistri, Stanbrigij nuper emendata ac edita.</title>
+      <author>Stanbridge, John, 1463-1510.</author>
+      <author>Paynell, Thomas.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>In Poules churchyarde at <placeName>the signe of the Lambe</placeName> by <persName type="printer">[J. Day</persName> for<persName type="publisher">] Abraham Vele</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>[1560?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publisher's name and place of publication from colophon; actual printer's name from and publication date conjectured by STC.</note>
+      <note>Below title: Cnm [sic] priuilegio ad imprimendum solum.</note>
+      <note>Signatures: A-E&#8308;.</note>
+      <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Abraham Vele</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Day</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Lambe</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

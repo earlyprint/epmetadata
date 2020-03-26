@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>An account of Mr. Ferguson, his common-place-book in two letters.</title>
@@ -20,4 +21,34 @@
          <note>Mr. Glanvill his letter to Mr. Sherlock -- Mr. Sherlock his answer to Mr. Glanvill his letter.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>An account of Mr. Ferguson, his common-place-book in two letters.</title>
+      <author>Glanvill, Joseph, 1636-1680.</author>
+      <author>Sherlock, William, 1641?-1707.</author>
+    </titleStmt>
+    <extent>[2], 35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName> for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Illustrated t.p.</note>
+      <note>Attributed to Joseph Glanvill. Cf. BM.</note>
+      <note>Item at reel 1669:29 identified as Wing F729 (number cancelled).</note>
+      <note>Reproduction of original in Cambridge University Library and Bodleian Library.</note>
+      <note>Mr. Glanvill his letter to Mr. Sherlock -- Mr. Sherlock his answer to Mr. Glanvill his letter.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

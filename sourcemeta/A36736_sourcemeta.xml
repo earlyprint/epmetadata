@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A treatise against irreligion. By H.C. de Luzancy, priest of the Church of England, and M. of Arts of Christs Church in Oxford</title>
@@ -17,4 +18,36 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A treatise against irreligion. By H.C. de Luzancy, priest of the Church of England, and M. of Arts of Christs Church in Oxford</title>
+      <author>De Luzancy, H. C. (Hippolyte du Chastelet), d. 1713.</author>
+    </titleStmt>
+    <extent>[8], 32, 25-167 [i.e. 181], [3] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">E.W.</persName> and are to be sold by <persName type="bookseller">Hen. Bonwicke</persName>, at <placeName>the Red Lion in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a preliminary license leaf and a final advertisement leaf.</note>
+      <note>P. 181 misnumbered 167; text is continuous despite pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Hen. Bonwicke</persName>
+    </person>
+    <person type="publisher">
+      <persName>E.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Red Lion in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

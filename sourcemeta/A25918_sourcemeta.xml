@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Articles concerning the surrender of VVorcester</title>
@@ -15,4 +16,29 @@
          <note>Reproduction of the original in the Lincoln College Library, Oxford.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Articles concerning the surrender of VVorcester</title>
+      <title>Articles concerning the surrender of Worcester.</title>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>A.D.1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Lincoln College Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Scottish proverbs</title>
@@ -15,4 +16,31 @@
          <note>Reproduction of the original in the National Library of Scotland.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Scottish proverbs</title>
+      <author>Fergusson, David, d. 1598.</author>
+    </titleStmt>
+    <extent>[43] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Bryson</persName>,  and are to be sold at <placeName>his Shop at the signe of Jonah</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Bryson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Shop at the signe of Jonah</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A letter from a friend to the wise and learned, in England, Scotland, France, and Ireland</title>
@@ -18,4 +19,40 @@
          <note>Reproduction of the original in the Bodleian Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A letter from a friend to the wise and learned, in England, Scotland, France, and Ireland</title>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed in <placeName>the year 1680</placeName>, by <persName type="printer">Tho. James, according to the mind, will, and desire of the author</persName>, for <persName type="publisher">the publick good of all nations, being the fruit of his meditation</persName> for <persName type="publisher">England's great honour, riches, and glory</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>[1680]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dated at end: November, 3. 1680.</note>
+      <note>Copy has print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>England's great honour, riches, and glory</persName>
+    </person>
+    <person type="publisher">
+      <persName>the publick good of all nations, being the fruit of his meditation</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. James, according to the mind, will, and desire of the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the year 1680</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

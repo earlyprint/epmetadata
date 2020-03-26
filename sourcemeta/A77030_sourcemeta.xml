@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A book and map of all Europe with the names of all the towns of note in that known quarter of the world: so that any one of the least capacity, finding the town in the alphabet, shall presently lay his finger upon the town in the map: a work very usefull for all schollars, marchants, mariners, tradesmen, and all that desire to know forreign parts, and especially in these times of warres and commotions that are now in Europe.</title>
@@ -17,4 +18,36 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A book and map of all Europe with the names of all the towns of note in that known quarter of the world: so that any one of the least capacity, finding the town in the alphabet, shall presently lay his finger upon the town in the map: a work very usefull for all schollars, marchants, mariners, tradesmen, and all that desire to know forreign parts, and especially in these times of warres and commotions that are now in Europe.</title>
+    </titleStmt>
+    <extent>[4], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Moxon</persName> for <persName type="publisher">Thomas Jenner</persName>, and are to be sold at <placeName>his shop, at the south-entrance of the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>Only known copies lack map.</note>
+      <note>Annotation on Thomason copy: "Aug: 4th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Jenner</persName>
+    </person>
+    <person type="printer">
+      <persName>James Moxon</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the south-entrance of the Royal Exchange</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

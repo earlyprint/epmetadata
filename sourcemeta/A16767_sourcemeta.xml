@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>An olde mans lesson, and a young mans loue. By Nicholas Breton</title>
@@ -18,4 +19,37 @@
          <note>Reproduction of the original in Yale University. Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>An olde mans lesson, and a young mans loue. By Nicholas Breton</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">Edward VVhite</persName>, and are to bee solde at <placeName>his shop neere the little north-doore of S. Paules Church at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#8308; G&#178; .</note>
+      <note>With a final colophon leaf.</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward VVhite</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere the little north-doore of S. Paules Church at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

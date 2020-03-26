@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>By the King. A proclamation. James R. Whereas we are informed that the price of corn, meal, wooll, leather, and other commodities is so high, that the persons imployed by us to make stores and magazines of grain, and to provide clothes and other necessaries for our troops, ...</title>
@@ -22,4 +23,47 @@
          <note>Reproduction of original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation. James R. Whereas we are informed that the price of corn, meal, wooll, leather, and other commodities is so high, that the persons imployed by us to make stores and magazines of grain, and to provide clothes and other necessaries for our troops, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] leaves).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">alderman James Malone</persName> printer to <persName type="patron">the King's most excellent Majesty;</persName> and are to be sold at <placeName>his shop in Skinner-Row</placeName>, and by <persName type="publisher">Andrew Crook</persName> on <placeName>Ormond-Key.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1689 [i.e. 1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at our court at Dublin Castle the 28th day of February, 1689.".</note>
+      <note>Dates are given according to Lady Day dating.</note>
+      <note>Fixing the price of commodities bought for public service.</note>
+      <note>Arms 188.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excellent Majesty;</persName>
+    </person>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="publisher">
+      <persName>alderman James Malone</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ormond-Key.</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Skinner-Row</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

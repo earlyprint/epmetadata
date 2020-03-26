@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A treatise of the nature of God</title>
@@ -18,4 +19,37 @@
          <note>Reproduction of the original in the Bodleian Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the nature of God</title>
+      <author>Morton, Thomas, of Berwick.</author>
+    </titleStmt>
+    <extent>[16], 239, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Creed</persName> for <persName type="publisher">Robert Dexter</persName>, dwelling in <placeName>Pauls Church-yard, at the signe of the Brazen Serpent</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Morton of Berwick. Erroneously attributed to Bishop Thomas Morton.</note>
+      <note>A variant of the edition with Ralph Jackson named as publisher in the imprint.</note>
+      <note>Some print faded, some print show-through, and some pages stained and torn.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Dexter</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Creed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe of the Brazen Serpent</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

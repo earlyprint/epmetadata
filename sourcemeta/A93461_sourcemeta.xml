@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The souldiers manual, or, Directions, prayers, and ejaculations for such as lead a military life. By A member of the Athenian Society.</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of original in: Lambeth Palace Library, London, England.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The souldiers manual, or, Directions, prayers, and ejaculations for such as lead a military life. By A member of the Athenian Society.</title>
+      <author>Member of the Athenian Society.</author>
+    </titleStmt>
+    <extent>[3], 4-24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Dawks</persName>, for <persName type="publisher">John Dunton</persName>, at <placeName>the Raven in the Poultry</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Reproduction of original in: Lambeth Palace Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Dunton</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Dawks</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Raven in the Poultry</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

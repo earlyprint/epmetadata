@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The parable of the pilgrim written to a friend by Symon Patrick ...</title>
@@ -15,4 +16,29 @@
          <note>Reproduction of original in Cambridge University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The parable of the pilgrim written to a friend by Symon Patrick ...</title>
+      <author>Patrick, Simon, 1626-1707.</author>
+    </titleStmt>
+    <extent>[16], 527 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert White</persName> for <persName type="publisher">Francis Tyton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert White</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

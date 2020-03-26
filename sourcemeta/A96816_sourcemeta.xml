@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A supplement to The queen-like closet, or, A little of everything presented to all ingenious ladies, and gentlewomen / by Hannah Woolley ...</title>
@@ -17,4 +18,36 @@
          <note>Reproduction of original in: British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A supplement to The queen-like closet, or, A little of everything presented to all ingenious ladies, and gentlewomen / by Hannah Woolley ...</title>
+      <author>Woolley, Hannah, fl. 1670.</author>
+      <author>Woolley, Hannah, fl. 1670. Queen-like closet.</author>
+    </titleStmt>
+    <extent>[16], 200 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> for <persName type="publisher">Richard Lownds</persName>, and are to be Sold at <placeName>the Sign of the White Lion</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: tightly bound and stained, with print show-through and some loss of print; p. 21-22, 55-56, 65-66 lacking.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lownds</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sign of the White Lion</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

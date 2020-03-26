@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Lisander or the souldier of fortune a novel.</title>
@@ -14,4 +15,36 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Lisander or the souldier of fortune a novel.</title>
+    </titleStmt>
+    <extent>[6], 137, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">H.H.</persName> for <persName type="publisher">Henry Faithorne</persName>, and <persName type="publisher">John Kersey</persName>, at <placeName>the sign of the Rose in St. Paul's Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Faithorne</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Kersey</persName>
+    </person>
+    <person type="printer">
+      <persName>H.H.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Rose in St. Paul's Church-Yard</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

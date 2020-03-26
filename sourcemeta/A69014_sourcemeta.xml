@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>[An Almanack and prognostication for 1576]</title>
@@ -18,4 +19,37 @@
          <note>Reproduction of original in the Cambridge University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>[An Almanack and prognostication for 1576]</title>
+    </titleStmt>
+    <extent>[5+] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted at <placeName>London in Powles Churchyard</placeName>, by <persName type="printer">Richarde Watkyns</persName>, and <persName type="printer">Iames Roberts</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1576]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
+      <note>Imprint from colophon; date of publication suggested by STC (2nd ed.).</note>
+      <note>"Formerly included under STC 402 and 20428"--STC (2nd ed.).</note>
+      <note>Imperfect: lacking all except signatures C&#8321; and C&#8328;.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iames Roberts</persName>
+    </person>
+    <person type="printer">
+      <persName>Richarde Watkyns</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Powles Churchyard</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

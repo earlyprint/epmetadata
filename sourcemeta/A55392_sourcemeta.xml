@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A paper presented by divers citizens of the city of London, Sept. 5. 1682. to the Right Honourable the Lord Mayor and Court of Aldermen</title>
@@ -19,4 +20,38 @@
          <note>Reproduction of the original in the Cambridge University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A paper presented by divers citizens of the city of London, Sept. 5. 1682. to the Right Honourable the Lord Mayor and Court of Aldermen</title>
+      <author>City of London (England). Court of Common Council, recipient.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">E. Smith [i.e. Francis Smith]</persName> at <placeName>the Elephant</placeName> and Castle in <placeName>Cornhil</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Regarding the Council's delay in allowing Thomas Papillon and John Dubois to assume the office of sheriff of London and Middlesex.</note>
+      <note>A different work from Wing T1563A.</note>
+      <note>Francis Smith was at the Elephant and Castle from 1659 to 1688, and was commonly known as Elephant Smith.</note>
+      <note>Copy stained.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Smith [i.e. Francis Smith]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

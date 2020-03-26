@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A Collection of poems written upon several occasions by several persons</title>
@@ -15,4 +16,26 @@
          <note>Reproduction of original in British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A Collection of poems written upon several occasions by several persons</title>
+    </titleStmt>
+    <extent>[8], 69, 72 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Hobart Kemp</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Never before in print"</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hobart Kemp</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

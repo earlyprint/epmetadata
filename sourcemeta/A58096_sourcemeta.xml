@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The rational sceptist by a Person of honour.</title>
@@ -15,4 +16,26 @@
          <note>Reproduction of original in Cambridge University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The rational sceptist by a Person of honour.</title>
+      <author>Person of honour.</author>
+    </titleStmt>
+    <extent>[2], 19 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. H.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. H.</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

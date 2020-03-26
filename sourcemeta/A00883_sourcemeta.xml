@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Here begynneth a newe tracte or treatyse moost p[ro]fytable for all husba[n]de men and very frutefull for all other persones to rede, newly correcte [sic] [and] amended by the auctour, with dyuerse other thynges added thervnto.</title>
@@ -21,4 +22,37 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Here begynneth a newe tracte or treatyse moost p[ro]fytable for all husba[n]de men and very frutefull for all other persones to rede, newly correcte [sic] [and] amended by the auctour, with dyuerse other thynges added thervnto.</title>
+      <title>Book of husbandry</title>
+      <author>Fitzherbert, John, d. 1531.</author>
+      <author>Fitzherbert, Anthony, Sir, 1470-1538.</author>
+    </titleStmt>
+    <extent>[4], lxv, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>In Southwarke, at <placeName>the sygne of the wodowes</placeName>, by <persName type="printer">Peter Treuerys</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>[1530?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Fitzherbert. Also sometimes attributed to Sir Anthony Fitzherbert.</note>
+      <note>Imprint from colophon; publication date conjectured by STC.</note>
+      <note>Woodcut title vignette with caption: Husbandrye.</note>
+      <note>Running title reads: The boke of husbandry.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Peter Treuerys</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the wodowes</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A treatise of consumption, and the venereal disease the signs or symptoms of the venereal infection; with the various methods of cure. By T. Nedham, surgeon.</title>
@@ -15,4 +16,37 @@
          <note>Reproduction of original in the Bodleian Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of consumption, and the venereal disease the signs or symptoms of the venereal infection; with the various methods of cure. By T. Nedham, surgeon.</title>
+      <author>Nedham, Thomas.</author>
+    </titleStmt>
+    <extent>[22], 68, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and are to be sold at <placeName>his house , the Surgeon's sign, in Martlet-Court, in Bow-street, in Convent-Garden;</placeName> and <persName type="publisher">Eliz. Harris</persName>, at <placeName>the Harrow, in Little-Britain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Eliz. Harris</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house , the Surgeon's sign, in Martlet-Court, in Bow-street, in Convent-Garden;</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Harrow, in Little-Britain</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

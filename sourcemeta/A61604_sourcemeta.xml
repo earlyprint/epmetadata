@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A sermon preached before the King, January 30, 1668/9, being the day of the execrable murther of King Charles I by Edward Stillingfleet ...</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of original in Duke University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the King, January 30, 1668/9, being the day of the execrable murther of King Charles I by Edward Stillingfleet ...</title>
+      <author>Stillingfleet, Edward, 1635-1699.</author>
+    </titleStmt>
+    <extent>[2], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert White</persName> for <persName type="publisher">Henry Mortlock ad</persName> are to he sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Printed by His Majesties special command."</note>
+      <note>Reproduction of original in Duke University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Mortlock ad</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert White</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A short essay of modern divinity, by Robert Dixon. D.D.</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of original in the Folger Shakespeare Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A short essay of modern divinity, by Robert Dixon. D.D.</title>
+      <author>Dixon, Robert, d. 1688.</author>
+    </titleStmt>
+    <extent>[6], 53, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">S.R.</persName> for <persName type="publisher">R. Clavell</persName> at <placeName>[ ]</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2481 has title page cropped at bottom; part of imprint missing.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Clavell</persName>
+    </person>
+    <person type="printer">
+      <persName>S.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>[ ]</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

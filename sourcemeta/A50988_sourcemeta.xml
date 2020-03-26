@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A miscellaneous catalog of mean, vulgar, cheap and simple experiments</title>
@@ -16,4 +17,32 @@
          <note>Reproduction of the original in the British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A miscellaneous catalog of mean, vulgar, cheap and simple experiments</title>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Joseph Ray</persName>, at <placeName>College-Green, printer to the Dublin-Society</placeName>,</publisher>
+      <pubPlace>[[Dublin] :</pubPlace>
+      <date>[1690?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon; publication date suggested by Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Joseph Ray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>College-Green, printer to the Dublin-Society</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

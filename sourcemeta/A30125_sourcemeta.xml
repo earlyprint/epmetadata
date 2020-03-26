@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>A book for boys and girls, or, Country rhimes for children by J.B.</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of original in the Harvard University Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>A book for boys and girls, or, Country rhimes for children by J.B.</title>
+      <author>Bunyan, John, 1628-1688.</author>
+    </titleStmt>
+    <extent>[7], 79 [i.e. 80] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">N.P.</persName> and sold by <persName type="bookseller">the booksellers</persName> in <placeName>London</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>" Licensed and entred according to order."</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the booksellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>N.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

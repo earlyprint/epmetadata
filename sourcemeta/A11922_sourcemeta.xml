@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The first booke of architecture, made by Sebastian Serly, entreating of geometrie. Translated out of Italian into Dutch, and out of Dutch into English</title>
@@ -25,4 +26,47 @@
          <note>Lacks the two leaves after first title page.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The first booke of architecture, made by Sebastian Serly, entreating of geometrie. Translated out of Italian into Dutch, and out of Dutch into English</title>
+      <title>Tutte l'opere d'architettura. English</title>
+      <author>Serlio, Sebastiano, 1475-1554.</author>
+      <author>Peake, Robert, Sir, 1592?-1667.</author>
+    </titleStmt>
+    <extent>[3], 13, [1]; 26, [1]; [1], 73; 71, [1]; 16 leaves : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Simon Stafford</persName> and <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">Robert Peake</persName>, and are to be sold at <placeName>his shop neere Holborne conduit, next to the Sunne Tauerne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Anno Dom. 1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Tutte l'opere d'architettura.</note>
+      <note>Translator's dedication signed: Robert Peake.</note>
+      <note>Colophon, last leaf recto, reads "Printed at London, by Simon Stafford. 1611.".</note>
+      <note>Books 2-5 each have separate title page, foliation, and register. The title page to book 2 is printed on &#185;H2.</note>
+      <note>The woodcuts for the title-page borders and illustrations were first used in the Antwerp edition of 1553. They were later used in the 1606 edition in Dutch printed in Amsterdam by C. Claeszoon, who also printed them on sheets otherwise blank and shipped them to Basel, where letterpress in German was overprinted in 1608, and to London for the present edition. Thomas Snodham printed only the bifolium following the first title page (STC addendum).</note>
+      <note>Book 2 A1 is cancelled.</note>
+      <note>Variant: "Printed by Robert Peake" blocked out on one or more of the title pages to books 1, 2, 4, or 5 (book 3 lacks imprint).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Lacks the two leaves after first title page.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Peake</persName>
+    </person>
+    <person type="printer">
+      <persName>Simon Stafford</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Holborne conduit, next to the Sunne Tauerne</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

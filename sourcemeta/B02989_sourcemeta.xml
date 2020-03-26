@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The humble petition of the Lords and Commons assembled in Parliament. Presented to His Majestie at York, the 17 of June, 1642: with His Majesties answer thereunto.</title>
@@ -16,4 +17,35 @@
          <note>Reproduction of original in: British Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of the Lords and Commons assembled in Parliament. Presented to His Majestie at York, the 17 of June, 1642: with His Majesties answer thereunto.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">his Majesties speciall command</persName> at <placeName>Cambridge</placeName> by <persName type="printer">Roger Daniel</persName> ...,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Initial letters.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Roger Daniel</persName>
+    </person>
+    <person type="printer">
+      <persName>his Majesties speciall command</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cambridge</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

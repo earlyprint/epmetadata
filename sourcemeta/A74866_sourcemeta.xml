@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The geometrical sea-man: or, the art of navigation performed by geometry. Shewing how all the three kinds of sayling, viz. by the plain chart, by Mercators chart, by a great circle. may be easily and exactly performed by a plain ruler and a pair of compasses, without arithmeticall calculation. / By Henry Phillippes.</title>
@@ -17,4 +18,39 @@
          <note>Wing (2nd ed.) P2044.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The geometrical sea-man: or, the art of navigation performed by geometry. Shewing how all the three kinds of sayling, viz. by the plain chart, by Mercators chart, by a great circle. may be easily and exactly performed by a plain ruler and a pair of compasses, without arithmeticall calculation. / By Henry Phillippes.</title>
+      <author>Phillippes, Henry, d. 1677?</author>
+    </titleStmt>
+    <extent>[8], 95, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert</persName> and <persName type="printer">William Leybourn</persName>, for <persName type="publisher">George Hurlock</persName>, and are to be sold at <placeName>his shop at Magnus Church-corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: The second "1" in imprint is crossed out and altered to "1651"; "Febr. 1.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Wing (2nd ed.) P2044.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Hurlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert</persName>
+    </person>
+    <person type="printer">
+      <persName>William Leybourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Magnus Church-corner</placeName>
+    </place>
+  </listPlace>
+>>>>>>> imprintparse
 </sourceDesc>

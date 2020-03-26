@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>The Lords free prisoner</title>
@@ -17,4 +18,31 @@
          <note>Reproduction of original in Huntington Library.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>The Lords free prisoner</title>
+      <author>Bampfield, Francis, 1615 or 16-1683.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W.T.</persName> and sold by <persName type="bookseller">L. Curtiss</persName> ...,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1683]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>L. Curtiss</persName>
+    </person>
+    <person type="publisher">
+      <persName>W.T.</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

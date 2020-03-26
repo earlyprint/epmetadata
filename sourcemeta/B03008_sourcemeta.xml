@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Edinburgh, the ninth of January, 1685. Proclamation, annent [sic] heretors, masters and mistresses of families.</title>
@@ -18,4 +19,32 @@
          <note>Reproduction of the original in the National Library of Scotland.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh, the ninth of January, 1685. Proclamation, annent [sic] heretors, masters and mistresses of families.</title>
+      <author>Edinburgh (Scotland). Town Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty, city and colledge</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno 1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text.</note>
+      <note>Signed at end: Jo. Richardson Cls.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most sacred Majesty, city and colledge</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>

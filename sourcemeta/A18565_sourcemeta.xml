@@ -1,5 +1,6 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
    <biblFull>
       <titleStmt>
          <title>Jack vp Lande compyled by the famous Geoffrey Chaucer</title>
@@ -18,4 +19,32 @@
          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
       </notesStmt>
    </biblFull>
+=======
+  <biblFull>
+    <titleStmt>
+      <title>Jack vp Lande compyled by the famous Geoffrey Chaucer</title>
+      <author>Chaucer, Geoffrey, d. 1400, attributed name.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Prynted [by <persName type="printer">J. Nicolson]</persName> for <persName type="publisher">Ihon Gough</persName>,</publisher>
+      <pubPlace>[[Southwark] :</pubPlace>
+      <date>[1536?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not in fact by Chaucer.</note>
+      <note>Publisher's name from colophon; publication date conjectured by STC.</note>
+      <note>Signatures: A-B.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ihon Gough</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Nicolson]</persName>
+    </person>
+  </listPerson>
+>>>>>>> imprintparse
 </sourceDesc>
