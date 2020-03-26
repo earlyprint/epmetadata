@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Unity restor'd to the Church of England by John Mayer.</title>
-         <author>Mayer, John, 1583-1664.</author>
-      </titleStmt>
-      <extent>[6], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for A. Rice and are to be sold by book-sellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Unity restor'd to the Church of England by John Mayer.</title>
+      <author>Mayer, John, 1583-1664.</author>
+    </titleStmt>
+    <extent>[6], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A. Rice</persName> and are to be sold by <persName type="bookseller">book-sellers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>book-sellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>A. Rice</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

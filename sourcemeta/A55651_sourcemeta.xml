@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prayers for the King to be used in all churches, and chapels immediately before the prayer of S. Chrysostom, both in the morning and evening service.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill ... and by Henry Hills, and Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Febr. 4. 1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prayers for the King to be used in all churches, and chapels immediately before the prayer of S. Chrysostom, both in the morning and evening service.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of John Bill ... and by <persName type="printer">Henry Hills</persName>, and <persName type="printer">Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Febr. 4. 1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Billand</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of the Right Honourable Henry Powle, Esq; Speaker of the House of Commons: on Munday the sixteenth of December, 1689 At the passing of four bills, entituled, I. An act for a grant to Their Majesties of an aid of two shillings in the pound for one year. II. An act for declaring the rights of the subject, and settling the succession of the crown. III. An act for naturalizing William Watts, an infant. IV. An act for declaring and enacting John Rogerson to be a natural born subject of this realm.</title>
-         <author>Powle, Henry, 1630-1692.</author>
-      </titleStmt>
-      <extent>[2], 2 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, and Thomas Newcomb, printers to the King and Queens most Excellent Majesties,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXXIX. [1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of the Right Honourable Henry Powle, Esq; Speaker of the House of Commons: on Munday the sixteenth of December, 1689 At the passing of four bills, entituled, I. An act for a grant to Their Majesties of an aid of two shillings in the pound for one year. II. An act for declaring the rights of the subject, and settling the succession of the crown. III. An act for naturalizing William Watts, an infant. IV. An act for declaring and enacting John Rogerson to be a natural born subject of this realm.</title>
+      <author>Powle, Henry, 1630-1692.</author>
+    </titleStmt>
+    <extent>[2], 2 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill</persName>, and <persName type="printer">Thomas Newcomb</persName>, printers to <persName type="patron">the King</persName> and <persName type="patron">Queens most Excellent Majesties</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXXIX. [1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Queens most Excellent Majesties</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="printer">
+      <persName>Charles Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

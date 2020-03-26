@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the King at Windsor-Castle August 15, 1675 by Richard Meggott ...</title>
-         <author>Meggott, Richard, d. 1692.</author>
-      </titleStmt>
-      <extent>[2], 35 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Nathanael Brooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Printed by His Majesties special command."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the King at Windsor-Castle August 15, 1675 by Richard Meggott ...</title>
+      <author>Meggott, Richard, d. 1692.</author>
+    </titleStmt>
+    <extent>[2], 35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Nathanael Brooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Printed by His Majesties special command."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Brooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

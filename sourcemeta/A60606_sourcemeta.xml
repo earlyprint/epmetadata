@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem on the famous ship called the Loyal London Begun at the charge of the Right Honourable the Lord Mayor, aldermen, and commoners of the city of London, in the year 1665. and lanched June 10. 1666. which they presented to His Majesty as a testimony of their loyalty and dutiful affection; and built at Deptford by Captain Taylor. By William Smith.</title>
-         <author>Smith, William, fl. 1660-1686.</author>
-      </titleStmt>
-      <extent>[4], 11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Nath: Brook, at the Angel in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem on the famous ship called the Loyal London Begun at the charge of the Right Honourable the Lord Mayor, aldermen, and commoners of the city of London, in the year 1665. and lanched June 10. 1666. which they presented to His Majesty as a testimony of their loyalty and dutiful affection; and built at Deptford by Captain Taylor. By William Smith.</title>
+      <author>Smith, William, fl. 1660-1686.</author>
+    </titleStmt>
+    <extent>[4], 11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Nath: Brook</persName>, at <placeName>the Angel in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nath: Brook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

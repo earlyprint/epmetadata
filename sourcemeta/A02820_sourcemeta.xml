@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A ioyfull medytacyon to all Englonde of the coronacyon of our moost naturall souerayne lorde kynge Henry the eyght</title>
-         <author>Hawes, Stephen, d. 1523?</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>In the fletestrete at the sygne of the sonne by Wynkyn de Worde,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date>[1509]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Author's name appears in colophon.</note>
-         <note>Caption title.</note>
-         <note>Place of publication and printer's name from colophon; publication date from STC.</note>
-         <note>In verse.</note>
-         <note>Signatures: [A]⁴.</note>
-         <note>Imperfect: leaves cropped at foot, with some loss of print.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A ioyfull medytacyon to all Englonde of the coronacyon of our moost naturall souerayne lorde kynge Henry the eyght</title>
+      <author>Hawes, Stephen, d. 1523?</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>In the fletestrete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>[1509]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Author's name appears in colophon.</note>
+      <note>Caption title.</note>
+      <note>Place of publication and printer's name from colophon; publication date from STC.</note>
+      <note>In verse.</note>
+      <note>Signatures: [A]&#8308;.</note>
+      <note>Imperfect: leaves cropped at foot, with some loss of print.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de Worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

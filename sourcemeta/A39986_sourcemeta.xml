@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Forms of prayer collected for the private use of a soldier. Imprimatur, Guil Needham. Junij 18. 1687</title>
-      </titleStmt>
-      <extent>[12], 51, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for H. Bonwicke, at the Red Lyon in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Copy tightly bound.</note>
-         <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Forms of prayer collected for the private use of a soldier. Imprimatur, Guil Needham. Junij 18. 1687</title>
+    </titleStmt>
+    <extent>[12], 51, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">H. Bonwicke</persName>, at <placeName>the Red Lyon in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Copy tightly bound.</note>
+      <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Bonwicke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Red Lyon in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

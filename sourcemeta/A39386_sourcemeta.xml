@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the societies for reformation of manners in Dublin, October the 4th, 1698 by Tho. Emlyn.</title>
-         <author>Emlyn, Thomas, 1663-1741.</author>
-      </titleStmt>
-      <extent>23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook for Math. Gunne and Josiah Shaw,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published at the desire of the said societies."</note>
-         <note>Reproduction of original in the Trinity College Library, Dublin.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the societies for reformation of manners in Dublin, October the 4th, 1698 by Tho. Emlyn.</title>
+      <author>Emlyn, Thomas, 1663-1741.</author>
+    </titleStmt>
+    <extent>23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> for <persName type="publisher">Math. Gunne</persName> and <persName type="publisher">Josiah Shaw</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published at the desire of the said societies."</note>
+      <note>Reproduction of original in the Trinity College Library, Dublin.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Josiah Shaw</persName>
+    </person>
+    <person type="publisher">
+      <persName>Math. Gunne</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

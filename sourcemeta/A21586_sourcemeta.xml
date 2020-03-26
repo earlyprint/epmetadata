@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene the Queenes Highnesse vpon many great considerations for the benefit of her common weale doeth will and straightly command all maner of persons ... to absteine from killing, dressing, or eating of any flesh upon ... Lent ...</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iugge and Iohn Cawoodde [i.e. B. Norton and J. Bill] ...,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1618]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Second part of title from first 8 lines of text.</note>
-         <note>Date of imprint suggested by STC (2nd ed.).</note>
-         <note>"Giuen at Our Palace of Westminster, the vij. day of February, the first yeere of Our Raigne."</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene the Queenes Highnesse vpon many great considerations for the benefit of her common weale doeth will and straightly command all maner of persons ... to absteine from killing, dressing, or eating of any flesh upon ... Lent ...</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iugge</persName> and <persName type="printer">Iohn Cawoodde [i.e. B. Norton</persName> and <persName type="printer">J. Bill]</persName> ...,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1618]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Second part of title from first 8 lines of text.</note>
+      <note>Date of imprint suggested by STC (2nd ed.).</note>
+      <note>"Giuen at Our Palace of Westminster, the vij. day of February, the first yeere of Our Raigne."</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Cawoodde [i.e. B. Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Bill]</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iugge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

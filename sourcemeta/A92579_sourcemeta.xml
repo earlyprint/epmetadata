@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of the Parliament of Scotland to both houses of the Parliament of England. Together with the declaration of the Parliament of Scotland, concerning His Majestie: their desires; and the answer of the Parliament of England.</title>
-         <author>Scotland. Parliament.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 3-12 [i.e. 14] p.   </extent>
-      <publicationStmt>
-         <publisher>by Evan Tyler, printer to the kings most Excellent Majestie: And re-printed at London for Robert Bostock, at the signe of the Kings head in Pauls Church-yard,</publisher>
-         <pubPlace>Printed at Edinburgh :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages 7-9 repeated in number only.</note>
-         <note>Reproduction of original in: Henry E. Huntington Library, San Marino, California.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of the Parliament of Scotland to both houses of the Parliament of England. Together with the declaration of the Parliament of Scotland, concerning His Majestie: their desires; and the answer of the Parliament of England.</title>
+      <author>Scotland. Parliament.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 3-12 [i.e. 14] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the kings most Excellent Majestie: And re-printed</persName> at <placeName>London</placeName> for <persName type="publisher">Robert Bostock</persName>, at <placeName>the signe of the Kings head in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>Printed at Edinburgh :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages 7-9 repeated in number only.</note>
+      <note>Reproduction of original in: Henry E. Huntington Library, San Marino, California.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the kings most Excellent Majestie: And re-printed</persName>
+    </person>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Kings head in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

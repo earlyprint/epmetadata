@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The meeting of gallants at an ordinarie: or The walkes in Powles</title>
-         <author>Middleton, Thomas, d. 1627, attributed name.</author>
-         <author>Dekker, Thomas, ca. 1572-1632, attributed name.</author>
-      </titleStmt>
-      <extent>[30] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. C[reede] and are to be solde by Mathew Lawe, dwelling in Paules Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Variously attributed to Thomas Dekker and Thomas Middleton.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D⁴.</note>
-         <note>Last leaf is blank.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The meeting of gallants at an ordinarie: or The walkes in Powles</title>
+      <author>Middleton, Thomas, d. 1627, attributed name.</author>
+      <author>Dekker, Thomas, ca. 1572-1632, attributed name.</author>
+    </titleStmt>
+    <extent>[30] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. C[reede]</persName> and are to be solde by <persName type="bookseller">Mathew Lawe</persName>, dwelling in <placeName>Paules Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Variously attributed to Thomas Dekker and Thomas Middleton.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D&#8308;.</note>
+      <note>Last leaf is blank.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Mathew Lawe</persName>
+    </person>
+    <person type="printer">
+      <persName>T. C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

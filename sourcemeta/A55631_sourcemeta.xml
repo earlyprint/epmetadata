@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A postscript to the Observators first volume, or, The answer of Miles Prance to several of those papers wherein he finds himself most traduced and slandered with some notes to be added to Observator Numb. 8 of the 2d volumn [sic].</title>
-         <author>Prance, Miles, fl. 1678-1689.</author>
-         <author>L'Estrange, Roger, Sir, 1616-1704.</author>
-      </titleStmt>
-      <extent>[2], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author and are to be sold by R. Janeway,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Miles Prance.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A postscript to the Observators first volume, or, The answer of Miles Prance to several of those papers wherein he finds himself most traduced and slandered with some notes to be added to Observator Numb. 8 of the 2d volumn [sic].</title>
+      <author>Prance, Miles, fl. 1678-1689.</author>
+      <author>L'Estrange, Roger, Sir, 1616-1704.</author>
+    </titleStmt>
+    <extent>[2], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName> and are to be sold by <persName type="bookseller">R. Janeway</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Miles Prance.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Janeway</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

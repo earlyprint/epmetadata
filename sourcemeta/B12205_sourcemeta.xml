@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fig for fortune. A.C.</title>
-         <author>Copley, Anthony, 1567-1607?</author>
-      </titleStmt>
-      <extent>[8], 74 [i.e. 84], [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Iohnes for C.A. [i.e. Anthony Copley?],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Anthonie Copley.</note>
-         <note>In verse.</note>
-         <note>Identity of C.A. conjectured by STC.</note>
-         <note>The first leaf is blank except for signature-mark "A" and a fleuron; the last two leaves are blank.</note>
-         <note>P. 84 misnumbered 74.</note>
-         <note>Two ornaments here were used by John Danter.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fig for fortune. A.C.</title>
+      <author>Copley, Anthony, 1567-1607?</author>
+    </titleStmt>
+    <extent>[8], 74 [i.e. 84], [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Iohnes</persName> for <persName type="publisher">C.A. [i.e. Anthony Copley?]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Anthonie Copley.</note>
+      <note>In verse.</note>
+      <note>Identity of C.A. conjectured by STC.</note>
+      <note>The first leaf is blank except for signature-mark "A" and a fleuron; the last two leaves are blank.</note>
+      <note>P. 84 misnumbered 74.</note>
+      <note>Two ornaments here were used by John Danter.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C.A. [i.e. Anthony Copley?]</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iohnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

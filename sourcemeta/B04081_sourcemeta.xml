@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the names of the adventurers in the Bank of Scotland January 1. 1696.</title>
-         <author>Bank of Scotland.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, printer to his most excellent Majesty, City, and Colledge,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno Dom. 1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the names of the adventurers in the Bank of Scotland January 1. 1696.</title>
+      <author>Bank of Scotland.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printer to <persName type="patron">his most excellent Majesty</persName>, <persName type="patron">City</persName>, and <persName type="patron">Colledge</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno Dom. 1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>City</persName>
+    </person>
+    <person type="patron">
+      <persName>Colledge</persName>
+    </person>
+    <person type="patron">
+      <persName>his most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

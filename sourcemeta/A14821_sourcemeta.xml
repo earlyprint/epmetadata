@@ -1,28 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ould facioned love. Or a loue of the ould facion. By I.T. gent</title>
-         <title>Amintæ gaudia. English. Selections</title>
-         <author>Watson, Thomas, 1557?-1592.</author>
-         <author>Trussel, John, fl. 1620-1642, attributed name.</author>
-         <author>I. T., gent.</author>
-      </titleStmt>
-      <extent>[6], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by P[eter] S[hort] for William Mattes, dwelling in fleetstrete at the signe of the hand and plough,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>I.T. = John Trussel, the translator?.</note>
-         <note>Printer's name from STC.</note>
-         <note>An extract, possibly translated by John Trussel, of: Watson, Thomas.  Amintæ gaudia.</note>
-         <note>In verse.</note>
-         <note>Includes, with caption title: The answer of Phillis to Amintas by the translator.</note>
-         <note>Formerly also STC 23624.</note>
-         <note>Some print show-through, and some papges marked; beginning-page 15 from the Trinity College (University of Cambridge) Library copy spliced at end.</note>
-         <note>Reproduction of the original in the Sion College. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ould facioned love. Or a loue of the ould facion. By I.T. gent</title>
+      <title>Amint&#230; gaudia. English. Selections</title>
+      <author>Watson, Thomas, 1557?-1592.</author>
+      <author>Trussel, John, fl. 1620-1642, attributed name.</author>
+      <author>I. T., gent.</author>
+    </titleStmt>
+    <extent>[6], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">P[eter] S[hort]</persName> for <persName type="publisher">William Mattes</persName>, dwelling in <placeName>fleetstrete at the signe of the hand</placeName> and plough,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>I.T. = John Trussel, the translator?.</note>
+      <note>Printer's name from STC.</note>
+      <note>An extract, possibly translated by John Trussel, of: Watson, Thomas.  Amint&#230; gaudia.</note>
+      <note>In verse.</note>
+      <note>Includes, with caption title: The answer of Phillis to Amintas by the translator.</note>
+      <note>Formerly also STC 23624.</note>
+      <note>Some print show-through, and some papges marked; beginning-page 15 from the Trinity College (University of Cambridge) Library copy spliced at end.</note>
+      <note>Reproduction of the original in the Sion College. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Mattes</persName>
+    </person>
+    <person type="printer">
+      <persName>P[eter] S[hort]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>fleetstrete at the signe of the hand</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

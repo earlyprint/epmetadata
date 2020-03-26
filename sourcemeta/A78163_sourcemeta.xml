@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heroick education, or Choice maximes and instructions, for the most sure and facile training up of youth, in the ways of eminent learning, and vertues. A treatise very necessary for all men; but most especially for such as undertake the charge, to govern the young nobility and gentry. In two books, together with a short appendix. / By I.B. Gent.</title>
-         <author>I. B., Gent.</author>
-      </titleStmt>
-      <extent>[152] p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed for William Hope, at the blew Anchor, behind the Old Exchange, and Henry Herringman, at the blew Anchor in the lower walk in the New Exchange.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-I K⁴.</note>
-         <note>Annotation on Thomason copy: "8ber [i.e. October] 7 1656"; the 7 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heroick education, or Choice maximes and instructions, for the most sure and facile training up of youth, in the ways of eminent learning, and vertues. A treatise very necessary for all men; but most especially for such as undertake the charge, to govern the young nobility and gentry. In two books, together with a short appendix. / By I.B. Gent.</title>
+      <author>I. B., Gent.</author>
+    </titleStmt>
+    <extent>[152] p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Hope</persName>, at <placeName>the blew Anchor, behind the Old Exchange</placeName>, and <persName type="publisher">Henry Herringman</persName>, at <placeName>the blew Anchor in the lower walk in the New Exchange.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-I K&#8308;.</note>
+      <note>Annotation on Thomason copy: "8ber [i.e. October] 7 1656"; the 7 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Hope</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the blew Anchor in the lower walk in the New Exchange.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the blew Anchor, behind the Old Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

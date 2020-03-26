@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Loyal apprentices protestation</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.B. and sold by Randal Taylor ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated in manuscript: "24 June, 1681."</note>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Loyal apprentices protestation</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.B.</persName> and sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated in manuscript: "24 June, 1681."</note>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>A.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, for adjourning the Parliament from the 27th day of March, to the 15th day of April next. Edinburgh, the twenty fifth day of March, 1690</title>
-         <title>Proclamations. 1690-03-25</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, by order of privy council,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Steele notation: Ken- of Bear-.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, for adjourning the Parliament from the 27th day of March, to the 15th day of April next. Edinburgh, the twenty fifth day of March, 1690</title>
+      <title>Proclamations. 1690-03-25</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, by <persName type="printer">order of privy council</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Steele notation: Ken- of Bear-.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>order of privy council</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

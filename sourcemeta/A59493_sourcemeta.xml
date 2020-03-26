@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of King Lear acted at the Duke's theatre / reviv'd with alterations by N. Tate.</title>
-         <author>Tate, Nahum, 1652-1715.</author>
-         <author>Shakespeare, William, 1564-1616. King Lear.</author>
-      </titleStmt>
-      <extent>[8], 67, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E. Flesher, and are to be sold by R. Bentley, and M. Magnes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An alteration of Shakespeare's King Lear.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of King Lear acted at the Duke's theatre / reviv'd with alterations by N. Tate.</title>
+      <author>Tate, Nahum, 1652-1715.</author>
+      <author>Shakespeare, William, 1564-1616. King Lear.</author>
+    </titleStmt>
+    <extent>[8], 67, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E. Flesher</persName>, and are to be sold by <persName type="bookseller">R. Bentley</persName>, and <persName type="publisher">M. Magnes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An alteration of Shakespeare's King Lear.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Bentley</persName>
+    </person>
+    <person type="publisher">
+      <persName>E. Flesher</persName>
+    </person>
+    <person type="publisher">
+      <persName>M. Magnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

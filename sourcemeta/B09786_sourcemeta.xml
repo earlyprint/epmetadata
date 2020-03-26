@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prince Butler's querical demonstrations relating to the East-India trade</title>
-      </titleStmt>
-      <extent>1 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by A. Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint taken from colophon.</note>
-         <note>"Part II."</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prince Butler's querical demonstrations relating to the East-India trade</title>
+    </titleStmt>
+    <extent>1 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">A. Baldwin</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint taken from colophon.</note>
+      <note>"Part II."</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

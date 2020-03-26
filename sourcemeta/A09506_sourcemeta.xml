@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods visitation in a sermon preached at Leicester, at an ordinary visitation. By T.P.</title>
-         <author>Pestell, Thomas, 1584?-1659?</author>
-      </titleStmt>
-      <extent>[4], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston for Robert Allott, and are to be sold at his shop in Saint Pauls Church-yard, at the signe of the Beare,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Pestell.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-         <note>Some print show-through.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods visitation in a sermon preached at Leicester, at an ordinary visitation. By T.P.</title>
+      <author>Pestell, Thomas, 1584?-1659?</author>
+    </titleStmt>
+    <extent>[4], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName> for <persName type="publisher">Robert Allott</persName>, and are to be sold at <placeName>his shop in Saint Pauls Church-yard, at the signe of the Beare</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Pestell.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+      <note>Some print show-through.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Allott</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Saint Pauls Church-yard, at the signe of the Beare</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

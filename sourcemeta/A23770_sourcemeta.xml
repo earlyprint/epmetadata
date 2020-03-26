@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the King, Decemb. 31, 1665, at Christ-Church in Oxford by R. Allestree ...</title>
-         <author>Allestree, Richard, 1619-1681.</author>
-      </titleStmt>
-      <extent>[2], 39 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Hall for James Allestree and Richard Davis ...,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by His Majesties command"</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the King, Decemb. 31, 1665, at Christ-Church in Oxford by R. Allestree ...</title>
+      <author>Allestree, Richard, 1619-1681.</author>
+    </titleStmt>
+    <extent>[2], 39 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Hall</persName> for <persName type="publisher">James Allestree</persName> and <persName type="publisher">Richard Davis</persName> ...,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by His Majesties command"</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Allestree</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

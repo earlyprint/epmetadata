@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Good and true, fresh and new Christmas carols</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>By E.P. for Francis Coles ...,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Without the music.</note>
-         <note>Illlustrated t.p.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Good and true, fresh and new Christmas carols</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">E.P.</persName> for <persName type="publisher">Francis Coles</persName> ...,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Without the music.</note>
+      <note>Illlustrated t.p.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Coles</persName>
+    </person>
+    <person type="printer">
+      <persName>E.P.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

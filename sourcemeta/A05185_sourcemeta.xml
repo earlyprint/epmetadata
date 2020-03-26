@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The book of Ruth expounded in twenty eight sermons, by Levves Lauaterus of Tygurine, and by hym published in Latine, and now translated into Englishe by Ephraim Pagitt, a childe of eleuen yeares of age</title>
-         <author>Lavater, Ludwig, 1527-1586.</author>
-         <author>Pagitt, Ephraim, 1574 or 5-1647.</author>
-      </titleStmt>
-      <extent>[3], 159, 159-163 leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Walde-graue, dwelling without Temple-bar,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1586.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Original Latin title not traced.</note>
-         <note>Running title reads: Lauater vpon Ruth.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Title page partly in MS., with second word supplied as "boor".</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The book of Ruth expounded in twenty eight sermons, by Levves Lauaterus of Tygurine, and by hym published in Latine, and now translated into Englishe by Ephraim Pagitt, a childe of eleuen yeares of age</title>
+      <author>Lavater, Ludwig, 1527-1586.</author>
+      <author>Pagitt, Ephraim, 1574 or 5-1647.</author>
+    </titleStmt>
+    <extent>[3], 159, 159-163 leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Walde-graue</persName>, dwelling without <placeName>Temple-bar</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1586.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Original Latin title not traced.</note>
+      <note>Running title reads: Lauater vpon Ruth.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Title page partly in MS., with second word supplied as "boor".</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Walde-graue</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Temple-bar</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

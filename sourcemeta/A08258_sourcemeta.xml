@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The three English brothers Sir Thomas Sherley his trauels, vvith his three yeares imprisonment in Turkie: his inlargement by his Maiesties letters to the great Turke: and lastly, his safe returne into England this present yeare, 1607. Sir Anthony Sherley his embassage to the Christian princes. Master Robert Sherley his wars against the Turkes, with his marriage to the Emperour of Persia his neece.</title>
-         <author>Nixon, Anthony.</author>
-      </titleStmt>
-      <extent>[80] p. : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Adam Islip?], and are to be sold by Iohn Hodgets in Paules Church yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Anthony Nixon.</note>
-         <note>Printer's name conjectured by STC.</note>
-         <note>Signatures: [A]⁴ B-K⁴.</note>
-         <note>The first leaf has a woodcut of a ship on verso.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The three English brothers Sir Thomas Sherley his trauels, vvith his three yeares imprisonment in Turkie: his inlargement by his Maiesties letters to the great Turke: and lastly, his safe returne into England this present yeare, 1607. Sir Anthony Sherley his embassage to the Christian princes. Master Robert Sherley his wars against the Turkes, with his marriage to the Emperour of Persia his neece.</title>
+      <author>Nixon, Anthony.</author>
+    </titleStmt>
+    <extent>[80] p. : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Adam Islip?]</persName>, and are to be sold by <persName type="bookseller">Iohn Hodgets</persName> in <placeName>Paules Church yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Anthony Nixon.</note>
+      <note>Printer's name conjectured by STC.</note>
+      <note>Signatures: [A]&#8308; B-K&#8308;.</note>
+      <note>The first leaf has a woodcut of a ship on verso.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iohn Hodgets</persName>
+    </person>
+    <person type="printer">
+      <persName>Adam Islip?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

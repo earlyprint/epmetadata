@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Serious and faithfull representation of the judgments of ministers of the Gospel within the the province of London contained in a letter from the to the general and his councell of war / delivered to His Excellence by some of the subscribers, Ian. 18, 1649.</title>
-         <author>Gataker, Thomas, 1574-1654.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London, and re-printed at Edinburgh by Evan Tyler ...,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date>1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Contains on p. 13-14 a list of 47 subscribers to the "Representation", headed by Thomas Gataker.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Serious and faithfull representation of the judgments of ministers of the Gospel within the the province of London contained in a letter from the to the general and his councell of war / delivered to His Excellence by some of the subscribers, Ian. 18, 1649.</title>
+      <author>Gataker, Thomas, 1574-1654.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName>, and re-printed at <placeName>Edinburgh</placeName> by <persName type="printer">Evan Tyler</persName> ...,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date>1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Contains on p. 13-14 a list of 47 subscribers to the "Representation", headed by Thomas Gataker.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

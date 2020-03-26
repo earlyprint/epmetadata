@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An introduction to the history of England comprising the principal affairs of this land, from its first planting, to the coming of the English Saxons : together with a catalogue of the British and Pictish kings / by Daniel Langhorne.</title>
-         <author>Langhorne, Daniel, d. 1681.</author>
-      </titleStmt>
-      <extent>[4], 200, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Harper, and John Amery ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes table (i.e. index).</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An introduction to the history of England comprising the principal affairs of this land, from its first planting, to the coming of the English Saxons : together with a catalogue of the British and Pictish kings / by Daniel Langhorne.</title>
+      <author>Langhorne, Daniel, d. 1681.</author>
+    </titleStmt>
+    <extent>[4], 200, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Harper</persName>, and <persName type="publisher">John Amery</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes table (i.e. index).</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Harper</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Amery</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

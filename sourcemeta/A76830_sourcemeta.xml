@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A physical dictionary in which all the terms relating either to anatomy, chirurgery, pharmacy, or chymistry are very accurately explain'd / by Stephen Blancard ...</title>
-         <author>Blankaart, Steven, 1650-1702.</author>
-      </titleStmt>
-      <extent>[8], 302 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. and are to be sold by Samuel Crouch in Popes-head-Alley, and John Gellibrand at the Golden-Ball in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.LXXXIV [1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Item at 1223:2 is variant of Wing item B3164.</note>
-         <note>Reproduction of originals in the Emmanuel College Library, Cambridge University and the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A physical dictionary in which all the terms relating either to anatomy, chirurgery, pharmacy, or chymistry are very accurately explain'd / by Stephen Blancard ...</title>
+      <author>Blankaart, Steven, 1650-1702.</author>
+    </titleStmt>
+    <extent>[8], 302 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> and are to be sold by <persName type="bookseller">Samuel Crouch</persName> in <placeName>Popes-head-Alley</placeName>, and <persName type="bookseller">John Gellibrand</persName> at <placeName>the Golden-Ball in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.LXXXIV [1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Item at 1223:2 is variant of Wing item B3164.</note>
+      <note>Reproduction of originals in the Emmanuel College Library, Cambridge University and the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Gellibrand</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Crouch</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head-Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Golden-Ball in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

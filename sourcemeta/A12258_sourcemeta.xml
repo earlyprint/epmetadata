@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heptameron, the seven dayes: that is, meditations and prayers, vpon the vvorke of the Lords creation Together with other certaine prayers and meditations, most comfortable for all estates, &amp; c. By M. A. Symson, minister at Dalkeith.</title>
-         <author>Simson, Archibald, 1564-1628.</author>
-      </titleStmt>
-      <extent>[18], 207, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Raban, printer to the Vniversitie,</publisher>
-         <pubPlace>Sainct-Andrews :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heptameron, the seven dayes: that is, meditations and prayers, vpon the vvorke of the Lords creation Together with other certaine prayers and meditations, most comfortable for all estates, &amp; c. By M. A. Symson, minister at Dalkeith.</title>
+      <author>Simson, Archibald, 1564-1628.</author>
+    </titleStmt>
+    <extent>[18], 207, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Raban</persName>, printer to <persName type="patron">the Vniversitie</persName>,</publisher>
+      <pubPlace>Sainct-Andrews :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversitie</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Raban</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

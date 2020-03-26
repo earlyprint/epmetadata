@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the consecration of the Right Reverend Father in God Ambrose Lord Bishop of Kildare in Christ-Church, Dublin, June 29, 1667 / by the right reverend father in God, Henry, Lord Bishop of Meath.</title>
-         <author>Jones, Henry, 1605-1682.</author>
-      </titleStmt>
-      <extent>[44], 31 [i.e. 42], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Crook ... and are to be sold by Samuel Dancer ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [1] at end.</note>
-         <note>Reproductions of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the consecration of the Right Reverend Father in God Ambrose Lord Bishop of Kildare in Christ-Church, Dublin, June 29, 1667 / by the right reverend father in God, Henry, Lord Bishop of Meath.</title>
+      <author>Jones, Henry, 1605-1682.</author>
+    </titleStmt>
+    <extent>[44], 31 [i.e. 42], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Crook</persName> ... and are to be sold by <persName type="bookseller">Samuel Dancer</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [1] at end.</note>
+      <note>Reproductions of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

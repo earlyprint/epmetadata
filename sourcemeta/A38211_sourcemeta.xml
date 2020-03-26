@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and reigne of our sovereign lord, King Charles the II in a compendious chronicle relating both to His Majesties person and affairs : with the chief transactions of state in the three kingdomes from his birth to this present / by a lover of his prince and countrey.</title>
-         <author>Eglesfield, Francis.</author>
-      </titleStmt>
-      <extent>[10], 334, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Daniel for Francis Eglesfield ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Epistle dedicatory signed: Fr. Eglesfield.</note>
-         <note>Errata on p. [1] at end.</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and reigne of our sovereign lord, King Charles the II in a compendious chronicle relating both to His Majesties person and affairs : with the chief transactions of state in the three kingdomes from his birth to this present / by a lover of his prince and countrey.</title>
+      <author>Eglesfield, Francis.</author>
+    </titleStmt>
+    <extent>[10], 334, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Daniel</persName> for <persName type="publisher">Francis Eglesfield</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Epistle dedicatory signed: Fr. Eglesfield.</note>
+      <note>Errata on p. [1] at end.</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Eglesfield</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Daniel</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

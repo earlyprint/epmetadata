@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The picture of a Puritane: or, A relation of the opinions, qualities, and practises of the Anabaptists in Germanie, and of the Puritanes in England VVherein is firmely prooued, that the Puritanes doe resemble the Anabaptists, in aboue fourescore seuerall thinges. By Oliuer Ormerod, of Emmanuel Colledge in Cambridge. Wherunto is annexed a short treatise, entituled, Puritano-papismus: or a discouerie of Puritan-papisme.</title>
-         <author>Ormerod, Oliver, 1580?-1626.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Newly corrected and enlarged.</edition>
-      </editionStmt>
-      <extent>[11], 76, 78-81, 32, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E[dward] A[llde] for Nathaniel Fosbroke, and are to be solde at his shop, at the west end of Paules,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Mostly paginated with even numbers on rectos.</note>
-         <note>"Puritano-papismus" (caption title) has separate pagination; register is continuous.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The picture of a Puritane: or, A relation of the opinions, qualities, and practises of the Anabaptists in Germanie, and of the Puritanes in England VVherein is firmely prooued, that the Puritanes doe resemble the Anabaptists, in aboue fourescore seuerall thinges. By Oliuer Ormerod, of Emmanuel Colledge in Cambridge. Wherunto is annexed a short treatise, entituled, Puritano-papismus: or a discouerie of Puritan-papisme.</title>
+      <author>Ormerod, Oliver, 1580?-1626.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Newly corrected and enlarged.</edition>
+    </editionStmt>
+    <extent>[11], 76, 78-81, 32, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E[dward] A[llde]</persName> for <persName type="publisher">Nathaniel Fosbroke</persName>, and are to be solde at <placeName>his shop, at the west end of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Mostly paginated with even numbers on rectos.</note>
+      <note>"Puritano-papismus" (caption title) has separate pagination; register is continuous.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Fosbroke</persName>
+    </person>
+    <person type="printer">
+      <persName>E[dward] A[llde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the west end of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

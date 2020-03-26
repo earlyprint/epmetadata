@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sovles life exercising it selfe in the sweet fields of divine meditations and prayers. Collected for the comfort of all those who willingly adventure their lives for the defence of the Gospel, in these blood-thirsty times of war.</title>
-         <author>Portman, Richard.</author>
-      </titleStmt>
-      <extent>[4], 138, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for R. Harper, and are to be sold at his shop in Smithfield,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Portman.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sovles life exercising it selfe in the sweet fields of divine meditations and prayers. Collected for the comfort of all those who willingly adventure their lives for the defence of the Gospel, in these blood-thirsty times of war.</title>
+      <author>Portman, Richard.</author>
+    </titleStmt>
+    <extent>[4], 138, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">R. Harper</persName>, and are to be sold at <placeName>his shop in Smithfield</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Portman.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Smithfield</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Puritan and the papist by a scholler in Oxford.</title>
-         <author>Cowley, Abraham, 1618-1667.</author>
-      </titleStmt>
-      <extent>[2], 9 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by H. Hall],</publisher>
-         <pubPlace>[Oxford] :</pubPlace>
-         <date>M.DC.XLIII [i.e. 1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>At head of title: A satyre.</note>
-         <note>Signed at end: A.C. [i.e. Abraham Cowley]</note>
-         <note>Imprint suggested by Wing.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Puritan and the papist by a scholler in Oxford.</title>
+      <author>Cowley, Abraham, 1618-1667.</author>
+    </titleStmt>
+    <extent>[2], 9 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">H. Hall]</persName>,</publisher>
+      <pubPlace>[Oxford] :</pubPlace>
+      <date>M.DC.XLIII [i.e. 1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>At head of title: A satyre.</note>
+      <note>Signed at end: A.C. [i.e. Abraham Cowley]</note>
+      <note>Imprint suggested by Wing.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>H. Hall]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

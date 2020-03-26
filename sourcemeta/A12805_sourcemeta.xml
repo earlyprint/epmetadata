@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The summe of the Christian religion contayning the chiefe points of the perswasion and practise of a Christian, which are needfull to his saluation. Drawne orderly in a cleare methode, and proposed in forme of question and answere. By Iohn Sprint.</title>
-         <author>Sprint, John, d. 1623.</author>
-      </titleStmt>
-      <extent>[6], 49, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Stansby for Walter Burre, and are to be sold at his shop in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: The perswasion and practise of a Christian.</note>
-         <note>A different text from STC 23432.3.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The summe of the Christian religion contayning the chiefe points of the perswasion and practise of a Christian, which are needfull to his saluation. Drawne orderly in a cleare methode, and proposed in forme of question and answere. By Iohn Sprint.</title>
+      <author>Sprint, John, d. 1623.</author>
+    </titleStmt>
+    <extent>[6], 49, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Stansby</persName> for <persName type="publisher">Walter Burre</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: The perswasion and practise of a Christian.</note>
+      <note>A different text from STC 23432.3.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Burre</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

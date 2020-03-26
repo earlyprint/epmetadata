@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached November V, MDCLXXIII, at the Abbey-Church in Westminster by John, Lord Bishop of Chester.</title>
-         <author>Pearson, John, 1613-1686.</author>
-      </titleStmt>
-      <extent>[2], 25 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Clark for John Williams, Junior ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached November V, MDCLXXIII, at the Abbey-Church in Westminster by John, Lord Bishop of Chester.</title>
+      <author>Pearson, John, 1613-1686.</author>
+    </titleStmt>
+    <extent>[2], 25 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName> for <persName type="publisher">John Williams</persName>, <persName type="publisher">Junior</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+    <person type="publisher">
+      <persName>Junior</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

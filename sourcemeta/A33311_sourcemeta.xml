@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A geographicall description of all the countries in the known vvorld as also of the greatest and famousest cities and fabricks which have been, or are now remaining : together with the greatest rivers, the strangest fountains, the various minerals, stones, trees ... which are to be found in every country : unto which is added, a description of the rarest beasts, fowls ... which are least known amongst us / collected out of the most approved authors ... by Sa. Clarke ...</title>
-         <author>Clarke, Samuel, 1599-1682.</author>
-         <author>Gaywood, Richard, fl. 1650-1680.</author>
-      </titleStmt>
-      <extent>[6], 219 [i.e. 225], [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.I. for Thomas Newberry ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLVII [1657]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Added illustrated t.p. signed: R. Gaywood.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A geographicall description of all the countries in the known vvorld as also of the greatest and famousest cities and fabricks which have been, or are now remaining : together with the greatest rivers, the strangest fountains, the various minerals, stones, trees ... which are to be found in every country : unto which is added, a description of the rarest beasts, fowls ... which are least known amongst us / collected out of the most approved authors ... by Sa. Clarke ...</title>
+      <author>Clarke, Samuel, 1599-1682.</author>
+      <author>Gaywood, Richard, fl. 1650-1680.</author>
+    </titleStmt>
+    <extent>[6], 219 [i.e. 225], [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.I.</persName> for <persName type="publisher">Thomas Newberry</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLVII [1657]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Added illustrated t.p. signed: R. Gaywood.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Newberry</persName>
+    </person>
+    <person type="printer">
+      <persName>R.I.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

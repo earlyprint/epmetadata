@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A preparation to the due consideration and reverent comming to the holy communion of the body and blood of our Lorde The contentes whereof followe in the next page.</title>
-         <author>Barker, Christopher, 1529-1599.</author>
-      </titleStmt>
-      <extent>[96] p.   </extent>
-      <publicationStmt>
-         <publisher>By Christopher Barker, printer to the Queenes most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1580.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: C. Barker.</note>
-         <note>Signatures: A-F.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A preparation to the due consideration and reverent comming to the holy communion of the body and blood of our Lorde The contentes whereof followe in the next page.</title>
+      <author>Barker, Christopher, 1529-1599.</author>
+    </titleStmt>
+    <extent>[96] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Christopher Barker</persName>, printer to <persName type="patron">the Queenes most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1580.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: C. Barker.</note>
+      <note>Signatures: A-F.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

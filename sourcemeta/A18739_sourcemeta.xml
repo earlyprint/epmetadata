@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A greatter thanks, for Churchyardes welcome home</title>
-         <author>Churchyard, Thomas, 1520?-1604.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In little Britaine by Alexander Lacy: for Arthour Pepwel, dwellyng in Paules churchyard, at the signe of the Kynges head,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1566]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: (q[uod]) playne Churchyarde, i.e. Thomas Churchyard.</note>
-         <note>Verse - "I bad not courte farewell".</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A greatter thanks, for Churchyardes welcome home</title>
+      <author>Churchyard, Thomas, 1520?-1604.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In little Britaine by <persName type="printer">Alexander Lacy:</persName> for <persName type="publisher">Arthour Pepwel</persName>, dwellyng in <placeName>Paules churchyard, at the signe of the Kynges head</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1566]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: (q[uod]) playne Churchyarde, i.e. Thomas Churchyard.</note>
+      <note>Verse - "I bad not courte farewell".</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Arthour Pepwel</persName>
+    </person>
+    <person type="printer">
+      <persName>Alexander Lacy:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules churchyard, at the signe of the Kynges head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A defence of Arch-bishop Usher against Dr. Cary and Dr. Isaac Vossius together with an introduction concerning the uncertainty of chronology ... / by John Milner.</title>
-         <author>Milner, John, 1628-1702.</author>
-      </titleStmt>
-      <extent>[2], 131 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Hays for Benj. Tooke and are to be sold by W. Graves,</publisher>
-         <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A defence of Arch-bishop Usher against Dr. Cary and Dr. Isaac Vossius together with an introduction concerning the uncertainty of chronology ... / by John Milner.</title>
+      <author>Milner, John, 1628-1702.</author>
+    </titleStmt>
+    <extent>[2], 131 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Hays</persName> for <persName type="publisher">Benj. Tooke</persName> and are to be sold by <persName type="bookseller">W. Graves</persName>,</publisher>
+      <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W. Graves</persName>
+    </person>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Hays</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

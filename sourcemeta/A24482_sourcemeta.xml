@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh's true almanack, or, A new prognostication for the year of our Lord 1692 being bissextile, or leap year ... exactly calculated for the good town of Edinburgh, the metripolitan of Scotland ... / by James Paterson ...</title>
-         <author>Paterson, James.</author>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by John Reid to be sold at his printing-house ...,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh's true almanack, or, A new prognostication for the year of our Lord 1692 being bissextile, or leap year ... exactly calculated for the good town of Edinburgh, the metripolitan of Scotland ... / by James Paterson ...</title>
+      <author>Paterson, James.</author>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Reid to be</persName> sold at <placeName>his printing-house</placeName> ...,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Reid to be</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his printing-house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

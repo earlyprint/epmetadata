@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the late rebellion in the West a heroick poem.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for P. Brooksby at the Golden Ball in Pye-Corner.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>"This may be printed September the 7th. 1685. R.L.S."</note>
-         <note>Verse: "From Belgia's shore, with a pretended claim ..."</note>
-         <note>Imperfect: cropped with slight loss of text.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the late rebellion in the West a heroick poem.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">P. Brooksby</persName> at <placeName>the Golden Ball in Pye-Corner.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>"This may be printed September the 7th. 1685. R.L.S."</note>
+      <note>Verse: "From Belgia's shore, with a pretended claim ..."</note>
+      <note>Imperfect: cropped with slight loss of text.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden Ball in Pye-Corner.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

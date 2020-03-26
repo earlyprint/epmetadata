@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of Mr Arthur Knight of Grays-Inne, gentleman; who was executed in the Covent-Garden the second day of March, 1652.</title>
-         <author>Knight, Arthur, d. 1653.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho: Heath at his shop in Russell-Street, near the Piazza's of Covent-Garden.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>[1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "March. 3.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of Mr Arthur Knight of Grays-Inne, gentleman; who was executed in the Covent-Garden the second day of March, 1652.</title>
+      <author>Knight, Arthur, d. 1653.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho: Heath</persName> at <placeName>his shop in Russell-Street, near the Piazza's of Covent-Garden.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "March. 3.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho: Heath</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Russell-Street, near the Piazza's of Covent-Garden.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

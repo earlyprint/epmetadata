@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The last sermon preached before his Maiesties funerals at Denmark house: on Tuesday the third of May. / By Phinees Hodson Dr of Diuinitie, one of his Maiesties chaplaines.</title>
-         <author>Hodson, Phineas, d. 1646.</author>
-      </titleStmt>
-      <extent>[2], 26, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M[iles] F[lesher] for Hannah Barret,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The last sermon preached before his Maiesties funerals at Denmark house: on Tuesday the third of May. / By Phinees Hodson Dr of Diuinitie, one of his Maiesties chaplaines.</title>
+      <author>Hodson, Phineas, d. 1646.</author>
+    </titleStmt>
+    <extent>[2], 26, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M[iles] F[lesher]</persName> for <persName type="publisher">Hannah Barret</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hannah Barret</persName>
+    </person>
+    <person type="printer">
+      <persName>M[iles] F[lesher]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

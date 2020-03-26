@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brefe treatyse declaryng what and where the churche is, that it is knowen, and whereby it is tryed and knowen. Made by Iohn Churchson</title>
-         <author>Churchson, John.</author>
-      </titleStmt>
-      <extent>[152] p.   </extent>
-      <publicationStmt>
-         <publisher>In Paules churchyard, at the signe of the holy Ghost, by Ihon Cawod, Printer to the Kyng and Quenes Maiesties],</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date>Anno Dom. 1556.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>John Churchson may be a pseudonym--STC.</note>
-         <note>Imprint from colophon.</note>
-         <note>Running title reads: A treatyse of the churche.</note>
-         <note>Signatures: A-I K⁴.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brefe treatyse declaryng what and where the churche is, that it is knowen, and whereby it is tryed and knowen. Made by Iohn Churchson</title>
+      <author>Churchson, John.</author>
+    </titleStmt>
+    <extent>[152] p.   </extent>
+    <publicationStmt>
+      <publisher>In Paules churchyard, at <placeName>the signe of the holy Ghost</placeName>, by <persName type="printer">Ihon Cawod</persName>, Printer to <persName type="patron">the Kyng</persName> and <persName type="patron">Quenes Maiesties]</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>Anno Dom. 1556.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>John Churchson may be a pseudonym--STC.</note>
+      <note>Imprint from colophon.</note>
+      <note>Running title reads: A treatyse of the churche.</note>
+      <note>Signatures: A-I K&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Quenes Maiesties]</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kyng</persName>
+    </person>
+    <person type="printer">
+      <persName>Ihon Cawod</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the holy Ghost</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

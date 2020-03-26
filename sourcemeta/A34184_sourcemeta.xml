@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Bishop of London his letter to the clergy of his diocess</title>
-         <author>Compton, Henry, 1632-1713.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Brome,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>"April 25, 1679."</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Imperfect: cropped, with loss of print in title.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Bishop of London his letter to the clergy of his diocess</title>
+      <author>Compton, Henry, 1632-1713.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Brome</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>"April 25, 1679."</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Imperfect: cropped, with loss of print in title.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Brome</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

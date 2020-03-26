@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A divine centurie of spirituall sonnets</title>
-         <author>Barnes, Barnabe, 1569?-1609.</author>
-      </titleStmt>
-      <extent>[62] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn VVindet [,dwelling at Powles Wharfe at the signe of the Crosse Keyes and are there to be soulde],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1595.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Bar. Barnes.</note>
-         <note>Printer's address from colophon.</note>
-         <note>Signatures: A-H⁴ (-H4, blank?).</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A divine centurie of spirituall sonnets</title>
+      <author>Barnes, Barnabe, 1569?-1609.</author>
+    </titleStmt>
+    <extent>[62] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn VVindet [</persName>,dwelling at <placeName>Powles Wharfe at the signe of the Crosse Keyes</placeName> and are there to be soulde],</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1595.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Bar. Barnes.</note>
+      <note>Printer's address from colophon.</note>
+      <note>Signatures: A-H&#8308; (-H4, blank?).</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn VVindet [</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Powles Wharfe at the signe of the Crosse Keyes</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

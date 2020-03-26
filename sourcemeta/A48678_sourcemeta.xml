@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the names of the knights, citizens, burgesses, and barons of the cinque ports that are returned to serve in the Parliament of England, begun the sixth of March, 1678/9</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Newcomb, John Starkey, and Robert Pawlet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the names of the knights, citizens, burgesses, and barons of the cinque ports that are returned to serve in the Parliament of England, begun the sixth of March, 1678/9</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Newcomb</persName>, <persName type="publisher">John Starkey</persName>, and <persName type="publisher">Robert Pawlet</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Starkey</persName>
+    </person>
+    <person type="publisher">
+      <persName>Robert Pawlet</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

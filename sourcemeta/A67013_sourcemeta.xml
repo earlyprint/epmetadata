@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The great charity of instructing poor children A sermon preached at St. Botolph Aldgate; upon Lord's-day, Mar. 24. 1700. On the occasion of a charity-school newly erected in that parish. By Josiah Woodward, minister of Popler.</title>
-         <author>Woodward, Josiah, 1660-1712.</author>
-      </titleStmt>
-      <extent>[2], vi, 24 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by K. Astwood, for Ra. Sympson, at the Harp in St. Paul's Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Durham Cathedral Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The great charity of instructing poor children A sermon preached at St. Botolph Aldgate; upon Lord's-day, Mar. 24. 1700. On the occasion of a charity-school newly erected in that parish. By Josiah Woodward, minister of Popler.</title>
+      <author>Woodward, Josiah, 1660-1712.</author>
+    </titleStmt>
+    <extent>[2], vi, 24 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">K. Astwood</persName>, for <persName type="publisher">Ra. Sympson</persName>, at <placeName>the Harp in St. Paul's Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Durham Cathedral Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ra. Sympson</persName>
+    </person>
+    <person type="printer">
+      <persName>K. Astwood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Harp in St. Paul's Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

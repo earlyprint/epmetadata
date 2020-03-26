@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of the communion of saints; preached by Edward Maie, chaplaine to the honorable societie of Lincolnes Inne</title>
-         <author>Maie, Edward.</author>
-      </titleStmt>
-      <extent>[4], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Dawson for George Lathum, and are to be sold at his shop in Pauls Church-yard, at the signe of the Brasen Serpent,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of the communion of saints; preached by Edward Maie, chaplaine to the honorable societie of Lincolnes Inne</title>
+      <author>Maie, Edward.</author>
+    </titleStmt>
+    <extent>[4], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Dawson</persName> for <persName type="publisher">George Lathum</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard, at the signe of the Brasen Serpent</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Lathum</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard, at the signe of the Brasen Serpent</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

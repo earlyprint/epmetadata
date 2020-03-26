@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short account how the kingdom of Denmark became hereditary and absolute, by a difference betwixt the Lords and Commons Published as a warning to other nations.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for A. Baldwin in Warwicklane,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short account how the kingdom of Denmark became hereditary and absolute, by a difference betwixt the Lords and Commons Published as a warning to other nations.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">A. Baldwin</persName> in <placeName>Warwicklane</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Warwicklane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

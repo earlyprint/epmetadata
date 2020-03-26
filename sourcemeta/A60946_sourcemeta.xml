@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Musica incantans, or, The power of music written originally in Latin by Dr. South, translated ; with a preface concerning the natural effects of musick upon the mind.</title>
-         <author>South, Robert, 1634-1716.</author>
-      </titleStmt>
-      <extent>[10], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Turner ... and are to be sold by John Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Errata: p. [10]</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Musica incantans, or, The power of music written originally in Latin by Dr. South, translated ; with a preface concerning the natural effects of musick upon the mind.</title>
+      <author>South, Robert, 1634-1716.</author>
+    </titleStmt>
+    <extent>[10], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Turner</persName> ... and are to be sold by <persName type="bookseller">John Nutt</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Errata: p. [10]</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Turner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

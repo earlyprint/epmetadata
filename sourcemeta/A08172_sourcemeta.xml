@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An apology for vvomen: or, Womens defence. Pend by C.N. late of Albane Hall in Oxon</title>
-         <author>C. N. (Christopher Newstead)</author>
-      </titleStmt>
-      <extent>[8], 55, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E[dward] G[riffin] for Ri. Whittakers: and are to be sold at his shop at the Kings head in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>C.N. = Christopher Newstead.</note>
-         <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: An apologie for women: or, Womens defence.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An apology for vvomen: or, Womens defence. Pend by C.N. late of Albane Hall in Oxon</title>
+      <author>C. N. (Christopher Newstead)</author>
+    </titleStmt>
+    <extent>[8], 55, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E[dward] G[riffin]</persName> for <persName type="publisher">Ri. Whittakers:</persName> and are to be sold at <placeName>his shop at the Kings head in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>C.N. = Christopher Newstead.</note>
+      <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: An apologie for women: or, Womens defence.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ri. Whittakers:</persName>
+    </person>
+    <person type="printer">
+      <persName>E[dward] G[riffin]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Kings head in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

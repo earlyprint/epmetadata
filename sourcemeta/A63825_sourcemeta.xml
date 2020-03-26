@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Forty sermons upon several occasions by the late reverend and learned Anthony Tuckney ... sometimes master of Emmanuel and St. John's Colledge (successively) and Regius professor of divinity in the University of Cambridge, published according to his own copies his son Jonathan Tuckney ...</title>
-         <title>Sermons. Selections</title>
-         <author>Tuckney, Anthony, 1599-1670.</author>
-      </titleStmt>
-      <extent>[6], 698, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Jonathan Robinson and Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Table of contents: p. [5]-[6]</note>
-         <note>Errata: p. [1] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Forty sermons upon several occasions by the late reverend and learned Anthony Tuckney ... sometimes master of Emmanuel and St. John's Colledge (successively) and Regius professor of divinity in the University of Cambridge, published according to his own copies his son Jonathan Tuckney ...</title>
+      <title>Sermons. Selections</title>
+      <author>Tuckney, Anthony, 1599-1670.</author>
+    </titleStmt>
+    <extent>[6], 698, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Jonathan Robinson</persName> and <persName type="publisher">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Table of contents: p. [5]-[6]</note>
+      <note>Errata: p. [1] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="publisher">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

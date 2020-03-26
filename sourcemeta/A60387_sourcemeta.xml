@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd at St. James's Church, Westminster, April 2, 1696, upon the discovery of the late horrid conspiracy against the person of our gracious King William by James Smalwood ...</title>
-         <author>Smalwood, James, d. 1719.</author>
-      </titleStmt>
-      <extent>[2], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author and sold by E. Whitlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published at the request of the parish."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd at St. James's Church, Westminster, April 2, 1696, upon the discovery of the late horrid conspiracy against the person of our gracious King William by James Smalwood ...</title>
+      <author>Smalwood, James, d. 1719.</author>
+    </titleStmt>
+    <extent>[2], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName> and sold by <persName type="bookseller">E. Whitlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published at the request of the parish."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

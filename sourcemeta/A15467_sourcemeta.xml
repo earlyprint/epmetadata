@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nevves from Sir Roger Williams VVith a discourse printed at Rheines [sic] containing the most happie victorie, lately obtained by the Prince de Conty, lieutenant generall ouer the kinges forces, in Aniou, touraine, Maine, Poictu, Berry, Blaysois, Vendomois, Dunois, high and lower Limosin, and Perche, against the rebellious leaguers, enemies to his Maiestie. VVhereunto is annexed the order or agreement of the Court of Parliament, held in Normandy at sundry times, and now lastly confirmed the eighteenth of August, to the vtter abolishing of the Popes authoritie, the taking away of his reuenewes, and the burning of his bulles.</title>
-         <author>Williams, Roger, Sir, 1540?-1595.</author>
-      </titleStmt>
-      <extent>19 [i.e. 17], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Woolfe, and are to be sold by Andrevv VVhite, at the Royall Exchange, ouer against the Conduit in Corne-wall,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>Anno. 1591.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages 4-5 missing in number only.</note>
-         <note>Reproduction of original in the Peterborough Cathedral. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nevves from Sir Roger Williams VVith a discourse printed at Rheines [sic] containing the most happie victorie, lately obtained by the Prince de Conty, lieutenant generall ouer the kinges forces, in Aniou, touraine, Maine, Poictu, Berry, Blaysois, Vendomois, Dunois, high and lower Limosin, and Perche, against the rebellious leaguers, enemies to his Maiestie. VVhereunto is annexed the order or agreement of the Court of Parliament, held in Normandy at sundry times, and now lastly confirmed the eighteenth of August, to the vtter abolishing of the Popes authoritie, the taking away of his reuenewes, and the burning of his bulles.</title>
+      <author>Williams, Roger, Sir, 1540?-1595.</author>
+    </titleStmt>
+    <extent>19 [i.e. 17], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Woolfe</persName>, and are to be sold by <persName type="bookseller">Andrevv VVhite</persName>, at <placeName>the Royall Exchange, ouer against the Conduit in Corne-wall</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>Anno. 1591.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages 4-5 missing in number only.</note>
+      <note>Reproduction of original in the Peterborough Cathedral. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrevv VVhite</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Woolfe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royall Exchange, ouer against the Conduit in Corne-wall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

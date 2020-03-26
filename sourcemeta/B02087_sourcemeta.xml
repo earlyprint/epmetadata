@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The King's Majesties letter to his Parliament, met at Edinburgh, 28 of July, 1670. With his Grace the Lord Commissioners speech to the said Parliament.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>[2], 8 [i.e. 6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, Printer to the King's most excelletn Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Letter from Charles II dated: The seventh day of July, one thousand six hundred and seventy.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The King's Majesties letter to his Parliament, met at Edinburgh, 28 of July, 1670. With his Grace the Lord Commissioners speech to the said Parliament.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>[2], 8 [i.e. 6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">the King's most excelletn Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Letter from Charles II dated: The seventh day of July, one thousand six hundred and seventy.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excelletn Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

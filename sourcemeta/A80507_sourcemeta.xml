@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The coppy of a letter written to the lower house of Parliament touching divers grievances and inconveniences of the state &amp;c.</title>
-      </titleStmt>
-      <extent>[2], 14, 17-26 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Iohn Dawson for Thomas Walkley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Erroneously attributed to Sir John Suckling.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The coppy of a letter written to the lower house of Parliament touching divers grievances and inconveniences of the state &amp;c.</title>
+    </titleStmt>
+    <extent>[2], 14, 17-26 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Iohn Dawson</persName> for <persName type="publisher">Thomas Walkley</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Erroneously attributed to Sir John Suckling.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Dawson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

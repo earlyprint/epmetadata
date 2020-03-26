@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A disswasive from conformity to the world as also God's severity against impenitent sinners : with a farewel sermon lately preached to a congregation in London / by Henry Stubs.</title>
-         <author>Stubbes, Henry, 1606?-1678.</author>
-      </titleStmt>
-      <extent>[8], 224 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by John Hancock Senior and Junior,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A disswasive from conformity to the world as also God's severity against impenitent sinners : with a farewel sermon lately preached to a congregation in London / by Henry Stubs.</title>
+      <author>Stubbes, Henry, 1606?-1678.</author>
+    </titleStmt>
+    <extent>[8], 224 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">John Hancock</persName> Senior</persName> and <persName type="bookseller">Junior</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Hancock Senior</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Junior</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hancock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

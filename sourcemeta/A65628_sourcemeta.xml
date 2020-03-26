@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Select sermons of Dr. Whichcot [sic] in two parts.</title>
-         <title>Sermons. Selections</title>
-         <author>Whichcote, Benjamin, 1609-1683.</author>
-         <author>Shaftesbury, Anthony Ashley Cooper, Earl of, 1671-1713.</author>
-      </titleStmt>
-      <extent>[21], 452 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Awnsham and John Churchill ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by Lord Shaftesbury.</note>
-         <note>Errata: p. [21].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Select sermons of Dr. Whichcot [sic] in two parts.</title>
+      <title>Sermons. Selections</title>
+      <author>Whichcote, Benjamin, 1609-1683.</author>
+      <author>Shaftesbury, Anthony Ashley Cooper, Earl of, 1671-1713.</author>
+    </titleStmt>
+    <extent>[21], 452 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Awnsham</persName> and <persName type="publisher">John Churchill</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by Lord Shaftesbury.</note>
+      <note>Errata: p. [21].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

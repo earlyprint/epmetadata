@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The laudable life and deplorable death, of our late peerlesse Prince Henry. briefly represented Together, with some other poemes, in honor both of our most gracious soueraigne King Iames his auspicious entrie to this crowne, and also of his hopefull children, Prince Charles and Princesse Elizabeths happy entrie into this world. By I.M. Master of Artes.</title>
-         <author>Maxwell, James, b. 1581.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw: Allde, for Thomas Pauier, dwelling neere the Royall Exchange, at the signe of the Cats and parrat,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iames Maxwell.</note>
-         <note>Mostly in verse.</note>
-         <note>Signatures: [A]²  B-F⁴.</note>
-         <note>Reproduction of the original in Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The laudable life and deplorable death, of our late peerlesse Prince Henry. briefly represented Together, with some other poemes, in honor both of our most gracious soueraigne King Iames his auspicious entrie to this crowne, and also of his hopefull children, Prince Charles and Princesse Elizabeths happy entrie into this world. By I.M. Master of Artes.</title>
+      <author>Maxwell, James, b. 1581.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw: Allde</persName>, for <persName type="publisher">Thomas Pauier</persName>, dwelling neere <placeName>the Royall Exchange, at the signe of the Cats</placeName> and parrat,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iames Maxwell.</note>
+      <note>Mostly in verse.</note>
+      <note>Signatures: [A]&#178;  B-F&#8308;.</note>
+      <note>Reproduction of the original in Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Pauier</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw: Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royall Exchange, at the signe of the Cats</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

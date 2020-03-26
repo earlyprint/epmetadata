@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Paroemiologia Anglo-Latina in usum scholarum concinnata. Or proverbs English, and Latine, methodically disposed according to the common-place heads, in Erasmus his adages. Very use-full and delightful for all sorts of men, on all occasions. More especially profitable for scholars for the attaining elegancie, sublimitie, and varietie of the best expressions.</title>
-         <author>Clarke, John, d. 1658.</author>
-      </titleStmt>
-      <extent>[16], 329, [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston for Robert Mylbourne, and are to be sold at the signe of the Vncorne [sic] neere Fleet-bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes index.</note>
-         <note>Running title reads: Adagia Anglo-Latina.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Paroemiologia Anglo-Latina in usum scholarum concinnata. Or proverbs English, and Latine, methodically disposed according to the common-place heads, in Erasmus his adages. Very use-full and delightful for all sorts of men, on all occasions. More especially profitable for scholars for the attaining elegancie, sublimitie, and varietie of the best expressions.</title>
+      <author>Clarke, John, d. 1658.</author>
+    </titleStmt>
+    <extent>[16], 329, [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName> for <persName type="publisher">Robert Mylbourne</persName>, and are to be sold at <placeName>the signe of the Vncorne [sic] neere Fleet-bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes index.</note>
+      <note>Running title reads: Adagia Anglo-Latina.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Mylbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Vncorne [sic] neere Fleet-bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

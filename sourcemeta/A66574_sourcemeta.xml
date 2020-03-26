@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To His Excellence Richard Earle of Arran &amp;c. Lord Deputy of Ireland, a poem</title>
-         <author>Wilson, John, 1626-1696.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed at His Majesties printing-house for Joseph Wild bookseller in Castle-Street,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: J. Wilson.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To His Excellence Richard Earle of Arran &amp;c. Lord Deputy of Ireland, a poem</title>
+      <author>Wilson, John, 1626-1696.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed at <placeName>His Majesties printing-house</placeName> for <persName type="publisher">Joseph Wild</persName> bookseller in <placeName>Castle-Street</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: J. Wilson.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Wild</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-Street</placeName>
+    </place>
+    <place type="location">
+      <placeName>His Majesties printing-house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

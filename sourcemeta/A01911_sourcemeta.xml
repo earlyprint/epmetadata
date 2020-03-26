@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir Gyles Goosecappe Knight A comedie presented by the Chil: of the Chappell.</title>
-         <author>Chapman, George, 1559?-1634.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Windet for Edward Blunt,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to George Chapman.</note>
-         <note>Signatures: A-I⁴ K² .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sir Gyles Goosecappe Knight A comedie presented by the Chil: of the Chappell.</title>
+      <author>Chapman, George, 1559?-1634.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Windet</persName> for <persName type="publisher">Edward Blunt</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to George Chapman.</note>
+      <note>Signatures: A-I&#8308; K&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blunt</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

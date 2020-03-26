@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Britannian magazine: or, A new art of making above twenty sorts of English wines viz, of apples, pears, peaches, cherries, plums, sloes, damasins, quinces, figgs, goosberries, mulberries, currens, blackberries, elderberries, roses, carnations, cowslips, scurvy-grass, mint, and balm, &amp;c. More pleasant and agreeable to the English constitution than those of France. With the way of making brandy and other spirits: as likewise how to make artificial clarets, rhenish, &amp;c. The second edition. To which is added, the foundation of the art of distillation: or the true and genuine way of making malt into low-wines, proof-spirits, and brandy-wines, compliant to the late act of Parliament concerning distillation. By W.Y. M.D.</title>
-         <author>Y-Worth, W. (William)</author>
-      </titleStmt>
-      <extent>[58], 153, [27] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W. Onely, for T. Salusbury, at the King's Arms, in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>W.Y. = William Y-Worth.</note>
-         <note>List of fruits and plants on title page within brackets.</note>
-         <note>Running-title reads: "A new art of making wines, brandy, &amp;c.".</note>
-         <note>With a preliminary advertisement leaf.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Britannian magazine: or, A new art of making above twenty sorts of English wines viz, of apples, pears, peaches, cherries, plums, sloes, damasins, quinces, figgs, goosberries, mulberries, currens, blackberries, elderberries, roses, carnations, cowslips, scurvy-grass, mint, and balm, &amp;c. More pleasant and agreeable to the English constitution than those of France. With the way of making brandy and other spirits: as likewise how to make artificial clarets, rhenish, &amp;c. The second edition. To which is added, the foundation of the art of distillation: or the true and genuine way of making malt into low-wines, proof-spirits, and brandy-wines, compliant to the late act of Parliament concerning distillation. By W.Y. M.D.</title>
+      <author>Y-Worth, W. (William)</author>
+    </titleStmt>
+    <extent>[58], 153, [27] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Onely</persName>, for <persName type="publisher">T. Salusbury</persName>, at <placeName>the King's Arms, in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>W.Y. = William Y-Worth.</note>
+      <note>List of fruits and plants on title page within brackets.</note>
+      <note>Running-title reads: "A new art of making wines, brandy, &amp;c.".</note>
+      <note>With a preliminary advertisement leaf.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Salusbury</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Onely</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the King's Arms, in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

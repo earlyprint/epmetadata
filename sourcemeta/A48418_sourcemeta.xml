@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Life of Michael Adrian de Ruyter, Admiral of Holland</title>
-      </titleStmt>
-      <extent>[3], 115, [1] p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J.B. for Dorman Newman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement on p. [1] at end.</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Life of Michael Adrian de Ruyter, Admiral of Holland</title>
+    </titleStmt>
+    <extent>[3], 115, [1] p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.B.</persName> for <persName type="publisher">Dorman Newman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement on p. [1] at end.</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Dorman Newman</persName>
+    </person>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

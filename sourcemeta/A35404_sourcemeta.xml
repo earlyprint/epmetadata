@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The advantages which will manifestly accrue to this kingdom by abatement of interest from six to four per. cent</title>
-         <author>Culpeper, Thomas, Sir, 1626-1697.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by T.L. for Christopher Wilkinson, at the Black-Boy over against St. Dunstans Church in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: T. C. (i.e. Sir Thomas Culpeper).</note>
-         <note>Reproduction of the original in the Goldsmiths' Library, University of London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The advantages which will manifestly accrue to this kingdom by abatement of interest from six to four per. cent</title>
+      <author>Culpeper, Thomas, Sir, 1626-1697.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.L.</persName> for <persName type="publisher">Christopher Wilkinson</persName>, at <placeName>the Black-Boy over against St. Dunstans Church in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: T. C. (i.e. Sir Thomas Culpeper).</note>
+      <note>Reproduction of the original in the Goldsmiths' Library, University of London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Wilkinson</persName>
+    </person>
+    <person type="printer">
+      <persName>T.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-Boy over against St. Dunstans Church in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

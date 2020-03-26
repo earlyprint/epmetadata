@@ -1,17 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Familie [sic] exercise, or, The service of God in families.</title>
-      </titleStmt>
-      <extent>[27] p.   </extent>
-      <publicationStmt>
-         <publisher>and printed there by Robert Bryson and are to be sold at his shop ...,</publisher>
-         <pubPlace>For Edinburgh, :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Familie [sic] exercise, or, The service of God in families.</title>
+    </titleStmt>
+    <extent>[27] p.   </extent>
+    <publicationStmt>
+      <publisher>and printed there by <persName type="printer">Robert Bryson</persName> and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>For Edinburgh, :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Bryson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise in iustification of the King.</title>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield. Printer to the university,</publisher>
-         <pubPlace>Oxford [i.e. London] :</pubPlace>
-         <date>1642. [i.e. 1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The writer, in spite of his subject, was very anxious to avoid giving offence to the Parliament, and was clearly a resident in London, where this piece was no doubt printed with a counterfeit imprint. -- Cf. Madan.</note>
-         <note>Place and date of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "feb: 3d".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise in iustification of the King.</title>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield.</persName> Printer to <persName type="patron">the university</persName>,</publisher>
+      <pubPlace>Oxford [i.e. London] :</pubPlace>
+      <date>1642. [i.e. 1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The writer, in spite of his subject, was very anxious to avoid giving offence to the Parliament, and was clearly a resident in London, where this piece was no doubt printed with a counterfeit imprint. -- Cf. Madan.</note>
+      <note>Place and date of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "feb: 3d".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the university</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

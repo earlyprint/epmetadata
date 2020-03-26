@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The grand oppressor, or the terror of tithes; first felt, and now confest: By William Erberie.</title>
-         <author>Erbery, William, 1604-1654.</author>
-      </titleStmt>
-      <extent>[2], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.D. for Giles Calvert, and are to be sold at the sign of the Black Spread-Eagle at the West End of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Section beginning on p.[17] has title: "The sword doubled to cut off both the righteous and the wicked .. 1652".</note>
-         <note>Annotation on Thomason copy: "July 21".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The grand oppressor, or the terror of tithes; first felt, and now confest: By William Erberie.</title>
+      <author>Erbery, William, 1604-1654.</author>
+    </titleStmt>
+    <extent>[2], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.D.</persName> for <persName type="publisher">Giles Calvert</persName>, and are to be sold at <placeName>the sign of the Black Spread-Eagle at the West End of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Section beginning on p.[17] has title: "The sword doubled to cut off both the righteous and the wicked .. 1652".</note>
+      <note>Annotation on Thomason copy: "July 21".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Giles Calvert</persName>
+    </person>
+    <person type="printer">
+      <persName>G.D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Black Spread-Eagle at the West End of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

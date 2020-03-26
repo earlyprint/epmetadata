@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVil: Bagnal's ghost. Or the merry devill of Gadmunton. In his perambulation of the prisons of London. / By E. Gayton, Esq;.</title>
-         <author>Gayton, Edmund, 1606-1666.</author>
-      </titleStmt>
-      <extent>[4], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilson, for Thomas Johnson at the Golden-Key in St. Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Annotation on Thomason copy: "December. 1.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVil: Bagnal's ghost. Or the merry devill of Gadmunton. In his perambulation of the prisons of London. / By E. Gayton, Esq;.</title>
+      <author>Gayton, Edmund, 1606-1666.</author>
+    </titleStmt>
+    <extent>[4], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilson</persName>, for <persName type="publisher">Thomas Johnson</persName> at <placeName>the Golden-Key in St. Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Annotation on Thomason copy: "December. 1.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Johnson</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden-Key in St. Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

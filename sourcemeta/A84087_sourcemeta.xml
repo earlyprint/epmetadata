@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pearls of eloquence, or, The school of complements Wherein ladies, gentlewomen, and schollars, may accommodate their courtly practice with gentile ceremonies, complemental, amorous, and high expressions of speaking, or writing of letters. By VV. Elder, Gent.</title>
-         <author>Elder, William, fl. 1680-1700.</author>
-         <author>J. G. (John Gough), fl. 1640, attributed name.</author>
-      </titleStmt>
-      <extent>[4], 128 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed for T. Lock, and are to be sold by Henry Eversden, at the Grey-Hound in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLVI. [1656]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With additional engraved title page.</note>
-         <note>A reissue, with cancel bifolium replacing title page, of the 1655 edition.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pearls of eloquence, or, The school of complements Wherein ladies, gentlewomen, and schollars, may accommodate their courtly practice with gentile ceremonies, complemental, amorous, and high expressions of speaking, or writing of letters. By VV. Elder, Gent.</title>
+      <author>Elder, William, fl. 1680-1700.</author>
+      <author>J. G. (John Gough), fl. 1640, attributed name.</author>
+    </titleStmt>
+    <extent>[4], 128 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">T. Lock</persName>, and are to be sold by <persName type="bookseller">Henry Eversden</persName>, at <placeName>the Grey-Hound in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLVI. [1656]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With additional engraved title page.</note>
+      <note>A reissue, with cancel bifolium replacing title page, of the 1655 edition.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Henry Eversden</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Lock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Grey-Hound in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some queries for the better understanding of a list of King James's Irish and Popish forces in France, ready (when called for:) in answer to an argument against a land--force, writ by A, B, C, D, E, F, G, or to whatever has been, or ever shall be, writ upon that subject,</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Jones in the Savoy,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some queries for the better understanding of a list of King James's Irish and Popish forces in France, ready (when called for:) in answer to an argument against a land--force, writ by A, B, C, D, E, F, G, or to whatever has been, or ever shall be, writ upon that subject,</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edw. Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

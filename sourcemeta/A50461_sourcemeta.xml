@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A conference betwixt a papist and a Jew, or, A letter from a merchant in London, to his correspondent in Amsterdam</title>
-         <author>Mayo, Richard, 1631?-1695.</author>
-         <author>N. H.</author>
-         <author>Jacob, John, 17th cent.</author>
-      </titleStmt>
-      <extent>[4], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. M. and R. R. for Tho. Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: N. H.</note>
-         <note>Attributed to Richard Mayo.  Cf. BM.</note>
-         <note>Also attributed to John Jacob.  Cf. Halkett &amp; Laing.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A conference betwixt a papist and a Jew, or, A letter from a merchant in London, to his correspondent in Amsterdam</title>
+      <author>Mayo, Richard, 1631?-1695.</author>
+      <author>N. H.</author>
+      <author>Jacob, John, 17th cent.</author>
+    </titleStmt>
+    <extent>[4], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. M.</persName> and <persName type="printer">R. R.</persName> for <persName type="publisher">Tho. Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: N. H.</note>
+      <note>Attributed to Richard Mayo.  Cf. BM.</note>
+      <note>Also attributed to John Jacob.  Cf. Halkett &amp; Laing.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>A. M.</persName>
+    </person>
+    <person type="printer">
+      <persName>R. R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

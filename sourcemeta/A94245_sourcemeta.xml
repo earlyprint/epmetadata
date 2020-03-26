@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A scheme of Popish cruelties or A prospect of what wee must expect under a Popish successor</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (metalcut)  </extent>
-      <publicationStmt>
-         <publisher>printed for N. Tomlinson in Thames Street, and are to be sold by all the Protestant booksellers in London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1681?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A scheme of Popish cruelties or A prospect of what wee must expect under a Popish successor</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (metalcut)  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">N. Tomlinson</persName> in <placeName>Thames Street</placeName>, and are to be sold by <persName type="bookseller">all the Protestant booksellers</persName> in <placeName>London</placeName> and Westminster,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1681?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>all the Protestant booksellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>N. Tomlinson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Thames Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

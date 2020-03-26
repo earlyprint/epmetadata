@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mineralogia, or, An account of the preparation, manifold vertues and uses of a mineral salt, both in physick and chyrurgery which is so safe, pleasant and effectual in its operation, that it may be taken by those of all ages and constitutions with great benefit ... to which is added a short discourse of the nature and uses of the sulphurs of minerals and metals ... / by Chr. Packe ...</title>
-         <author>Packe, Christopher, fl. 1670-1711.</author>
-      </titleStmt>
-      <extent>[2], 65 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by D. Newman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print showthrough with loss of print.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mineralogia, or, An account of the preparation, manifold vertues and uses of a mineral salt, both in physick and chyrurgery which is so safe, pleasant and effectual in its operation, that it may be taken by those of all ages and constitutions with great benefit ... to which is added a short discourse of the nature and uses of the sulphurs of minerals and metals ... / by Chr. Packe ...</title>
+      <author>Packe, Christopher, fl. 1670-1711.</author>
+    </titleStmt>
+    <extent>[2], 65 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">D. Newman</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print showthrough with loss of print.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>D. Newman</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Newman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

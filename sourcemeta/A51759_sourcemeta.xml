@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The voyages &amp; travels of Sir John Mandevile, Knight wherein is set down the way to the Holy Land, and to Hierusalem, as also to the lands of the great Caan, and of Prestor John, to Inde, and divers other countries : together with many strange marvels therein.</title>
-         <author>Mandeville, John, Sir.</author>
-         <author>Jean, d'Outremeuse, 1338-ca. 1399.</author>
-      </titleStmt>
-      <extent>[150] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Scott, T. Basset, J. Wright, and R. Chiswel,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The French original of Mandeville's travels has been ascribed to Jean d'Outreneuse.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The voyages &amp; travels of Sir John Mandevile, Knight wherein is set down the way to the Holy Land, and to Hierusalem, as also to the lands of the great Caan, and of Prestor John, to Inde, and divers other countries : together with many strange marvels therein.</title>
+      <author>Mandeville, John, Sir.</author>
+      <author>Jean, d'Outremeuse, 1338-ca. 1399.</author>
+    </titleStmt>
+    <extent>[150] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Scott</persName>, <persName type="publisher">T. Basset</persName>, <persName type="publisher">J. Wright</persName>, and <persName type="publisher">R. Chiswel</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The French original of Mandeville's travels has been ascribed to Jean d'Outreneuse.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Chiswel</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Scott</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Basset</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

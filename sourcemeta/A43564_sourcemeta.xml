@@ -1,21 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Miscellany poems by Tho. Heyrick ...</title>
-         <title>Poems. Selections</title>
-         <author>Heyrick, Thomas, d. 1694.</author>
-         <author>Heyrick, Thomas, d. 1694. Submarine voyage.</author>
-      </titleStmt>
-      <extent>[2], xxii, 112, [4], 67 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Hayes for the author, and are to be sold by Francis Hicks ... and by Thomas Basset ... and Samuel Heyrick ...,</publisher>
-         <pubPlace>Cambridge :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The submarine voyage : a Pindarick poem in four parts ... 1691" has special t.p.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Miscellany poems by Tho. Heyrick ...</title>
+      <title>Poems. Selections</title>
+      <author>Heyrick, Thomas, d. 1694.</author>
+      <author>Heyrick, Thomas, d. 1694. Submarine voyage.</author>
+    </titleStmt>
+    <extent>[2], xxii, 112, [4], 67 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Hayes</persName> for <persName type="publisher">the author</persName>, and are to be sold by Francis Hicks ... and by <persName type="printer">Thomas Basset</persName> ... and <persName type="publisher">Samuel Heyrick</persName> ...,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The submarine voyage : a Pindarick poem in four parts ... 1691" has special t.p.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Hicksand</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuel Heyrick</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hayes</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Basset</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

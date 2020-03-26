@@ -1,28 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of Cambria, now called Wales: a part of the most famous yland of Brytaine, written in the Brytish language aboue two hundreth yeares past: translated into English by H. Lhoyd Gentleman: corrected, augmented, and continued out of records and best approoued authors, by Dauid Powel Doctor in diuinitie</title>
-         <author>Caradoc, of Llancarvan, d. 1147?</author>
-         <author>Powell, David, 1552?-1598.</author>
-         <author>Llwyd, Humphrey, 1527-1568.</author>
-         <author>Price, John, Sir, 1502?-1555.</author>
-      </titleStmt>
-      <extent>[16], 22, [2], 401, [15] p. : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>1584 imprinted at London by Rafe Newberie and Henrie Denham,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>[1584]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"It is .. more likely that Caradog wrote his work in Latin than in Welsh" (DNB). The original is not known. This English version was in fact assembled and translated by Llwyd from various Welsh sources and expanded by Powell.</note>
-         <note>At foot of title: Cum priuilegio.</note>
-         <note>Imprint from colophon.</note>
-         <note>"A description of Cambria" (A1-B3) is a revision, by Humphrey Llwyd, of a work by Sir John Price.</note>
-         <note>"Cadwalader. The beginning of the principalitie and gouernement of VVales" (caption title) begins new pagination on C1r.</note>
-         <note>Includes index.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of Cambria, now called Wales: a part of the most famous yland of Brytaine, written in the Brytish language aboue two hundreth yeares past: translated into English by H. Lhoyd Gentleman: corrected, augmented, and continued out of records and best approoued authors, by Dauid Powel Doctor in diuinitie</title>
+      <author>Caradoc, of Llancarvan, d. 1147?</author>
+      <author>Powell, David, 1552?-1598.</author>
+      <author>Llwyd, Humphrey, 1527-1568.</author>
+      <author>Price, John, Sir, 1502?-1555.</author>
+    </titleStmt>
+    <extent>[16], 22, [2], 401, [15] p. : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>1584 imprinted at <placeName>London</placeName> by <persName type="printer">Rafe Newberie</persName> and <persName type="printer">Henrie Denham</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>[1584]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"It is .. more likely that Caradog wrote his work in Latin than in Welsh" (DNB). The original is not known. This English version was in fact assembled and translated by Llwyd from various Welsh sources and expanded by Powell.</note>
+      <note>At foot of title: Cum priuilegio.</note>
+      <note>Imprint from colophon.</note>
+      <note>"A description of Cambria" (A1-B3) is a revision, by Humphrey Llwyd, of a work by Sir John Price.</note>
+      <note>"Cadwalader. The beginning of the principalitie and gouernement of VVales" (caption title) begins new pagination on C1r.</note>
+      <note>Includes index.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henrie Denham</persName>
+    </person>
+    <person type="printer">
+      <persName>Rafe Newberie</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

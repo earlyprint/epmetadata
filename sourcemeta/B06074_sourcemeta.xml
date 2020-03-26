@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, anent tenents and others who shall be removed for not taking, the band to live orderly.</title>
-         <author>Scotland. Committee of the West.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Sanders, Printer to the City and University,</publisher>
-         <pubPlace>Glasgow :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Dated at end: Given under our Signet at our burgh of Air on the eleventh day of February 1678, and of our Reigne, the threttie year. Signed: Hugh Stevensone, Cl. Com.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, anent tenents and others who shall be removed for not taking, the band to live orderly.</title>
+      <author>Scotland. Committee of the West.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Sanders</persName>, Printer to <persName type="patron">the City</persName> and <persName type="patron">University</persName>,</publisher>
+      <pubPlace>Glasgow :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Dated at end: Given under our Signet at our burgh of Air on the eleventh day of February 1678, and of our Reigne, the threttie year. Signed: Hugh Stevensone, Cl. Com.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>University</persName>
+    </person>
+    <person type="patron">
+      <persName>the City</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Sanders</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

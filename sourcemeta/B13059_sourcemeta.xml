@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation prohibiting the making vp of girdles, belts, hangers, and other vvares for mens wearing, or for vvarre-seruice, with brasse-buckles.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2] p.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, printer to the Kings most excellent Maiestie: and by the assignes of Iohn Bill,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>M.DC.XXXII. [1632, i.e. 1633]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Dated at end: VVhitehall the twelfth day of Ianuary, in the eighth yeere of the reigne of our soueraigne lord, Charles ..</note>
-         <note>Imprint from colophon; the imprint year is given according to Lady Day dating.</note>
-         <note>Arms 24; Steele notation: Com- uings, 2) Iron de-.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation prohibiting the making vp of girdles, belts, hangers, and other vvares for mens wearing, or for vvarre-seruice, with brasse-buckles.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings most excellent Maiestie: and</persName> by the assignes of <persName type="assigns">Iohn Bill</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>M.DC.XXXII. [1632, i.e. 1633]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Dated at end: VVhitehall the twelfth day of Ianuary, in the eighth yeere of the reigne of our soueraigne lord, Charles ..</note>
+      <note>Imprint from colophon; the imprint year is given according to Lady Day dating.</note>
+      <note>Arms 24; Steele notation: Com- uings, 2) Iron de-.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie: and</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

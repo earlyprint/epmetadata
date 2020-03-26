@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mikrokosmos A little description of the great world. Augmented and reuised. By Peter Heylyn.</title>
-         <author>Heylyn, Peter, 1600-1662.</author>
-      </titleStmt>
-      <extent>[16], 380, 391-812, [2] p., folded table   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield and William Turner, and are to be sold by W. Turner and T. Huggins,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>an. Dom. 1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title in Greek characters.</note>
-         <note>Includes indexes.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mikrokosmos A little description of the great world. Augmented and reuised. By Peter Heylyn.</title>
+      <author>Heylyn, Peter, 1600-1662.</author>
+    </titleStmt>
+    <extent>[16], 380, 391-812, [2] p., folded table   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName> and <persName type="printer">William Turner</persName>, and are to be sold by <persName type="bookseller">W. Turner</persName> and <persName type="bookseller">T. Huggins</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>an. Dom. 1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title in Greek characters.</note>
+      <note>Includes indexes.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Huggins</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Turner</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+    <person type="printer">
+      <persName>William Turner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

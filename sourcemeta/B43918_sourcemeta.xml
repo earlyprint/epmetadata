@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act anent those who are or shall be found fugitives and run-awayes from their companies and colours</title>
-         <author>Scotland. Convention of Estates.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Evan Tyler, printer to the Kings most excellent Majestie,</publisher>
-         <pubPlace>Printed at Edinburgh :</pubPlace>
-         <date>anno Dom. 1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act anent those who are or shall be found fugitives and run-awayes from their companies and colours</title>
+      <author>Scotland. Convention of Estates.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the Kings most excellent Majestie</persName>,</publisher>
+      <pubPlace>Printed at Edinburgh :</pubPlace>
+      <date>anno Dom. 1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

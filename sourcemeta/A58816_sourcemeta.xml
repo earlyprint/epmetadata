@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the assizes at Chelmsford, in the county of Essex, August 31, 1685 before the Honourable Sir Thomas Street, Kt., one of the judges of His Majesty's Court of Common Pleas / by John Scott ...</title>
-         <author>Scott, John, 1639-1695.</author>
-      </titleStmt>
-      <extent>[4], 32, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Rob. Horn ... and Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1] at end.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the assizes at Chelmsford, in the county of Essex, August 31, 1685 before the Honourable Sir Thomas Street, Kt., one of the judges of His Majesty's Court of Common Pleas / by John Scott ...</title>
+      <author>Scott, John, 1639-1695.</author>
+    </titleStmt>
+    <extent>[4], 32, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Rob. Horn</persName> ... and <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1] at end.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rob. Horn</persName>
+    </person>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

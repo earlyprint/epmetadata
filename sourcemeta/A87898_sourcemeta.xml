@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Physician cure thy self: or, An answer to a seditious pamphlet, entitled Eye-salve for the English Army, &amp;c. VVritten and publish'd for the information and benefit of the souldjery; and to them directed. April 23. 1660.</title>
-         <author>L'Estrange, Roger, Sir, 1616-1704.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for H.B. at the Gun in Ivy-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Sir Roger L'Estrange.</note>
-         <note>Annotation on Thomason copy: "April. 27".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Physician cure thy self: or, An answer to a seditious pamphlet, entitled Eye-salve for the English Army, &amp;c. VVritten and publish'd for the information and benefit of the souldjery; and to them directed. April 23. 1660.</title>
+      <author>L'Estrange, Roger, Sir, 1616-1704.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">H.B.</persName> at <placeName>the Gun in Ivy-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Sir Roger L'Estrange.</note>
+      <note>Annotation on Thomason copy: "April. 27".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Gun in Ivy-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

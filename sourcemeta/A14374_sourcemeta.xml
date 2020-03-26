@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plea for peace: or A sermon preached in St. Pauls Church in London. Iuly 9. 1637. By Henry Vertue, parson of the parish church of Alhollowes Honey-Lane in London</title>
-         <author>Vertue, Henry, d. 1660.</author>
-      </titleStmt>
-      <extent>[4], 62 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. F[lesher] for Iohn Clark neare S. Peters Church  in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Errata on I1v, final leaf.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plea for peace: or A sermon preached in St. Pauls Church in London. Iuly 9. 1637. By Henry Vertue, parson of the parish church of Alhollowes Honey-Lane in London</title>
+      <author>Vertue, Henry, d. 1660.</author>
+    </titleStmt>
+    <extent>[4], 62 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. F[lesher]</persName> for <persName type="publisher">Iohn Clark</persName> neare <placeName>S. Peters Church  in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Errata on I1v, final leaf.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Clark</persName>
+    </person>
+    <person type="printer">
+      <persName>M. F[lesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Peters Church  in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

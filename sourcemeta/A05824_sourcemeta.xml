@@ -1,25 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[The primer in English.]</title>
-         <title>Book of hours. English</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <extent>[8] leaves   </extent>
-      <publicationStmt>
-         <publisher>By Rychard Grafyton dwellynge within the circuite of the late Grayfryers, prynter to the Prynces grace,</publisher>
-         <pubPlace>[Imprynted in London :</pubPlace>
-         <date>[1545?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from STC.</note>
-         <note>Imprint from colophon; STC suggests publication date as 1544-1545.</note>
-         <note>Based on STC 16015, a composite version--STC.</note>
-         <note>Formerly STC 16031.</note>
-         <note>Identified as STC 16031 on UMI microfilm.</note>
-         <note>Imperfect; a fragment; 8 leaves from quires t-u only.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[The primer in English.]</title>
+      <title>Book of hours. English</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <extent>[8] leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Rychard Grafyton</persName> dwellynge within <placeName>the circuite of the late Grayfryers, prynter to the Prynces grace</placeName>,</publisher>
+      <pubPlace>[Imprynted in London :</pubPlace>
+      <date>[1545?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from STC.</note>
+      <note>Imprint from colophon; STC suggests publication date as 1544-1545.</note>
+      <note>Based on STC 16015, a composite version--STC.</note>
+      <note>Formerly STC 16031.</note>
+      <note>Identified as STC 16031 on UMI microfilm.</note>
+      <note>Imperfect; a fragment; 8 leaves from quires t-u only.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Rychard Grafyton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the circuite of the late Grayfryers, prynter to the Prynces grace</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

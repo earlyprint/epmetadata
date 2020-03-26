@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Duke of Millaine A tragædie. As it hath beene often acted by his Maiesties seruants, at the blacke Friers. Written by Philip Massinger Gent.</title>
-         <author>Massinger, Philip, 1583-1640.</author>
-      </titleStmt>
-      <extent>[96] p.   </extent>
-      <publicationStmt>
-         <publisher>Prinred [sic] by B[ernard] A[lsop] for Edward Blackmore, and are to be sold at his shop at the great south doore of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A²  chi²  B-M⁴. Chi2 is blank, and may occur folded around the back of quire A.</note>
-         <note>Variant: title page has "tragedie .. Messenger".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Duke of Millaine A trag&#230;die. As it hath beene often acted by his Maiesties seruants, at the blacke Friers. Written by Philip Massinger Gent.</title>
+      <author>Massinger, Philip, 1583-1640.</author>
+    </titleStmt>
+    <extent>[96] p.   </extent>
+    <publicationStmt>
+      <publisher>Prinred [sic] by <persName type="printer">B[ernard] A[lsop]</persName> for <persName type="publisher">Edward Blackmore</persName>, and are to be sold at <placeName>his shop at the great south doore of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#178;  chi&#178;  B-M&#8308;. Chi2 is blank, and may occur folded around the back of quire A.</note>
+      <note>Variant: title page has "tragedie .. Messenger".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blackmore</persName>
+    </person>
+    <person type="printer">
+      <persName>B[ernard] A[lsop]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the great south doore of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

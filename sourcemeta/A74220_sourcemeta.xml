@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords and Commons assembled in Parliament. Martis ult. Februarii, 1642 The Lords and Commons taking into consideration the miserable distractions and calamities with which this whole kingdome and nation is now infected, ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>March 1. London printed for John Wright, in the Old-baily,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1642. [i.e.1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Date of publication from Steele.</note>
-         <note>A declaration of Parliament for postponement of the assizes.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords and Commons assembled in Parliament. Martis ult. Februarii, 1642 The Lords and Commons taking into consideration the miserable distractions and calamities with which this whole kingdome and nation is now infected, ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>March 1. London printed for <persName type="publisher">John Wright</persName>, in <placeName>the Old-baily</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1642. [i.e.1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Date of publication from Steele.</note>
+      <note>A declaration of Parliament for postponement of the assizes.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

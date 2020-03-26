@@ -1,17 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A breviate of the proceedings of France, from the Pyrenaean Treaty to this time as also I. The speech of Monsieur Zierowsky, the Emperor's Embassador to the King of Poland, II. A memorial presented by the said Embassador to the King of Poland, III. A letter from Monsieur Du Vernay to Count Tekeley, IV. A letter from Count Tekeley to Monsieur Du Vernay, V. A letter from Monsieur Peter Jaigel, Governour of Cassovia, to Monsieur De Vernay.</title>
-      </titleStmt>
-      <extent>[6], 185 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Cologne, and reprinted at London, to be sold by Walter Davies ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A breviate of the proceedings of France, from the Pyrenaean Treaty to this time as also I. The speech of Monsieur Zierowsky, the Emperor's Embassador to the King of Poland, II. A memorial presented by the said Embassador to the King of Poland, III. A letter from Monsieur Du Vernay to Count Tekeley, IV. A letter from Count Tekeley to Monsieur Du Vernay, V. A letter from Monsieur Peter Jaigel, Governour of Cassovia, to Monsieur De Vernay.</title>
+    </titleStmt>
+    <extent>[6], 185 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Cologne</placeName>, and reprinted at <placeName>London, to be sold</placeName> by <persName type="printer">Walter Davies</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Walter Davies</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cologne</placeName>
+    </place>
+    <place type="location">
+      <placeName>London, to be sold</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods gracious thoughts tovvards great sinners.</title>
-         <author>Homes, Nathanael, 1599-1678.</author>
-      </titleStmt>
-      <extent>[4], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Matthew Simmons, dwelling in Aldersgate-street.,</publisher>
-         <pubPlace>London; :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Nathaniel Homes, whose name appears at the head of the preface, and whose initials appear at the end.</note>
-         <note>Annotation on Thomason copy: "May 4th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods gracious thoughts tovvards great sinners.</title>
+      <author>Homes, Nathanael, 1599-1678.</author>
+    </titleStmt>
+    <extent>[4], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Matthew Simmons</persName>, dwelling in <placeName>Aldersgate-street.</placeName>,</publisher>
+      <pubPlace>London; :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Nathaniel Homes, whose name appears at the head of the preface, and whose initials appear at the end.</note>
+      <note>Annotation on Thomason copy: "May 4th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Matthew Simmons</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Aldersgate-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

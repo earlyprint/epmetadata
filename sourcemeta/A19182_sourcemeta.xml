@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant comedie, shewing the contention betweene liberalitie and prodigalitie As it was playd before her Maiestie.</title>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Simon Stafford, for George Vincent: and are to be sold at the signe of the Hand in hand in Wood-street ouer against S. Michaels Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-F⁴.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: The contention betweene liberalitie and prodigalitie.</note>
-         <note>Reproduction of the original in Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant comedie, shewing the contention betweene liberalitie and prodigalitie As it was playd before her Maiestie.</title>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Simon Stafford</persName>, for <persName type="publisher">George Vincent:</persName> and are to be sold at <placeName>the signe of the Hand in hand in Wood-street ouer against S. Michaels Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-F&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: The contention betweene liberalitie and prodigalitie.</note>
+      <note>Reproduction of the original in Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Vincent:</persName>
+    </person>
+    <person type="printer">
+      <persName>Simon Stafford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Hand in hand in Wood-street ouer against S. Michaels Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A seasonable apology for religion being the subject of two sermons lately delivered in an auditory in London / by Matthew Pool, minister of the Gospel in London.</title>
-         <author>Poole, Matthew, 1624-1679.</author>
-      </titleStmt>
-      <extent>[6], 71 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Tho. Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXIII [1673]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: tightly bound with loss of print.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A seasonable apology for religion being the subject of two sermons lately delivered in an auditory in London / by Matthew Pool, minister of the Gospel in London.</title>
+      <author>Poole, Matthew, 1624-1679.</author>
+    </titleStmt>
+    <extent>[6], 71 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Tho. Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXIII [1673]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: tightly bound with loss of print.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

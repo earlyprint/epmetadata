@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe discourse of the Spanish state vvith a dialogue annexed intituled Philobasilis.</title>
-         <author>Daunce, Edward.</author>
-      </titleStmt>
-      <extent>[6], 52, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Richard Field dwelling in the Blacke-Friers neere Ludgate,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1590.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Edward Daunce.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe discourse of the Spanish state vvith a dialogue annexed intituled Philobasilis.</title>
+      <author>Daunce, Edward.</author>
+    </titleStmt>
+    <extent>[6], 52, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Richard Field</persName> dwelling in <placeName>the Blacke-Friers neere Ludgate</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1590.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Edward Daunce.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blacke-Friers neere Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

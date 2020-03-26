@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A guide for the penitent, or, A modell drawn up for the help of a devout soul wounded with sin</title>
-         <author>Duppa, Brian, 1588-1662.</author>
-      </titleStmt>
-      <extent>[4], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Fletcher, for R. Royston,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Brian Duppa by Wing.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A guide for the penitent, or, A modell drawn up for the help of a devout soul wounded with sin</title>
+      <author>Duppa, Brian, 1588-1662.</author>
+    </titleStmt>
+    <extent>[4], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Fletcher</persName>, for <persName type="publisher">R. Royston</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Brian Duppa by Wing.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Fletcher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

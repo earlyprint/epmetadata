@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of life and death With observations naturall and experimentall for the prolonging of life. Written by the Right Honorable Francis Lord Verulam, Viscount S. Alban.</title>
-         <title>Historia vitae et mortis. English</title>
-         <author>Bacon, Francis, 1561-1626.</author>
-         <author>Bacon, Francis, 1561-1626. Instauratio magna.</author>
-      </titleStmt>
-      <extent>[14], 323, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. Okes, for Humphrey Mosley, at the Princes Armes in Pauls Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Anonymous translation of "Historia vitae et mortis". The foreword to the edition printed later the same year by John Haviland calls this translation "lame, and defective, in the whole".</note>
-         <note>The second section of part 3 of Bacon's projected "Instauration magna".</note>
-         <note>With an initial imprimatur leaf and an additional title page, engraved.</note>
-         <note>Reproduciton of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of life and death With observations naturall and experimentall for the prolonging of life. Written by the Right Honorable Francis Lord Verulam, Viscount S. Alban.</title>
+      <title>Historia vitae et mortis. English</title>
+      <author>Bacon, Francis, 1561-1626.</author>
+      <author>Bacon, Francis, 1561-1626. Instauratio magna.</author>
+    </titleStmt>
+    <extent>[14], 323, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Okes</persName>, for <persName type="publisher">Humphrey Mosley</persName>, at <placeName>the Princes Armes in Pauls Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Anonymous translation of "Historia vitae et mortis". The foreword to the edition printed later the same year by John Haviland calls this translation "lame, and defective, in the whole".</note>
+      <note>The second section of part 3 of Bacon's projected "Instauration magna".</note>
+      <note>With an initial imprimatur leaf and an additional title page, engraved.</note>
+      <note>Reproduciton of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Mosley</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Princes Armes in Pauls Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

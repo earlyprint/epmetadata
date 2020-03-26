@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A message of thankes delivered to the Lords, Commissioners for Scotland, by Mr. Pym, from the House of Commons, on Saturday the 22. of January, Anno Domini, 1641.</title>
-         <author>Pym, John, 1584-1643.</author>
-      </titleStmt>
-      <extent>[2], 4, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Oulton &amp; G. Dexter, for William Larnar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's device (McK. 284) on t.p.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A message of thankes delivered to the Lords, Commissioners for Scotland, by Mr. Pym, from the House of Commons, on Saturday the 22. of January, Anno Domini, 1641.</title>
+      <author>Pym, John, 1584-1643.</author>
+    </titleStmt>
+    <extent>[2], 4, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Oulton</persName> &amp; <persName type="printer">G. Dexter</persName>, for <persName type="publisher">William Larnar</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's device (McK. 284) on t.p.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Larnar</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Dexter</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Oulton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

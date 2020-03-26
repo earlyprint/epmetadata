@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse upon Sr Walter Rawleigh's great cordial by N. le Febure ... ; rendred into English by Peter Belon ...</title>
-         <title>Discours sur le grand cordial de Sr Walter Rawleigh. English</title>
-         <author>Le Fèvre, Nicaise, 1610-1669.</author>
-         <author>Raleigh, Walter, Sir, 1552?-1618. Confectio Raleghana.</author>
-         <author>Belon, P. (Peter)</author>
-      </titleStmt>
-      <extent>[14], 110 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.F. for Octavian Pulleyn, Junior ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Discours sur le grand cordial de Sr Walter Rawleigh, which was not published in French until 1665.</note>
-         <note>Errata: p. [13].</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse upon Sr Walter Rawleigh's great cordial by N. le Febure ... ; rendred into English by Peter Belon ...</title>
+      <title>Discours sur le grand cordial de Sr Walter Rawleigh. English</title>
+      <author>Le F&#232;vre, Nicaise, 1610-1669.</author>
+      <author>Raleigh, Walter, Sir, 1552?-1618. Confectio Raleghana.</author>
+      <author>Belon, P. (Peter)</author>
+    </titleStmt>
+    <extent>[14], 110 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.F.</persName> for <persName type="publisher">Octavian Pulleyn</persName>, <persName type="publisher">Junior</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Discours sur le grand cordial de Sr Walter Rawleigh, which was not published in French until 1665.</note>
+      <note>Errata: p. [13].</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Junior</persName>
+    </person>
+    <person type="publisher">
+      <persName>Octavian Pulleyn</persName>
+    </person>
+    <person type="printer">
+      <persName>J.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

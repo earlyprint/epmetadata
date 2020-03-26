@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true copy of a letter, from the justices of the Kingdom of Ireland, to the Privy Council of Scotland.</title>
-         <author>Cuningsbey, Thomas, fl. 1691.</author>
-         <author>Porter, Charles, Sir, d. 1696.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>by the heir of Andrew Anderson, printer to their most excellent Majesties,</publisher>
-         <pubPlace>Printed at Dublin ;</pubPlace>
-         <pubPlace>and re-printed at Edinburgh :</pubPlace>
-         <date>Anno Dom. 1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Letter dated: Dublin-Castle, 25th of July 1691. Signed: Your lordships most humble servants, Charles Porter. Tho: Cuningsbey.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-         <note>With: A particular and full account of the routing the whole Irish army at Aghrim upon Sunday the 12th of July 1691. With a list of the principal persons that were killed and taken prisoner.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true copy of a letter, from the justices of the Kingdom of Ireland, to the Privy Council of Scotland.</title>
+      <author>Cuningsbey, Thomas, fl. 1691.</author>
+      <author>Porter, Charles, Sir, d. 1696.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">their most excellent Majesties</persName>,</publisher>
+      <pubPlace>Printed at Dublin ;</pubPlace>
+      <pubPlace>and re-printed at Edinburgh :</pubPlace>
+      <date>Anno Dom. 1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Letter dated: Dublin-Castle, 25th of July 1691. Signed: Your lordships most humble servants, Charles Porter. Tho: Cuningsbey.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+      <note>With: A particular and full account of the routing the whole Irish army at Aghrim upon Sunday the 12th of July 1691. With a list of the principal persons that were killed and taken prisoner.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>their most excellent Majesties</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

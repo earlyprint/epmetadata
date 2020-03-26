@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Madam Fickle, or, The witty false one a comedy as it is acted at His Royal Highness the Duke's theatre / written by Tho. Durfey, Gent.</title>
-         <author>D'Urfey, Thomas, 1653-1723.</author>
-      </titleStmt>
-      <extent>[8], 66, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.N. for James Magnes and Rich. Bentley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.LXXVII [1677]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed November 20, 1676. Roger L'Estrange."</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Madam Fickle, or, The witty false one a comedy as it is acted at His Royal Highness the Duke's theatre / written by Tho. Durfey, Gent.</title>
+      <author>D'Urfey, Thomas, 1653-1723.</author>
+    </titleStmt>
+    <extent>[8], 66, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.N.</persName> for <persName type="publisher">James Magnes</persName> and <persName type="publisher">Rich. Bentley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.LXXVII [1677]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed November 20, 1676. Roger L'Estrange."</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Magnes</persName>
+    </person>
+    <person type="publisher">
+      <persName>Rich. Bentley</persName>
+    </person>
+    <person type="printer">
+      <persName>T.N.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

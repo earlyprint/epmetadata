@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The manuall of the anatomy or dissection of the body of man containing the enumeration, and description of the parts of the same, which usually are shewed in the publike anatomicall exercises. Enlarged and more methodically digested into 6. books. By Alexander Read, Doctor of Physick, a fellow of the Physitians College of London, and a brother of the Worshipfull Company of the Barber-Chirurgeons.</title>
-         <author>Read, Alexander, 1586?-1641.</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-         <author>Read, Alexander, 1586?-1641. Treatise of all the muscles of the whole bodie. aut</author>
-      </titleStmt>
-      <extent>[14], 574, [2]; [184] p., V leaves of plates   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] H[aviland] for F. Constable, and are to be sold at his shop under Saint Martins Church neere Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an additional title page, engraved, signed: Will: Marshall, sculpsit.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Includes his "A treatise of all the muscles of the whole bodie", 1637, a reissue of STC 20785 (signatures A-H¹²  (-A1-4)).</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Lacking part 2.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The manuall of the anatomy or dissection of the body of man containing the enumeration, and description of the parts of the same, which usually are shewed in the publike anatomicall exercises. Enlarged and more methodically digested into 6. books. By Alexander Read, Doctor of Physick, a fellow of the Physitians College of London, and a brother of the Worshipfull Company of the Barber-Chirurgeons.</title>
+      <author>Read, Alexander, 1586?-1641.</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+      <author>Read, Alexander, 1586?-1641. Treatise of all the muscles of the whole bodie. aut</author>
+    </titleStmt>
+    <extent>[14], 574, [2]; [184] p., V leaves of plates   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] H[aviland]</persName> for <persName type="publisher">F. Constable</persName>, and are to be sold at <placeName>his shop under Saint Martins Church neere Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an additional title page, engraved, signed: Will: Marshall, sculpsit.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Includes his "A treatise of all the muscles of the whole bodie", 1637, a reissue of STC 20785 (signatures A-H&#185;&#178;  (-A1-4)).</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Lacking part 2.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] H[aviland]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under Saint Martins Church neere Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

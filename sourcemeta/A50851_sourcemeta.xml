@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Military discipline wherein is martially showne the order for driling the musket and pike : set forth in postures with ye words of comand and brief instructions for the right use of the same.</title>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>sold by Tho. Jenner at the foote of the Exchange in London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Illustrated title page.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Military discipline wherein is martially showne the order for driling the musket and pike : set forth in postures with ye words of comand and brief instructions for the right use of the same.</title>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>sold by <persName type="bookseller">Tho. Jenner</persName> at <placeName>the foote of the Exchange in London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Illustrated title page.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Tho. Jenner</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the foote of the Exchange in London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

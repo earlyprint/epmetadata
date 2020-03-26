@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Le Lutrin an heroick poem / written originally in French by Monsieur Boileau ; made English by N. O.</title>
-         <title>Lutrin. English</title>
-         <author>Boileau Despréaux, Nicolas, 1636-1711.</author>
-         <author>N. O.</author>
-      </titleStmt>
-      <extent>[2], 41 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. A. for Benjamin Alsop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>First edition in English.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Le Lutrin an heroick poem / written originally in French by Monsieur Boileau ; made English by N. O.</title>
+      <title>Lutrin. English</title>
+      <author>Boileau Despr&#233;aux, Nicolas, 1636-1711.</author>
+      <author>N. O.</author>
+    </titleStmt>
+    <extent>[2], 41 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. A.</persName> for <persName type="publisher">Benjamin Alsop</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>First edition in English.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>J. A.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

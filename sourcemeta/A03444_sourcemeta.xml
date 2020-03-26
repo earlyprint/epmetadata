@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Saint Buttolphs neare Aldersgate, the 26. of Februarie, 1609. By William Holbrooke. Entitled No gaine to this</title>
-         <author>Holbrooke, William.</author>
-      </titleStmt>
-      <extent>[6], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for Elizabeth Burby, dwelling in Pauls Churchyard at the signe of the Swan,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Saint Buttolphs neare Aldersgate, the 26. of Februarie, 1609. By William Holbrooke. Entitled No gaine to this</title>
+      <author>Holbrooke, William.</author>
+    </titleStmt>
+    <extent>[6], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Elizabeth Burby</persName>, dwelling in <placeName>Pauls Churchyard at the signe of the Swan</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Elizabeth Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Churchyard at the signe of the Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

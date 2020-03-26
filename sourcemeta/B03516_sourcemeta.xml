@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Great news from Lymerick. An account of the late action of Capt. Cole, in the River Shannon. : Being [a] relation of his taking a French frigate; as also, of his barring up thirty sale more of French ships. : With an account of the famous Baldarick Lord O'Donnel's terms of submission to their Majesties, for himself, and followers. : To which is added, the late defeat of the rebels in the north, by Collonel Ramsey.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for N. Kettlewel, by St. Dunstans Church in Fleet-street,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Licensed, according to order. 1691."</note>
-         <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Great news from Lymerick. An account of the late action of Capt. Cole, in the River Shannon. : Being [a] relation of his taking a French frigate; as also, of his barring up thirty sale more of French ships. : With an account of the famous Baldarick Lord O'Donnel's terms of submission to their Majesties, for himself, and followers. : To which is added, the late defeat of the rebels in the north, by Collonel Ramsey.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">N. Kettlewel</persName>, by <persName type="printer">St. Dunstans Church</persName> in <placeName>Fleet-street</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Licensed, according to order. 1691."</note>
+      <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N. Kettlewel</persName>
+    </person>
+    <person type="printer">
+      <persName>St. Dunstans Church</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

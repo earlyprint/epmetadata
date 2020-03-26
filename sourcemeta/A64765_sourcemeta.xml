@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Hermeticall banquet, drest by a spagiricall cook for the better preservation of the microcosme.</title>
-         <author>Howell, James, 1594?-1666.</author>
-         <author>Vaughan, Thomas, 1622-1666.</author>
-      </titleStmt>
-      <extent>[35], 161 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Andrew Crooke, and are to be sold at the Green Dragon in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed sometimes to Thomas Vaughan or to James Howell. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Hermeticall banquet, drest by a spagiricall cook for the better preservation of the microcosme.</title>
+      <author>Howell, James, 1594?-1666.</author>
+      <author>Vaughan, Thomas, 1622-1666.</author>
+    </titleStmt>
+    <extent>[35], 161 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Andrew Crooke</persName>, and are to be sold at <placeName>the Green Dragon in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed sometimes to Thomas Vaughan or to James Howell. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Green Dragon in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

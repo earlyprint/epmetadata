@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A manifesto of the most Serene Prince Charles Lodwick Count Palatin of the Rhin, and Vicar of the Holy Empire, containing his ancient and patromoniall right to the sayd vicarship within the circles of the Rhin, Suabland, and the Franconian territories. VVerein ther [sic] are divers reflections upon the Aurea Bulla and the fundamentall lawes of the Empire.</title>
-         <author>Karl Ludwig, Elector Palatine, 1617-1680.</author>
-      </titleStmt>
-      <extent>12 [i.e.14] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Richard Lownds at the white Lyon, near the little North door of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 14 misnumbered 12.</note>
-         <note>Annotation on Thomason copy: "July 9".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A manifesto of the most Serene Prince Charles Lodwick Count Palatin of the Rhin, and Vicar of the Holy Empire, containing his ancient and patromoniall right to the sayd vicarship within the circles of the Rhin, Suabland, and the Franconian territories. VVerein ther [sic] are divers reflections upon the Aurea Bulla and the fundamentall lawes of the Empire.</title>
+      <author>Karl Ludwig, Elector Palatine, 1617-1680.</author>
+    </titleStmt>
+    <extent>12 [i.e.14] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Richard Lownds</persName> at <placeName>the white Lyon, near the little North door of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 14 misnumbered 12.</note>
+      <note>Annotation on Thomason copy: "July 9".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lownds</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the white Lyon, near the little North door of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

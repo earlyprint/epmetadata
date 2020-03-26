@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Annus mirabilis, or, Strange and wonderful predictions and observations gathered out of Mr. J. Partridges Almanack 1688 with some remarks also out of his Almanack 1687 ...</title>
-         <author>Partridge, John, 1644-1715.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Entry for A2018 cancelled in Wing (2nd ed.).</note>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Annus mirabilis, or, Strange and wonderful predictions and observations gathered out of Mr. J. Partridges Almanack 1688 with some remarks also out of his Almanack 1687 ...</title>
+      <author>Partridge, John, 1644-1715.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randal Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Entry for A2018 cancelled in Wing (2nd ed.).</note>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

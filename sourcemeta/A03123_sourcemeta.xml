@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pearle of practise, or Practisers pearle, for phisicke and chirurgerie. Found out by I. H. (a spagericke or distiller) amongst the learned obseruations and prooued practises of many expert men in both faculties. Since his death it is garnished and brought into some methode by a welwiller of his</title>
-         <author>Hester, John, d. 1593.</author>
-         <author>Fourestier, James.</author>
-      </titleStmt>
-      <extent>[16], 63, 68-83, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Field, dwelling in the Black-friers,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>I.H. = John Hester.</note>
-         <note>Editor's dedication signed: Iames Fourestier.</note>
-         <note>Pages 64-67 missing in number only; text unaffected.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pearle of practise, or Practisers pearle, for phisicke and chirurgerie. Found out by I. H. (a spagericke or distiller) amongst the learned obseruations and prooued practises of many expert men in both faculties. Since his death it is garnished and brought into some methode by a welwiller of his</title>
+      <author>Hester, John, d. 1593.</author>
+      <author>Fourestier, James.</author>
+    </titleStmt>
+    <extent>[16], 63, 68-83, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Field</persName>, dwelling in <placeName>the Black-friers</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>I.H. = John Hester.</note>
+      <note>Editor's dedication signed: Iames Fourestier.</note>
+      <note>Pages 64-67 missing in number only; text unaffected.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-friers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

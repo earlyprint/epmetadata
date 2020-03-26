@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Diues [et] pauper</title>
-         <author>Parker, Henry, d. 1470, attributed name.</author>
-      </titleStmt>
-      <extent>[53] leaves   </extent>
-      <publicationStmt>
-         <publisher>E[m]prentyd by me Wynkyn de worde,</publisher>
-         <pubPlace>[Westmonstre :</pubPlace>
-         <date>1496]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Often attributed to, but probably not by, Henry Parker--STC.</note>
-         <note>Place of publication and printer's name from colophon; publication date from STC.</note>
-         <note>"Of holy pouerte" has caption title.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Diues [et] pauper</title>
+      <author>Parker, Henry, d. 1470, attributed name.</author>
+    </titleStmt>
+    <extent>[53] leaves   </extent>
+    <publicationStmt>
+      <publisher>E[m]prentyd by <persName type="printer">me Wynkyn de worde</persName>,</publisher>
+      <pubPlace>[Westmonstre :</pubPlace>
+      <date>1496]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Often attributed to, but probably not by, Henry Parker--STC.</note>
+      <note>Place of publication and printer's name from colophon; publication date from STC.</note>
+      <note>"Of holy pouerte" has caption title.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Wynkyn de worde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

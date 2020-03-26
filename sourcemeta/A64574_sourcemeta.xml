@@ -1,25 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Otto Tachenius his Hippocrates chymicus discovering the ancient foundation of the late viperine salt with his Clavis thereunto annexed translated by J.W.</title>
-         <title>Antiquissimae Hipprocraticae medicinae clavis. English.</title>
-         <author>Tachenius, Otto, d. ca. 1670.</author>
-         <author>J. W.</author>
-      </titleStmt>
-      <extent>[22], 122, [24], 18, 15-120, [14] p.   </extent>
-      <publicationStmt>
-         <publisher>printed and are to be sold by W: Marshall at the Bible in Newgate Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of author's Antiquissimae Hipprocraticae medicinae clavis.</note>
-         <note>Title page is engraved.</note>
-         <note>"Otto Tachenius his Clavis to the antient Hippocratical physick" has a separate dated title page, pagination and register.</note>
-         <note>Text appears continuous despite pagination.</note>
-         <note>Includes indexes.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Otto Tachenius his Hippocrates chymicus discovering the ancient foundation of the late viperine salt with his Clavis thereunto annexed translated by J.W.</title>
+      <title>Antiquissimae Hipprocraticae medicinae clavis. English.</title>
+      <author>Tachenius, Otto, d. ca. 1670.</author>
+      <author>J. W.</author>
+    </titleStmt>
+    <extent>[22], 122, [24], 18, 15-120, [14] p.   </extent>
+    <publicationStmt>
+      <publisher>printed and are to be sold by <persName type="bookseller">W: Marshall</persName> at <placeName>the Bible in Newgate Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of author's Antiquissimae Hipprocraticae medicinae clavis.</note>
+      <note>Title page is engraved.</note>
+      <note>"Otto Tachenius his Clavis to the antient Hippocratical physick" has a separate dated title page, pagination and register.</note>
+      <note>Text appears continuous despite pagination.</note>
+      <note>Includes indexes.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W: Marshall</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Newgate Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

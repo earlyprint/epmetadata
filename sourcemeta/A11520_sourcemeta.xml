@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of the quarrels of Pope Paul. V. with the state of Venice In seuen books. Faithfully translated out of the Italian, and compared with the French copie.</title>
-         <title>Historia particolare delle cose passate tra'l sommo pontefice Paolo V. e la serenissima republica di Venetia. English</title>
-         <author>Sarpi, Paolo, 1552-1623.</author>
-         <author>Potter, Christopher, 1591-1646.</author>
-      </titleStmt>
-      <extent>[20], 435, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [Eliot's Court Press for] Iohn Bill, printer to the Kings most excellent Maiesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.XXVI. [1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Sarpi, Paolo.  Historia particolare delle cose passate tra'l sommo pontefice Paolo V. e la serenissima republica di Venetia.</note>
-         <note>Translator's dedication signed: C.P., i.e. Christopher Potter.</note>
-         <note>Identification of actual printer from STC.</note>
-         <note>Running title reads: The quarrels of Pope Paul. 5. with the state of Venice.</note>
-         <note>Reproduction of the original in the University of Chicago. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of the quarrels of Pope Paul. V. with the state of Venice In seuen books. Faithfully translated out of the Italian, and compared with the French copie.</title>
+      <title>Historia particolare delle cose passate tra'l sommo pontefice Paolo V. e la serenissima republica di Venetia. English</title>
+      <author>Sarpi, Paolo, 1552-1623.</author>
+      <author>Potter, Christopher, 1591-1646.</author>
+    </titleStmt>
+    <extent>[20], 435, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[Eliot's Court Press</persName> for<persName type="publisher">] Iohn Bill</persName>, printer to <persName type="patron">the Kings most excellent Maiesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.XXVI. [1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Sarpi, Paolo.  Historia particolare delle cose passate tra'l sommo pontefice Paolo V. e la serenissima republica di Venetia.</note>
+      <note>Translator's dedication signed: C.P., i.e. Christopher Potter.</note>
+      <note>Identification of actual printer from STC.</note>
+      <note>Running title reads: The quarrels of Pope Paul. 5. with the state of Venice.</note>
+      <note>Reproduction of the original in the University of Chicago. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiesty</persName>
+    </person>
+    <person type="publisher">
+      <persName>] Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>[Eliot's Court Press</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

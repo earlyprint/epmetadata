@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A lamentable dittie composed vpon the death of Robert Lord Deuereux late Earle of Essex who was beheaded in the Tower of London, vpon Ashwednesday in the morning. 1601. To the tune of Welladay.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>[By Edward Allde] for Margret Allde, and are to be solde at the long shop vnder Saint Mildreds Church in the Poultry [by Margaret Allde? or Henry Rocket?],</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Sweet Englands pride is gone".</note>
-         <note>Printer's name supplied and bookseller's name conjectured by STC and addendum.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A lamentable dittie composed vpon the death of Robert Lord Deuereux late Earle of Essex who was beheaded in the Tower of London, vpon Ashwednesday in the morning. 1601. To the tune of Welladay.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Edward Allde]</persName> for <persName type="publisher">Margret Allde</persName>, and are to be solde at <placeName>the long shop vnder Saint Mildreds Church in the Poultry [</placeName>by <persName type="printer">Margaret Allde? or Henry Rocket?]</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Sweet Englands pride is gone".</note>
+      <note>Printer's name supplied and bookseller's name conjectured by STC and addendum.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Margret Allde</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Allde]</persName>
+    </person>
+    <person type="printer">
+      <persName>Margaret Allde? or Henry Rocket?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the long shop vnder Saint Mildreds Church in the Poultry [</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

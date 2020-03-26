@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation anent linen-cloth</title>
-         <title>Proclamations. 1688-08-15</title>
-         <author>Council of Trade (Scotland)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to his most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno Dom. 1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at Edinburgh, the fifteen day of August, one thousand six hundred and eighty eight years, and of our reign the fourth year.</note>
-         <note>Steele notation: Arms 235  Faith, ctive Pre-.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation anent linen-cloth</title>
+      <title>Proclamations. 1688-08-15</title>
+      <author>Council of Trade (Scotland)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno Dom. 1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at Edinburgh, the fifteen day of August, one thousand six hundred and eighty eight years, and of our reign the fourth year.</note>
+      <note>Steele notation: Arms 235  Faith, ctive Pre-.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

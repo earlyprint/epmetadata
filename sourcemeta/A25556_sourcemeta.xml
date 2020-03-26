@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Account of the present condition of the Protestants in the Palatinate in two letters to an English gentleman.</title>
-      </titleStmt>
-      <extent>[3], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Parker ... and sold by A. Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Heidelbergh, Feb. 7, 1699 [i.e. 1700?].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Account of the present condition of the Protestants in the Palatinate in two letters to an English gentleman.</title>
+    </titleStmt>
+    <extent>[3], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Parker</persName> ... and sold by <persName type="bookseller">A. Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Heidelbergh, Feb. 7, 1699 [i.e. 1700?].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Parker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. A proclamation against all persons, that disorderly enter into shippes that are brought as prizes into any hauen and that doe secretly buy or conuey away the goods before they be customed, and allowed s lawfull prize.</title>
-         <title>Proclamations. 1594-08-01</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By the deputies of Christopher Barker, printer to the Queenes most excellent Maiestie [i.e. B. Norton and J. Bill,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>ca. 1618]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Actual printers' names and estimated publication date from STC.</note>
-         <note>Goods embezzled from recent Spanish prizes captured by the London fleet are to be handed over.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. A proclamation against all persons, that disorderly enter into shippes that are brought as prizes into any hauen and that doe secretly buy or conuey away the goods before they be customed, and allowed s lawfull prize.</title>
+      <title>Proclamations. 1594-08-01</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the deputies of Christopher Barker</persName>, printer to <persName type="patron">the Queenes most excellent Maiestie [i.e. B. Norton</persName> and <persName type="patron">J. Bill</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>ca. 1618]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Actual printers' names and estimated publication date from STC.</note>
+      <note>Goods embezzled from recent Spanish prizes captured by the London fleet are to be handed over.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>J. Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie [i.e. B. Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>the deputies of Christopher Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

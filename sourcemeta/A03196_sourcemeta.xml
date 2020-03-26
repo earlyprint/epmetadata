@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The exemplary lives and memorable acts of nine the most worthy women in the vvorld three Iewes. Three gentiles. Three Christians. Written by the author of the History of women.</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-         <author>Glover, George, b. ca. 1618, engraver.</author>
-      </titleStmt>
-      <extent>[22], 212, [12] p., [10] plates   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes, for Richard Royston, and are to be sold at the signe of the Angell in Ivie Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Tho. Heyvv., i.e. Thomas Heywood.</note>
-         <note>The words "Three Iewes. .. Three Christians." are bracketed together on the title page.</note>
-         <note>The plates are engraved by George Glover; nine of them (excepting that of Queen Henrietta Maria) were issued separately with verses as "The nine woemen worthys" (STC 11921.6).</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The exemplary lives and memorable acts of nine the most worthy women in the vvorld three Iewes. Three gentiles. Three Christians. Written by the author of the History of women.</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+      <author>Glover, George, b. ca. 1618, engraver.</author>
+    </titleStmt>
+    <extent>[22], 212, [12] p., [10] plates   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName>, for <persName type="publisher">Richard Royston</persName>, and are to be sold at <placeName>the signe of the Angell in Ivie Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Tho. Heyvv., i.e. Thomas Heywood.</note>
+      <note>The words "Three Iewes. .. Three Christians." are bracketed together on the title page.</note>
+      <note>The plates are engraved by George Glover; nine of them (excepting that of Queen Henrietta Maria) were issued separately with verses as "The nine woemen worthys" (STC 11921.6).</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Angell in Ivie Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

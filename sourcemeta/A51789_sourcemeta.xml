@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The manner of procession to the Parliament-house in Scotland with His Majesties letter to the Parliament, the lord high commissioners speech, the lord high chancellors speech, and the Parliaments answer.</title>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Re-printed for Andrew Crook, and Samuel Helsham and are to be sold by Samuel Helsham ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>At head of title: April 23. 1685.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The manner of procession to the Parliament-house in Scotland with His Majesties letter to the Parliament, the lord high commissioners speech, the lord high chancellors speech, and the Parliaments answer.</title>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Re-printed for <persName type="publisher">Andrew Crook</persName>, and <persName type="bookseller"><persName type="publisher">Samuel Helsham</persName></persName> and are to be sold by <persName type="bookseller"><persName type="publisher">Samuel Helsham</persName></persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>At head of title: April 23. 1685.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuel Helsham</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

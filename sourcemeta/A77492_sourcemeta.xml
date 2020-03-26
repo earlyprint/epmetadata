@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An antidote against the poysonous vveeds of heretical blasphemies, which during the deplorable interval of church-government have grown up in the reforming Church of England. As it was lately presented to the Church of God at Great Yarmouth. / By Iohn Brinsley, Minister of the Gospel there. Augus. 10. 1650. Imprimatur, Edm. Calamy.</title>
-         <author>Brinsley, John, 1600-1665.</author>
-      </titleStmt>
-      <extent>[6], 52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. &amp; E.M. for Ralph Smith at the singe of the blew Bible in Corn-hill neer the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "7ber. 11th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An antidote against the poysonous vveeds of heretical blasphemies, which during the deplorable interval of church-government have grown up in the reforming Church of England. As it was lately presented to the Church of God at Great Yarmouth. / By Iohn Brinsley, Minister of the Gospel there. Augus. 10. 1650. Imprimatur, Edm. Calamy.</title>
+      <author>Brinsley, John, 1600-1665.</author>
+    </titleStmt>
+    <extent>[6], 52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> &amp; <persName type="printer">E.M.</persName> for <persName type="publisher">Ralph Smith</persName> at <placeName>the singe of the blew Bible in Corn-hill neer the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "7ber. 11th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the singe of the blew Bible in Corn-hill neer the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

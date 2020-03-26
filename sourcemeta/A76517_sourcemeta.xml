@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Remarks, and animadversions, on Mr. Keith's two sermons, being his first after ordiantion, [sic] preached at the parish church of St. George's Butolphs-Lane, London, May the 12th. 1700. on St. Luke i. 6 Now impartially compared with his former writings, setting George against Keith, and endeavouring to reconcile them, by shewing what he should have said upon the subjest. By W.B. a communicant of the Church of England.</title>
-         <author>W. B.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author; and sold by the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Remarks, and animadversions, on Mr. Keith's two sermons, being his first after ordiantion, [sic] preached at the parish church of St. George's Butolphs-Lane, London, May the 12th. 1700. on St. Luke i. 6 Now impartially compared with his former writings, setting George against Keith, and endeavouring to reconcile them, by shewing what he should have said upon the subjest. By W.B. a communicant of the Church of England.</title>
+      <author>W. B.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author;</persName> and sold by <persName type="bookseller">the booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author;</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

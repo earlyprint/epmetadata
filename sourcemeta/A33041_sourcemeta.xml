@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The loving enemy or A famous true history written orignally in the French tongue, by the most incomparable pen-man of this age, J. P. Camus B. of Belley. Made English by Maior Wright, as his recreation, during his imprisonment.</title>
-         <title>Voyageur incogneu. English.</title>
-         <author>Camus, Jean-Pierre, 1584-1652.</author>
-         <author>Wright, Major (John)</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition revised.</edition>
-      </editionStmt>
-      <extent>[16], 112 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Thomas Rooks, in Gresham Colledg, next the stairs, entering upon the Exchange, near Bishopsgate-street: who makes and sells the best ink for records,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by John Wright, of: Camus, Jean-Pierre. Voyageur incogneu.</note>
-         <note>Preface signed: I: VVright.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The loving enemy or A famous true history written orignally in the French tongue, by the most incomparable pen-man of this age, J. P. Camus B. of Belley. Made English by Maior Wright, as his recreation, during his imprisonment.</title>
+      <title>Voyageur incogneu. English.</title>
+      <author>Camus, Jean-Pierre, 1584-1652.</author>
+      <author>Wright, Major (John)</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition revised.</edition>
+    </editionStmt>
+    <extent>[16], 112 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Thomas Rooks</persName>, in <placeName>Gresham Colledg, next the stairs, entering upon the Exchange, near Bishopsgate-street: who makes</placeName> and sells the best ink for <persName type="publisher">records</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by John Wright, of: Camus, Jean-Pierre. Voyageur incogneu.</note>
+      <note>Preface signed: I: VVright.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Rooks</persName>
+    </person>
+    <person type="publisher">
+      <persName>records</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Gresham Colledg, next the stairs, entering upon the Exchange, near Bishopsgate-street: who makes</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Abrahams interment, or, The good old-mans buriall in a good old age opened in a sermon at Bartholomews Exchange, July 24, 1655, at the funerall of the worshipfull John Lamotte, Esq., sometimes alderman of the city of London / by Fulk Bellers ... ; unto which is added a short narrative of his life and death.</title>
-         <author>Bellers, Fulk, b. 1605 or 6.</author>
-         <author>La Motte, John, 1570?-1655.</author>
-      </titleStmt>
-      <extent>[7], 29, [11] p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by R.I. for Tho. Newberry, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [11] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>"A letter of John Lamotte, Esq. to his daughter and grand-children, written not long before his death": p. [10]-[11] at end.</note>
-         <note>"A short narrative of the life and death of John Lamotte, Esq.": p. [1]-[9] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Abrahams interment, or, The good old-mans buriall in a good old age opened in a sermon at Bartholomews Exchange, July 24, 1655, at the funerall of the worshipfull John Lamotte, Esq., sometimes alderman of the city of London / by Fulk Bellers ... ; unto which is added a short narrative of his life and death.</title>
+      <author>Bellers, Fulk, b. 1605 or 6.</author>
+      <author>La Motte, John, 1570?-1655.</author>
+    </titleStmt>
+    <extent>[7], 29, [11] p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.I.</persName> for <persName type="publisher">Tho. Newberry</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [11] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>"A letter of John Lamotte, Esq. to his daughter and grand-children, written not long before his death": p. [10]-[11] at end.</note>
+      <note>"A short narrative of the life and death of John Lamotte, Esq.": p. [1]-[9] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Newberry</persName>
+    </person>
+    <person type="printer">
+      <persName>R.I.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

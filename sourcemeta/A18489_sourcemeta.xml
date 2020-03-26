@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The manifest of the most illustrious, and soveraigne prince, Charles Lodovvick, Count Palatine of the Rhine, Prince Electour of the sacred Empire: Duke of Bavaria, &amp;c. Concerning the right of his succession both in the princedome, lands, and estates of the Palatinate: as also in the dignity, voice, session, and function of the electorship-Palatine thereunto annexed. Translated, anno. M.DC.XXXVII.</title>
-         <title>Manifestum sive deductio. English</title>
-         <author>Karl Ludwig, Elector Palatine, 1617-1680.</author>
-      </titleStmt>
-      <extent>[160+] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A[nne] G[riffin] for I[oyce] N[orton] and R[ichard] W[hitaker] And are to be sold at the signe of the Kings Armes in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.XXXVII. [1637]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Manifestum sive deductio.</note>
-         <note>Printer's and publishers' names from STC.</note>
-         <note>Signatures: [fleuron]⁴ (only third leaf signed) A-T⁴+.</note>
-         <note>The first leaf is blank.</note>
-         <note>STC reports copies with additional text with heading "An advertisement to the reader", collating chi¹ ("A2") B-H⁴ I¹, referring to the present manifesto. G2 has separate title page, "The protestation [..?]. London, 1637" (formerly STC 5049), followed by a different (earlier?) version of "A protestation of the most high and mighty prince Charles Lodowicke".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The manifest of the most illustrious, and soveraigne prince, Charles Lodovvick, Count Palatine of the Rhine, Prince Electour of the sacred Empire: Duke of Bavaria, &amp;c. Concerning the right of his succession both in the princedome, lands, and estates of the Palatinate: as also in the dignity, voice, session, and function of the electorship-Palatine thereunto annexed. Translated, anno. M.DC.XXXVII.</title>
+      <title>Manifestum sive deductio. English</title>
+      <author>Karl Ludwig, Elector Palatine, 1617-1680.</author>
+    </titleStmt>
+    <extent>[160+] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A[nne] G[riffin]</persName> for <persName type="publisher">I[oyce] N[orton]</persName> and <persName type="publisher">R[ichard] W[hitaker] And</persName> are to be sold at <placeName>the signe of the Kings Armes in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.XXXVII. [1637]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Manifestum sive deductio.</note>
+      <note>Printer's and publishers' names from STC.</note>
+      <note>Signatures: [fleuron]&#8308; (only third leaf signed) A-T&#8308;+.</note>
+      <note>The first leaf is blank.</note>
+      <note>STC reports copies with additional text with heading "An advertisement to the reader", collating chi&#185; ("A2") B-H&#8308; I&#185;, referring to the present manifesto. G2 has separate title page, "The protestation [..?]. London, 1637" (formerly STC 5049), followed by a different (earlier?) version of "A protestation of the most high and mighty prince Charles Lodowicke".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I[oyce] N[orton]</persName>
+    </person>
+    <person type="publisher">
+      <persName>R[ichard] W[hitaker] And</persName>
+    </person>
+    <person type="printer">
+      <persName>A[nne] G[riffin]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Kings Armes in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Great Britains remembrancer, looking in and out. Tending to the increase of the monies of the Commonwealth· / Presented to his Highness the Lord Protector, and to the High Court of Parliament now assembled. By the author Ralphe Maddison, Kt.</title>
-         <title>Englands looking in and out.</title>
-         <author>Maddison, Ralph, Sir.</author>
-      </titleStmt>
-      <extent>[4], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb, and are to be sold by Humphrey Moseley, at the Prince's Arms in St. Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655. [i.e. 1654]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An expanded version of: Englands looking in and out.</note>
-         <note>Annotation on Thomason copy: "Decemb:"; the second 5 in imprint date has been crossed out and date altered to 1654.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Great Britains remembrancer, looking in and out. Tending to the increase of the monies of the Commonwealth&#183; / Presented to his Highness the Lord Protector, and to the High Court of Parliament now assembled. By the author Ralphe Maddison, Kt.</title>
+      <title>Englands looking in and out.</title>
+      <author>Maddison, Ralph, Sir.</author>
+    </titleStmt>
+    <extent>[4], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName>, and are to be sold by <persName type="bookseller">Humphrey Moseley</persName>, at <placeName>the Prince's Arms in St. Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655. [i.e. 1654]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An expanded version of: Englands looking in and out.</note>
+      <note>Annotation on Thomason copy: "Decemb:"; the second 5 in imprint date has been crossed out and date altered to 1654.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Humphrey Moseley</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Prince's Arms in St. Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

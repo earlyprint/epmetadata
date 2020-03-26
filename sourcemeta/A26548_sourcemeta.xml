@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Painting illustrated in three diallogues containing some choice observations upon the art together with the lives of the most eminent painters from Cimabue to the time of Raphael and Michael Angelo : with an explanation of the difficult terms.</title>
-         <author>Aglionby, William, d. 1705.</author>
-      </titleStmt>
-      <extent>[34], 375 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Gain for the author and are to be sold by Walter Kettilby and Jacob Tonson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Epistle dedicatory" signed: William Aglionby.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Painting illustrated in three diallogues containing some choice observations upon the art together with the lives of the most eminent painters from Cimabue to the time of Raphael and Michael Angelo : with an explanation of the difficult terms.</title>
+      <author>Aglionby, William, d. 1705.</author>
+    </titleStmt>
+    <extent>[34], 375 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Gain</persName> for <persName type="publisher">the author</persName> and are to be sold by <persName type="bookseller">Walter Kettilby</persName> and <persName type="publisher">Jacob Tonson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Epistle dedicatory" signed: William Aglionby.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="publisher">
+      <persName>Jacob Tonson</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>John Gain</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

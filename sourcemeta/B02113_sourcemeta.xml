@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation for calling a Convention of Estates</title>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1635-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, printer to His Most Sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Royal arms at head of sheet; initial letter.</note>
-         <note>Dated at end: Given at Our Court at Whitehall, the twenty-third day of May, 1678, and of Our Reign the thirtieth year.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation for calling a Convention of Estates</title>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1635-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">His Most Sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Royal arms at head of sheet; initial letter.</note>
+      <note>Dated at end: Given at Our Court at Whitehall, the twenty-third day of May, 1678, and of Our Reign the thirtieth year.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His Most Sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

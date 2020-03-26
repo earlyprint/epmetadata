@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mercy in her exaltation. Or, A soveraigne antidote against fear of the second death. In a sermon preached at the funeral of Daniel Taylor Esq; in Stephens Colemanstreet London, on the twentieth day of April, an. 1655.</title>
-         <author>Goodwin, John, 1594?-1665.</author>
-      </titleStmt>
-      <extent>[12], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock, for H. Eversden, and are to be sold at his shop at the signe of the Grey-hound, in Paul's Churchyard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: John Goodvvin.</note>
-         <note>Annotation on Thomason copy: "July. 20.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mercy in her exaltation. Or, A soveraigne antidote against fear of the second death. In a sermon preached at the funeral of Daniel Taylor Esq; in Stephens Colemanstreet London, on the twentieth day of April, an. 1655.</title>
+      <author>Goodwin, John, 1594?-1665.</author>
+    </titleStmt>
+    <extent>[12], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName>, for <persName type="publisher">H. Eversden</persName>, and are to be sold at <placeName>his shop at the signe of the Grey-hound, in Paul's Churchyard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: John Goodvvin.</note>
+      <note>Annotation on Thomason copy: "July. 20.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Eversden</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Grey-hound, in Paul's Churchyard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

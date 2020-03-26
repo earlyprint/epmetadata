@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Time's] darling: or, [a love] worth liking; [...]men, abroad and at home, at bed and [...]mpany. [...]ell mee so; or, Loves tide.</title>
-         <author>H., C.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis on Snow-Hill.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>[16--?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: C.H.</note>
-         <note>"Entered according to order."</note>
-         <note>In verse.</note>
-         <note>In two parts, printed side by side.</note>
-         <note>Imperfect: torn, affecting title and first column of text.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Time's] darling: or, [a love] worth liking; [...]men, abroad and at home, at bed and [...]mpany. [...]ell mee so; or, Loves tide.</title>
+      <author>H., C.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis</persName> on <placeName>Snow-Hill.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[16--?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: C.H.</note>
+      <note>"Entered according to order."</note>
+      <note>In verse.</note>
+      <note>In two parts, printed side by side.</note>
+      <note>Imperfect: torn, affecting title and first column of text.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Snow-Hill.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

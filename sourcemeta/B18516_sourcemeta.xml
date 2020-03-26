@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief advertisement to the merchant and clothier about the present state of the woollen manufactures of this nation by William Carter.</title>
-         <author>Carter, W. (William)</author>
-      </titleStmt>
-      <extent>21 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the authour,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief advertisement to the merchant and clothier about the present state of the woollen manufactures of this nation by William Carter.</title>
+      <author>Carter, W. (William)</author>
+    </titleStmt>
+    <extent>21 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the authour</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the authour</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

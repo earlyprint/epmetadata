@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to the Brief history of the Unitarians, called also Socinians by William Basset ...</title>
-         <author>Basset, William, 1644-1695.</author>
-      </titleStmt>
-      <extent>[7], 166, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1]-[2] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to the Brief history of the Unitarians, called also Socinians by William Basset ...</title>
+      <author>Basset, William, 1644-1695.</author>
+    </titleStmt>
+    <extent>[7], 166, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Randal Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1]-[2] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

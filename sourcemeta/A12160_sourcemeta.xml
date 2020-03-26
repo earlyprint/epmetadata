@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Corona charitatis, = The crovvne of charitie a sermon preacht in Mercers Chappell, May 10. 1625. at the solemne funerals of his euer-renowmed friend, of precious memory, the mirroir of charitie, Mr. Richard Fishburne, merchant, and now consecrated as an anniuersary to his fame; by Nat: Shute, rector of the parish of Saint Mildred in the Poultry, London.</title>
-         <author>Shute, Nathaniel, d. 1638.</author>
-      </titleStmt>
-      <extent>[10], 45, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Stansby for Samuel Man, dwelling at the Swanne in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Corona charitatis, = The crovvne of charitie a sermon preacht in Mercers Chappell, May 10. 1625. at the solemne funerals of his euer-renowmed friend, of precious memory, the mirroir of charitie, Mr. Richard Fishburne, merchant, and now consecrated as an anniuersary to his fame; by Nat: Shute, rector of the parish of Saint Mildred in the Poultry, London.</title>
+      <author>Shute, Nathaniel, d. 1638.</author>
+    </titleStmt>
+    <extent>[10], 45, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Stansby</persName> for <persName type="publisher">Samuel Man</persName>, dwelling at <placeName>the Swanne in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Swanne in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

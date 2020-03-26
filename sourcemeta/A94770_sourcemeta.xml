@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ode upon His Majesty's birth-day, set to musick by Dr. Staggins ; and perform'd before Their Majesties, November the 4th, 1693. ; The words by N. Tate, servant to Their Majesties.</title>
-         <author>Tate, Nahum, 1652-1715.</author>
-         <author>Staggins, Nicholas, 1650?-1700.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin, near the Oxford-Arms in Warwick-Lane.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M DC XC III [1693]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: Newberry Library, Chicago, Illinois.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ode upon His Majesty's birth-day, set to musick by Dr. Staggins ; and perform'd before Their Majesties, November the 4th, 1693. ; The words by N. Tate, servant to Their Majesties.</title>
+      <author>Tate, Nahum, 1652-1715.</author>
+      <author>Staggins, Nicholas, 1650?-1700.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName>, near <placeName>the Oxford-Arms in Warwick-Lane.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M DC XC III [1693]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: Newberry Library, Chicago, Illinois.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Oxford-Arms in Warwick-Lane.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The court secret a novel / written by P.B., Gent.</title>
-         <author>Belon, P. (Peter)</author>
-      </titleStmt>
-      <extent>2 v.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.E. for R. Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A political satire.</note>
-         <note>Attributed to Peter Belon. Cf. BM.</note>
-         <note>Pt. 2 has imprint: London : Printed for R. Bentley and S. Magnes, 1689.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The court secret a novel / written by P.B., Gent.</title>
+      <author>Belon, P. (Peter)</author>
+    </titleStmt>
+    <extent>2 v.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.E.</persName> for <persName type="publisher">R. Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A political satire.</note>
+      <note>Attributed to Peter Belon. Cf. BM.</note>
+      <note>Pt. 2 has imprint: London : Printed for R. Bentley and S. Magnes, 1689.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>R.E.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The compleat ship-wright plainly and demonstratively teaching the proportions used by experienced ship-wrights according to their custome of building, both geometrically and arithmetically performed : to which by Edmund Bushnell, ship-wright.</title>
-         <author>Bushnell, Edmund.</author>
-      </titleStmt>
-      <extent>[8], 68 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Leybourn for George Hurlock, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [6].</note>
-         <note>Advertisements: p. [7]-[8].</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The compleat ship-wright plainly and demonstratively teaching the proportions used by experienced ship-wrights according to their custome of building, both geometrically and arithmetically performed : to which by Edmund Bushnell, ship-wright.</title>
+      <author>Bushnell, Edmund.</author>
+    </titleStmt>
+    <extent>[8], 68 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Leybourn</persName> for <persName type="publisher">George Hurlock</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [6].</note>
+      <note>Advertisements: p. [7]-[8].</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Hurlock</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Leybourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

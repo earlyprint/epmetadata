@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of Mr. John Hieron with the characters and memorials of ten other worthy ministers of Jesus Christ / written by Mr. Robert Porter ...</title>
-         <author>Porter, Robert, d. 1690.</author>
-      </titleStmt>
-      <extent>[4], 95 p.   </extent>
-      <publicationStmt>
-         <publisher>Published by D. Burgess, printed for Tho. Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXCI [1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Daniel Burgess.</note>
-         <note>Running title: The life of Mr. Hieron, etc.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of Mr. John Hieron with the characters and memorials of ten other worthy ministers of Jesus Christ / written by Mr. Robert Porter ...</title>
+      <author>Porter, Robert, d. 1690.</author>
+    </titleStmt>
+    <extent>[4], 95 p.   </extent>
+    <publicationStmt>
+      <publisher>Published by <persName type="printer">D. Burgess, printed</persName> for <persName type="publisher">Tho. Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXCI [1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Daniel Burgess.</note>
+      <note>Running title: The life of Mr. Hieron, etc.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Burgess, printed</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

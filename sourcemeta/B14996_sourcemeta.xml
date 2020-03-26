@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londons Artillery briefly containing the noble practise of that wothie [sic] societie: with the moderne and ancient martiall exercises, natures of armes, vertue of magistrates, antiquitie, glorie and chronography of this honourable cittie. By R.N. Oxon.</title>
-         <author>Niccols, Richard, 1584-1616.</author>
-      </titleStmt>
-      <extent>[8], 104 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Creede, and Bernard Allsopp, for William Welby, and are to be sold at his shop in Paules Church-yard at the signe of the Swan,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Richard Niccols.</note>
-         <note>Partly in verse.</note>
-         <note>In the title, the comma after "Artillery" is printed above the line.</note>
-         <note>Running title reads: Londons Artillerie.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londons Artillery briefly containing the noble practise of that wothie [sic] societie: with the moderne and ancient martiall exercises, natures of armes, vertue of magistrates, antiquitie, glorie and chronography of this honourable cittie. By R.N. Oxon.</title>
+      <author>Niccols, Richard, 1584-1616.</author>
+    </titleStmt>
+    <extent>[8], 104 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Creede</persName>, and <persName type="printer">Bernard Allsopp</persName>, for <persName type="publisher">William Welby</persName>, and are to be sold at <placeName>his shop in Paules Church-yard at the signe of the Swan</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Richard Niccols.</note>
+      <note>Partly in verse.</note>
+      <note>In the title, the comma after "Artillery" is printed above the line.</note>
+      <note>Running title reads: Londons Artillerie.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Welby</persName>
+    </person>
+    <person type="printer">
+      <persName>Bernard Allsopp</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard at the signe of the Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An item against sacriledge: or, Sundry queries concerning tithes. Wherein is held forth, the propriety and title that ministers have to them. The mischiefs which would ensue if tithes were brought into a common treasury, and ministers reduced to stipends. The danger of gratifying the petitioners against tithes, and all imposed maintenance. Collected and composed by one that hath no propriety in tithes.</title>
-         <author>Clarke, Samuel, 1599-1682.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Abraham Miller for Thomas Vnderhill at the Anchor and Bible in Pauls Church-yard, near the little North-door,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>One that hath no propriety in tithes = Samuel Clarke.</note>
-         <note>Annotation on Thomason copy: "Septem: 1st".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An item against sacriledge: or, Sundry queries concerning tithes. Wherein is held forth, the propriety and title that ministers have to them. The mischiefs which would ensue if tithes were brought into a common treasury, and ministers reduced to stipends. The danger of gratifying the petitioners against tithes, and all imposed maintenance. Collected and composed by one that hath no propriety in tithes.</title>
+      <author>Clarke, Samuel, 1599-1682.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Abraham Miller</persName> for <persName type="publisher">Thomas Vnderhill</persName> at <placeName>the Anchor</placeName> and Bible in <placeName>Pauls Church-yard, near the little North-door</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>One that hath no propriety in tithes = Samuel Clarke.</note>
+      <note>Annotation on Thomason copy: "Septem: 1st".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Vnderhill</persName>
+    </person>
+    <person type="printer">
+      <persName>Abraham Miller</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, near the little North-door</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Anchor</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

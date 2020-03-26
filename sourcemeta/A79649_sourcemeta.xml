@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A collection of articles injunctions, canons, orders, ordinances, and constitutions ecclesiastical with other publick records of the Church of England; chiefly in the times of K. Edward. VIth. Q. Elizabeth. and K. James. Published to vindicate the Church of England and to promote uniformity and peace in the same. And humbly presented to the Convocation.</title>
-         <author>Church of England.</author>
-         <author>Sparrow, Anthony, 1612-1685.</author>
-         <author>Hollar, Wenceslaus, 1607-1677, engraver.</author>
-      </titleStmt>
-      <extent>[14] , 31, [3], 33-92, 63-85, [9], 87-99, 200-247, [3], 6, [2], 54, [2], 303-372 p., [1] leaf of plates   </extent>
-      <publicationStmt>
-         <publisher>printed by R. Norton for Timothy Garthwait at the little north-doore of St. Pauls Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Compiled in 1661 by Anthony Sparrow, who signs the preface.</note>
-         <note>The engraved frontispiece is signed: W. Hollar fecit.</note>
-         <note>The words "K. Edward. ... James." are bracketed together on title page.</note>
-         <note>Most articles, some in Latin, have separate dated title page; pagination and register are irregular.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A collection of articles injunctions, canons, orders, ordinances, and constitutions ecclesiastical with other publick records of the Church of England; chiefly in the times of K. Edward. VIth. Q. Elizabeth. and K. James. Published to vindicate the Church of England and to promote uniformity and peace in the same. And humbly presented to the Convocation.</title>
+      <author>Church of England.</author>
+      <author>Sparrow, Anthony, 1612-1685.</author>
+      <author>Hollar, Wenceslaus, 1607-1677, engraver.</author>
+    </titleStmt>
+    <extent>[14] , 31, [3], 33-92, 63-85, [9], 87-99, 200-247, [3], 6, [2], 54, [2], 303-372 p., [1] leaf of plates   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R. Norton</persName> for <persName type="publisher">Timothy Garthwait</persName> at <placeName>the little north-doore of St. Pauls Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Compiled in 1661 by Anthony Sparrow, who signs the preface.</note>
+      <note>The engraved frontispiece is signed: W. Hollar fecit.</note>
+      <note>The words "K. Edward. ... James." are bracketed together on title page.</note>
+      <note>Most articles, some in Latin, have separate dated title page; pagination and register are irregular.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Timothy Garthwait</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the little north-doore of St. Pauls Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

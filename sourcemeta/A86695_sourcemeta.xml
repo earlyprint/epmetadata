@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dry rod blooming and fruit-bearing. Or, A treatise of the pain, gain, and use of chastenings. Preached partly in severall sermons, but now compiled more orderly and fully for the direction and support of all Gods chastened that suffer either in Christ, or for Christ in these dayes. By G. Hughes, B.D. pastor of the church in Plymouth.</title>
-         <author>Hughes, George, 1603-1667.</author>
-      </titleStmt>
-      <extent>[8], 56, 49-119, [1] p.c4#20.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Paine for John Rothwell at the Sun in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Annotation on Thomason copy: "May. 18th.".</note>
-         <note>Text is continuous despite pagination.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dry rod blooming and fruit-bearing. Or, A treatise of the pain, gain, and use of chastenings. Preached partly in severall sermons, but now compiled more orderly and fully for the direction and support of all Gods chastened that suffer either in Christ, or for Christ in these dayes. By G. Hughes, B.D. pastor of the church in Plymouth.</title>
+      <author>Hughes, George, 1603-1667.</author>
+    </titleStmt>
+    <extent>[8], 56, 49-119, [1] p.c4#20.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Paine</persName> for <persName type="publisher">John Rothwell</persName> at <placeName>the Sun in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Annotation on Thomason copy: "May. 18th.".</note>
+      <note>Text is continuous despite pagination.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Rothwell</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

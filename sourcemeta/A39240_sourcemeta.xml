@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Approved medicines of little cost, to preserve health and also to cure those that are sick provided for the souldiers knap-sack and the country mans closet / written by Richard Elkes, Gent. ...</title>
-         <author>Elkes, Richard.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Ibbitson, and are to be sold by Tho. Vere ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Approved medicines of little cost, to preserve health and also to cure those that are sick provided for the souldiers knap-sack and the country mans closet / written by Richard Elkes, Gent. ...</title>
+      <author>Elkes, Richard.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Ibbitson</persName>, and are to be sold by <persName type="bookseller">Tho. Vere</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Tho. Vere</persName>
+    </person>
+    <person type="publisher">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

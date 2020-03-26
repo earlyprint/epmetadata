@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The picture of the conscience drawne to the life, by the pencell of divine truth. VVherein are set out 1. Its nature. 2. Infirmities. 3. Remedies. 4. Its duties. Consisting first in the truths to be beleived [sic]. 2. The vertues to be practised. 3. The vices to bee avoyded. 4. The heresies to bee rejected. All seasonable for these distracted times. By Alexander Rosse.</title>
-         <author>Ross, Alexander, 1591-1654.</author>
-      </titleStmt>
-      <extent>[22], 182 [i.e. 186], [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Badger, for M.M. and Gabriel Bedell, and are to be sold at their shop neere Temple-Bar, at the middle Temple Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 186 is misnumbered 182.</note>
-         <note>The words "Its nature. .. Its duties" are bracketed together on title page.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The picture of the conscience drawne to the life, by the pencell of divine truth. VVherein are set out 1. Its nature. 2. Infirmities. 3. Remedies. 4. Its duties. Consisting first in the truths to be beleived [sic]. 2. The vertues to be practised. 3. The vices to bee avoyded. 4. The heresies to bee rejected. All seasonable for these distracted times. By Alexander Rosse.</title>
+      <author>Ross, Alexander, 1591-1654.</author>
+    </titleStmt>
+    <extent>[22], 182 [i.e. 186], [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Badger</persName>, for <persName type="publisher">M.M.</persName> and <persName type="publisher">Gabriel Bedell</persName>, and are to be sold at <placeName>their shop neere Temple-Bar, at the middle Temple Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 186 is misnumbered 182.</note>
+      <note>The words "Its nature. .. Its duties" are bracketed together on title page.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gabriel Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>M.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Badger</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop neere Temple-Bar, at the middle Temple Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

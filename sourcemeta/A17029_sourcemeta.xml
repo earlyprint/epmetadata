@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speeches and honorable entertainment giuen to the Queenes Maiestie in progresse, at Cowdrey in Sussex, by the right honorable the Lord Montacute. 1591</title>
-         <title>Honorable entertainment given to the Queenes Majestie at Cowdrey in Suffex, by Lord Montacute. 1591.</title>
-      </titleStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Scarlet, and are to bee solde by William Wright, dwelling in Paules Churchyard neere to the French schoole,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1591.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Another edition, partly reimposed, with omissions and additions, of: The honorable entertainment given to the Queenes Majestie at Cowdrey in Suffex, by Lord Montacute. 1591 (STC 3907.5), which was the version John Nichols reprinted in the second volume of his "Progresses of Queen Elizabeth" (1788).</note>
-         <note>Formerly STC 3903.</note>
-         <note>Identified as STC 3903 on UMI microfilm reel 411.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speeches and honorable entertainment giuen to the Queenes Maiestie in progresse, at Cowdrey in Sussex, by the right honorable the Lord Montacute. 1591</title>
+      <title>Honorable entertainment given to the Queenes Majestie at Cowdrey in Suffex, by Lord Montacute. 1591.</title>
+    </titleStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Scarlet</persName>, and are to bee solde by <persName type="bookseller">William Wright</persName>, dwelling in <placeName>Paules Churchyard neere to the French schoole</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1591.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Another edition, partly reimposed, with omissions and additions, of: The honorable entertainment given to the Queenes Majestie at Cowdrey in Suffex, by Lord Montacute. 1591 (STC 3907.5), which was the version John Nichols reprinted in the second volume of his "Progresses of Queen Elizabeth" (1788).</note>
+      <note>Formerly STC 3903.</note>
+      <note>Identified as STC 3903 on UMI microfilm reel 411.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Scarlet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard neere to the French schoole</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

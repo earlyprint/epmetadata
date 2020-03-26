@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact and true account of the number, names, founders, and the years of foundation of all the publick schools in England with all the reputed academics and universites in the Christian world, viz. England, Scotland, Ireland, Bohemia, Denmark, France, Germany, Italy, Lithuania, Moravia, Poland, Prussia, Portugal, Spain, Sicily, Silesia, Sweden, Switzerland, and Transilvania.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed and published by George Croom for J. Weld ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact and true account of the number, names, founders, and the years of foundation of all the publick schools in England with all the reputed academics and universites in the Christian world, viz. England, Scotland, Ireland, Bohemia, Denmark, France, Germany, Italy, Lithuania, Moravia, Poland, Prussia, Portugal, Spain, Sicily, Silesia, Sweden, Switzerland, and Transilvania.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed and published by <persName type="printer">George Croom</persName> for <persName type="publisher">J. Weld</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Weld</persName>
+    </person>
+    <person type="printer">
+      <persName>George Croom</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

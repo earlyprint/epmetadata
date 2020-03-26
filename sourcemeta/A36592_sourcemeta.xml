@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>All for love, or, The world well lost a tragedy, as it is acted at the Theatre-Royal, and written in imitation of Shakespeare's stile / written by Mr. Dryden.</title>
-         <author>Dryden, John, 1631-1700.</author>
-         <author>Shakespeare, William, 1564-1616. Antony and Cleopatra.</author>
-      </titleStmt>
-      <extent>[18], 65, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Herringman, and sold by R. Bently, J. Tonson, F. Saunders, and T. Bennet,</publisher>
-         <pubPlace>[London] In the Savoy :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Based on Shakespeare's Anthony and Cleopatra.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>All for love, or, The world well lost a tragedy, as it is acted at the Theatre-Royal, and written in imitation of Shakespeare's stile / written by Mr. Dryden.</title>
+      <author>Dryden, John, 1631-1700.</author>
+      <author>Shakespeare, William, 1564-1616. Antony and Cleopatra.</author>
+    </titleStmt>
+    <extent>[18], 65, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Herringman</persName>, and sold by <persName type="bookseller">R. Bently</persName>, <persName type="bookseller">J. Tonson</persName>, <persName type="bookseller">F. Saunders</persName>, and <persName type="publisher">T. Bennet</persName>,</publisher>
+      <pubPlace>[London] In the Savoy :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Based on Shakespeare's Anthony and Cleopatra.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>F. Saunders</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Tonson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Bently</persName>
+    </person>
+    <person type="publisher">
+      <persName>H. Herringman</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Bennet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

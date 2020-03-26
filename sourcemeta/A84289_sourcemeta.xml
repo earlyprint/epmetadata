@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exhortation directed to the elders of the several congregations within this province of Lancaster. By the Provincial Assembly at Preston, May 1. 1655.</title>
-         <author>Preston (Lancashire, England). Provincial Assembly.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Luke Favvn, and are to be sold at his shop at the signe of the Parrot in Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "31 July.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exhortation directed to the elders of the several congregations within this province of Lancaster. By the Provincial Assembly at Preston, May 1. 1655.</title>
+      <author>Preston (Lancashire, England). Provincial Assembly.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Luke Favvn</persName>, and are to be sold at <placeName>his shop at the signe of the Parrot in Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "31 July.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Luke Favvn</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Parrot in Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

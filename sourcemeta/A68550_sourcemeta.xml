@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Bible-battells. Or The sacred art military For the rightly wageing of warre according to Holy Writ. Compiled for the vse of all such valiant worthies, and vertuously valerous souldiers, as vpon all iust occasions be ready to affront the enemies of God, our king, and country. By Ric. Bernard rector of Batcombe Somersetshire.</title>
-         <author>Bernard, Richard, 1568-1641.</author>
-      </titleStmt>
-      <extent>[24], 273, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by W. Jones] for Edward Blackmore, and are to be sold by Iames Boler at the signe of the Flowre de Luce in Paules Church-yard,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Imperfect; tightly bound affecting text; pages 269-70 cropped affecting text (pages from Bodleian library copy filmed at end).</note>
-         <note>Reproduction of the original in the Central Library (Bristol, Eng.).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Bible-battells. Or The sacred art military For the rightly wageing of warre according to Holy Writ. Compiled for the vse of all such valiant worthies, and vertuously valerous souldiers, as vpon all iust occasions be ready to affront the enemies of God, our king, and country. By Ric. Bernard rector of Batcombe Somersetshire.</title>
+      <author>Bernard, Richard, 1568-1641.</author>
+    </titleStmt>
+    <extent>[24], 273, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">W. Jones]</persName> for <persName type="publisher">Edward Blackmore</persName>, and are to be sold by <persName type="bookseller">Iames Boler</persName> at <placeName>the signe of the Flowre de Luce in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Imperfect; tightly bound affecting text; pages 269-70 cropped affecting text (pages from Bodleian library copy filmed at end).</note>
+      <note>Reproduction of the original in the Central Library (Bristol, Eng.).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iames Boler</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Blackmore</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Jones]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Flowre de Luce in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

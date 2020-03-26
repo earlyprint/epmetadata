@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the right vvorshipful the heads of the respective colleges and halls in the Vniversity of Oxford Sirs, you are desired to signify to your societies that whereas on Friday morning next thereis intended to be held a convocation in the theater for the University's being invested in the possession of it ...</title>
-         <author>University of Oxford.</author>
-         <author>Fell, John, 1625-1686.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hall, Printer to the University,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: John Fell, vice-Chan of Oxford.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the right vvorshipful the heads of the respective colleges and halls in the Vniversity of Oxford Sirs, you are desired to signify to your societies that whereas on Friday morning next thereis intended to be held a convocation in the theater for the University's being invested in the possession of it ...</title>
+      <author>University of Oxford.</author>
+      <author>Fell, John, 1625-1686.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hall</persName>, Printer to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: John Fell, vice-Chan of Oxford.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

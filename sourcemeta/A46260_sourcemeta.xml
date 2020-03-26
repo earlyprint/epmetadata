@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Money is an asse a comedy, as it hath been acted with good applause / written by Tho. Jordain ...</title>
-         <author>Jordan, Thomas, 1612?-1685?</author>
-      </titleStmt>
-      <extent>[4], 51 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Peter Lillicrap, for Fra. Kirkman,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title: Moneys an ass.</note>
-         <note>"Licensed November the 16, 1667. Roger L'Estrange."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Money is an asse a comedy, as it hath been acted with good applause / written by Tho. Jordain ...</title>
+      <author>Jordan, Thomas, 1612?-1685?</author>
+    </titleStmt>
+    <extent>[4], 51 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Peter Lillicrap</persName>, for <persName type="publisher">Fra. Kirkman</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title: Moneys an ass.</note>
+      <note>"Licensed November the 16, 1667. Roger L'Estrange."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fra. Kirkman</persName>
+    </person>
+    <person type="printer">
+      <persName>Peter Lillicrap</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

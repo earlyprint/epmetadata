@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A journal of the late motions and actions of the confederate forces against the French in the United Provinces and the Spanish Netherlands with curious remarks on the situation, strength, and rarities of the most considerable cities, towns and fortifications in those countreys : together with an exact list of the army / written by an English officer who was there during the last campaign.</title>
-         <author>English officer who was there during the last campaign.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Richard Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A journal of the late motions and actions of the confederate forces against the French in the United Provinces and the Spanish Netherlands with curious remarks on the situation, strength, and rarities of the most considerable cities, towns and fortifications in those countreys : together with an exact list of the army / written by an English officer who was there during the last campaign.</title>
+      <author>English officer who was there during the last campaign.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Richard Baldwin</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

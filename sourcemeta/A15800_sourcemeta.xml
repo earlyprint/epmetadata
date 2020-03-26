@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Selected sentences out of sacred antiquitie, conducing to the establishment of faith and good manners. Gathered by W. Wynne</title>
-         <author>Wynne, William, fl. 1616-1624.</author>
-      </titleStmt>
-      <extent>[10], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. A[llde] for Nathaniell Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Includes "Short prayers or meditations vpon the last thinges", pages 67-72, which are presumably by Wynne.</note>
-         <note>Leaf A1 blank except for signature.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Selected sentences out of sacred antiquitie, conducing to the establishment of faith and good manners. Gathered by W. Wynne</title>
+      <author>Wynne, William, fl. 1616-1624.</author>
+    </titleStmt>
+    <extent>[10], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. A[llde]</persName> for <persName type="publisher">Nathaniell Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Includes "Short prayers or meditations vpon the last thinges", pages 67-72, which are presumably by Wynne.</note>
+      <note>Leaf A1 blank except for signature.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniell Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>E. A[llde]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>For the plantation in Virginia. Or Nova Britannia</title>
-         <author>Virginia Company of London.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Windet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Announcement of an intended voyage to Virginia, and the terms on which laborers will be accepted as colonists.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>For the plantation in Virginia. Or Nova Britannia</title>
+      <author>Virginia Company of London.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Windet</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Announcement of an intended voyage to Virginia, and the terms on which laborers will be accepted as colonists.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

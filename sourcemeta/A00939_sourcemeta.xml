@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memoriall of the famous monuments and charitable almesdeedes of the right worshipfull Maister William Lambe esquire somtime gentleman of the chappell, in the reigne of the most renowmed [sic] King Henrie the eight, &amp;c. and late citizen of London, and free of the right worshipfull companie of clothworkers: deceased the 21. of April. An. 1580. Recorded in print, according to the various and trueth of his last will and testament by Abraham Fleming.</title>
-         <author>Fleming, Abraham, 1552?-1607.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>[Imprinted by Henrie Denham, for Thomas Turner, and are to be sold at his shop at Guild-Hall gate],</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>[1580]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon; place of publication and publication date from STC.</note>
-         <note>Running title reads: A memoriall of M. Lambs almesdeedes.</note>
-         <note>Signatures: A-E⁴.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memoriall of the famous monuments and charitable almesdeedes of the right worshipfull Maister William Lambe esquire somtime gentleman of the chappell, in the reigne of the most renowmed [sic] King Henrie the eight, &amp;c. and late citizen of London, and free of the right worshipfull companie of clothworkers: deceased the 21. of April. An. 1580. Recorded in print, according to the various and trueth of his last will and testament by Abraham Fleming.</title>
+      <author>Fleming, Abraham, 1552?-1607.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>[Imprinted by <persName type="printer">Henrie Denham</persName>, for <persName type="publisher">Thomas Turner</persName>, and are to be sold at <placeName>his shop at Guild-Hall gate]</placeName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>[1580]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon; place of publication and publication date from STC.</note>
+      <note>Running title reads: A memoriall of M. Lambs almesdeedes.</note>
+      <note>Signatures: A-E&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Turner</persName>
+    </person>
+    <person type="printer">
+      <persName>Henrie Denham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Guild-Hall gate]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

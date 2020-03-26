@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Paradise regain'd a poem in IV books : to which is added Samson Agonistes / the author John Milton.</title>
-         <author>Milton, John, 1608-1674.</author>
-         <author>Milton, John, 1608-1674. Samson Agonistes.</author>
-      </titleStmt>
-      <extent>[2], 111, 101, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for John Starkey ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First edition.</note>
-         <note>Added t.p. and separate paging: Samson Agonistes, a dramatic poem / the authour John Milton. London : Printed by J.M. for John Starkey ..., 1671.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Paradise regain'd a poem in IV books : to which is added Samson Agonistes / the author John Milton.</title>
+      <author>Milton, John, 1608-1674.</author>
+      <author>Milton, John, 1608-1674. Samson Agonistes.</author>
+    </titleStmt>
+    <extent>[2], 111, 101, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">John Starkey</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First edition.</note>
+      <note>Added t.p. and separate paging: Samson Agonistes, a dramatic poem / the authour John Milton. London : Printed by J.M. for John Starkey ..., 1671.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Starkey</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

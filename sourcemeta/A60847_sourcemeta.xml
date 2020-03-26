@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some remarkable passages in the holy life and death of Gervase Disney, Esq. to which are added several letters and poems.</title>
-         <author>Disney, Gervase, 1641-1691.</author>
-      </titleStmt>
-      <extent>xxiv, 293 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Jonathan Robinson...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXCII [1692]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some remarkable passages in the holy life and death of Gervase Disney, Esq. to which are added several letters and poems.</title>
+      <author>Disney, Gervase, 1641-1691.</author>
+    </titleStmt>
+    <extent>xxiv, 293 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Jonathan Robinson</persName>...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXCII [1692]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

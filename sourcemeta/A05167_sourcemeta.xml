@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before his Maiesty, on Tuesday the nineteenth of Iune, at Wansted. Anno Dom. 1621. By D. Laud Deane of Glocester, one of his Maiesties chaplaines in ordinary. Printed by commandement</title>
-         <author>Laud, William, 1573-1645.</author>
-      </titleStmt>
-      <extent>[2], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by F. K[ingston] for Matthew Lownes, dwelling in Pauls Church-yard, at the signe of the Bishops head,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: Psalme 122.6,7.</note>
-         <note>Print show-through; some pages stained.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before his Maiesty, on Tuesday the nineteenth of Iune, at Wansted. Anno Dom. 1621. By D. Laud Deane of Glocester, one of his Maiesties chaplaines in ordinary. Printed by commandement</title>
+      <author>Laud, William, 1573-1645.</author>
+    </titleStmt>
+    <extent>[2], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">F. K[ingston]</persName> for <persName type="publisher">Matthew Lownes</persName>, dwelling in <placeName>Pauls Church-yard, at the signe of the Bishops head</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: Psalme 122.6,7.</note>
+      <note>Print show-through; some pages stained.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>F. K[ingston]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe of the Bishops head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

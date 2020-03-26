@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of divers noblemen and gentlemen, estated in Ireland, and now at London, presented to His Maiestie at York together with His Majesties answer thereunto, March 28, 1642.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Barker ... and by the assignes of John Bill,</publisher>
-         <pubPlace>York :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The answer of King Charles I: "At the court at York, 28 Martii, 1642 ..." and is signed Master Secretary Nicholas. p. 5-6 at end.</note>
-         <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of divers noblemen and gentlemen, estated in Ireland, and now at London, presented to His Maiestie at York together with His Majesties answer thereunto, March 28, 1642.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by Robert Barker ... and by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>York :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The answer of King Charles I: "At the court at York, 28 Martii, 1642 ..." and is signed Master Secretary Nicholas. p. 5-6 at end.</note>
+      <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barkerand</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

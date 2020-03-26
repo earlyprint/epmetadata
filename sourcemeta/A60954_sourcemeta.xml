@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Twelve sermons preached upon several occasions by Robert South ... ; six of them never before printed.</title>
-         <title>Sermons. Selections</title>
-         <author>South, Robert, 1634-1716.</author>
-      </titleStmt>
-      <extent>[8], 639, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.H. for Thomas Bennett ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-         <note>Table of contents: p. [7]-[8]</note>
-         <note>Advertisement: p. [1] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Twelve sermons preached upon several occasions by Robert South ... ; six of them never before printed.</title>
+      <title>Sermons. Selections</title>
+      <author>South, Robert, 1634-1716.</author>
+    </titleStmt>
+    <extent>[8], 639, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.H.</persName> for <persName type="publisher">Thomas Bennett</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+      <note>Table of contents: p. [7]-[8]</note>
+      <note>Advertisement: p. [1] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Bennett</persName>
+    </person>
+    <person type="printer">
+      <persName>J.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

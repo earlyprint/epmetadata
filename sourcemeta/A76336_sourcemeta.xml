@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The behaviour, confession, and execution, of the four prisoners at Tyburn William Blower, for high treason; Robert Francis for the murther of Tho. Dangerfield, Henry Anthony, and John Morgan for two several burglarys and fellonies. On Friday the 24 of this instant July, 1685. VVith many remarkable passages and transactious [sic], during the series of their lives, taken from their own mouths, after their condemnation.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by E. Mallet in Black-Horse-Alley near Fleet-Bridge,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>[1685]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Dated at end: July the 24th. 1685.</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The behaviour, confession, and execution, of the four prisoners at Tyburn William Blower, for high treason; Robert Francis for the murther of Tho. Dangerfield, Henry Anthony, and John Morgan for two several burglarys and fellonies. On Friday the 24 of this instant July, 1685. VVith many remarkable passages and transactious [sic], during the series of their lives, taken from their own mouths, after their condemnation.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">E. Mallet</persName> in <placeName>Black-Horse-Alley near Fleet-Bridge</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>[1685]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dated at end: July the 24th. 1685.</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. Mallet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Black-Horse-Alley near Fleet-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

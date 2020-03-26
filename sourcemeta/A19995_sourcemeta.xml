@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A comfortable and heauenly inquisition not made by the vnmercifull Pope, Christs pretended vicar: but by our mercifull God, in Christ, our assured louing father. Or a sermon preached at the funeralls of the vertuous and religious gentlewoman Mris. Neale of Homersfield in Suffolke.</title>
-         <author>Day, Valentine, b. 1589 or 90.</author>
-      </titleStmt>
-      <extent>[6], 70 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Griffin] for Nathaniel Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Valentine Day.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: Gods inquisition after man.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A comfortable and heauenly inquisition not made by the vnmercifull Pope, Christs pretended vicar: but by our mercifull God, in Christ, our assured louing father. Or a sermon preached at the funeralls of the vertuous and religious gentlewoman Mris. Neale of Homersfield in Suffolke.</title>
+      <author>Day, Valentine, b. 1589 or 90.</author>
+    </titleStmt>
+    <extent>[6], 70 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Griffin]</persName> for <persName type="publisher">Nathaniel Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Valentine Day.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: Gods inquisition after man.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Griffin]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

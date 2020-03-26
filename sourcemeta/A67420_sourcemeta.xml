@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>More news from Rome, or, Magna Charta discoursed of between a poor man &amp; his wife as also a new font erected in the cathedral-church at Gloucester in October 1663, and consecrated by the reverend moderate bishop, Dr. William Nicolson ... : as also an assertion of Dr. William Warmstrey ... wherein he affirmeth that it is a lesser sin for a man to kill his father than to refrain coming to the divine service established in the Church of England ...</title>
-         <author>Wallis, Ralph, d. 1669.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London for the author for the only benefit of his wife and children,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>Anno. 1666, when time shall come.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An attack on Philanax Anglicus and the Church of England.</note>
-         <note>Written by Ralph Wallis. Cf. DNB.</note>
-         <note>Dedication signed: Sil Awl [anagram of Wallis].</note>
-         <note>Another ed. has title: Or Magna Charta; more new from Rome: discoursed between a poor man &amp; his wife.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>More news from Rome, or, Magna Charta discoursed of between a poor man &amp; his wife as also a new font erected in the cathedral-church at Gloucester in October 1663, and consecrated by the reverend moderate bishop, Dr. William Nicolson ... : as also an assertion of Dr. William Warmstrey ... wherein he affirmeth that it is a lesser sin for a man to kill his father than to refrain coming to the divine service established in the Church of England ...</title>
+      <author>Wallis, Ralph, d. 1669.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London</placeName> for <persName type="publisher">the author</persName> for <persName type="publisher">the only benefit of his wife and children</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>Anno. 1666, when time shall come.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An attack on Philanax Anglicus and the Church of England.</note>
+      <note>Written by Ralph Wallis. Cf. DNB.</note>
+      <note>Dedication signed: Sil Awl [anagram of Wallis].</note>
+      <note>Another ed. has title: Or Magna Charta; more new from Rome: discoursed between a poor man &amp; his wife.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="publisher">
+      <persName>the only benefit of his wife and children</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

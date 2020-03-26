@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Three treatises religiously handled and named according to the seuerall subiect of each treatise: The mourning weede. The mornings joy. The kings reioycing. Published by R.M. minister of Gods word. Perused and allowed.</title>
-         <author>Mavericke, Radford, b. 1560 or 61.</author>
-      </titleStmt>
-      <extent>[4], 48 leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Windet, dwelling at the signe of the Crosse Keyes at Powles Wharfe, and are there to be solde,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.M. = Radford Mavericke.</note>
-         <note>"The mornings joy" and "The kings reioycing" have separately dated title pages; pagination and register are continuous.</note>
-         <note>Identified as STC 17683b on UMI microfilm.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Three treatises religiously handled and named according to the seuerall subiect of each treatise: The mourning weede. The mornings joy. The kings reioycing. Published by R.M. minister of Gods word. Perused and allowed.</title>
+      <author>Mavericke, Radford, b. 1560 or 61.</author>
+    </titleStmt>
+    <extent>[4], 48 leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Windet</persName>, dwelling at <placeName>the signe of the Crosse Keyes at Powles Wharfe</placeName>, and are there to be solde,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.M. = Radford Mavericke.</note>
+      <note>"The mornings joy" and "The kings reioycing" have separately dated title pages; pagination and register are continuous.</note>
+      <note>Identified as STC 17683b on UMI microfilm.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Windet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crosse Keyes at Powles Wharfe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

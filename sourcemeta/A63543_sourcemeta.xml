@@ -1,17 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True list of the lords spiritual and temporal, together with the knights, citizens, and burgesses of the Parliament, which met at Westminster the 24th of August, 1698, and was prorogued to the 27th of September, and from thence to the 27th of October instance, as they are returned in to the office of the Clerk of the Crown in Chancery</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Jones in the Savoy, and sold by Jacob Tonson in Fleet-Street, and John Nutt near Staioners-Hall,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True list of the lords spiritual and temporal, together with the knights, citizens, and burgesses of the Parliament, which met at Westminster the 24th of August, 1698, and was prorogued to the 27th of September, and from thence to the 27th of October instance, as they are returned in to the office of the Clerk of the Crown in Chancery</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Jones</persName> in <placeName>the Savoy</placeName>, and sold by <persName type="bookseller">Jacob Tonson</persName> in <placeName>Fleet-Street</placeName>, and <persName type="bookseller">John Nutt</persName> near <placeName>Staioners-Hall</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Jacob Tonson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-Street</placeName>
+    </place>
+    <place type="location">
+      <placeName>Staioners-Hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fearefull example, shewed vpon a periured person Who on the 14, of this present moneth of May being condemned for periury, in the honourable Court of Starre Chamber: did there desperatly stabbe himselfe. Containing a notable warning to all common baylors.</title>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde] for Thomas Nelson,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>[1591]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Text dated: 14. of May. 1591.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fearefull example, shewed vpon a periured person Who on the 14, of this present moneth of May being condemned for periury, in the honourable Court of Starre Chamber: did there desperatly stabbe himselfe. Containing a notable warning to all common baylors.</title>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">Thomas Nelson</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>[1591]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Text dated: 14. of May. 1591.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Nelson</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

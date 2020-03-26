@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse concerning the holy fast of Lent together with the sentiment of Dr. John Cosens, late Bishop of Durrham, concerning the same holy fast.</title>
-         <author>Francis, William.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, William Francis,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse concerning the holy fast of Lent together with the sentiment of Dr. John Cosens, late Bishop of Durrham, concerning the same holy fast.</title>
+      <author>Francis, William.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, <persName type="publisher">William Francis</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Francis</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

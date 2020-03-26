@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the conversion of Theodore John, a late teacher among the Jews, together with his confession of the Christian faith, which he delivered immediately before he was baptized in the presence of the Lutheran congregation in the German church in Little-Trinity Lane, London, on the 23d. Sunday after Trinity, being the 31st. of October, in the year of our Lord God 1692. Translated out of High Dutch into English.</title>
-         <author>John, Theodore.</author>
-      </titleStmt>
-      <extent>[12], 54, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Dunton, at the Raven in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Below imprint: Price 6d.</note>
-         <note>With an initial imprimatur leaf.</note>
-         <note>With three final leaves of advertisements.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the conversion of Theodore John, a late teacher among the Jews, together with his confession of the Christian faith, which he delivered immediately before he was baptized in the presence of the Lutheran congregation in the German church in Little-Trinity Lane, London, on the 23d. Sunday after Trinity, being the 31st. of October, in the year of our Lord God 1692. Translated out of High Dutch into English.</title>
+      <author>John, Theodore.</author>
+    </titleStmt>
+    <extent>[12], 54, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Dunton</persName>, at <placeName>the Raven in the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Below imprint: Price 6d.</note>
+      <note>With an initial imprimatur leaf.</note>
+      <note>With three final leaves of advertisements.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Dunton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Raven in the Poultrey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

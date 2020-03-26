@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short reply vnto the last printed books of Henry Barrow and Iohn Greenwood, the chiefe ringleaders of our Donatists in England VVherein is layd open their grosse ignorance, and foule errors: vpon which their whole building is founded. By George Gyfford, minister of Gods holy worde, in Maldon.</title>
-         <author>Gifford, George, d. 1620.</author>
-      </titleStmt>
-      <extent>[6], 98 p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Orwin, for Tobie Cooke: and are to be solde at the Tygers head, in Pauls Churchyard,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1591.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Barrow, henry.  "A plaine refutation of M. G. Giffardes booke", itself a refutation of: Gifford, George.  "A short treatise against the Donatists of England, whome we call Brownists".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short reply vnto the last printed books of Henry Barrow and Iohn Greenwood, the chiefe ringleaders of our Donatists in England VVherein is layd open their grosse ignorance, and foule errors: vpon which their whole building is founded. By George Gyfford, minister of Gods holy worde, in Maldon.</title>
+      <author>Gifford, George, d. 1620.</author>
+    </titleStmt>
+    <extent>[6], 98 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Orwin</persName>, for <persName type="publisher">Tobie Cooke:</persName> and are to be solde at <placeName>the Tygers head, in Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1591.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Barrow, henry.  "A plaine refutation of M. G. Giffardes booke", itself a refutation of: Gifford, George.  "A short treatise against the Donatists of England, whome we call Brownists".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tobie Cooke:</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Orwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Tygers head, in Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

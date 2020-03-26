@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for the annihilating of a former proclamation, intituled, A proclamation prohibiting the vntimely bringing in of vvines</title>
-         <title>Proclamations. 1619-09-02</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton, and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno Dom. M.DC.XIX. [1619]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Repealing the proclamation of 11 September 1613.</note>
-         <note>Dated at end: Bagshot the second day of September, in the seuenteenth yeere of our reigne ..</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for the annihilating of a former proclamation, intituled, A proclamation prohibiting the vntimely bringing in of vvines</title>
+      <title>Proclamations. 1619-09-02</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno Dom. M.DC.XIX. [1619]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Repealing the proclamation of 11 September 1613.</note>
+      <note>Dated at end: Bagshot the second day of September, in the seuenteenth yeere of our reigne ..</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

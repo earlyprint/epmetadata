@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Debtford plumb cake, or, The four merry vvives. Tune of, An old woman poor and blind. Licensed according to order.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcut).  </extent>
-      <publicationStmt>
-         <publisher>printed for T. Jackson, near Fleet street,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>[ca. 1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing.</note>
-         <note>Verse: "Come all you sweet lips, round me stand ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Debtford plumb cake, or, The four merry vvives. Tune of, An old woman poor and blind. Licensed according to order.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcut).  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">T. Jackson</persName>, near <placeName>Fleet street</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[ca. 1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing.</note>
+      <note>Verse: "Come all you sweet lips, round me stand ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Jackson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

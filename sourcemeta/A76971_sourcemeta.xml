@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Scotlands thanks-giving for the returne of their armie. Together vvith a true copie of a letter from Dublin of their last proceedings, sent to Iohn Bibie drum-major for the Tower and Citie of London.</title>
-         <author>Bacon, John, 17th cent.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed in the same yeare, the Scots armie did retire. Printed for T. Paine and M. Simmons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Scotlands thanksgiving" is in verse.</note>
-         <note>The letter signed: John Bacon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Scotlands thanks-giving for the returne of their armie. Together vvith a true copie of a letter from Dublin of their last proceedings, sent to Iohn Bibie drum-major for the Tower and Citie of London.</title>
+      <author>Bacon, John, 17th cent.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>the same yeare, the Scots armie did retire. Printed</placeName> for <persName type="publisher">T. Paine</persName> and <persName type="publisher">M. Simmons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Scotlands thanksgiving" is in verse.</note>
+      <note>The letter signed: John Bacon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M. Simmons</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the same yeare, the Scots armie did retire. Printed</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

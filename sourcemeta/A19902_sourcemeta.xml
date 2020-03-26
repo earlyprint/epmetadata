@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The holy roode, or Christs crosse containing Christ crucified, described in speaking-picture. / By Iohn Dauies.</title>
-         <author>Davies, John, 1565?-1618.</author>
-      </titleStmt>
-      <extent>[80] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Iohn Windet] for N. Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1609]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name and publication date from colophon.</note>
-         <note>Signatures: A-K⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The holy roode, or Christs crosse containing Christ crucified, described in speaking-picture. / By Iohn Dauies.</title>
+      <author>Davies, John, 1565?-1618.</author>
+    </titleStmt>
+    <extent>[80] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Iohn Windet]</persName> for <persName type="publisher">N. Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1609]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name and publication date from colophon.</note>
+      <note>Signatures: A-K&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N. Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Windet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

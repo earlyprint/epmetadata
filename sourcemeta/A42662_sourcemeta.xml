@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Eleosriabos: being England's triumphs in an hearty remembrance of that wonderfull providence which hath all along waited on the sacred person of our Augustus His Majesty William III. Until he arriv'd safe in the joyfull haven of peace. A pindarick. By T. G. Physician in Essex.</title>
-         <author>T. G.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for F. Blithe, and are to be sold by Richard Baldwin near the Oxford Arms in Warwick lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698 [i.e. 1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>The first word in the title is in Greek characters.</note>
-         <note>Annotation on the Aberdeen University Library copy: The "8" in imprint date is crossed out and replaced with "7"; "2 Nov.".</note>
-         <note>Reproduction of the original in the Aberdeen University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Eleosriabos: being England's triumphs in an hearty remembrance of that wonderfull providence which hath all along waited on the sacred person of our Augustus His Majesty William III. Until he arriv'd safe in the joyfull haven of peace. A pindarick. By T. G. Physician in Essex.</title>
+      <author>T. G.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">F. Blithe</persName>, and are to be sold by <persName type="bookseller">Richard Baldwin</persName> near <placeName>the Oxford Arms in Warwick lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698 [i.e. 1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>The first word in the title is in Greek characters.</note>
+      <note>Annotation on the Aberdeen University Library copy: The "8" in imprint date is crossed out and replaced with "7"; "2 Nov.".</note>
+      <note>Reproduction of the original in the Aberdeen University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="publisher">
+      <persName>F. Blithe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Oxford Arms in Warwick lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

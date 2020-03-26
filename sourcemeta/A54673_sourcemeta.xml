@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A phylosophical essay treating of the most probable cause of that grand mystery of nature, the flux &amp; reflux, or flowing and ebbing of the sea</title>
-         <author>Philipot, Thomas, d. 1682.</author>
-      </titleStmt>
-      <extent>[4], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. for T. Passinger ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Philipot.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A phylosophical essay treating of the most probable cause of that grand mystery of nature, the flux &amp; reflux, or flowing and ebbing of the sea</title>
+      <author>Philipot, Thomas, d. 1682.</author>
+    </titleStmt>
+    <extent>[4], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> for <persName type="publisher">T. Passinger</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Philipot.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Passinger</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

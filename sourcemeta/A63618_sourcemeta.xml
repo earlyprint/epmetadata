@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of enquiry to the reverend fathers of the Society of Jesus written in the person of a dissatisfied Roman Catholick.</title>
-         <author>Taylor, James, fl. 1687-1689.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Rogers ... and Samuel Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at the end: A.B.</note>
-         <note>Written by James Taylor.  Cf. BM, NUC pre-1956, Wing.</note>
-         <note>"I who make these enquiries, am a layman of the Church of England ..."--Advertisement.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of enquiry to the reverend fathers of the Society of Jesus written in the person of a dissatisfied Roman Catholick.</title>
+      <author>Taylor, James, fl. 1687-1689.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Rogers</persName> ... and <persName type="publisher">Samuel Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at the end: A.B.</note>
+      <note>Written by James Taylor.  Cf. BM, NUC pre-1956, Wing.</note>
+      <note>"I who make these enquiries, am a layman of the Church of England ..."--Advertisement.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Smith</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Rogers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

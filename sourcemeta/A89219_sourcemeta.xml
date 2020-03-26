@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Healths improvement: or, Rules comprizing and discovering the nature, method, and manner of preparing all sorts of food used in this nation. Written by that ever famous Thomas Muffett, Doctor in Physick: corrected and enlarged by Christopher Bennet, Doctor in Physick, and fellow of the Colledg of Physitians in London.</title>
-         <author>Moffett, Thomas, 1553-1604.</author>
-         <author>Bennet, Christopher, 1617-1655.</author>
-      </titleStmt>
-      <extent>[8], 296 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho: Newcomb for Samuel Thomson, at the sign of the white Horse in Pauls Churchyard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a preliminary imprimatur leaf.</note>
-         <note>Annotation on Thomason copy: "May. 8.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Healths improvement: or, Rules comprizing and discovering the nature, method, and manner of preparing all sorts of food used in this nation. Written by that ever famous Thomas Muffett, Doctor in Physick: corrected and enlarged by Christopher Bennet, Doctor in Physick, and fellow of the Colledg of Physitians in London.</title>
+      <author>Moffett, Thomas, 1553-1604.</author>
+      <author>Bennet, Christopher, 1617-1655.</author>
+    </titleStmt>
+    <extent>[8], 296 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho: Newcomb</persName> for <persName type="publisher">Samuel Thomson</persName>, at <placeName>the sign of the white Horse in Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a preliminary imprimatur leaf.</note>
+      <note>Annotation on Thomason copy: "May. 8.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Thomson</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho: Newcomb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the white Horse in Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

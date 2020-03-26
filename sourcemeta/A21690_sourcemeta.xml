@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. The Queenes Maiestie vnderstandyng the great disorder that of late hath ben and yet is dayly vsed in and about the Cities of London and Westminster, and especially in and about Westminster hall, and the palaice of Westminster, by dyuers lyght and euyll disposed persons ...</title>
-         <title>Proclamations. 1566-11-10</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In Powles Churchyarde, by Rycharde Iugge, and Iohn Cawood, Printers to the Queenes Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1566?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A proclamation against such as abuse informers.</note>
-         <note>Suggested date of publication from STC.</note>
-         <note>At foot of sheet: Cum priuilegio Regiæ Maiestatis.</note>
-         <note>Line 5 of text has: "companyes"; date of issue misprinted "5166".</note>
-         <note>Identified as STC 7998 on UMI microfilm reel 455.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. The Queenes Maiestie vnderstandyng the great disorder that of late hath ben and yet is dayly vsed in and about the Cities of London and Westminster, and especially in and about Westminster hall, and the palaice of Westminster, by dyuers lyght and euyll disposed persons ...</title>
+      <title>Proclamations. 1566-11-10</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In Powles Churchyarde, by <persName type="printer">Rycharde Iugge</persName>, and <persName type="printer">Iohn Cawood</persName>, Printers to <persName type="patron">the Queenes Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1566?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A proclamation against such as abuse informers.</note>
+      <note>Suggested date of publication from STC.</note>
+      <note>At foot of sheet: Cum priuilegio Regi&#230; Maiestatis.</note>
+      <note>Line 5 of text has: "companyes"; date of issue misprinted "5166".</note>
+      <note>Identified as STC 7998 on UMI microfilm reel 455.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Queenes Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Rycharde Iugge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

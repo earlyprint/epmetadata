@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A midsommer nights dreame As it hath beene sundry times publickely acted, by the Right honourable, the Lord Chamberlaine his seruants. Written by William Shakespeare.</title>
-         <author>Shakespeare, William, 1564-1616.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>[By Richard Bradock] for Thomas Fisher, and are to be soulde at his shoppe, at the signe of the White Hart, in Fleetestreete,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Mostly in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>Running title reads: A midsommer nightes dreame.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A midsommer nights dreame As it hath beene sundry times publickely acted, by the Right honourable, the Lord Chamberlaine his seruants. Written by William Shakespeare.</title>
+      <author>Shakespeare, William, 1564-1616.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Richard Bradock]</persName> for <persName type="publisher">Thomas Fisher</persName>, and are to be soulde at <placeName>his shoppe, at the signe of the White Hart, in Fleetestreete</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Mostly in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>Running title reads: A midsommer nightes dreame.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Fisher</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Bradock]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe, at the signe of the White Hart, in Fleetestreete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

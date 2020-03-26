@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Ioseph a poem. VVritten by Sir Thomas Salusbury, Barronet, late of the Inner Temple.</title>
-         <title>Life of Joseph</title>
-         <author>Salusbury, Thomas, Sir, d. 1643.</author>
-      </titleStmt>
-      <extent>[18], 107, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper, for Roger Ball, and are to be sold at his shop at the signe of the Golden Anchor in the Strand, neere Temple-Barre,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1636.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>A reissue, with cancel title page, of: The life of Joseph.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Ioseph a poem. VVritten by Sir Thomas Salusbury, Barronet, late of the Inner Temple.</title>
+      <title>Life of Joseph</title>
+      <author>Salusbury, Thomas, Sir, d. 1643.</author>
+    </titleStmt>
+    <extent>[18], 107, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName>, for <persName type="publisher">Roger Ball</persName>, and are to be sold at <placeName>his shop at the signe of the Golden Anchor in the Strand, neere Temple-Barre</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1636.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>A reissue, with cancel title page, of: The life of Joseph.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Ball</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Golden Anchor in the Strand, neere Temple-Barre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

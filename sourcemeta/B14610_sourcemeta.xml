@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A familiar and Christian instruction Containing a collection of diuerse and sundrie places of Scripture, seruinge for an exposition vpon the Lordes prayer, the Creede, the tenne commaundementes, the Sacraments, together with the offices and duties of eche Christian towardes another. Translated out of the french by G.C.</title>
-         <author>Chapelin, George, b. 1557 or 8.</author>
-      </titleStmt>
-      <extent>[12], 336 p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Vautrollier, for Andrew Maunsell, and are to be soulde at his shop at the west end of Paules,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1582.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>G.C. = George Chapelin.</note>
-         <note>Original French title not traced.</note>
-         <note>Print faded, with some print unreadable on pp. 27, 97, and 120. tightly bound.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A familiar and Christian instruction Containing a collection of diuerse and sundrie places of Scripture, seruinge for an exposition vpon the Lordes prayer, the Creede, the tenne commaundementes, the Sacraments, together with the offices and duties of eche Christian towardes another. Translated out of the french by G.C.</title>
+      <author>Chapelin, George, b. 1557 or 8.</author>
+    </titleStmt>
+    <extent>[12], 336 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Vautrollier</persName>, for <persName type="publisher">Andrew Maunsell</persName>, and are to be soulde at <placeName>his shop at the west end of Paules</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1582.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>G.C. = George Chapelin.</note>
+      <note>Original French title not traced.</note>
+      <note>Print faded, with some print unreadable on pp. 27, 97, and 120. tightly bound.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Maunsell</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Vautrollier</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the west end of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

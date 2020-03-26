@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before His Majesty at White-Hall, 29 Decemb. 1678 by Edward Young ...</title>
-         <author>Young, Edward, 1641 or 2-1705.</author>
-      </titleStmt>
-      <extent>[3], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. James for William Birch ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXIX [1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before His Majesty at White-Hall, 29 Decemb. 1678 by Edward Young ...</title>
+      <author>Young, Edward, 1641 or 2-1705.</author>
+    </titleStmt>
+    <extent>[3], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. James</persName> for <persName type="publisher">William Birch</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXIX [1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Birch</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. James</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

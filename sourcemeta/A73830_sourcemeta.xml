@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Pleasant new ditty, called the new So ho to a pleasant new tune.</title>
-      </titleStmt>
-      <extent>[2] leaves : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by R.B.,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>[ca. 1615]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from STC (2nd ed.)</note>
-         <note>Contains three woodcut illus.</note>
-         <note>Single sheet cut in two parts.</note>
-         <note>Right half-sheet contains: The second part. To the same tune.</note>
-         <note>Reproduction of original in: Pepys' Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Pleasant new ditty, called the new So ho to a pleasant new tune.</title>
+    </titleStmt>
+    <extent>[2] leaves : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.B.</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>[ca. 1615]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from STC (2nd ed.)</note>
+      <note>Contains three woodcut illus.</note>
+      <note>Single sheet cut in two parts.</note>
+      <note>Right half-sheet contains: The second part. To the same tune.</note>
+      <note>Reproduction of original in: Pepys' Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

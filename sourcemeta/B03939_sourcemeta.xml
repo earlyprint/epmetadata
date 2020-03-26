@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An English answer to the Scotch speech. Shewing the intollerableness of tolleration in matters of religion. And converting each argument in that speech to its most reasonable, genuine, and proper use, and each paragraph into an argument against its author. / By W.K., a lover of loyalty, truth and tranquility ; and one who accounts it a dignity, as well as duty, to be an obedient son of the Church of England.</title>
-         <author>W. K., fl. 1668</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.N. for Edward Man, and are to be sold at his Shop at the Sign of the Swan near York-house in the Strand,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Headpiece; initial letter.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An English answer to the Scotch speech. Shewing the intollerableness of tolleration in matters of religion. And converting each argument in that speech to its most reasonable, genuine, and proper use, and each paragraph into an argument against its author. / By W.K., a lover of loyalty, truth and tranquility ; and one who accounts it a dignity, as well as duty, to be an obedient son of the Church of England.</title>
+      <author>W. K., fl. 1668</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.N.</persName> for <persName type="publisher">Edward Man</persName>, and are to be sold at <placeName>his Shop at the Sign of the Swan near York-house in the Strand</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Headpiece; initial letter.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Man</persName>
+    </person>
+    <person type="printer">
+      <persName>T.N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Shop at the Sign of the Swan near York-house in the Strand</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

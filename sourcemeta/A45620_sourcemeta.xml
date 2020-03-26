@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the great antidote of Paracelsus, Van Helmont, Croulius, and by them called the elixir proprietatis shewing the true way of preparing of it, and the wonderfull cures they have performed thereby. And also this authours experience thereof. Written by J. H. a lover of truth, and made publique for the good of all that stand in need thereof.</title>
-         <author>J. H., lover of truth.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the authour,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Guildhall Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the great antidote of Paracelsus, Van Helmont, Croulius, and by them called the elixir proprietatis shewing the true way of preparing of it, and the wonderfull cures they have performed thereby. And also this authours experience thereof. Written by J. H. a lover of truth, and made publique for the good of all that stand in need thereof.</title>
+      <author>J. H., lover of truth.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the authour</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Guildhall Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the authour</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

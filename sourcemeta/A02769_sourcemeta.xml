@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The synagogue, or, The shadow of the temple Sacred poems, and private ejaculations. In imitation of Mr. George Herbert.</title>
-         <author>Harvey, Christopher, 1597-1663.</author>
-         <author>Herbert, George, 1593-1633. Temple.</author>
-      </titleStmt>
-      <extent>[6], 29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] L[egat] for Phil. Stephens, and Chrystopher Meredith, at the golden Lion in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Christopher Harvey.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The synagogue, or, The shadow of the temple Sacred poems, and private ejaculations. In imitation of Mr. George Herbert.</title>
+      <author>Harvey, Christopher, 1597-1663.</author>
+      <author>Herbert, George, 1593-1633. Temple.</author>
+    </titleStmt>
+    <extent>[6], 29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] L[egat]</persName> for <persName type="publisher">Phil. Stephens</persName>, and <persName type="publisher">Chrystopher Meredith</persName>, at <placeName>the golden Lion in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Christopher Harvey.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Chrystopher Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Phil. Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] L[egat]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the golden Lion in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

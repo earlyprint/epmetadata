@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The leper, and the leper's house, cleansed being, an exposition upon some part of the XIVth chapter of Leviticus; the mystery of which is explained and applied to the state and condition of a sinner's becoming a saint. With profitable uses and applications. As also, what chapter may be applied to, as to the cleansing or destroying of any particular church of Christ, in and under the time of the gospel. Divided into ten parts. Written for the information of those which seldom concern themselves about the types and shadows of the Old Testament: very useful for all people. By Thomas Worden, author of, The types unvailed.</title>
-         <author>Worden, Thomas.</author>
-      </titleStmt>
-      <extent>[4], 94, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for William and Joseph Marshal; and sold by the Bible in Newgate-street, and at the Bible in Gracious-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1695?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by Wing.</note>
-         <note>With an advertisement at foot of title page.</note>
-         <note>With a final advertisement leaf.</note>
-         <note>Title page is stained.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The leper, and the leper's house, cleansed being, an exposition upon some part of the XIVth chapter of Leviticus; the mystery of which is explained and applied to the state and condition of a sinner's becoming a saint. With profitable uses and applications. As also, what chapter may be applied to, as to the cleansing or destroying of any particular church of Christ, in and under the time of the gospel. Divided into ten parts. Written for the information of those which seldom concern themselves about the types and shadows of the Old Testament: very useful for all people. By Thomas Worden, author of, The types unvailed.</title>
+      <author>Worden, Thomas.</author>
+    </titleStmt>
+    <extent>[4], 94, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">William</persName> and <persName type="publisher">Joseph Marshal;</persName> and sold by <persName type="bookseller">the Bible</persName> in <placeName>Newgate-street</placeName>, and at <persName type="bookseller">the Bible</persName> in Gracious-street,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1695?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by Wing.</note>
+      <note>With an advertisement at foot of title page.</note>
+      <note>With a final advertisement leaf.</note>
+      <note>Title page is stained.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the Bible</persName>
+    </person>
+    <person type="publisher">
+      <persName>Joseph Marshal;</persName>
+    </person>
+    <person type="publisher">
+      <persName>William</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Newgate-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible in Gracious-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

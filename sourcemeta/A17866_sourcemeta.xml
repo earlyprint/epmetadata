@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise upon death first publickly delivered in a funerall sermon, anno Dom. 1630. And since enlarged By N.C. Preacher of Gods word in Scotland at Kilmacolme in the baronie of Renfrew.</title>
-         <author>Campbell, Ninian, 1599-1657.</author>
-      </titleStmt>
-      <extent>[128] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Y[oung] for I. Wilson, bookseller in Glasgow,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno 1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>N.C. = Ninian Campbell.</note>
-         <note>Printer's name from STC.</note>
-         <note>Includes severall epitaphs in Latin verse at end.</note>
-         <note>Signatures: A-H.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise upon death first publickly delivered in a funerall sermon, anno Dom. 1630. And since enlarged By N.C. Preacher of Gods word in Scotland at Kilmacolme in the baronie of Renfrew.</title>
+      <author>Campbell, Ninian, 1599-1657.</author>
+    </titleStmt>
+    <extent>[128] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Y[oung]</persName> for <persName type="publisher">I. Wilson</persName>, bookseller in <placeName>Glasgow</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno 1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>N.C. = Ninian Campbell.</note>
+      <note>Printer's name from STC.</note>
+      <note>Includes severall epitaphs in Latin verse at end.</note>
+      <note>Signatures: A-H.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Wilson</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Y[oung]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Glasgow</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

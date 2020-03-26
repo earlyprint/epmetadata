@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Houshold talke or, Good councell for a married man Deliuered in a prittie dialogue, by Roger a batchelor, to Simon, a (iealous) married-man. To the tune of Buckle and thong-a.</title>
-         <author>M. P. (Martin Parker), d. 1656?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed for the assignes of Thomas Simcocks, and are to bee sold by Francis Grove, dwelling vpon Snow-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1629]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: M. P., i.e. Martin Parker.</note>
-         <note>In two parts; woodcuts at head of each part.</note>
-         <note>STC has publication date 1628-1629.</note>
-         <note>Verse - "Neighbor Roger woe is me,".</note>
-         <note>Reproductions of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Houshold talke or, Good councell for a married man Deliuered in a prittie dialogue, by Roger a batchelor, to Simon, a (iealous) married-man. To the tune of Buckle and thong-a.</title>
+      <author>M. P. (Martin Parker), d. 1656?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed for the assignes of <persName type="assigns">Thomas Simcocks</persName>, and are to bee sold by <persName type="bookseller">Francis Grove</persName>, dwelling vpon <placeName>Snow-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1629]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: M. P., i.e. Martin Parker.</note>
+      <note>In two parts; woodcuts at head of each part.</note>
+      <note>STC has publication date 1628-1629.</note>
+      <note>Verse - "Neighbor Roger woe is me,".</note>
+      <note>Reproductions of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Grove</persName>
+    </person>
+    <person type="assigns">
+      <persName>Thomas Simcocks</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Snow-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

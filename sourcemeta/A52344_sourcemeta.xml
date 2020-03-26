@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prudential reflections, moral considerations, and stoical maximes In three centuries: written originally in the Spanish tongue, and thence put into French, by a R.F. of the Society. English'd by J. D. of Kidwelly.</title>
-         <author>Nieremberg, Juan Eusebio, 1595-1658.</author>
-         <author>J. D.</author>
-      </titleStmt>
-      <extent>[4], 191, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Ja: Cotterel, for R. Robinson, neer Grays Inne-gate in Holborn,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Juan Eusebio Nieremberg.</note>
-         <note>With an initial imprimatur leaf dated Jan. 3. 1673/4.</note>
-         <note>Caption title on p. 59 reads: "Moral considerations"; caption title on p. 125 reads: "Stoical maximes".</note>
-         <note>With an initial imprimatur leaf dated Jan. 3. 1673/4. British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prudential reflections, moral considerations, and stoical maximes In three centuries: written originally in the Spanish tongue, and thence put into French, by a R.F. of the Society. English'd by J. D. of Kidwelly.</title>
+      <author>Nieremberg, Juan Eusebio, 1595-1658.</author>
+      <author>J. D.</author>
+    </titleStmt>
+    <extent>[4], 191, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Ja: Cotterel</persName>, for <persName type="publisher">R. Robinson</persName>, neer <placeName>Grays Inne-gate in Holborn</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Juan Eusebio Nieremberg.</note>
+      <note>With an initial imprimatur leaf dated Jan. 3. 1673/4.</note>
+      <note>Caption title on p. 59 reads: "Moral considerations"; caption title on p. 125 reads: "Stoical maximes".</note>
+      <note>With an initial imprimatur leaf dated Jan. 3. 1673/4. British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>Ja: Cotterel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Grays Inne-gate in Holborn</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

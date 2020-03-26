@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition vpon the prophet Ionah Contained in certaine sermons, preached in S. Maries church in Oxford. By George Abbot professor of diuinitie, and maister of Vniuersitie Colledge.</title>
-         <author>Abbot, George, 1562-1633.</author>
-      </titleStmt>
-      <extent>[8], 638, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Richard Field, and are to be sold by Richard Garbrand [, Oxford],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>A variant of the edition lacking Garbrand's name in imprint.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition vpon the prophet Ionah Contained in certaine sermons, preached in S. Maries church in Oxford. By George Abbot professor of diuinitie, and maister of Vniuersitie Colledge.</title>
+      <author>Abbot, George, 1562-1633.</author>
+    </titleStmt>
+    <extent>[8], 638, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Richard Field</persName>, and are to be sold by <persName type="bookseller">Richard Garbrand [</persName>, <persName type="bookseller">Oxford]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>A variant of the edition lacking Garbrand's name in imprint.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Oxford]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Garbrand [</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A spirituall propine of a pastour to his people</title>
-         <author>Melville, James, 1556-1614.</author>
-      </titleStmt>
-      <extent>[8], 51, [3], 53-150 [i.e. 151], [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Walde-graue printer to the Kings Majestie.,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1589. [i.e. 1598].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication dated and signed: From Ansteruther, the 20. day of Nouember. 1598. .. Iames Maluill.</note>
-         <note>At foot of t.p.: Cum privilegio regio.</note>
-         <note>The publication date is in error for 1598 (STC).</note>
-         <note>"A morning vision", in verse, has separate title page; pagination and register are continuous.</note>
-         <note>The final leaves contain verses.</note>
-         <note>Errors in paging: p. 49 is numbered 46; p. 151 misnumbered 150.</note>
-         <note>Imperfect: copy at reel 574:7 is an incomplete filming.</note>
-         <note>Reproductions of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A spirituall propine of a pastour to his people</title>
+      <author>Melville, James, 1556-1614.</author>
+    </titleStmt>
+    <extent>[8], 51, [3], 53-150 [i.e. 151], [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Walde-graue</persName> printer to <persName type="patron">the Kings Majestie.</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1589. [i.e. 1598].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication dated and signed: From Ansteruther, the 20. day of Nouember. 1598. .. Iames Maluill.</note>
+      <note>At foot of t.p.: Cum privilegio regio.</note>
+      <note>The publication date is in error for 1598 (STC).</note>
+      <note>"A morning vision", in verse, has separate title page; pagination and register are continuous.</note>
+      <note>The final leaves contain verses.</note>
+      <note>Errors in paging: p. 49 is numbered 46; p. 151 misnumbered 150.</note>
+      <note>Imperfect: copy at reel 574:7 is an incomplete filming.</note>
+      <note>Reproductions of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Majestie.</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Walde-graue</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

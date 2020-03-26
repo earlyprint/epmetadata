@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sermons upon death and eternal judgment by William Bates.</title>
-         <author>Bates, William, 1625-1699.</author>
-      </titleStmt>
-      <extent>[6], 171, 166 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Brabazon Aylmer,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Sermons upon eternal judgment" has separate t.p. and paging.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sermons upon death and eternal judgment by William Bates.</title>
+      <author>Bates, William, 1625-1699.</author>
+    </titleStmt>
+    <extent>[6], 171, 166 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Brabazon Aylmer</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Sermons upon eternal judgment" has separate t.p. and paging.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

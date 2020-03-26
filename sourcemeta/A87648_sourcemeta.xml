@@ -1,21 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An assistance to justices of the peace, for the easier performance of their duty. By Jos. Keble, of Grays Inn, Esq.</title>
-         <author>Keble, Joseph, 1632-1710.</author>
-      </titleStmt>
-      <extent>[17], 719, [8] p. : forms.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Rawlins, S. Roycroft, and H. Sawbridge, Assigns of R. and E. Atkins Esq; for Samuel Keble at the Turks Head over against Fetter Lane End in Fleet-street.</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>MDCLXXXIII [1683]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Numerous errors in paging.</note>
-         <note>Includes bibliographical references and index.</note>
-         <note>"We do Allow the Printing and Publishing of this Book ... Fr. Pemberton, Fra. North, W. Mountagu, Hugh Wyndham, [and 8 others]." -- facing t.p.</note>
-         <note>Reproduction of original in: Christ Church (University of Oxford0. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An assistance to justices of the peace, for the easier performance of their duty. By Jos. Keble, of Grays Inn, Esq.</title>
+      <author>Keble, Joseph, 1632-1710.</author>
+    </titleStmt>
+    <extent>[17], 719, [8] p. : forms.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Rawlins</persName>, <persName type="printer">S. Roycroft</persName>, and <persName type="printer">H. Sawbridge</persName>, <persName type="printer">Assigns of R.</persName> and <persName type="printer">E. Atkins Esq;</persName> for <persName type="publisher">Samuel Keble</persName> at <placeName>the Turks Head over against Fetter Lane End in Fleet-street.</placeName></publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>MDCLXXXIII [1683]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Numerous errors in paging.</note>
+      <note>Includes bibliographical references and index.</note>
+      <note>"We do Allow the Printing and Publishing of this Book ... Fr. Pemberton, Fra. North, W. Mountagu, Hugh Wyndham, [and 8 others]." -- facing t.p.</note>
+      <note>Reproduction of original in: Christ Church (University of Oxford0. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Keble</persName>
+    </person>
+    <person type="printer">
+      <persName>Assigns of R.</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Atkins Esq;</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Roycroft</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Rawlins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Turks Head over against Fetter Lane End in Fleet-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

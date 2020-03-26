@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christ the riches of the Gospel, and the hope of Christians. A sermon preached at the funerall of Mr William Spurstow the only childe of Dr Spurstow at Hackney near London, Mar. 10. By Simeon Ashe preacher of the Gospel, and lecturer there.</title>
-         <author>Ashe, Simeon, d. 1662.</author>
-      </titleStmt>
-      <extent>[8], 38, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for G. Sawbridge at the signe of the Bible on Ludgate-hill, near Fleet-bridge,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Variant: lacking the words "near Fleet-bridge" in imprint.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christ the riches of the Gospel, and the hope of Christians. A sermon preached at the funerall of Mr William Spurstow the only childe of Dr Spurstow at Hackney near London, Mar. 10. By Simeon Ashe preacher of the Gospel, and lecturer there.</title>
+      <author>Ashe, Simeon, d. 1662.</author>
+    </titleStmt>
+    <extent>[8], 38, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">G. Sawbridge</persName> at <placeName>the signe of the Bible on Ludgate-hill, near Fleet-bridge</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Variant: lacking the words "near Fleet-bridge" in imprint.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible on Ludgate-hill, near Fleet-bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

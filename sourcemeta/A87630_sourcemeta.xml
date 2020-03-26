@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach't at Christs-Church Dublin before the generall convention of Ireland. May 24. 1660. By Henry Jones D.D. Vicechancellour of the University of Dublin and Bishop of Clogher.</title>
-         <author>Jones, Henry, 1605-1682.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.C. for J. Crook at the Ship in Pauls Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Aug: 29 August 29".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach't at Christs-Church Dublin before the generall convention of Ireland. May 24. 1660. By Henry Jones D.D. Vicechancellour of the University of Dublin and Bishop of Clogher.</title>
+      <author>Jones, Henry, 1605-1682.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.C.</persName> for <persName type="publisher">J. Crook</persName> at <placeName>the Ship in Pauls Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Aug: 29 August 29".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Ship in Pauls Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

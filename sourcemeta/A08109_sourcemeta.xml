@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation or proscription, set foorth &amp; published by the archduke Albertus, against his mutinous soldiers in the castle of Hoochstrate. Printed at Bruxels. Faithfully translated into English out of the Dutch coppy printed at Middleborough, by the first originall.  Wherein is also truely set foorth the order of the two campes, before the stronge towne of Graue:  with the yeelding thereof into the hands of his Excellency Graue maurice: and the conditions agreed vpon both sides, the 19. of September.  Stilo nouo.  1602.  With other accidents since hapned.</title>
-         <author>South Holland (Netherlands). Provinciale Staten.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde and R. Read] for Thomas Pauier, and are to bee solde at his shop in Corne-hill, at the signe of the Cat and two Parrets, neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: *4 A4 B1 (*1 possibly blank, lacking).</note>
-         <note>Printers from STC.</note>
-         <note>"Quire B printed by Read; the rest by Allde."--STC.</note>
-         <note>Pages 13-14 misnumbered 5-6.</note>
-         <note>Translated from the original Dutch.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation or proscription, set foorth &amp; published by the archduke Albertus, against his mutinous soldiers in the castle of Hoochstrate. Printed at Bruxels. Faithfully translated into English out of the Dutch coppy printed at Middleborough, by the first originall.  Wherein is also truely set foorth the order of the two campes, before the stronge towne of Graue:  with the yeelding thereof into the hands of his Excellency Graue maurice: and the conditions agreed vpon both sides, the 19. of September.  Stilo nouo.  1602.  With other accidents since hapned.</title>
+      <author>South Holland (Netherlands). Provinciale Staten.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde</persName> and <persName type="printer">R. Read]</persName> for <persName type="publisher">Thomas Pauier</persName>, and are to bee solde at <placeName>his shop in Corne-hill, at the signe of the Cat</placeName> and two Parrets, neere <placeName>the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: *4 A4 B1 (*1 possibly blank, lacking).</note>
+      <note>Printers from STC.</note>
+      <note>"Quire B printed by Read; the rest by Allde."--STC.</note>
+      <note>Pages 13-14 misnumbered 5-6.</note>
+      <note>Translated from the original Dutch.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Pauier</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Read]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Corne-hill, at the signe of the Cat</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

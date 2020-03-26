@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the names of the rebells, that were executed at Lyme, Bridport, Weymouth, Melcombe Regis, Sherbourn, Pool, Wareham, Exeter, Taunton, and several other places: Together with the names of those which were respited till further orders. Gathered out of several papers formerly printed.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by E[lizabeth]. Mallet, next door to Mr. Shiptons coffee-house near Fleet-Bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: This may be printed, R.P. April, the 1st. 1686.</note>
-         <note>A list of those to be executed.</note>
-         <note>Imperfect: copy at reel C11:3[17] torn at imprint, affecting place of publication.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the names of the rebells, that were executed at Lyme, Bridport, Weymouth, Melcombe Regis, Sherbourn, Pool, Wareham, Exeter, Taunton, and several other places: Together with the names of those which were respited till further orders. Gathered out of several papers formerly printed.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E[lizabeth]. Mallet, next door to Mr. Shiptons coffee-house</persName> near <placeName>Fleet-Bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: This may be printed, R.P. April, the 1st. 1686.</note>
+      <note>A list of those to be executed.</note>
+      <note>Imperfect: copy at reel C11:3[17] torn at imprint, affecting place of publication.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E[lizabeth]. Mallet, next door to Mr. Shiptons coffee-house</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

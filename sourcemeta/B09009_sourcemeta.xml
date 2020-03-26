@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A collection of all the statutes now in force, against the transportation of woll, &amp;c. with notes in the margin</title>
-         <author>England and Wales. Laws, statutes, etc.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>77, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Charles Bill and the Executrix of Thomas Newcomb deceas'd, Printers to the Kings Most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages are cropped.</note>
-         <note>Royal arms on title page.</note>
-         <note>Includes five pages of manuscript notes at end.</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A collection of all the statutes now in force, against the transportation of woll, &amp;c. with notes in the margin</title>
+      <author>England and Wales. Laws, statutes, etc.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>77, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Charles Bill and the Executrix of Thomas Newcomb deceas'd</persName>, Printers to <persName type="patron">the Kings Most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages are cropped.</note>
+      <note>Royal arms on title page.</note>
+      <note>Includes five pages of manuscript notes at end.</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Charles Bill and the Executrix of Thomas Newcomb deceas'd</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

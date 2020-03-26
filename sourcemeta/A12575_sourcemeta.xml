@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of the horrible and wofull destruction of, Sodome, and Gomorra To the tune of the nine Muses.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iohnes for Henrie Kyrkham, dwelling at the signe of the blacke Boy: at the middle north dore of Paules church,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1570]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from STC.</note>
-         <note>A ballad.</note>
-         <note>In verse.</note>
-         <note>Printed in double columns, separated by woodcut ornaments.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of the horrible and wofull destruction of, Sodome, and Gomorra To the tune of the nine Muses.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iohnes</persName> for <persName type="publisher">Henrie Kyrkham</persName>, dwelling at <placeName>the signe of the blacke Boy: at the middle north dore of Paules church</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1570]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from STC.</note>
+      <note>A ballad.</note>
+      <note>In verse.</note>
+      <note>Printed in double columns, separated by woodcut ornaments.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henrie Kyrkham</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iohnes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the blacke Boy: at the middle north dore of Paules church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

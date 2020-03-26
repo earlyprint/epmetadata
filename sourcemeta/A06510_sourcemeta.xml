@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A frutfull sermon of the moost euangelicall wryter M. Luther, made of the angelles vpo[n] the. xviii. chapi. of Mathew translated out of laten in to Englyshe</title>
-         <title>Predigt von den Engeln. English.</title>
-         <author>Luther, Martin, 1483-1546.</author>
-         <author>Foxe, John, 1516-1587.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>In Paules churche yerde, at the syngne of saynt Augustyne by [J. Mychell for] Hugh Syngleton,</publisher>
-         <pubPlace>Prynted at Londo[n] :</pubPlace>
-         <date>[1548?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Eine Predigt von den Engeln.</note>
-         <note>Translator's dedication signed: I. Fox.</note>
-         <note>At foot of title: Cum priuilegio ad imprimendum solum.</note>
-         <note>Actual printer's name supplied and publication date conjectured by STC (addendum).</note>
-         <note>Signatures: A²  B-D E² .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A frutfull sermon of the moost euangelicall wryter M. Luther, made of the angelles vpo[n] the. xviii. chapi. of Mathew translated out of laten in to Englyshe</title>
+      <title>Predigt von den Engeln. English.</title>
+      <author>Luther, Martin, 1483-1546.</author>
+      <author>Foxe, John, 1516-1587.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>In Paules churche yerde, at <placeName>the syngne of saynt Augustyne</placeName> by <persName type="printer">[J. Mychell</persName> for<persName type="publisher">] Hugh Syngleton</persName>,</publisher>
+      <pubPlace>Prynted at Londo[n] :</pubPlace>
+      <date>[1548?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Eine Predigt von den Engeln.</note>
+      <note>Translator's dedication signed: I. Fox.</note>
+      <note>At foot of title: Cum priuilegio ad imprimendum solum.</note>
+      <note>Actual printer's name supplied and publication date conjectured by STC (addendum).</note>
+      <note>Signatures: A&#178;  B-D E&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Hugh Syngleton</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Mychell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the syngne of saynt Augustyne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

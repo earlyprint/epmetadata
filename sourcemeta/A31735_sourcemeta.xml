@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A character of London-village by a countrey-poet.</title>
-         <author>Countrey-poet.</author>
-      </titleStmt>
-      <extent>1 sheet.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Allen,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A character of London-village by a countrey-poet.</title>
+      <author>Countrey-poet.</author>
+    </titleStmt>
+    <extent>1 sheet.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Allen</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Allen</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

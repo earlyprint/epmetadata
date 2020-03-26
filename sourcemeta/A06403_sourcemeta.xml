@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Conclusions vpon dances, both of this age, and of the olde. Newly composed and set forth, by an out-landish doctor</title>
-         <author>Lowin, John, 1576-1659.</author>
-      </titleStmt>
-      <extent>[26] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by N. Okes and W. White] for Iohn Orphinstrange, and are to be solde at his shop neere Holborne Bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: I.L. Roscio, i.e. John Lowin.</note>
-         <note>Printers' names from STC.</note>
-         <note>Signatures: A⁴ (-A1) B-C⁴ D² .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Conclusions vpon dances, both of this age, and of the olde. Newly composed and set forth, by an out-landish doctor</title>
+      <author>Lowin, John, 1576-1659.</author>
+    </titleStmt>
+    <extent>[26] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">N. Okes</persName> and <persName type="printer">W. White]</persName> for <persName type="publisher">Iohn Orphinstrange</persName>, and are to be solde at <placeName>his shop neere Holborne Bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: I.L. Roscio, i.e. John Lowin.</note>
+      <note>Printers' names from STC.</note>
+      <note>Signatures: A&#8308; (-A1) B-C&#8308; D&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Orphinstrange</persName>
+    </person>
+    <person type="printer">
+      <persName>N. Okes</persName>
+    </person>
+    <person type="printer">
+      <persName>W. White]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Holborne Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

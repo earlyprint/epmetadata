@@ -1,17 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The new politicks of the court of France Under the reign of Levvis XIV. Wherein are to be seen all his intreagues, and his present manner of acting, in respect of all the potentates of Europe, to satisfie his ambition and grandeur. Made English from the original printed at Cologne, 1694.</title>
-      </titleStmt>
-      <extent>[2], 142 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Henry Rhodes, at the Star the corner of Bride-lane, in Fleet-street; and John Harris at the Harrow in the Poultry,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The new politicks of the court of France Under the reign of Levvis XIV. Wherein are to be seen all his intreagues, and his present manner of acting, in respect of all the potentates of Europe, to satisfie his ambition and grandeur. Made English from the original printed at Cologne, 1694.</title>
+    </titleStmt>
+    <extent>[2], 142 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Henry Rhodes</persName>, at <placeName>the Star the corner of Bride-lane, in Fleet-street;</placeName> and <persName type="publisher">John Harris</persName> at <placeName>the Harrow in the Poultry</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Rhodes</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Harris</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Harrow in the Poultry</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Star the corner of Bride-lane, in Fleet-street;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

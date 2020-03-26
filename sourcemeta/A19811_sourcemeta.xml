@@ -1,28 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The whole vvorkes of Samuel Daniel Esquire in poetrie</title>
-         <title>Poems</title>
-         <author>Daniel, Samuel, 1562-1619.</author>
-         <author>Danyel, John, 1564-ca. 1626.</author>
-         <author>Cockson, Thomas, engraver.</author>
-         <author>Rogers, William, b. ca. 1545, engraver.</author>
-      </titleStmt>
-      <extent>[12], 231, [1]; [6], 180, [17], 186-479, [1] p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for Simon Waterson, and are to be sold at his shoppe in Paules Church-yard, at the signe of the Crowne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's dedication signed: Iohn Daniel.</note>
-         <note>Signatures: pi1,2 (=2T5,6) A-C⁴ D-Q R⁴; A-M N⁴ 2A-2T (-2T5,6).</note>
-         <note>Part 1, a reissue of the 1609 edition of "The civile wares", is preceded by a new letterpress title page and dedication leaf. Quire A of this first part is often wholly or partly lacking.</note>
-         <note>The engraved title page to "The civile wares" is signed "T Cockson, sculp:". It is in fact re-engraved from the engraved title page of Camden's "Britannia" (1600), which was signed by William Rogers.</note>
-         <note>"A letter from Octauia to Marcus Antonius" begins new register and pagination. Following this, "A panegyricke congratulatorie", "The tragedy of Philotas" (commencing quire 2A), "Hymens triumph", "The Queenes Arcadia", "The vision of the tvvelue goddesses", and "The tragedie of Cleopatra" each have separate dated title pages; pagination and register are continuous.</note>
-         <note>Reproductions of the originals in the British Library and the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Appears at reel 985 (British Library copy, first part only) and at reel 1376 (Henry E. Huntington Library and Art Gallery copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The whole vvorkes of Samuel Daniel Esquire in poetrie</title>
+      <title>Poems</title>
+      <author>Daniel, Samuel, 1562-1619.</author>
+      <author>Danyel, John, 1564-ca. 1626.</author>
+      <author>Cockson, Thomas, engraver.</author>
+      <author>Rogers, William, b. ca. 1545, engraver.</author>
+    </titleStmt>
+    <extent>[12], 231, [1]; [6], 180, [17], 186-479, [1] p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">Simon Waterson</persName>, and are to be sold at <placeName>his shoppe in Paules Church-yard, at the signe of the Crowne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's dedication signed: Iohn Daniel.</note>
+      <note>Signatures: pi1,2 (=2T5,6) A-C&#8308; D-Q R&#8308;; A-M N&#8308; 2A-2T (-2T5,6).</note>
+      <note>Part 1, a reissue of the 1609 edition of "The civile wares", is preceded by a new letterpress title page and dedication leaf. Quire A of this first part is often wholly or partly lacking.</note>
+      <note>The engraved title page to "The civile wares" is signed "T Cockson, sculp:". It is in fact re-engraved from the engraved title page of Camden's "Britannia" (1600), which was signed by William Rogers.</note>
+      <note>"A letter from Octauia to Marcus Antonius" begins new register and pagination. Following this, "A panegyricke congratulatorie", "The tragedy of Philotas" (commencing quire 2A), "Hymens triumph", "The Queenes Arcadia", "The vision of the tvvelue goddesses", and "The tragedie of Cleopatra" each have separate dated title pages; pagination and register are continuous.</note>
+      <note>Reproductions of the originals in the British Library and the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Appears at reel 985 (British Library copy, first part only) and at reel 1376 (Henry E. Huntington Library and Art Gallery copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe in Paules Church-yard, at the signe of the Crowne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

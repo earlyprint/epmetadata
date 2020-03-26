@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new-years-gift: containing serious reflections on time, and eternity And some other subjects moral and divine. With an appendix concerning the first day of the year, how observed by the Jews, and may best be employed by a serious Christian.</title>
-         <author>Shower, John, 1657-1715.</author>
-      </titleStmt>
-      <extent>[6], 238, 12, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for S. and John Sprint at the Bell, and J. Nicholson at the King's Arms in Little Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" is signed: J.S. [i.e. John Shower].</note>
-         <note>"The appendix" has separate caption title and pagination; register is continuous.</note>
-         <note>Includes index.</note>
-         <note>Gathered in 12's.</note>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new-years-gift: containing serious reflections on time, and eternity And some other subjects moral and divine. With an appendix concerning the first day of the year, how observed by the Jews, and may best be employed by a serious Christian.</title>
+      <author>Shower, John, 1657-1715.</author>
+    </titleStmt>
+    <extent>[6], 238, 12, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">S.</persName> and <persName type="publisher">John Sprint</persName> at <placeName>the Bell</placeName>, and <persName type="publisher">J. Nicholson</persName> at <placeName>the King's Arms in Little Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" is signed: J.S. [i.e. John Shower].</note>
+      <note>"The appendix" has separate caption title and pagination; register is continuous.</note>
+      <note>Includes index.</note>
+      <note>Gathered in 12's.</note>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Nicholson</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Sprint</persName>
+    </person>
+    <person type="publisher">
+      <persName>S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bell</placeName>
+    </place>
+    <place type="location">
+      <placeName>the King's Arms in Little Brittain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

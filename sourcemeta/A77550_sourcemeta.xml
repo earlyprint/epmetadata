@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Britanicus his blessing.</title>
-      </titleStmt>
-      <extent>6, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Roger Daniel, printer to the Vniversity,</publisher>
-         <pubPlace>At Cambridge :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Caption title, page 3: Britanicus his welcome.</note>
-         <note>The final leaf is blank.</note>
-         <note>A verse satire on Mercurius Britannicus, i.e. Marchamont Nedham--Thomason Collection Catalogue.</note>
-         <note>Annotation on Thomason copy: "Jan: 17 1645 [i.e. 1646]".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Britanicus his blessing.</title>
+    </titleStmt>
+    <extent>6, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Roger Daniel</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>At Cambridge :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Caption title, page 3: Britanicus his welcome.</note>
+      <note>The final leaf is blank.</note>
+      <note>A verse satire on Mercurius Britannicus, i.e. Marchamont Nedham--Thomason Collection Catalogue.</note>
+      <note>Annotation on Thomason copy: "Jan: 17 1645 [i.e. 1646]".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+    <person type="printer">
+      <persName>Roger Daniel</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

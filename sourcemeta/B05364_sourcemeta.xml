@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh, the eighteenth day of February, one thousand six hundred and sixty four. Forasmuch as it hath pleased the Kings Majesty, by a letter, dated at Whitehall the sixth of this instant, directed to His Majesties Privy Council; bearing, that whereas, His Majesty ... did appoint a proclamation to be issued forth, suspending the paiment of the fines imposed by an act of the second session of the last Parliament ...</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, Printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Text in black letter.</note>
-         <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh, the eighteenth day of February, one thousand six hundred and sixty four. Forasmuch as it hath pleased the Kings Majesty, by a letter, dated at Whitehall the sixth of this instant, directed to His Majesties Privy Council; bearing, that whereas, His Majesty ... did appoint a proclamation to be issued forth, suspending the paiment of the fines imposed by an act of the second session of the last Parliament ...</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Text in black letter.</note>
+      <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

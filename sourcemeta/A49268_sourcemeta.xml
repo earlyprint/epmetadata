@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epistle to all young convinced friends whom the Lord hath reached by His mighty power, and separated from the world, and turned their hearts, so as to forsake father, and mother, wife, and children, for his name sake. By way of exhortation and encouragement, by one whom the Lord hath greatly encouraged, and fulfilled the saying of the prophet Malachi, by by turning the hearts of his parents and dear relations to him.</title>
-         <author>Love, John, d. 1721.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed and sold by T. Sowle, in White-Hart-Court in Gracious-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: John Love, the Younger.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epistle to all young convinced friends whom the Lord hath reached by His mighty power, and separated from the world, and turned their hearts, so as to forsake father, and mother, wife, and children, for his name sake. By way of exhortation and encouragement, by one whom the Lord hath greatly encouraged, and fulfilled the saying of the prophet Malachi, by by turning the hearts of his parents and dear relations to him.</title>
+      <author>Love, John, d. 1721.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed and sold by <persName type="bookseller"><persName type="printer">T. Sowle</persName></persName>, in <placeName>White-Hart-Court in Gracious-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: John Love, the Younger.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>White-Hart-Court in Gracious-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

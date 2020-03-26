@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant conceited comedie called, Loues labors lost As it vvas presented before her Highnes this last Christmas. Newly corrected and augmented by W. Shakespere.</title>
-         <title>Love's labour's lost</title>
-         <author>Shakespeare, William, 1564-1616.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>By W[illiam] W[hite] for Cutbert Burby,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Mostly in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-I⁴ K² .</note>
-         <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Appears at reel 340 and at reel 538.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant conceited comedie called, Loues labors lost As it vvas presented before her Highnes this last Christmas. Newly corrected and augmented by W. Shakespere.</title>
+      <title>Love's labour's lost</title>
+      <author>Shakespeare, William, 1564-1616.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">W[illiam] W[hite]</persName> for <persName type="publisher">Cutbert Burby</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Mostly in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-I&#8308; K&#178; .</note>
+      <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Appears at reel 340 and at reel 538.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cutbert Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>W[illiam] W[hite]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

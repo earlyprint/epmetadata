@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pick-tooth for the Pope: or The pack-mans Pater Noster Set down in a dialogue, betwixt a pack-man, and a priest. Translated out of Dutch by S. I. S. and newly augmented and enlarged by his son, R. S.</title>
-         <author>Sempill, James, Sir, 1566-1625.</author>
-         <author>Sempill, Robert, 1595?-1665?</author>
-      </titleStmt>
-      <extent>29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>by Robert Sanders, printer to the Town, and are to be sold in his shop,</publisher>
-         <pubPlace>Glasgow :</pubPlace>
-         <date>M.DC.LXIX. [1669]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Earlier published with title: The packmans pater noster, or A dialogue betwixt a chapman and a priest.</note>
-         <note>Satire in verse on the Catholic liturgy; with additions by the author's son Robert Sempill.</note>
-         <note>Imperfect; pages cropped, stained, with faded print and slight loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pick-tooth for the Pope: or The pack-mans Pater Noster Set down in a dialogue, betwixt a pack-man, and a priest. Translated out of Dutch by S. I. S. and newly augmented and enlarged by his son, R. S.</title>
+      <author>Sempill, James, Sir, 1566-1625.</author>
+      <author>Sempill, Robert, 1595?-1665?</author>
+    </titleStmt>
+    <extent>29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Robert Sanders</persName>, printer to <persName type="patron">the Town</persName>, and are to be sold in <placeName>his shop</placeName>,</publisher>
+      <pubPlace>Glasgow :</pubPlace>
+      <date>M.DC.LXIX. [1669]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Earlier published with title: The packmans pater noster, or A dialogue betwixt a chapman and a priest.</note>
+      <note>Satire in verse on the Catholic liturgy; with additions by the author's son Robert Sempill.</note>
+      <note>Imperfect; pages cropped, stained, with faded print and slight loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Town</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Sanders</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

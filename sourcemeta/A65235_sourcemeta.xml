@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two letters to a friend, concerning the distempers of the present times</title>
-         <author>R. W.</author>
-      </titleStmt>
-      <extent>[2], 8, 17-40 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Charles Brome at the gun in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on C1v and E4v: R.W.</note>
-         <note>Text is continuous despite pagination.</note>
-         <note>Reproduction of the original in the St. David's University College Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two letters to a friend, concerning the distempers of the present times</title>
+      <author>R. W.</author>
+    </titleStmt>
+    <extent>[2], 8, 17-40 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Charles Brome</persName> at <placeName>the gun in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on C1v and E4v: R.W.</note>
+      <note>Text is continuous despite pagination.</note>
+      <note>Reproduction of the original in the St. David's University College Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Brome</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the gun in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

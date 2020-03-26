@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The logicians school-master: or, A comment vpon Ramus logicke. By Mr. Alexander Richardson sometime of Queenes Colledge in Cambridge</title>
-         <author>Richardson, Alexander, of Queen's College, Cambridge.</author>
-      </titleStmt>
-      <extent>[4], 340 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Miles Flesher] for Iohn Bellamie, at the three golden Lyons in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The logicians school-master: or, A comment vpon Ramus logicke. By Mr. Alexander Richardson sometime of Queenes Colledge in Cambridge</title>
+      <author>Richardson, Alexander, of Queen's College, Cambridge.</author>
+    </titleStmt>
+    <extent>[4], 340 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Miles Flesher]</persName> for <persName type="publisher">Iohn Bellamie</persName>, at <placeName>the three golden Lyons in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bellamie</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three golden Lyons in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

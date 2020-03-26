@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Andreas Ornithoparcus his Micrologus, or Introduction: containing the art of singing Digested into foure bookes. Not onely profitable, but also necessary for all that are studious of musicke. Also the dimension and perfect vse of the monochord, according to Guido Aretinus. By Iohn Douland lutenist, lute-player, and Bachelor of Musicke in both the Vniuersities. 1609.</title>
-         <title>Musice actiue micrologus. English</title>
-         <author>Ornithoparchus, Andreas, 16th cent.</author>
-         <author>Dowland, John, 1563?-1626.</author>
-         <author>Guido, d'Arezzo.</author>
-      </titleStmt>
-      <extent>[8], 80 [i.e. 90], [2] p. : music  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Snodham] for Thomas Adams, dwelling in Paules Church-yard, at the signe of the white Lion,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1609]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation by Dowland of: Musice active micrologus.</note>
-         <note>Printer's name from STC.</note>
-         <note>P. 90 misnumbered 80.</note>
-         <note>With a final epilogue and contents leaf.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Andreas Ornithoparcus his Micrologus, or Introduction: containing the art of singing Digested into foure bookes. Not onely profitable, but also necessary for all that are studious of musicke. Also the dimension and perfect vse of the monochord, according to Guido Aretinus. By Iohn Douland lutenist, lute-player, and Bachelor of Musicke in both the Vniuersities. 1609.</title>
+      <title>Musice actiue micrologus. English</title>
+      <author>Ornithoparchus, Andreas, 16th cent.</author>
+      <author>Dowland, John, 1563?-1626.</author>
+      <author>Guido, d'Arezzo.</author>
+    </titleStmt>
+    <extent>[8], 80 [i.e. 90], [2] p. : music  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">Thomas Adams</persName>, dwelling in <placeName>Paules Church-yard, at the signe of the white Lion</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1609]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation by Dowland of: Musice active micrologus.</note>
+      <note>Printer's name from STC.</note>
+      <note>P. 90 misnumbered 80.</note>
+      <note>With a final epilogue and contents leaf.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Adams</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard, at the signe of the white Lion</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

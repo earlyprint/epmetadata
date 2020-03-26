@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mans delinquencie attended by divine justice intermixt with mercy. Display'd in a sermon to the Right Honourable the House of Lords assembled in Parliament, in the Abby Church at Westminster, Novemb. 25. 1646. being the solemn day of their monethly fast. / By William Price, B.D. Pastor of Waltam-Abby; and one of the Assembly of Divines.</title>
-         <author>Price, William, d. 1666.</author>
-      </titleStmt>
-      <extent>[12], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.R. for Richard Whitaker, at the signe of the Kings Arms in S. Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print on verso of first leaf.</note>
-         <note>Imperfect: trimmed at fore-edge, affecting marginal notes.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mans delinquencie attended by divine justice intermixt with mercy. Display'd in a sermon to the Right Honourable the House of Lords assembled in Parliament, in the Abby Church at Westminster, Novemb. 25. 1646. being the solemn day of their monethly fast. / By William Price, B.D. Pastor of Waltam-Abby; and one of the Assembly of Divines.</title>
+      <author>Price, William, d. 1666.</author>
+    </titleStmt>
+    <extent>[12], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.R.</persName> for <persName type="publisher">Richard Whitaker</persName>, at <placeName>the signe of the Kings Arms in S. Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print on verso of first leaf.</note>
+      <note>Imperfect: trimmed at fore-edge, affecting marginal notes.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Whitaker</persName>
+    </person>
+    <person type="printer">
+      <persName>R.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Kings Arms in S. Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

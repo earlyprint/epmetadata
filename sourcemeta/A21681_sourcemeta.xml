@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The seduction of Arthington by Hacket especiallie with some tokens of his vnfained repentance and submission. Written by the said Henrie Arthington, the third person, in that wofull tragedie.</title>
-         <author>H. A. (Henry Arthington)</author>
-      </titleStmt>
-      <extent>[8], 63, [9] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. B[ourne] for Thomas Man, dwelling in Pater noster row, at the signe of the Talbot,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1592]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name and publication date from STC.</note>
-         <note>"Arthingtons lamentation being held close prisoner", in verse, p. [65]-[72].</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The seduction of Arthington by Hacket especiallie with some tokens of his vnfained repentance and submission. Written by the said Henrie Arthington, the third person, in that wofull tragedie.</title>
+      <author>H. A. (Henry Arthington)</author>
+    </titleStmt>
+    <extent>[8], 63, [9] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. B[ourne]</persName> for <persName type="publisher">Thomas Man</persName>, dwelling in <placeName>Pater noster row, at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1592]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name and publication date from STC.</note>
+      <note>"Arthingtons lamentation being held close prisoner", in verse, p. [65]-[72].</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>R. B[ourne]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pater noster row, at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

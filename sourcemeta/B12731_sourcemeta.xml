@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Whereas Thomas Percy Gentleman, and some other his confederates, person knowen to be so vtterly corrupted with the superstition of the Romish religion ...</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>2 sheets (versos blank).   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, printer to the Kings most excellent Maiestie.,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno Dom. 1605</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>For the apprehension of Percy, Robert Catesby, Ambrose Rookwood, Thomas Winter, Edward Grant, John and Christopher Wright, and Robert Ashfield.</note>
-         <note>Title from opening words of text.</note>
-         <note>Dated at end: Westminster, the seuenth day of Nouember, in the third yeere of our reigne ..</note>
-         <note>In this edition sheet 1 line 7 has: Clergie; sheet 2 line 7 ends: their.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Whereas Thomas Percy Gentleman, and some other his confederates, person knowen to be so vtterly corrupted with the superstition of the Romish religion ...</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>2 sheets (versos blank).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings most excellent Maiestie.</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno Dom. 1605</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>For the apprehension of Percy, Robert Catesby, Ambrose Rookwood, Thomas Winter, Edward Grant, John and Christopher Wright, and Robert Ashfield.</note>
+      <note>Title from opening words of text.</note>
+      <note>Dated at end: Westminster, the seuenth day of Nouember, in the third yeere of our reigne ..</note>
+      <note>In this edition sheet 1 line 7 has: Clergie; sheet 2 line 7 ends: their.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie.</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

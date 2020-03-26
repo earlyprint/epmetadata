@@ -1,17 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true relation of the present state of Ireland, vvith the victorious proceedings of the Protestants against the rebells there: being sent in a letter to a merchant of note in London, Maij 13.</title>
-      </titleStmt>
-      <extent>[2], 4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Benjamin Allen in Popeshead Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Anno Dom. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true relation of the present state of Ireland, vvith the victorious proceedings of the Protestants against the rebells there: being sent in a letter to a merchant of note in London, Maij 13.</title>
+    </titleStmt>
+    <extent>[2], 4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Benjamin Allen</persName> in <placeName>Popeshead Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Anno Dom. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Allen</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popeshead Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

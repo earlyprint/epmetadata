@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Book of subscriptions for insuring of houses (by the City of London) in case of fire, is now open</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by S. Roycroft, printer to the honourable city of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[16-?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Book of subscriptions for insuring of houses (by the City of London) in case of fire, is now open</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">S. Roycroft</persName>, printer to <persName type="patron">the honourable city of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[16-?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable city of London</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Roycroft</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

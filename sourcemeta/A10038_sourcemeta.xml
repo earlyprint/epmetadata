@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The godly mans inquisition lately deliuered in two sermons before the right honourable Henry, Lord Montague, late lord high treasurer, priuie counsellor, &amp;c. other gentlemen of worship, at Kimolton on their annuall feast day. By R. Preston, Preacher of Gods word.</title>
-         <author>Preston, Richard, d. ca. 1624.</author>
-      </titleStmt>
-      <extent>[6], 65, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Dawson for Iohn Bellamie, and are to be sold at his shop at the two Grey-hounds in Corne-hill neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The godly mans inquisition lately deliuered in two sermons before the right honourable Henry, Lord Montague, late lord high treasurer, priuie counsellor, &amp;c. other gentlemen of worship, at Kimolton on their annuall feast day. By R. Preston, Preacher of Gods word.</title>
+      <author>Preston, Richard, d. ca. 1624.</author>
+    </titleStmt>
+    <extent>[6], 65, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Dawson</persName> for <persName type="publisher">Iohn Bellamie</persName>, and are to be sold at <placeName>his shop at the two Grey-hounds in Corne-hill neere the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bellamie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the two Grey-hounds in Corne-hill neere the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

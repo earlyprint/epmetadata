@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>1607 Lamentable newes out of Monmouthshire in VVales Contayning, the wonderfull and most fearefull accidents of the great ouerflowing of waters in the saide countye, drowning infinite numbers of cattell of all kinds, as sheepe, oxen, kine and horses, with others: together with the losse of many men, women and children, and the subuersion of xxvi parishes in Ianuary last 1607.</title>
-      </titleStmt>
-      <extent>[28] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Edward Allde] for W[illiam] W[elby] and are to be solde in Paules Church yarde at the signe of the Grey-hound,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1607]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and bookseller's names from STC.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Signatures: A-D⁴ (-A1,D4).</note>
-         <note>Running title reads: Wofull newes, of the flouds in Monmouth-shire.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>1607 Lamentable newes out of Monmouthshire in VVales Contayning, the wonderfull and most fearefull accidents of the great ouerflowing of waters in the saide countye, drowning infinite numbers of cattell of all kinds, as sheepe, oxen, kine and horses, with others: together with the losse of many men, women and children, and the subuersion of xxvi parishes in Ianuary last 1607.</title>
+    </titleStmt>
+    <extent>[28] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Edward Allde]</persName> for <persName type="publisher">W[illiam] W[elby]</persName> and are to be solde in <placeName>Paules Church yarde at the signe of the Grey-hound</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1607]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and bookseller's names from STC.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Signatures: A-D&#8308; (-A1,D4).</note>
+      <note>Running title reads: Wofull newes, of the flouds in Monmouth-shire.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W[illiam] W[elby]</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Allde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yarde at the signe of the Grey-hound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

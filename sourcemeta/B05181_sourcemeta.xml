@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act for a new levie of horse to be put out by the shires: And list of the colonels and the their inferiour officers, with their severall numbers of horse. Edinburgh last July 1648.</title>
-         <author>Scotland. Convention of Estates.</author>
-      </titleStmt>
-      <extent>[1], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Tyler, Printer to the Kings most Excellent Majestie,</publisher>
-         <pubPlace>[Edinburgh]</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act for a new levie of horse to be put out by the shires: And list of the colonels and the their inferiour officers, with their severall numbers of horse. Edinburgh last July 1648.</title>
+      <author>Scotland. Convention of Estates.</author>
+    </titleStmt>
+    <extent>[1], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Tyler</persName>, Printer to <persName type="patron">the Kings most Excellent Majestie</persName>,</publisher>
+      <pubPlace>[Edinburgh]</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majestie</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

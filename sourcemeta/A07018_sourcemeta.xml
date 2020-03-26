@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The troublesome raigne and lamentable death of Edward the second, King of England with the tragicall fall of proud Mortimer: as it was sundrie times publiquely acted in the honourable citie of London, by the right honourable the Earle of Pembrooke his seruants. Written by Chri. Marlow Gent.</title>
-         <title>Edward the Second</title>
-         <author>Marlowe, Christopher, 1564-1593.</author>
-      </titleStmt>
-      <extent>[94] p.   </extent>
-      <publicationStmt>
-         <publisher>[By R. Robinson] for William Iones dwelling neere Holbourne conduit, at the signe of the Gunne,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The tragedie of Edward the second.</note>
-         <note>Signatures: A-M⁴ (-M4).</note>
-         <note>Perpendicular chain lines.</note>
-         <note>Reproduction of the original in the Zentralbibliothek, Zürich.</note>
-         <note>Date on title page and colophon has been changed in ink to read 1694.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The troublesome raigne and lamentable death of Edward the second, King of England with the tragicall fall of proud Mortimer: as it was sundrie times publiquely acted in the honourable citie of London, by the right honourable the Earle of Pembrooke his seruants. Written by Chri. Marlow Gent.</title>
+      <title>Edward the Second</title>
+      <author>Marlowe, Christopher, 1564-1593.</author>
+    </titleStmt>
+    <extent>[94] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">R. Robinson]</persName> for <persName type="publisher">William Iones</persName> dwelling neere <placeName>Holbourne conduit, at the signe of the Gunne</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The tragedie of Edward the second.</note>
+      <note>Signatures: A-M&#8308; (-M4).</note>
+      <note>Perpendicular chain lines.</note>
+      <note>Reproduction of the original in the Zentralbibliothek, Z&#252;rich.</note>
+      <note>Date on title page and colophon has been changed in ink to read 1694.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Robinson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holbourne conduit, at the signe of the Gunne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hungers preuention: or, The whole arte of fovvling by vvater and land Containing all the secrets belonging to that arte, and brought into a true forme or method, by which the most ignorant may know how to take any kind of fowle, either by land or water. Also, exceeding necessary and profitable for all such as trauell by sea, and come into vninhabited places: especially, all those that haue any thing to doe with new plantations. By Geruase Markham.</title>
-         <author>Markham, Gervase, 1568?-1637.</author>
-      </titleStmt>
-      <extent>[16], 285, [3] p. : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed by A[ugustine] Math[ewes] for Anne Helme and Thomas Langley, and are to be sold at their shops in Saint Dunstons Church yard, and ouer against the Sarazens head without Newgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>A1v bears a woodcut.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hungers preuention: or, The whole arte of fovvling by vvater and land Containing all the secrets belonging to that arte, and brought into a true forme or method, by which the most ignorant may know how to take any kind of fowle, either by land or water. Also, exceeding necessary and profitable for all such as trauell by sea, and come into vninhabited places: especially, all those that haue any thing to doe with new plantations. By Geruase Markham.</title>
+      <author>Markham, Gervase, 1568?-1637.</author>
+    </titleStmt>
+    <extent>[16], 285, [3] p. : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A[ugustine] Math[ewes]</persName> for <persName type="publisher">Anne Helme</persName> and <persName type="publisher">Thomas Langley</persName>, and are to be sold at <placeName>their shops in Saint Dunstons Church yard</placeName>, and ouer against the Sarazens head without Newgate,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>A1v bears a woodcut.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Anne Helme</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Langley</persName>
+    </person>
+    <person type="printer">
+      <persName>A[ugustine] Math[ewes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops in Saint Dunstons Church yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

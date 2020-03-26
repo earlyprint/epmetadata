@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for calling home sea-men and mariners, and inhibiting such to serve abroad without licence. Thursday the 9th of September, 1652. Ordered by the Parliament, that this Act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>p. [2], 1729-1733.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On 13H2r: last word of first line of text: "present"; first word of line below initial: "or"; last word of last line on page: "English".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for calling home sea-men and mariners, and inhibiting such to serve abroad without licence. Thursday the 9th of September, 1652. Ordered by the Parliament, that this Act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>p. [2], 1729-1733.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On 13H2r: last word of first line of text: "present"; first word of line below initial: "or"; last word of last line on page: "English".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

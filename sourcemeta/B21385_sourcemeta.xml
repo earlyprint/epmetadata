@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The kind keeper, or, Mr. Limberham a comedy ... / written by John Dryden ...</title>
-         <author>Dryden, John, 1631-1700.</author>
-      </titleStmt>
-      <extent>[9], 65, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bentley, and M. Magnes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Worcester College Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The kind keeper, or, Mr. Limberham a comedy ... / written by John Dryden ...</title>
+      <author>Dryden, John, 1631-1700.</author>
+    </titleStmt>
+    <extent>[9], 65, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bentley</persName>, and <persName type="publisher">M. Magnes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Worcester College Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M. Magnes</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

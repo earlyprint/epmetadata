@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflections on a pamphlet stiled, A just and modest vindication of the proceedings of the two last Parliaments, or, A defence of His Majesties late declaration by the author of The address to the freemen and free-holders of the nation.</title>
-         <author>Bohun, Edmund, 1645-1699.</author>
-      </titleStmt>
-      <extent>[6], 128 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Clark for George Wells ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to E. Bohun. Cf. BM.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflections on a pamphlet stiled, A just and modest vindication of the proceedings of the two last Parliaments, or, A defence of His Majesties late declaration by the author of The address to the freemen and free-holders of the nation.</title>
+      <author>Bohun, Edmund, 1645-1699.</author>
+    </titleStmt>
+    <extent>[6], 128 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Clark</persName> for <persName type="publisher">George Wells</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to E. Bohun. Cf. BM.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Wells</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

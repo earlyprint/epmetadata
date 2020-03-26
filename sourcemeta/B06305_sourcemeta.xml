@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The saints beliefe by me John Turner, prisoner of our Lord Jesus Christ.</title>
-         <author>Turner, John, prisoner of our Lord Jesus Christ.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by a true coppy, by the authors appointment for William Larnar, and are to be sold at the Anchor in Pauls Chaine,</publisher>
-         <pubPlace>Reprinted at London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Initial letter.</note>
-         <note>With Biblical citations.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The saints beliefe by me John Turner, prisoner of our Lord Jesus Christ.</title>
+      <author>Turner, John, prisoner of our Lord Jesus Christ.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">a true coppy</persName>, by <persName type="printer">the authors appointment</persName> for <persName type="publisher">William Larnar</persName>, and are to be sold at <placeName>the Anchor in Pauls Chaine</placeName>,</publisher>
+      <pubPlace>Reprinted at London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Initial letter.</note>
+      <note>With Biblical citations.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Larnar</persName>
+    </person>
+    <person type="printer">
+      <persName>a true coppy</persName>
+    </person>
+    <person type="printer">
+      <persName>the authors appointment</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Anchor in Pauls Chaine</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

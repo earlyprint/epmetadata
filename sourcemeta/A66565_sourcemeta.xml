@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cheats a comedy : written in the year, M.DC. LXII.</title>
-         <author>Wilson, John, 1626-1696.</author>
-      </titleStmt>
-      <extent>[8], 77 [i.e. 83], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for G. Bidell, and T. Collins ... and Cha. Adams ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Attributed to John Wilson. cf. NUC pre-1956.</note>
-         <note>Errata: p. 77 [i.e. 83]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cheats a comedy : written in the year, M.DC. LXII.</title>
+      <author>Wilson, John, 1626-1696.</author>
+    </titleStmt>
+    <extent>[8], 77 [i.e. 83], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">G. Bidell</persName>, and <persName type="publisher">T. Collins</persName> ... and <persName type="publisher">Cha. Adams</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Attributed to John Wilson. cf. NUC pre-1956.</note>
+      <note>Errata: p. 77 [i.e. 83]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cha. Adams</persName>
+    </person>
+    <person type="publisher">
+      <persName>G. Bidell</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Collins</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

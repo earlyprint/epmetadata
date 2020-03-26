@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of Daniel Hoar, merchant, Alderman of (and one of His Majesties justices of the peace for) the town of Kingston upon Hull.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Maxwell, and R. Roberts,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of Daniel Hoar, merchant, Alderman of (and one of His Majesties justices of the peace for) the town of Kingston upon Hull.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Maxwell</persName>, and <persName type="printer">R. Roberts</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Maxwell</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Roberts</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A collection of some brave actions and memorable sayings of King Henry the Great. Writ in French by the Bishop of Rodez, as a supplement to the history of that King, formerly publish'd by the same author. Done into English. Licensed, June 6. 1688</title>
-         <author>Péréfixe de Beaumont, Hardouin de, b. 1605.</author>
-      </titleStmt>
-      <extent>[12], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Abel Roper at the Bell over against the Middle Temple-Gate, near Temple-Bar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Bishop of Rodez = Hardouin de Beaumont de Péréfixe.</note>
-         <note>Caption title on pg. 1: A collection of certain brave actions and memorable sayings of King Henry the Great.</note>
-         <note>With 2 initial advert. leaves.</note>
-         <note>Reproduction of the original at the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A collection of some brave actions and memorable sayings of King Henry the Great. Writ in French by the Bishop of Rodez, as a supplement to the history of that King, formerly publish'd by the same author. Done into English. Licensed, June 6. 1688</title>
+      <author>P&#233;r&#233;fixe de Beaumont, Hardouin de, b. 1605.</author>
+    </titleStmt>
+    <extent>[12], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Abel Roper</persName> at <placeName>the Bell over against the Middle Temple-Gate, near Temple-Bar</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Bishop of Rodez = Hardouin de Beaumont de P&#233;r&#233;fixe.</note>
+      <note>Caption title on pg. 1: A collection of certain brave actions and memorable sayings of King Henry the Great.</note>
+      <note>With 2 initial advert. leaves.</note>
+      <note>Reproduction of the original at the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Abel Roper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bell over against the Middle Temple-Gate, near Temple-Bar</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

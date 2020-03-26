@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Memorials of Alderman Whitmore, Bishop Wilkins, Bishop Reynolds, Alderman Adams ...</title>
-         <author>Barksdale, Clement, 1609-1687.</author>
-      </titleStmt>
-      <extent>42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Redmayne for John Barksdale ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: C.B.</note>
-         <note>Attributed to Barksdale by Wing.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Memorials of Alderman Whitmore, Bishop Wilkins, Bishop Reynolds, Alderman Adams ...</title>
+      <author>Barksdale, Clement, 1609-1687.</author>
+    </titleStmt>
+    <extent>42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Redmayne</persName> for <persName type="publisher">John Barksdale</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: C.B.</note>
+      <note>Attributed to Barksdale by Wing.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Barksdale</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Redmayne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

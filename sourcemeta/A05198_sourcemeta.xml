@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mappe of mans mortality and vanity A sermon, preached at the solemne funerall of Abraham Iacob Esquire, in the church of St. Leonards-Bromley by Stratford-Bow. May. 8. 1629. By Edmund Layfielde Bachelour in Divinity, and preacher there.</title>
-         <author>Layfield, Edmund.</author>
-      </titleStmt>
-      <extent>[10], 95, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Miles Flesher] for Nicolas Bourne, and are to be sold at his shop, at the south entrance of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The map of mans mortalitie and vanitie.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mappe of mans mortality and vanity A sermon, preached at the solemne funerall of Abraham Iacob Esquire, in the church of St. Leonards-Bromley by Stratford-Bow. May. 8. 1629. By Edmund Layfielde Bachelour in Divinity, and preacher there.</title>
+      <author>Layfield, Edmund.</author>
+    </titleStmt>
+    <extent>[10], 95, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Miles Flesher]</persName> for <persName type="publisher">Nicolas Bourne</persName>, and are to be sold at <placeName>his shop, at the south entrance of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The map of mans mortalitie and vanitie.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicolas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the south entrance of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

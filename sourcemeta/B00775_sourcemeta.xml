@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant posie, or Sweete nosegay of fragrant smellyng flowers: gathered in the garden of heaunely pleasure, the holy and blessed bible. To the tune of The black Almayne.</title>
-         <author>Symon, John.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>by Richard Johnes: dwellyng in the vpper end of Fleetlane,</publisher>
-         <pubPlace>Imprinted at London, :</pubPlace>
-         <date>1572.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: John Symon.</note>
-         <note>Verse: "A stock of flowers, bede wed with showers ..."</note>
-         <note>Printed in two columns.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant posie, or Sweete nosegay of fragrant smellyng flowers: gathered in the garden of heaunely pleasure, the holy and blessed bible. To the tune of The black Almayne.</title>
+      <author>Symon, John.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Richard Johnes:</persName> dwellyng in <placeName>the vpper end of Fleetlane</placeName>,</publisher>
+      <pubPlace>Imprinted at London, :</pubPlace>
+      <date>1572.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: John Symon.</note>
+      <note>Verse: "A stock of flowers, bede wed with showers ..."</note>
+      <note>Printed in two columns.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Johnes:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the vpper end of Fleetlane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

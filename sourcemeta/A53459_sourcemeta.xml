@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Herod the Great a tragedy / written by the Right Honourable the Earl of Orrery.</title>
-         <author>Orrery, Roger Boyle, Earl of, 1621-1679.</author>
-      </titleStmt>
-      <extent>[4], 41 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Warren for F. Saunders ... T. Bennet ... and J. Knapton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Herod the Great a tragedy / written by the Right Honourable the Earl of Orrery.</title>
+      <author>Orrery, Roger Boyle, Earl of, 1621-1679.</author>
+    </titleStmt>
+    <extent>[4], 41 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Warren</persName> for <persName type="publisher">F. Saunders</persName> ... <persName type="publisher">T. Bennet</persName> ... and <persName type="publisher">J. Knapton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Saunders</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Knapton</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Warren</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

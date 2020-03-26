@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of iudgement preached at Pauls before the Honourable Lord Maior and aldermen of the city of London, Dec. 17, 1654 and now enlarged / Rich. Baxter.</title>
-         <author>Baxter, Richard, 1615-1691.</author>
-      </titleStmt>
-      <extent>[24], 286 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.W. for Nevil Simmons ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of iudgement preached at Pauls before the Honourable Lord Maior and aldermen of the city of London, Dec. 17, 1654 and now enlarged / Rich. Baxter.</title>
+      <author>Baxter, Richard, 1615-1691.</author>
+    </titleStmt>
+    <extent>[24], 286 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.W.</persName> for <persName type="publisher">Nevil Simmons</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nevil Simmons</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

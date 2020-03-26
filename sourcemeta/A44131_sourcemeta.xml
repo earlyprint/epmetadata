@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Supplement to the philosophical transactions of July, 1670 With some reflexions on Dr. John Wallis, his letter there inserted.</title>
-         <title>Philosophical transactions. Supplement.</title>
-         <author>Holder, William, 1616-1698.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Henry Brome, at the Gun at the west-end of St. Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By William Holder.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Supplement to the philosophical transactions of July, 1670 With some reflexions on Dr. John Wallis, his letter there inserted.</title>
+      <title>Philosophical transactions. Supplement.</title>
+      <author>Holder, William, 1616-1698.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Henry Brome</persName>, at <placeName>the Gun at the west-end of St. Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By William Holder.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Brome</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Gun at the west-end of St. Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

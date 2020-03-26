@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A religious inquisition: or, A short scrutinie after religion Wherein the large cope of true religion is narrowly inquired. By Iohn Cope, of Grayes-Inne, Esquire.</title>
-         <author>Cope, John, of Gray's Inn.</author>
-      </titleStmt>
-      <extent>[14], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Felix Kingston, and are to be sold by Iames Boler at the Marigold in Paules Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Princeton Theological Seminary. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A religious inquisition: or, A short scrutinie after religion Wherein the large cope of true religion is narrowly inquired. By Iohn Cope, of Grayes-Inne, Esquire.</title>
+      <author>Cope, John, of Gray's Inn.</author>
+    </titleStmt>
+    <extent>[14], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Felix Kingston</persName>, and are to be sold by <persName type="bookseller">Iames Boler</persName> at <placeName>the Marigold in Paules Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Princeton Theological Seminary. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iames Boler</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Marigold in Paules Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The weary traveller his eternal rest being a discourse of that blessed rest here, which leads to endless rest hereafter. By H. H. D. D. Rector of Snaylwell, and Canon of Ely.</title>
-         <author>Harrison, Henry, 1610 or 11-1690.</author>
-      </titleStmt>
-      <extent>[10], 256 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by A. G. and J. P. for R. Clavell, at the Peacock in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>H. H. = Henry Harrison.</note>
-         <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2403 lacks pages 33, 34 and 61-64.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The weary traveller his eternal rest being a discourse of that blessed rest here, which leads to endless rest hereafter. By H. H. D. D. Rector of Snaylwell, and Canon of Ely.</title>
+      <author>Harrison, Henry, 1610 or 11-1690.</author>
+    </titleStmt>
+    <extent>[10], 256 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">A. G.</persName> and <persName type="printer">J. P.</persName> for <persName type="publisher">R. Clavell</persName>, at <placeName>the Peacock in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>H. H. = Henry Harrison.</note>
+      <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2403 lacks pages 33, 34 and 61-64.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Clavell</persName>
+    </person>
+    <person type="printer">
+      <persName>A. G.</persName>
+    </person>
+    <person type="printer">
+      <persName>J. P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Peacock in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

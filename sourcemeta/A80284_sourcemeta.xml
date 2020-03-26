@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The compleat book of knowledge: treating of the wisdom of the antients and shewing the various and wonderful operations of the signs and planets, and other celestial constellations, on the bodies of men, women and children; and the mighty influences they have upon those that are born under them. Compiled by the learned Albubetes, Benesaphan, Erra Pater, and other of the antients. To which is added, the country man's kalendar; with his daily practice, and perpetual prognostication for weather, according to Albumazar, Ptolomy, and others. Together with a catalogue of all the market-towns, fairs, and roads in England and Wales. All those who peruse this book, must own, that it the knowledge gives of things unknown.</title>
-      </titleStmt>
-      <extent>[6], 117, [3], 56 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by W. Onley; and are to be sold by H. Nelme, at the Leg and Star in Cornhil,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The country-man's kalendar" has separate title page and pagination; register is continuous.</note>
-         <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2528 lacks leaves C2-C7.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The compleat book of knowledge: treating of the wisdom of the antients and shewing the various and wonderful operations of the signs and planets, and other celestial constellations, on the bodies of men, women and children; and the mighty influences they have upon those that are born under them. Compiled by the learned Albubetes, Benesaphan, Erra Pater, and other of the antients. To which is added, the country man's kalendar; with his daily practice, and perpetual prognostication for weather, according to Albumazar, Ptolomy, and others. Together with a catalogue of all the market-towns, fairs, and roads in England and Wales. All those who peruse this book, must own, that it the knowledge gives of things unknown.</title>
+    </titleStmt>
+    <extent>[6], 117, [3], 56 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Onley;</persName> and are to be sold by <persName type="bookseller">H. Nelme</persName>, at <placeName>the Leg</placeName> and Star in <placeName>Cornhil</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The country-man's kalendar" has separate title page and pagination; register is continuous.</note>
+      <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2528 lacks leaves C2-C7.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H. Nelme</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Onley;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Leg</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

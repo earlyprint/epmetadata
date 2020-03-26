@@ -1,22 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londinopolis, an historicall discourse or perlustration of the city of London, the imperial chamber, and chief emporium of Great Britain whereunto is added another of the city of Westminster, with the courts of justice, antiquities, and new buildings thereunto belonging / by Jam Howel, Esq.</title>
-         <author>Howell, James, 1594?-1666.</author>
-         <author>Stow, John, 1525?-1605. Survey of London.</author>
-      </titleStmt>
-      <extent>[12], 124, 301-407, [9] p., [1] folded leaf of plates : ill., port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Streater for Henry Twiford, George Sawbridge, Th and John Place, and are to be sold at their shops,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Largely borrowed from Stow"--DNB.</note>
-         <note>Paging irregular: "The seeming error may perhaps be attributed to the book being printed at different offices"--Upcott.</note>
-         <note>Advertisements: p. [8]-[9] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londinopolis, an historicall discourse or perlustration of the city of London, the imperial chamber, and chief emporium of Great Britain whereunto is added another of the city of Westminster, with the courts of justice, antiquities, and new buildings thereunto belonging / by Jam Howel, Esq.</title>
+      <author>Howell, James, 1594?-1666.</author>
+      <author>Stow, John, 1525?-1605. Survey of London.</author>
+    </titleStmt>
+    <extent>[12], 124, 301-407, [9] p., [1] folded leaf of plates : ill., port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Streater</persName> for <persName type="publisher">Henry Twiford</persName>, <persName type="publisher">George Sawbridge</persName>, <persName type="publisher">Th</persName> and <persName type="publisher">John Place</persName>, and are to be sold at <placeName>their shops</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Largely borrowed from Stow"--DNB.</note>
+      <note>Paging irregular: "The seeming error may perhaps be attributed to the book being printed at different offices"--Upcott.</note>
+      <note>Advertisements: p. [8]-[9] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Sawbridge</persName>
+    </person>
+    <person type="publisher">
+      <persName>Henry Twiford</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Place</persName>
+    </person>
+    <person type="publisher">
+      <persName>Th</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

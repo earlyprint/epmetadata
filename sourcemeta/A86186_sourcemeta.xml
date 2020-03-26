@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An help to prayer: for the catechised youth of the Church of England Very useful for parents and masters to teach their children and servants how to pray. Imprimatur, Martii, 22. 1677/8 Guil. Sill.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by M.C. for Henry Brome, at the Gun at the West end of St. Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An help to prayer: for the catechised youth of the Church of England Very useful for parents and masters to teach their children and servants how to pray. Imprimatur, Martii, 22. 1677/8 Guil. Sill.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M.C.</persName> for <persName type="publisher">Henry Brome</persName>, at <placeName>the Gun at the West end of St. Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Brome</persName>
+    </person>
+    <person type="printer">
+      <persName>M.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Gun at the West end of St. Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

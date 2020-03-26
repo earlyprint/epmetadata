@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter sent to His Majestie, from the Lords justices, and councell in Ireland, April 23. 1642. Concerning His Majesties resolution to go into Ireland.</title>
-         <author>Ireland. Lords Justices and Council.</author>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Barker, Printer to the Kings most Excellent Majestie: And by the Assignes of John Bill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXLII [1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter sent to His Majestie, from the Lords justices, and councell in Ireland, April 23. 1642. Concerning His Majesties resolution to go into Ireland.</title>
+      <author>Ireland. Lords Justices and Council.</author>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Barker</persName>, Printer to <persName type="patron">the Kings most Excellent Majestie: And</persName> by <persName type="printer">the Assignes of John Bill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXLII [1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majestie: And</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>the Assignes of John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

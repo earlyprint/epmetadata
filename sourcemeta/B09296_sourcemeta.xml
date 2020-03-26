@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ordinance for the speedy raising of moneys for His Majesties service</title>
-         <author>Ireland. Lords Justices and Council.</author>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
-      </titleStmt>
-      <extent>[2], 29 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Bladen by special order,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>Anno Dom. 1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Text in black letter.</note>
-         <note>"March the I. 1660: Ordered, that this ordinance be forthwith printed and published --Mat. Barry Clerk of the General Convention of Ireland."</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ordinance for the speedy raising of moneys for His Majesties service</title>
+      <author>Ireland. Lords Justices and Council.</author>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
+    </titleStmt>
+    <extent>[2], 29 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bladen</persName> by <persName type="printer">special order</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>Anno Dom. 1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Text in black letter.</note>
+      <note>"March the I. 1660: Ordered, that this ordinance be forthwith printed and published --Mat. Barry Clerk of the General Convention of Ireland."</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Bladen</persName>
+    </person>
+    <person type="printer">
+      <persName>special order</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

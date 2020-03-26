@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A congratulatory poem, on the miraculous, and glorious return of that unparallel'd King Charls the II. May 29. 1660. By Alex. Brome.</title>
-         <author>Brome, Alexander, 1620-1666.</author>
-      </titleStmt>
-      <extent>[2], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Henry Brome at the Gun in Ivy-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Annotation on Thomason copy: "June. 4.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A congratulatory poem, on the miraculous, and glorious return of that unparallel'd King Charls the II. May 29. 1660. By Alex. Brome.</title>
+      <author>Brome, Alexander, 1620-1666.</author>
+    </titleStmt>
+    <extent>[2], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Henry Brome</persName> at <placeName>the Gun in Ivy-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Annotation on Thomason copy: "June. 4.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Brome</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Gun in Ivy-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

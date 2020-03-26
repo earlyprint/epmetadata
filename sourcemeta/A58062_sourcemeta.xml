@@ -1,22 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations on the poems of Homer and Virgil a discourse representing the excellencies of those works; and the perfections in general, of all heroick action. Out of the French, by John Davies of Kidwelly.</title>
-         <title>Comparaison des poèmes d'Homere et de Virgile. English. 1672.</title>
-         <author>Rapin, René, 1621-1687.</author>
-         <author>Davies, John, 1625-1693.</author>
-      </titleStmt>
-      <extent>[6], 128 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by S.G. and B.G. and are to be sold by Dorman Newman at the Kings-Arms in the Poultrey, and Jonathan Edwin at the three Roses in Ludgate Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by John Davies, of the Rapin, René. Comparaison des poèmes d'Homere et de Virgile.</note>
-         <note>Running title reads: Observations upon Homer and Virgil.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations on the poems of Homer and Virgil a discourse representing the excellencies of those works; and the perfections in general, of all heroick action. Out of the French, by John Davies of Kidwelly.</title>
+      <title>Comparaison des po&#232;mes d'Homere et de Virgile. English. 1672.</title>
+      <author>Rapin, Ren&#233;, 1621-1687.</author>
+      <author>Davies, John, 1625-1693.</author>
+    </titleStmt>
+    <extent>[6], 128 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">S.G.</persName> and <persName type="printer">B.G.</persName> and are to be sold by <persName type="bookseller">Dorman Newman</persName> at <placeName>the Kings-Arms in the Poultrey</placeName>, and <persName type="bookseller">Jonathan Edwin</persName> at <placeName>the three Roses in Ludgate Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by John Davies, of the Rapin, Ren&#233;. Comparaison des po&#232;mes d'Homere et de Virgile.</note>
+      <note>Running title reads: Observations upon Homer and Virgil.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Dorman Newman</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Jonathan Edwin</persName>
+    </person>
+    <person type="printer">
+      <persName>B.G.</persName>
+    </person>
+    <person type="printer">
+      <persName>S.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings-Arms in the Poultrey</placeName>
+    </place>
+    <place type="location">
+      <placeName>the three Roses in Ludgate Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

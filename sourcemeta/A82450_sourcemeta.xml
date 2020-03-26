@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the exportation of several commodities of the breed growth, and manufacture of this Commonvvealth.</title>
-         <title>Public General Acts. 1656-11-27</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>4 sheets (versos blank)   </extent>
-      <publicationStmt>
-         <publisher>printed by Henry Hills and John Field, printers to his Highness,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1656]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Text in black letter.</note>
-         <note>Dated in Steele: Westminster: 27 November 1656.</note>
-         <note>The prosperity of the island requires that 'the exportation of the native commodities overbalance the importation of forein commodities'.</note>
-         <note>Arms 50; Steele notation: all and 2) the 3) One 4) Foreiners, that.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the exportation of several commodities of the breed growth, and manufacture of this Commonvvealth.</title>
+      <title>Public General Acts. 1656-11-27</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>4 sheets (versos blank)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName>, printers to <persName type="patron">his Highness</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1656]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Text in black letter.</note>
+      <note>Dated in Steele: Westminster: 27 November 1656.</note>
+      <note>The prosperity of the island requires that 'the exportation of the native commodities overbalance the importation of forein commodities'.</note>
+      <note>Arms 50; Steele notation: all and 2) the 3) One 4) Foreiners, that.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his Highness</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

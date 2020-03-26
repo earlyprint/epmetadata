@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The miracles perform'd by money a poem / by the author of the humours of a coffee-house.</title>
-         <author>Ward, Edward, 1667-1731.</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed, and are to be sold by the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Attributed to Edward Ward. cf. BM.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The miracles perform'd by money a poem / by the author of the humours of a coffee-house.</title>
+      <author>Ward, Edward, 1667-1731.</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed, and are to be sold by <persName type="bookseller">the booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Attributed to Edward Ward. cf. BM.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

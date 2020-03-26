@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The picture of a perfit common wealth describing aswell the offices of princes and inferiour magistrates ouer their subiects, as also the duties of subiects towards their gouernours. Gathered forth of many authors, aswel humane, as diuine, by Thomas Floyd master in the Artes.</title>
-         <author>Floyd, Thomas, M.A., of Jesus College, Oxford.</author>
-      </titleStmt>
-      <extent>[24], 309, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>By Simon Stafford, dwelling on Adling hill,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first two leaves and the last leaf are blank except for signature-mark "A" on first leaf.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The picture of a perfit common wealth describing aswell the offices of princes and inferiour magistrates ouer their subiects, as also the duties of subiects towards their gouernours. Gathered forth of many authors, aswel humane, as diuine, by Thomas Floyd master in the Artes.</title>
+      <author>Floyd, Thomas, M.A., of Jesus College, Oxford.</author>
+    </titleStmt>
+    <extent>[24], 309, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Simon Stafford</persName>, dwelling on <placeName>Adling hill</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first two leaves and the last leaf are blank except for signature-mark "A" on first leaf.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Simon Stafford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Adling hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

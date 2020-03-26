@@ -1,26 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Taylors goose] [describing the wilde goose]</title>
-         <author>Taylor, John, 1580-1653.</author>
-      </titleStmt>
-      <extent>[29] p.   </extent>
-      <publicationStmt>
-         <publisher>E.A. for H. Gosson, sold by E. Wright,</publisher>
-         <pubPlace>[S.l. :</pubPlace>
-         <date>1621]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
-         <note>Running title: Taylors goose.</note>
-         <note>Epistle dedicatorie signed: John Taylor.</note>
-         <note>Signatures: A⁴(-A1) B-D⁴.</note>
-         <note>Imprint suggested by STC (2nd ed.).</note>
-         <note>Includes marginal notes.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Taylors goose] [describing the wilde goose]</title>
+      <author>Taylor, John, 1580-1653.</author>
+    </titleStmt>
+    <extent>[29] p.   </extent>
+    <publicationStmt>
+      <publisher>E.A. for <persName type="publisher">H. Gosson</persName>, sold by <persName type="bookseller">E. Wright</persName>,</publisher>
+      <pubPlace>[S.l. :</pubPlace>
+      <date>1621]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
+      <note>Running title: Taylors goose.</note>
+      <note>Epistle dedicatorie signed: John Taylor.</note>
+      <note>Signatures: A&#8308;(-A1) B-D&#8308;.</note>
+      <note>Imprint suggested by STC (2nd ed.).</note>
+      <note>Includes marginal notes.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>H. Gosson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

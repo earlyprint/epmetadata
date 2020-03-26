@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedie of Alceste and Eliza As it is found in Italian, in La Croce racquistata. Collected, and translated into English, in the same verse, and number, by Fr. Br. Gent. At the request of the right vertuous lady, the Lady Anne Wingfield ...</title>
-         <title>Croce racquistata. English</title>
-         <author>Bracciolini, Francesco, 1566-1645.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Th. Harper, for Iohn Waterson, and are to be sold at his shop in Pauls Church-yard at the signe of the Crown,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Fr. Br." most likely refers to the author himself, i.e. Francesco Bracciolini (the odds against the author and translator sharing the same initials being remote).</note>
-         <note>In verse.</note>
-         <note>Signatures: A-E (-A1, E8).</note>
-         <note>Identified as STC 276 on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedie of Alceste and Eliza As it is found in Italian, in La Croce racquistata. Collected, and translated into English, in the same verse, and number, by Fr. Br. Gent. At the request of the right vertuous lady, the Lady Anne Wingfield ...</title>
+      <title>Croce racquistata. English</title>
+      <author>Bracciolini, Francesco, 1566-1645.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Th. Harper</persName>, for <persName type="publisher">Iohn Waterson</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard at the signe of the Crown</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Fr. Br." most likely refers to the author himself, i.e. Francesco Bracciolini (the odds against the author and translator sharing the same initials being remote).</note>
+      <note>In verse.</note>
+      <note>Signatures: A-E (-A1, E8).</note>
+      <note>Identified as STC 276 on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>Th. Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard at the signe of the Crown</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

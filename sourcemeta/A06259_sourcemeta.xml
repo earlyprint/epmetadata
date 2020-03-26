@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True bill of the whole number that hath died in the cittie of London, the citty of Westminster, the citty of Norwich, and diuers other places, since the time this last sicknes of the plague began in either of them, to this present month of October the sixt day, 1603 with a relation of many visitations by the plague, in sundry other forraine countries.</title>
-         <author>Chettle, Henry, d. 1607?</author>
-         <author>Worshipful Company of Parish Clerks.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I.R. for Iohn Trundle, and are to be sold at his shop in Barbican, neere Long Lane end,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>[1603]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to the Worshipful Company of Parish Clerks by NUC pre-1956 imprints.</note>
-         <note>Signed at end: Henry Chettle.</note>
-         <note>Date of publication suggested by STC (2nd ed.) and NUC pre-1956 imprints.</note>
-         <note>Text in two columns.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True bill of the whole number that hath died in the cittie of London, the citty of Westminster, the citty of Norwich, and diuers other places, since the time this last sicknes of the plague began in either of them, to this present month of October the sixt day, 1603 with a relation of many visitations by the plague, in sundry other forraine countries.</title>
+      <author>Chettle, Henry, d. 1607?</author>
+      <author>Worshipful Company of Parish Clerks.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I.R.</persName> for <persName type="publisher">Iohn Trundle</persName>, and are to be sold at <placeName>his shop in Barbican, neere Long Lane end</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>[1603]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to the Worshipful Company of Parish Clerks by NUC pre-1956 imprints.</note>
+      <note>Signed at end: Henry Chettle.</note>
+      <note>Date of publication suggested by STC (2nd ed.) and NUC pre-1956 imprints.</note>
+      <note>Text in two columns.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Trundle</persName>
+    </person>
+    <person type="printer">
+      <persName>I.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Barbican, neere Long Lane end</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

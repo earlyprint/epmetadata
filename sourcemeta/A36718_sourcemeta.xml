@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The famous Chinois, or The loves of several of the French nobility, under borrowed names with a key annexed.</title>
-         <title>Fameux Chinois. English</title>
-         <author>Du Bail, Louis Moreau, sieur.</author>
-         <author>Eleutherius.</author>
-      </titleStmt>
-      <extent>[6], 270 [i.e. 272], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.O. for Thomas Dring ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Translator's dedication (signed: Eleutherius) gives the author's name as Monsieur Du Ball.</note>
-         <note>Translation of the author's Le Fameux Chinois.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The famous Chinois, or The loves of several of the French nobility, under borrowed names with a key annexed.</title>
+      <title>Fameux Chinois. English</title>
+      <author>Du Bail, Louis Moreau, sieur.</author>
+      <author>Eleutherius.</author>
+    </titleStmt>
+    <extent>[6], 270 [i.e. 272], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.O.</persName> for <persName type="publisher">Thomas Dring</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Translator's dedication (signed: Eleutherius) gives the author's name as Monsieur Du Ball.</note>
+      <note>Translation of the author's Le Fameux Chinois.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>E.O.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

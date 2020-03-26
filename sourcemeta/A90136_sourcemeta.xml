@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The fair extravagant, or, the humorous bride. An English novel</title>
-         <author>Oldys, Alexander.</author>
-      </titleStmt>
-      <extent>[6], 48, 25-48, 73-178 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Charles Blount, at the Catherine-Wheel at Charing-Cross,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed A. O.</note>
-         <note>A. O. = Alexander Oldys.--Wing (CD-ROM edition).</note>
-         <note>Text and register continuous despite pagination.</note>
-         <note>Wing reports imprint as: "For C. Blount".</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The fair extravagant, or, the humorous bride. An English novel</title>
+      <author>Oldys, Alexander.</author>
+    </titleStmt>
+    <extent>[6], 48, 25-48, 73-178 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Charles Blount</persName>, at <placeName>the Catherine-Wheel at Charing-Cross</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed A. O.</note>
+      <note>A. O. = Alexander Oldys.--Wing (CD-ROM edition).</note>
+      <note>Text and register continuous despite pagination.</note>
+      <note>Wing reports imprint as: "For C. Blount".</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Blount</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Catherine-Wheel at Charing-Cross</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The conuerts first loue discerned iustified, left and recouered. Resoluing the truth of an effectuall conuersion. And informing the right way to perseverance and perfection. By Thomas Cooper.</title>
-         <author>Cooper, Thomas, fl. 1626.</author>
-      </titleStmt>
-      <extent>[16], 35, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Kingston for William Welby, and are to bee sold at his shop in Pauls Church-yard at the signe of the white Swanne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1610.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The conuerts first loue discerned iustified, left and recouered. Resoluing the truth of an effectuall conuersion. And informing the right way to perseverance and perfection. By Thomas Cooper.</title>
+      <author>Cooper, Thomas, fl. 1626.</author>
+    </titleStmt>
+    <extent>[16], 35, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Kingston</persName> for <persName type="publisher">William Welby</persName>, and are to bee sold at <placeName>his shop in Pauls Church-yard at the signe of the white Swanne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1610.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Welby</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Kingston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard at the signe of the white Swanne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

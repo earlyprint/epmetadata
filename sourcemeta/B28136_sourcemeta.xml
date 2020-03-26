@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cry of the oppressed being a true and tragical account of the unparallel'd sufferings of multitudes of poor imprisoned debtors in most of the gaols in England ... together with the case of the publisher.</title>
-         <author>Pitt, Moses, fl. 1654-1696.</author>
-      </titleStmt>
-      <extent>[40], 162, [2] p., 9 leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Moses Pitt, and sold by the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: Moses Pitt.</note>
-         <note>"Illustrated with copper-plates."</note>
-         <note>Imperfect: pages stained with loss of print. Pages 132-153 from defective University of Illinois (Urbana-Champaign Campus). Library copy spliced at end.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cry of the oppressed being a true and tragical account of the unparallel'd sufferings of multitudes of poor imprisoned debtors in most of the gaols in England ... together with the case of the publisher.</title>
+      <author>Pitt, Moses, fl. 1654-1696.</author>
+    </titleStmt>
+    <extent>[40], 162, [2] p., 9 leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Moses Pitt</persName>, and sold by <persName type="bookseller">the booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: Moses Pitt.</note>
+      <note>"Illustrated with copper-plates."</note>
+      <note>Imperfect: pages stained with loss of print. Pages 132-153 from defective University of Illinois (Urbana-Champaign Campus). Library copy spliced at end.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+    <person type="publisher">
+      <persName>Moses Pitt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tvvo bookes of epigrammes, and epitaphs Dedicated to two top-branches of gentry: Sir Charles Shirley, Baronet, and William Davenport, Esquire. Written by Thomas Bancroft.</title>
-         <author>Bancroft, Thomas, fl. 1633-1658.</author>
-      </titleStmt>
-      <extent>[88] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. Okes, for Matthew Walbancke, and are to be sold at his shop in Grayes-Inne-gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-L⁴.</note>
-         <note>In verse.</note>
-         <note>With a preliminary imprimatur leaf.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tvvo bookes of epigrammes, and epitaphs Dedicated to two top-branches of gentry: Sir Charles Shirley, Baronet, and William Davenport, Esquire. Written by Thomas Bancroft.</title>
+      <author>Bancroft, Thomas, fl. 1633-1658.</author>
+    </titleStmt>
+    <extent>[88] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Okes</persName>, for <persName type="publisher">Matthew Walbancke</persName>, and are to be sold at <placeName>his shop in Grayes-Inne-gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-L&#8308;.</note>
+      <note>In verse.</note>
+      <note>With a preliminary imprimatur leaf.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Walbancke</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Grayes-Inne-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

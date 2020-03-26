@@ -1,17 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Collection of twenty four songs written by several hands, and set by several masters of musick ; vvith the tunes engraven on copper-plates with great care : most of them within the compass of a flute.</title>
-      </titleStmt>
-      <extent>1 score ([2], [20] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Leach, for Charles Corbet, and published by W. Davis ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Collection of twenty four songs written by several hands, and set by several masters of musick ; vvith the tunes engraven on copper-plates with great care : most of them within the compass of a flute.</title>
+    </titleStmt>
+    <extent>1 score ([2], [20] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Leach</persName>, for <persName type="publisher">Charles Corbet, and published</persName> by <persName type="printer">W. Davis</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Corbet, and published</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Leach</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Davis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sayings of women, which were spoken upon sundry occasions, in several places of the Scriptures. / Briefly collected and set together ...</title>
-         <author>Bathurst, Elizabeth, d. 1691.</author>
-      </titleStmt>
-      <extent>24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle at the Crooked-Billet in Holloway-Lane in Shoreditch,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Elizabeth Bathurst.</note>
-         <note>Reproduction of original in: Friends' Library (London, England).</note>
-         <note>With: Truth vindicated. / By ... Elizabeth Bathurst ... [London] : Printed for T. Sowles ..., 1691 -- Truth's vindication, A gentle stroke to wipe off the foul aspersions, false accusations and misrepresentations cast upon the people of God call'd Quakers. London : Printed and sold by Andrew Sowle ..., 1683.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sayings of women, which were spoken upon sundry occasions, in several places of the Scriptures. / Briefly collected and set together ...</title>
+      <author>Bathurst, Elizabeth, d. 1691.</author>
+    </titleStmt>
+    <extent>24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Andrew Sowle</persName></persName> at <placeName>the Crooked-Billet in Holloway-Lane in Shoreditch</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Elizabeth Bathurst.</note>
+      <note>Reproduction of original in: Friends' Library (London, England).</note>
+      <note>With: Truth vindicated. / By ... Elizabeth Bathurst ... [London] : Printed for T. Sowles ..., 1691 -- Truth's vindication, A gentle stroke to wipe off the foul aspersions, false accusations and misrepresentations cast upon the people of God call'd Quakers. London : Printed and sold by Andrew Sowle ..., 1683.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crooked-Billet in Holloway-Lane in Shoreditch</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

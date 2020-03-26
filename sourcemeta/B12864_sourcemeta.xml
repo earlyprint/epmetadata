@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation concerning vvyer, threed, and other manufactures made of gold and siluer.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton and Iohn Bill, printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>M. DC. XXIII. [1623]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Greenwich, the sixteenth day of Iune, in the one and twentieth yeere of our reigne ..</note>
-         <note>Arms 14; Steele notation: to  to  2) what-  of.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation concerning vvyer, threed, and other manufactures made of gold and siluer.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>M. DC. XXIII. [1623]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Greenwich, the sixteenth day of Iune, in the one and twentieth yeere of our reigne ..</note>
+      <note>Arms 14; Steele notation: to  to  2) what-  of.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

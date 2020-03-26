@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bussy d'Ambois a tragedie: as it hath been often presented at Paules.</title>
-         <author>Chapman, George, 1559?-1634.</author>
-      </titleStmt>
-      <extent>[2], 70 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [at Eliot's Court Press] for William Aspley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By George Chapman.</note>
-         <note>Identification of printer from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bussy d'Ambois a tragedie: as it hath been often presented at Paules.</title>
+      <author>Chapman, George, 1559?-1634.</author>
+    </titleStmt>
+    <extent>[2], 70 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [at <placeName>Eliot's Court Press]</placeName> for <persName type="publisher">William Aspley</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By George Chapman.</note>
+      <note>Identification of printer from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Aspley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Eliot's Court Press]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

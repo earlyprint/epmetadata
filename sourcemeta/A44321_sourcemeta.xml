@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lectures and collections made by Robert Hooke.</title>
-         <author>Hooke, Robert, 1635-1703.</author>
-      </titleStmt>
-      <extent>[6], 112 p., [5] folded leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Martyn, Printer to the Royal Society,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lectures and collections made by Robert Hooke.</title>
+      <author>Hooke, Robert, 1635-1703.</author>
+    </titleStmt>
+    <extent>[6], 112 p., [5] folded leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Martyn</persName>, Printer to <persName type="patron">the Royal Society</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Royal Society</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Martyn</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

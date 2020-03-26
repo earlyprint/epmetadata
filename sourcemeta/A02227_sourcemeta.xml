@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Mustapha</title>
-         <author>Greville, Fulke, Baron Brooke, 1554-1628.</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Windet] for Nathaniel Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Fulke Greville, Baron Brooke.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F⁴ G² .</note>
-         <note>E4v has catchword "Where". Variant 1: catchword "Miracles". Variant 2: no catchword.</note>
-         <note>Reproduction of the original in Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Mustapha</title>
+      <author>Greville, Fulke, Baron Brooke, 1554-1628.</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Windet]</persName> for <persName type="publisher">Nathaniel Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Fulke Greville, Baron Brooke.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#8308; G&#178; .</note>
+      <note>E4v has catchword "Where". Variant 1: catchword "Miracles". Variant 2: no catchword.</note>
+      <note>Reproduction of the original in Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>John Windet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

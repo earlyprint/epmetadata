@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Musgrave muzl'd: or the mouth of iniquitie stoped. Being a true and cleer vindication of Sir Arthur Hazelrige from a false and scandalous accusation of John Musgrave, in his late pamphlet intituled, A true and exact relation of the great and heavie pressurs and grievances the well-affected of the Northern bordering counties lye under by Sir A.H. misgovernment. With a true but not exact character of the said Musgrave in some discoveries of him.</title>
-         <author>Price, John, Citizen of London, Attributed name.</author>
-      </titleStmt>
-      <extent>[4], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Macock, for L. Lloyd, and H. Cripps, and are to be sold at their shop in Popes head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Price by John Lilburne in "A letter of Lieutenant colonel John Lilburns, .. [1651]" (Wing L2133).</note>
-         <note>A reply to: Musgrave, John  A true and exact relation of the great and heavy pressures and grievances the well-affected of the northern bordering countries lye under.</note>
-         <note>Annotations on Thomason copy: "march 3d 1650"; the last two numbers of the imprint date have been marked through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Musgrave muzl'd: or the mouth of iniquitie stoped. Being a true and cleer vindication of Sir Arthur Hazelrige from a false and scandalous accusation of John Musgrave, in his late pamphlet intituled, A true and exact relation of the great and heavie pressurs and grievances the well-affected of the Northern bordering counties lye under by Sir A.H. misgovernment. With a true but not exact character of the said Musgrave in some discoveries of him.</title>
+      <author>Price, John, Citizen of London, Attributed name.</author>
+    </titleStmt>
+    <extent>[4], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Macock</persName>, for <persName type="publisher">L. Lloyd</persName>, and <persName type="publisher">H. Cripps</persName>, and are to be sold at <placeName>their shop in Popes head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Price by John Lilburne in "A letter of Lieutenant colonel John Lilburns, .. [1651]" (Wing L2133).</note>
+      <note>A reply to: Musgrave, John  A true and exact relation of the great and heavy pressures and grievances the well-affected of the northern bordering countries lye under.</note>
+      <note>Annotations on Thomason copy: "march 3d 1650"; the last two numbers of the imprint date have been marked through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Cripps</persName>
+    </person>
+    <person type="publisher">
+      <persName>L. Lloyd</persName>
+    </person>
+    <person type="printer">
+      <persName>John Macock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop in Popes head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

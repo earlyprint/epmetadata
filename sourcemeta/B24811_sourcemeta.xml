@@ -1,24 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant and Council. Ormonde. Whereas it hath pleased almighty God to call to his mercy our late soveraign lord King Charles the Second of blessed memory, ... Whereas it hath pleased almighty God to call to his mercy our late soveraign lord King Charles the Second of blessed memory, ...</title>
-         <author>Ireland. Lord Lieutenant (1677-1685 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
-      </titleStmt>
-      <extent>[2] leaves.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Benjamin Tooke, printer to the Kings most excellent Majesty; and are to be sold by Andrew Crook in Skinner-row, and Samuel Helsham at the Colledg-Arms in Castle-street,</publisher>
-         <pubPlace>[Dublin :</pubPlace>
-         <date>1684.]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title includes first lines of text.</note>
-         <note>Dated at end of text: Given at the Council-Chamher [sic] in Dublin this eleventh day of February, 1684.</note>
-         <note>Dates are given according to Lady Day dating.</note>
-         <note>Imprint from colophon.</note>
-         <note>Steele notation: Arms 186. to Lords 2) Proclamation of.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant and Council. Ormonde. Whereas it hath pleased almighty God to call to his mercy our late soveraign lord King Charles the Second of blessed memory, ... Whereas it hath pleased almighty God to call to his mercy our late soveraign lord King Charles the Second of blessed memory, ...</title>
+      <author>Ireland. Lord Lieutenant (1677-1685 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
+    </titleStmt>
+    <extent>[2] leaves.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Benjamin Tooke</persName>, printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Andrew Crook</persName> in <placeName>Skinner-row</placeName>, and <persName type="bookseller">Samuel Helsham</persName> at <placeName>the Colledg-Arms in Castle-street</placeName>,</publisher>
+      <pubPlace>[Dublin :</pubPlace>
+      <date>1684.]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title includes first lines of text.</note>
+      <note>Dated at end of text: Given at the Council-Chamher [sic] in Dublin this eleventh day of February, 1684.</note>
+      <note>Dates are given according to Lady Day dating.</note>
+      <note>Imprint from colophon.</note>
+      <note>Steele notation: Arms 186. to Lords 2) Proclamation of.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty;</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Skinner-row</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledg-Arms in Castle-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

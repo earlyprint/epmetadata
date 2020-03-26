@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the King's most excellent Majesty, the humble address of the Presbyterian ministers in His Majesties kingdom of Scotland</title>
-         <title>Proceedings. 1687-07-21.</title>
-         <author>Church of Scotland. General Assembly.</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by James Watson, printer to his most excellent Majesties royal family and houshold,</publisher>
-         <pubPlace>Holy-Rood-House [Edinburgh] :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At head of text: At Edinburgh the twenty first day of July, in the year 1687.</note>
-         <note>A petition thanking King James II for the Declaration of Indulgence issued in February 1687.</note>
-         <note>Copy annotated above text in MS.: "This is printed by the papist Watson of the abbey".</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the King's most excellent Majesty, the humble address of the Presbyterian ministers in His Majesties kingdom of Scotland</title>
+      <title>Proceedings. 1687-07-21.</title>
+      <author>Church of Scotland. General Assembly.</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">James Watson</persName>, printer to <persName type="patron">his most excellent Majesties royal family and houshold</persName>,</publisher>
+      <pubPlace>Holy-Rood-House [Edinburgh] :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At head of text: At Edinburgh the twenty first day of July, in the year 1687.</note>
+      <note>A petition thanking King James II for the Declaration of Indulgence issued in February 1687.</note>
+      <note>Copy annotated above text in MS.: "This is printed by the papist Watson of the abbey".</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most excellent Majesties royal family and houshold</persName>
+    </person>
+    <person type="printer">
+      <persName>James Watson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

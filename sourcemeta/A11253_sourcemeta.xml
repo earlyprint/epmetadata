@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Iesuites play at Lyons in France as it was there presented. Both to the amazement of the beholders, and the destruction of the actors, in August last past. Credibly informed by a factors letter (who was an eye witnesse) to his right worshipful maister in London.</title>
-         <author>R. S., fl. 1607.</author>
-      </titleStmt>
-      <extent>[6], 25, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Windet] for Nathaniel Butter, dwelling in Paules Churchyeard,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: R.S.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>In this edition the second line of title ends: Ly-.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Iesuites play at Lyons in France as it was there presented. Both to the amazement of the beholders, and the destruction of the actors, in August last past. Credibly informed by a factors letter (who was an eye witnesse) to his right worshipful maister in London.</title>
+      <author>R. S., fl. 1607.</author>
+    </titleStmt>
+    <extent>[6], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Windet]</persName> for <persName type="publisher">Nathaniel Butter</persName>, dwelling in <placeName>Paules Churchyeard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: R.S.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>In this edition the second line of title ends: Ly-.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>John Windet]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyeard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

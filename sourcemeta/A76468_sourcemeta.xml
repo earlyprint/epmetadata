@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief treatise of education, with a particular respect to the children of great personages. : For the use of His Royal Highness, the Prince. / By John Bettam, D.F.S. and tutor to His Highness.</title>
-         <author>Betham, John, d. 1709.</author>
-      </titleStmt>
-      <extent>[3], 2-22 p., [1] leaf of plates : port.  </extent>
-      <publicationStmt>
-         <publisher>by P. Lauren, near the Louvre,</publisher>
-         <pubPlace>Imprinted at Paris :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Foot of p. 22 has: The end of the first part.</note>
-         <note>Page 2 occurs twice; page 10 is numbered 9.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief treatise of education, with a particular respect to the children of great personages. : For the use of His Royal Highness, the Prince. / By John Bettam, D.F.S. and tutor to His Highness.</title>
+      <author>Betham, John, d. 1709.</author>
+    </titleStmt>
+    <extent>[3], 2-22 p., [1] leaf of plates : port.  </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">P. Lauren</persName>, near <placeName>the Louvre</placeName>,</publisher>
+      <pubPlace>Imprinted at Paris :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Foot of p. 22 has: The end of the first part.</note>
+      <note>Page 2 occurs twice; page 10 is numbered 9.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>P. Lauren</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Louvre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

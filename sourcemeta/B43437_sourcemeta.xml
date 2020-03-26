@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A copy of a letter, containing an account of the murder of Capt. Robert Mead, on the 19th of August last by Burrus Gradon, who was tryed for the same at the Kings-Bench-Bar in Dublin, the 15th of November, after, and found guilty of manslaughter only together with a copy of a letter sent the jury, and some reflections on the verdict.</title>
-         <author>Mead, E.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for S.M. in the year,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed at end: E. Mead.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imperfect: torn, faded print, resultin in loss of text.</note>
-         <note>Bound and filmed with: Wing W3386B, A401B, G524 and T1560B.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A copy of a letter, containing an account of the murder of Capt. Robert Mead, on the 19th of August last by Burrus Gradon, who was tryed for the same at the Kings-Bench-Bar in Dublin, the 15th of November, after, and found guilty of manslaughter only together with a copy of a letter sent the jury, and some reflections on the verdict.</title>
+      <author>Mead, E.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">S.M.</persName> in <placeName>the year</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed at end: E. Mead.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imperfect: torn, faded print, resultin in loss of text.</note>
+      <note>Bound and filmed with: Wing W3386B, A401B, G524 and T1560B.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the year</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

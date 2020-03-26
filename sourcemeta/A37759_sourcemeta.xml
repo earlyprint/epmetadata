@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords and Commons of the Parliament of England to the high and mighty lords, the states of the United Provinces.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. N. for Richard Best,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>October 8, 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords and Commons of the Parliament of England to the high and mighty lords, the states of the United Provinces.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. N.</persName> for <persName type="publisher">Richard Best</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>October 8, 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Best</persName>
+    </person>
+    <person type="printer">
+      <persName>A. N.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

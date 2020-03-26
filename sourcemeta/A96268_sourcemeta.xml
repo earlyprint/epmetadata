@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter sent from Col: VVhaley, being commanded by the King to declare His Maiesties great dislike of a late pamphlet scandalous to his Majesty: being intituled, His Majesties declaration to all his loving subjects, touching his inclination for peace, dated the 27. of August 1647. The which pamphlet, his Majesty utterly disavows, as being published without his knowledge or consent.</title>
-         <author>Whalley, Edward, d. 1675?</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. Coe, for Henry Overton in Popes-head Ally,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: His Majesties declaration to all his loving subjects, concerning his gracious inclination for peace (Wing C2229).</note>
-         <note>Annotation on Thomason copy: "Aug: 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter sent from Col: VVhaley, being commanded by the King to declare His Maiesties great dislike of a late pamphlet scandalous to his Majesty: being intituled, His Majesties declaration to all his loving subjects, touching his inclination for peace, dated the 27. of August 1647. The which pamphlet, his Majesty utterly disavows, as being published without his knowledge or consent.</title>
+      <author>Whalley, Edward, d. 1675?</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Coe</persName>, for <persName type="publisher">Henry Overton</persName> in <placeName>Popes-head Ally</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: His Majesties declaration to all his loving subjects, concerning his gracious inclination for peace (Wing C2229).</note>
+      <note>Annotation on Thomason copy: "Aug: 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Coe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Ally</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

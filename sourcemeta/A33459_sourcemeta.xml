@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of humane reason</title>
-         <author>Clifford, M. (Martin), d. 1677.</author>
-      </titleStmt>
-      <extent>[2], 91 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Hen. Brome ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Attributed to Martin Clifford. cf. BM.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of humane reason</title>
+      <author>Clifford, M. (Martin), d. 1677.</author>
+    </titleStmt>
+    <extent>[2], 91 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Hen. Brome</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Attributed to Martin Clifford. cf. BM.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Brome</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

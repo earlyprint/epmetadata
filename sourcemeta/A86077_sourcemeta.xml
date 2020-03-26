@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londons lawless liberty: or A Gozmonian partie licensed. Being a true discoverie of a pack of prodigious knaves, who have under pretence of an act of Common Councell of the City of London, seized (as they tearme it) and taken away from divers free-men of the same city, their true aud [sic] proper goods, and that in such a horrid and uncivil[l?] manner, as no heathens whatsoever, could with more cruelty have exercised the same. Together with a particular of the names of some of those persons which have had their goods illegally taken away, as the same was attested under their hands, and presented to the adjutators of the army, under the command of his Excellency Sir Thomas Fairfax, Captaine Generall of all the forces in England and Wales, the 27. of August, 1647. / Published by Iohn Harvey Gentleman.</title>
-         <author>Harvey, John, gentleman.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed, for the good of all free-men, who desire to maintaine their owne priviledges in their calling,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>in the yeare, 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "7ber 15".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londons lawless liberty: or A Gozmonian partie licensed. Being a true discoverie of a pack of prodigious knaves, who have under pretence of an act of Common Councell of the City of London, seized (as they tearme it) and taken away from divers free-men of the same city, their true aud [sic] proper goods, and that in such a horrid and uncivil[l?] manner, as no heathens whatsoever, could with more cruelty have exercised the same. Together with a particular of the names of some of those persons which have had their goods illegally taken away, as the same was attested under their hands, and presented to the adjutators of the army, under the command of his Excellency Sir Thomas Fairfax, Captaine Generall of all the forces in England and Wales, the 27. of August, 1647. / Published by Iohn Harvey Gentleman.</title>
+      <author>Harvey, John, gentleman.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed, for <persName type="publisher">the good of all free-men, who desire to maintaine their owne priviledges</persName> in <placeName>their calling</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>in the yeare, 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "7ber 15".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the good of all free-men, who desire to maintaine their owne priviledges</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their calling</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

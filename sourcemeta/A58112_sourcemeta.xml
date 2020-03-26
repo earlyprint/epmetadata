@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tempora mutantur A treatise, theological, moral, and historical. Representing (as in a scene) the vicissitudes of humane things, with their causes and uses. Fitted for the establishing mans soul unchangeable in the faith, amidst the various changes of the world. By J.R. Master of Arts.</title>
-         <author>Robinson, John, Preacher at East-Thorpe.</author>
-      </titleStmt>
-      <extent>[8], 98 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Tho. Rooks at the Lamb and Ink-bottle at the West end of S. Paul's near S. Austin's gate, where also is made and sold the best ink for deeds and records,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>J.R. = John Robinson.</note>
-         <note>Running title: The birth of a day, or, a treatise of vicissitude.</note>
-         <note>Reproduction of the original at the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tempora mutantur A treatise, theological, moral, and historical. Representing (as in a scene) the vicissitudes of humane things, with their causes and uses. Fitted for the establishing mans soul unchangeable in the faith, amidst the various changes of the world. By J.R. Master of Arts.</title>
+      <author>Robinson, John, Preacher at East-Thorpe.</author>
+    </titleStmt>
+    <extent>[8], 98 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Tho. Rooks</persName> at <placeName>the Lamb</placeName> and Ink-bottle at <placeName>the West end of S. Paul's near S. Austin's gate, where also is made</placeName> and sold the best ink for <persName type="publisher">deeds and records</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>J.R. = John Robinson.</note>
+      <note>Running title: The birth of a day, or, a treatise of vicissitude.</note>
+      <note>Reproduction of the original at the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Rooks</persName>
+    </person>
+    <person type="publisher">
+      <persName>deeds and records</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Lamb</placeName>
+    </place>
+    <place type="location">
+      <placeName>the West end of S. Paul's near S. Austin's gate, where also is made</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

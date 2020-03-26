@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Æsop at Epsom, or, A few select fables in verse by a cit.</title>
-         <author>Cit.</author>
-      </titleStmt>
-      <extent>[7], 29 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for, and sold by John Nut ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>&#198;sop at Epsom, or, A few select fables in verse by a cit.</title>
+      <author>Cit.</author>
+    </titleStmt>
+    <extent>[7], 29 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for, and sold by <persName type="bookseller">John Nut</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Nut</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Amorous gallant</title>
-      </titleStmt>
-      <extent>1 broadside : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. Vere and I. Wright,</publisher>
-         <pubPlace>[S.l.] :</pubPlace>
-         <date>[1655?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To a pleasant new tune called Jenny's delight."</note>
-         <note>Date suggested by Wing.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Amorous gallant</title>
+    </titleStmt>
+    <extent>1 broadside : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Vere</persName> and <persName type="publisher">I. Wright</persName>,</publisher>
+      <pubPlace>[S.l.] :</pubPlace>
+      <date>[1655?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To a pleasant new tune called Jenny's delight."</note>
+      <note>Date suggested by Wing.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>I. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Vere</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

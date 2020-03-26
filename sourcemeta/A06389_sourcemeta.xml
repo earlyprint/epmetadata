@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The scornful ladie A comedie. As it was acted (with great applause) by the Children of Her Maiesties Reuels in the Blacke Fryers. Written byFra. Beaumont and Io. Fletcher, Gent.</title>
-         <author>Beaumont, Francis, 1584-1616.</author>
-         <author>Fletcher, John, 1579-1625. aut</author>
-      </titleStmt>
-      <extent>[70] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by J. Beale] for Myles Partritch, are to be sold at his shop at the George neere St. Dunstons Church in Fleet-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC (Greg has Richard Bradock).</note>
-         <note>Signatures: A²  B-I⁴ K²  (-A1).</note>
-         <note>Most running titles read: The scornefull ladie.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The scornful ladie A comedie. As it was acted (with great applause) by the Children of Her Maiesties Reuels in the Blacke Fryers. Written byFra. Beaumont and Io. Fletcher, Gent.</title>
+      <author>Beaumont, Francis, 1584-1616.</author>
+      <author>Fletcher, John, 1579-1625. aut</author>
+    </titleStmt>
+    <extent>[70] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">J. Beale]</persName> for <persName type="publisher">Myles Partritch</persName>, are to be sold at <placeName>his shop at the George neere St. Dunstons Church in Fleet-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC (Greg has Richard Bradock).</note>
+      <note>Signatures: A&#178;  B-I&#8308; K&#178;  (-A1).</note>
+      <note>Most running titles read: The scornefull ladie.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Myles Partritch</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Beale]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the George neere St. Dunstons Church in Fleet-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

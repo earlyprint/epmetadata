@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Letter to Mr. Robert Bridgman, George Keith's trophy, in answer  to his reasons for leaving the Quaqers [sic]</title>
-      </titleStmt>
-      <extent>15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by the Booksellers of London and Westminster,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: torn, with print show-through and loss of text.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Letter to Mr. Robert Bridgman, George Keith's trophy, in answer  to his reasons for leaving the Quaqers [sic]</title>
+    </titleStmt>
+    <extent>15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller">the Booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: torn, with print show-through and loss of text.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the Booksellers of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

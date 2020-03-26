@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for securing the peace of the kingdom</title>
-         <author>England and Wales. Laws, statutes, etc.</author>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
-      </titleStmt>
-      <extent>3 p. .   </extent>
-      <publicationStmt>
-         <publisher>Reprinted by B. Tooke and J. Crooke, and are to be sold by M. Crooke and A. Crooke,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title vignette: royal coat of arms.</note>
-         <note>Imprint from colophon.</note>
-         <note>Text in black letter.</note>
-         <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for securing the peace of the kingdom</title>
+      <author>England and Wales. Laws, statutes, etc.</author>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
+    </titleStmt>
+    <extent>3 p. .   </extent>
+    <publicationStmt>
+      <publisher>Reprinted by <persName type="printer">B. Tooke</persName> and <persName type="printer">J. Crooke</persName>, and are to be sold by <persName type="bookseller">M. Crooke</persName> and <persName type="bookseller">A. Crooke</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title vignette: royal coat of arms.</note>
+      <note>Imprint from colophon.</note>
+      <note>Text in black letter.</note>
+      <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Crooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>M. Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Crooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

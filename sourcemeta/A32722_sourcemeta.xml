@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached by the late eminent Mr. Steph. Charnock on 2 Cor. V. XIX.</title>
-         <author>Charnock, Stephen, 1628-1680.</author>
-      </titleStmt>
-      <extent>[2], 5-38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Milbourn, for J.K., and are to be sold by Langley Curtis ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached by the late eminent Mr. Steph. Charnock on 2 Cor. V. XIX.</title>
+      <author>Charnock, Stephen, 1628-1680.</author>
+    </titleStmt>
+    <extent>[2], 5-38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Milbourn</persName>, for <persName type="publisher">J.K.</persName>, and are to be sold by <persName type="bookseller">Langley Curtis</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Langley Curtis</persName>
+    </person>
+    <person type="publisher">
+      <persName>J.K.</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Milbourn</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

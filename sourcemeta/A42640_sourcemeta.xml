@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of mortalitie preached at the funerals of Mr. Thomas Man at Kingston in Svrrey Feb. XXI, 1649.</title>
-         <author>R. G.</author>
-      </titleStmt>
-      <extent>[8], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Constable, for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: R.G.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of mortalitie preached at the funerals of Mr. Thomas Man at Kingston in Svrrey Feb. XXI, 1649.</title>
+      <author>R. G.</author>
+    </titleStmt>
+    <extent>[8], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Constable</persName>, for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: R.G.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Constable</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

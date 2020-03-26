@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe collection of the church, and of certayne ceremonies thereof gathered by Thomas Sampson</title>
-         <author>Sampson, Thomas, 1517?-1589.</author>
-      </titleStmt>
-      <extent>78 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Middleton for George Bishop,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>Anno 1581.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some pages marked; some print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe collection of the church, and of certayne ceremonies thereof gathered by Thomas Sampson</title>
+      <author>Sampson, Thomas, 1517?-1589.</author>
+    </titleStmt>
+    <extent>78 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Middleton</persName> for <persName type="publisher">George Bishop</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>Anno 1581.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some pages marked; some print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Bishop</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Middleton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

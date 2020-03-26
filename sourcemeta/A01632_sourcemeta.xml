@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ornament of women. Or, A description of the true excellency of women Delivered in a sermon at the funerall of M. Elizabeth Machell, on Easter Munday being the 15. of April 1639. By Stephen Geree, minister of Gods Word at Wonnersh, neare Guildford in Surrey.</title>
-         <author>Geree, Stephen, 1594-1656?</author>
-      </titleStmt>
-      <extent>[34], 95, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. B[adger] for L. F[awne] and S. G[ellibrand] and are to be sold at the signe of the Brazen Serpent, in Pauls Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publishers' names from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ornament of women. Or, A description of the true excellency of women Delivered in a sermon at the funerall of M. Elizabeth Machell, on Easter Munday being the 15. of April 1639. By Stephen Geree, minister of Gods Word at Wonnersh, neare Guildford in Surrey.</title>
+      <author>Geree, Stephen, 1594-1656?</author>
+    </titleStmt>
+    <extent>[34], 95, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. B[adger]</persName> for <persName type="publisher">L. F[awne]</persName> and <persName type="publisher">S. G[ellibrand]</persName> and are to be sold at <placeName>the signe of the Brazen Serpent, in Pauls Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publishers' names from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. F[awne]</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. G[ellibrand]</persName>
+    </person>
+    <person type="printer">
+      <persName>T. B[adger]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Brazen Serpent, in Pauls Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

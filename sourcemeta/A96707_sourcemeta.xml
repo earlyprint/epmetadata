@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Spicilegium, or, A glean of mixtling by John Winter, minister of East Dearham in Norfolke.</title>
-         <author>Winter, John, 1621?-1698?</author>
-      </titleStmt>
-      <extent>[4], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. and are to be sold by Joseph Cranford  ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained.</note>
-         <note>Reproduction of original in: Sion College Library (London, England).</note>
-         <note>Includes bibliographical references in marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Spicilegium, or, A glean of mixtling by John Winter, minister of East Dearham in Norfolke.</title>
+      <author>Winter, John, 1621?-1698?</author>
+    </titleStmt>
+    <extent>[4], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> and are to be sold by <persName type="bookseller">Joseph Cranford </persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained.</note>
+      <note>Reproduction of original in: Sion College Library (London, England).</note>
+      <note>Includes bibliographical references in marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Joseph Cranford </persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

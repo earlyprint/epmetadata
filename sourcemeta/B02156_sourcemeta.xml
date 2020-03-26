@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Articles given by [blank] and delivered to the church-wardens to be considered and answered in his visitation holden in the year of our Lord God [blank].</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for George Daws, over against Lincolns Inn Gate in Chancery Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.LXXI [i.e. 1671]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Bracketed blank areas in title were to be filled in by the presiding bishop.</note>
-         <note>First blank area filled in illegibly; date filled in as: 1671.</note>
-         <note>Reproduction of the original in the Eton College Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Articles given by [blank] and delivered to the church-wardens to be considered and answered in his visitation holden in the year of our Lord God [blank].</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">George Daws, over against Lincolns Inn Gate</persName> in <placeName>Chancery Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.LXXI [i.e. 1671]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Bracketed blank areas in title were to be filled in by the presiding bishop.</note>
+      <note>First blank area filled in illegibly; date filled in as: 1671.</note>
+      <note>Reproduction of the original in the Eton College Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Daws, over against Lincolns Inn Gate</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Chancery Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

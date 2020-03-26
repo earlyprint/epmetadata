@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At Edinburgh the 13. day of September. 1644. Act of the Committee of Estates, and the Lord Generall, the safe-guard of the lieges.</title>
-         <author>Scotland. Parliament. Committee of Estates.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, printer to the Kings most Excellent Majestie,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno Dom. 1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At Edinburgh the 13. day of September. 1644. Act of the Committee of Estates, and the Lord Generall, the safe-guard of the lieges.</title>
+      <author>Scotland. Parliament. Committee of Estates.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the Kings most Excellent Majestie</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno Dom. 1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

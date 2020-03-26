@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The valiant VVelshman, or The true chronicle history of the life and valiant deedes of Caradoc the Great, King of Cambria, now called Wales As it hath beene sundry times acted by the Prince of Wales his seruants. Written by R.A. Gent.</title>
-         <title>Valiant Welshman.</title>
-         <author>R. A., Gent.</author>
-         <author>Armin, Robert, fl. 1610, attributed name.</author>
-         <author>Anton, Robert, b. 1584 or 5, attributed name.</author>
-         <author>Aylett, Robert, 1583-1655?, attributed name.</author>
-      </titleStmt>
-      <extent>[72] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Imprinted by George Purslowe for Robert Lownes, and are to be solde at his shoppe at the little north dore of Paules,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes attributed to Robert Armin, to Robert Anton or Robert Aylett.</note>
-         <note>Partly in verse.</note>
-         <note>Signatures: A-I⁴.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The valiant VVelshman, or The true chronicle history of the life and valiant deedes of Caradoc the Great, King of Cambria, now called Wales As it hath beene sundry times acted by the Prince of Wales his seruants. Written by R.A. Gent.</title>
+      <title>Valiant Welshman.</title>
+      <author>R. A., Gent.</author>
+      <author>Armin, Robert, fl. 1610, attributed name.</author>
+      <author>Anton, Robert, b. 1584 or 5, attributed name.</author>
+      <author>Aylett, Robert, 1583-1655?, attributed name.</author>
+    </titleStmt>
+    <extent>[72] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">George Purslowe</persName> for <persName type="publisher">Robert Lownes</persName>, and are to be solde at <placeName>his shoppe at the little north dore of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes attributed to Robert Armin, to Robert Anton or Robert Aylett.</note>
+      <note>Partly in verse.</note>
+      <note>Signatures: A-I&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe at the little north dore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, offering a reward to such as shall discover and apprehend any of these persons guilty of a late horrid villany and assasination made upon the Tovvn Major of Edinburgh, and others</title>
-         <title>Proclamations. 1679-03-12</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, printer to his most sacred Majesty,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date>1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given under our signet at Edinburgh, the 12. day of March, 1679, and of our reign the threttieth [sic] one year.</note>
-         <note>Steele notation: Arms 232  and ers day.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, offering a reward to such as shall discover and apprehend any of these persons guilty of a late horrid villany and assasination made upon the Tovvn Major of Edinburgh, and others</title>
+      <title>Proclamations. 1679-03-12</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date>1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given under our signet at Edinburgh, the 12. day of March, 1679, and of our reign the threttieth [sic] one year.</note>
+      <note>Steele notation: Arms 232  and ers day.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

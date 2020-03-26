@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached on Munday, the seauenteenth of March, at Westminster at the opening of the Parliament. By the Bishop of Bathe and Welles.</title>
-         <author>Laud, William, 1573-1645.</author>
-      </titleStmt>
-      <extent>[2], 45, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by B. Norton and J. Bill] for Richard Badger,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The Bishop of Bathe and Welles = William Laud.</note>
-         <note>Printers' names from STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached on Munday, the seauenteenth of March, at Westminster at the opening of the Parliament. By the Bishop of Bathe and Welles.</title>
+      <author>Laud, William, 1573-1645.</author>
+    </titleStmt>
+    <extent>[2], 45, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">B. Norton</persName> and <persName type="printer">J. Bill]</persName> for <persName type="publisher">Richard Badger</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The Bishop of Bathe and Welles = William Laud.</note>
+      <note>Printers' names from STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Badger</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Bill]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

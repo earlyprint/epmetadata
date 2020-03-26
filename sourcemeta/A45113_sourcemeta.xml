@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The balm of Gilead, or, Comforts for the distressed, both morall and divine most fit for these woful times / by Jos. Hall.</title>
-         <author>Hall, Joseph, 1574-1656.</author>
-      </titleStmt>
-      <extent>[32], 396 p., 1 leaf of plates : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Newcomb, and are to be sold by John Holden ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The balm of Gilead, or, Comforts for the distressed, both morall and divine most fit for these woful times / by Jos. Hall.</title>
+      <author>Hall, Joseph, 1574-1656.</author>
+    </titleStmt>
+    <extent>[32], 396 p., 1 leaf of plates : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Newcomb</persName>, and are to be sold by <persName type="bookseller">John Holden</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Holden</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

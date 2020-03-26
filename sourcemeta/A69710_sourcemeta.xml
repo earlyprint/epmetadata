@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties message to the House of Commons concerning an order made by them for the borrowing of one hundered [sic] thousand pounds of the adventurers money for Ireland together with the answer of the House of Commons in Parliament thereunto.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Luke Norton and John Field for E. Husband and J. Franck ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>September 5, 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing C2477 and C2478 differ only in date on t.p. C2477 (732:33) has date "September 6", C2478 (247:E115, no. 16) has date: "September 5".</note>
-         <note>Reproduction of original in Thomason Collection, British Library, and Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties message to the House of Commons concerning an order made by them for the borrowing of one hundered [sic] thousand pounds of the adventurers money for Ireland together with the answer of the House of Commons in Parliament thereunto.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Luke Norton</persName> and <persName type="printer">John Field</persName> for <persName type="publisher">E. Husband</persName> and <persName type="publisher">J. Franck</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>September 5, 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing C2477 and C2478 differ only in date on t.p. C2477 (732:33) has date "September 6", C2478 (247:E115, no. 16) has date: "September 5".</note>
+      <note>Reproduction of original in Thomason Collection, British Library, and Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Husband</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Franck</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="printer">
+      <persName>Luke Norton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

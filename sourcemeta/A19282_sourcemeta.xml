@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The blessing of Iapheth prouing the gathering in of the Gentiles, and finall conuersion of the Iewes. Expressed in diuers profitable sermons. By Thomas Cooper.</title>
-         <author>Cooper, Thomas, 1517?-1594.</author>
-      </titleStmt>
-      <extent>[8], 63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. C[reede] for Richard Redmer, and are to be solde at the West ende of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The blessing of Iapheth prouing the gathering in of the Gentiles, and finall conuersion of the Iewes. Expressed in diuers profitable sermons. By Thomas Cooper.</title>
+      <author>Cooper, Thomas, 1517?-1594.</author>
+    </titleStmt>
+    <extent>[8], 63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. C[reede]</persName> for <persName type="publisher">Richard Redmer</persName>, and are to be solde at <placeName>the West ende of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Redmer</persName>
+    </person>
+    <person type="printer">
+      <persName>T. C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the West ende of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

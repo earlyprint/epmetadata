@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The VVonder of our times: being a true and exact relation of the body of a mighty giant dig'd up at Brockford Bridge neer Ipswich in Suffolk, this present November 1651. his height 10, foot. his head as big as half a bushell; with a description of severall parts of his body, and manner of his interring. Certified in a letter from a gentleman in the country, to his brother (a merchant) in London.</title>
-         <author>I. G.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Austin, for W. Ley, at Paul's Chain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed and dated at end: I. G. Novemb 3. 1651.</note>
-         <note>Annotation on Thomason copy: "Nouemb. 18".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The VVonder of our times: being a true and exact relation of the body of a mighty giant dig'd up at Brockford Bridge neer Ipswich in Suffolk, this present November 1651. his height 10, foot. his head as big as half a bushell; with a description of severall parts of his body, and manner of his interring. Certified in a letter from a gentleman in the country, to his brother (a merchant) in London.</title>
+      <author>I. G.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Austin</persName>, for <persName type="publisher">W. Ley</persName>, at <placeName>Paul's Chain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed and dated at end: I. G. Novemb 3. 1651.</note>
+      <note>Annotation on Thomason copy: "Nouemb. 18".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Ley</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Austin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paul's Chain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

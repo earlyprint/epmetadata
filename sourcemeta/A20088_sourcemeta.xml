@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A tragi-comedy: called, Match mee in London As it hath beene often presented; first, at the Bull in St. Iohns-street; and lately, at the Priuate-House in Drury-Lane, called the Phœnix Written by Tho: Dekker.</title>
-         <title>Match mee in London</title>
-         <author>Dekker, Thomas, ca. 1572-1632.</author>
-      </titleStmt>
-      <extent>[4], 76 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B. Alsop and T. Favvcet, for H. Seile, at the Tygers-head in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Running title reads: Match me in London.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A tragi-comedy: called, Match mee in London As it hath beene often presented; first, at the Bull in St. Iohns-street; and lately, at the Priuate-House in Drury-Lane, called the Ph&#339;nix Written by Tho: Dekker.</title>
+      <title>Match mee in London</title>
+      <author>Dekker, Thomas, ca. 1572-1632.</author>
+    </titleStmt>
+    <extent>[4], 76 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B. Alsop</persName> and <persName type="printer">T. Favvcet</persName>, for <persName type="publisher">H. Seile</persName>, at <placeName>the Tygers-head in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Running title reads: Match me in London.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Favvcet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Tygers-head in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

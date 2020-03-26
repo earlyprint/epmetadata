@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The petition of the Roman Catholicks to the Rump-Parliament published by the care of M.M., for general satisfaction.</title>
-         <author>M. M.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.N. for James Collins ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The petition of the Roman Catholicks to the Rump-Parliament published by the care of M.M., for general satisfaction.</title>
+      <author>M. M.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.N.</persName> for <persName type="publisher">James Collins</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>T.N.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

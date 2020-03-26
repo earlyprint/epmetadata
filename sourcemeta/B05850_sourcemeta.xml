@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mother Shiptons prophesies: with three and XX. more, all most terrible and wonderfull, predicting strange alterations to befall this climate of England. Viz. 1. Of K. Richard the III ... 23. A prophesie of David, Cardinall of France, &amp;c.</title>
-         <author>Shipton, Mother (Ursula)</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. P. for Fr. Coles and are to besold [sic] at his shop at the signe of the Lambe in the Old-Baily, neare the Sessions house,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a woodcut of Mother Shipton, Cardinal Wolsey, King Henry VIII and Mr. Saltmarsh on the title page.</note>
-         <note>Imperfect: cropped, torn, and tightly bound with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mother Shiptons prophesies: with three and XX. more, all most terrible and wonderfull, predicting strange alterations to befall this climate of England. Viz. 1. Of K. Richard the III ... 23. A prophesie of David, Cardinall of France, &amp;c.</title>
+      <author>Shipton, Mother (Ursula)</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. P.</persName> for <persName type="publisher">Fr. Coles</persName> and are to besold [sic] at <placeName>his shop at the signe of the Lambe in the Old-Baily, neare the Sessions house</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a woodcut of Mother Shipton, Cardinal Wolsey, King Henry VIII and Mr. Saltmarsh on the title page.</note>
+      <note>Imperfect: cropped, torn, and tightly bound with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fr. Coles</persName>
+    </person>
+    <person type="printer">
+      <persName>T. P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Lambe in the Old-Baily, neare the Sessions house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

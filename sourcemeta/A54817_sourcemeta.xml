@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Physicall directions in time of plague Printed by command from the Lords of Councell.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Lincoln College Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Physicall directions in time of plague Printed by command from the Lords of Councell.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Lincoln College Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

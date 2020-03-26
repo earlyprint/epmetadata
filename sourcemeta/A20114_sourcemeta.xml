@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A libell of Spanish lies found at the sacke of Cales, discoursing the fight in the West Indies, twixt the English nauie being fourteene ships and pinasses, and a fleete of twentie saile of the king of Spaines, and of the death of Sir Francis Drake. With an answere briefely confuting the Spanish lies, and a short relation of the fight according to truth, written by Henrie Sauile Esquire, employed captaine in one of her Maiesties shippes, in the same seruice against the Spaniard. And also an approbation of this discourse, by Sir Thomas Baskeruile, then generall of the English fleete in that seruice: auowing the maintenance thereof, personally in armes against Don Bernaldino ...</title>
-         <author>Savile, Henry, Captain.</author>
-         <author>Delgadillo de Avellaneda, Bernaldino.</author>
-      </titleStmt>
-      <extent>[8], 7, [1], 8-47 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Windet, dwelling by Paules Wharfe at the signe of the Crosse Keyes, and are there to be solde,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The "libell" is a letter by Bernaldino Delgadillo de Avellaneda, printed in Spanish and English.</note>
-         <note>The first leaf is blank except for signature-mark "A".</note>
-         <note>From p. 8 on, even numbers are on rectos.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A libell of Spanish lies found at the sacke of Cales, discoursing the fight in the West Indies, twixt the English nauie being fourteene ships and pinasses, and a fleete of twentie saile of the king of Spaines, and of the death of Sir Francis Drake. With an answere briefely confuting the Spanish lies, and a short relation of the fight according to truth, written by Henrie Sauile Esquire, employed captaine in one of her Maiesties shippes, in the same seruice against the Spaniard. And also an approbation of this discourse, by Sir Thomas Baskeruile, then generall of the English fleete in that seruice: auowing the maintenance thereof, personally in armes against Don Bernaldino ...</title>
+      <author>Savile, Henry, Captain.</author>
+      <author>Delgadillo de Avellaneda, Bernaldino.</author>
+    </titleStmt>
+    <extent>[8], 7, [1], 8-47 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Windet</persName>, dwelling by <persName type="printer">Paules Wharfe</persName> at <placeName>the signe of the Crosse Keyes</placeName>, and are there to be solde,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The "libell" is a letter by Bernaldino Delgadillo de Avellaneda, printed in Spanish and English.</note>
+      <note>The first leaf is blank except for signature-mark "A".</note>
+      <note>From p. 8 on, even numbers are on rectos.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Windet</persName>
+    </person>
+    <person type="printer">
+      <persName>Paules Wharfe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crosse Keyes</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

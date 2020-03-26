@@ -1,23 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fruitfull commentarie vpon the twelue small prophets briefe, plaine, and easie, going ouer the same verse by verse, and shewing every where the method, points of doctrine, and figures of rhetoricke, to the no small profit of all godly and well disposed readers, with very necessarie fore-notes for the vnderstanding of both of these, and also all other the prophets. The text of these prophets together with that of the quotations omitted by the author, faithfully supplied by the translatour, and purged of faults in the Latine coppie almost innumerable, with a table of all the chiefe matters herein handled, and marginall notes very plentifull and profitable; so that it may in manner be counted a new booke in regard of these additions. VVritten in Latin by Lambertus Danæus, and newly turned into English by Iohn Stockwood minister and preacher at Tunbridge.</title>
-         <title>Commentarii in prophetas minores. English.</title>
-         <author>Daneau, Lambert, ca. 1530-1595?</author>
-         <author>Stockwood, John, d. 1610.</author>
-      </titleStmt>
-      <extent>[14], 75, 78-107, 178-216, 201-1136, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Legate, printer to the Vniversitie of Cambridge [and at London, by J. Orwin] 1594. And are to be sold [by R. Bankworth] at the signe of the Sunne in Paules Church-yard in London,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date>[1594]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Commentarii in prophetas minores.</note>
-         <note>"Legat pr[inted]. quires [par.], A-I; Orwin the rest"--STC.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fruitfull commentarie vpon the twelue small prophets briefe, plaine, and easie, going ouer the same verse by verse, and shewing every where the method, points of doctrine, and figures of rhetoricke, to the no small profit of all godly and well disposed readers, with very necessarie fore-notes for the vnderstanding of both of these, and also all other the prophets. The text of these prophets together with that of the quotations omitted by the author, faithfully supplied by the translatour, and purged of faults in the Latine coppie almost innumerable, with a table of all the chiefe matters herein handled, and marginall notes very plentifull and profitable; so that it may in manner be counted a new booke in regard of these additions. VVritten in Latin by Lambertus Dan&#230;us, and newly turned into English by Iohn Stockwood minister and preacher at Tunbridge.</title>
+      <title>Commentarii in prophetas minores. English.</title>
+      <author>Daneau, Lambert, ca. 1530-1595?</author>
+      <author>Stockwood, John, d. 1610.</author>
+    </titleStmt>
+    <extent>[14], 75, 78-107, 178-216, 201-1136, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legate</persName>, printer to <persName type="patron">the Vniversitie of Cambridge [and</persName> at <placeName>London</placeName>, by <persName type="printer">J. Orwin] 1594. And</persName> are to be sold [by <persName type="bookseller">R. Bankworth]</persName> at the signe of the Sunne in Paules Church-yard in <placeName>London</placeName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date>[1594]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Commentarii in prophetas minores.</note>
+      <note>"Legat pr[inted]. quires [par.], A-I; Orwin the rest"--STC.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversitie of Cambridge [and</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Bankworth]</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Legate</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Orwin] 1594. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Sunne in Paules Church-yard in London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

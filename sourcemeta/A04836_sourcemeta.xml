@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of deliuerance Preached at the Spittle on Easter Monday, 1626. Vpon entreatie of the Lord Maior and aldermen. Published by authoritie. And dedicated to the Citie of London. By Henry King D.D. one of his Maiesties chaplaines in ordinarie.</title>
-         <author>King, Henry, 1592-1669.</author>
-      </titleStmt>
-      <extent>[2], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Hauiland, for Iohn Marriot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of deliuerance Preached at the Spittle on Easter Monday, 1626. Vpon entreatie of the Lord Maior and aldermen. Published by authoritie. And dedicated to the Citie of London. By Henry King D.D. one of his Maiesties chaplaines in ordinarie.</title>
+      <author>King, Henry, 1592-1669.</author>
+    </titleStmt>
+    <extent>[2], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Hauiland</persName>, for <persName type="publisher">Iohn Marriot</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Marriot</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Hauiland</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

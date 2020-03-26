@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A panegyrick of the most renowned and serene Princess Christina, by the grace of God, Queene of Swedland, Goths and Vandals. / Written originally in French, by the learned pen of Mr. de Harst, and now translated into English by W.L. Gent.</title>
-         <author>De Harst, Mr.</author>
-      </titleStmt>
-      <extent>[16], 75; 5 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Dring, and are to be sold at his shop at the signe of the George in Fleet-street, near Cliffords-Inne,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Original untraced.</note>
-         <note>The final 5 p. have even numbered rectos.</note>
-         <note>Annotation on Thomason copy: "8ber [i.e. October] 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A panegyrick of the most renowned and serene Princess Christina, by the grace of God, Queene of Swedland, Goths and Vandals. / Written originally in French, by the learned pen of Mr. de Harst, and now translated into English by W.L. Gent.</title>
+      <author>De Harst, Mr.</author>
+    </titleStmt>
+    <extent>[16], 75; 5 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Dring</persName>, and are to be sold at <placeName>his shop at the signe of the George in Fleet-street, near Cliffords-Inne</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Original untraced.</note>
+      <note>The final 5 p. have even numbered rectos.</note>
+      <note>Annotation on Thomason copy: "8ber [i.e. October] 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Dring</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the George in Fleet-street, near Cliffords-Inne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

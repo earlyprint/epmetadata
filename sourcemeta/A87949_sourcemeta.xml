@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from General Blakes fleet with the particulars of the great and bloody fight with the Dutch, neer Goodwin Sands, on Tuesday night last. And the pursuit of the Hollanders by the English then and since. Also the particulars of the losse on both sides.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Ibbitson dwelling in Smithfield neer Hosier Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Octob. 5.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from General Blakes fleet with the particulars of the great and bloody fight with the Dutch, neer Goodwin Sands, on Tuesday night last. And the pursuit of the Hollanders by the English then and since. Also the particulars of the losse on both sides.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Ibbitson</persName> dwelling in <placeName>Smithfield neer Hosier Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Octob. 5.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfield neer Hosier Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Absaloms funerall: preached at Banbyrie by a neighbour minister. Or, The lamentation of a louing father for a rebellious child</title>
-         <author>Harris, Robert, 1581-1658.</author>
-      </titleStmt>
-      <extent>[6], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Hall for Thomas Man,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1610.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Robert Harris.</note>
-         <note>On 2 Samuel XVIII, 33.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Absaloms funerall: preached at Banbyrie by a neighbour minister. Or, The lamentation of a louing father for a rebellious child</title>
+      <author>Harris, Robert, 1581-1658.</author>
+    </titleStmt>
+    <extent>[6], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Hall</persName> for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1610.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Robert Harris.</note>
+      <note>On 2 Samuel XVIII, 33.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>William Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

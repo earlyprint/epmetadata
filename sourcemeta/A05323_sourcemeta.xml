@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Innes of Court anagrammatist: or, The masquers masqued in anagrammes Expressed in epigramique lines, upon their severall names, set downe in the next page. Composed by Francis Lenton Gent. one of her Majesties poets.</title>
-         <author>Lenton, Francis, fl. 1630-1640.</author>
-      </titleStmt>
-      <extent>[46] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Harper] for William Lashe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F⁴ (-F4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Innes of Court anagrammatist: or, The masquers masqued in anagrammes Expressed in epigramique lines, upon their severall names, set downe in the next page. Composed by Francis Lenton Gent. one of her Majesties poets.</title>
+      <author>Lenton, Francis, fl. 1630-1640.</author>
+    </titleStmt>
+    <extent>[46] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Harper]</persName> for <persName type="publisher">William Lashe</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#8308; (-F4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Lashe</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Harper]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

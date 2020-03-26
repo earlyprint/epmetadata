@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the supreme authority of the nation, the Parliament of the Common-Wealth of England. The humble petition of the Lord Mayor, aldermen, and commons of the City of London, in Common Councell assembled.</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 4, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, printer to the Honourable City of London.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes Parliament's answer, dated 2 Sept. 1653.</note>
-         <note>Annotation on Thomason copy: "Sept. 3:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the supreme authority of the nation, the Parliament of the Common-Wealth of England. The humble petition of the Lord Mayor, aldermen, and commons of the City of London, in Common Councell assembled.</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 4, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, printer to <persName type="patron">the Honourable City of London.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes Parliament's answer, dated 2 Sept. 1653.</note>
+      <note>Annotation on Thomason copy: "Sept. 3:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honourable City of London.</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

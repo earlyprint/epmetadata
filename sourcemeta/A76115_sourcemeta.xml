@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vvaters of Marah sweetned. A thanks-giving sermon. Preached at Taunton, in the county of Somerset, May 11. 1647. for the gracious deliverance of that poore towne from the strait and bloody siege. / By T.B. Master of Arts, and a minister of the gospel in that county.</title>
-         <author>Batt, Timothy, 1613-1692.</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Eglesfield, and are to be sold by George Treagle in Taunton,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.B. = Timothy Batt.</note>
-         <note>Annotation on Thomason copy: "March 25".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vvaters of Marah sweetned. A thanks-giving sermon. Preached at Taunton, in the county of Somerset, May 11. 1647. for the gracious deliverance of that poore towne from the strait and bloody siege. / By T.B. Master of Arts, and a minister of the gospel in that county.</title>
+      <author>Batt, Timothy, 1613-1692.</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Eglesfield</persName>, and are to be sold by <persName type="bookseller">George Treagle</persName> in <placeName>Taunton</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.B. = Timothy Batt.</note>
+      <note>Annotation on Thomason copy: "March 25".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>George Treagle</persName>
+    </person>
+    <person type="publisher">
+      <persName>Francis Eglesfield</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Taunton</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

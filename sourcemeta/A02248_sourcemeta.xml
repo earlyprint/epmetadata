@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The castell of laboure</title>
-         <author>Gringore, Pierre, ca. 1475-1538?</author>
-         <author>Bruyant, Jean, 14th cent.</author>
-         <author>Barclay, Alexander, 1475?-1552, attributed name.</author>
-      </titleStmt>
-      <extent>[104] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>In fletestrete in the sygne of the sonne, by Wynkyn de worde,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date>Anno d[omi]ni. M.CCCCC.vi. [1506]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation (attributed to Alexander Barclay) from the French original, which is based on Jean Bruyant's poem Le chemin de povreté et de richesse.</note>
-         <note>Imprint from colophon.</note>
-         <note>In verse.</note>
-         <note>Signatures: a-h·⁴ i⁴.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The castell of laboure</title>
+      <author>Gringore, Pierre, ca. 1475-1538?</author>
+      <author>Bruyant, Jean, 14th cent.</author>
+      <author>Barclay, Alexander, 1475?-1552, attributed name.</author>
+    </titleStmt>
+    <extent>[104] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>In fletestrete in <placeName>the sygne of the sonne</placeName>, by <persName type="printer">Wynkyn de worde</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>Anno d[omi]ni. M.CCCCC.vi. [1506]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation (attributed to Alexander Barclay) from the French original, which is based on Jean Bruyant's poem Le chemin de povret&#233; et de richesse.</note>
+      <note>Imprint from colophon.</note>
+      <note>In verse.</note>
+      <note>Signatures: a-h&#183;&#8308; i&#8308;.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

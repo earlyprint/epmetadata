@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dissvvasive from popery to the people of Ireland By Jeremy Lord Bishop of Dovvn.</title>
-         <author>Taylor, Jeremy, 1613-1667.</author>
-      </titleStmt>
-      <extent>[14], 173, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Crooke, printer to the Kings Most Excellent Majesty, and are to be sold by Samuel Dancer,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reading title: A dissuasive from popery.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dissvvasive from popery to the people of Ireland By Jeremy Lord Bishop of Dovvn.</title>
+      <author>Taylor, Jeremy, 1613-1667.</author>
+    </titleStmt>
+    <extent>[14], 173, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Crooke</persName>, printer to <persName type="patron">the Kings Most Excellent Majesty</persName>, and are to be sold by <persName type="bookseller">Samuel Dancer</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reading title: A dissuasive from popery.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

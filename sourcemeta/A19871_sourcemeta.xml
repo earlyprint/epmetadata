@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>One of the sermons preached at Westminster the fifth of Aprill, (being the day of the publike fast;) before the Right Honourable Lords of the High Court of Parliament, and set forth by their appointment. By the Bishop of Sarum.</title>
-         <author>Davenant, John, ca. 1572-1641.</author>
-      </titleStmt>
-      <extent>[2], 54 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by George Miller] for Richard Badger, and are to be sold by Iohn Stempe at his shop at the east end of S. Dunstans Church-yard in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On Jeremiah III, 22. The other sermon was preached by Joseph Hall (STC 12692).</note>
-         <note>Printer's name from STC.</note>
-         <note>A variant of the edition without bookseller's name in the imprint.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>One of the sermons preached at Westminster the fifth of Aprill, (being the day of the publike fast;) before the Right Honourable Lords of the High Court of Parliament, and set forth by their appointment. By the Bishop of Sarum.</title>
+      <author>Davenant, John, ca. 1572-1641.</author>
+    </titleStmt>
+    <extent>[2], 54 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">George Miller]</persName> for <persName type="publisher">Richard Badger</persName>, and are to be sold by <persName type="bookseller">Iohn Stempe</persName> at <placeName>his shop at the east end of S. Dunstans Church-yard in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On Jeremiah III, 22. The other sermon was preached by Joseph Hall (STC 12692).</note>
+      <note>Printer's name from STC.</note>
+      <note>A variant of the edition without bookseller's name in the imprint.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iohn Stempe</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Badger</persName>
+    </person>
+    <person type="printer">
+      <persName>George Miller]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the east end of S. Dunstans Church-yard in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

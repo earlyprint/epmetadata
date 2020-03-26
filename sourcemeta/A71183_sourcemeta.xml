@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A table to all the epistles and gospels in the Book of Common Prayer So that you may find any of them, when named by the minister, though you know not what Sunday it is. And also what texts of scripture are quoted, being contained in them. To be found in an alphabetical manner. This table may put in your Common Prayer book, without new binding, being so small a thing.</title>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Sam. Keble, at the Turks-Head in Fleet-street, over against Fetter-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Item is unsigned.</note>
-         <note>Copy tightly bound.</note>
-         <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A table to all the epistles and gospels in the Book of Common Prayer So that you may find any of them, when named by the minister, though you know not what Sunday it is. And also what texts of scripture are quoted, being contained in them. To be found in an alphabetical manner. This table may put in your Common Prayer book, without new binding, being so small a thing.</title>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Sam. Keble</persName>, at <placeName>the Turks-Head in Fleet-street, over against Fetter-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Item is unsigned.</note>
+      <note>Copy tightly bound.</note>
+      <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sam. Keble</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Turks-Head in Fleet-street, over against Fetter-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

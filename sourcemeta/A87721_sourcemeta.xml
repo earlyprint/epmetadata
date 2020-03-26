@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Seekers supplied, or Three and forty non-church queries by Scripture answered. Penned and publish't for the vindication of Christs commands, and edification and confirmation of his people. / By Thomas Killcop, servant to Christ Iesus, the King of Kings.</title>
-         <author>Killcop, Thomas.</author>
-      </titleStmt>
-      <extent>[4], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Paine for George Whittington, and are to be sold at his shop at the Blew Anchor in Corn-Hill neer the Royall Exchange.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nouemb: 2d".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Seekers supplied, or Three and forty non-church queries by Scripture answered. Penned and publish't for the vindication of Christs commands, and edification and confirmation of his people. / By Thomas Killcop, servant to Christ Iesus, the King of Kings.</title>
+      <author>Killcop, Thomas.</author>
+    </titleStmt>
+    <extent>[4], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Paine</persName> for <persName type="publisher">George Whittington</persName>, and are to be sold at <placeName>his shop at the Blew Anchor in Corn-Hill neer the Royall Exchange.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nouemb: 2d".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Whittington</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Blew Anchor in Corn-Hill neer the Royall Exchange.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

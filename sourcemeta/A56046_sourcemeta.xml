@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Proposals humbly offer'd to the consideration of this present Parliament Being a soft and easie way for the raising of money, in order to the perpetual maintaining and defending of this kingdom. Licensed, and entered according to order, 1689.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for W. Pardoe, in Westminster,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Proposals humbly offer'd to the consideration of this present Parliament Being a soft and easie way for the raising of money, in order to the perpetual maintaining and defending of this kingdom. Licensed, and entered according to order, 1689.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">W. Pardoe</persName>, in <placeName>Westminster</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Pardoe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Westminster</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

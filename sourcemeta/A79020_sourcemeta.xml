@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. His Majesties Proclamation forbidding the tendering or taking of a late Covenant, called, A solemne League and Covenant for Reformation, &amp;c.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>Oxford [i.e. London] :</pubPlace>
-         <date>1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Actual place of publication from Wing.</note>
-         <note>Dated at end: Given at Our Court at Oxford, this ninth day of October, in the nineteenth yeare of Our Reigne.</note>
-         <note>With engraving of royal seal at head of document.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. His Majesties Proclamation forbidding the tendering or taking of a late Covenant, called, A solemne League and Covenant for Reformation, &amp;c.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Oxford [i.e. London] :</pubPlace>
+      <date>1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Actual place of publication from Wing.</note>
+      <note>Dated at end: Given at Our Court at Oxford, this ninth day of October, in the nineteenth yeare of Our Reigne.</note>
+      <note>With engraving of royal seal at head of document.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

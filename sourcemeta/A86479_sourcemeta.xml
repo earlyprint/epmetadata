@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from Sr Matthew Hale, Kt. sometime Lord Chief Justice of England: to one of his sons, after his recovery from the small-pox</title>
-         <author>Hale, Matthew, Sir, 1609-1676.</author>
-      </titleStmt>
-      <extent>[2], 37, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. Playford, for W. Shrowsbery, at the sign of the Bible in Duke-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A letter from Sir M. Hale, to one of his sons.</note>
-         <note>Reproduction of original in the Columbia University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from Sr Matthew Hale, Kt. sometime Lord Chief Justice of England: to one of his sons, after his recovery from the small-pox</title>
+      <author>Hale, Matthew, Sir, 1609-1676.</author>
+    </titleStmt>
+    <extent>[2], 37, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. Playford</persName>, for <persName type="publisher">W. Shrowsbery</persName>, at <placeName>the sign of the Bible in Duke-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A letter from Sir M. Hale, to one of his sons.</note>
+      <note>Reproduction of original in the Columbia University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Shrowsbery</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Playford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Bible in Duke-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

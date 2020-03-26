@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Treasons by the laws of England</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Norton, for Robert Pawley at the Rain-Bow in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660. [i.e. 1661]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Actual publication date from Wing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Treasons by the laws of England</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Norton</persName>, for <persName type="publisher">Robert Pawley</persName> at <placeName>the Rain-Bow in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660. [i.e. 1661]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Actual publication date from Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Pawley</persName>
+    </person>
+    <person type="printer">
+      <persName>Roger Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Rain-Bow in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

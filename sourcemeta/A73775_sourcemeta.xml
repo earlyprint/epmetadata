@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[The dyenge creature]</title>
-         <title>Here begynneth a lytell treatyse of the dyenge creature.</title>
-      </titleStmt>
-      <extent>+[20] p.   </extent>
-      <publicationStmt>
-         <publisher>in Fletestrete at the sygne of ye sonne, by Wynkyn de Worde,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date>anno d[omi]ni. M.CCCCC.vii. [1507]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Title from STC.</note>
-         <note>Signatures: B⁶ C⁴.</note>
-         <note>Copy at reel 2060 bound and filmed following STC 6033.5.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[The dyenge creature]</title>
+      <title>Here begynneth a lytell treatyse of the dyenge creature.</title>
+    </titleStmt>
+    <extent>+[20] p.   </extent>
+    <publicationStmt>
+      <publisher>in <placeName>Fletestrete at the sygne of ye sonne</placeName>, by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>anno d[omi]ni. M.CCCCC.vii. [1507]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Title from STC.</note>
+      <note>Signatures: B&#8310; C&#8308;.</note>
+      <note>Copy at reel 2060 bound and filmed following STC 6033.5.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de Worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fletestrete at the sygne of ye sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

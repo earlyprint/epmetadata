@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A christall glasse of christian reformation wherein the godly maye beholde the coloured abuses vsed in this our present tyme. Collected by Stephen Bateman Minister.</title>
-         <author>Batman, Stephen, d. 1584.</author>
-      </titleStmt>
-      <extent>[168] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>By Iohn day dwelling ouer Aldersgate. Cum gratia et priuilegio Regia Maiestatis per decennium,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1569.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Epistle to the reader signed: Stephen Bateman Minister.</note>
-         <note>Signatures: A-X⁴ (-A4, blank).</note>
-         <note>Imperfect; lacks leaf A4 and quire I.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A christall glasse of christian reformation wherein the godly maye beholde the coloured abuses vsed in this our present tyme. Collected by Stephen Bateman Minister.</title>
+      <author>Batman, Stephen, d. 1584.</author>
+    </titleStmt>
+    <extent>[168] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Iohn day</persName> dwelling ouer Aldersgate. Cum gratia et priuilegio Regia Maiestatis per <persName type="printer">decennium</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1569.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Epistle to the reader signed: Stephen Bateman Minister.</note>
+      <note>Signatures: A-X&#8308; (-A4, blank).</note>
+      <note>Imperfect; lacks leaf A4 and quire I.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn day</persName>
+    </person>
+    <person type="printer">
+      <persName>decennium</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

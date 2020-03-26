@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached on the fast-day, November 13, 1678, at St. Margarets Westminster, before the Honourable House of Commons by Edward Stillingfleet ...</title>
-         <author>Stillingfleet, Edward, 1635-1699.</author>
-      </titleStmt>
-      <extent>[4], 52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Margaret White for Henry Mortlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A fast-sermon preached Nov. 13, before the House of Commons.</note>
-         <note>Reproduction of original in Duke University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached on the fast-day, November 13, 1678, at St. Margarets Westminster, before the Honourable House of Commons by Edward Stillingfleet ...</title>
+      <author>Stillingfleet, Edward, 1635-1699.</author>
+    </titleStmt>
+    <extent>[4], 52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Margaret White</persName> for <persName type="publisher">Henry Mortlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A fast-sermon preached Nov. 13, before the House of Commons.</note>
+      <note>Reproduction of original in Duke University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Mortlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Margaret White</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

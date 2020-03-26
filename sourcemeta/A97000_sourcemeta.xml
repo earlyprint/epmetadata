@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Serious observations lately made, touching his Majesty Charles the Second, King of England, Scotland,France &amp; Ireland. King Charles Stuart, in Hebrew thus: [Hebrew] translated into English, is thus, the King hath prepared a refreshing, hee hath crushed it out of the rock by degrees. Published to inform the people, per H. Walker. S.S.T.S.</title>
-         <author>Walker, Henry, Ironmonger.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for R.I. and are to bee sold by William Gilbertson at the Bible in Gilt-spur-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotations on Thomason copy: "Aug: 6"; following "Walker" in author statement: "Ironmonger".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Serious observations lately made, touching his Majesty Charles the Second, King of England, Scotland,France &amp; Ireland. King Charles Stuart, in Hebrew thus: [Hebrew] translated into English, is thus, the King hath prepared a refreshing, hee hath crushed it out of the rock by degrees. Published to inform the people, per H. Walker. S.S.T.S.</title>
+      <author>Walker, Henry, Ironmonger.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">R.I.</persName> and are to bee sold by <persName type="bookseller">William Gilbertson</persName> at <placeName>the Bible in Gilt-spur-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotations on Thomason copy: "Aug: 6"; following "Walker" in author statement: "Ironmonger".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Gilbertson</persName>
+    </person>
+    <person type="publisher">
+      <persName>R.I.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Gilt-spur-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

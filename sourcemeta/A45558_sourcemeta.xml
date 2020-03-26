@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The olive-branch presented to the native citizens of London in a sermon preached at S. Paul's Church, May 27, being the day of their yearly feast / by Nath. Hardy ...</title>
-         <author>Hardy, Nathaniel, 1618-1670.</author>
-      </titleStmt>
-      <extent>[6], 39 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. G. for John Clark ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. 39.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The olive-branch presented to the native citizens of London in a sermon preached at S. Paul's Church, May 27, being the day of their yearly feast / by Nath. Hardy ...</title>
+      <author>Hardy, Nathaniel, 1618-1670.</author>
+    </titleStmt>
+    <extent>[6], 39 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. G.</persName> for <persName type="publisher">John Clark</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. 39.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Clark</persName>
+    </person>
+    <person type="printer">
+      <persName>J. G.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Euthymiæ raptus; or The teares of peace with interlocutions. By Geo. Chapman.</title>
-         <author>Chapman, George, 1559?-1634.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H[umphrey] L[ownes] for Rich. Bonian, and H. Walley: and are to be solde at the spread-eagle, neere the great north-door of S. Pauls Church,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-E⁴ F² .</note>
-         <note>Running title reads: The teares of peace.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Euthymi&#230; raptus; or The teares of peace with interlocutions. By Geo. Chapman.</title>
+      <author>Chapman, George, 1559?-1634.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H[umphrey] L[ownes]</persName> for <persName type="publisher">Rich. Bonian</persName>, and <persName type="publisher">H. Walley:</persName> and are to be solde at <placeName>the spread-eagle, neere the great north-door of S. Pauls Church</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-E&#8308; F&#178; .</note>
+      <note>Running title reads: The teares of peace.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Walley:</persName>
+    </person>
+    <person type="publisher">
+      <persName>Rich. Bonian</persName>
+    </person>
+    <person type="printer">
+      <persName>H[umphrey] L[ownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the spread-eagle, neere the great north-door of S. Pauls Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

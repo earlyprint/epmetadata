@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Noble gallant, or, An Answer to long days of absence &amp;c. to a pleasant new tune called The German princesses farwell.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for I.H. and sold by F. Coles, T. Vere, I. Wright, and I. Clarke,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1660?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Caption title.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Noble gallant, or, An Answer to long days of absence &amp;c. to a pleasant new tune called The German princesses farwell.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">I.H.</persName> and sold by <persName type="bookseller">F. Coles</persName>, <persName type="bookseller">T. Vere</persName>, <persName type="bookseller">I. Wright</persName>, and <persName type="publisher">I. Clarke</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1660?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Caption title.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="bookseller">
+      <persName>I. Wright</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Vere</persName>
+    </person>
+    <person type="publisher">
+      <persName>I. Clarke</persName>
+    </person>
+    <person type="publisher">
+      <persName>I.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

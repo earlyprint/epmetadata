@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact narrative of every dayes proceedings since the insurrection in Essex. Together with a more perfect list of what persons are slain and taken by both parties, till the 18 of June present, 1648. Also the resolution of the Councell of War concerning the manner of punishing the prisoners they have taken in that county.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Bostock at the Kings Head in Pauls Church-yard,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>June 20 1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact narrative of every dayes proceedings since the insurrection in Essex. Together with a more perfect list of what persons are slain and taken by both parties, till the 18 of June present, 1648. Also the resolution of the Councell of War concerning the manner of punishing the prisoners they have taken in that county.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Bostock</persName> at <placeName>the Kings Head in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>June 20 1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

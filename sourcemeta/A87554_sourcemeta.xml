@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition of the Epistle of Jude, together with many large and useful deductions. Lately delivered in XL lectures in Christ-Church London, by William Jenkyn, Minister of the Gospel of Jesus Christ. The first part.</title>
-         <author>Jenkyn, William, 1613-1685.</author>
-      </titleStmt>
-      <extent>[8], 640 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Th. Maxey, for Samuell Gellibrand, at the golden Ball in Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes errata.</note>
-         <note>Annotation on Thomason copy: "St" above 'Jude'; "but not printed as it was preached" after 'The first part'; "May 13"; the imprint date has been altered to 1653.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition of the Epistle of Jude, together with many large and useful deductions. Lately delivered in XL lectures in Christ-Church London, by William Jenkyn, Minister of the Gospel of Jesus Christ. The first part.</title>
+      <author>Jenkyn, William, 1613-1685.</author>
+    </titleStmt>
+    <extent>[8], 640 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Th. Maxey</persName>, for <persName type="publisher">Samuell Gellibrand</persName>, at <placeName>the golden Ball in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes errata.</note>
+      <note>Annotation on Thomason copy: "St" above 'Jude'; "but not printed as it was preached" after 'The first part'; "May 13"; the imprint date has been altered to 1653.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuell Gellibrand</persName>
+    </person>
+    <person type="printer">
+      <persName>Th. Maxey</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the golden Ball in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

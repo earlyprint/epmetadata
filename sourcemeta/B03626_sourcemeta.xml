@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegy upon the most lamented death of the right reverend Dr. John Gauden late lord bishop of Worcester; who deceased on Friday, September 19th. 1662. in Worcester.</title>
-         <author>Heath, James, 1629-1664.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for W. Gilbertson at the Bible in Giltspur-street without Newgate,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1662</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: James Heath.</note>
-         <note>Verse: "Now deaths decrees seem'd to be out of date ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegy upon the most lamented death of the right reverend Dr. John Gauden late lord bishop of Worcester; who deceased on Friday, September 19th. 1662. in Worcester.</title>
+      <author>Heath, James, 1629-1664.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W. Gilbertson</persName> at <placeName>the Bible in Giltspur-street without Newgate</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1662</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: James Heath.</note>
+      <note>Verse: "Now deaths decrees seem'd to be out of date ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Gilbertson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Giltspur-street without Newgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christian's theorico-practicon: or, His whole duty consisting of knowledge and practice. Expressed in two sermons or discourses at S. Maryes in Oxon. By Robert Dyer, Mr. of Arts, late of Lincolne Colledge and Hart-hall in Oxon, now lecturer at the Devizes in Wiltshire.</title>
-         <author>Dyer, Robert, b. 1602 or 3.</author>
-      </titleStmt>
-      <extent>[10], 111, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by G. M[iller]. for Walter Hammond, and are to be sold by Henry Hammond bookseller in Salisbury,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title page is A2.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christian's theorico-practicon: or, His whole duty consisting of knowledge and practice. Expressed in two sermons or discourses at S. Maryes in Oxon. By Robert Dyer, Mr. of Arts, late of Lincolne Colledge and Hart-hall in Oxon, now lecturer at the Devizes in Wiltshire.</title>
+      <author>Dyer, Robert, b. 1602 or 3.</author>
+    </titleStmt>
+    <extent>[10], 111, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">G. M[iller].</persName> for <persName type="publisher">Walter Hammond</persName>, and are to be sold by <persName type="bookseller">Henry Hammond</persName> bookseller in <placeName>Salisbury</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title page is A2.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Henry Hammond</persName>
+    </person>
+    <person type="publisher">
+      <persName>Walter Hammond</persName>
+    </person>
+    <person type="printer">
+      <persName>G. M[iller].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Salisbury</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

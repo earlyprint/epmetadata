@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The shoemaker beyond his last, or, A satyr upon scurrilous poets especially Ned W----d, author of a poem intituled A journey to hell, or, A visit paid to the Devil.</title>
-         <author>Burridge, Richard, b. 1670.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for S. Cook and are to be sold by most booksellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: Pages stained and torn, with slight loss of print.</note>
-         <note>Attributed by Wing to Richard Burridge.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The shoemaker beyond his last, or, A satyr upon scurrilous poets especially Ned W----d, author of a poem intituled A journey to hell, or, A visit paid to the Devil.</title>
+      <author>Burridge, Richard, b. 1670.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">S. Cook</persName> and are to be sold by <persName type="bookseller">most booksellers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: Pages stained and torn, with slight loss of print.</note>
+      <note>Attributed by Wing to Richard Burridge.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>most booksellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Cook</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

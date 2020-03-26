@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The hearts ease, or A remedy against all troubles. To which is added a consolatory discourse against the loss of our friends and those that are dear unto us. / By Symon Patrick B.D. minister of Gods word at Batersea in Surrey.</title>
-         <author>Patrick, Simon, 1626-1707.</author>
-      </titleStmt>
-      <extent>[32], 221, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.W. for Francis Tyton at the three Daggers in Fleetstreet neer the Inner Temple-Gate,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1660. [i.e. 1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"A consolatory discourse to prevent immoderate grief for the death of our friends" has separate dated title page; register and pagination are continuous.</note>
-         <note>Annotation on Thomason copy: "Decemb 1659"; the 60 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The hearts ease, or A remedy against all troubles. To which is added a consolatory discourse against the loss of our friends and those that are dear unto us. / By Symon Patrick B.D. minister of Gods word at Batersea in Surrey.</title>
+      <author>Patrick, Simon, 1626-1707.</author>
+    </titleStmt>
+    <extent>[32], 221, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.W.</persName> for <persName type="publisher">Francis Tyton</persName> at <placeName>the three Daggers in Fleetstreet neer the Inner Temple-Gate</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1660. [i.e. 1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"A consolatory discourse to prevent immoderate grief for the death of our friends" has separate dated title page; register and pagination are continuous.</note>
+      <note>Annotation on Thomason copy: "Decemb 1659"; the 60 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Daggers in Fleetstreet neer the Inner Temple-Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

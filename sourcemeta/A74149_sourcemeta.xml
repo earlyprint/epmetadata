@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At a court held by the Right Honourable the Lord Mayor President, and the rest of the Governors of the Corporation for the Poor of London the 6th of February, 1655.</title>
-         <author>Governors for the Poor (London, England)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, Printer to the honourable city of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end: Signed by the Appointment of the said Corporation; by William Haslope Clerk to the said Corporation.</note>
-         <note>Annotation on Thomason copy: "feb. 7th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At a court held by the Right Honourable the Lord Mayor President, and the rest of the Governors of the Corporation for the Poor of London the 6th of February, 1655.</title>
+      <author>Governors for the Poor (London, England)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, Printer to <persName type="patron">the honourable city of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end: Signed by the Appointment of the said Corporation; by William Haslope Clerk to the said Corporation.</note>
+      <note>Annotation on Thomason copy: "feb. 7th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable city of London</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

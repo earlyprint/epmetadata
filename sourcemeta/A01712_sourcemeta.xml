@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catechisme conteining the summe of Christian religion, giuing a most excellent light to all those that seek to enter the path-way to saluation: Newlie set foorth by G.G. Preacher of Gods word at Malden in Essex</title>
-         <author>Gifford, George, d. 1620.</author>
-      </titleStmt>
-      <extent>[140] p.   </extent>
-      <publicationStmt>
-         <publisher>At the three Cranes in the Vintree by Thomas Dawson,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1583.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>G.G. = George Gifford.</note>
-         <note>Signatures: *²  A-K L⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catechisme conteining the summe of Christian religion, giuing a most excellent light to all those that seek to enter the path-way to saluation: Newlie set foorth by G.G. Preacher of Gods word at Malden in Essex</title>
+      <author>Gifford, George, d. 1620.</author>
+    </titleStmt>
+    <extent>[140] p.   </extent>
+    <publicationStmt>
+      <publisher>At <placeName>the three Cranes in the Vintree</placeName> by <persName type="printer">Thomas Dawson</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1583.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>G.G. = George Gifford.</note>
+      <note>Signatures: *&#178;  A-K L&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Cranes in the Vintree</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

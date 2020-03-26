@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The art of rhetorick concisely and compleatly handled exemplified out of holy writ, and with a compendious and perspicuous comment, fitted to the capacities of such as have had a smatch of learning, or are otherwise ingenious. By J.B. master of the free-school of Kinfare in Staffordshire.</title>
-         <author>Barton, John, master of the free school of Kinfare.</author>
-      </titleStmt>
-      <extent>[14], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Nicolas Alsop, and are to be sold at the Angel in Popes-head-alley,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: John Barton.</note>
-         <note>Includes, with caption title "Rhetorices enchiridion", a Latin translation of "The art of rhetorick" (p. 37-50).</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The art of rhetorick concisely and compleatly handled exemplified out of holy writ, and with a compendious and perspicuous comment, fitted to the capacities of such as have had a smatch of learning, or are otherwise ingenious. By J.B. master of the free-school of Kinfare in Staffordshire.</title>
+      <author>Barton, John, master of the free school of Kinfare.</author>
+    </titleStmt>
+    <extent>[14], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Nicolas Alsop</persName>, and are to be sold at <placeName>the Angel in Popes-head-alley</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: John Barton.</note>
+      <note>Includes, with caption title "Rhetorices enchiridion", a Latin translation of "The art of rhetorick" (p. 37-50).</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicolas Alsop</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Popes-head-alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A strange wonder in Wiltshire, affirmed by three ministers that were eye-witnesses of this following relation.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcut).  </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Cutler in Little-Britain.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Give ear and attention, and you shall hear ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A strange wonder in Wiltshire, affirmed by three ministers that were eye-witnesses of this following relation.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcut).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Cutler</persName> in <placeName>Little-Britain.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Give ear and attention, and you shall hear ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Cutler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little-Britain.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

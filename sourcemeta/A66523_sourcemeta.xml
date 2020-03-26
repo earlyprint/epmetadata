@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem on the coronation of James II of England, Scotland, France, and Ireland, King, defender of the faith</title>
-         <author>Willoughby, Stephen, b. 1657 or 8.</author>
-      </titleStmt>
-      <extent>[6], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Mallet for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Attributed to Stephen Willoughby. cf. NUC pre-1956.</note>
-         <note>Epistle dedicatory signed: Stephen Willoughby.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem on the coronation of James II of England, Scotland, France, and Ireland, King, defender of the faith</title>
+      <author>Willoughby, Stephen, b. 1657 or 8.</author>
+    </titleStmt>
+    <extent>[6], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Mallet</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Attributed to Stephen Willoughby. cf. NUC pre-1956.</note>
+      <note>Epistle dedicatory signed: Stephen Willoughby.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Mallet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

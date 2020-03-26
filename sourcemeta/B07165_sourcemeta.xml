@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christopher Angell, a Grecian, who tasted of many stripes and torments inflicted by the Turkes for the faith which he had in Iesus Christ.</title>
-         <author>Angelus, Christophorus, d. 1638.</author>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield, and Iames Short, Printers to the famous Vniversitie,</publisher>
-         <pubPlace>At Oxford, :</pubPlace>
-         <date>1618..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Christophorus Angelus.  Cf. STC (2nd ed.).</note>
-         <note>Printer's device on t.p., initials, headpieces.</note>
-         <note>Signatures: A-B⁴.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christopher Angell, a Grecian, who tasted of many stripes and torments inflicted by the Turkes for the faith which he had in Iesus Christ.</title>
+      <author>Angelus, Christophorus, d. 1638.</author>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName>, and <persName type="printer">Iames Short</persName>, Printers to <persName type="patron">the famous Vniversitie</persName>,</publisher>
+      <pubPlace>At Oxford, :</pubPlace>
+      <date>1618..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Christophorus Angelus.  Cf. STC (2nd ed.).</note>
+      <note>Printer's device on t.p., initials, headpieces.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the famous Vniversitie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iames Short</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

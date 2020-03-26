@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prayers to be used in all cathedral, collegiate, and parochial churches, and chapels, within this kingdom, during this time of publick apprehensions from the danger of invasion and to be added to the daily office both morning and evening, immediately after the prayers for the King, and for the royal family. By His Majesties special command.</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <extent>3, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by C. Bill, H. Hills, and T. Newcomb, printers to the King's Most Excellent Majesty,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>In this issue there is a colophon.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prayers to be used in all cathedral, collegiate, and parochial churches, and chapels, within this kingdom, during this time of publick apprehensions from the danger of invasion and to be added to the daily office both morning and evening, immediately after the prayers for the King, and for the royal family. By His Majesties special command.</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">C. Bill</persName>, <persName type="printer">H. Hills</persName>, and <persName type="printer">T. Newcomb</persName>, printers to <persName type="patron">the King's Most Excellent Majesty</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>In this issue there is a colophon.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's Most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>C. Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe summe of Christian religion collected for a preparation to the Lords Supper / published for the benefit of the simpler sort of people of the parish of Saint Lawrence by Thomas Sanderson Doctor in Divinitie.</title>
-         <author>Sanderson, Thomas, 1560 or 61-1614.</author>
-      </titleStmt>
-      <extent>[15] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.P. for F. Coules at his shop in the Old-Bayly neere the Sessions-house,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A⁸.</note>
-         <note>Imperfect: tightly bound.</note>
-         <note>Reproduction of original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe summe of Christian religion collected for a preparation to the Lords Supper / published for the benefit of the simpler sort of people of the parish of Saint Lawrence by Thomas Sanderson Doctor in Divinitie.</title>
+      <author>Sanderson, Thomas, 1560 or 61-1614.</author>
+    </titleStmt>
+    <extent>[15] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.P.</persName> for <persName type="publisher">F. Coules</persName> at <placeName>his shop in the Old-Bayly neere the Sessions-house</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8312;.</note>
+      <note>Imperfect: tightly bound.</note>
+      <note>Reproduction of original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coules</persName>
+    </person>
+    <person type="printer">
+      <persName>E.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Old-Bayly neere the Sessions-house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

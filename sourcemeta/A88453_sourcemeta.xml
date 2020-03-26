@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At a Common Councel holden in the Guild-hall London on VVednesday the 14th of December, 1659.</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>Alleyne, Thomas, Sir, fl. 1660.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, Printer to the Honourable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Aleyn Mayor = Sir Thomas Alleyne, mayor of London in 1659-60.</note>
-         <note>An order of the Common Council, for preserving the peace of the city at the forthcoming meeting of Parliament.</note>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "xber [i.e. December]. 15".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At a Common Councel holden in the Guild-hall London on VVednesday the 14th of December, 1659.</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>Alleyne, Thomas, Sir, fl. 1660.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, Printer to <persName type="patron">the Honourable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Aleyn Mayor = Sir Thomas Alleyne, mayor of London in 1659-60.</note>
+      <note>An order of the Common Council, for preserving the peace of the city at the forthcoming meeting of Parliament.</note>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "xber [i.e. December]. 15".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

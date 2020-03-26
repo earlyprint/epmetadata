@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Journal of the war with Holland, since His Most Christian Majesty's departure from Paris, until his return with a continuation of what happen'd after the Kings return into France / translated out of French.</title>
-      </titleStmt>
-      <extent>[2], 186 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at the theater,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Journal of the war with Holland, since His Most Christian Majesty's departure from Paris, until his return with a continuation of what happen'd after the Kings return into France / translated out of French.</title>
+    </titleStmt>
+    <extent>[2], 186 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the theater</placeName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>the theater</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

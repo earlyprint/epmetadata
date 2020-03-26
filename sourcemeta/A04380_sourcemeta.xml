@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The triumph of faith A very godly, fruitfull and comfortable treatise on Rom. 8. verse 37. Penned by Daniel Ienkinson Master in Arts, late of Emmanuel Coll. in Cambridge, and found in his studie at the time of his death.</title>
-         <author>[Jenkinson, Daniel].</author>
-      </titleStmt>
-      <extent>[6], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Griffin for Sam. Macham, and are to be solde at his shop in Pauls Church-yard, at the signe of the Bull-head,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The triumph of faith A very godly, fruitfull and comfortable treatise on Rom. 8. verse 37. Penned by Daniel Ienkinson Master in Arts, late of Emmanuel Coll. in Cambridge, and found in his studie at the time of his death.</title>
+      <author>[Jenkinson, Daniel].</author>
+    </titleStmt>
+    <extent>[6], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Griffin</persName> for <persName type="publisher">Sam. Macham</persName>, and are to be solde at <placeName>his shop in Pauls Church-yard, at the signe of the Bull-head</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sam. Macham</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw. Griffin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard, at the signe of the Bull-head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

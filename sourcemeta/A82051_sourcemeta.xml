@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The declaration and protestation agreed upon by the grand iury at the assizes held for the county of VVorcester, the third day of August. 1642 and assented unto by the high sheriffe, the Lord Coventry, the baronets, knights, justices of the peace, gentlemen and freeholders of the county of VVorcester aforesaid.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Robert Barker, printer to the Kings most excellent Majestie: and by the assignes of John Bill,</publisher>
-         <pubPlace>Imprinted at York :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In favor of the King. -- Thomason Catalogue.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The declaration and protestation agreed upon by the grand iury at the assizes held for the county of VVorcester, the third day of August. 1642 and assented unto by the high sheriffe, the Lord Coventry, the baronets, knights, justices of the peace, gentlemen and freeholders of the county of VVorcester aforesaid.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings most excellent Majestie: and</persName> by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>Imprinted at York :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In favor of the King. -- Thomason Catalogue.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie: and</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

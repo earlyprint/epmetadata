@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the Royal Society.</title>
-         <author>Royal Society (Great Britain). Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. James,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>MDCXCIV. [1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imperfect: sheet creased, with slight loss of text.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the Royal Society.</title>
+      <author>Royal Society (Great Britain). Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. James</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>MDCXCIV. [1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imperfect: sheet creased, with slight loss of text.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. James</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

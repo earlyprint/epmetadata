@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The fables of young Æsop, with their morals with a moral history of his life and death, illustrated with forty curious cuts applicable to each fable.</title>
-         <title>Aesop's fables. English.</title>
-         <author>Aesop.</author>
-         <author>Harris, Benjamin, d. 1716?</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The fourth edition /</edition>
-      </editionStmt>
-      <extent>[7], 90 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Benj. Harris ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCC [1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained, with print show-through.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The fables of young &#198;sop, with their morals with a moral history of his life and death, illustrated with forty curious cuts applicable to each fable.</title>
+      <title>Aesop's fables. English.</title>
+      <author>Aesop.</author>
+      <author>Harris, Benjamin, d. 1716?</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The fourth edition /</edition>
+    </editionStmt>
+    <extent>[7], 90 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Benj. Harris</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCC [1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained, with print show-through.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Benj. Harris</persName>
+    </person>
+    <person type="printer">
+      <persName>Benj. Harris</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

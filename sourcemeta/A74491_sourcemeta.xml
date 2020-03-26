@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act appointing a committee for the army, and treasurers at vvar. Wednesday the 25th of July, 1653. Ordered by the Parliament, that this act be forthwith printed and published. Hen: Scobell, Clerk of the Parliament.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 9-18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Also issued as part of a through-paged folio set.</note>
-         <note>Text in black letter.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act appointing a committee for the army, and treasurers at vvar. Wednesday the 25th of July, 1653. Ordered by the Parliament, that this act be forthwith printed and published. Hen: Scobell, Clerk of the Parliament.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 9-18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Also issued as part of a through-paged folio set.</note>
+      <note>Text in black letter.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

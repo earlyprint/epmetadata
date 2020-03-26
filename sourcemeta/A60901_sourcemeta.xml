@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Song at the loyal feast in Westminster-Hall, August the 6th, 1685</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Sold by Nath. Thompson ... and by John Crouch,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First line begins: Hail sacred pile.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Song at the loyal feast in Westminster-Hall, August the 6th, 1685</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Sold by Nath. Thompson ... and by <persName type="printer">John Crouch</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First line begins: Hail sacred pile.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Nath. Thompsonand</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crouch</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

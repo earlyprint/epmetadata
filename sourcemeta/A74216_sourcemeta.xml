@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Sabbati 28. Ianua: 1642. An order made by the Commons assembled in Parliament, concerning the rate of coales.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Jo: Field for Edw: Husbands and are to be sold at his shop in the Middle-Temple,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Febr. 6. 1642 [i.e. 1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Hen: Elsynge, Cler. Parl. D. Com.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Sabbati 28. Ianua: 1642. An order made by the Commons assembled in Parliament, concerning the rate of coales.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Jo: Field</persName> for <persName type="publisher">Edw: Husbands</persName> and are to be sold at <placeName>his shop in the Middle-Temple</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Febr. 6. 1642 [i.e. 1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Hen: Elsynge, Cler. Parl. D. Com.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edw: Husbands</persName>
+    </person>
+    <person type="printer">
+      <persName>Jo: Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Middle-Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

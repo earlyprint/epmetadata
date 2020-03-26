@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A second treatise of the Sabbath, or an explication of the Fourth Commandement. Written, by Mr Edward Brerewood professor in Gresham Colledge in London</title>
-         <author>Brerewood, Edward, 1565?-1613.</author>
-      </titleStmt>
-      <extent>50, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield, and are to be sold by Thomas Huggins,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>Ann. Dom. 1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A second treatise of the Sabbath, or an explication of the Fourth Commandement. Written, by Mr Edward Brerewood professor in Gresham Colledge in London</title>
+      <author>Brerewood, Edward, 1565?-1613.</author>
+    </titleStmt>
+    <extent>50, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName>, and are to be sold by <persName type="bookseller">Thomas Huggins</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>Ann. Dom. 1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Thomas Huggins</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

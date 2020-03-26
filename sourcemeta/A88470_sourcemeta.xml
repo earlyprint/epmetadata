@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Major. A proclamation for the bringing into the Port of London, any manner of fevvell.</title>
-         <author>City of London (England). Lord Mayor.</author>
-         <author>Wollaston, John, Sir.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, printer to the honourable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1644]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from Wing.</note>
-         <note>Dated at end: Dated at the Guildhall, London, this 27 day of June, 1644.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Major. A proclamation for the bringing into the Port of London, any manner of fevvell.</title>
+      <author>City of London (England). Lord Mayor.</author>
+      <author>Wollaston, John, Sir.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, printer to <persName type="patron">the honourable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1644]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from Wing.</note>
+      <note>Dated at end: Dated at the Guildhall, London, this 27 day of June, 1644.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

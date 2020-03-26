@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rendezvouz of General Monck, upon the confines of England; and the setting up of the Parliaments standard on Berwick Hills: with the number of his forces; and the securing of the Kings sconce, and several other forts. Also, a declaration of the lords, knights, ministers, and gentry, in the northern parts; and their adhering to Gen. Monck; in the name of themselves, and the Parliament. And proposals to the free-born people of England.</title>
-      </titleStmt>
-      <extent>[7], 1 p.   </extent>
-      <publicationStmt>
-         <publisher>York: printed for Richard Forster, living in the Minster-Yard; and re-printed at London, for publick satisfaction,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nou. 4. 1659".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rendezvouz of General Monck, upon the confines of England; and the setting up of the Parliaments standard on Berwick Hills: with the number of his forces; and the securing of the Kings sconce, and several other forts. Also, a declaration of the lords, knights, ministers, and gentry, in the northern parts; and their adhering to Gen. Monck; in the name of themselves, and the Parliament. And proposals to the free-born people of England.</title>
+    </titleStmt>
+    <extent>[7], 1 p.   </extent>
+    <publicationStmt>
+      <publisher>York: printed for <persName type="publisher">Richard Forster</persName>, living in <placeName>the Minster-Yard;</placeName> and re-printed at <placeName>London</placeName>, for <persName type="publisher">publick satisfaction</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nou. 4. 1659".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Forster</persName>
+    </person>
+    <person type="publisher">
+      <persName>publick satisfaction</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Minster-Yard;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

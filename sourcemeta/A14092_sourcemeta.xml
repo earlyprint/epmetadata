@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe catecheticall exposition of Christian doctrine Diuided into foure catechismes, comprizing the doctrine of the 1. Two sacraments. 2. Lords prayer. 3. Ten commandements. 4. And the creed.</title>
-         <author>Twisse, William, 1578?-1646.</author>
-      </titleStmt>
-      <extent>62, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. M[iller] for Robert Bird, and are to be sold at his shop at the signe of the Bible in Saint Laurence-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By William Twisse.</note>
-         <note>Printer's name from STC.</note>
-         <note>The running title reads: A catechisme.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe catecheticall exposition of Christian doctrine Diuided into foure catechismes, comprizing the doctrine of the 1. Two sacraments. 2. Lords prayer. 3. Ten commandements. 4. And the creed.</title>
+      <author>Twisse, William, 1578?-1646.</author>
+    </titleStmt>
+    <extent>62, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. M[iller]</persName> for <persName type="publisher">Robert Bird</persName>, and are to be sold at <placeName>his shop at the signe of the Bible in Saint Laurence-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By William Twisse.</note>
+      <note>Printer's name from STC.</note>
+      <note>The running title reads: A catechisme.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bird</persName>
+    </person>
+    <person type="printer">
+      <persName>G. M[iller]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Bible in Saint Laurence-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

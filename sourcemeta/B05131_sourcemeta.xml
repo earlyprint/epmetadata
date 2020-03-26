@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Remonstrance and protestation of all the good Protestants of this kingdom, against deposing their lawful soveraign K. James II.</title>
-         <author>Reid, J.</author>
-      </titleStmt>
-      <extent>[7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by a lover of the king, [i.e. J. Reid?],</publisher>
-         <pubPlace>[Edinburgh?] :</pubPlace>
-         <date>MDCLXXXIX. [1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and publisher suggested by Wing.</note>
-         <note>Imperfect: cropped with slight loss of print.</note>
-         <note>Reproduction of original in: William Andrews Clark Memorial Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Remonstrance and protestation of all the good Protestants of this kingdom, against deposing their lawful soveraign K. James II.</title>
+      <author>Reid, J.</author>
+    </titleStmt>
+    <extent>[7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">a lover of the king</persName>, <persName type="printer">[i.e. J. Reid?]</persName>,</publisher>
+      <pubPlace>[Edinburgh?] :</pubPlace>
+      <date>MDCLXXXIX. [1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and publisher suggested by Wing.</note>
+      <note>Imperfect: cropped with slight loss of print.</note>
+      <note>Reproduction of original in: William Andrews Clark Memorial Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>[i.e. J. Reid?]</persName>
+    </person>
+    <person type="printer">
+      <persName>a lover of the king</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Discontented Lady: a new song much in request. To a new tune much in request at court and the play-house.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed for C[harles]. Bates, at the White Hsrt in West-smithfield.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1690?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publisher's name, place and date of publication from Wing.</note>
-         <note>Verse: "How vile are the sordid intreagues of the town ..."</note>
-         <note>Printed in two columns.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Discontented Lady: a new song much in request. To a new tune much in request at court and the play-house.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">C[harles]. Bates</persName>, at <placeName>the White Hsrt in West-smithfield.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1690?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publisher's name, place and date of publication from Wing.</note>
+      <note>Verse: "How vile are the sordid intreagues of the town ..."</note>
+      <note>Printed in two columns.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C[harles]. Bates</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Hsrt in West-smithfield.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

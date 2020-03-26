@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the manner of taking the late Duke of Monmouth, &amp;c. By His Majesties command.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Benjamin Tooke, printer the Kings most excellent Majesty: and are to be sold by Andrew Crook at the printinghouse on Ormonde-Key, and by Samuel Helsham at the Colledge-arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>[1685?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the manner of taking the late Duke of Monmouth, &amp;c. By His Majesties command.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Benjamin Tooke, printer the Kings most excellent Majesty:</persName> and are to be sold by <persName type="bookseller">Andrew Crook</persName> at <placeName>the printinghouse on Ormonde-Key</placeName>, and by <persName type="bookseller">Samuel Helsham</persName> at <placeName>the Colledge-arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>[1685?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="printer">
+      <persName>Benjamin Tooke, printer the Kings most excellent Majesty:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Colledge-arms in Castle-street.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the printinghouse on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

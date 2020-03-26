@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Exact list of the members of both Houses of Parliament summoned and elected to meet at Westminster the nineteenth of May, in the first year of the reign of the Most Serene Prince, King James the Second.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Leake, for Arthur Jones ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Exact list of the members of both Houses of Parliament summoned and elected to meet at Westminster the nineteenth of May, in the first year of the reign of the Most Serene Prince, King James the Second.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Leake</persName>, for <persName type="publisher">Arthur Jones</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Arthur Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Leake</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

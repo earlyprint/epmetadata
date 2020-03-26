@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sinners sanctuary. By Thomas Packer, his Majesties servant</title>
-         <author>Packer, Thomas, fl. 1628-1637.</author>
-      </titleStmt>
-      <extent>[24], 108 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Haviland, for Edward Blackmore, and are to be sold at his shop in S. Pauls churchyard at the signe of the Angel,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some print faded.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sinners sanctuary. By Thomas Packer, his Majesties servant</title>
+      <author>Packer, Thomas, fl. 1628-1637.</author>
+    </titleStmt>
+    <extent>[24], 108 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Haviland</persName>, for <persName type="publisher">Edward Blackmore</persName>, and are to be sold at <placeName>his shop in S. Pauls churchyard at the signe of the Angel</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some print faded.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blackmore</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Haviland</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in S. Pauls churchyard at the signe of the Angel</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

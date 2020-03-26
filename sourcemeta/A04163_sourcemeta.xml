@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Peters teares A sermon, preached at S. Maries Spittle, the xv. of Aprill 1612. By Thomas Iacksonne Bachelour in Diuinitie, and preacher of Gods holy word at Wye in Kent.</title>
-         <author>Jackson, Thomas, d. 1646.</author>
-      </titleStmt>
-      <extent>[2], 41, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. W[hite] for Clement Knight, and are to be sold at his shop in Paules Church-yard at the signe of the Holy Lambe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Peters teares A sermon, preached at S. Maries Spittle, the xv. of Aprill 1612. By Thomas Iacksonne Bachelour in Diuinitie, and preacher of Gods holy word at Wye in Kent.</title>
+      <author>Jackson, Thomas, d. 1646.</author>
+    </titleStmt>
+    <extent>[2], 41, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. W[hite]</persName> for <persName type="publisher">Clement Knight</persName>, and are to be sold at <placeName>his shop in Paules Church-yard at the signe of the Holy Lambe</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Clement Knight</persName>
+    </person>
+    <person type="printer">
+      <persName>W. W[hite]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard at the signe of the Holy Lambe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

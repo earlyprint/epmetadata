@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tryon's letters upon several occasions ... by Tho. Tryon.</title>
-         <author>Tryon, Thomas, 1634-1703.</author>
-      </titleStmt>
-      <extent>[12], 240 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Geo. Conyers and Eliz. Harris,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tryon's letters upon several occasions ... by Tho. Tryon.</title>
+      <author>Tryon, Thomas, 1634-1703.</author>
+    </titleStmt>
+    <extent>[12], 240 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Geo. Conyers</persName> and <persName type="publisher">Eliz. Harris</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Eliz. Harris</persName>
+    </person>
+    <person type="publisher">
+      <persName>Geo. Conyers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

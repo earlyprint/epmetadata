@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A mission of consolation. Usefull for all afflicted persons. / By W.S.</title>
-         <author>Slingsby, William, fl. 1653.</author>
-      </titleStmt>
-      <extent>[12], 150 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.B. for John Williams, and are to be sold at the sign of the Crown, in Paul's Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>W.S. = William Slingsby.</note>
-         <note>Annotation on Thomason copy: W.S. expanded to S'lingsby"; "Aprill. 4.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A mission of consolation. Usefull for all afflicted persons. / By W.S.</title>
+      <author>Slingsby, William, fl. 1653.</author>
+    </titleStmt>
+    <extent>[12], 150 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.B.</persName> for <persName type="publisher">John Williams</persName>, and are to be sold at <placeName>the sign of the Crown, in Paul's Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>W.S. = William Slingsby.</note>
+      <note>Annotation on Thomason copy: W.S. expanded to S'lingsby"; "Aprill. 4.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>W.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Crown, in Paul's Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

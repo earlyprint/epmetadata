@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Proclamation against exporting of wool and importing of woollen-cloath, &amp;c.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1694-1702 : William II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, Printer to his most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno. Dom. 1699</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text.</note>
-         <note>Signed: Gilb. Eliot Cls. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Proclamation against exporting of wool and importing of woollen-cloath, &amp;c.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1694-1702 : William II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, Printer to <persName type="patron">his most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno. Dom. 1699</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text.</note>
+      <note>Signed: Gilb. Eliot Cls. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rape of Lucrece. By Mr. William Shakespeare</title>
-         <author>Shakespeare, William, 1564-1616.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Newly reuised.</edition>
-      </editionStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] S[nodham] for Roger Iackson, and are to be solde at his shop neere the Conduit in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rape of Lucrece. By Mr. William Shakespeare</title>
+      <author>Shakespeare, William, 1564-1616.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Newly reuised.</edition>
+    </editionStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] S[nodham]</persName> for <persName type="publisher">Roger Iackson</persName>, and are to be solde at <placeName>his shop neere the Conduit in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere the Conduit in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

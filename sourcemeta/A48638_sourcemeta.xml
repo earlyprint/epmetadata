@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of all the adventurers in the mine-adventure. May the first, 1700 Note, those marked *** are qualified by their shares to be elected of the select committee. And those marked ** are qualified to vote in a general meeting: and no person has more than one vote.</title>
-         <title>Lists. 1700-05-01.</title>
-         <author>Corporation of the Mine Adventurers of England.</author>
-      </titleStmt>
-      <extent>4p.   </extent>
-      <publicationStmt>
-         <publisher>printed by F. Collins in the Old-Baily,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Includes at end: "A list of the present committee", the lead name of which is the Duke of Leeds.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of all the adventurers in the mine-adventure. May the first, 1700 Note, those marked *** are qualified by their shares to be elected of the select committee. And those marked ** are qualified to vote in a general meeting: and no person has more than one vote.</title>
+      <title>Lists. 1700-05-01.</title>
+      <author>Corporation of the Mine Adventurers of England.</author>
+    </titleStmt>
+    <extent>4p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">F. Collins</persName> in <placeName>the Old-Baily</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Includes at end: "A list of the present committee", the lead name of which is the Duke of Leeds.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>F. Collins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The longitude found, or, A treatise shewing an easie and speedy way, as well by night as by day, to find the longitude, having but the latitude of the place and the inclination of the magnetical inclinatorie needle by Henry Bond ...</title>
-         <author>Bond, Henry.</author>
-      </titleStmt>
-      <extent>[14], 65 p., 7 leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid and are to be sold by the author, Henry Bond [and 3 others],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Printed by the Kings Majesties special command"</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The longitude found, or, A treatise shewing an easie and speedy way, as well by night as by day, to find the longitude, having but the latitude of the place and the inclination of the magnetical inclinatorie needle by Henry Bond ...</title>
+      <author>Bond, Henry.</author>
+    </titleStmt>
+    <extent>[14], 65 p., 7 leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName> and are to be sold by <persName type="bookseller">the author</persName>, <persName type="bookseller">Henry Bond</persName> [and <persName type="bookseller">3 others]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Printed by the Kings Majesties special command"</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>3 others]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Henry Bond</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

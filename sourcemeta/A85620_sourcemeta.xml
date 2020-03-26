@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A great plot against the Parliament of England and the Army under command of His Excellency Sir Thomas Fairfax. Wherein is set forth, the manner of a most bloudy engagement to destroy both Parliament and Army. With the names of the Scottish conspirators. And the proceedings of both Houses thereupon. Discovered by Colonell Jones, and read in both Houses of Parliament. Die 24. of September, 1647.</title>
-         <author>Jones, Colonel, fl. 1647.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>for V.V. and are to be sold neere St. Dunstans Church,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>anno Dom. 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Scottish conspirators = "Major General Starling and others"--Thomason Catalogue.</note>
-         <note>Signatures: [A]⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A great plot against the Parliament of England and the Army under command of His Excellency Sir Thomas Fairfax. Wherein is set forth, the manner of a most bloudy engagement to destroy both Parliament and Army. With the names of the Scottish conspirators. And the proceedings of both Houses thereupon. Discovered by Colonell Jones, and read in both Houses of Parliament. Die 24. of September, 1647.</title>
+      <author>Jones, Colonel, fl. 1647.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">V.V.</persName> and are to be sold neere <placeName>St. Dunstans Church</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>anno Dom. 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Scottish conspirators = "Major General Starling and others"--Thomason Catalogue.</note>
+      <note>Signatures: [A]&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>V.V.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>St. Dunstans Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

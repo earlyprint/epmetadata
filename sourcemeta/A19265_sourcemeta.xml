@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A godlie sermon, preached on Newe yeeres day last before Sir William Fitzwilliam knight, late lord deputie of Irelande, Sir Iames Harrington knight, their ladyes and children, vvith many others, at Burghley in Rutlande. By the minister of God Anthony Anderson. Hereto is added a very profitable forme of prayer, good for all such as passe the seas: by the same author framed, and vsed in his aduentured iourney.</title>
-         <author>Anderson, Anthony, d. 1593.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Purfoote for Lucas Harison, dwelling in Paules Church yarde,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno Dom. 1576.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes, with caption title: A forme of prayer for sea men and passengers to vse, in the sayling of shippe.</note>
-         <note>Signatures: A-D E⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A godlie sermon, preached on Newe yeeres day last before Sir William Fitzwilliam knight, late lord deputie of Irelande, Sir Iames Harrington knight, their ladyes and children, vvith many others, at Burghley in Rutlande. By the minister of God Anthony Anderson. Hereto is added a very profitable forme of prayer, good for all such as passe the seas: by the same author framed, and vsed in his aduentured iourney.</title>
+      <author>Anderson, Anthony, d. 1593.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Purfoote</persName> for <persName type="publisher">Lucas Harison</persName>, dwelling in <placeName>Paules Church yarde</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno Dom. 1576.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes, with caption title: A forme of prayer for sea men and passengers to vse, in the sayling of shippe.</note>
+      <note>Signatures: A-D E&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Lucas Harison</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoote</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

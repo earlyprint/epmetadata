@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to a scurrilous pamphlet intituled, Observations upon a compleat history of the lives and reignes of Mary, Queen of Scotland, and of her son, King James ... the libeller, without a name, set out by G. Bedell and T. Collins, two booksellers / but the history vindicated by the authour William Sanderson, Esq.</title>
-         <author>Sanderson, William, Sir, 1586?-1676.</author>
-         <author>Collins, Samuel, 1576-1651.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and are to be sold by George Sawbridge, and Richard Tomlins,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Observations upon a compleat history ... is variously attributed to Carew Raleigh and Peter Heylyn; Sanderson was the author of The compleat history, published in 1656, and here defends his work. Cf. NUC pre-1956.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Includes: Three letters from Doctor Samuel Collins ... concerning the commencement, and Mr. Sanderson.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to a scurrilous pamphlet intituled, Observations upon a compleat history of the lives and reignes of Mary, Queen of Scotland, and of her son, King James ... the libeller, without a name, set out by G. Bedell and T. Collins, two booksellers / but the history vindicated by the authour William Sanderson, Esq.</title>
+      <author>Sanderson, William, Sir, 1586?-1676.</author>
+      <author>Collins, Samuel, 1576-1651.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">George Sawbridge</persName>, and <persName type="publisher">Richard Tomlins</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Observations upon a compleat history ... is variously attributed to Carew Raleigh and Peter Heylyn; Sanderson was the author of The compleat history, published in 1656, and here defends his work. Cf. NUC pre-1956.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Includes: Three letters from Doctor Samuel Collins ... concerning the commencement, and Mr. Sanderson.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>George Sawbridge</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Tomlins</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from Colonel Hewson from Finagh in Ireland, of the 14 of March, 1650. To the honorable William Lenthal Esq; speaker of the Parliament of England: vvith articles of the surrender of Finagh castle, and other strong holds. And a list of the prisoners taken. Die Martis, 25 Martii, 1651. Ordered by the Parliament, that this letter and articles, with a list of the prisoners taken, be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>Hewson, John, d. 1662.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from Colonel Hewson from Finagh in Ireland, of the 14 of March, 1650. To the honorable William Lenthal Esq; speaker of the Parliament of England: vvith articles of the surrender of Finagh castle, and other strong holds. And a list of the prisoners taken. Die Martis, 25 Martii, 1651. Ordered by the Parliament, that this letter and articles, with a list of the prisoners taken, be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>Hewson, John, d. 1662.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

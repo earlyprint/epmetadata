@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Bishop of Ely's letter to his clergy</title>
-         <author>Patrick, Simon, 1626-1707.</author>
-      </titleStmt>
-      <extent>[2], 13 p.   </extent>
-      <publicationStmt>
-         <publisher>[Pri]nted by John Hayes, Printer to [t]he University,</publisher>
-         <pubPlace>Cambridge :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained, creased, overwritten, and defaced, with loss of print.</note>
-         <note>Reproduction of original in: Lambeth Palace Library (London, England).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Bishop of Ely's letter to his clergy</title>
+      <author>Patrick, Simon, 1626-1707.</author>
+    </titleStmt>
+    <extent>[2], 13 p.   </extent>
+    <publicationStmt>
+      <publisher>[Pri]nted by <persName type="printer">John Hayes</persName>, Printer to <persName type="patron">[t]he University</persName>,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained, creased, overwritten, and defaced, with loss of print.</note>
+      <note>Reproduction of original in: Lambeth Palace Library (London, England).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>[t]he University</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hayes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Catechisme of Christian religion.</title>
-         <title>Heidelberger Katechismus.</title>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Schilders, Printer to the States of Zealand.,</publisher>
-         <pubPlace>At Middelborough, :</pubPlace>
-         <date>1610..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Contains marginal notes.</note>
-         <note>Page numbers 93-138 are written in manuscript at the head of each page.</note>
-         <note>Title page ornament.</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Catechisme of Christian religion.</title>
+      <title>Heidelberger Katechismus.</title>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Schilders</persName>, Printer to <persName type="patron">the States of Zealand.</persName>,</publisher>
+      <pubPlace>At Middelborough, :</pubPlace>
+      <date>1610..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Contains marginal notes.</note>
+      <note>Page numbers 93-138 are written in manuscript at the head of each page.</note>
+      <note>Title page ornament.</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the States of Zealand.</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Schilders</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

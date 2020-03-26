@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The drunkards vvarning A sermon preached at Canterbury in the Cathedral Church of Christ. By Thomas Kingsmill Mr. of Arts, and preacher of the Word at Hyth, one of the Cinque-ports, in the county of Kent.</title>
-         <author>Kingsmill, Thomas.</author>
-      </titleStmt>
-      <extent>[6], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>By N. Okes for Richard Collins at the signe of the three Kings in Paules Church-yard,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A warning for drunkards.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The drunkards vvarning A sermon preached at Canterbury in the Cathedral Church of Christ. By Thomas Kingsmill Mr. of Arts, and preacher of the Word at Hyth, one of the Cinque-ports, in the county of Kent.</title>
+      <author>Kingsmill, Thomas.</author>
+    </titleStmt>
+    <extent>[6], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">N. Okes</persName> for <persName type="publisher">Richard Collins</persName> at <placeName>the signe of the three Kings in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A warning for drunkards.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>N. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the three Kings in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

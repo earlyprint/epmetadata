@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A cordiall of comfort To preserue the heart, from fainting with griefe or feare: for our friends, or our owne visitation, by the plague. Also a thankes-giuing to almightie God, for staying the visitation in London, and the suburbs thereof. Both which may be of vse to Christians in other places, that are cleere, visited, or recouered. By William Chibald.</title>
-         <author>Chibald, William, 1575-1641.</author>
-      </titleStmt>
-      <extent>[22], 110 [i.e. 120], [10], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>By W. I[ones] for Nic. Bourne and Edw. Brewster, and are to be sold at the Royall Exchange, and at the Bible in Pauls-Church-yard,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>"An humble thanks-giuing to Almightie God" has separate dated title page and pagination; register is continuous.</note>
-         <note>Page 120 is misnumbered 110.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A cordiall of comfort To preserue the heart, from fainting with griefe or feare: for our friends, or our owne visitation, by the plague. Also a thankes-giuing to almightie God, for staying the visitation in London, and the suburbs thereof. Both which may be of vse to Christians in other places, that are cleere, visited, or recouered. By William Chibald.</title>
+      <author>Chibald, William, 1575-1641.</author>
+    </titleStmt>
+    <extent>[22], 110 [i.e. 120], [10], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">W. I[ones]</persName> for <persName type="publisher">Nic. Bourne</persName> and <persName type="publisher">Edw. Brewster</persName>, and are to be sold at <placeName>the Royall Exchange</placeName>, and at <placeName>the Bible in Pauls-Church-yard</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>"An humble thanks-giuing to Almightie God" has separate dated title page and pagination; register is continuous.</note>
+      <note>Page 120 is misnumbered 110.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edw. Brewster</persName>
+    </person>
+    <person type="publisher">
+      <persName>Nic. Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W. I[ones]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Pauls-Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

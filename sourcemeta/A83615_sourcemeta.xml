@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Parliament. Whereas John Lambert Esq; being commanded by the Parliament to repair to one of his dwelling-houses, most remote from the City of London, ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Streater, and John Macock, printers to the Parliament,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1659. [i.e. 1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>A proclamation ordering John Lambert to appear before the Council of State, to explain his contempt of an Order of Parliament commanding him to repair to his house at Holmeby.</note>
-         <note>Order to print dated: Monday, February 13. 1659. Signed: Thomas St. Nicholas, Clerk of the Parliament.</note>
-         <note>Annotation on Thomason copy: "A Proclamation" written in above caption.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Parliament. Whereas John Lambert Esq; being commanded by the Parliament to repair to one of his dwelling-houses, most remote from the City of London, ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Streater</persName>, and <persName type="printer">John Macock</persName>, printers to <persName type="patron">the Parliament</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1659. [i.e. 1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>A proclamation ordering John Lambert to appear before the Council of State, to explain his contempt of an Order of Parliament commanding him to repair to his house at Holmeby.</note>
+      <note>Order to print dated: Monday, February 13. 1659. Signed: Thomas St. Nicholas, Clerk of the Parliament.</note>
+      <note>Annotation on Thomason copy: "A Proclamation" written in above caption.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament</persName>
+    </person>
+    <person type="printer">
+      <persName>John Macock</persName>
+    </person>
+    <person type="printer">
+      <persName>John Streater</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

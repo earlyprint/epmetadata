@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The peaceable Christian A sermon.</title>
-      </titleStmt>
-      <extent>[2], 6, 9-24 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Tho. Snowden, for Tho. More, at the Maiden-Head over against St. Dunstans-Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprimatur (A1v) dated: June, 10. 1678.</note>
-         <note>Text and register are continuous despite pagination.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The peaceable Christian A sermon.</title>
+    </titleStmt>
+    <extent>[2], 6, 9-24 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Tho. Snowden</persName>, for <persName type="publisher">Tho. More</persName>, at <placeName>the Maiden-Head over against St. Dunstans-Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprimatur (A1v) dated: June, 10. 1678.</note>
+      <note>Text and register are continuous despite pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. More</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Snowden</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Maiden-Head over against St. Dunstans-Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

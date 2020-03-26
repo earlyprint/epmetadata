@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>This sermon folowynge was compyled [and] sayd in the cathedrall chyrche of saynt Poule within ye cyte of London by the ryght reuerende fader in god Iohn̄ bysshop of Rochester, the body beyinge present of the moost famouse prynce kynge Henry the. vij. the. x. day of Maye, the yere of our lorde god. M.CCCCC.ix. whiche sermon was enprynted at the specyall request of ye ryght excellent pryncesse Margarete moder vnto the sayd noble prynce and Countesse of Rychemonde and Derby</title>
-         <author>Fisher, John, Saint, 1469-1535.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>In Fletestrete at the sygne of the sonne by wynkyn de worde, prynter vnto the moost excellent princesse my lady the kynges graundame,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date>Anno d[omi]ni. M.CCCCC.ix. [1509]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a title-page woodcut.</note>
-         <note>Imprint from colophon. Variant: colophon lacks words "prynter .. graundame".</note>
-         <note>Signatures: A B⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>This sermon folowynge was compyled [and] sayd in the cathedrall chyrche of saynt Poule within ye cyte of London by the ryght reuerende fader in god Iohn&#772; bysshop of Rochester, the body beyinge present of the moost famouse prynce kynge Henry the. vij. the. x. day of Maye, the yere of our lorde god. M.CCCCC.ix. whiche sermon was enprynted at the specyall request of ye ryght excellent pryncesse Margarete moder vnto the sayd noble prynce and Countesse of Rychemonde and Derby</title>
+      <author>Fisher, John, Saint, 1469-1535.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>In Fletestrete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">wynkyn de worde</persName>, prynter vnto <placeName>the moost excellent princesse my lady the kynges graundame</placeName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>Anno d[omi]ni. M.CCCCC.ix. [1509]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a title-page woodcut.</note>
+      <note>Imprint from colophon. Variant: colophon lacks words "prynter .. graundame".</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>wynkyn de worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the moost excellent princesse my lady the kynges graundame</placeName>
+    </place>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A progresse of pietie. Or the harbour of heauenly harts ease to recreate the afflicted soules of all such as are shut vp in anye inward or outward affliction. By Iohn Norden.</title>
-         <author>Norden, John, 1548-1625?</author>
-      </titleStmt>
-      <extent>[8], 100 leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. Windet for I. Oxenbridge, and are to be soulde in Paules Church-yarde at the signe of the Parrot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A progresse of pietie. Or the harbour of heauenly harts ease to recreate the afflicted soules of all such as are shut vp in anye inward or outward affliction. By Iohn Norden.</title>
+      <author>Norden, John, 1548-1625?</author>
+    </titleStmt>
+    <extent>[8], 100 leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Windet</persName> for <persName type="publisher">I. Oxenbridge</persName>, and are to be soulde in <placeName>Paules Church-yarde at the signe of the Parrot</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Oxenbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Windet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yarde at the signe of the Parrot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

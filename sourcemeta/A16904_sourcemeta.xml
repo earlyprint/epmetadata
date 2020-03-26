@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition of the Creede, the Lords Prayer, the Tenne Commandements, and the Sacraments. Catechetically composed by Iohn Bristovv, minister of the Word of God</title>
-         <author>Bristow, John, minister of the word of God.</author>
-      </titleStmt>
-      <extent>[8], 240 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. F[lesher] for Samuel Man, dwelling in Pauls Church-yard, at the signe of the Swanne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: A short catechisme, with a larger exposition.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition of the Creede, the Lords Prayer, the Tenne Commandements, and the Sacraments. Catechetically composed by Iohn Bristovv, minister of the Word of God</title>
+      <author>Bristow, John, minister of the word of God.</author>
+    </titleStmt>
+    <extent>[8], 240 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. F[lesher]</persName> for <persName type="publisher">Samuel Man</persName>, dwelling in <placeName>Pauls Church-yard, at the signe of the Swanne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: A short catechisme, with a larger exposition.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="printer">
+      <persName>M. F[lesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe of the Swanne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

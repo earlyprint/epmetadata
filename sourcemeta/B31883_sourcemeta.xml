@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious letter to the Parliament of Scotland. With the speech of the Marquis of Tweeddale, His Majesties High Commissioner, and the speech of the Earl of Annandale, Lord President of the Parliament. Published by authority.</title>
-         <title>Miscellaneous documents. 1695-04-17.</title>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-         <author>Tweedale, John Hay, Marquess of, 1626?-1697.</author>
-         <author>Annandale, William Johnston, Marquis of, 1664-1721.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh, printed by the heirs and successors of Andrew Anderson. And reprinted by Edward Jones in the Savoy,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>William III's letter is dated at end: the 17th day of April, 1695.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious letter to the Parliament of Scotland. With the speech of the Marquis of Tweeddale, His Majesties High Commissioner, and the speech of the Earl of Annandale, Lord President of the Parliament. Published by authority.</title>
+      <title>Miscellaneous documents. 1695-04-17.</title>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+      <author>Tweedale, John Hay, Marquess of, 1626?-1697.</author>
+      <author>Annandale, William Johnston, Marquis of, 1664-1721.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh, printed by <persName type="printer">the heirs and successors of Andrew Anderson. And</persName> reprinted by <persName type="printer">Edward Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>William III's letter is dated at end: the 17th day of April, 1695.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

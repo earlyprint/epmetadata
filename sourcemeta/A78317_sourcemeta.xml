@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of the moneys, men, and horse, already subscribed unto by severall counties of this kingdome and undertaken for His Majestyes service August the fifth 1642.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>First printed at Yorke and now reprinted at London, for Iohn Thomas,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "August 9th".</note>
-         <note>With engraved floral border.</note>
-         <note>Lists members of the Council of War at end of document.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of the moneys, men, and horse, already subscribed unto by severall counties of this kingdome and undertaken for His Majestyes service August the fifth 1642.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>First printed at <placeName>Yorke</placeName> and now reprinted at <placeName>London</placeName>, for <persName type="publisher">Iohn Thomas</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "August 9th".</note>
+      <note>With engraved floral border.</note>
+      <note>Lists members of the Council of War at end of document.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Thomas</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Yorke</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Cleare and evident way for enriching the nations of England and Ireland and for setting very great numbers of poore on work</title>
-         <author>Keymor, John, fl. 1610-1620.</author>
-         <author>Raleigh, Walter, Sir, 1552?-1618.</author>
-         <author>I. D.</author>
-      </titleStmt>
-      <extent>[4], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. &amp; A.C., and are sold by John Saywell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The dedicatory preface signed: I.D.</note>
-         <note>Variously attributed to John Keymor and Sir Walter Raleigh.</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Cleare and evident way for enriching the nations of England and Ireland and for setting very great numbers of poore on work</title>
+      <author>Keymor, John, fl. 1610-1620.</author>
+      <author>Raleigh, Walter, Sir, 1552?-1618.</author>
+      <author>I. D.</author>
+    </titleStmt>
+    <extent>[4], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> &amp; <persName type="printer">A.C.</persName>, and are sold by <persName type="bookseller">John Saywell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The dedicatory preface signed: I.D.</note>
+      <note>Variously attributed to John Keymor and Sir Walter Raleigh.</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Saywell</persName>
+    </person>
+    <person type="printer">
+      <persName>A.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

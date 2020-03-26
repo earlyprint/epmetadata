@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation. William R. Whereas by an Act made this present session of Parliament, intituled, An Act for granting an aid to His Majesty, for disbanding the Army, and other necessary occesions, it is amongst other things enacted, that the army, and all the respective regiments, ...</title>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, and the executrix of Thomas Newcomb, deceas'd, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698 [i.e. 1699]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and first lines of text.</note>
-         <note>Dating is given according to Lady Day dating.</note>
-         <note>Arms 128; Steele notation: the Right pursuance.</note>
-         <note>At end of text: "Given at Our court at Kensington, the twenty third day of February, 1698. In the eleventh year of Our reign.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation. William R. Whereas by an Act made this present session of Parliament, intituled, An Act for granting an aid to His Majesty, for disbanding the Army, and other necessary occesions, it is amongst other things enacted, that the army, and all the respective regiments, ...</title>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill, and the executrix of Thomas Newcomb, deceas'd</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698 [i.e. 1699]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and first lines of text.</note>
+      <note>Dating is given according to Lady Day dating.</note>
+      <note>Arms 128; Steele notation: the Right pursuance.</note>
+      <note>At end of text: "Given at Our court at Kensington, the twenty third day of February, 1698. In the eleventh year of Our reign.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Charles Bill, and the executrix of Thomas Newcomb, deceas'd</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

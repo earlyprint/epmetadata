@@ -1,25 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation for the marchauntes aduenturers [...] Elizabeth dei gratia Angliæ, Franciæ, &amp; Hiberniæ, Regina fidei defensor, &amp;c. [...]</title>
-         <title>Proclamations. 1559-05-01</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iugge and Iohn Cawood, printers to the Quenes Maiestie [i.e. B. Norton and J. Bill],</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno M.D.LIX [1559] [i.e. ca. 1618]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A proclamation for carrying small sums of money out of the realm.</note>
-         <note>Caption title.</note>
-         <note>Another edition of STC 7894 (Steele, R. Tudor and Stuart Proclamations, 507).</note>
-         <note>Actual printers' names and suggested publication date from STC.</note>
-         <note>At foot of page Cum priuilegio Regiæ Maiestatis.</note>
-         <note>Line 1 of text ends: "Fran-".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation for the marchauntes aduenturers [...] Elizabeth dei gratia Angli&#230;, Franci&#230;, &amp; Hiberni&#230;, Regina fidei defensor, &amp;c. [...]</title>
+      <title>Proclamations. 1559-05-01</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iugge</persName> and <persName type="printer">Iohn Cawood</persName>, printers to <persName type="patron">the Quenes Maiestie [i.e. B. Norton</persName> and <persName type="patron">J. Bill]</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno M.D.LIX [1559] [i.e. ca. 1618]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A proclamation for carrying small sums of money out of the realm.</note>
+      <note>Caption title.</note>
+      <note>Another edition of STC 7894 (Steele, R. Tudor and Stuart Proclamations, 507).</note>
+      <note>Actual printers' names and suggested publication date from STC.</note>
+      <note>At foot of page Cum priuilegio Regi&#230; Maiestatis.</note>
+      <note>Line 1 of text ends: "Fran-".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>J. Bill]</persName>
+    </person>
+    <person type="patron">
+      <persName>the Quenes Maiestie [i.e. B. Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iugge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

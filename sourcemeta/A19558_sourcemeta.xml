@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Amanda: or, The reformed whore. Composed, and made by Thomas Cranley gent. now a prisoner in the Kings-bench, Anno Dom. 1635</title>
-         <author>Cranley, Thomas, fl. 1635.</author>
-      </titleStmt>
-      <extent>[6], 88, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>[By J[ohn] Norton], and are to be sold at the golden Key [..],</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>[1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Collates A⁴ (-A4 = N1) B-M⁴ N¹ (=A4); in the Bodleian Library copy A4 is still in its original position.</note>
-         <note>Imperfect: imprint cropped.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Largely in verse.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Amanda: or, The reformed whore. Composed, and made by Thomas Cranley gent. now a prisoner in the Kings-bench, Anno Dom. 1635</title>
+      <author>Cranley, Thomas, fl. 1635.</author>
+    </titleStmt>
+    <extent>[6], 88, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">J[ohn] Norton]</persName>, and are to be sold at <placeName>the golden Key [..]</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Collates A&#8308; (-A4 = N1) B-M&#8308; N&#185; (=A4); in the Bodleian Library copy A4 is still in its original position.</note>
+      <note>Imperfect: imprint cropped.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Largely in verse.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J[ohn] Norton]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the golden Key [..]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

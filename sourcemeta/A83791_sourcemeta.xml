@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Lunæ, 27 Martii, 1648. Ordered (upon the question) by the Commons assembled in Parliament, ...</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, Printer to the Honorable House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The House to be called on 24 April. This to be printed and sent to the Sheriffs, who are to give particular notice to members within their counties -- Cf. Steele.</note>
-         <note>Signed: H: Elsynge, Cler. Parl. D. Com.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Lun&#230;, 27 Martii, 1648. Ordered (upon the question) by the Commons assembled in Parliament, ...</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The House to be called on 24 April. This to be printed and sent to the Sheriffs, who are to give particular notice to members within their counties -- Cf. Steele.</note>
+      <note>Signed: H: Elsynge, Cler. Parl. D. Com.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

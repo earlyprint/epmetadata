@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mortalities meditation: or, A description of sinne VVith a definition and plaine setting forth of mans three chiefest and greatest enemies; to wit, the world, the flesh, and the Diuell. Written by William Hall.</title>
-         <author>Hall, William, fl. 1624.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>By Aug. Mathewes, for Beniamin Fisher, and are to be sold at his shop in Pater-noster Row, at the signe of the Talbot,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-E⁴ F² .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mortalities meditation: or, A description of sinne VVith a definition and plaine setting forth of mans three chiefest and greatest enemies; to wit, the world, the flesh, and the Diuell. Written by William Hall.</title>
+      <author>Hall, William, fl. 1624.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Aug. Mathewes</persName>, for <persName type="publisher">Beniamin Fisher</persName>, and are to be sold at <placeName>his shop in Pater-noster Row, at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-E&#8308; F&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Beniamin Fisher</persName>
+    </person>
+    <person type="printer">
+      <persName>Aug. Mathewes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pater-noster Row, at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

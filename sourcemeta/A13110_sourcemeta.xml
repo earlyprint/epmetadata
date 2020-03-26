@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Kings most excellent Maiestie. The humble petition and information of Sir Lewis Stucley, Knight, Vice-admirall of Deuon, touching his owne behauiour in the charge committed vnto him, for the bringing vp of Sir Walter Raleigh, and the scandalous aspersions cast vpon him for the same</title>
-         <title>Humble petition and information</title>
-         <author>Stucley, Lewis, Sir, d. 1620.</author>
-      </titleStmt>
-      <extent>[2], 17, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date>Anno 1618]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title, A2r.</note>
-         <note>Imprint from colophon, which is from the same setting as STC 20652.5.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the University of Edinburgh. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the Kings most excellent Maiestie. The humble petition and information of Sir Lewis Stucley, Knight, Vice-admirall of Deuon, touching his owne behauiour in the charge committed vnto him, for the bringing vp of Sir Walter Raleigh, and the scandalous aspersions cast vpon him for the same</title>
+      <title>Humble petition and information</title>
+      <author>Stucley, Lewis, Sir, d. 1620.</author>
+    </titleStmt>
+    <extent>[2], 17, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>Anno 1618]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title, A2r.</note>
+      <note>Imprint from colophon, which is from the same setting as STC 20652.5.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the University of Edinburgh. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

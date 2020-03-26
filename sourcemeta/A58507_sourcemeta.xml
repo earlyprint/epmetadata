@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Remarks upon Remarques, or, A vindication of the conversations of the town in another letter directed to the same Sir T.L.</title>
-         <author>T. L., Sir.</author>
-      </titleStmt>
-      <extent>[14], 126 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.C. for William Hensman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An answer to "Remarques on the humours and conversations of the town, written in a letter to Sir T.L." 1673.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Remarks upon Remarques, or, A vindication of the conversations of the town in another letter directed to the same Sir T.L.</title>
+      <author>T. L., Sir.</author>
+    </titleStmt>
+    <extent>[14], 126 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.C.</persName> for <persName type="publisher">William Hensman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An answer to "Remarques on the humours and conversations of the town, written in a letter to Sir T.L." 1673.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Hensman</persName>
+    </person>
+    <person type="printer">
+      <persName>A.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

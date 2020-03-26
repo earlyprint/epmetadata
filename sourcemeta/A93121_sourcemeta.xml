@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Salmacis, Lyrian &amp; Sylvia, forsaken Lydia, the rape of Helen, a comment thereon, with severall other poems and translations. By Edvvard Sherburne Esquire.</title>
-         <author>Preti, Girolamo, 1582-1626.</author>
-         <author>Marino, Giambattista, 1569-1625.</author>
-         <author>Colluthus, of Lycopolis.</author>
-         <author>Saint-Amant, Marc Antoine Gérard, sieur de, 1594-1661.</author>
-         <author>Sherburne, Edward, Sir, 1618-1702.</author>
-      </titleStmt>
-      <extent>[4], 102, 95-169, [1] p., plate   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Hunt, for Thomas Dring, at the sign of the George, near Cliffords-Inn in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse; translations.</note>
-         <note>"The rape of Hellen, out of the Greek of Coluthus" has separate dated title page; pagination and register are continuous.</note>
-         <note>Annotation on Thomason copy: "ffeb. 11th 1650"; imprint date crossed through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Salmace / Girolamo Preti -- Lidia abbandonata / Giambattista Marino -- Metamorphose de Lyrian et de Sylvie / Marc Antoine Gérard, sieur de Saint-Amant.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Salmacis, Lyrian &amp; Sylvia, forsaken Lydia, the rape of Helen, a comment thereon, with severall other poems and translations. By Edvvard Sherburne Esquire.</title>
+      <author>Preti, Girolamo, 1582-1626.</author>
+      <author>Marino, Giambattista, 1569-1625.</author>
+      <author>Colluthus, of Lycopolis.</author>
+      <author>Saint-Amant, Marc Antoine G&#233;rard, sieur de, 1594-1661.</author>
+      <author>Sherburne, Edward, Sir, 1618-1702.</author>
+    </titleStmt>
+    <extent>[4], 102, 95-169, [1] p., plate   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Hunt</persName>, for <persName type="publisher">Thomas Dring</persName>, at <placeName>the sign of the George, near Cliffords-Inn in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse; translations.</note>
+      <note>"The rape of Hellen, out of the Greek of Coluthus" has separate dated title page; pagination and register are continuous.</note>
+      <note>Annotation on Thomason copy: "ffeb. 11th 1650"; imprint date crossed through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Salmace / Girolamo Preti -- Lidia abbandonata / Giambattista Marino -- Metamorphose de Lyrian et de Sylvie / Marc Antoine G&#233;rard, sieur de Saint-Amant.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Hunt</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the George, near Cliffords-Inn in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe and cleare confession of the Christian fayth Containing an hundreth articles, after the order of the creede of the Apostles. Made and declared by Iohn Gardiner. Translated out of French into English by Iohn Brooke of Asshe, next Sandwitch. An. 1577.</title>
-         <title>Briefve et claire confession de la foy chrestienne. English.</title>
-         <author>Garnier, Jean, d. 1574.</author>
-         <author>Brooke, John, d. 1582.</author>
-      </titleStmt>
-      <extent>[12], 48, [4] leaves   </extent>
-      <publicationStmt>
-         <publisher>[By J. Charlewood] for Edward Wight [i.e. White], and are to be sold at his shop at the little North doore of Paules, at the signe of the Gun,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1579.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Garnier, Jean.  Briefve et claire confession de la foy chrestienne, contenant cent articles, selon l'ordre du symbole des apostres.</note>
-         <note>Formerly STC 11565.</note>
-         <note>Identified as STC 11565 on UMI microfilm.</note>
-         <note>Printer's name and vendor's actual name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe and cleare confession of the Christian fayth Containing an hundreth articles, after the order of the creede of the Apostles. Made and declared by Iohn Gardiner. Translated out of French into English by Iohn Brooke of Asshe, next Sandwitch. An. 1577.</title>
+      <title>Briefve et claire confession de la foy chrestienne. English.</title>
+      <author>Garnier, Jean, d. 1574.</author>
+      <author>Brooke, John, d. 1582.</author>
+    </titleStmt>
+    <extent>[12], 48, [4] leaves   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">J. Charlewood]</persName> for <persName type="publisher">Edward Wight [i.e. White]</persName>, and are to be sold at <placeName>his shop at the little North doore of Paules, at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1579.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Garnier, Jean.  Briefve et claire confession de la foy chrestienne, contenant cent articles, selon l'ordre du symbole des apostres.</note>
+      <note>Formerly STC 11565.</note>
+      <note>Identified as STC 11565 on UMI microfilm.</note>
+      <note>Printer's name and vendor's actual name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Wight [i.e. White]</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Charlewood]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the little North doore of Paules, at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

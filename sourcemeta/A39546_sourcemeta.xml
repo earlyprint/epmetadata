@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fair play for one's life: or, The sovereign preservative of the royal family, nobility, &amp;c. and, of the arts of physick, and surgery, and the apothecaries trade. By a gentleman of quality of North Britain.</title>
-         <title>Fair play for one's life.</title>
-         <author>Gentleman of quality of North-Britain.</author>
-      </titleStmt>
-      <extent>16p.   </extent>
-      <publicationStmt>
-         <publisher>printed for M. Wotton, at the Three Daggers in Fleetstreet; and sold by J. Morphew, near Stationers-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1708?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fair play for one's life: or, The sovereign preservative of the royal family, nobility, &amp;c. and, of the arts of physick, and surgery, and the apothecaries trade. By a gentleman of quality of North Britain.</title>
+      <title>Fair play for one's life.</title>
+      <author>Gentleman of quality of North-Britain.</author>
+    </titleStmt>
+    <extent>16p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">M. Wotton</persName>, at <placeName>the Three Daggers in Fleetstreet;</placeName> and sold by <persName type="bookseller">J. Morphew</persName>, near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1708?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Morphew</persName>
+    </person>
+    <person type="publisher">
+      <persName>M. Wotton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Three Daggers in Fleetstreet;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

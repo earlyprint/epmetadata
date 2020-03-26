@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A copy of a letter sent from a person that was present at the apprehension of Mr. Meade and five more</title>
-         <author>E. M.</author>
-      </titleStmt>
-      <extent>2 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. W.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Letter signed: E. M.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A copy of a letter sent from a person that was present at the apprehension of Mr. Meade and five more</title>
+      <author>E. M.</author>
+    </titleStmt>
+    <extent>2 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. W.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Letter signed: E. M.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The memoires of the Duke of Rohan: or, A faithful relation of the most remarable occurrences in France; especially concerning those of the Reformed Churches there. From the death of Henry the Great, untill the peace made with them, in June, 1629. Together with Divers politick discourses upon several occasions. / Written originally in French, by the Duke of Rohan And now Englished by George Bridges of Lincolns-Inne, Esq;.</title>
-         <title>Mémoires. English</title>
-         <author>Rohan, Henri, duc de, 1579-1638.</author>
-         <author>Bridges, George, of Lincoln's Inn.</author>
-         <author>Rohan, Henri, duc de, 1579-1638. Discourse politiques duduc de Rohan. English.</author>
-      </titleStmt>
-      <extent>[8], 224, [16]; [4], 70 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.M. [and Thomas Ratcliffe] for Gabriel Bedell, and Thomas Collins; and are to be sold at their shop, at the Middle-Temple Gate in Fleet-street.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes "Divers politique discourses of the Duke of Rohan .. printed by Thomas Ratcliffe" (Wing R1865) a translation of "Discours politiques du duc de Rohan".</note>
-         <note>Includes index.</note>
-         <note>Annotation on Thomason copy: "July.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The memoires of the Duke of Rohan: or, A faithful relation of the most remarable occurrences in France; especially concerning those of the Reformed Churches there. From the death of Henry the Great, untill the peace made with them, in June, 1629. Together with Divers politick discourses upon several occasions. / Written originally in French, by the Duke of Rohan And now Englished by George Bridges of Lincolns-Inne, Esq;.</title>
+      <title>M&#233;moires. English</title>
+      <author>Rohan, Henri, duc de, 1579-1638.</author>
+      <author>Bridges, George, of Lincoln's Inn.</author>
+      <author>Rohan, Henri, duc de, 1579-1638. Discourse politiques duduc de Rohan. English.</author>
+    </titleStmt>
+    <extent>[8], 224, [16]; [4], 70 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.M.</persName> [and <persName type="printer">Thomas Ratcliffe]</persName> for <persName type="publisher">Gabriel Bedell</persName>, and <persName type="publisher">Thomas Collins;</persName> and are to be sold at <placeName>their shop, at the Middle-Temple Gate in Fleet-street.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes "Divers politique discourses of the Duke of Rohan .. printed by Thomas Ratcliffe" (Wing R1865) a translation of "Discours politiques du duc de Rohan".</note>
+      <note>Includes index.</note>
+      <note>Annotation on Thomason copy: "July.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gabriel Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Collins;</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Ratcliffe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop, at the Middle-Temple Gate in Fleet-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

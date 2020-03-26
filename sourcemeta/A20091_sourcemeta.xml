@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVarres, vvarre[s,] vvarres</title>
-         <author>Dekker, Thomas, ca. 1572-1632.</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>[By Nicholas Okes] for I. G[rismand?],</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Tho. Dekker.</note>
-         <note>In verse.</note>
-         <note>Title interpolation, printer's name, and conjectured publisher's name from STC.</note>
-         <note>Signatures: A⁴ B-C D⁶.</note>
-         <note>Some leaves are possibly missing after A4 in the unique copy.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVarres, vvarre[s,] vvarres</title>
+      <author>Dekker, Thomas, ca. 1572-1632.</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Nicholas Okes]</persName> for <persName type="publisher">I. G[rismand?]</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Tho. Dekker.</note>
+      <note>In verse.</note>
+      <note>Title interpolation, printer's name, and conjectured publisher's name from STC.</note>
+      <note>Signatures: A&#8308; B-C D&#8310;.</note>
+      <note>Some leaves are possibly missing after A4 in the unique copy.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. G[rismand?]</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

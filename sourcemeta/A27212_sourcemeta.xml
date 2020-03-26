@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Psyche, or, Loves mysterie in XX canto's, displaying the intercourse betwixt Christ and the soule / by Joseph Beaumont ...</title>
-         <author>Beaumont, Joseph, 1616-1699.</author>
-      </titleStmt>
-      <extent>[6], 399, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Dawson for George Boddington, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Two columns to the page.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Psyche, or, Loves mysterie in XX canto's, displaying the intercourse betwixt Christ and the soule / by Joseph Beaumont ...</title>
+      <author>Beaumont, Joseph, 1616-1699.</author>
+    </titleStmt>
+    <extent>[6], 399, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Dawson</persName> for <persName type="publisher">George Boddington</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Two columns to the page.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Boddington</persName>
+    </person>
+    <person type="printer">
+      <persName>John Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

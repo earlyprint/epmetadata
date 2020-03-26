@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Select ayres and dialogues for one, two, and three voyces, to the theorbo-lute or basse-viol composed by John Wilson, Charles Colman, doctors in musick, Henry Lawes, William Lawes, Nicholas Laneare, William Webb, gentlemen and sevants to his late Majesty in his publick and private musick ; and other excellent masters of musick.</title>
-         <author>Wilson, John, 1595-1674.</author>
-         <author>Playford, John, 1623-1686?</author>
-      </titleStmt>
-      <extent>[6], 114 [i.e. 112] p. : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid for John Playford, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>"To all lovers of vocall musick" signed: John Playford.</note>
-         <note>Index: p. [4]-[5]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Select ayres and dialogues for one, two, and three voyces, to the theorbo-lute or basse-viol composed by John Wilson, Charles Colman, doctors in musick, Henry Lawes, William Lawes, Nicholas Laneare, William Webb, gentlemen and sevants to his late Majesty in his publick and private musick ; and other excellent masters of musick.</title>
+      <author>Wilson, John, 1595-1674.</author>
+      <author>Playford, John, 1623-1686?</author>
+    </titleStmt>
+    <extent>[6], 114 [i.e. 112] p. : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName> for <persName type="publisher">John Playford</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>"To all lovers of vocall musick" signed: John Playford.</note>
+      <note>Index: p. [4]-[5]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

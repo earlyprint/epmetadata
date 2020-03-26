@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>New songs sung in The fool's preferment, or The three dukes of Dunstable</title>
-         <author>D'Urfey, Thomas, 1653-1723.</author>
-         <author>Purcell, Henry, 1659-1695.</author>
-      </titleStmt>
-      <extent>16 p. : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Jones, for Jos. Knight and Fran. Saunders, at the Blue Anchor in the Lower-Walk of the New Exchange in the Strand,</publisher>
-         <pubPlace>In the Savoy :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of score: Mr. Henry Purcell.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>New songs sung in The fool's preferment, or The three dukes of Dunstable</title>
+      <author>D'Urfey, Thomas, 1653-1723.</author>
+      <author>Purcell, Henry, 1659-1695.</author>
+    </titleStmt>
+    <extent>16 p. : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Jones</persName>, for <persName type="publisher">Jos. Knight</persName> and <persName type="publisher">Fran. Saunders</persName>, at <placeName>the Blue Anchor in the Lower-Walk of the New Exchange in the Strand</placeName>,</publisher>
+      <pubPlace>In the Savoy :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of score: Mr. Henry Purcell.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fran. Saunders</persName>
+    </person>
+    <person type="publisher">
+      <persName>Jos. Knight</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blue Anchor in the Lower-Walk of the New Exchange in the Strand</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

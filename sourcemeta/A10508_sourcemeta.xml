@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The chirurgicall lectures of tumors and vlcers Delivered on Tusedayes appointed for these exercises, and keeping of their courts in the Chirurgeans Hall these three yeeres last past, viz. 1632, 1633, and 1634. By Alexander Read Doctor of Physick, and one of the fellowes of the Physitians College of London.</title>
-         <author>Read, Alexander, 1586?-1641.</author>
-      </titleStmt>
-      <extent>[16], 334, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] H[aviland] for Francis Constable and E[dwin] B[ush] and are to be sold at the signe of the Crane in Pauls Churchyard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Haviland's and Bush's names from STC.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The chirurgicall lectures of tumors and vlcers Delivered on Tusedayes appointed for these exercises, and keeping of their courts in the Chirurgeans Hall these three yeeres last past, viz. 1632, 1633, and 1634. By Alexander Read Doctor of Physick, and one of the fellowes of the Physitians College of London.</title>
+      <author>Read, Alexander, 1586?-1641.</author>
+    </titleStmt>
+    <extent>[16], 334, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] H[aviland]</persName> for <persName type="publisher">Francis Constable</persName> and <persName type="publisher">E[dwin] B[ush]</persName> and are to be sold at <placeName>the signe of the Crane in Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Haviland's and Bush's names from STC.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E[dwin] B[ush]</persName>
+    </person>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] H[aviland]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crane in Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

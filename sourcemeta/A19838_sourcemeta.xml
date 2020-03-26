@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vision of the 12. goddesses presented in a maske the 8. of Ianuary, at Hampton Court: by the Queenes most excellent Maiestie, and her ladies.</title>
-         <title>True discription of a royall masque</title>
-         <author>Daniel, Samuel, 1562-1619.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] C[reede] for Simon Waterson, and are to be sold at his sop [sic] in Pauls Church-yard, at the signe of the Crowne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Sam: Daniel.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-B.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>A reprinting of "The true discription of a royall masque", with added letter by Daniel.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vision of the 12. goddesses presented in a maske the 8. of Ianuary, at Hampton Court: by the Queenes most excellent Maiestie, and her ladies.</title>
+      <title>True discription of a royall masque</title>
+      <author>Daniel, Samuel, 1562-1619.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] C[reede]</persName> for <persName type="publisher">Simon Waterson</persName>, and are to be sold at <placeName>his sop [sic] in Pauls Church-yard, at the signe of the Crowne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Sam: Daniel.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-B.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>A reprinting of "The true discription of a royall masque", with added letter by Daniel.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his sop [sic] in Pauls Church-yard, at the signe of the Crowne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

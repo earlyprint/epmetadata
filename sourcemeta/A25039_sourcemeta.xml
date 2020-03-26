@@ -1,17 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the defeat of the rebels in England as also the taking of the late Duke of Monmouth, the late Lord Gray, &amp;c.</title>
-      </titleStmt>
-      <extent>2 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Newcomb ; reprinted at Edinburgh, by the heir of A Anderson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the defeat of the rebels in England as also the taking of the late Duke of Monmouth, the late Lord Gray, &amp;c.</title>
+    </titleStmt>
+    <extent>2 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Newcomb ;</persName> reprinted at <placeName>Edinburgh</placeName>, by <persName type="printer">the heir of A Anderson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Newcomb ;</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of A Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

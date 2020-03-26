@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Resolues, diuine, morall, politicall b Owin Felltham</title>
-         <title>Resolves</title>
-         <author>Felltham, Owen, 1602?-1668.</author>
-      </titleStmt>
-      <extent>[20], 327, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by George Purslowe] for Henry Seile,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1623?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The title page is engraved.</note>
-         <note>Printer's name supplied and publication date conjectured by STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Resolues, diuine, morall, politicall b Owin Felltham</title>
+      <title>Resolves</title>
+      <author>Felltham, Owen, 1602?-1668.</author>
+    </titleStmt>
+    <extent>[20], 327, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">George Purslowe]</persName> for <persName type="publisher">Henry Seile</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1623?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The title page is engraved.</note>
+      <note>Printer's name supplied and publication date conjectured by STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

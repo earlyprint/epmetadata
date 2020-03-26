@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Ovid written by Sir Aston Cokain, Baronet.</title>
-         <author>Cokain, Aston, Sir, 1608-1684.</author>
-         <author>Cotton, Charles, 1630-1687.</author>
-      </titleStmt>
-      <extent>[10], 138, [2] p. : ports.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Kirkman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedicated to Charles Cotton; with commendatory verses by Charles Cotton.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Ovid written by Sir Aston Cokain, Baronet.</title>
+      <author>Cokain, Aston, Sir, 1608-1684.</author>
+      <author>Cotton, Charles, 1630-1687.</author>
+    </titleStmt>
+    <extent>[10], 138, [2] p. : ports.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Kirkman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedicated to Charles Cotton; with commendatory verses by Charles Cotton.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Kirkman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

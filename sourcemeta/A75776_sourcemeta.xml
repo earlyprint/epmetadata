@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An attest of the housholders within the parish of Buttolphs Aldgate London, unto the innocency of Mr. Zach. Crofton, their present minister and faithfull pastor. VVherein wee acquit our selves from the guilt and odium of prosecuting him. And rescue him from the clamours of incivility charged upon him, to the scandalizing of his name and ministry. Entred according to order.</title>
-      </titleStmt>
-      <extent>[8], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for James Nuthall, and are to bee sold at his house in the minories, next door to the Dolphin, and likewise at Book-sellers shops,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first and fourth leaves are blank.</note>
-         <note>Annotation on Thomason copy: "Aprill. 26".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An attest of the housholders within the parish of Buttolphs Aldgate London, unto the innocency of Mr. Zach. Crofton, their present minister and faithfull pastor. VVherein wee acquit our selves from the guilt and odium of prosecuting him. And rescue him from the clamours of incivility charged upon him, to the scandalizing of his name and ministry. Entred according to order.</title>
+    </titleStmt>
+    <extent>[8], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">James Nuthall</persName>, and are to bee sold at <placeName>his house in the minories, next door to the Dolphin</placeName>, and likewise at <placeName>Book-sellers shops</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first and fourth leaves are blank.</note>
+      <note>Annotation on Thomason copy: "Aprill. 26".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Nuthall</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Book-sellers shops</placeName>
+    </place>
+    <place type="location">
+      <placeName>his house in the minories, next door to the Dolphin</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

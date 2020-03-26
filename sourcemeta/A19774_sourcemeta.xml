@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A suruey of the great dukes state of Tuscany In the yeare of our Lord 1596.</title>
-         <author>Dallington, Robert, 1561-1637.</author>
-      </titleStmt>
-      <extent>[4], 40, 33-66, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by George Eld] for Edward Blount,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The name of the author, Robert Dallington, appears on A2r.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: A suruey of the great dukes state of Tuscanie.</note>
-         <note>The last leaf is blank.</note>
-         <note>In this edition p. 27 is correctly paged; in imprint, the "E" of "Edward" is under the first "n" of "London".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A suruey of the great dukes state of Tuscany In the yeare of our Lord 1596.</title>
+      <author>Dallington, Robert, 1561-1637.</author>
+    </titleStmt>
+    <extent>[4], 40, 33-66, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">George Eld]</persName> for <persName type="publisher">Edward Blount</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The name of the author, Robert Dallington, appears on A2r.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: A suruey of the great dukes state of Tuscanie.</note>
+      <note>The last leaf is blank.</note>
+      <note>In this edition p. 27 is correctly paged; in imprint, the "E" of "Edward" is under the first "n" of "London".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blount</persName>
+    </person>
+    <person type="printer">
+      <persName>George Eld]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

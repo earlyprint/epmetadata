@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A prognostication made for y[e] yeere of our Lorde God 1566 declaryng the chau[n]ge, full, &amp; quarters of the moone, w[ith] other,accustomable matters, seruing all England / by Maister F. Cox ...</title>
-         <author>Coxe, Francis, fl. 1560.</author>
-      </titleStmt>
-      <extent>[29] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Imprynted [at London?] at the long shop adioining vnto S. Mildreds Churche in the Pultrie by John Alde,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1566]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of imprint suggested by STC (2nd ed.).</note>
-         <note>Formerly STC 5949.</note>
-         <note>Imperfect: stained and torn, with some loss of print.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A prognostication made for y[e] yeere of our Lorde God 1566 declaryng the chau[n]ge, full, &amp; quarters of the moone, w[ith] other,accustomable matters, seruing all England / by Maister F. Cox ...</title>
+      <author>Coxe, Francis, fl. 1560.</author>
+    </titleStmt>
+    <extent>[29] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Imprynted [at <placeName>London?] at the long shop adioining vnto S. Mildreds Churche in the Pultrie</placeName> by <persName type="printer">John Alde</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1566]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of imprint suggested by STC (2nd ed.).</note>
+      <note>Formerly STC 5949.</note>
+      <note>Imperfect: stained and torn, with some loss of print.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Alde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London?] at the long shop adioining vnto S. Mildreds Churche in the Pultrie</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Major. Wee charge and command you, that upon S. Thomas day the apostle next comming, you doe hold your ward mote, ...</title>
-         <author>City of London (England). Lord Mayor.</author>
-      </titleStmt>
-      <extent>3 sheets ([3] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Richard Cotes, Printer to the Honourable City of London,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>[1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Place of publication and printer from colophon; publication date from Wing.</note>
-         <note>Includes: An act for the reformation of divers abuses, used in the Wardmote Enquests.</note>
-         <note>Annotation on Thomason copy: "1649:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Major. Wee charge and command you, that upon S. Thomas day the apostle next comming, you doe hold your ward mote, ...</title>
+      <author>City of London (England). Lord Mayor.</author>
+    </titleStmt>
+    <extent>3 sheets ([3] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Richard Cotes</persName>, Printer to <persName type="patron">the Honourable City of London</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Place of publication and printer from colophon; publication date from Wing.</note>
+      <note>Includes: An act for the reformation of divers abuses, used in the Wardmote Enquests.</note>
+      <note>Annotation on Thomason copy: "1649:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

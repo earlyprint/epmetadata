@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ansvver to the animadversions on the dissertations touching Ignatius's epistles, and the episcopacie in them asserted. By H. Hammond, D.D.</title>
-         <author>Hammond, Henry, 1605-1660.</author>
-         <author>Owen, John, 1616-1683.</author>
-      </titleStmt>
-      <extent>[4], 219, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.G. for Richard Royston, at the Angel in Ivie-lane.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reprinting of and reply to part of: Owen, John.  The doctrine of the saints perseverance, explained and confirmed.</note>
-         <note>Title page in red and black.</note>
-         <note>The first leaf is blank.</note>
-         <note>Annotation on Thomason copy: "Nou: 4th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ansvver to the animadversions on the dissertations touching Ignatius's epistles, and the episcopacie in them asserted. By H. Hammond, D.D.</title>
+      <author>Hammond, Henry, 1605-1660.</author>
+      <author>Owen, John, 1616-1683.</author>
+    </titleStmt>
+    <extent>[4], 219, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Richard Royston</persName>, at <placeName>the Angel in Ivie-lane.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reprinting of and reply to part of: Owen, John.  The doctrine of the saints perseverance, explained and confirmed.</note>
+      <note>Title page in red and black.</note>
+      <note>The first leaf is blank.</note>
+      <note>Annotation on Thomason copy: "Nou: 4th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Ivie-lane.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

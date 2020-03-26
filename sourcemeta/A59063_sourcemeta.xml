@@ -1,17 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Seekers request to Catholick priests and Protestant ministers for satisfying his conscience in the truth of what he ought to believe of the Lords supper</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.F. and are to be sold by the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Seekers request to Catholick priests and Protestant ministers for satisfying his conscience in the truth of what he ought to believe of the Lords supper</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.F.</persName> and are to be sold by <persName type="bookseller">the booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+    <person type="publisher">
+      <persName>J.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

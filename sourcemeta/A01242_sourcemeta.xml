@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The marriage of the tvvo great princes, Fredericke Count Palatine, &amp;c: and the Lady Elizabeth, daughter to the Imperial Maiesties of King Iames and Queene Anne vpon Shroue-Sonday last. With the showes and fire-workes vpon the water: as also the masks &amp; reuells, in his Highnes court of White-Hall.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>By T[homas] C[reede] for William Barley, and are to be sold by W. Wright, at his shop on Snow-hill, nere S. Pulchers church, at the signe of the Harrow,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-B⁴.</note>
-         <note>Running title reads: Ioyfull triumphs at the royall mariage.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The marriage of the tvvo great princes, Fredericke Count Palatine, &amp;c: and the Lady Elizabeth, daughter to the Imperial Maiesties of King Iames and Queene Anne vpon Shroue-Sonday last. With the showes and fire-workes vpon the water: as also the masks &amp; reuells, in his Highnes court of White-Hall.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">T[homas] C[reede]</persName> for <persName type="publisher">William Barley</persName>, and are to be sold by <persName type="bookseller">W. Wright</persName>, at <placeName>his shop on Snow-hill, nere S. Pulchers church, at the signe of the Harrow</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Running title reads: Ioyfull triumphs at the royall mariage.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Barley</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop on Snow-hill, nere S. Pulchers church, at the signe of the Harrow</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

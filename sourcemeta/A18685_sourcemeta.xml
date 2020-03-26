@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A caueat for the Christians agaynst the arch-papist</title>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>In Foster lane by [N. Hill for] Iohn Wally,</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date>[1548]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and publisher's name from colophon; actual printer's name and publication date from STC.</note>
-         <note>Title page border (McKerrow and Ferguson 33) has initials "J W" in the slot in the sill.</note>
-         <note>Signatures: A-B C⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A caueat for the Christians agaynst the arch-papist</title>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>In Foster lane by <persName type="printer">[N. Hill</persName> for<persName type="publisher">] Iohn Wally</persName>,</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date>[1548]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and publisher's name from colophon; actual printer's name and publication date from STC.</note>
+      <note>Title page border (McKerrow and Ferguson 33) has initials "J W" in the slot in the sill.</note>
+      <note>Signatures: A-B C&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Wally</persName>
+    </person>
+    <person type="printer">
+      <persName>[N. Hill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

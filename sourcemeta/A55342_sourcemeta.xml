@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reason a poem / written by the author of The choice.</title>
-         <author>Pomfret, John, 1667-1702.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by J. Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCC [i.e. 1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Added extra t.p.</note>
-         <note>Attributed to Pomfret by NUC pre-1956 imprints.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reason a poem / written by the author of The choice.</title>
+      <author>Pomfret, John, 1667-1702.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">J. Nutt</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCC [i.e. 1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Added extra t.p.</note>
+      <note>Attributed to Pomfret by NUC pre-1956 imprints.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Nutt</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

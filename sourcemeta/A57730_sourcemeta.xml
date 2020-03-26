@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The gentlemans companion, or, A character of true nobility and gentility in the way of essay / by a person of quality ...</title>
-         <author>Ramesey, William, 1627-1675 or 6.</author>
-      </titleStmt>
-      <extent>[14], 242, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Okes for Rowland Reynolds ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to William Ramesey. Cf. BM.</note>
-         <note>Errata on p. [1] at end.</note>
-         <note>Advertisement on p. [3]-[6] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The gentlemans companion, or, A character of true nobility and gentility in the way of essay / by a person of quality ...</title>
+      <author>Ramesey, William, 1627-1675 or 6.</author>
+    </titleStmt>
+    <extent>[14], 242, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Okes</persName> for <persName type="publisher">Rowland Reynolds</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to William Ramesey. Cf. BM.</note>
+      <note>Errata on p. [1] at end.</note>
+      <note>Advertisement on p. [3]-[6] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rowland Reynolds</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Okes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

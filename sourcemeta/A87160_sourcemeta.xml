@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vindication of the Holy Scriptures. Or the manifestation of Jesus Christ the true Messiah already come. Being the Christians antidote against the poysons of Judaisme and atheisme of this present age. Proved out of sacred scripture, ancient historians, and Jewish Rabbins. / By that learned, and late eminent divine, John Harrison.</title>
-         <author>Harrison, John, of the Inner Temple.</author>
-      </titleStmt>
-      <extent>[22], 150, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. and sold by J. Benson, and J. Playford, at their shops in Dunstans Church-yard, and in the Inner Temple.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June. 10.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vindication of the Holy Scriptures. Or the manifestation of Jesus Christ the true Messiah already come. Being the Christians antidote against the poysons of Judaisme and atheisme of this present age. Proved out of sacred scripture, ancient historians, and Jewish Rabbins. / By that learned, and late eminent divine, John Harrison.</title>
+      <author>Harrison, John, of the Inner Temple.</author>
+    </titleStmt>
+    <extent>[22], 150, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> and sold by <persName type="bookseller">J. Benson</persName>, and <persName type="bookseller">J. Playford</persName>, at <placeName>their shops in Dunstans Church-yard</placeName>, and in <placeName>the Inner Temple.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June. 10.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Benson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Inner Temple.</placeName>
+    </place>
+    <place type="location">
+      <placeName>their shops in Dunstans Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

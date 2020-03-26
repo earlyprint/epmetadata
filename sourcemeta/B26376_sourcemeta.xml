@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new and perfect relation of the takeing and apprehending five pyrates, viz. P.F. J.M. J.F-G. Irish-men. I.G. and I.F. English-men. That stole a merchants ship in Amsterdam; and having her at sea, they killed all the men that were aboard the ship, and brought her to Ireland, and there sold her merchants goods. Together with their tryals, speeches, and confessions at the place of execution; as they, were truly gathered by one that was present at their tryals and execution. By D.M.</title>
-         <author>D. M.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for I. Conniers, in Duck-Lane,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1670]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from Wing.</note>
-         <note>The words "P.F. .. English-men." are connected on title page by a complex series of brackets.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new and perfect relation of the takeing and apprehending five pyrates, viz. P.F. J.M. J.F-G. Irish-men. I.G. and I.F. English-men. That stole a merchants ship in Amsterdam; and having her at sea, they killed all the men that were aboard the ship, and brought her to Ireland, and there sold her merchants goods. Together with their tryals, speeches, and confessions at the place of execution; as they, were truly gathered by one that was present at their tryals and execution. By D.M.</title>
+      <author>D. M.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">I. Conniers</persName>, in <placeName>Duck-Lane</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1670]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from Wing.</note>
+      <note>The words "P.F. .. English-men." are connected on title page by a complex series of brackets.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Conniers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Duck-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

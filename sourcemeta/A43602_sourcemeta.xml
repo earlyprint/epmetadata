@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Machiavels ghost, as he lately appeared to his deare sons, the moderne projectors divulged for the pretended good of the kingdomes of England, Scotland, and Ireland.</title>
-         <title>Machiavels ghost</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-      </titleStmt>
-      <extent>[30] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.O. for Francis Constable, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse and prose.</note>
-         <note>The tract has been ascribed to Thomas Heywood. Cf. BM.</note>
-         <note>Another ed. has title: Machiavel, as he lately appeared, etc.</note>
-         <note>"Printed by authority, in the yeare of grace, 1641"</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Machiavels ghost, as he lately appeared to his deare sons, the moderne projectors divulged for the pretended good of the kingdomes of England, Scotland, and Ireland.</title>
+      <title>Machiavels ghost</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+    </titleStmt>
+    <extent>[30] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.O.</persName> for <persName type="publisher">Francis Constable</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse and prose.</note>
+      <note>The tract has been ascribed to Thomas Heywood. Cf. BM.</note>
+      <note>Another ed. has title: Machiavel, as he lately appeared, etc.</note>
+      <note>"Printed by authority, in the yeare of grace, 1641"</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>J.O.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

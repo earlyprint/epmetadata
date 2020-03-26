@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The weather-cocke of Romes religion: with her seuerall changes. Or: The world turn'd topsie-turuie by papists</title>
-         <author>Cooke, Alexander, 1564-1632.</author>
-      </titleStmt>
-      <extent>[2], 6, 9-16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by George Purslow for Iohn Marriot, and are to be sold at his shop in Saint Dunstanes Churchyard in Fleet-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Alexander Cooke.</note>
-         <note>Running title reads: The Roman weather-cocke.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The weather-cocke of Romes religion: with her seuerall changes. Or: The world turn'd topsie-turuie by papists</title>
+      <author>Cooke, Alexander, 1564-1632.</author>
+    </titleStmt>
+    <extent>[2], 6, 9-16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Purslow</persName> for <persName type="publisher">Iohn Marriot</persName>, and are to be sold at <placeName>his shop in Saint Dunstanes Churchyard in Fleet-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Alexander Cooke.</note>
+      <note>Running title reads: The Roman weather-cocke.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Marriot</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslow</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Saint Dunstanes Churchyard in Fleet-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

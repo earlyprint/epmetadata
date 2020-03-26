@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached on the fifth of November, MDCLXXIII by Isaac Barrow ...</title>
-         <author>Barrow, John, 1650 or 51-1684.</author>
-      </titleStmt>
-      <extent>[2], 37 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXIX [1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached on the fifth of November, MDCLXXIII by Isaac Barrow ...</title>
+      <author>Barrow, John, 1650 or 51-1684.</author>
+    </titleStmt>
+    <extent>[2], 37 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXIX [1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

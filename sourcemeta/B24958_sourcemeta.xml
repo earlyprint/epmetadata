@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A declaration. James R. Whereas several officers of our army did take and retain in their service several servants belonging to French officers, without the consent and approbation of their masters: ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook the assignee of Benjamin Tooke printer to the King's most excellent Majesty; and are to be sold at his Majesties printing-house on Ormonde-Key,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1689 [i.e. 1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our court at Dublin-Castle the 24th day of January 1689."</note>
-         <note>Dates are given according to Lady Day dating.</note>
-         <note>Servants of French officers not to be taken into service. Cf. Steele.</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A declaration. James R. Whereas several officers of our army did take and retain in their service several servants belonging to French officers, without the consent and approbation of their masters: ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> the assignee of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the King's most excellent Majesty;</persName> and are to be sold at <placeName>his Majesties printing-house on Ormonde-Key</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1689 [i.e. 1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our court at Dublin-Castle the 24th day of January 1689."</note>
+      <note>Dates are given according to Lady Day dating.</note>
+      <note>Servants of French officers not to be taken into service. Cf. Steele.</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excellent Majesty;</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

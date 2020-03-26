@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedie of Chabot admirall of France as it vvas presented by her Majesties Servants, at the private house in Drury Lane. Written by George Chapman, and Iames Shirly.</title>
-         <title>Chabot</title>
-         <author>Chapman, George, 1559?-1634.</author>
-         <author>Shirley, James, 1596-1666. aut</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes, for Andrew Crooke, and William Cooke,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The authors' names are bracketed together on title page.</note>
-         <note>Signatures: A-I⁴.</note>
-         <note>Running title reads: The admirall of France.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedie of Chabot admirall of France as it vvas presented by her Majesties Servants, at the private house in Drury Lane. Written by George Chapman, and Iames Shirly.</title>
+      <title>Chabot</title>
+      <author>Chapman, George, 1559?-1634.</author>
+      <author>Shirley, James, 1596-1666. aut</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName>, for <persName type="publisher">Andrew Crooke</persName>, and <persName type="publisher">William Cooke</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The authors' names are bracketed together on title page.</note>
+      <note>Signatures: A-I&#8308;.</note>
+      <note>Running title reads: The admirall of France.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Cooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

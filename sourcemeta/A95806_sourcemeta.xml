@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The good of peace and ill of vvarre, set forth in a sermon preached in the cathedrall church of S. Paul, the last day of July, 1642. By Ephraim Vdall, Rector of S. Austins, London.</title>
-         <author>Udall, Ephraim, d. 1647.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Badger, for Ph. Stephens and C. Meridith, and are to be sold at the gilded Lion and the Crane in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.XLII. [1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Aug: 23".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The good of peace and ill of vvarre, set forth in a sermon preached in the cathedrall church of S. Paul, the last day of July, 1642. By Ephraim Vdall, Rector of S. Austins, London.</title>
+      <author>Udall, Ephraim, d. 1647.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Badger</persName>, for <persName type="publisher">Ph. Stephens</persName> and <persName type="publisher">C. Meridith</persName>, and are to be sold at <placeName>the gilded Lion</placeName> and the Crane in <placeName>Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.XLII. [1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Aug: 23".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. Meridith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Ph. Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Badger</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the gilded Lion</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

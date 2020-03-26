@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The primitive rule of reformation delivered in a sermon before His Maiesty at Whitehall, Feb. 1, 1662 in vindication of our Church against the novelties of Rome by Tho. Pierce.</title>
-         <author>Pierce, Thomas, 1622-1691.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The sixt edition, more correct then the London impressions /</edition>
-      </editionStmt>
-      <extent>[6], 37 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H.H. for Ric. Royston and Ric. Davis,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by His Majesties special command."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The primitive rule of reformation delivered in a sermon before His Maiesty at Whitehall, Feb. 1, 1662 in vindication of our Church against the novelties of Rome by Tho. Pierce.</title>
+      <author>Pierce, Thomas, 1622-1691.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The sixt edition, more correct then the London impressions /</edition>
+    </editionStmt>
+    <extent>[6], 37 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H.H.</persName> for <persName type="publisher">Ric. Royston</persName> and <persName type="publisher">Ric. Davis</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by His Majesties special command."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Davis</persName>
+    </person>
+    <person type="publisher">
+      <persName>Ric. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>H.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

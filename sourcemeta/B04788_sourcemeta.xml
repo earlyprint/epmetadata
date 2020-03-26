@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Portsmouth observed and described.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Randall Taylor, near Stationers Hall,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Portsmouth, a place by nature, and by art ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Portsmouth observed and described.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Randall Taylor</persName>, near <placeName>Stationers Hall</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Portsmouth, a place by nature, and by art ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Randall Taylor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

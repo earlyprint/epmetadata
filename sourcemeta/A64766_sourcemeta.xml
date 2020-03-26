@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ladie's blush, or, The history of Susanna, the great example of conjugal chastity an heroick poem / by W.V.</title>
-         <author>W. V.</author>
-      </titleStmt>
-      <extent>[6], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Cotterel for Robert Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ladie's blush, or, The history of Susanna, the great example of conjugal chastity an heroick poem / by W.V.</title>
+      <author>W. V.</author>
+    </titleStmt>
+    <extent>[6], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Cotterel</persName> for <persName type="publisher">Robert Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>James Cotterel</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Articles ministred in the visitation of the right worshipfull maister Iohn King Archdeacon of Nottingham, in the yeare of our Lord God. 1599</title>
-         <title>Visitation articles. 1599</title>
-         <author>Church of England. Archdeaconry of Nottingham. Archdeacon (1590-1611 : King)</author>
-         <author>King, John, 1559?-1621.</author>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ioseph Barnes, Printer to the Vniversitie,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date>[1599]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from STC.</note>
-         <note>Signatures: A⁴ B² .</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Articles ministred in the visitation of the right worshipfull maister Iohn King Archdeacon of Nottingham, in the yeare of our Lord God. 1599</title>
+      <title>Visitation articles. 1599</title>
+      <author>Church of England. Archdeaconry of Nottingham. Archdeacon (1590-1611 : King)</author>
+      <author>King, John, 1559?-1621.</author>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ioseph Barnes</persName>, Printer to <persName type="patron">the Vniversitie</persName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date>[1599]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from STC.</note>
+      <note>Signatures: A&#8308; B&#178; .</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversitie</persName>
+    </person>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

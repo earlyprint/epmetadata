@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An easy and compendious introduction for reading all sorts of histories: contrived, in a more facile way then heretofore hath been published, out of the papers of Mathias Prideaux Mr of Arts and sometime fellow of Exeter Colledge in Oxford.</title>
-         <author>Prideaux, Mathias, 1622-1646?</author>
-         <author>Prideaux, John, 1578-1650.</author>
-      </titleStmt>
-      <extent>[8], 256, [2], 257-346 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Leonard Lichfield] for Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>M.DC.XLVIII. [1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by John Prideaux.</note>
-         <note>"Of politicall history in generall" and "Of the history of successions in states, countries, or families" each have separate dated title page with "printed by Leonard Lichfield" in imprint; pagination and register are continuous.</note>
-         <note>Annotation on Thomason copy: "Octob:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An easy and compendious introduction for reading all sorts of histories: contrived, in a more facile way then heretofore hath been published, out of the papers of Mathias Prideaux Mr of Arts and sometime fellow of Exeter Colledge in Oxford.</title>
+      <author>Prideaux, Mathias, 1622-1646?</author>
+      <author>Prideaux, John, 1578-1650.</author>
+    </titleStmt>
+    <extent>[8], 256, [2], 257-346 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="publisher">Leonard Lichfield</persName>] for <persName type="publisher">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>M.DC.XLVIII. [1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by John Prideaux.</note>
+      <note>"Of politicall history in generall" and "Of the history of successions in states, countries, or families" each have separate dated title page with "printed by Leonard Lichfield" in imprint; pagination and register are continuous.</note>
+      <note>Annotation on Thomason copy: "Octob:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+    <person type="publisher">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sparke tovvard the kindling of sorrow for Sion A meditation on Amos 6. 6. Being the summe of a sermon preached at Sergeants Inne in Fleet-Street. By Thomas Gataker B. of D. and pastor of Rotherhith.</title>
-         <author>Gataker, Thomas, 1574-1654.</author>
-      </titleStmt>
-      <extent>[10], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] H[aviland] for William Sheffard, and are to be sold at the signe of the Starre in Corne-hill, and in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Also issued as part 8 of: Certaine sermons first preached and since published: London, 1622.</note>
-         <note>Running title reads: Sorrow for Sion.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sparke tovvard the kindling of sorrow for Sion A meditation on Amos 6. 6. Being the summe of a sermon preached at Sergeants Inne in Fleet-Street. By Thomas Gataker B. of D. and pastor of Rotherhith.</title>
+      <author>Gataker, Thomas, 1574-1654.</author>
+    </titleStmt>
+    <extent>[10], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] H[aviland]</persName> for <persName type="publisher">William Sheffard</persName>, and are to be sold at <placeName>the signe of the Starre in Corne-hill</placeName>, and in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Also issued as part 8 of: Certaine sermons first preached and since published: London, 1622.</note>
+      <note>Running title reads: Sorrow for Sion.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheffard</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] H[aviland]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Starre in Corne-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

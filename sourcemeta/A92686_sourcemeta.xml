@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation for apprehending Captains Gavine Hamilton, Kenneth Mackenzie &amp; Kenneth Urquhart.</title>
-         <author>Scotland. Sovereign (1694-1702 : William II)</author>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, printer to The King's Most Excellent Majesty,</publisher>
-         <pubPlace>Edinburgh, :</pubPlace>
-         <date>Anno Dom. 1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation for apprehending Captains Gavine Hamilton, Kenneth Mackenzie &amp; Kenneth Urquhart.</title>
+      <author>Scotland. Sovereign (1694-1702 : William II)</author>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printer to <persName type="patron">The King's Most Excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh, :</pubPlace>
+      <date>Anno Dom. 1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>The King's Most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

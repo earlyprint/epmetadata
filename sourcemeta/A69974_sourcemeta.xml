@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Entire vindication of Dr. Sherlock against his numerous and uncharitable adversaries to his late book called The case of allegiance &amp;c.</title>
-      </titleStmt>
-      <extent>[2], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. 31.</note>
-         <note>Duplicate copies appear on reels 1008 and 1330.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Entire vindication of Dr. Sherlock against his numerous and uncharitable adversaries to his late book called The case of allegiance &amp;c.</title>
+    </titleStmt>
+    <extent>[2], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randal Taylor</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. 31.</note>
+      <note>Duplicate copies appear on reels 1008 and 1330.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

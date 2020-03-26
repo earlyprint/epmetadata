@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A delicate new ditty composed upon the posie of a ring: being, I fancie none but thee alone sent as a new-years gift by a lover to his sweet-heart. To the tune of Dulcina.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>[by A. Matthewes?] for H. Gosson on London Bridge,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>[ca. 1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Suggested printer's name and estimated publication date from STC.</note>
-         <note>Verse - "Thou that art so sweet a creature,".</note>
-         <note>In two parts; woodcuts at head of each part.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A delicate new ditty composed upon the posie of a ring: being, I fancie none but thee alone sent as a new-years gift by a lover to his sweet-heart. To the tune of Dulcina.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>[by <persName type="printer">A. Matthewes?]</persName> for <persName type="publisher">H. Gosson</persName> on <placeName>London Bridge</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[ca. 1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Suggested printer's name and estimated publication date from STC.</note>
+      <note>Verse - "Thou that art so sweet a creature,".</note>
+      <note>In two parts; woodcuts at head of each part.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Gosson</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Matthewes?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

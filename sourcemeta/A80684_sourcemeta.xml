@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The country-mans nevv common-wealth. Being an exact epitome of many witty sentences, pithy sayings, quaint observations, both divine and morall. Partly collected and gathered out of the best approved authors, both moderne and domesticke. Intended for private use, but thought fit to be published for the good of all.</title>
-      </titleStmt>
-      <extent>[4], 41, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Harper, and are to be sold at his shop at the Bible and Harpe in Smithfield,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "feb: 22. 1646"; the 7 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The country-mans nevv common-wealth. Being an exact epitome of many witty sentences, pithy sayings, quaint observations, both divine and morall. Partly collected and gathered out of the best approved authors, both moderne and domesticke. Intended for private use, but thought fit to be published for the good of all.</title>
+    </titleStmt>
+    <extent>[4], 41, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Harper</persName>, and are to be sold at <placeName>his shop at the Bible</placeName> and Harpe in <placeName>Smithfield</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "feb: 22. 1646"; the 7 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfield</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop at the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

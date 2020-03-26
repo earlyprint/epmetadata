@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The English Association of the House of Commons. Kensingtoun, April 3. This day Mr. Speaker, with the House of Commons in a body, attended His Majesty, and presented their Association as follows.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Reprinted by the heirs and successors of Andrew Anderson, printer to His most Excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>A pledge of loyalty following the Jacobite assassination attempt against King William.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The English Association of the House of Commons. Kensingtoun, April 3. This day Mr. Speaker, with the House of Commons in a body, attended His Majesty, and presented their Association as follows.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Reprinted by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printer to <persName type="patron">His most Excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>A pledge of loyalty following the Jacobite assassination attempt against King William.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

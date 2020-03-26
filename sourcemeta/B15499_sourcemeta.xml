@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nabals arraignment: or, a Christmasse chrvle. Delivered in a sermon in the cathedrall church in Norvvich, the 9. of Ianuary, 1630. / By Tho. Reeve ...</title>
-         <author>Reeve, Tho. (Thomas), 1583 or 4-1651</author>
-      </titleStmt>
-      <extent>[7], 64 [i.e. 24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Avgvstine Mathevves, for Iohn Grismond, and are to be sold by Edvvard Martin ...,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nabals arraignment: or, a Christmasse chrvle. Delivered in a sermon in the cathedrall church in Norvvich, the 9. of Ianuary, 1630. / By Tho. Reeve ...</title>
+      <author>Reeve, Tho. (Thomas), 1583 or 4-1651</author>
+    </titleStmt>
+    <extent>[7], 64 [i.e. 24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Avgvstine Mathevves</persName>, for <persName type="publisher">Iohn Grismond</persName>, and are to be sold by <persName type="bookseller">Edvvard Martin</persName> ...,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Edvvard Martin</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Grismond</persName>
+    </person>
+    <person type="printer">
+      <persName>Avgvstine Mathevves</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

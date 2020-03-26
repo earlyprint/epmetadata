@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poor scholar's thred-bare suit: described in a petitionary poem to his patron.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Whitwood at the Golden-Lyon in Duck-Lane,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Wonder not why these lines come to your hand,".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poor scholar's thred-bare suit: described in a petitionary poem to his patron.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Whitwood</persName> at <placeName>the Golden-Lyon in Duck-Lane</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Wonder not why these lines come to your hand,".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Whitwood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden-Lyon in Duck-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

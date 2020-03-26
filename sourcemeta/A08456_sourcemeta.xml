@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Isaacks pilgrimage A briefe and short treatise, of the strife that Isaack has with his heard-men, living in the land of the Philistines, with Abimeleck and his heard-men, shadowing out the strife which Christ our Lord had with his hearders, and with the Romayne philistims, which hath continued unto this day through now in a deepe consumption. Also a testimony from the prophets, Christ and his Apostles, of the abolishment of Antichrist, the man of sinne ... By Thomas Odell Englishman.</title>
-         <author>Odell, Thomas, Englishman.</author>
-      </titleStmt>
-      <extent>[14] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Fredericksz Stam, dwelling by the South-Church at the signe of the Hope,</publisher>
-         <pubPlace>At Amsterdam :</pubPlace>
-         <date>Anno M L c xxxv. [1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>the Roman numeral imprint date is made with turned C's.</note>
-         <note>In verse.</note>
-         <note>Signatures: A-B⁴ (-B4, blank?).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Isaacks pilgrimage A briefe and short treatise, of the strife that Isaack has with his heard-men, living in the land of the Philistines, with Abimeleck and his heard-men, shadowing out the strife which Christ our Lord had with his hearders, and with the Romayne philistims, which hath continued unto this day through now in a deepe consumption. Also a testimony from the prophets, Christ and his Apostles, of the abolishment of Antichrist, the man of sinne ... By Thomas Odell Englishman.</title>
+      <author>Odell, Thomas, Englishman.</author>
+    </titleStmt>
+    <extent>[14] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Fredericksz Stam</persName>, dwelling by <persName type="printer">the South-Church</persName> at <placeName>the signe of the Hope</placeName>,</publisher>
+      <pubPlace>At Amsterdam :</pubPlace>
+      <date>Anno M L c xxxv. [1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>the Roman numeral imprint date is made with turned C's.</note>
+      <note>In verse.</note>
+      <note>Signatures: A-B&#8308; (-B4, blank?).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Fredericksz Stam</persName>
+    </person>
+    <person type="printer">
+      <persName>the South-Church</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Hope</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

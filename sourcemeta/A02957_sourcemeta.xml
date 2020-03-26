@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from the king, to his court of Parliament of Burdeaux, touching the death of the duke of Guyse At Burdeaux by S. Milanges, ordinary printer vnto the king. 1589. By commaundement of the said court. Newly translated according to the French coppie.</title>
-         <author>France. Sovereign (1574-1589 : Henry III)</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Orwin] for Thomas Woodcocke, dwelling in Pauls Church yard at the signe of the Black Beare,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1589.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated from the original French.</note>
-         <note>Printer's name from STC.</note>
-         <note>Printer's device (McK. 247) on t.p.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from the king, to his court of Parliament of Burdeaux, touching the death of the duke of Guyse At Burdeaux by S. Milanges, ordinary printer vnto the king. 1589. By commaundement of the said court. Newly translated according to the French coppie.</title>
+      <author>France. Sovereign (1574-1589 : Henry III)</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Orwin]</persName> for <persName type="publisher">Thomas Woodcocke</persName>, dwelling in <placeName>Pauls Church yard at the signe of the Black Beare</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1589.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated from the original French.</note>
+      <note>Printer's name from STC.</note>
+      <note>Printer's device (McK. 247) on t.p.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Woodcocke</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Orwin]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church yard at the signe of the Black Beare</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

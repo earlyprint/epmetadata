@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The antiquities of Canterbury. Or a survey of that ancient citie, with the suburbs, and cathedrall Containing principally matters of antiquity in them all. Collected chiefly from old manuscripts, lieger-bookes, and other like records, for the most part, never as yet printed. With an appendix here annexed: wherein (for better satisfaction to the learned) the manuscripts, and records of chiefest consequence, are faithfully exhibited. All (for the honour of that ancient metropolis, and his good affection to antiquities) sought out and published by the industry, and goodwill of William Somner.</title>
-         <author>Somner, William, 1598-1669.</author>
-      </titleStmt>
-      <extent>[16], 516, [12] p., [3] folded plates : map  </extent>
-      <publicationStmt>
-         <publisher>printed by I[ohn] L[egat] for Richard Thrale, and are to be sold at his shop at Pauls-Gate at the signe of the Crosse-Keyes,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Includes index.</note>
-         <note>Variant: with an additional errata leaf.</note>
-         <note>The Huntington copy has an added printed dedication leaf to Charles II on his restoration, "To the royall hands of his Sacred Majesty, Charles the II. ..".</note>
-         <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The antiquities of Canterbury. Or a survey of that ancient citie, with the suburbs, and cathedrall Containing principally matters of antiquity in them all. Collected chiefly from old manuscripts, lieger-bookes, and other like records, for the most part, never as yet printed. With an appendix here annexed: wherein (for better satisfaction to the learned) the manuscripts, and records of chiefest consequence, are faithfully exhibited. All (for the honour of that ancient metropolis, and his good affection to antiquities) sought out and published by the industry, and goodwill of William Somner.</title>
+      <author>Somner, William, 1598-1669.</author>
+    </titleStmt>
+    <extent>[16], 516, [12] p., [3] folded plates : map  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">I[ohn] L[egat]</persName> for <persName type="publisher">Richard Thrale</persName>, and are to be sold at <placeName>his shop at Pauls-Gate at the signe of the Crosse-Keyes</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Includes index.</note>
+      <note>Variant: with an additional errata leaf.</note>
+      <note>The Huntington copy has an added printed dedication leaf to Charles II on his restoration, "To the royall hands of his Sacred Majesty, Charles the II. ..".</note>
+      <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Thrale</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] L[egat]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Pauls-Gate at the signe of the Crosse-Keyes</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Almansor the learned and victorious king that conquered Spaine. His life and death published by Robert Ashley, out of the librarie of the Uniuersitie of Oxford.</title>
-         <title>Verdadera historia del rey Don Rodrigo. Part 2. English. Selections</title>
-         <author>Luna, Miguel de, 16th/17th cent.</author>
-         <author>Ashley, Robert, 1565-1641.</author>
-      </titleStmt>
-      <extent>[16], 79, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by W. Stansby] for Iohn Parker,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of selections of Part 2 of: Aly Abencusian [i.e. Miguel de Luna].  Verdadera historia del rey Don Rodrigo.</note>
-         <note>Printer's name from STC.</note>
-         <note>Gathering B in two settings; p. 3, end of line 8: (1) "accor-" or (2) "ac-".</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Almansor the learned and victorious king that conquered Spaine. His life and death published by Robert Ashley, out of the librarie of the Uniuersitie of Oxford.</title>
+      <title>Verdadera historia del rey Don Rodrigo. Part 2. English. Selections</title>
+      <author>Luna, Miguel de, 16th/17th cent.</author>
+      <author>Ashley, Robert, 1565-1641.</author>
+    </titleStmt>
+    <extent>[16], 79, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">W. Stansby]</persName> for <persName type="publisher">Iohn Parker</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of selections of Part 2 of: Aly Abencusian [i.e. Miguel de Luna].  Verdadera historia del rey Don Rodrigo.</note>
+      <note>Printer's name from STC.</note>
+      <note>Gathering B in two settings; p. 3, end of line 8: (1) "accor-" or (2) "ac-".</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Parker</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

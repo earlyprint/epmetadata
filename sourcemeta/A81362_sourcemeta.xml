@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the seige of Basing castle; kept by the Lord Marquisse of Winchester, for the service of His Maiesty: against, the forces of the rebells, under command of Colonell Norton, Anno Dom. 1644.</title>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield, printer to the University,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1644. [i.e. 1645]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Thomason annotation: "[illegible] Feb:".</note>
-         <note>Thomason copy bound with items dated Feb. 3.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the seige of Basing castle; kept by the Lord Marquisse of Winchester, for the service of His Maiesty: against, the forces of the rebells, under command of Colonell Norton, Anno Dom. 1644.</title>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1644. [i.e. 1645]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Thomason annotation: "[illegible] Feb:".</note>
+      <note>Thomason copy bound with items dated Feb. 3.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of the Lord Major, aldermen, and commons of the city of London in Common-Councell assembled: to the Right Honourable the Lords &amp; Commons in Parliament assembled. Together, with the answers of both Houses to the said petition.</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes Printer to the Honorable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The replies are dated 23. Maii, 1648.</note>
-         <note>Annotation on Thomason copy: "May 23".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of the Lord Major, aldermen, and commons of the city of London in Common-Councell assembled: to the Right Honourable the Lords &amp; Commons in Parliament assembled. Together, with the answers of both Houses to the said petition.</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName> Printer to <persName type="patron">the Honorable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The replies are dated 23. Maii, 1648.</note>
+      <note>Annotation on Thomason copy: "May 23".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

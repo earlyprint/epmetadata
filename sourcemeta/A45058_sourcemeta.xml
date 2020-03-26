@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of the members of the Common-Council of the city of London</title>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Braddyll and R. Everingham ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXC [1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>At head of title: to the honourable the knights, citizens and burgesses in Parliament assembled.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of the members of the Common-Council of the city of London</title>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Braddyll</persName> and <persName type="printer">R. Everingham</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXC [1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>At head of title: to the honourable the knights, citizens and burgesses in Parliament assembled.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. Everingham</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Braddyll</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

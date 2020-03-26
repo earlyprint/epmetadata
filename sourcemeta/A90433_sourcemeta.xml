@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Multum in parvo: or, Some useful sayings, in verse and prose collected by a lover of virtue and goodness in whomsoever.</title>
-         <author>Pennyman, John, 1628-1706.</author>
-      </titleStmt>
-      <extent>[2], 29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Samuel Manship at the Black Bull in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Pennyman.</note>
-         <note>Signed at end: J.P.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Multum in parvo: or, Some useful sayings, in verse and prose collected by a lover of virtue and goodness in whomsoever.</title>
+      <author>Pennyman, John, 1628-1706.</author>
+    </titleStmt>
+    <extent>[2], 29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Samuel Manship</persName> at <placeName>the Black Bull in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Pennyman.</note>
+      <note>Signed at end: J.P.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Manship</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Bull in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The theory and regulation of love a moral essay, in two parts : to which are added letters philosophical and moral between the author and Dr. Henry More / by John Norris ...</title>
-         <author>Norris, John, 1657-1711.</author>
-         <author>More, Henry, 1614-1687.</author>
-      </titleStmt>
-      <extent>[15], 238, [10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at the Theatre for Hen. Clements,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. [9] at end.</note>
-         <note>Advertisement on p. [10] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The theory and regulation of love a moral essay, in two parts : to which are added letters philosophical and moral between the author and Dr. Henry More / by John Norris ...</title>
+      <author>Norris, John, 1657-1711.</author>
+      <author>More, Henry, 1614-1687.</author>
+    </titleStmt>
+    <extent>[15], 238, [10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the Theatre</placeName> for <persName type="publisher">Hen. Clements</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. [9] at end.</note>
+      <note>Advertisement on p. [10] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Clements</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Theatre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

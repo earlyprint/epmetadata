@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epistle to a friend concerning poetry by Samuel Wesley.</title>
-         <author>Wesley, Samuel, 1662-1735.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Harper ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCC [1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epistle to a friend concerning poetry by Samuel Wesley.</title>
+      <author>Wesley, Samuel, 1662-1735.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Harper</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCC [1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Harper</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An introduction to the history of England by Sir William Temple, Baronet.</title>
-         <author>Temple, William, Sir, 1628-1699.</author>
-      </titleStmt>
-      <extent>[8], 320 [i.e. 318], [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Simpson ... and Ralph Simpson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First ed. Cf. BM.</note>
-         <note>Advertisements on p. [1-2] at end.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An introduction to the history of England by Sir William Temple, Baronet.</title>
+      <author>Temple, William, Sir, 1628-1699.</author>
+    </titleStmt>
+    <extent>[8], 320 [i.e. 318], [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Simpson</persName> ... and <persName type="publisher">Ralph Simpson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First ed. Cf. BM.</note>
+      <note>Advertisements on p. [1-2] at end.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Simpson</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Simpson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christus natus est Christ is borne.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Stafford,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: faded.</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christus natus est Christ is borne.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Stafford</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: faded.</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Stafford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

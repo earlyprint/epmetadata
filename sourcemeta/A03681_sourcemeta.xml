@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Black-Fryers</title>
-         <author>Hord, Richard.</author>
-      </titleStmt>
-      <extent>[4], 11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Excusum impensis I. Marriot &amp; I. Grismand,</publisher>
-         <pubPlace>Londini :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 11: Richardus Hord. Cantab. socius quondam Iohannensis Coll.</note>
-         <note>On the collapse of the floor of a Roman Catholic chapel in London in 1623.</note>
-         <note>In Latin verse.</note>
-         <note>Title is xylographic.</note>
-         <note>Caption title reads: Elegia de admiranda clade centum papistarum ..</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Black-Fryers</title>
+      <author>Hord, Richard.</author>
+    </titleStmt>
+    <extent>[4], 11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Excusum impensis <persName type="publisher">I. Marriot</persName> &amp; <persName type="publisher">I. Grismand</persName>,</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 11: Richardus Hord. Cantab. socius quondam Iohannensis Coll.</note>
+      <note>On the collapse of the floor of a Roman Catholic chapel in London in 1623.</note>
+      <note>In Latin verse.</note>
+      <note>Title is xylographic.</note>
+      <note>Caption title reads: Elegia de admiranda clade centum papistarum ..</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Grismand</persName>
+    </person>
+    <person type="publisher">
+      <persName>I. Marriot</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

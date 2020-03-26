@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A few plain words to the inhabitants of England</title>
-         <author>Greene, Thomas, 1634?-1699.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for W.M.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed at end: Thomas Green.</note>
-         <note>Imprint from colophon, place of publication suggested by Wing.</note>
-         <note>Imperfect: stained and slightly faded.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A few plain words to the inhabitants of England</title>
+      <author>Greene, Thomas, 1634?-1699.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W.M.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed at end: Thomas Green.</note>
+      <note>Imprint from colophon, place of publication suggested by Wing.</note>
+      <note>Imperfect: stained and slightly faded.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

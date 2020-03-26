@@ -1,21 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation prohibiting the keeping of Bartholomew Faire, and Sturbridge Faire.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By I.L. and W.T. for Bonham Norton and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Woodstocke the fourth day of August in the first yeare of his Maiesties raigne ..</note>
-         <note>Steele notation: Christian  his  yeare (italic).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation prohibiting the keeping of Bartholomew Faire, and Sturbridge Faire.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">I.L.</persName> and <persName type="printer">W.T.</persName> for <persName type="publisher">Bonham Norton</persName> and <persName type="publisher">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Woodstocke the fourth day of August in the first yeare of his Maiesties raigne ..</note>
+      <note>Steele notation: Christian  his  yeare (italic).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="publisher">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>I.L.</persName>
+    </person>
+    <person type="printer">
+      <persName>W.T.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

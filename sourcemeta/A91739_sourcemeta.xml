@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine efficacy without humane power. Opened in a sermon preached at St. Margarets Church in Westminster before the Right Honourable the House of Commons, June 28. 1660. Being the day of solemne thanksgiving for the happy return of the Kings Majesty. / By Edward Reynolds D.D. and chaplain in ordinary to his Majesty.</title>
-         <author>Reynolds, Edward, 1599-1676.</author>
-      </titleStmt>
-      <extent>[12], 43, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Ratcliffe, for George Thomason at the Rose and Crown in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf bears letter of thanks from the House of Commons.</note>
-         <note>Annotation on Thomason copy: "June. 30".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine efficacy without humane power. Opened in a sermon preached at St. Margarets Church in Westminster before the Right Honourable the House of Commons, June 28. 1660. Being the day of solemne thanksgiving for the happy return of the Kings Majesty. / By Edward Reynolds D.D. and chaplain in ordinary to his Majesty.</title>
+      <author>Reynolds, Edward, 1599-1676.</author>
+    </titleStmt>
+    <extent>[12], 43, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Ratcliffe</persName>, for <persName type="publisher">George Thomason</persName> at <placeName>the Rose</placeName> and Crown in <placeName>St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf bears letter of thanks from the House of Commons.</note>
+      <note>Annotation on Thomason copy: "June. 30".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Thomason</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Ratcliffe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>St. Paul's Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

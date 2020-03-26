@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of Their Majesties Royal Fleet now actually at sea, with the number of men and guns; also the commanders names.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Amery at the Sign of the Peacock in Fleetstreet and are to be sold by Randal Taylor, near Stationers-hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imperfect: broadside cropped.</note>
-         <note>Reproduction of original in: Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of Their Majesties Royal Fleet now actually at sea, with the number of men and guns; also the commanders names.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Amery</persName> at <placeName>the Sign of the Peacock in Fleetstreet</placeName> and are to be sold by <persName type="bookseller">Randal Taylor</persName>, near <placeName>Stationers-hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imperfect: broadside cropped.</note>
+      <note>Reproduction of original in: Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Amery</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sign of the Peacock in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

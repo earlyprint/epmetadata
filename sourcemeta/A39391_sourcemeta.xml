@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Enchiridion legum a discourse concerning the beginnings, nature, difference, progress and use of laws in general, and in particular, of the common &amp; municipal laws of England.</title>
-         <title>Enchiridion legum.</title>
-      </titleStmt>
-      <extent>[6], 140 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Elizabeth Flesher [and 4 others], and are tobe sold by G.S. [and 14 others],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Enchiridion legum a discourse concerning the beginnings, nature, difference, progress and use of laws in general, and in particular, of the common &amp; municipal laws of England.</title>
+      <title>Enchiridion legum.</title>
+    </titleStmt>
+    <extent>[6], 140 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Elizabeth Flesher</persName> [and <persName type="printer">4 others]</persName>, and are tobe sold by <persName type="bookseller">G.S.</persName> [and <persName type="bookseller">1<persName type="printer">4 others]</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>14 others]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>G.S.</persName>
+    </person>
+    <person type="printer">
+      <persName>4 others]</persName>
+    </person>
+    <person type="printer">
+      <persName>Elizabeth Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

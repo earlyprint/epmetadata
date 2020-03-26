@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at White-Hall the 5. day of November. ann. 1608. By John King Doctor of Divinity, Deane of Christ-Church in Oxon: and Vicechauncellor of the Vniversity. Published by commandement</title>
-         <author>King, John, 1559?-1621.</author>
-      </titleStmt>
-      <extent>[2], 40, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Joseph Barnes printer to the Vniversitie,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Sheets A-E occur in two settings, found mixed.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at White-Hall the 5. day of November. ann. 1608. By John King Doctor of Divinity, Deane of Christ-Church in Oxon: and Vicechauncellor of the Vniversity. Published by commandement</title>
+      <author>King, John, 1559?-1621.</author>
+    </titleStmt>
+    <extent>[2], 40, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Joseph Barnes</persName> printer to <persName type="patron">the Vniversitie</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Sheets A-E occur in two settings, found mixed.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversitie</persName>
+    </person>
+    <person type="printer">
+      <persName>Joseph Barnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

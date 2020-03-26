@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a declaration. James R. Whereas the mutual obligations which lye upon us and our people are indissolvable by any act either of us can commit, and that therefore how undutifully or unjustly soever our people may have behaved themselves towards us, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>printed by Andrew Crook and Samuel Helsham assigns of Benjamin Tooke printer to the Kings most excellent Majesty;,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our court at Dublin Castle the 28th day of June, 1689. And in the fifth year of our reign."</note>
-         <note>Arms 186.</note>
-         <note>Any subjects imprisoned by the authority of the unlawful assembly, calling itself a parliament, will be able to file a suit for damages against any who give warrant for detaining them, and if any are condemned to die, actions will lie against all judges, jurors, clerks, councillors, sheriffs, &amp;c. concerned. No subjects are to pay taxes to the pretended government. Cf. Steele.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a declaration. James R. Whereas the mutual obligations which lye upon us and our people are indissolvable by any act either of us can commit, and that therefore how undutifully or unjustly soever our people may have behaved themselves towards us, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName> assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty</persName>;,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our court at Dublin Castle the 28th day of June, 1689. And in the fifth year of our reign."</note>
+      <note>Arms 186.</note>
+      <note>Any subjects imprisoned by the authority of the unlawful assembly, calling itself a parliament, will be able to file a suit for damages against any who give warrant for detaining them, and if any are condemned to die, actions will lie against all judges, jurors, clerks, councillors, sheriffs, &amp;c. concerned. No subjects are to pay taxes to the pretended government. Cf. Steele.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

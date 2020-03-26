@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The French Kings proclamation, containing the agreement with the King of Spaine for the taking away of the new inposition of thirtie in the hundreth. Published in Nouember last. Translated out of French.</title>
-         <title>Proclamations. 1604-11-22</title>
-         <author>France. Sovereign (1589-1610 : Henry IV)</author>
-      </titleStmt>
-      <extent>[2], 6 [i.e. 10] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T. C[reede]. for Cutbert Burby dwelling in Pauls Church-yard, at the signe ... ,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC (2nd ed.).</note>
-         <note>Page 10, last numbered page, misnumbered 6.</note>
-         <note>Also issued as pt. 2 of 22992.5.--STC.</note>
-         <note>O copy, reel 2024, is torn with loss of text.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The French Kings proclamation, containing the agreement with the King of Spaine for the taking away of the new inposition of thirtie in the hundreth. Published in Nouember last. Translated out of French.</title>
+      <title>Proclamations. 1604-11-22</title>
+      <author>France. Sovereign (1589-1610 : Henry IV)</author>
+    </titleStmt>
+    <extent>[2], 6 [i.e. 10] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. C[reede].</persName> for <persName type="publisher">Cutbert Burby</persName> dwelling in <placeName>Pauls Church-yard, at the signe</placeName> ... ,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC (2nd ed.).</note>
+      <note>Page 10, last numbered page, misnumbered 6.</note>
+      <note>Also issued as pt. 2 of 22992.5.--STC.</note>
+      <note>O copy, reel 2024, is torn with loss of text.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cutbert Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>T. C[reede].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

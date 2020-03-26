@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>New practical observations in surgery containing divers remarkable cases and cures. By Hugh Ryder surgeon in ordinary to His Majesty.</title>
-         <author>Ryder, Hugh.</author>
-      </titleStmt>
-      <extent>[14], 96 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for James Partridge, stationer to his Royal Highness Prince George of Denmark at the Post-house between Charing-Cross, and Whtie-hall [sic],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Royal College of Surgeons of England Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>New practical observations in surgery containing divers remarkable cases and cures. By Hugh Ryder surgeon in ordinary to His Majesty.</title>
+      <author>Ryder, Hugh.</author>
+    </titleStmt>
+    <extent>[14], 96 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">James Partridge, stationer to his Royal Highness Prince George of Denmark</persName> at <placeName>the Post-house between Charing-Cross</placeName>, and Whtie-hall [sic],</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Royal College of Surgeons of England Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Partridge, stationer to his Royal Highness Prince George of Denmark</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Post-house between Charing-Cross</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

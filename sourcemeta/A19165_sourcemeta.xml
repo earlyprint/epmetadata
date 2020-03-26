@@ -1,26 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hypnerotomachia. = The strife of loue in a dreame</title>
-         <title>Hypnerotomachia Poliphili. English</title>
-         <author>Colonna, Francesco, d. 1527.</author>
-         <author>R. D.</author>
-         <author>Dallington, Robert, 1561-1637, attributed name.</author>
-      </titleStmt>
-      <extent>[4], 100 leaves : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Abell Jeffes, John Charlewood, and Eliot's Court Press] for Simon VVaterson, and are to be sold at his shop, in S. Paules Church-yard, at Cheape-gate,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's dedication signed: R.D., i.e. Sir Robert Dallington?.</note>
-         <note>A translation of: Colonna, Francesco.  Hypnerotomachia Poliphili.</note>
-         <note>"Jeffes pr[inted]. at least quires B,D,F,H,I,L,O,R; Charlewood at least A,C,X-Z; Eliot's Court Press at least Aa-Cc"--STC.</note>
-         <note>Running title reads: The strife of loue in a dreame.</note>
-         <note>One of three variants of the same year with different publishers' names in the imprint.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hypnerotomachia. = The strife of loue in a dreame</title>
+      <title>Hypnerotomachia Poliphili. English</title>
+      <author>Colonna, Francesco, d. 1527.</author>
+      <author>R. D.</author>
+      <author>Dallington, Robert, 1561-1637, attributed name.</author>
+    </titleStmt>
+    <extent>[4], 100 leaves : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Abell Jeffes</persName>, <persName type="printer">John Charlewood</persName>, and <persName type="printer">Eliot's Court Press]</persName> for <persName type="publisher">Simon VVaterson</persName>, and are to be sold at <placeName>his shop, in S. Paules Church-yard, at Cheape-gate</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's dedication signed: R.D., i.e. Sir Robert Dallington?.</note>
+      <note>A translation of: Colonna, Francesco.  Hypnerotomachia Poliphili.</note>
+      <note>"Jeffes pr[inted]. at least quires B,D,F,H,I,L,O,R; Charlewood at least A,C,X-Z; Eliot's Court Press at least Aa-Cc"--STC.</note>
+      <note>Running title reads: The strife of loue in a dreame.</note>
+      <note>One of three variants of the same year with different publishers' names in the imprint.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon VVaterson</persName>
+    </person>
+    <person type="printer">
+      <persName>Abell Jeffes</persName>
+    </person>
+    <person type="printer">
+      <persName>Eliot's Court Press]</persName>
+    </person>
+    <person type="printer">
+      <persName>John Charlewood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, in S. Paules Church-yard, at Cheape-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

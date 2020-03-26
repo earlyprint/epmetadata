@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A handefull of pleasant delites containing sudrie new sonets and delectable histories, in diuers kindes of meeter. Newly deuised to the newest tunes that are now in vse, to be sung: euerie sonet orderly pointed to his proper tune. With new additions of certain songs, to verie late deuised notes, not commonly knowen, nor vsed heretofore, by Clement Robinson, and diuers others.</title>
-         <author>Robinson, Clement, fl. 1566-1584.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Ihones: dwelling at the signe of the Rose and Crowne, neare Holburne Bridge,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1584.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title and imprint within decorative border.</note>
-         <note>Closely cropped, with some loss of text.</note>
-         <note>Signatures: A-D E⁴.</note>
-         <note>In this edition, the last line of D3v has: All slaiest the hart, whom thou maist help.</note>
-         <note>Imperfect; lacks leaf B6.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A handefull of pleasant delites containing sudrie new sonets and delectable histories, in diuers kindes of meeter. Newly deuised to the newest tunes that are now in vse, to be sung: euerie sonet orderly pointed to his proper tune. With new additions of certain songs, to verie late deuised notes, not commonly knowen, nor vsed heretofore, by Clement Robinson, and diuers others.</title>
+      <author>Robinson, Clement, fl. 1566-1584.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Ihones:</persName> dwelling at <placeName>the signe of the Rose</placeName> and Crowne, neare <placeName>Holburne Bridge</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1584.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title and imprint within decorative border.</note>
+      <note>Closely cropped, with some loss of text.</note>
+      <note>Signatures: A-D E&#8308;.</note>
+      <note>In this edition, the last line of D3v has: All slaiest the hart, whom thou maist help.</note>
+      <note>Imperfect; lacks leaf B6.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Ihones:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holburne Bridge</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

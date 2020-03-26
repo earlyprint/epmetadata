@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The trades increase</title>
-         <author>Kayll, Robert.</author>
-         <author>J. R. (John Roberts)</author>
-      </titleStmt>
-      <extent>[6], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, and are to sold by Walter [Ba]rre,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Written by Robert Kayll and wrongly ascribed to John Roberts"--NUC pre-1956 imprints.</note>
-         <note>Signatures: A⁴(-A1) B-H⁴.</note>
-         <note>Pages 42 and 43 reversed in the numbering.</note>
-         <note>Imperfect: stained.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The trades increase</title>
+      <author>Kayll, Robert.</author>
+      <author>J. R. (John Roberts)</author>
+    </titleStmt>
+    <extent>[6], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, and are to sold by <persName type="bookseller">Walter [Ba]rre</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Written by Robert Kayll and wrongly ascribed to John Roberts"--NUC pre-1956 imprints.</note>
+      <note>Signatures: A&#8308;(-A1) B-H&#8308;.</note>
+      <note>Pages 42 and 43 reversed in the numbering.</note>
+      <note>Imperfect: stained.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter [Ba]rre</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

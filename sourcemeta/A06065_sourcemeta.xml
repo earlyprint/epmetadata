@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The trial of a Christians estate: or a discouerie of the causes, degrees, signes and differences of the apostasie both of the true Christians and false in a sermon preached in London by Master Paul Bayne, and afterward sent in writing by him to his friend W.F.</title>
-         <author>Baynes, Paul, d. 1617.</author>
-      </titleStmt>
-      <extent>[6], 23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for Nathanael Newbery, and are to be sold at his shop vnder S. Peters Church in Cornhill, and in Popes head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On Hebrews X, 39.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: The triall of a Christians estate.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The trial of a Christians estate: or a discouerie of the causes, degrees, signes and differences of the apostasie both of the true Christians and false in a sermon preached in London by Master Paul Bayne, and afterward sent in writing by him to his friend W.F.</title>
+      <author>Baynes, Paul, d. 1617.</author>
+    </titleStmt>
+    <extent>[6], 23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Nathanael Newbery</persName>, and are to be sold at <placeName>his shop vnder S. Peters Church in Cornhill</placeName>, and in <placeName>Popes head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On Hebrews X, 39.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: The triall of a Christians estate.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop vnder S. Peters Church in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

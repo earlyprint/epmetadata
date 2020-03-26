@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heart-salve for a wounded soul... Or meditations of comfort for the holy living, and happy dying Christian either in the depths of dark desertion, or in the heighth of heavens glorious union. The second edition, with an addition of an elegie upon an eminent occasion. By Tho. Calvert, minister of the gospel.</title>
-         <author>Calvert, Thomas, 1606-1679.</author>
-      </titleStmt>
-      <extent>[28], 148, 150-160, [9] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by F.L. for Tho. Passenger at the Three Bibles on London-Bridge, and William Thorpe in Ousegate in Yorke,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Eye-salve for the blind world" has separate dated title page; register and pagination are continuous.</note>
-         <note>Text and register continuous despite pagination.</note>
-         <note>The final five leaves contain "An elegie or the flowing tears of a mourning friend".</note>
-         <note>Reproduction of original in the Sion College Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heart-salve for a wounded soul... Or meditations of comfort for the holy living, and happy dying Christian either in the depths of dark desertion, or in the heighth of heavens glorious union. The second edition, with an addition of an elegie upon an eminent occasion. By Tho. Calvert, minister of the gospel.</title>
+      <author>Calvert, Thomas, 1606-1679.</author>
+    </titleStmt>
+    <extent>[28], 148, 150-160, [9] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">F.L.</persName> for <persName type="publisher">Tho. Passenger</persName> at <placeName>the Three Bibles on London-Bridge</placeName>, and <persName type="publisher">William Thorpe</persName> in <placeName>Ousegate in Yorke</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Eye-salve for the blind world" has separate dated title page; register and pagination are continuous.</note>
+      <note>Text and register continuous despite pagination.</note>
+      <note>The final five leaves contain "An elegie or the flowing tears of a mourning friend".</note>
+      <note>Reproduction of original in the Sion College Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Passenger</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Thorpe</persName>
+    </person>
+    <person type="printer">
+      <persName>F.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ousegate in Yorke</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Three Bibles on London-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

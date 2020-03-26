@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The anatomie of conscience Or a threefold reuelation of those three most secret bookes: 1. The booke of Gods prescience. 2. The booke of mans conscience. 3. The booke of life. In a sermon preached at the generall assises holden at Derby, in Lent last. 1623. By Immanuel Bourne ...</title>
-         <author>Bourne, Immanuel, 1590-1672.</author>
-      </titleStmt>
-      <extent>[4], 42, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. E[ld] and M. F[lesher] for Nathaniel Butter, and are to be sold at his shop neere S. Austins Gate, at the signe of the Pyde Bull,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names from STC.</note>
-         <note>The words "1. The booke of God prescience. .. 3. The booke of life." are bracketed together on the title page.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The anatomie of conscience Or a threefold reuelation of those three most secret bookes: 1. The booke of Gods prescience. 2. The booke of mans conscience. 3. The booke of life. In a sermon preached at the generall assises holden at Derby, in Lent last. 1623. By Immanuel Bourne ...</title>
+      <author>Bourne, Immanuel, 1590-1672.</author>
+    </titleStmt>
+    <extent>[4], 42, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. E[ld]</persName> and <persName type="printer">M. F[lesher]</persName> for <persName type="publisher">Nathaniel Butter</persName>, and are to be sold at <placeName>his shop neere S. Austins Gate, at the signe of the Pyde Bull</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names from STC.</note>
+      <note>The words "1. The booke of God prescience. .. 3. The booke of life." are bracketed together on the title page.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>G. E[ld]</persName>
+    </person>
+    <person type="printer">
+      <persName>M. F[lesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere S. Austins Gate, at the signe of the Pyde Bull</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

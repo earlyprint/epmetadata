@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of books in folio, consisting of fathers, Latin and English commentaries on the Bible, history, physick, &amp;c. which will be sold by auction on Friday the 31th. of July, 1691: betwixt three and four in the afternoon, at Tom's Coffee-House adjoyning to Ludgate.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Catalogues are distributed at Mr. Welds the Crown betwixt the Two Temple-Gates in Fleet-street, at Mr. Bennets in St. Paul's Church-Yard, at Mr. Manships the Bull against the Royal Exchange, and at the above-said Coffee-House.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Possibly a fragment: signed at foot D.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of books in folio, consisting of fathers, Latin and English commentaries on the Bible, history, physick, &amp;c. which will be sold by auction on Friday the 31th. of July, 1691: betwixt three and four in the afternoon, at Tom's Coffee-House adjoyning to Ludgate.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Catalogues are distributed at <placeName>Mr. Welds the Crown betwixt the Two Temple-Gates in Fleet-street, at Mr. Bennets in St. Paul's Church-Yard, at Mr. Manships the Bull against the Royal Exchange</placeName>, and at <placeName>the above-said Coffee-House.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Possibly a fragment: signed at foot D.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Welds the Crown betwixt the Two Temple-Gates in Fleet-street, at Mr. Bennets in St. Paul's Church-Yard, at Mr. Manships the Bull against the Royal Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>the above-said Coffee-House.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

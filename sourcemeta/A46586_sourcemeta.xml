@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation prohibiting the keeping of Exeter Fair, and other fairs thereabouts, for some time</title>
-         <title>Proclamations. 1688-11-16.</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, Henry Hills, and Thomas Newcomb, printers to the King's most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Whitehall the 16th day of November, 1688. ..</note>
-         <note>Steele notation: of shall upon.</note>
-         <note>In this edition, line 3 of title ends: thereabouts,.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation prohibiting the keeping of Exeter Fair, and other fairs thereabouts, for some time</title>
+      <title>Proclamations. 1688-11-16.</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill</persName>, <persName type="printer">Henry Hills</persName>, and <persName type="printer">Thomas Newcomb</persName>, printers to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Whitehall the 16th day of November, 1688. ..</note>
+      <note>Steele notation: of shall upon.</note>
+      <note>In this edition, line 3 of title ends: thereabouts,.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Charles Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The trueth of the most wicked and secret murthering of Iohn Brewen, goldsmith of London committed by his owne wife, through the prouocation of one Iohn Parker whom she loued: for which fact she was burned, and he hanged in Smithfield, on wednesday, the 28 of Iune, 1592. two yeares after the murther was committed.</title>
-         <author>Kyd, Thomas, 1558-1594.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>[T. Orwin?] for Iohn Kid, and are to be sold by Edward White, dwelling at the little north doore of Paules, at the signe of the Gun,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Not by Thomas Kyd. -- STC.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of original in the Lambeth Palace Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The trueth of the most wicked and secret murthering of Iohn Brewen, goldsmith of London committed by his owne wife, through the prouocation of one Iohn Parker whom she loued: for which fact she was burned, and he hanged in Smithfield, on wednesday, the 28 of Iune, 1592. two yeares after the murther was committed.</title>
+      <author>Kyd, Thomas, 1558-1594.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>[T. Orwin?] for <persName type="publisher">Iohn Kid</persName>, and are to be sold by <persName type="bookseller">Edward White</persName>, dwelling at <placeName>the little north doore of Paules, at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not by Thomas Kyd. -- STC.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of original in the Lambeth Palace Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Edward White</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Kid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the little north doore of Paules, at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

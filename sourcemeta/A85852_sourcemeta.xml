@@ -1,25 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of auxiliary beauty. Or artificiall hansomenesse. In point of conscience between two ladies.</title>
-         <author>Gauden, John, 1605-1662.</author>
-         <author>Taylor, Jeremy, 1613-1667,</author>
-         <author>Walker, Obadiah, 1616-1699,</author>
-      </titleStmt>
-      <extent>[8], 200 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R: Royston, at the Angel in Ivie-Lane,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Gauden.</note>
-         <note>Also sometimes attributed to Jeremy Taylor and to Obadiah Walker.</note>
-         <note>Place of publication from Wing.</note>
-         <note>With an errata slip.</note>
-         <note>Annotation on Thomason copy: "July. 7".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of auxiliary beauty. Or artificiall hansomenesse. In point of conscience between two ladies.</title>
+      <author>Gauden, John, 1605-1662.</author>
+      <author>Taylor, Jeremy, 1613-1667,</author>
+      <author>Walker, Obadiah, 1616-1699,</author>
+    </titleStmt>
+    <extent>[8], 200 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R: Royston</persName>, at <placeName>the Angel in Ivie-Lane</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Gauden.</note>
+      <note>Also sometimes attributed to Jeremy Taylor and to Obadiah Walker.</note>
+      <note>Place of publication from Wing.</note>
+      <note>With an errata slip.</note>
+      <note>Annotation on Thomason copy: "July. 7".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R: Royston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Ivie-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

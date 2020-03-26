@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems of Mr. Cowley and others composed into songs and ayres with a thorough basse to the theorbo, harpsecon, or base-violl by William King ...</title>
-         <author>King, William, 1624-1680.</author>
-         <author>Cowley, Abraham, 1618-1667.</author>
-      </titleStmt>
-      <extent>1 score (iv, 55 p.)   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by William Hall for the author,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems of Mr. Cowley and others composed into songs and ayres with a thorough basse to the theorbo, harpsecon, or base-violl by William King ...</title>
+      <author>King, William, 1624-1680.</author>
+      <author>Cowley, Abraham, 1618-1667.</author>
+    </titleStmt>
+    <extent>1 score (iv, 55 p.)   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">William Hall</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>William Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

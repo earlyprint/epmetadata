@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christs love, and saints sacrifice Preached in a sermon at St. Pauls Crosse, on the 23. of August, 1635. By Iames Conyers, Mr. of Arts of Sydney-Sussex in Cambridge, and minister of Stratford-Bow, in Middlesex.</title>
-         <author>Conyers, James.</author>
-      </titleStmt>
-      <extent>[6], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. P[urslow] for H. Seile, dwelling at the Tygers head in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christs love, and saints sacrifice Preached in a sermon at St. Pauls Crosse, on the 23. of August, 1635. By Iames Conyers, Mr. of Arts of Sydney-Sussex in Cambridge, and minister of Stratford-Bow, in Middlesex.</title>
+      <author>Conyers, James.</author>
+    </titleStmt>
+    <extent>[6], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. P[urslow]</persName> for <persName type="publisher">H. Seile</persName>, dwelling at <placeName>the Tygers head in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>E. P[urslow]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Tygers head in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

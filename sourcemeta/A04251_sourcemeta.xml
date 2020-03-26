@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The good mans refuge in affliction. Or A most profitable and comfortable sermon, preached by Iohn Barlovv. And now published especially for the good of them that bee, or haue been afflicted inwardly in minde, or outwardly in body</title>
-         <author>Barlow, John, b. 1580 or 81.</author>
-      </titleStmt>
-      <extent>[8], 43, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for Nathanael Newbery, and are to be sold at his shop, vnder St. Peters Church in Corn-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A sermon.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The good mans refuge in affliction. Or A most profitable and comfortable sermon, preached by Iohn Barlovv. And now published especially for the good of them that bee, or haue been afflicted inwardly in minde, or outwardly in body</title>
+      <author>Barlow, John, b. 1580 or 81.</author>
+    </titleStmt>
+    <extent>[8], 43, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Nathanael Newbery</persName>, and are to be sold at <placeName>his shop, vnder St. Peters Church in Corn-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A sermon.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, vnder St. Peters Church in Corn-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

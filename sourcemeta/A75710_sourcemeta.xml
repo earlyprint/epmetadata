@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Living loves betwixt Christ and dying Christians A sermon preached at M. Magdalene Bermondsey in Southwark, near London, June 6. 1654. At the funeral of that faithful servant of Christ Mr. Jeremiah Whitaker, Minister of the Gospel, and pastor of the church there. With a narative of his exemplarily holy life and death. By Simeon Ashe, his much endeared friend and brother. Together with poems and elegies on his death, by divers ministers in the city of London.</title>
-         <author>Ashe, Simeon, d. 1662.</author>
-      </titleStmt>
-      <extent>[8], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.M. for Ralph Smith, at the Bible in Cornhil, near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Living loves betwixt Christ and dying Christians A sermon preached at M. Magdalene Bermondsey in Southwark, near London, June 6. 1654. At the funeral of that faithful servant of Christ Mr. Jeremiah Whitaker, Minister of the Gospel, and pastor of the church there. With a narative of his exemplarily holy life and death. By Simeon Ashe, his much endeared friend and brother. Together with poems and elegies on his death, by divers ministers in the city of London.</title>
+      <author>Ashe, Simeon, d. 1662.</author>
+    </titleStmt>
+    <extent>[8], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.M.</persName> for <persName type="publisher">Ralph Smith</persName>, at <placeName>the Bible in Cornhil, near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Cornhil, near the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

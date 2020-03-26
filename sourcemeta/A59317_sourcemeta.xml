@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An heroic poem on the high and mighty monarch James II King of England, &amp;c. by E. Settle.</title>
-         <author>Settle, Elkanah, 1648-1724.</author>
-      </titleStmt>
-      <extent>[2], 8 [i.e. 6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.L. for Benjamin Needham ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXXV [1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An heroic poem on the high and mighty monarch James II King of England, &amp;c. by E. Settle.</title>
+      <author>Settle, Elkanah, 1648-1724.</author>
+    </titleStmt>
+    <extent>[2], 8 [i.e. 6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.L.</persName> for <persName type="publisher">Benjamin Needham</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXXV [1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Needham</persName>
+    </person>
+    <person type="printer">
+      <persName>J.L.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

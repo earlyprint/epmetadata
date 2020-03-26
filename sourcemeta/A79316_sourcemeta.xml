@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for publishing a former proclamation of the 30th of May last (entituled, A proclamation against vitious, debauch'd and prophane persons) in all churches and chappels throughout England and Wales.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker, Printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated: Given at Our Court at Whitehall, the Thirteenth day of August, in the Twelfth year of Our Reign, 1660.</note>
-         <note>Annotation on Thomason copy: "Aug. 15".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for publishing a former proclamation of the 30th of May last (entituled, A proclamation against vitious, debauch'd and prophane persons) in all churches and chappels throughout England and Wales.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, Printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated: Given at Our Court at Whitehall, the Thirteenth day of August, in the Twelfth year of Our Reign, 1660.</note>
+      <note>Annotation on Thomason copy: "Aug. 15".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

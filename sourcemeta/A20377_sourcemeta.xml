@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Profitable instructions describing what speciall obseruations are to be taken by trauellers in all nations, states and countries; pleasant and profitable. By the three much admired, Robert, late Earle of Essex. Sir Philip Sidney. And, Secretary Davison.</title>
-         <author>Essex, Robert Devereux, Earl of, 1566-1601.</author>
-         <author>Sidney, Philip, Sir, 1554-1586. aut</author>
-         <author>Davison, William, 1541?-1608. aut</author>
-      </titleStmt>
-      <extent>[18], 103, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Beale?] for Beniamin Fisher, at the signe of the Talbot, without Aldersgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name conjectured by STC.</note>
-         <note>"Two excellent letters concerning travell" has separate dated title page; pagination and register are continuous.</note>
-         <note>Running title reads: Excellent instructions for trauellers.</note>
-         <note>The preface is unsigned. Variant: preface signed: B.F., i.e. Benjamin Fisher.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Profitable instructions describing what speciall obseruations are to be taken by trauellers in all nations, states and countries; pleasant and profitable. By the three much admired, Robert, late Earle of Essex. Sir Philip Sidney. And, Secretary Davison.</title>
+      <author>Essex, Robert Devereux, Earl of, 1566-1601.</author>
+      <author>Sidney, Philip, Sir, 1554-1586. aut</author>
+      <author>Davison, William, 1541?-1608. aut</author>
+    </titleStmt>
+    <extent>[18], 103, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Beale?]</persName> for <persName type="publisher">Beniamin Fisher</persName>, at <placeName>the signe of the Talbot, without Aldersgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name conjectured by STC.</note>
+      <note>"Two excellent letters concerning travell" has separate dated title page; pagination and register are continuous.</note>
+      <note>Running title reads: Excellent instructions for trauellers.</note>
+      <note>The preface is unsigned. Variant: preface signed: B.F., i.e. Benjamin Fisher.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Beniamin Fisher</persName>
+    </person>
+    <person type="printer">
+      <persName>John Beale?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Talbot, without Aldersgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

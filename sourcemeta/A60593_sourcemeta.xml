@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden fleece. VVherein is related the riches of English wools in its manufactures Together with the true uses, and the abuses of the aulnageors, measurers, and searchers offices. By W. S. Gent.</title>
-         <author>Smith, W., gent., attributed name.</author>
-      </titleStmt>
-      <extent>[14], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.G. for Richard Lowndes, at the white Lyon in S. Pauls Church-yard, neere the Little north-doore,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing attributes this to W. Smith.</note>
-         <note>Imperfect; pages cropped, stained, with print show-through with some loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden fleece. VVherein is related the riches of English wools in its manufactures Together with the true uses, and the abuses of the aulnageors, measurers, and searchers offices. By W. S. Gent.</title>
+      <author>Smith, W., gent., attributed name.</author>
+    </titleStmt>
+    <extent>[14], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Richard Lowndes</persName>, at <placeName>the white Lyon in S. Pauls Church-yard, neere the Little north-doore</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing attributes this to W. Smith.</note>
+      <note>Imperfect; pages cropped, stained, with print show-through with some loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lowndes</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the white Lyon in S. Pauls Church-yard, neere the Little north-doore</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An order of the Lords spiritual &amp; temporal assembled at Westminster, for the not-observing the sixth day of February</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Jones, and for James Partridge, Matthew Gyllyflower, and Samuel Meyrick,</publisher>
-         <pubPlace>In the Savoy [London] :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An order of the Lords spiritual &amp; temporal assembled at Westminster, for the not-observing the sixth day of February</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Jones</persName>, and for <persName type="publisher">James Partridge</persName>, <persName type="publisher">Matthew Gyllyflower</persName>, and <persName type="publisher">Samuel Meyrick</persName>,</publisher>
+      <pubPlace>In the Savoy [London] :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Partridge</persName>
+    </person>
+    <person type="publisher">
+      <persName>Matthew Gyllyflower</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuel Meyrick</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Jones</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

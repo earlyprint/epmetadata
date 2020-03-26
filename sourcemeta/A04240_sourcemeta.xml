@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The copie of His Maiesties letter, sent on Tuesday the 26. of Iune 1604 signifying his Highnes pleasure to the Commons House of Parliament, in the matter of subsidie.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[4], 5, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by Felix Kingston], and are to be sold [by Cuthbert Burby] in Pauls Church-yard, at the signe of the Swan,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and bookseller's names from STC.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The copie of His Maiesties letter, sent on Tuesday the 26. of Iune 1604 signifying his Highnes pleasure to the Commons House of Parliament, in the matter of subsidie.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[4], 5, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">Felix Kingston]</persName>, and are to be sold [by <persName type="bookseller">Cuthbert Burby]</persName> in <placeName>Pauls Church-yard, at the signe of the Swan</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and bookseller's names from STC.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Cuthbert Burby]</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe of the Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

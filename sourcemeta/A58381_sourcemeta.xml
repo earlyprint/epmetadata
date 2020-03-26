@@ -1,18 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflexions upon the controversy about the oath of allegiance, occasion'd by the letter in answer to English loyalty</title>
-      </titleStmt>
-      <extent>[4], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Jacob Tonson, at the Judges-Head, in Chancery-Lane; and James Vade, at the Cock and Sugar-Loaf, in Fleet-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Cropped at head affecting pagination.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflexions upon the controversy about the oath of allegiance, occasion'd by the letter in answer to English loyalty</title>
+    </titleStmt>
+    <extent>[4], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Jacob Tonson</persName>, at <placeName>the Judges-Head, in Chancery-Lane;</placeName> and <persName type="publisher">James Vade</persName>, at <placeName>the Cock</placeName> and Sugar-Loaf, in <placeName>Fleet-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Cropped at head affecting pagination.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jacob Tonson</persName>
+    </person>
+    <person type="publisher">
+      <persName>James Vade</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-Street</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Cock</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Judges-Head, in Chancery-Lane;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some proposals for a second settlement in the province of Pennsylvania [by] William Penn.</title>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: faded.</note>
-         <note>Reproduction of original in the Friends' Library (London, England)</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some proposals for a second settlement in the province of Pennsylvania [by] William Penn.</title>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Andrew Sowle</persName></persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: faded.</note>
+      <note>Reproduction of original in the Friends' Library (London, England)</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

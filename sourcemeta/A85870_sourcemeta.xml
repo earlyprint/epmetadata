@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>XI choice sermons preached upon severall occasions. With a catechisme expounding the grounds and principles of Christian religion. By William Gay B.D. rector of Buckland.</title>
-         <author>Gay, William, Rector of Buckland.</author>
-      </titleStmt>
-      <extent>[4], 318 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley, and are to be sold at his shop at the Princes Armes in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "February. 24 1654"; the second 5 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>XI choice sermons preached upon severall occasions. With a catechisme expounding the grounds and principles of Christian religion. By William Gay B.D. rector of Buckland.</title>
+      <author>Gay, William, Rector of Buckland.</author>
+    </titleStmt>
+    <extent>[4], 318 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName>, and are to be sold at <placeName>his shop at the Princes Armes in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "February. 24 1654"; the second 5 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Princes Armes in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

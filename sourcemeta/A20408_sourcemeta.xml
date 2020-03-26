@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Greene in conceipt New raised from his graue to write the tragique historie of faire Valeria of London. Wherein is truly discouered the rare and lamentable issue of a husbands dotage, a wiues leudnesse, &amp; children of disobedience. Receiued and reported by I.D.</title>
-         <author>Dickenson, John, romance writer.</author>
-         <author>Greene, Robert, 1558?-1592.</author>
-      </titleStmt>
-      <extent>[8], 63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Bradocke for William Iones, dwelling at the signe of the Gunne neare Holborne conduit,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iohn Dickenson.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Greene in conceipt New raised from his graue to write the tragique historie of faire Valeria of London. Wherein is truly discouered the rare and lamentable issue of a husbands dotage, a wiues leudnesse, &amp; children of disobedience. Receiued and reported by I.D.</title>
+      <author>Dickenson, John, romance writer.</author>
+      <author>Greene, Robert, 1558?-1592.</author>
+    </titleStmt>
+    <extent>[8], 63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Bradocke</persName> for <persName type="publisher">William Iones</persName>, dwelling at <placeName>the signe of the Gunne neare Holborne conduit</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iohn Dickenson.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Bradocke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Gunne neare Holborne conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

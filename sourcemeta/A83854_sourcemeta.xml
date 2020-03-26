@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two declarations of the Commons assembled in Parliament, the one concerning the Court of Wards and Liveries: the other concerning such as shall inform the House of any member that hath taken any money or other reward, for any thing depending in the House. Together with an order concerning such persons as are come in from the Kings quarters, before the first of this instant December. Ordered by the Commons assembled in Parliament, that these declarations be forthwith printed and published. Hen. Elsynge, Cler. Parl. D. Com.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edw. Husband, printer to the Honorable House of Commons, and are to be sold at his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>January. 3. 1645 [i.e. 1646]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The declarations are dated 4 November 1645 and 1 December 1645 respectively; the order is dated 17 December 1645.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two declarations of the Commons assembled in Parliament, the one concerning the Court of Wards and Liveries: the other concerning such as shall inform the House of any member that hath taken any money or other reward, for any thing depending in the House. Together with an order concerning such persons as are come in from the Kings quarters, before the first of this instant December. Ordered by the Commons assembled in Parliament, that these declarations be forthwith printed and published. Hen. Elsynge, Cler. Parl. D. Com.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edw. Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>, and are to be sold at <placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>January. 3. 1645 [i.e. 1646]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The declarations are dated 4 November 1645 and 1 December 1645 respectively; the order is dated 17 December 1645.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edw. Husband</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Golden Dragon in Fleetstreet, neer the Inner-Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

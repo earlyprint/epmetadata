@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the better enabling the executors of Thomas Lloyd Esq., deceased, for selling of land for the payment of debts and portions settled by the said Thomas Lloyd and Patience his wife upon her children by her former husband Robert Story, deceased</title>
-         <author>New York (State)</author>
-      </titleStmt>
-      <extent>[10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Bradford, printer to the King's Excellent Majesty, at the Bible in New-York,</publisher>
-         <pubPlace>[New York] :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>At head of title: The fifth Assembly, third sessions, begining the 25th day of March and ending the 24th day of April, anno regni Regis Gulilemi nunc Angliae, Scotiae, Franciae &amp; Hiberniae sexto.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the better enabling the executors of Thomas Lloyd Esq., deceased, for selling of land for the payment of debts and portions settled by the said Thomas Lloyd and Patience his wife upon her children by her former husband Robert Story, deceased</title>
+      <author>New York (State)</author>
+    </titleStmt>
+    <extent>[10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bradford</persName>, printer to <persName type="patron">the King's Excellent Majesty</persName>, at <placeName>the Bible in New-York</placeName>,</publisher>
+      <pubPlace>[New York] :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>At head of title: The fifth Assembly, third sessions, begining the 25th day of March and ending the 24th day of April, anno regni Regis Gulilemi nunc Angliae, Scotiae, Franciae &amp; Hiberniae sexto.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bradford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in New-York</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the King at White-Hall, May the twentieth, MDCLXXVII by John Sudbury ...</title>
-         <author>Sudbury, John, 1604-1684.</author>
-      </titleStmt>
-      <extent>34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb, and are to be sold by Robert Boulter ...,</publisher>
-         <pubPlace>[London] In the Savoy :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A sermon preached at White-Hall.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the King at White-Hall, May the twentieth, MDCLXXVII by John Sudbury ...</title>
+      <author>Sudbury, John, 1604-1684.</author>
+    </titleStmt>
+    <extent>34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName>, and are to be sold by <persName type="bookseller">Robert Boulter</persName> ...,</publisher>
+      <pubPlace>[London] In the Savoy :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A sermon preached at White-Hall.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Robert Boulter</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,26 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The boke of Magna Carta with diuers other statutes, whose names appere in the nexte lefe folowynge, translated into Englyshe.</title>
-         <title>Laws, etc.</title>
-         <author>England.</author>
-         <author>Ferrers, George, 1500?-1579.</author>
-         <author>England.</author>
-      </titleStmt>
-      <extent>[4], 193 [i.e. 194], [6] leaves   </extent>
-      <publicationStmt>
-         <publisher>In Fletestrete, by me Robert Redman, dwellyng at the sygne of the George, nexte to Saynt Dunstones church],</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date>Anno D[omi]ni. 1534.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated by George Ferrers, whose name appears on the colophon leaf.</note>
-         <note>Includes the text of part 1 of STC 9271 only.</note>
-         <note>Printer's name and address from colophon.</note>
-         <note>Leaf 194 misnumbered 193.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The boke of Magna Carta with diuers other statutes, whose names appere in the nexte lefe folowynge, translated into Englyshe.</title>
+      <title>Laws, etc.</title>
+      <author>England.</author>
+      <author>Ferrers, George, 1500?-1579.</author>
+      <author>England.</author>
+    </titleStmt>
+    <extent>[4], 193 [i.e. 194], [6] leaves   </extent>
+    <publicationStmt>
+      <publisher>In Fletestrete, by <persName type="printer">me Robert Redman</persName>, dwellyng at <placeName>the sygne of the George, nexte to Saynt Dunstones church]</placeName>,</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date>Anno D[omi]ni. 1534.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated by George Ferrers, whose name appears on the colophon leaf.</note>
+      <note>Includes the text of part 1 of STC 9271 only.</note>
+      <note>Printer's name and address from colophon.</note>
+      <note>Leaf 194 misnumbered 193.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Robert Redman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the George, nexte to Saynt Dunstones church]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

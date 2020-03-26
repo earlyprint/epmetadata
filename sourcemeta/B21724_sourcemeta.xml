@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At the court at Whitehall the eighth of May 1667. Present the King's Most Excellent Majesty, His Royal Highness the Duke of York, ... Sir William Coventry. An order made by the Lord Mayor, Aldermen, and Common Council of the City of London, of the 29. of April last past, in the ensuing words, (viz.)</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, printer to the Honourable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1667]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from by Wing.</note>
-         <note>A proclamation establishing surveying and construction guidelines for the rebuilding of London.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At the court at Whitehall the eighth of May 1667. Present the King's Most Excellent Majesty, His Royal Highness the Duke of York, ... Sir William Coventry. An order made by the Lord Mayor, Aldermen, and Common Council of the City of London, of the 29. of April last past, in the ensuing words, (viz.)</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, printer to <persName type="patron">the Honourable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1667]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from by Wing.</note>
+      <note>A proclamation establishing surveying and construction guidelines for the rebuilding of London.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

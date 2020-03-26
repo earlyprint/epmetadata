@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Spanish lady's love to a pleasant new tune, &amp;c.</title>
-         <author>Deloney, Thomas, 1543?-1600.</author>
-      </titleStmt>
-      <extent>1 broadside : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by and for W.O. for A.M. and sold by J. Conyers ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[between 1688 and 1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Thomas Deloney by Wing.</note>
-         <note>Place and date of imprint suggested by Wing.</note>
-         <note>"Licensed and entered according to order."</note>
-         <note>Without music.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Spanish lady's love to a pleasant new tune, &amp;c.</title>
+      <author>Deloney, Thomas, 1543?-1600.</author>
+    </titleStmt>
+    <extent>1 broadside : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by and for <persName type="publisher">W.O.</persName> for <persName type="publisher">A.M.</persName> and sold by <persName type="bookseller">J. Conyers</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[between 1688 and 1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Thomas Deloney by Wing.</note>
+      <note>Place and date of imprint suggested by Wing.</note>
+      <note>"Licensed and entered according to order."</note>
+      <note>Without music.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Conyers</persName>
+    </person>
+    <person type="publisher">
+      <persName>A.M.</persName>
+    </person>
+    <person type="publisher">
+      <persName>W.O.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

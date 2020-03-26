@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ionah's contestation about his gourd In a sermon deliuered at Pauls Crosse. Septemb. 19. 1624. By R.V. preacher of Gods Word.</title>
-         <author>Vase, Robert.</author>
-      </titleStmt>
-      <extent>[8], 63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] L[egat] for Robert Bird, and are to be sold at his shoppe, at the signe of the Bible in Cheape-side,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.V. = Robert Vase.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ionah's contestation about his gourd In a sermon deliuered at Pauls Crosse. Septemb. 19. 1624. By R.V. preacher of Gods Word.</title>
+      <author>Vase, Robert.</author>
+    </titleStmt>
+    <extent>[8], 63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] L[egat]</persName> for <persName type="publisher">Robert Bird</persName>, and are to be sold at <placeName>his shoppe, at the signe of the Bible in Cheape-side</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.V. = Robert Vase.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bird</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] L[egat]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe, at the signe of the Bible in Cheape-side</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

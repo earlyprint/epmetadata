@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Kings entertainment at Guild-Hall or, Londons option in fruition.</title>
-         <author>Norton, John, b. 1662.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Milbourn, for Rowland Reynolds at the Sun and Bible in the Poultery [sic],</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: By John Norton, AEtat. suae.</note>
-         <note>Verse: "COome all ye Muses nine, assist me pray ..."</note>
-         <note>Imperfect: cropped at side with loss of print.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Kings entertainment at Guild-Hall or, Londons option in fruition.</title>
+      <author>Norton, John, b. 1662.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Milbourn</persName>, for <persName type="publisher">Rowland Reynolds</persName> at <placeName>the Sun</placeName> and Bible in <placeName>the Poultery [sic]</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: By John Norton, AEtat. suae.</note>
+      <note>Verse: "COome all ye Muses nine, assist me pray ..."</note>
+      <note>Imperfect: cropped at side with loss of print.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rowland Reynolds</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Milbourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Poultery [sic]</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The accomplished commander being necessary instructions for the prudent conduct of officers in an army / written by a person of great experience in military affairs, and published for the common benefit, by R.C.</title>
-         <author>Person of great experience in military affairs.</author>
-         <author>R. C.</author>
-      </titleStmt>
-      <extent>[12], 136 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Taylor ..., and S. Holford ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: prelim. p. [12].</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The accomplished commander being necessary instructions for the prudent conduct of officers in an army / written by a person of great experience in military affairs, and published for the common benefit, by R.C.</title>
+      <author>Person of great experience in military affairs.</author>
+      <author>R. C.</author>
+    </titleStmt>
+    <extent>[12], 136 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Taylor</persName> ..., and <persName type="publisher">S. Holford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: prelim. p. [12].</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Taylor</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Holford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

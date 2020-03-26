@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King whereas at the humble suit and request of sundry our louing and well disposed subiects, intending to deduce a colony, and make a plantation in Virginia ...</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker and Iohn Bill, Printers  to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>M.DC.XX [1620, i.e. 1621]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Other title information from first 3 lines of text.</note>
-         <note>"Giuen at Our Palace of Westminster the eighth day of March, in the eighteenth yeere of Our Reigne of Great Britaine, France and Ireland."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King whereas at the humble suit and request of sundry our louing and well disposed subiects, intending to deduce a colony, and make a plantation in Virginia ...</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName> and <persName type="printer">Iohn Bill</persName>, <persName type="printer">Printers  to the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>M.DC.XX [1620, i.e. 1621]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Other title information from first 3 lines of text.</note>
+      <note>"Giuen at Our Palace of Westminster the eighth day of March, in the eighteenth yeere of Our Reigne of Great Britaine, France and Ireland."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Printers  to the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

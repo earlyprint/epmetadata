@@ -1,23 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The book intytuled The art of good lywyng [and] good deyng</title>
-         <title>Art de bien vivre et de bien mourir. English.</title>
-      </titleStmt>
-      <extent>[400] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>[For A. Verard,</publisher>
-         <pubPlace>[Imprentyt in parys the. xx. day of the mowneth of May :</pubPlace>
-         <date>1503]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by Thomas Lewington, of the French original.</note>
-         <note>Place of publication from colophon; uniform title, printer's name and publication date from STC.</note>
-         <note>Xylographic.</note>
-         <note>Signatures: a-z⁶ [et]⁶ 2a-2h⁶ 2i.</note>
-         <note>Some print show-through; imperfect: leaves a3,4 lacking.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The book intytuled The art of good lywyng [and] good deyng</title>
+      <title>Art de bien vivre et de bien mourir. English.</title>
+    </titleStmt>
+    <extent>[400] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>[For <persName type="publisher">A. Verard</persName>,</publisher>
+      <pubPlace>[Imprentyt in parys the. xx. day of the mowneth of May :</pubPlace>
+      <date>1503]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by Thomas Lewington, of the French original.</note>
+      <note>Place of publication from colophon; uniform title, printer's name and publication date from STC.</note>
+      <note>Xylographic.</note>
+      <note>Signatures: a-z&#8310; [et]&#8310; 2a-2h&#8310; 2i.</note>
+      <note>Some print show-through; imperfect: leaves a3,4 lacking.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A. Verard</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

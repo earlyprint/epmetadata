@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation James the Seventh by the grace of God, King of Scotland, England, France and Ireland ... we have taken into our royal consideration the many and great inconveniences which have happened to that our ancient kingdom of Scotland of late years, through the different perswasions in the Christian religion, and the great heats and animosities among the several professors thereof, to the ruine and decay of trade, wasting of lands, extinguishing of charity, contempt of royal power, and converting of true religion and fear of God into animosities, names, factions, and sometimes into sacriledge and treason ...</title>
-         <author>Scotland. Sovereign (1685-1688 : James VII)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh printed by the heir of Andrew Anderson ... [reprinted at London] by George Croom ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1686/7 [i.e. 1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Other title information from first 5 lines of text.</note>
-         <note>"This may be reprinted February the 28th. [signed] R.L.S. [i.e. Roger L'Estrange]"</note>
-         <note>"Given at our Court at White-hall, the twelfth of February 1686/7. And of our reign the third year."</note>
-         <note>Imperfect: torn and creased, with slight loss of print.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation James the Seventh by the grace of God, King of Scotland, England, France and Ireland ... we have taken into our royal consideration the many and great inconveniences which have happened to that our ancient kingdom of Scotland of late years, through the different perswasions in the Christian religion, and the great heats and animosities among the several professors thereof, to the ruine and decay of trade, wasting of lands, extinguishing of charity, contempt of royal power, and converting of true religion and fear of God into animosities, names, factions, and sometimes into sacriledge and treason ...</title>
+      <author>Scotland. Sovereign (1685-1688 : James VII)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh printed by <persName type="printer">the heir of Andrew Anderson</persName> ... <persName type="printer">[</persName>reprinted at <placeName>London]</placeName> by <persName type="printer">George Croom</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1686/7 [i.e. 1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Other title information from first 5 lines of text.</note>
+      <note>"This may be reprinted February the 28th. [signed] R.L.S. [i.e. Roger L'Estrange]"</note>
+      <note>"Given at our Court at White-hall, the twelfth of February 1686/7. And of our reign the third year."</note>
+      <note>Imperfect: torn and creased, with slight loss of print.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Croom</persName>
+    </person>
+    <person type="printer">
+      <persName>[</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

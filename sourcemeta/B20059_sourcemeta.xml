@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation requiring all officers or soldiers that served under the armies of the late usurped powers, and have been disbanded, cashiered, or turned out, to depart the cities of London and Westminster before the twenty sixth day of this instant June.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>2 sheets (versos blank).   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill and Christopher Barker, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our court at Hampton-Court, this two and twentieth day of June, 1662. in the fourteenth year of our reign".</note>
-         <note>Steele notation: Arms 73; and  pleasure 2) hereby to.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation requiring all officers or soldiers that served under the armies of the late usurped powers, and have been disbanded, cashiered, or turned out, to depart the cities of London and Westminster before the twenty sixth day of this instant June.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II).</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>2 sheets (versos blank).   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our court at Hampton-Court, this two and twentieth day of June, 1662. in the fourteenth year of our reign".</note>
+      <note>Steele notation: Arms 73; and  pleasure 2) hereby to.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

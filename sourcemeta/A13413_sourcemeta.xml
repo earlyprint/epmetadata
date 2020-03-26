@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nevves from Ierusalem containing, 1. The beauty of the citie of the great King. 2. The vanitie of the isles of the sonns of men. 3. The comming of the Kings sonne. VVritten by Augustin Taylor, preacher at Hawarden.</title>
-         <author>Taylor, Augustine.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Augustine Matthewes, dwelling in the parsonage house in Bride Lane, neere Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Signatures: A-D E⁴.</note>
-         <note>"The miserie of the world" (prose) and "The comming of the Kings sonne" each have separate dated title page; register is continuous.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nevves from Ierusalem containing, 1. The beauty of the citie of the great King. 2. The vanitie of the isles of the sonns of men. 3. The comming of the Kings sonne. VVritten by Augustin Taylor, preacher at Hawarden.</title>
+      <author>Taylor, Augustine.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Augustine Matthewes</persName>, dwelling in <placeName>the parsonage house in Bride Lane, neere Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Signatures: A-D E&#8308;.</note>
+      <note>"The miserie of the world" (prose) and "The comming of the Kings sonne" each have separate dated title page; register is continuous.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Augustine Matthewes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the parsonage house in Bride Lane, neere Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

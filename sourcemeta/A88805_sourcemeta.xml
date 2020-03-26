@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The debauched cavalleer: or the English Midianite. Wherein are compared by way of parallel, the carriage, or rather miscarriage of the cavalleeres, in the present reigne of our King Charles, with the Midianites of old. Setting forth their diabolicall, and hyperdiabolicall blaspemies, execrations, rebellions, cruelties, rapes, and robberies. / Penned by G.L. and C.L. for publique good.</title>
-         <author>Lawrence, George, 1615-1695?</author>
-         <author>Love, Christopher, 1618-1651.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by L.N. for Henry Overton, in Popes-head Alley.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>MDCXLII. [1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>G. L. = George Lawrence; C. L. = Christopher Love.</note>
-         <note>Annotation on Thomason copy: "Octo: 18".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The debauched cavalleer: or the English Midianite. Wherein are compared by way of parallel, the carriage, or rather miscarriage of the cavalleeres, in the present reigne of our King Charles, with the Midianites of old. Setting forth their diabolicall, and hyperdiabolicall blaspemies, execrations, rebellions, cruelties, rapes, and robberies. / Penned by G.L. and C.L. for publique good.</title>
+      <author>Lawrence, George, 1615-1695?</author>
+      <author>Love, Christopher, 1618-1651.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">L.N.</persName> for <persName type="publisher">Henry Overton</persName>, in <placeName>Popes-head Alley.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>MDCXLII. [1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>G. L. = George Lawrence; C. L. = Christopher Love.</note>
+      <note>Annotation on Thomason copy: "Octo: 18".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>L.N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

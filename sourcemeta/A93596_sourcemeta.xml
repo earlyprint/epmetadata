@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands vvarning by Germanies vvoe: or, An historicall narration, of the originall, progresse, tenets, names, and severall sects of the Anabaptists, in Germany, and the Low Countries: continued for about one hundred and twenty years, from anno 1521. (which was the time of their first rise,) until these dayes. VVherein is set forth their severall errors dangerous, and very destructive to the peace both of church and state: the way and manner of their spreading them: the many great commotions: (yea,to the effusion of much blood,) which they occasioned in those parts, by their opposition to, and resistance of the civill magistrates; and what course there was taken for the suppressing them. / By Frederick Spanhemius, Doctor, and Professor of Divinity, in the Vniversity of Leyden in Holland. Published according to order.</title>
-         <author>Spanheim, Friedrich, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Dever &amp; Robert Ibbitson, for John Bellamie, at the three Golden Lions in Corn-hill, neere the Royall Exhange.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nou: 23".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands vvarning by Germanies vvoe: or, An historicall narration, of the originall, progresse, tenets, names, and severall sects of the Anabaptists, in Germany, and the Low Countries: continued for about one hundred and twenty years, from anno 1521. (which was the time of their first rise,) until these dayes. VVherein is set forth their severall errors dangerous, and very destructive to the peace both of church and state: the way and manner of their spreading them: the many great commotions: (yea,to the effusion of much blood,) which they occasioned in those parts, by their opposition to, and resistance of the civill magistrates; and what course there was taken for the suppressing them. / By Frederick Spanhemius, Doctor, and Professor of Divinity, in the Vniversity of Leyden in Holland. Published according to order.</title>
+      <author>Spanheim, Friedrich, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Dever</persName> &amp; <persName type="printer">Robert Ibbitson</persName>, for <persName type="publisher">John Bellamie</persName>, at <placeName>the three Golden Lions in Corn-hill, neere the Royall Exhange.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nou: 23".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Bellamie</persName>
+    </person>
+    <person type="printer">
+      <persName>John Dever</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Golden Lions in Corn-hill, neere the Royall Exhange.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

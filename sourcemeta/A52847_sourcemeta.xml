@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of consumptions in which their      nature, causes and symptoms are briefly explained, and a new and extraordinary  method by specifick medicines is proposed for the cure of consumptions, even such as proceed from ulcers of the lungs / by Thomas Nevett ...</title>
-         <author>Nevett, Thomas.</author>
-      </titleStmt>
-      <extent>[12], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Astwood, and sold by Thomas Parkhurst ... and Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print show-through and slight loss of text.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of consumptions in which their      nature, causes and symptoms are briefly explained, and a new and extraordinary  method by specifick medicines is proposed for the cure of consumptions, even such as proceed from ulcers of the lungs / by Thomas Nevett ...</title>
+      <author>Nevett, Thomas.</author>
+    </titleStmt>
+    <extent>[12], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Astwood</persName>, and sold by <persName type="bookseller">Thomas Parkhurst</persName> ... and <persName type="bookseller">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print show-through and slight loss of text.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>John Astwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

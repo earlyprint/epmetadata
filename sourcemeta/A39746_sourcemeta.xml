@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the King at White-hall on Tuesday, November the 5th, 1700 by William Fleetwood ...</title>
-         <author>Fleetwood, William, 1656-1723.</author>
-      </titleStmt>
-      <extent>[2], 29 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Harper ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by His Majesties special command."</note>
-         <note>Advertisement: p. 29.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the King at White-hall on Tuesday, November the 5th, 1700 by William Fleetwood ...</title>
+      <author>Fleetwood, William, 1656-1723.</author>
+    </titleStmt>
+    <extent>[2], 29 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Harper</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by His Majesties special command."</note>
+      <note>Advertisement: p. 29.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Harper</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

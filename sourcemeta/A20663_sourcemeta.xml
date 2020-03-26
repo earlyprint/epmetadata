@@ -1,17 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of the deputies of the high and mightie States Generall of the Vnited Prouinces And of the reuerend and learned diuines, who now are met in the nationall synode. Celebrated in the citie of Dordrecht in  Holland. Translated out of the Latin and Dutch copies. With a short narration of the occasions, and introduction of the said synodicall assembly.</title>
-      </titleStmt>
-      <extent>[8], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. I[ones] for Nich. Bourne, and Nath. Newberie, and are to be sold at the Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of the deputies of the high and mightie States Generall of the Vnited Prouinces And of the reuerend and learned diuines, who now are met in the nationall synode. Celebrated in the citie of Dordrecht in  Holland. Translated out of the Latin and Dutch copies. With a short narration of the occasions, and introduction of the said synodicall assembly.</title>
+    </titleStmt>
+    <extent>[8], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. I[ones]</persName> for <persName type="publisher">Nich. Bourne</persName>, and <persName type="publisher">Nath. Newberie</persName>, and are to be sold at <placeName>the Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nath. Newberie</persName>
+    </person>
+    <person type="publisher">
+      <persName>Nich. Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W. I[ones]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

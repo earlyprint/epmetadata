@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sicke-mans catechisme, or path-way to felicitie Wherin is contained great variety of sound directions and most sweete co[n]solations collected and contriued into questions and answers, out of the best diuines of our time, by Thomas Draxe minister of Gods Word. Wherevnto is annexed two most comfortable and powrefull prayers.</title>
-         <author>Draxe, Thomas, d. 1618.</author>
-      </titleStmt>
-      <extent>[126] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by G. Eld] for Henry Holland, and are to be sold by I. W[right] at Christ Church dore,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and bookseller's names from STC.</note>
-         <note>Running title reads: The sick-mans path-way.</note>
-         <note>Signatures: A-H (A8, blank?).</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sicke-mans catechisme, or path-way to felicitie Wherin is contained great variety of sound directions and most sweete co[n]solations collected and contriued into questions and answers, out of the best diuines of our time, by Thomas Draxe minister of Gods Word. Wherevnto is annexed two most comfortable and powrefull prayers.</title>
+      <author>Draxe, Thomas, d. 1618.</author>
+    </titleStmt>
+    <extent>[126] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">G. Eld]</persName> for <persName type="publisher">Henry Holland</persName>, and are to be sold by <persName type="bookseller">I. W[right]</persName> at <placeName>Christ Church dore</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and bookseller's names from STC.</note>
+      <note>Running title reads: The sick-mans path-way.</note>
+      <note>Signatures: A-H (A8, blank?).</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>I. W[right]</persName>
+    </person>
+    <person type="publisher">
+      <persName>Henry Holland</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Christ Church dore</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

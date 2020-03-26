@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bristol drollery poems and songs / by Mr. C.</title>
-         <author>C., Mr.</author>
-      </titleStmt>
-      <extent>[6], 102 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Allen ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Prefatory verses signed: N.C.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bristol drollery poems and songs / by Mr. C.</title>
+      <author>C., Mr.</author>
+    </titleStmt>
+    <extent>[6], 102 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Allen</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Prefatory verses signed: N.C.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Allen</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

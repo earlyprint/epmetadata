@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two sermons preached the one at Paules Crosse the eight of Ianuarie 1580. The other, at Christes Churche in London the same day in the after noone: by Iames Bisse maister of Art, and fellowe of Magdalen Colledge in Oxenford.</title>
-         <author>Bisse, James, 1551 or 2-1607.</author>
-      </titleStmt>
-      <extent>[128] p.   </extent>
-      <publicationStmt>
-         <publisher>By [Thomas Dawson for] Thomas Woodcocke,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1581.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Thomas Dawson's initials appear in title page border; actual printer's name from STC.</note>
-         <note>This and some other copies are missing a line of text between E8v and F1r, which is given on F3r of STC 3100 as 'The attaynment of the life to come".--STC.</note>
-         <note>Signatures: *⁴ A-H I⁴ (-*1,I4, blank?).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two sermons preached the one at Paules Crosse the eight of Ianuarie 1580. The other, at Christes Churche in London the same day in the after noone: by Iames Bisse maister of Art, and fellowe of Magdalen Colledge in Oxenford.</title>
+      <author>Bisse, James, 1551 or 2-1607.</author>
+    </titleStmt>
+    <extent>[128] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[Thomas Dawson</persName> for<persName type="publisher">] Thomas Woodcocke</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1581.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Thomas Dawson's initials appear in title page border; actual printer's name from STC.</note>
+      <note>This and some other copies are missing a line of text between E8v and F1r, which is given on F3r of STC 3100 as 'The attaynment of the life to come".--STC.</note>
+      <note>Signatures: *&#8308; A-H I&#8308; (-*1,I4, blank?).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Thomas Woodcocke</persName>
+    </person>
+    <person type="printer">
+      <persName>[Thomas Dawson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funerall elegie on the unfortunate death of that worthy major Edward Grey, Iuly 26. 1644.</title>
-         <author>J. A.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>for I.W. at the old Baylie,</publisher>
-         <pubPlace>[Printed at London :</pubPlace>
-         <date>1644]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: J.A.</note>
-         <note>Verse: "Sad prodigy! Can famous valiant Grey ..."</note>
-         <note>Imperfect: Stained, affecting imprint; imprint suggested by Wing.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funerall elegie on the unfortunate death of that worthy major Edward Grey, Iuly 26. 1644.</title>
+      <author>J. A.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">I.W.</persName> at <placeName>the old Baylie</placeName>,</publisher>
+      <pubPlace>[Printed at London :</pubPlace>
+      <date>1644]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: J.A.</note>
+      <note>Verse: "Sad prodigy! Can famous valiant Grey ..."</note>
+      <note>Imperfect: Stained, affecting imprint; imprint suggested by Wing.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the old Baylie</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

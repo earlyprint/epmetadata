@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A boke of prayers called ye ordynary faschyon of good lyuynge</title>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>In Fletestrete at the sygne of the George nexte to saynt Dunstons churche by Wyllyam Myddylton,</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date>[1546?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
-         <note>Running title reads: Ordynary. of lyuynge.</note>
-         <note>Identified as STC 3326a on UMI microfilm, reel 738.</note>
-         <note>Signatures: A B⁶ C⁴.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A boke of prayers called ye ordynary faschyon of good lyuynge</title>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>In Fletestrete at <placeName>the sygne of the George nexte to saynt Dunstons churche</placeName> by <persName type="printer">Wyllyam Myddylton</persName>,</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date>[1546?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+      <note>Running title reads: Ordynary. of lyuynge.</note>
+      <note>Identified as STC 3326a on UMI microfilm, reel 738.</note>
+      <note>Signatures: A B&#8310; C&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wyllyam Myddylton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the George nexte to saynt Dunstons churche</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

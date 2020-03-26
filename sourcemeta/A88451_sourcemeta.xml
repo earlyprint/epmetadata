@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At a Common-Council holden at the Guild-hall London, on VVednesday the 23 day of November 1659.</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>Alleyne, Thomas, Sir, fl. 1660.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher Printer to the honourable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing.</note>
-         <note>An order of the Common Council appointing the 2nd of December to be kept as a Fast Day.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At a Common-Council holden at the Guild-hall London, on VVednesday the 23 day of November 1659.</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>Alleyne, Thomas, Sir, fl. 1660.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName> Printer to <persName type="patron">the honourable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing.</note>
+      <note>An order of the Common Council appointing the 2nd of December to be kept as a Fast Day.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

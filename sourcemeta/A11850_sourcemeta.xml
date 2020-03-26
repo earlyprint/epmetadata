@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christs counsell to his languishing church of Sardis. Or, The dying or decaying Christian, with the meanes and helpes of his recovery and strengthening. By Obadiah Sedgwicke, B. of D. late preacher to the inhabitants of S. Mildreds Bredstreet, London</title>
-         <author>Sedgwick, Obadiah, 1600?-1658.</author>
-      </titleStmt>
-      <extent>[16], 262, [10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] B[adger] for L. Fawne, and S. Gellibrand, at the brasen Serpent in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Includes index.</note>
-         <note>With a final errata leaf; the last leaf is blank.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christs counsell to his languishing church of Sardis. Or, The dying or decaying Christian, with the meanes and helpes of his recovery and strengthening. By Obadiah Sedgwicke, B. of D. late preacher to the inhabitants of S. Mildreds Bredstreet, London</title>
+      <author>Sedgwick, Obadiah, 1600?-1658.</author>
+    </titleStmt>
+    <extent>[16], 262, [10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] B[adger]</persName> for <persName type="publisher">L. Fawne</persName>, and <persName type="publisher">S. Gellibrand</persName>, at <placeName>the brasen Serpent in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Includes index.</note>
+      <note>With a final errata leaf; the last leaf is blank.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. Fawne</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Gellibrand</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] B[adger]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the brasen Serpent in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

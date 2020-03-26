@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A character of a true Christian written by Abiezar Copp.</title>
-         <author>Coppe, Abiezer, 1619-1672.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.D., sold by La. Curtiss,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The tune is The fair nimphs."</note>
-         <note>Without music.</note>
-         <note>Reproductions of originals in the Harvard University Library and the British Library.</note>
-         <note>Identified as Wing number C6086 at position 1547:41; cancelled in Wing (CD-ROM).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A character of a true Christian written by Abiezar Copp.</title>
+      <author>Coppe, Abiezer, 1619-1672.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.D.</persName>, sold by <persName type="bookseller">La. Curtiss</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The tune is The fair nimphs."</note>
+      <note>Without music.</note>
+      <note>Reproductions of originals in the Harvard University Library and the British Library.</note>
+      <note>Identified as Wing number C6086 at position 1547:41; cancelled in Wing (CD-ROM).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>La. Curtiss</persName>
+    </person>
+    <person type="printer">
+      <persName>T.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

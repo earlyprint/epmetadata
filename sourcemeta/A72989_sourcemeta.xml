@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rose, and lily Delivered at the lecture, in Ashby de-la-zouch in the county of Leicester. By William Parks, Master of Arts, and curat of Chelaston in the county of Derby.</title>
-         <author>Parks, William, curat of Chelaston.</author>
-      </titleStmt>
-      <extent>[4], 48, [2], 41, [5], 44, [4], 41, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.N. for George Wilne, and are to be sold by Samuel Man at the signe of the the [sic] Swan in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In four parts, each with separate pagination and register.</note>
-         <note>Sub tpp cancelled.--STC.</note>
-         <note>Copy filmed at UMI microfilm Early English Books 1475-1640 reel 2013 lacks pages 8 and 9.</note>
-         <note>Reproduction of original in the Trinity College Library, Dublin.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rose, and lily Delivered at the lecture, in Ashby de-la-zouch in the county of Leicester. By William Parks, Master of Arts, and curat of Chelaston in the county of Derby.</title>
+      <author>Parks, William, curat of Chelaston.</author>
+    </titleStmt>
+    <extent>[4], 48, [2], 41, [5], 44, [4], 41, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.N.</persName> for <persName type="publisher">George Wilne</persName>, and are to be sold by <persName type="bookseller">Samuel Man</persName> at <placeName>the signe of the the [sic] Swan in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In four parts, each with separate pagination and register.</note>
+      <note>Sub tpp cancelled.--STC.</note>
+      <note>Copy filmed at UMI microfilm Early English Books 1475-1640 reel 2013 lacks pages 8 and 9.</note>
+      <note>Reproduction of original in the Trinity College Library, Dublin.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="publisher">
+      <persName>George Wilne</persName>
+    </person>
+    <person type="printer">
+      <persName>J.N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the the [sic] Swan in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

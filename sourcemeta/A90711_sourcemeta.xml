@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter sent from the Provost Vice-Chancellour of Oxford, to the Right Honourable the Earle of Pembrooke Lord Chancellour of Oxford. Together with His Lordships ansvver to the said letter. Ordered by the Lords and Commons in Parliament, that this letter and answer be forthwith printed and published: H. Elsynge, Cler. Parl. D. Com.</title>
-         <author>Pinck, Robert, 1573-1647.</author>
-         <author>Pembroke, Philip Herbert, Earl of, 1584-1650.</author>
-      </titleStmt>
-      <extent>[2], 3, [1], 7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by L. N. for E. Husbands and J. Franck and are to be sold at their shops in the Middle-Temple, and next door to the Kings-head in Fleet-street,</publisher>
-         <pubPlace>Setember 13. 1642 London :</pubPlace>
-         <date>[1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Robert Pinck. cf. BLC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter sent from the Provost Vice-Chancellour of Oxford, to the Right Honourable the Earle of Pembrooke Lord Chancellour of Oxford. Together with His Lordships ansvver to the said letter. Ordered by the Lords and Commons in Parliament, that this letter and answer be forthwith printed and published: H. Elsynge, Cler. Parl. D. Com.</title>
+      <author>Pinck, Robert, 1573-1647.</author>
+      <author>Pembroke, Philip Herbert, Earl of, 1584-1650.</author>
+    </titleStmt>
+    <extent>[2], 3, [1], 7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">L. N.</persName> for <persName type="publisher">E. Husbands</persName> and <persName type="publisher">J. Franck</persName> and are to be sold at <placeName>their shops in the Middle-Temple</placeName>, and next <placeName>door to the Kings-head in Fleet-street</placeName>,</publisher>
+      <pubPlace>Setember 13. 1642 London :</pubPlace>
+      <date>[1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Robert Pinck. cf. BLC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Husbands</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Franck</persName>
+    </person>
+    <person type="printer">
+      <persName>L. N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>door to the Kings-head in Fleet-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>their shops in the Middle-Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>List of persons, thieves and broken-men, within the shires of Striviling and Pearth, denunced [sic] fugitives by the commission for that district in the Highlands, for non compearing before them, and by order of Privy Council, of the nineteenth of July 1683. Discharged to be harboured, resset, or intercommuned with, under the penalties contained in the Act of Parliament</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to His most Sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>List of persons, thieves and broken-men, within the shires of Striviling and Pearth, denunced [sic] fugitives by the commission for that district in the Highlands, for non compearing before them, and by order of Privy Council, of the nineteenth of July 1683. Discharged to be harboured, resset, or intercommuned with, under the penalties contained in the Act of Parliament</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">His most Sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His most Sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

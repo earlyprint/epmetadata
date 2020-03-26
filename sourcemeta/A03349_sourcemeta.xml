@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Paules Crosse the 9. of Februarie being the first Sunday in the Parleament, Anno. 1588. by Richard Bancroft D. of Divinitie, and chaplaine to the right honorable Sir Christopher Hatson Knight L. chancelor of England. Wherein some things are now added, which then were omitted, either through want of time, or default in memorie.</title>
-         <author>Bancroft, Richard, 1544-1610.</author>
-      </titleStmt>
-      <extent>[4], 106, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>By E. B[ollifant] for Gregorie Seton, and are to be sold at his shop under Aldersgate,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1588.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On 1 John IV, 1.</note>
-         <note>Printer's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the originals in the Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Paules Crosse the 9. of Februarie being the first Sunday in the Parleament, Anno. 1588. by Richard Bancroft D. of Divinitie, and chaplaine to the right honorable Sir Christopher Hatson Knight L. chancelor of England. Wherein some things are now added, which then were omitted, either through want of time, or default in memorie.</title>
+      <author>Bancroft, Richard, 1544-1610.</author>
+    </titleStmt>
+    <extent>[4], 106, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">E. B[ollifant]</persName> for <persName type="publisher">Gregorie Seton</persName>, and are to be sold at <placeName>his shop under Aldersgate</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1588.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On 1 John IV, 1.</note>
+      <note>Printer's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the originals in the Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gregorie Seton</persName>
+    </person>
+    <person type="printer">
+      <persName>E. B[ollifant]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under Aldersgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

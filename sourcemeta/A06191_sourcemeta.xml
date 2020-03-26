@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The kings shoe Made, and ordained to trample on and to treade downe Edomites; to teach in briefe, what is Edoms doome; what the carefull condition of the king, what the loyall submission of a subiect, and what proiects are onely to best purpose. Deliuered in a sermon before the king at Theobalds, October the ninth, 1622: by William Loe, Doctour of Diuinity, chaplaine to his sacred Maiestiy in ordinary.</title>
-         <author>Loe, William, d. 1645.</author>
-      </titleStmt>
-      <extent>[8], 45, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. L[egat] for William Sheffard, and are to bee sold at his shop, at the entring in of Popes head Allie out of Lumbard street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The kings shooe.</note>
-         <note>Some pages stained and tightly bound.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The kings shoe Made, and ordained to trample on and to treade downe Edomites; to teach in briefe, what is Edoms doome; what the carefull condition of the king, what the loyall submission of a subiect, and what proiects are onely to best purpose. Deliuered in a sermon before the king at Theobalds, October the ninth, 1622: by William Loe, Doctour of Diuinity, chaplaine to his sacred Maiestiy in ordinary.</title>
+      <author>Loe, William, d. 1645.</author>
+    </titleStmt>
+    <extent>[8], 45, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. L[egat]</persName> for <persName type="publisher">William Sheffard</persName>, and are to bee sold at <placeName>his shop, at the entring in of Popes head Allie out of Lumbard street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The kings shooe.</note>
+      <note>Some pages stained and tightly bound.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheffard</persName>
+    </person>
+    <person type="printer">
+      <persName>I. L[egat]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the entring in of Popes head Allie out of Lumbard street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

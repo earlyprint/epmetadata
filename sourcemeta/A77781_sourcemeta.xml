@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A testimony against the Quakers False-doctrine, and the image they have set up Being a defence of the book called Antichrist transformed. In answer to a little book, published by Giles Barnadiston. And for better information, the image is hereto annexed verbatim, with the subscribers thereof. Published by Geoffery Bullock.</title>
-         <author>Bullock, Jeffery, of Sudbury.</author>
-      </titleStmt>
-      <extent>27, [1]p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and to be sold by Francis Smith, at the Elephant and Castle in Cornhil, near the Royal-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a caption title.</note>
-         <note>Reproduction of original in the Lambeth Palace Library, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A testimony against the Quakers False-doctrine, and the image they have set up Being a defence of the book called Antichrist transformed. In answer to a little book, published by Giles Barnadiston. And for better information, the image is hereto annexed verbatim, with the subscribers thereof. Published by Geoffery Bullock.</title>
+      <author>Bullock, Jeffery, of Sudbury.</author>
+    </titleStmt>
+    <extent>27, [1]p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author, and to be</persName> sold by <persName type="bookseller">Francis Smith</persName>, at <placeName>the Elephant</placeName> and Castle in <placeName>Cornhil, near the Royal-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a caption title.</note>
+      <note>Reproduction of original in the Lambeth Palace Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Smith</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author, and to be</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil, near the Royal-Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

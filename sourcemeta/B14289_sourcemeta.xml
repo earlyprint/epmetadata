@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The masque of queenes celebrated from the house of fame: by the most absolute in all state, and titles. Anne Queene of Great Britaine, &amp;c. With her honourable ladies. At VVhite Hall, Febr. 2. 1609. Written by Ben: Ionson.</title>
-         <author>Jonson, Ben, 1573?-1637.</author>
-      </titleStmt>
-      <extent>[42] p.   </extent>
-      <publicationStmt>
-         <publisher>By N. Okes. for R. Bonian and H. VVally, and are to be sold at the Spred Eagle in Poules Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A⁴ (-A2, +F2) B-E⁴ F²  (-F2).</note>
-         <note>The first leaf is blank.</note>
-         <note>The title page is a cancel (printed as F2).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The masque of queenes celebrated from the house of fame: by the most absolute in all state, and titles. Anne Queene of Great Britaine, &amp;c. With her honourable ladies. At VVhite Hall, Febr. 2. 1609. Written by Ben: Ionson.</title>
+      <author>Jonson, Ben, 1573?-1637.</author>
+    </titleStmt>
+    <extent>[42] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">N. Okes.</persName> for <persName type="publisher">R. Bonian</persName> and <persName type="publisher">H. VVally</persName>, and are to be sold at <placeName>the Spred Eagle in Poules Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8308; (-A2, +F2) B-E&#8308; F&#178;  (-F2).</note>
+      <note>The first leaf is blank.</note>
+      <note>The title page is a cancel (printed as F2).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. VVally</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Bonian</persName>
+    </person>
+    <person type="printer">
+      <persName>N. Okes.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Spred Eagle in Poules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter vvritten to the right vvorshipfull the Gouernours and assistants of the East Indian marchants in London containing the estate of the East Indian fleete, with the names of the chiefe men of note dead in the voyage.</title>
-      </titleStmt>
-      <extent>[4], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Read] for Thomas Thorppe, and are to be sould by William Aspley,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter vvritten to the right vvorshipfull the Gouernours and assistants of the East Indian marchants in London containing the estate of the East Indian fleete, with the names of the chiefe men of note dead in the voyage.</title>
+    </titleStmt>
+    <extent>[4], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Read]</persName> for <persName type="publisher">Thomas Thorppe</persName>, and are to be sould by <persName type="bookseller">William Aspley</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Aspley</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Thorppe</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Read]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

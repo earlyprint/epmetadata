@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The visible porch or known entrance into a church, or Christian fellowship.</title>
-         <author>Tookey, Thomas, d. 1656.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>for Richard Moone, at the seven Stars in Paul's Church-yard, neer the great North-door,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>[1656]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Thomas Tookey Minister of Harwich.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "June 4 1656".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The visible porch or known entrance into a church, or Christian fellowship.</title>
+      <author>Tookey, Thomas, d. 1656.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">Richard Moone</persName>, at <placeName>the seven Stars in Paul's Church-yard, neer the great North-door</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>[1656]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Thomas Tookey Minister of Harwich.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "June 4 1656".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Moone</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the seven Stars in Paul's Church-yard, neer the great North-door</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>This is to all officers and souldiers of the armies in England, Scotland, and Ireland; and to all magistrates, and them in authority in these nations, and the dominions thereunto appertaining for them to read.</title>
-         <author>Fox, George, 1624-1691.</author>
-      </titleStmt>
-      <extent>[1], 8 [i.e. 7] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Thomas Simmons at the Bull and Mouth neer Aldersgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: G.F., i.e. George Fox.</note>
-         <note>Even page numbers on rectos; p. 7 misnumbered 8.</note>
-         <note>Annotations on Thomason copy: "May 29" on title page; "ox" after 'G.F.' on last page.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>This is to all officers and souldiers of the armies in England, Scotland, and Ireland; and to all magistrates, and them in authority in these nations, and the dominions thereunto appertaining for them to read.</title>
+      <author>Fox, George, 1624-1691.</author>
+    </titleStmt>
+    <extent>[1], 8 [i.e. 7] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Thomas Simmons</persName> at <placeName>the Bull</placeName> and Mouth neer <placeName>Aldersgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: G.F., i.e. George Fox.</note>
+      <note>Even page numbers on rectos; p. 7 misnumbered 8.</note>
+      <note>Annotations on Thomason copy: "May 29" on title page; "ox" after 'G.F.' on last page.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Simmons</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Aldersgate</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bull</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Ignoramus ballad to the tune of, Let Oliver now be forgotten.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for N. T. ...,</publisher>
-         <pubPlace>[London?] :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>In verse.</note>
-         <note>In double columns.</note>
-         <note>Reproduction of original in British Museum, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Ignoramus ballad to the tune of, Let Oliver now be forgotten.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">N. T.</persName> ...,</publisher>
+      <pubPlace>[London?] :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>In verse.</note>
+      <note>In double columns.</note>
+      <note>Reproduction of original in British Museum, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N. T.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

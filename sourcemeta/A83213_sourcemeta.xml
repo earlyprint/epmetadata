@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ordinance of the Lords and Commons assembled in Parliament, for the more effectuall puting in execution the Directory for publique worship, in all parish churches and chappells within the kingdome of England and dominion of Wales, and for the dispersing of them in all places and parishes within this kindome [sic], and the dominion of Wales. Ordered by the Commons in Parliament, that this ordinance be forthwith printed and published: H. Elsynge, Cler. Parl. D. Com.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.W. for Ed. Husband, printer for the Honourable House of Commons.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "Aug: 25".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ordinance of the Lords and Commons assembled in Parliament, for the more effectuall puting in execution the Directory for publique worship, in all parish churches and chappells within the kingdome of England and dominion of Wales, and for the dispersing of them in all places and parishes within this kindome [sic], and the dominion of Wales. Ordered by the Commons in Parliament, that this ordinance be forthwith printed and published: H. Elsynge, Cler. Parl. D. Com.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.W.</persName> for <persName type="publisher">Ed. Husband, printer</persName> for <persName type="publisher">the Honourable House of Commons.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "Aug: 25".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ed. Husband, printer</persName>
+    </person>
+    <person type="publisher">
+      <persName>the Honourable House of Commons.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

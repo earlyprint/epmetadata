@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Balaam's wish: a sermon Wherein the vanity of desires without endeavours, in order to the obtaining the death of the upright, and their last end, is opened and applyed. First occasionally preached, and now at the request of some published. By an unworthy messenger of Christ.</title>
-         <author>Cawton, Thomas, 1637-1677.</author>
-      </titleStmt>
-      <extent>[14], 96 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T. Leach for John Sims, and are to be sold at his shop near Gresham-Colledge-gate in Bishops-gate-street, and at his shop at Swithins-Alley-end in Cornhill, near the Royal-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas Cawton.</note>
-         <note>Reproduction of original in the Congregational Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Balaam's wish: a sermon Wherein the vanity of desires without endeavours, in order to the obtaining the death of the upright, and their last end, is opened and applyed. First occasionally preached, and now at the request of some published. By an unworthy messenger of Christ.</title>
+      <author>Cawton, Thomas, 1637-1677.</author>
+    </titleStmt>
+    <extent>[14], 96 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. Leach</persName> for <persName type="publisher">John Sims</persName>, and are to be sold at <placeName>his shop near Gresham-Colledge-gate in Bishops-gate-street</placeName>, and at <placeName>his shop at Swithins-Alley-end in Cornhill, near the Royal-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Cawton.</note>
+      <note>Reproduction of original in the Congregational Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Sims</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Leach</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Swithins-Alley-end in Cornhill, near the Royal-Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop near Gresham-Colledge-gate in Bishops-gate-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

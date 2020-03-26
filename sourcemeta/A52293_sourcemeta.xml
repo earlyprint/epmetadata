@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A conference with a theist part I / by William Nicholls.</title>
-         <author>Nicholls, William, 1664-1712.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition corrected.</edition>
-      </editionStmt>
-      <extent>[27], 264 p., [1] leaf of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by T.W. for Francis Saunders and Thomas Bennet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Wherein I. are shewn the absurdities in the pretended eternity of the world, II. the difficulties in the mosaick creation are cleared, III. the lapse of mankind is defended against the objections of the unbelievers."</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A conference with a theist part I / by William Nicholls.</title>
+      <author>Nicholls, William, 1664-1712.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition corrected.</edition>
+    </editionStmt>
+    <extent>[27], 264 p., [1] leaf of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.W.</persName> for <persName type="publisher">Francis Saunders</persName> and <persName type="publisher">Thomas Bennet</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Wherein I. are shewn the absurdities in the pretended eternity of the world, II. the difficulties in the mosaick creation are cleared, III. the lapse of mankind is defended against the objections of the unbelievers."</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Saunders</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>T.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

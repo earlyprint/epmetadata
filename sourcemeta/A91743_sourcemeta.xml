@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Joy in the Lord opened in a sermon preached at Pauls, May 6. / By Edward Reynolds, D.D.</title>
-         <author>Reynolds, Edward, 1599-1676.</author>
-      </titleStmt>
-      <extent>[8], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho: Newcomb, for Robert Bostock, and are to be sold at his shop at the sign of the Kings-Head in St Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June 20."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Joy in the Lord opened in a sermon preached at Pauls, May 6. / By Edward Reynolds, D.D.</title>
+      <author>Reynolds, Edward, 1599-1676.</author>
+    </titleStmt>
+    <extent>[8], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho: Newcomb</persName>, for <persName type="publisher">Robert Bostock</persName>, and are to be sold at <placeName>his shop at the sign of the Kings-Head in St Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June 20."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho: Newcomb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Kings-Head in St Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

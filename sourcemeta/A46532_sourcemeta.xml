@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation against all persons who have intrometted with the goods of forefaulted rebels and traitors, &amp;c.</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh printed by the heir of Andrew Anderson  ; this may be reprinted at London August the 21th for J.C.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-         <note>"Given under our signet at Edinburgh, the eleventh day of August, 1685. And of our reign the first year."</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation against all persons who have intrometted with the goods of forefaulted rebels and traitors, &amp;c.</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh printed by <persName type="printer">the heir of Andrew Anderson  ; this may be</persName> reprinted at <placeName>London August the 21th</placeName> for <persName type="publisher">J.C.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+      <note>"Given under our signet at Edinburgh, the eleventh day of August, 1685. And of our reign the first year."</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson  ; this may be</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London August the 21th</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

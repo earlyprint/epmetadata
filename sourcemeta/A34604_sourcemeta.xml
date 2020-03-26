@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cosens revived, or, The French-accademy containing examples of the fundamental rules of drawing, and directions for the assistants of young practitioners in that most noble and ingenious art : likewise, the use of the necessary instruments for drawing ... : also instructions for pasting, colouring or washing maps and prints ...: lastly, directions for preparing mezotincto prints ...</title>
-      </titleStmt>
-      <extent>[1] + p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilde, for Robert Walton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: t.p. only.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Cosens revived, or, The French-accademy containing examples of the fundamental rules of drawing, and directions for the assistants of young practitioners in that most noble and ingenious art : likewise, the use of the necessary instruments for drawing ... : also instructions for pasting, colouring or washing maps and prints ...: lastly, directions for preparing mezotincto prints ...</title>
+    </titleStmt>
+    <extent>[1] + p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilde</persName>, for <persName type="publisher">Robert Walton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: t.p. only.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Walton</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

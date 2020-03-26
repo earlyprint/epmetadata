@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tormenting Tophet: or A terrible description of Hel able to breake the hardest heart, and cause it quake and tremble. Preached at Paules Crosse the 14. of Iune 1614. By Henry Greenvvood, Master of Arts, and preacher of the word of God.</title>
-         <author>Greenwood, Henry, b. 1544 or 5.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition corrected and amended.</edition>
-      </editionStmt>
-      <extent>[6], 82, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by George Purslowe for Henry Bell, and are to be solde at his shop without Bishopsgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title reads: "An earnest and zealous prayer, to be saued from the damnation of Tophet" has caption title.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tormenting Tophet: or A terrible description of Hel able to breake the hardest heart, and cause it quake and tremble. Preached at Paules Crosse the 14. of Iune 1614. By Henry Greenvvood, Master of Arts, and preacher of the word of God.</title>
+      <author>Greenwood, Henry, b. 1544 or 5.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition corrected and amended.</edition>
+    </editionStmt>
+    <extent>[6], 82, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">George Purslowe</persName> for <persName type="publisher">Henry Bell</persName>, and are to be solde at <placeName>his shop without Bishopsgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title reads: "An earnest and zealous prayer, to be saued from the damnation of Tophet" has caption title.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Bell</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop without Bishopsgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

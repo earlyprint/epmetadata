@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A seasonable sermon preach'd January 26. 1689, and publish'd for the common benefit of all true English men by J.G. D.D.</title>
-         <author>Goodman, John, 1625 or 6-1690.</author>
-      </titleStmt>
-      <extent>[2], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by S. Roycroft, for R. Clavell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A seasonable sermon preach'd January 26. 1689, and publish'd for the common benefit of all true English men by J.G. D.D.</title>
+      <author>Goodman, John, 1625 or 6-1690.</author>
+    </titleStmt>
+    <extent>[2], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">S. Roycroft</persName>, for <persName type="publisher">R. Clavell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Clavell</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Roycroft</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

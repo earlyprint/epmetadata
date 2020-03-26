@@ -1,18 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rules of the schools at the Savoy</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills, printer to the Kings Most Excellent Majesty for his household and chappel, for him and Matthew Turner, at the Lamb in High Holborn,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: cropped with slight loss of text.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rules of the schools at the Savoy</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName>, printer to <persName type="patron">the Kings Most Excellent Majesty</persName> for <persName type="publisher">his household and chappel</persName>, for <persName type="publisher">him</persName> and <persName type="publisher">Matthew Turner</persName>, at <placeName>the Lamb in High Holborn</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: cropped with slight loss of text.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+    <person type="publisher">
+      <persName>Matthew Turner</persName>
+    </person>
+    <person type="publisher">
+      <persName>him</persName>
+    </person>
+    <person type="publisher">
+      <persName>his household and chappel</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Lamb in High Holborn</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

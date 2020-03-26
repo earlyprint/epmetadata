@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems, &amp;c. By James Shirley.</title>
-         <author>Shirley, James, 1596-1666.</author>
-      </titleStmt>
-      <extent>[16], 80, [2], 46, 147-159, [4], 30 [i.e. 28], [2] p. : ill. (port.)  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Ruth Raworth and Susan Islip] for Humphrey Moseley, and are to be sold at his shop at the signe of the Princes Armes in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names from Pforzheimer catalogue.</note>
-         <note>Includes numerous commendatory verses.</note>
-         <note>Includes: Narcissus and The triumph of beautie, each of which have separate title pages, separate pagination and registers. The triumph of beautie was apparently also issued separately.</note>
-         <note>Frontis. = ill.</note>
-         <note>"It is apparent that sheet D of the second part, pp. 147-[162], is a late insertion. It is not called for by the catchword, verso [C8]"--Pforzheimer catalogue.</note>
-         <note>Page 28 of the final sequence is misnumbered 30.</note>
-         <note>The final leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems, &amp;c. By James Shirley.</title>
+      <author>Shirley, James, 1596-1666.</author>
+    </titleStmt>
+    <extent>[16], 80, [2], 46, 147-159, [4], 30 [i.e. 28], [2] p. : ill. (port.)  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Ruth Raworth</persName> and <persName type="printer">Susan Islip]</persName> for <persName type="publisher">Humphrey Moseley</persName>, and are to be sold at <placeName>his shop at the signe of the Princes Armes in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names from Pforzheimer catalogue.</note>
+      <note>Includes numerous commendatory verses.</note>
+      <note>Includes: Narcissus and The triumph of beautie, each of which have separate title pages, separate pagination and registers. The triumph of beautie was apparently also issued separately.</note>
+      <note>Frontis. = ill.</note>
+      <note>"It is apparent that sheet D of the second part, pp. 147-[162], is a late insertion. It is not called for by the catchword, verso [C8]"--Pforzheimer catalogue.</note>
+      <note>Page 28 of the final sequence is misnumbered 30.</note>
+      <note>The final leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+    <person type="printer">
+      <persName>Ruth Raworth</persName>
+    </person>
+    <person type="printer">
+      <persName>Susan Islip]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Princes Armes in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

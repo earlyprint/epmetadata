@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of books printed for Thomas Basset, and are to be sold at his shop at the George near Cliffords Inne in Fleet-Street.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Battersby for Thomas Bassett ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of books printed for Thomas Basset, and are to be sold at his shop at the George near Cliffords Inne in Fleet-Street.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Battersby</persName> for <persName type="publisher">Thomas Bassett</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Bassett</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Battersby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

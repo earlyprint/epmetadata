@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Father Hubburds tales: or the ant and the nightingale</title>
-         <title>Ant, and the nightingale.</title>
-         <author>Middleton, Thomas, d. 1627.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. C[reede] for William Cotton, and are to be solde at his shop neare adioyning to Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas Middleton.</note>
-         <note>Printer's name from STC.</note>
-         <note>An edition of: The ant, and the nightingale.</note>
-         <note>Formerly STC 17880.</note>
-         <note>Identified as STC 17880 on UMI microfilm.</note>
-         <note>Signatures: A-C.</note>
-         <note>Some print faded and show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Father Hubburds tales: or the ant and the nightingale</title>
+      <title>Ant, and the nightingale.</title>
+      <author>Middleton, Thomas, d. 1627.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. C[reede]</persName> for <persName type="publisher">William Cotton</persName>, and are to be solde at <placeName>his shop neare adioyning to Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Middleton.</note>
+      <note>Printer's name from STC.</note>
+      <note>An edition of: The ant, and the nightingale.</note>
+      <note>Formerly STC 17880.</note>
+      <note>Identified as STC 17880 on UMI microfilm.</note>
+      <note>Signatures: A-C.</note>
+      <note>Some print faded and show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Cotton</persName>
+    </person>
+    <person type="printer">
+      <persName>T. C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neare adioyning to Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The patriarchal funeral, or, A sermon preached before the Right Honourable George Lord Berkeley upon the death of his father by John Pearson.</title>
-         <author>Pearson, John, 1613-1686.</author>
-      </titleStmt>
-      <extent>[4], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Cotes for John Williams ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained with loss of print.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The patriarchal funeral, or, A sermon preached before the Right Honourable George Lord Berkeley upon the death of his father by John Pearson.</title>
+      <author>Pearson, John, 1613-1686.</author>
+    </titleStmt>
+    <extent>[4], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Cotes</persName> for <persName type="publisher">John Williams</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained with loss of print.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

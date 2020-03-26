@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Pope confuted The holy and apostolique Church confuting the Pope. The first action. Translated out of Latine into English, by Iames Bell.</title>
-         <title>Papa confutatus. English</title>
-         <author>Foxe, John, 1516-1587.</author>
-         <author>Bell, James, fl. 1551-1596.</author>
-      </titleStmt>
-      <extent>[4], 121, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Dawson, for Richard Sergier,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1580.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Foxe.</note>
-         <note>"The second action" begins on leaf 48.</note>
-         <note>A translation by James Bell of: Papa confutatus.</note>
-         <note>Reproduction of the original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Pope confuted The holy and apostolique Church confuting the Pope. The first action. Translated out of Latine into English, by Iames Bell.</title>
+      <title>Papa confutatus. English</title>
+      <author>Foxe, John, 1516-1587.</author>
+      <author>Bell, James, fl. 1551-1596.</author>
+    </titleStmt>
+    <extent>[4], 121, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Dawson</persName>, for <persName type="publisher">Richard Sergier</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1580.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Foxe.</note>
+      <note>"The second action" begins on leaf 48.</note>
+      <note>A translation by James Bell of: Papa confutatus.</note>
+      <note>Reproduction of the original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Sergier</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

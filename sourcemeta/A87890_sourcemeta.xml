@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Goodman Country: to his worship the city of London.</title>
-         <author>L'Estrange, Roger, Sir, 1616-1704.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Clark for Walter Kettilby at the Bishops Head in S. Paul's Churchyard.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: Honest Country.</note>
-         <note>Attributed to L'Estrange by Wing.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Goodman Country: to his worship the city of London.</title>
+      <author>L'Estrange, Roger, Sir, 1616-1704.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Clark</persName> for <persName type="publisher">Walter Kettilby</persName> at <placeName>the Bishops Head in S. Paul's Churchyard.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: Honest Country.</note>
+      <note>Attributed to L'Estrange by Wing.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Clark</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bishops Head in S. Paul's Churchyard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

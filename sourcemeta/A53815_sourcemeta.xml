@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vice-chancellour and heads of houses, with the rest of the delegates, reflecting upon, and taking into consideration the disturbances, disorderly carriages, and incivilities of many younger scholars of this university in publike meetings ...</title>
-         <author>University of Oxford.</author>
-         <author>Greenwood, Daniel.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield, Printer to the University,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>A.D. 1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At head of sheet: Oxon. Iuly 5th. 1652.</note>
-         <note>Signed: Dan. Greenwood Vice-Can.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vice-chancellour and heads of houses, with the rest of the delegates, reflecting upon, and taking into consideration the disturbances, disorderly carriages, and incivilities of many younger scholars of this university in publike meetings ...</title>
+      <author>University of Oxford.</author>
+      <author>Greenwood, Daniel.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, Printer to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>A.D. 1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At head of sheet: Oxon. Iuly 5th. 1652.</note>
+      <note>Signed: Dan. Greenwood Vice-Can.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

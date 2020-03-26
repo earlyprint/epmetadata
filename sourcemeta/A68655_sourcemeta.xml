@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Messallina the Roman emperesse As it hath beene acted with generall applause divers times, by the Company of his Majesties Revells. Written by Nathanael Richards.</title>
-         <author>Richards, Nathanael, ca. 1600-1652.</author>
-         <author>Rawlins, Thomas, 1620?-1670, engraver.</author>
-      </titleStmt>
-      <extent>[96] p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes for Daniel Frere, at the signe of the Red Bull in Little Brittaine,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an additional title page, engraved.</note>
-         <note>Signatures: A-F.</note>
-         <note>The frontispiece portrait is signed "T R sculp:", i.e. Thomas Rawlins. In this publication the subject is looking somewhat to his right, and there is no mole under his right eye. There are two states: (1) forehead is smooth, (2) forehead is furrowed. A third state, in which the subject is looking straight ahead and has a mole under his right eye, is found in Richards's "Poems", 1641.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Messallina the Roman emperesse As it hath beene acted with generall applause divers times, by the Company of his Majesties Revells. Written by Nathanael Richards.</title>
+      <author>Richards, Nathanael, ca. 1600-1652.</author>
+      <author>Rawlins, Thomas, 1620?-1670, engraver.</author>
+    </titleStmt>
+    <extent>[96] p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName> for <persName type="publisher">Daniel Frere</persName>, at <placeName>the signe of the Red Bull in Little Brittaine</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an additional title page, engraved.</note>
+      <note>Signatures: A-F.</note>
+      <note>The frontispiece portrait is signed "T R sculp:", i.e. Thomas Rawlins. In this publication the subject is looking somewhat to his right, and there is no mole under his right eye. There are two states: (1) forehead is smooth, (2) forehead is furrowed. A third state, in which the subject is looking straight ahead and has a mole under his right eye, is found in Richards's "Poems", 1641.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Daniel Frere</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Red Bull in Little Brittaine</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

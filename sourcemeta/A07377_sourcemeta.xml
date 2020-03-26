@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[A Meane to dye vvel]</title>
-      </titleStmt>
-      <extent>[4+] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprynted at London in Fletestrete at the sygne of the George nexte to Saynt Dunstones Churche by Wyllyam Myddelton,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[ca. 1545]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.p. lacking; title taken from running title.</note>
-         <note>Place of publication and name of publisher taken from colophon; date of publication suggested by STC (2nd ed.).</note>
-         <note>Imperfect: fragment.</note>
-         <note>Reproduction of original in the Trinity College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[A Meane to dye vvel]</title>
+    </titleStmt>
+    <extent>[4+] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted at <placeName>London in Fletestrete at the sygne of the George nexte to Saynt Dunstones Churche</placeName> by <persName type="printer">Wyllyam Myddelton</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[ca. 1545]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.p. lacking; title taken from running title.</note>
+      <note>Place of publication and name of publisher taken from colophon; date of publication suggested by STC (2nd ed.).</note>
+      <note>Imperfect: fragment.</note>
+      <note>Reproduction of original in the Trinity College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wyllyam Myddelton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fletestrete at the sygne of the George nexte to Saynt Dunstones Churche</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

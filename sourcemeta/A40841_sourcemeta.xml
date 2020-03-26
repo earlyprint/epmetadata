@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The famous and renowned histor[y] of Valentine and Orso[n] sons to the famous and renowned Emperour of Constantinop[le] containing their marvelous adventures in love and [...]</title>
-         <title>Valentin et Orson. English. Abridgments.</title>
-      </titleStmt>
-      <editionStmt>
-         <edition>Newly printed and abbreviated for the benefit and [..]ation of young men and maids, whose impatience will [..]fer to read the larger volume, &amp;c.</edition>
-      </editionStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.O. for C. Bates, at the Sun in Bible in [..,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of the original 15th century French prose romance.</note>
-         <note>Place of publication from and date conjectured by Wing, which estimates 1690-1700 as publication date.</note>
-         <note>Title page woodcut.</note>
-         <note>Running title reads: The history of Valentine and Orson.</note>
-         <note>Signatures: A-C⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The famous and renowned histor[y] of Valentine and Orso[n] sons to the famous and renowned Emperour of Constantinop[le] containing their marvelous adventures in love and [...]</title>
+      <title>Valentin et Orson. English. Abridgments.</title>
+    </titleStmt>
+    <editionStmt>
+      <edition>Newly printed and abbreviated for the benefit and [..]ation of young men and maids, whose impatience will [..]fer to read the larger volume, &amp;c.</edition>
+    </editionStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.O.</persName> for <persName type="publisher">C. Bates</persName>, at <placeName>the Sun in Bible in [..</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of the original 15th century French prose romance.</note>
+      <note>Place of publication from and date conjectured by Wing, which estimates 1690-1700 as publication date.</note>
+      <note>Title page woodcut.</note>
+      <note>Running title reads: The history of Valentine and Orson.</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. Bates</persName>
+    </person>
+    <person type="printer">
+      <persName>W.O.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun in Bible in [..</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Kings bath Affording many sweet and comfortable obseruations from the baptisme of Christ. Gathered by Thomas Taylor, preacher of the word of God at Redding in Barkshire.</title>
-         <author>Taylor, Thomas, 1576-1632.</author>
-      </titleStmt>
-      <extent>[2], 278 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for Thomas Man, and Iohn Bartlet, and are to be sold at the signe of the Talbot in Pater-noster Row,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Kings bath Affording many sweet and comfortable obseruations from the baptisme of Christ. Gathered by Thomas Taylor, preacher of the word of God at Redding in Barkshire.</title>
+      <author>Taylor, Thomas, 1576-1632.</author>
+    </titleStmt>
+    <extent>[2], 278 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Thomas Man</persName>, and <persName type="publisher">Iohn Bartlet</persName>, and are to be sold at <placeName>the signe of the Talbot in Pater-noster Row</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bartlet</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Talbot in Pater-noster Row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

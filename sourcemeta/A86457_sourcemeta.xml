@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition, or, A short, but full, plaine, and perfect epitome of the most choice commentaries upon the Revelation of Saint John. Especially of the most learned and judicious authors, as Bullinger of Helvetia, Francis Iunius, Thomas Brightman, Aug. Marlorate, Aug. de Civitate dei, but especially (among many) the excellent and learned David Pareus. With severall remarkable notes, observations, and doctrines very profitable. / As it was for the most part delivered by way of commentary in the parish-church of Sutton-Valence, Kanc [sic]. By Hezekiah Holland Anglo-hibernus, Minister of the Gospell at Sutton-Valence.</title>
-         <author>Holland, Hezekiah, fl. 1638-1661.</author>
-      </titleStmt>
-      <extent>[12], 196 [i.e. 192] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. and E.M. for George Calvert and are to be sold at the sign of the Half-Moon in Watling-Street neare Pauls stump,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Errata": prelim. p. [12].</note>
-         <note>Annotation on Thomason copy: "June 28".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition, or, A short, but full, plaine, and perfect epitome of the most choice commentaries upon the Revelation of Saint John. Especially of the most learned and judicious authors, as Bullinger of Helvetia, Francis Iunius, Thomas Brightman, Aug. Marlorate, Aug. de Civitate dei, but especially (among many) the excellent and learned David Pareus. With severall remarkable notes, observations, and doctrines very profitable. / As it was for the most part delivered by way of commentary in the parish-church of Sutton-Valence, Kanc [sic]. By Hezekiah Holland Anglo-hibernus, Minister of the Gospell at Sutton-Valence.</title>
+      <author>Holland, Hezekiah, fl. 1638-1661.</author>
+    </titleStmt>
+    <extent>[12], 196 [i.e. 192] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> and <persName type="printer">E.M.</persName> for <persName type="publisher">George Calvert</persName> and are to be sold at <placeName>the sign of the Half-Moon in Watling-Street neare Pauls stump</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Errata": prelim. p. [12].</note>
+      <note>Annotation on Thomason copy: "June 28".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Calvert</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Half-Moon in Watling-Street neare Pauls stump</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

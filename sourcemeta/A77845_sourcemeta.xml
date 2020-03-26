@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Paul's last farewel, or A sermon, preached at the funerall of that godly and learned minister of Jesus Christ, Mr. Thomas Blake. By Anthony Burgesse, pastor of the church at Sutton-Coldfield in Warwickshire. With a funeral oration made at Mr. Blakes death by Samuel Shaw, then schoolmaster of the Free-School at Tamworth.</title>
-         <author>Burgess, Anthony, d. 1664.</author>
-         <author>Shaw, Samuel, 1635-1696.</author>
-      </titleStmt>
-      <extent>[4], 24, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Abel Roper, at the Sun against S. Dunstans Church in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "marsh. 25".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Paul's last farewel, or A sermon, preached at the funerall of that godly and learned minister of Jesus Christ, Mr. Thomas Blake. By Anthony Burgesse, pastor of the church at Sutton-Coldfield in Warwickshire. With a funeral oration made at Mr. Blakes death by Samuel Shaw, then schoolmaster of the Free-School at Tamworth.</title>
+      <author>Burgess, Anthony, d. 1664.</author>
+      <author>Shaw, Samuel, 1635-1696.</author>
+    </titleStmt>
+    <extent>[4], 24, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Abel Roper</persName>, at <placeName>the Sun against S. Dunstans Church in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "marsh. 25".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Abel Roper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun against S. Dunstans Church in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

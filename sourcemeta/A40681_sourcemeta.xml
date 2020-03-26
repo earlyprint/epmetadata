@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Pisgah-sight of Palestine and the confines thereof with the history of the Old and New Testament acted thereon / by Thomas Fuller ...</title>
-         <author>Fuller, Thomas, 1608-1661.</author>
-      </titleStmt>
-      <extent>[12], 434 [i.e. 447], [1], 202, [21] p. : maps, plans.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J. F. for John Williams ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Added t.p., engraved.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Pisgah-sight of Palestine and the confines thereof with the history of the Old and New Testament acted thereon / by Thomas Fuller ...</title>
+      <author>Fuller, Thomas, 1608-1661.</author>
+    </titleStmt>
+    <extent>[12], 434 [i.e. 447], [1], 202, [21] p. : maps, plans.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. F.</persName> for <persName type="publisher">John Williams</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Added t.p., engraved.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>J. F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

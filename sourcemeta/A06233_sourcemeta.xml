@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Mayor An act of Common Councell, prohibiting all strangers borne, and forrainers, to vse any trades, or keepe any maner of shops in any sort within this citty, liberties and freedome thereof.</title>
-         <title>Acts &amp; Orders. 1606-04-15</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>City of London (England). Lord Mayor. aut</author>
-      </titleStmt>
-      <extent>3 leaves   </extent>
-      <publicationStmt>
-         <publisher>By John Windet, printer to the honourable Cittie of London,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date>1606]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Mayor An act of Common Councell, prohibiting all strangers borne, and forrainers, to vse any trades, or keepe any maner of shops in any sort within this citty, liberties and freedome thereof.</title>
+      <title>Acts &amp; Orders. 1606-04-15</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>City of London (England). Lord Mayor. aut</author>
+    </titleStmt>
+    <extent>3 leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">John Windet</persName>, printer to <persName type="patron">the honourable Cittie of London</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>1606]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable Cittie of London</persName>
+    </person>
+    <person type="printer">
+      <persName>John Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

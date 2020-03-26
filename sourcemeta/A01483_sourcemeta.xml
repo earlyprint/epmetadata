@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of the reigne of King Henry the Seuenth VVritten by the Right Hon: Francis Lo: Virulam, Viscount S. Alban. Whereunto is now added a very vsefull and necessary table.</title>
-         <author>Bacon, Francis, 1561-1626.</author>
-      </titleStmt>
-      <extent>[4], 248, [10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. H[aviland] and R. Y[oung] and are to be sold by Philemon Stephens and Christopher Meredith, at the signe of the Golden Lyon in Pauls-Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names from STC.</note>
-         <note>Includes index.</note>
-         <note>A reissue, with cancel title page, of the 1628 edition.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of the reigne of King Henry the Seuenth VVritten by the Right Hon: Francis Lo: Virulam, Viscount S. Alban. Whereunto is now added a very vsefull and necessary table.</title>
+      <author>Bacon, Francis, 1561-1626.</author>
+    </titleStmt>
+    <extent>[4], 248, [10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. H[aviland]</persName> and <persName type="printer">R. Y[oung]</persName> and are to be sold by <persName type="bookseller">Philemon Stephens</persName> and <persName type="bookseller">Christopher Meredith</persName>, at <placeName>the signe of the Golden Lyon in Pauls-Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names from STC.</note>
+      <note>Includes index.</note>
+      <note>A reissue, with cancel title page, of the 1628 edition.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Philemon Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>I. H[aviland]</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Y[oung]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Golden Lyon in Pauls-Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

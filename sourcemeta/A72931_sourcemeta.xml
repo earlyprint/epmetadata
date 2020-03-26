@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short discourse: expressing the substaunce of all the late pretended treasons against the Queenes Maiestie, and estates of this realme, by sondry traytors who were executed for the same on the 20. and 21. daies of September last past. 1586. VVhereunto is adioyned a godly prayer for the safetie of her Highnesse person, her honorable counsaile, and all other her obedient subiects. Seene and alowed.</title>
-         <author>Nelson, Thomas, fl. 1580.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>by George Robinson for Edward VVhite, and are to be solde at his shop at the signe of the Gun,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1586]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Nelson.</note>
-         <note>In verse.</note>
-         <note>Signatures: A⁴.</note>
-         <note>Running title reads: Of the late entended treasons.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short discourse: expressing the substaunce of all the late pretended treasons against the Queenes Maiestie, and estates of this realme, by sondry traytors who were executed for the same on the 20. and 21. daies of September last past. 1586. VVhereunto is adioyned a godly prayer for the safetie of her Highnesse person, her honorable counsaile, and all other her obedient subiects. Seene and alowed.</title>
+      <author>Nelson, Thomas, fl. 1580.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">George Robinson</persName> for <persName type="publisher">Edward VVhite</persName>, and are to be solde at <placeName>his shop at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1586]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Nelson.</note>
+      <note>In verse.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Running title reads: Of the late entended treasons.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward VVhite</persName>
+    </person>
+    <person type="printer">
+      <persName>George Robinson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

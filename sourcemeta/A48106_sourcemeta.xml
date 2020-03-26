@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter humbly addrest to the most excellent father of his country, the wise and victorious prince, King William III by a dutiful and well-meaning subject.</title>
-         <author>Dutiful and well meaning subject.</author>
-      </titleStmt>
-      <extent>24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Darby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter humbly addrest to the most excellent father of his country, the wise and victorious prince, King William III by a dutiful and well-meaning subject.</title>
+      <author>Dutiful and well meaning subject.</author>
+    </titleStmt>
+    <extent>24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Darby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Darby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

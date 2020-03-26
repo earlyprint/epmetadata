@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vvoorke of Ioannes Ferrarius Montanus, touchynge the good orderynge of a common weale wherein aswell magistrates, as priuate persones, bee put in remembraunce of their dueties, not as the philosophers in their vaine tradicions haue deuised, but according to the godlie institutions and sounde doctrine of christianitie. Englished by william Bauande.</title>
-         <title>De republica bene instituenda, paraenesis. English</title>
-         <author>Ferrarius, Johannes, 1485 or 6-1558.</author>
-         <author>Bavand, William.</author>
-      </titleStmt>
-      <extent>[4], 212, [4] leaves   </extent>
-      <publicationStmt>
-         <publisher>1559. Imprinted at London, by Ihon Kingston, for Ihon Wight, dewllyng in Poules Churchyarde,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1559]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: De republica bene instituenda, paraenesis.</note>
-         <note>With two final contents leaves and an errata leaf; the last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vvoorke of Ioannes Ferrarius Montanus, touchynge the good orderynge of a common weale wherein aswell magistrates, as priuate persones, bee put in remembraunce of their dueties, not as the philosophers in their vaine tradicions haue deuised, but according to the godlie institutions and sounde doctrine of christianitie. Englished by william Bauande.</title>
+      <title>De republica bene instituenda, paraenesis. English</title>
+      <author>Ferrarius, Johannes, 1485 or 6-1558.</author>
+      <author>Bavand, William.</author>
+    </titleStmt>
+    <extent>[4], 212, [4] leaves   </extent>
+    <publicationStmt>
+      <publisher>1559. Imprinted at <placeName>London</placeName>, by <persName type="printer">Ihon Kingston</persName>, for <persName type="publisher">Ihon Wight, dewllyng</persName> in <placeName>Poules Churchyarde</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1559]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: De republica bene instituenda, paraenesis.</note>
+      <note>With two final contents leaves and an errata leaf; the last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ihon Wight, dewllyng</persName>
+    </person>
+    <person type="printer">
+      <persName>Ihon Kingston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Poules Churchyarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

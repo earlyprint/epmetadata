@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Dissenters guide resolving their doubts and scruples about kneeling at receiving the sacrament / published to prevent men and their families from being ruined by excommunication.</title>
-      </titleStmt>
-      <extent>38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Richard Janeway,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Dissenters guide resolving their doubts and scruples about kneeling at receiving the sacrament / published to prevent men and their families from being ruined by excommunication.</title>
+    </titleStmt>
+    <extent>38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Richard Janeway</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Janeway</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Janeway</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

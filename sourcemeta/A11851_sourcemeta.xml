@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Here begynneth the seynge of urynes, of all the colours that uryns be of with medycynes annexed to euery uryne, [and] euery uryne his urynall, not imprynted in englysshe before this tyme, moche profytable for euery man to knowe.</title>
-         <title>Seynge of uryns.</title>
-      </titleStmt>
-      <extent>[64] p. : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Imprynted by [J. Rastell for] me Rycharde Banckes dwellynge in London in the Pultry, a lytell fro ye stockes, at the lo[n]ge shoppe by saynt Myldredes churche dore,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>The. xxvii. day of May, the yere of our lord M.CCCCC. and. xxv. [1525]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Leaf C4 has two paragraphs on pregnancy omitted in other editions.</note>
-         <note>At foot of title: Cu[m] gratia et priuilegio a rege indulto.</note>
-         <note>Imprint from colophon; actual printer's name from STC.</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Here begynneth the seynge of urynes, of all the colours that uryns be of with medycynes annexed to euery uryne, [and] euery uryne his urynall, not imprynted in englysshe before this tyme, moche profytable for euery man to knowe.</title>
+      <title>Seynge of uryns.</title>
+    </titleStmt>
+    <extent>[64] p. : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Imprynted by <persName type="printer">[J. Rastell</persName> for<persName type="publisher">] me Rycharde Banckes</persName> dwellynge in <placeName>London in the Pultry, a lytell fro ye stockes, at the lo[n]ge shoppe</placeName> by <persName type="printer">saynt Myldredes churche dore</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>The. xxvii. day of May, the yere of our lord M.CCCCC. and. xxv. [1525]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Leaf C4 has two paragraphs on pregnancy omitted in other editions.</note>
+      <note>At foot of title: Cu[m] gratia et priuilegio a rege indulto.</note>
+      <note>Imprint from colophon; actual printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] me Rycharde Banckes</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Rastell</persName>
+    </person>
+    <person type="printer">
+      <persName>saynt Myldredes churche dore</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in the Pultry, a lytell fro ye stockes, at the lo[n]ge shoppe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

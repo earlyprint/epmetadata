@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. A proclamation notifying the dissolution of the Parliament that was proroged vnto the xiiii day of Nouember. 1586</title>
-         <title>Proclamations. 1586-09-15</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Christopher Barker, printer to the Queenes most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1586]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. A proclamation notifying the dissolution of the Parliament that was proroged vnto the xiiii day of Nouember. 1586</title>
+      <title>Proclamations. 1586-09-15</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Christopher Barker</persName>, printer to <persName type="patron">the Queenes most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1586]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

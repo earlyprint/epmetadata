@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of perjury a sermon preach'd at the assizes held at Chester, April the 4th, 1682 / by John Allen, M.A. Fellow of Trinity College in Cambridge ...</title>
-         <author>Allen, John, M.A., Fellow of Trinity College in Cambridge.</author>
-      </titleStmt>
-      <extent>[4], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Benj. Tooke ... and George Atkinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of perjury a sermon preach'd at the assizes held at Chester, April the 4th, 1682 / by John Allen, M.A. Fellow of Trinity College in Cambridge ...</title>
+      <author>Allen, John, M.A., Fellow of Trinity College in Cambridge.</author>
+    </titleStmt>
+    <extent>[4], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Benj. Tooke</persName> ... and <persName type="publisher">George Atkinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>George Atkinson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

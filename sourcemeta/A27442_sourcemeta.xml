@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Church of England evidently proved the holy catholick church by Peter Berault ...</title>
-         <author>Berault, Peter.</author>
-      </titleStmt>
-      <extent>[22], 240 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Hodgkin for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement on p. [22].</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Church of England evidently proved the holy catholick church by Peter Berault ...</title>
+      <author>Berault, Peter.</author>
+    </titleStmt>
+    <extent>[22], 240 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Hodgkin</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement on p. [22].</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Hodgkin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>About mending the coyn.</title>
-         <author>Neale, Thomas, d. 1699?</author>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Collins in the Old-Bailey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>P. 2 signed: Tho. Neale.</note>
-         <note>Item at reel 1:23 identified as Wing A97A (number cancelled).</note>
-         <note>Reproduction of original in Columbia University Library and Goldsmiths' Library, University of London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>About mending the coyn.</title>
+      <author>Neale, Thomas, d. 1699?</author>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Collins</persName> in <placeName>the Old-Bailey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>P. 2 signed: Tho. Neale.</note>
+      <note>Item at reel 1:23 identified as Wing A97A (number cancelled).</note>
+      <note>Reproduction of original in Columbia University Library and Goldsmiths' Library, University of London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>F. Collins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Bailey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

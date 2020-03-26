@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A continuation of Sir Philip Sydney's Arcadia wherein is handled the loves of Amphialus and Helena Queen of Corinth, Prince Plangus and Erona. With the historie of the loves of old Claius and young Strephon to Urania. Written by a young gentlewoman, Meis A.W.</title>
-         <author>Weamys, Anna, b. ca. 1630.</author>
-         <author>Sidney, Philip, Sir, 1554-1586. Arcadia.</author>
-      </titleStmt>
-      <extent>[14], 199, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by William Bentley, and are to be sold by Thomas Heath, near the Pyazza of the Coven-Garden [sic],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>anno Dom. 1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Mris A.W. = Anna Weamys.</note>
-         <note>Leaf [par.]8 is blank.</note>
-         <note>Annotation on Thomason copy: "Jan. Nou. 7."; between "n" and hyphen in "Coven-Garden" is a "t".</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A continuation of Sir Philip Sydney's Arcadia wherein is handled the loves of Amphialus and Helena Queen of Corinth, Prince Plangus and Erona. With the historie of the loves of old Claius and young Strephon to Urania. Written by a young gentlewoman, Meis A.W.</title>
+      <author>Weamys, Anna, b. ca. 1630.</author>
+      <author>Sidney, Philip, Sir, 1554-1586. Arcadia.</author>
+    </titleStmt>
+    <extent>[14], 199, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">William Bentley</persName>, and are to be sold by <persName type="bookseller">Thomas Heath</persName>, near <placeName>the Pyazza of the Coven-Garden [sic]</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>anno Dom. 1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Mris A.W. = Anna Weamys.</note>
+      <note>Leaf [par.]8 is blank.</note>
+      <note>Annotation on Thomason copy: "Jan. Nou. 7."; between "n" and hyphen in "Coven-Garden" is a "t".</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Thomas Heath</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bentley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Pyazza of the Coven-Garden [sic]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

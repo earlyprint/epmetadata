@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The dumbe knight A historicall comedy, acted sundry times by the children of his Maiesties Reuels.</title>
-         <author>Markham, Gervase, 1568?-1637.</author>
-         <author>Machin, Lewis, fl. 1608. aut</author>
-      </titleStmt>
-      <extent>[74] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for Iohn Bache, and are to be sold at his shop in Popes-head Palace, neere to the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed "Lewes Machin". Machin apparently revised Markham's text.</note>
-         <note>Partly in verse.</note>
-         <note>Signatures: A-I⁴ K²  (-K2).</note>
-         <note>The first leaf is blank.</note>
-         <note>A variant (STC 17398a) has "Reuelles".</note>
-         <note>K2 was either blank (unattested) or contained the title page which forms the cancel in STC 17399.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The dumbe knight A historicall comedy, acted sundry times by the children of his Maiesties Reuels.</title>
+      <author>Markham, Gervase, 1568?-1637.</author>
+      <author>Machin, Lewis, fl. 1608. aut</author>
+    </titleStmt>
+    <extent>[74] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">Iohn Bache</persName>, and are to be sold at <placeName>his shop in Popes-head Palace, neere to the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed "Lewes Machin". Machin apparently revised Markham's text.</note>
+      <note>Partly in verse.</note>
+      <note>Signatures: A-I&#8308; K&#178;  (-K2).</note>
+      <note>The first leaf is blank.</note>
+      <note>A variant (STC 17398a) has "Reuelles".</note>
+      <note>K2 was either blank (unattested) or contained the title page which forms the cancel in STC 17399.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bache</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes-head Palace, neere to the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

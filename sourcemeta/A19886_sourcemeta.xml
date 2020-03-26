@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A protestation made and published by Iohn Davenporte vpon occasion of a pamphlett intitled A iust complaint against an uniust doer published by a nameles person</title>
-         <author>Davenport, John, 1597-1670.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>By Isaac from Waesberghe, upon the Steygher, in the Fame,</publisher>
-         <pubPlace>Pranted [sic] at Rotterdam :</pubPlace>
-         <date>M D xxxv. [1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The imprint date is made with turned C's.</note>
-         <note>Signatures: [three asterisks]⁴.</note>
-         <note>Reproduction of the original in the Dr. Williams's Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A protestation made and published by Iohn Davenporte vpon occasion of a pamphlett intitled A iust complaint against an uniust doer published by a nameles person</title>
+      <author>Davenport, John, 1597-1670.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Isaac from Waesberghe, upon the Steygher</persName>, in <placeName>the Fame</placeName>,</publisher>
+      <pubPlace>Pranted [sic] at Rotterdam :</pubPlace>
+      <date>M D xxxv. [1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The imprint date is made with turned C's.</note>
+      <note>Signatures: [three asterisks]&#8308;.</note>
+      <note>Reproduction of the original in the Dr. Williams's Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Isaac from Waesberghe, upon the Steygher</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Fame</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true relation of the right Christianly departure, or death, of the most Noble Earle Philippus Lodouicus Earle of Hanaw and Rieneck, Lord of Mutzenbergk, &amp;c. Vncle to the Count Palatine. Who blessedly deceased, in the Lord, on Sunday the ninth of August 1612. betwixt eight and nine of the clocke in the morning, being returned from his great ambassage for England. Faithfully penned by Ioannes Appelius preacher at Alten-Hasell. Translanted out of the Germane tongue by S.R.</title>
-         <author>Appelius, Joannes.</author>
-         <author>S. R.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>printed [by Thomas Snodham] for Nicholas Bourne, and are to be sould at the entring in of the Royall Exchange, and at the signe of the Angell in Paules Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>German original not traced.</note>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A-D⁴.</note>
-         <note>With a final dedication leaf in Latin.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true relation of the right Christianly departure, or death, of the most Noble Earle Philippus Lodouicus Earle of Hanaw and Rieneck, Lord of Mutzenbergk, &amp;c. Vncle to the Count Palatine. Who blessedly deceased, in the Lord, on Sunday the ninth of August 1612. betwixt eight and nine of the clocke in the morning, being returned from his great ambassage for England. Faithfully penned by Ioannes Appelius preacher at Alten-Hasell. Translanted out of the Germane tongue by S.R.</title>
+      <author>Appelius, Joannes.</author>
+      <author>S. R.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>printed [by <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">Nicholas Bourne</persName>, and are to be sould at <placeName>the entring in of the Royall Exchange</placeName>, and at <placeName>the signe of the Angell in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>German original not traced.</note>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A-D&#8308;.</note>
+      <note>With a final dedication leaf in Latin.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the entring in of the Royall Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Angell in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

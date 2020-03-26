@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An appendix to Clavis horologiæ, or, An explication of the pyramidical dyal set up in His Majesties garden at White-Hall, anno 1669 in which very many sorts of dyals are contained ... / by the Reverend Father Francis Hall, otherwise Line, of the Society of Jesus ...</title>
-         <author>Line, Francis, 1595-1675.</author>
-      </titleStmt>
-      <extent>[4], 38, [2] p., 17 leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed at Liege, by Guillaume Street, in the year of our Lord 1673, and reprinted at London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An appendix to Clavis horologi&#230;, or, An explication of the pyramidical dyal set up in His Majesties garden at White-Hall, anno 1669 in which very many sorts of dyals are contained ... / by the Reverend Father Francis Hall, otherwise Line, of the Society of Jesus ...</title>
+      <author>Line, Francis, 1595-1675.</author>
+    </titleStmt>
+    <extent>[4], 38, [2] p., 17 leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Liege</placeName>, by <persName type="printer">Guillaume Street</persName>, in <placeName>the year of our Lord 1673</placeName>, and reprinted at <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Guillaume Street</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Liege</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the year of our Lord 1673</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The walks of Islington and Hogsdon, with the humours of Woodstreet-compter. A comedy, as it was publikely acted 19. days together, with extraordinary applause. Never printed before. Written by Tho. Jordan, Gent.</title>
-         <author>Jordan, Thomas, 1612?-1685?</author>
-         <author>R. C.</author>
-         <author>Cheyney, Richard, attributed name.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Tho. Wilson at the sign of the Three-Foxes in Long-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes commendatory verses signed: R. C. in Art. Magist. [i.e. R. Cheyney, to whom the work is dedicated?--cf. Pforzheimer Catalogue].</note>
-         <note>Signatures: [A]⁴ B-H⁴.</note>
-         <note>Annotation on Thomason copy: "May 7".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The walks of Islington and Hogsdon, with the humours of Woodstreet-compter. A comedy, as it was publikely acted 19. days together, with extraordinary applause. Never printed before. Written by Tho. Jordan, Gent.</title>
+      <author>Jordan, Thomas, 1612?-1685?</author>
+      <author>R. C.</author>
+      <author>Cheyney, Richard, attributed name.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Tho. Wilson</persName> at <placeName>the sign of the Three-Foxes in Long-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes commendatory verses signed: R. C. in Art. Magist. [i.e. R. Cheyney, to whom the work is dedicated?--cf. Pforzheimer Catalogue].</note>
+      <note>Signatures: [A]&#8308; B-H&#8308;.</note>
+      <note>Annotation on Thomason copy: "May 7".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Three-Foxes in Long-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The conquest of the saints: or A short treatise of concord and peace vvherein is shewed the necessity of unity and peace, without which neither church nor common-wealth can stand. Preached by John Jones Master of Arts, late minister at St. Michael Bashenshaw in London: and now published for the common good.</title>
-         <author>Jones, John, minister at St. Michael Bashenshaw, London.</author>
-      </titleStmt>
-      <extent>[6], 46, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G[eorge] M[iller] for William Jones dwelling in Red-Crosse-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXXXIX. [1639]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A-G⁴ (-A1).</note>
-         <note>Identified as STC 14727 on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The conquest of the saints: or A short treatise of concord and peace vvherein is shewed the necessity of unity and peace, without which neither church nor common-wealth can stand. Preached by John Jones Master of Arts, late minister at St. Michael Bashenshaw in London: and now published for the common good.</title>
+      <author>Jones, John, minister at St. Michael Bashenshaw, London.</author>
+    </titleStmt>
+    <extent>[6], 46, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G[eorge] M[iller]</persName> for <persName type="publisher">William Jones</persName> dwelling in <placeName>Red-Crosse-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXXXIX. [1639]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A-G&#8308; (-A1).</note>
+      <note>Identified as STC 14727 on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>G[eorge] M[iller]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Red-Crosse-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

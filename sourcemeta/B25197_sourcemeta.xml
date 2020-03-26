@@ -1,23 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King James R. Whereas we are informed that several of the inhabitants or the province of Ulster, being forced away by the enemy, did with their stock and cattel go into our counties of Dublin, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham assigns of Benjamin Tooke, printer to the King's most excellent Majesty: and are to be sold at his Majesties printing-house on Ormonde-Key, and the Colledge-Arms in Castle-street,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our camp near the bridge of Assayne the 24th day of September 1689."</note>
-         <note>Ulster refugees to be sent to Wicklow Hills, &amp;c. Cf. Steele.</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King James R. Whereas we are informed that several of the inhabitants or the province of Ulster, being forced away by the enemy, did with their stock and cattel go into our counties of Dublin, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName> assigns of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King's most excellent Majesty:</persName> and are to be sold at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and the Colledge-Arms in <placeName>Castle-street</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our camp near the bridge of Assayne the 24th day of September 1689."</note>
+      <note>Ulster refugees to be sent to Wicklow Hills, &amp;c. Cf. Steele.</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most excellent Majesty:</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

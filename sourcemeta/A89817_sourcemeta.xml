@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Natura exenterata: or Nature unbowelled by the most exquisite anatomizers of her. Wherein are contained, her choicest secrets digested into receipts, fitted for the cure of all sorts of infirmities, whether internal or external, acute or chronical, that are incident to the body of man. / Collected and preserved by several persons of quality and great experience in the art of medicine, whose names are prefixed to the book. Containing in the whole, one thousand seven hundred and twenty. Very necessary for such as regard their owne health, or that of their friends. VVhereunto are annexed, many rare, hitherto un-imparted inventions, for gentlemen, ladies and others, in the recreations of their different imployments. With an exact alphabetical table referring to the several diseases, and their proper cures.</title>
-         <author>Philiatros.</author>
-      </titleStmt>
-      <extent>[8], 256, 267-298, 295-369 [i.e. 469], [33] p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed for, and are to be sold by H. Twiford at his shop in Vine Court Middle Temple, G. Bedell at the Middel Temple gate Fleetstreet, and N. Ekins at the Gun neer the west-end of S. Pauls Church,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface to the reader signed: Philiatros.</note>
-         <note>Cf. Folger catalogue, which gives signatures: [A]⁴ B-2I.</note>
-         <note>Includes indexes.</note>
-         <note>P. 469 misnumbered 369.</note>
-         <note>Annotation on Thomason copy: "July 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Natura exenterata: or Nature unbowelled by the most exquisite anatomizers of her. Wherein are contained, her choicest secrets digested into receipts, fitted for the cure of all sorts of infirmities, whether internal or external, acute or chronical, that are incident to the body of man. / Collected and preserved by several persons of quality and great experience in the art of medicine, whose names are prefixed to the book. Containing in the whole, one thousand seven hundred and twenty. Very necessary for such as regard their owne health, or that of their friends. VVhereunto are annexed, many rare, hitherto un-imparted inventions, for gentlemen, ladies and others, in the recreations of their different imployments. With an exact alphabetical table referring to the several diseases, and their proper cures.</title>
+      <author>Philiatros.</author>
+    </titleStmt>
+    <extent>[8], 256, 267-298, 295-369 [i.e. 469], [33] p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed for, and are to be sold by <persName type="bookseller">H. Twiford</persName> at <placeName>his shop in Vine Court Middle Temple</placeName>, <placeName>G. Bedell at the Middel Temple gate Fleetstreet</placeName>, and <persName type="publisher">N. Ekins</persName> at <placeName>the Gun neer the west-end of S. Pauls Church</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface to the reader signed: Philiatros.</note>
+      <note>Cf. Folger catalogue, which gives signatures: [A]&#8308; B-2I.</note>
+      <note>Includes indexes.</note>
+      <note>P. 469 misnumbered 369.</note>
+      <note>Annotation on Thomason copy: "July 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H. Twiford</persName>
+    </person>
+    <person type="publisher">
+      <persName>N. Ekins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>G. Bedell at the Middel Temple gate Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Vine Court Middle Temple</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Gun neer the west-end of S. Pauls Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

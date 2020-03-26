@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A view of the Romish hydra and monster, traison, against the Lords annointed: condemned by Dauid, I. Sam. 26. and nowe confuted in seuen sermons to perswade obedience to princes, concord among our selues, and a generall reformation and repentaunce in all states: by L.H.</title>
-         <title>View of the Romish hydra and monster, traison, against the Lords annointed: condemned by David, I. Sam. 26. and nowe confuted in seven sermons.</title>
-         <author>Humphrey, Laurence, 1525 or 6-1589.</author>
-      </titleStmt>
-      <extent>[24], 192 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Ioseph Barnes, and are to be solde [by T. Cooke, London] in Paules Church-yearde at the signe of the Tygershead,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>1588.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Bookseller from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A view of the Romish hydra and monster, traison, against the Lords annointed: condemned by Dauid, I. Sam. 26. and nowe confuted in seuen sermons to perswade obedience to princes, concord among our selues, and a generall reformation and repentaunce in all states: by L.H.</title>
+      <title>View of the Romish hydra and monster, traison, against the Lords annointed: condemned by David, I. Sam. 26. and nowe confuted in seven sermons.</title>
+      <author>Humphrey, Laurence, 1525 or 6-1589.</author>
+    </titleStmt>
+    <extent>[24], 192 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Ioseph Barnes</persName>, and are to be solde [by <persName type="bookseller">T. Cooke</persName>, <persName type="bookseller">London]</persName> in <placeName>Paules Church-yearde at the signe of the Tygershead</placeName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>1588.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Bookseller from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>London]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Cooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yearde at the signe of the Tygershead</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

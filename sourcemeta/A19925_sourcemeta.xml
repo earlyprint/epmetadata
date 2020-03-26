@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nosce teipsum this oracle expounded in two elegies, 1. Of humane knowledge, 2. Of the soule of man, and the immortalitie thereof.</title>
-         <author>Davies, John, Sir, 1569-1626.</author>
-      </titleStmt>
-      <extent>[4], 101 [i.e. 81] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Field, for Iohn Standish,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Dedicatory verse signed: John Dauies.</note>
-         <note>Signatures: A⁴(-A1,A4) B-L⁴ M¹.</note>
-         <note>Page numbers 65-84 skipped in the numbering.</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nosce teipsum this oracle expounded in two elegies, 1. Of humane knowledge, 2. Of the soule of man, and the immortalitie thereof.</title>
+      <author>Davies, John, Sir, 1569-1626.</author>
+    </titleStmt>
+    <extent>[4], 101 [i.e. 81] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Field</persName>, for <persName type="publisher">Iohn Standish</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Dedicatory verse signed: John Dauies.</note>
+      <note>Signatures: A&#8308;(-A1,A4) B-L&#8308; M&#185;.</note>
+      <note>Page numbers 65-84 skipped in the numbering.</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Standish</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

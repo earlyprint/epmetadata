@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An abridgement of the whole body of divinity extracted from the learned works of that ever-famous and reverend divine, Mr. William Perkins / by Tho. Nicols.</title>
-         <author>Perkins, William, 1558-1602.</author>
-         <author>Nicols, Thomas.</author>
-      </titleStmt>
-      <extent>[10], 204 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.B. for Will. Hope ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An abridgement of the whole body of divinity extracted from the learned works of that ever-famous and reverend divine, Mr. William Perkins / by Tho. Nicols.</title>
+      <author>Perkins, William, 1558-1602.</author>
+      <author>Nicols, Thomas.</author>
+    </titleStmt>
+    <extent>[10], 204 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.B.</persName> for <persName type="publisher">Will. Hope</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Will. Hope</persName>
+    </person>
+    <person type="printer">
+      <persName>W.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

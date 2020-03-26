@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Marcus Minucius Felix his Octavius, or, A vindication of Christianity against paganism translated by P. Lorrain.</title>
-         <title>Octavius. English. 1682</title>
-         <author>Minucius Felix, Marcus.</author>
-         <author>Lorrain, P. (Paul), d. 1719.</author>
-      </titleStmt>
-      <extent>[13], 126, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for R. Royston,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Epistle dedicatory" signed: Paul Lorrain.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Marcus Minucius Felix his Octavius, or, A vindication of Christianity against paganism translated by P. Lorrain.</title>
+      <title>Octavius. English. 1682</title>
+      <author>Minucius Felix, Marcus.</author>
+      <author>Lorrain, P. (Paul), d. 1719.</author>
+    </titleStmt>
+    <extent>[13], 126, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">R. Royston</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Epistle dedicatory" signed: Paul Lorrain.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hecatonphila. The arte of loue Or, loue discouered in an hundred seuerall kindes.</title>
-         <title>Hecatonphila. The arte of love.</title>
-         <author>Alberti, Leon Battista, 1404-1472.</author>
-      </titleStmt>
-      <extent>[6], 40 leaves   </extent>
-      <publicationStmt>
-         <publisher>By P. S[hort] for William Leake: and are to be sold at his shop in Paules Churchyard, at the signe of the Greyhound,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Leone Battista Alberti.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The arte of loue.</note>
-         <note>Translator's dedication signed: Hecatonphila.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hecatonphila. The arte of loue Or, loue discouered in an hundred seuerall kindes.</title>
+      <title>Hecatonphila. The arte of love.</title>
+      <author>Alberti, Leon Battista, 1404-1472.</author>
+    </titleStmt>
+    <extent>[6], 40 leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">P. S[hort]</persName> for <persName type="publisher">William Leake:</persName> and are to be sold at <placeName>his shop in Paules Churchyard, at the signe of the Greyhound</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Leone Battista Alberti.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The arte of loue.</note>
+      <note>Translator's dedication signed: Hecatonphila.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Leake:</persName>
+    </person>
+    <person type="printer">
+      <persName>P. S[hort]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Churchyard, at the signe of the Greyhound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

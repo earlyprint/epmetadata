@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plain and short treatise of an apoplexy, convulsions, colick, twisting of the guts, mother fits, bleeding at nose ... and several other violent and dangerous diseases ... : shewing the sick or by-standers what ought presently to be done : together with proper remedies for each disease and plain directions for the use of them / by J. Pechey ...</title>
-         <author>Pechey, John, 1655-1716.</author>
-      </titleStmt>
-      <extent>[4], 29 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author and sold at his house ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plain and short treatise of an apoplexy, convulsions, colick, twisting of the guts, mother fits, bleeding at nose ... and several other violent and dangerous diseases ... : shewing the sick or by-standers what ought presently to be done : together with proper remedies for each disease and plain directions for the use of them / by J. Pechey ...</title>
+      <author>Pechey, John, 1655-1716.</author>
+    </titleStmt>
+    <extent>[4], 29 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName> and sold at <placeName>his house</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

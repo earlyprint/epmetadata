@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the King at White-hall July 30, 1676 by John Meriton ...</title>
-         <author>Meriton, John, b. ca. 1630.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Simon Miller ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the King at White-hall July 30, 1676 by John Meriton ...</title>
+      <author>Meriton, John, b. ca. 1630.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Simon Miller</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Miller</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

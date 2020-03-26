@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true vvay of a Christian, to the nevv Ierusalem Or, a three-folde demonstration: first, of the excellencie of the true and sauing knowledge of Christ; and the meanes to attaine it: with the antiquitie, necesitie, and benefit of catechisme. Secondly, of our vnion and communion with Christ, and his Church. Thirdly, of our new creation in Christ, by the blessed Spirit. With diuers questions, and cases of conscience, most comfortable for a Christian. Deliuered first in briefe, in a sermon preached at Paules-Crosse, the first Sunday in the new yeere, 1617. And newly reuised and enlarged by Immanuel Bourne ...</title>
-         <author>Bourne, Immanuel, 1590-1672.</author>
-      </titleStmt>
-      <extent>[8], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Legat] for George Fayerbeard, and are to be sold at his shop at the north doore of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The true vvay of a Christian, to the nevv Ierusalem Or, a three-folde demonstration: first, of the excellencie of the true and sauing knowledge of Christ; and the meanes to attaine it: with the antiquitie, necesitie, and benefit of catechisme. Secondly, of our vnion and communion with Christ, and his Church. Thirdly, of our new creation in Christ, by the blessed Spirit. With diuers questions, and cases of conscience, most comfortable for a Christian. Deliuered first in briefe, in a sermon preached at Paules-Crosse, the first Sunday in the new yeere, 1617. And newly reuised and enlarged by Immanuel Bourne ...</title>
+      <author>Bourne, Immanuel, 1590-1672.</author>
+    </titleStmt>
+    <extent>[8], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Legat]</persName> for <persName type="publisher">George Fayerbeard</persName>, and are to be sold at <placeName>his shop at the north doore of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Fayerbeard</persName>
+    </person>
+    <person type="printer">
+      <persName>John Legat]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the north doore of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

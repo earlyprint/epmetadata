@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at St. Margarets in Westminster before the Honourable the House of Commons in Parliament assembled, upon the 29th day of May, being the anniversary day of the King's and kingdomes restauration by Thomas Pierce ...</title>
-         <author>Pierce, Thomas, 1622-1691.</author>
-      </titleStmt>
-      <extent>[5], 38 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Norton for Timothy  Garthwait ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Marginal notes.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at St. Margarets in Westminster before the Honourable the House of Commons in Parliament assembled, upon the 29th day of May, being the anniversary day of the King's and kingdomes restauration by Thomas Pierce ...</title>
+      <author>Pierce, Thomas, 1622-1691.</author>
+    </titleStmt>
+    <extent>[5], 38 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Norton</persName> for <persName type="publisher">Timothy  Garthwait</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Marginal notes.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Timothy  Garthwait</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Norton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

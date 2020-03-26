@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The birth of a day: being a treatise theologicall, morall and historicall, representing (as in a scene) the vicissitudes of all humane things, with their severall causes and sacred uses. Compos'd for the establishing mans soul unchangeable in the faith, amidst the various changes of the world. / By J. Robinson Mr of Arts and preacher of Gods Word.</title>
-         <author>Robinson, John, Preacher at East-Thorpe.</author>
-      </titleStmt>
-      <extent>[12], 102, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Daniel; and are to be sold by Thomas Johnson, at the sign of the Golden Key in S. Pauls Churchyard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655. [i.e. 1654]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Annotation on Thomason copy: "Nouemb: 17"; the second 5 in the imprint date has been crossed out and replaced with a "4".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The birth of a day: being a treatise theologicall, morall and historicall, representing (as in a scene) the vicissitudes of all humane things, with their severall causes and sacred uses. Compos'd for the establishing mans soul unchangeable in the faith, amidst the various changes of the world. / By J. Robinson Mr of Arts and preacher of Gods Word.</title>
+      <author>Robinson, John, Preacher at East-Thorpe.</author>
+    </titleStmt>
+    <extent>[12], 102, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Daniel;</persName> and are to be sold by <persName type="bookseller">Thomas Johnson</persName>, at <placeName>the sign of the Golden Key in S. Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655. [i.e. 1654]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Annotation on Thomason copy: "Nouemb: 17"; the second 5 in the imprint date has been crossed out and replaced with a "4".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Thomas Johnson</persName>
+    </person>
+    <person type="printer">
+      <persName>Roger Daniel;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Golden Key in S. Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

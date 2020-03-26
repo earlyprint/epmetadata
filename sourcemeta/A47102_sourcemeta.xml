@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An explanation of the laws against recusants, &amp;c. abridged by Joseph Keble ...</title>
-         <author>Keble, Joseph, 1632-1710.</author>
-      </titleStmt>
-      <extent>[4], 266, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Keble ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An explanation of the laws against recusants, &amp;c. abridged by Joseph Keble ...</title>
+      <author>Keble, Joseph, 1632-1710.</author>
+    </titleStmt>
+    <extent>[4], 266, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Keble</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Keble</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life &amp; death of Edmund Staunton D.D. To which is added, I. His treatise of Christian conference. II. His dialogue betwixt a minister and a stranger. Published by Richard Mayo of Kingston, Minister of the Gospel.</title>
-         <author>Mayo, Richard, 1631?-1695.</author>
-      </titleStmt>
-      <extent>[2], xiii, [1], 152; 197, [11] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Th: Parkhurst, and are to be sold at the Bible and three Crowns in Cheapside, near Mercers Chapel: and at the Gilded Bible on London-bridge, under the Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a separate title page p.[89]: A dialogue: or, a discourse between a minister and a stranger, as they were on the high-way together, about soul affairs. By Edmund Staunton D.D.</note>
-         <note>A treatise of Christian Conference, with a drop head title, begins a new pagination sequence with signature B.</note>
-         <note>Signatures: A-F G⁴ H-L, B-O.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life &amp; death of Edmund Staunton D.D. To which is added, I. His treatise of Christian conference. II. His dialogue betwixt a minister and a stranger. Published by Richard Mayo of Kingston, Minister of the Gospel.</title>
+      <author>Mayo, Richard, 1631?-1695.</author>
+    </titleStmt>
+    <extent>[2], xiii, [1], 152; 197, [11] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Th: Parkhurst</persName>, and are to be sold at <placeName>the Bible</placeName> and three Crowns in <placeName>Cheapside, near Mercers Chapel:</placeName> and at <placeName>the Gilded Bible on London-bridge, under the Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a separate title page p.[89]: A dialogue: or, a discourse between a minister and a stranger, as they were on the high-way together, about soul affairs. By Edmund Staunton D.D.</note>
+      <note>A treatise of Christian Conference, with a drop head title, begins a new pagination sequence with signature B.</note>
+      <note>Signatures: A-F G&#8308; H-L, B-O.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Th: Parkhurst</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cheapside, near Mercers Chapel:</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Gilded Bible on London-bridge, under the Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

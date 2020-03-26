@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Odcombs complaint: or Coriats funerall epicedium or death-song, vpon his late reported drowning. With his epitaph in the Barmuda, and Utopian tongues. And translated into English by Iohn Taylor.</title>
-         <author>Taylor, John, 1580-1653.</author>
-      </titleStmt>
-      <extent>[26] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for merrie recreation [by G. Eld], and are to be sold at the salutation in Vtopia [by W. Burre?],</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication, printer, and suggested bookseller from STC.</note>
-         <note>In verse.</note>
-         <note>Signatures: A (-A1) B⁶.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Odcombs complaint: or Coriats funerall epicedium or death-song, vpon his late reported drowning. With his epitaph in the Barmuda, and Utopian tongues. And translated into English by Iohn Taylor.</title>
+      <author>Taylor, John, 1580-1653.</author>
+    </titleStmt>
+    <extent>[26] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">merrie recreation [</persName>by <persName type="printer">G. Eld]</persName>, and are to be sold at <placeName>the salutation in Vtopia [</placeName>by <persName type="bookseller">W. Burre?]</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication, printer, and suggested bookseller from STC.</note>
+      <note>In verse.</note>
+      <note>Signatures: A (-A1) B&#8310;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W. Burre?]</persName>
+    </person>
+    <person type="publisher">
+      <persName>merrie recreation [</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the salutation in Vtopia [</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

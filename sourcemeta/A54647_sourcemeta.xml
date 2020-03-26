@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The epistles of Phalaris translated into English from the original Greek by S. Whately ... ; to which is added Sir W. Temple's Character of the epistles of Phalaris ; together with an appendix of some other epistles lately discovered in a French ms.</title>
-         <author>Phalaris, Tyrant of Agrigentum, 6th cent. B.C.</author>
-         <author>Whately, Stephen.</author>
-         <author>Temple, William, Sir, 1628-1699.</author>
-      </titleStmt>
-      <extent>[9], vi-xiii, 223 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Fr. Leach ... for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Index: p. [191]-[192]</note>
-         <note>Errata: p. [9]</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The epistles of Phalaris translated into English from the original Greek by S. Whately ... ; to which is added Sir W. Temple's Character of the epistles of Phalaris ; together with an appendix of some other epistles lately discovered in a French ms.</title>
+      <author>Phalaris, Tyrant of Agrigentum, 6th cent. B.C.</author>
+      <author>Whately, Stephen.</author>
+      <author>Temple, William, Sir, 1628-1699.</author>
+    </titleStmt>
+    <extent>[9], vi-xiii, 223 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Fr. Leach</persName> ... for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Index: p. [191]-[192]</note>
+      <note>Errata: p. [9]</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Fr. Leach</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

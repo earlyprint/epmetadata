@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to A, B, C, D, E, F, &amp;c. concerning their argument about a standing army examining their notions of the supposed Gothick or other ballance, by the constitution and interest of the English  monarchy.</title>
-      </titleStmt>
-      <extent>[2], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for D. Brown ..., and R. Smith ..., and sold by E. VVhitlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. 38.</note>
-         <note>A reply to John Trenchard's An argument shewing that a standing army is inconsistent with a free government.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to A, B, C, D, E, F, &amp;c. concerning their argument about a standing army examining their notions of the supposed Gothick or other ballance, by the constitution and interest of the English  monarchy.</title>
+    </titleStmt>
+    <extent>[2], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">D. Brown</persName> ..., and <persName type="publisher">R. Smith</persName> ..., and sold by <persName type="bookseller">E. VVhitlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. 38.</note>
+      <note>A reply to John Trenchard's An argument shewing that a standing army is inconsistent with a free government.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. VVhitlock</persName>
+    </person>
+    <person type="publisher">
+      <persName>D. Brown</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

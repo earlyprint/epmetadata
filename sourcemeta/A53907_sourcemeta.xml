@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of the Reverend Doctor Ambrose Atfield, late minister of St. Leonard Shoreditch, preached in the said parish church, March 19, 1683/4 by Richard Pearson ...</title>
-         <author>Pearson, Richard, d. 1734.</author>
-      </titleStmt>
-      <extent>[2], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Holt, for D. Newman,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of the Reverend Doctor Ambrose Atfield, late minister of St. Leonard Shoreditch, preached in the said parish church, March 19, 1683/4 by Richard Pearson ...</title>
+      <author>Pearson, Richard, d. 1734.</author>
+    </titleStmt>
+    <extent>[2], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Holt</persName>, for <persName type="publisher">D. Newman</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>D. Newman</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Holt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

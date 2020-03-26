@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bibliotheca Ashmoliana a catalogue of the library of the learned and famous Elias Ashmole, Esq. : containing not only the rarest books of history, philosophy, genealogies, heraldry, coins, &amp;c., but of the most abstruse parts of human learning : about 40 volumes of tracts and pamphlets neatly bound, and also 30 volumes of mss., many of them written on velum : to be sold by auction on Thursday next, the 22th day of this instant February, 1693/4 [i.e. 1694], at Rolls's Auction House, in Petty-Canon Alley, in St. Paul's Church-yard / by Edward Millington.</title>
-         <author>Millington, Edward, d. 1703.</author>
-      </titleStmt>
-      <extent>[2], 18 [i.e. 19], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Catalogues are distributed by Mr. Whitwood ... Mr. Feltham ... Mr. Hargrave ... Mr. Jay ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bibliotheca Ashmoliana a catalogue of the library of the learned and famous Elias Ashmole, Esq. : containing not only the rarest books of history, philosophy, genealogies, heraldry, coins, &amp;c., but of the most abstruse parts of human learning : about 40 volumes of tracts and pamphlets neatly bound, and also 30 volumes of mss., many of them written on velum : to be sold by auction on Thursday next, the 22th day of this instant February, 1693/4 [i.e. 1694], at Rolls's Auction House, in Petty-Canon Alley, in St. Paul's Church-yard / by Edward Millington.</title>
+      <author>Millington, Edward, d. 1703.</author>
+    </titleStmt>
+    <extent>[2], 18 [i.e. 19], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Catalogues are distributed by <persName type="printer">Mr. Whitwood</persName> ... <persName type="printer">Mr. Feltham</persName> ... <persName type="printer">Mr. Hargrave</persName> ... <persName type="printer">Mr. Jay</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Mr. Feltham</persName>
+    </person>
+    <person type="printer">
+      <persName>Mr. Hargrave</persName>
+    </person>
+    <person type="printer">
+      <persName>Mr. Jay</persName>
+    </person>
+    <person type="printer">
+      <persName>Mr. Whitwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

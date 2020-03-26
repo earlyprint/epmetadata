@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached November V, 1673, at St. Margarets Westminst by Edward Stillingfleet ...</title>
-         <author>Stillingfleet, Edward, 1635-1699.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert White, for Henry Mortlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached November V, 1673, at St. Margarets Westminst by Edward Stillingfleet ...</title>
+      <author>Stillingfleet, Edward, 1635-1699.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert White</persName>, for <persName type="publisher">Henry Mortlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Mortlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert White</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

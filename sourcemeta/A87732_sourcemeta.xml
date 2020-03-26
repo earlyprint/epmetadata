@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Killing is murder: or, An answer to a treasonous pamphlet entituled, Killing is no murder.</title>
-      </titleStmt>
-      <extent>[2], 54, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Joseph Moor, and are to be sold by the several booksellers in London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to "Killing no murder" by Silius Titus and Edward Sexby.</note>
-         <note>With a final errata leaf.</note>
-         <note>Annotation on Thomason copy: "21 7ber [September]".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Killing is murder: or, An answer to a treasonous pamphlet entituled, Killing is no murder.</title>
+    </titleStmt>
+    <extent>[2], 54, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Joseph Moor</persName>, and are to be sold by <persName type="bookseller">the several booksellers</persName> in <placeName>London</placeName> and Westminster,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to "Killing no murder" by Silius Titus and Edward Sexby.</note>
+      <note>With a final errata leaf.</note>
+      <note>Annotation on Thomason copy: "21 7ber [September]".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the several booksellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>Joseph Moor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

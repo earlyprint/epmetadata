@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A scourge for a denn of thieves.</title>
-         <author>Chamberlen, Peter, 1601-1683.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. C. for the Author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Published anonymously. By Peter Chamberlen.</note>
-         <note>Annotation on Thomason copy: "June. 16".</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>"A proposal to raise money and pay off the army." -Halbett &amp; Laing.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A scourge for a denn of thieves.</title>
+      <author>Chamberlen, Peter, 1601-1683.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. C.</persName> for <persName type="publisher">the Author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Published anonymously. By Peter Chamberlen.</note>
+      <note>Annotation on Thomason copy: "June. 16".</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>"A proposal to raise money and pay off the army." -Halbett &amp; Laing.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Author</persName>
+    </person>
+    <person type="printer">
+      <persName>J. C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

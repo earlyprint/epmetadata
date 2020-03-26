@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An essay to suppress prophaness [sic] and immorality pay the nations debts, support the government, and maintain the poor. Humbly submitted to the Lords spiritual, temporal, and Commons assembled in Parliament. With a short postscript relating to His Majesty's speech. By a Society for reformation of manners.</title>
-         <author>Societies for the Reformation of Manners.</author>
-      </titleStmt>
-      <extent>[2], 8, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and sold by the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With marginal notes.</note>
-         <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An essay to suppress prophaness [sic] and immorality pay the nations debts, support the government, and maintain the poor. Humbly submitted to the Lords spiritual, temporal, and Commons assembled in Parliament. With a short postscript relating to His Majesty's speech. By a Society for reformation of manners.</title>
+      <author>Societies for the Reformation of Manners.</author>
+    </titleStmt>
+    <extent>[2], 8, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and sold by <persName type="bookseller">the booksellers of London</persName> and <persName type="bookseller">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With marginal notes.</note>
+      <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Westminster</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

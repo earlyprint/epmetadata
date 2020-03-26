@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Quakers looking-glass look'd upon; and turned toward himself; in a sober reply to an uncivll [sic] pamplet published by Luke Howard a Quaker, against a narrative formerly published, setting forth the folly and presumption of Charles Baily a Quaker, sometimes a prisoner in Dover ...</title>
-         <author>Hobbs, Richard, 17th cent.</author>
-      </titleStmt>
-      <extent>13 [i.e. 15] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Smith at the Elephant and Castle ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Richard Hobbs.</note>
-         <note>Numerous errors in paging.</note>
-         <note>Reproduction of original in: Friends' Library (London, England).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Quakers looking-glass look'd upon; and turned toward himself; in a sober reply to an uncivll [sic] pamplet published by Luke Howard a Quaker, against a narrative formerly published, setting forth the folly and presumption of Charles Baily a Quaker, sometimes a prisoner in Dover ...</title>
+      <author>Hobbs, Richard, 17th cent.</author>
+    </titleStmt>
+    <extent>13 [i.e. 15] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Smith</persName> at <placeName>the Elephant</placeName> and Castle ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Richard Hobbs.</note>
+      <note>Numerous errors in paging.</note>
+      <note>Reproduction of original in: Friends' Library (London, England).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The prancing Swearer: or, perjury militant, an heroick poem. By C.M.</title>
-         <author>M. C.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by T. M. in Jewen-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "In that proud city, (to whose soveraign sway".</note>
-         <note>With 10 lines of introductory verse, the first reading - "As Babylon of old was fertile grown".</note>
-         <note>T. M. in the imprint = T. Milborn.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The prancing Swearer: or, perjury militant, an heroick poem. By C.M.</title>
+      <author>M. C.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. M.</persName> in <placeName>Jewen-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "In that proud city, (to whose soveraign sway".</note>
+      <note>With 10 lines of introductory verse, the first reading - "As Babylon of old was fertile grown".</note>
+      <note>T. M. in the imprint = T. Milborn.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Jewen-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An antidote against the venom of Quakerism, or, Some observations, on a little pamphlet, stiled, The Christianity of the people commonly called Quakers by John Meriton ...</title>
-         <author>Meriton, John, 1666-1717.</author>
-      </titleStmt>
-      <extent>48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and are to be sold by J. Robinson ... and H. Rhodes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An antidote against the venom of Quakerism, or, Some observations, on a little pamphlet, stiled, The Christianity of the people commonly called Quakers by John Meriton ...</title>
+      <author>Meriton, John, 1666-1717.</author>
+    </titleStmt>
+    <extent>48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">J. Robinson</persName> ... and <persName type="publisher">H. Rhodes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Robinson</persName>
+    </person>
+    <person type="publisher">
+      <persName>H. Rhodes</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

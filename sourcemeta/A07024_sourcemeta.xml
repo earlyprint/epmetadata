@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fine companion Acted before the King and Queene at White-hall, and sundrie times with great applause at the private house in Salisbury Court, by the Prince his Servants. Written by Shakerley Marmyon.</title>
-         <author>Marmion, Shackerley, 1603-1639.</author>
-      </titleStmt>
-      <extent>[80] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Aug. Mathewes for Richard Meighen, next to the Middle Temple gate in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Signatures: A-K⁴.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Chapin Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fine companion Acted before the King and Queene at White-hall, and sundrie times with great applause at the private house in Salisbury Court, by the Prince his Servants. Written by Shakerley Marmyon.</title>
+      <author>Marmion, Shackerley, 1603-1639.</author>
+    </titleStmt>
+    <extent>[80] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Aug. Mathewes</persName> for <persName type="publisher">Richard Meighen, next to the Middle Temple gate</persName> in <placeName>Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Signatures: A-K&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Chapin Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Meighen, next to the Middle Temple gate</persName>
+    </person>
+    <person type="printer">
+      <persName>Aug. Mathewes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

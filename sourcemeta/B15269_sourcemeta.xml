@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Letters conteyning sundry deuises touching the state of Flaunders and Portingall: written by Card. Granuelle and others, and lately intercepted and published.</title>
-         <author>Granvelle, Antoine Perrenot de, 1517-1586.</author>
-      </titleStmt>
-      <extent>[50] p.   </extent>
-      <publicationStmt>
-         <publisher>At the Three Cranes in the vinetree by Thomas Dawson for Thomas Charde,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1582.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: pi² [-pi2] A-E F⁴.</note>
-         <note>"Texts of 19 letters (11 of which are from Granvelle) dated in April 1582, most of them written from Madrid".--NUC Pre-1956.</note>
-         <note>Running title reads: Letters intercepted.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Letters conteyning sundry deuises touching the state of Flaunders and Portingall: written by Card. Granuelle and others, and lately intercepted and published.</title>
+      <author>Granvelle, Antoine Perrenot de, 1517-1586.</author>
+    </titleStmt>
+    <extent>[50] p.   </extent>
+    <publicationStmt>
+      <publisher>At <placeName>the Three Cranes in the vinetree</placeName> by <persName type="printer">Thomas Dawson</persName> for <persName type="publisher">Thomas Charde</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1582.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: pi&#178; [-pi2] A-E F&#8308;.</note>
+      <note>"Texts of 19 letters (11 of which are from Granvelle) dated in April 1582, most of them written from Madrid".--NUC Pre-1956.</note>
+      <note>Running title reads: Letters intercepted.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Charde</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Cranes in the vinetree</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

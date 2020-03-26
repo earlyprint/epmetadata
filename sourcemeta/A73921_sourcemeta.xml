@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Instructions which his Maiesties commissioners for the loane of money to his Maiestie throughout the kingdome, are exactly and effectually to obserue and follow</title>
-         <author>England and Wales. Commissioners for the loane of money to His Maiestie throughout the kingdome.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Bonham Norton and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-B⁴.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Instructions which his Maiesties commissioners for the loane of money to his Maiestie throughout the kingdome, are exactly and effectually to obserue and follow</title>
+      <author>England and Wales. Commissioners for the loane of money to His Maiestie throughout the kingdome.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

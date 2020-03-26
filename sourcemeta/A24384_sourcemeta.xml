@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The London almanack, or, A compendium of the year 1673 referred particularly to the meridian of the most famous city of London : together with some antiquities relating to that ancient and honourable corporation, not commonly known to the worthy inhabitants thereof / by Mercurius Civicus.</title>
-         <author>Butler, Samuel, 1612-1680.</author>
-      </titleStmt>
-      <extent>[46] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Ratcliffe and Nathaniel Thompson, for the Company of Stationers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Second part (p. [33-46]) has special t.p.: The London almanack, 1673.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The London almanack, or, A compendium of the year 1673 referred particularly to the meridian of the most famous city of London : together with some antiquities relating to that ancient and honourable corporation, not commonly known to the worthy inhabitants thereof / by Mercurius Civicus.</title>
+      <author>Butler, Samuel, 1612-1680.</author>
+    </titleStmt>
+    <extent>[46] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Ratcliffe</persName> and <persName type="printer">Nathaniel Thompson</persName>, for <persName type="publisher">the Company of Stationers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Second part (p. [33-46]) has special t.p.: The London almanack, 1673.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Company of Stationers</persName>
+    </person>
+    <person type="printer">
+      <persName>Nathaniel Thompson</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Ratcliffe</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

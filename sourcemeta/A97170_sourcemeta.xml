@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An humble monitory to the most glorious majesty of the high and mighty monarch Charles the Second King of Great Britain, France and Ireland, Defender of the Faith, the great representative of the Almighty in majesty and mercy. Presented unto him in his passage from the Abbey of Westminster, upon the glorious and happy day of his coronation. / By his most humble and faithful subject, Thomas Warmstrey, D.D.</title>
-         <author>Warmstry, Thomas, 1610-1665.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Matthew Inman, and are to be sold by James Magnes, living in Russel-street, near Covent-Garden,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Dread soveraign, in the midst of all your glory,".</note>
-         <note>Annotation on Thomason copy: "April 23."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An humble monitory to the most glorious majesty of the high and mighty monarch Charles the Second King of Great Britain, France and Ireland, Defender of the Faith, the great representative of the Almighty in majesty and mercy. Presented unto him in his passage from the Abbey of Westminster, upon the glorious and happy day of his coronation. / By his most humble and faithful subject, Thomas Warmstrey, D.D.</title>
+      <author>Warmstry, Thomas, 1610-1665.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Matthew Inman</persName>, and are to be sold by <persName type="bookseller">James Magnes</persName>, living in <placeName>Russel-street, near Covent-Garden</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Dread soveraign, in the midst of all your glory,".</note>
+      <note>Annotation on Thomason copy: "April 23."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>James Magnes</persName>
+    </person>
+    <person type="printer">
+      <persName>Matthew Inman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Russel-street, near Covent-Garden</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A prediction of Mr. Edvvards his conversion and recantation. By William Walvvin.</title>
-         <author>Walwyn, William, 1600-1681.</author>
-      </titleStmt>
-      <extent>[2], 19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] P[aine] for G. Whittington and N. Brookes, at the signe of the Angell in Cornhill, below the Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from McMichael and Taft, The writings of William Walwyn, p.227.</note>
-         <note>Annotation on Thomason copy: "Aug: 11th.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A prediction of Mr. Edvvards his conversion and recantation. By William Walvvin.</title>
+      <author>Walwyn, William, 1600-1681.</author>
+    </titleStmt>
+    <extent>[2], 19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] P[aine]</persName> for <persName type="publisher">G. Whittington</persName> and <persName type="publisher">N. Brookes</persName>, at <placeName>the signe of the Angell in Cornhill, below the Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from McMichael and Taft, The writings of William Walwyn, p.227.</note>
+      <note>Annotation on Thomason copy: "Aug: 11th.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Whittington</persName>
+    </person>
+    <person type="publisher">
+      <persName>N. Brookes</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] P[aine]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Angell in Cornhill, below the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

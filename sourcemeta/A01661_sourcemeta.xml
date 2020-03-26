@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>This boke doth create all of the beste waters artyfycialles and the vertues and properties of the same, moche profytable for the poore sycke, set forth, by syr Roger Becon Freere.</title>
-         <author>Bacon, Roger, 1214?-1294.</author>
-      </titleStmt>
-      <extent>[28] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprynted by me Robert wyer,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>[c1550.]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from colophon; publication place and publication date suggested by STC.</note>
-         <note>Note spelling of "artyfycialles" in title--STC.</note>
-         <note>Signatures: A-B⁴ C⁶.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>This boke doth create all of the beste waters artyfycialles and the vertues and properties of the same, moche profytable for the poore sycke, set forth, by syr Roger Becon Freere.</title>
+      <author>Bacon, Roger, 1214?-1294.</author>
+    </titleStmt>
+    <extent>[28] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted by <persName type="printer">me Robert wyer</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>[c1550.]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from colophon; publication place and publication date suggested by STC.</note>
+      <note>Note spelling of "artyfycialles" in title--STC.</note>
+      <note>Signatures: A-B&#8308; C&#8310;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Robert wyer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

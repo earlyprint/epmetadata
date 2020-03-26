@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The reading of that famous and learned genrleman, Robert Callis ... upon the statute of 23 H.8, Cap. 5, of Sewers, as it was delivered by him at Grays-Inn in August, 1622.</title>
-         <author>Callis, Robert, fl. 1634.</author>
-      </titleStmt>
-      <extent>[7], 235 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Leak and are to be sold at his shop,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The reading of that famous and learned genrleman, Robert Callis ... upon the statute of 23 H.8, Cap. 5, of Sewers, as it was delivered by him at Grays-Inn in August, 1622.</title>
+      <author>Callis, Robert, fl. 1634.</author>
+    </titleStmt>
+    <extent>[7], 235 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Leak</persName> and are to be sold at <placeName>his shop</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Leak</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine hymns, or, A paraphrase upon the Te Deum, &amp;c. and the Song of the three children, or canticle Benedicite omnia opera, &amp;c. as they are in the Book of common prayer by T. Walker ...</title>
-         <author>Walker, Thomas, 1658 or 9-1716.</author>
-         <author>Nicetas, of Remesiana, Saint, d. ca. 414. Te Deum laudamus.</author>
-      </titleStmt>
-      <extent>[12], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Hayes ... for W. Graves ...,</publisher>
-         <pubPlace>Cambridge :</pubPlace>
-         <date>1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. 26.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine hymns, or, A paraphrase upon the Te Deum, &amp;c. and the Song of the three children, or canticle Benedicite omnia opera, &amp;c. as they are in the Book of common prayer by T. Walker ...</title>
+      <author>Walker, Thomas, 1658 or 9-1716.</author>
+      <author>Nicetas, of Remesiana, Saint, d. ca. 414. Te Deum laudamus.</author>
+    </titleStmt>
+    <extent>[12], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Hayes</persName> ... for <persName type="publisher">W. Graves</persName> ...,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date>1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. 26.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Graves</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Hayes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

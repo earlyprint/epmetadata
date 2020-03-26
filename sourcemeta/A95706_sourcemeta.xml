@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Thirty-five articles made and established by the rebells, the lords, and the rest of the Generall Assembly of that part of the kingdome of Ireland (now in rebellion) met at the citie of Kilkenny, Anno Dom. 1642</title>
-         <author>Ireland. General Assembly at Kilkenny.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.P. and M.S. in Goldsmiths-Alley.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1643. March the sixt.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Annotation on Thomason copy: "March. 6".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Thirty-five articles made and established by the rebells, the lords, and the rest of the Generall Assembly of that part of the kingdome of Ireland (now in rebellion) met at the citie of Kilkenny, Anno Dom. 1642</title>
+      <author>Ireland. General Assembly at Kilkenny.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.P.</persName> and <persName type="printer">M.S.</persName> in <placeName>Goldsmiths-Alley.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1643. March the sixt.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Annotation on Thomason copy: "March. 6".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Goldsmiths-Alley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,27 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Dyuers frutful gatherynges of scripture and declarynge of fayth and workes of the lawe</title>
-         <title>Patrick's Places. English</title>
-         <author>Hamilton, Patrick, 1504?-1528.</author>
-         <author>Frith, John, 1503-1533.</author>
-      </titleStmt>
-      <extent>[24] leaves   </extent>
-      <publicationStmt>
-         <publisher>Imprented in fletestrete by me Robert Redman,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>[1534?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An edition of the translation from the Latin of "Patrick's Places" by John Frith.</note>
-         <note>Title from caption title, A1r.</note>
-         <note>Imprint from colophon; publication date conjectured by STC.</note>
-         <note>Signatures: A B⁴.</note>
-         <note>Formerly STC 12733.</note>
-         <note>Identified as STC 12733 on UMI microfilm.</note>
-         <note>Imperfect; title page lacking; some pages stained.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Dyuers frutful gatherynges of scripture and declarynge of fayth and workes of the lawe</title>
+      <title>Patrick's Places. English</title>
+      <author>Hamilton, Patrick, 1504?-1528.</author>
+      <author>Frith, John, 1503-1533.</author>
+    </titleStmt>
+    <extent>[24] leaves   </extent>
+    <publicationStmt>
+      <publisher>Imprented in <placeName>fletestrete</placeName> by <persName type="printer">me Robert Redman</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>[1534?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An edition of the translation from the Latin of "Patrick's Places" by John Frith.</note>
+      <note>Title from caption title, A1r.</note>
+      <note>Imprint from colophon; publication date conjectured by STC.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Formerly STC 12733.</note>
+      <note>Identified as STC 12733 on UMI microfilm.</note>
+      <note>Imperfect; title page lacking; some pages stained.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Robert Redman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>fletestrete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

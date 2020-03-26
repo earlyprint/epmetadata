@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The description of heaven. Or, A diuine and comfortable discourse of the nature of the eternall heaven the habitation of God, and all the Elect. Composed in Latine, by Cunradus Aslachus. And conuerted into English, by Raph Iennings.</title>
-         <author>Aslakssøn, Cort, 1564-1624.</author>
-         <author>Jennings, Ralph.</author>
-      </titleStmt>
-      <extent>[4], 85, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A[ugustine] M[athewes] for Iohn Brambridge, and are to be sold at his shop neere Strand Bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The description of heaven. Or, A diuine and comfortable discourse of the nature of the eternall heaven the habitation of God, and all the Elect. Composed in Latine, by Cunradus Aslachus. And conuerted into English, by Raph Iennings.</title>
+      <author>Aslakss&#248;n, Cort, 1564-1624.</author>
+      <author>Jennings, Ralph.</author>
+    </titleStmt>
+    <extent>[4], 85, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A[ugustine] M[athewes]</persName> for <persName type="publisher">Iohn Brambridge</persName>, and are to be sold at <placeName>his shop neere Strand Bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Brambridge</persName>
+    </person>
+    <person type="printer">
+      <persName>A[ugustine] M[athewes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Strand Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

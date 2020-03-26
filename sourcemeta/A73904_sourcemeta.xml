@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Six learned and godly sermons preached some of them before the Kings Maiestie, some before Queene Elizabeth / by Richard Eedes ...</title>
-         <author>Eedes, Richard, 1555-1604.</author>
-      </titleStmt>
-      <extent>[4], 122 [i.e. 244] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Adam Islip, for Edward Bishop,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages numbered on recto only.</note>
-         <note>Signatures: First four p. unsigned; B-Q⁸, R².</note>
-         <note>Reproductions of originals in: British Library and University of Illinois (Urbana-Champaign Campus). Library.</note>
-         <note>Includes bibliographical references in marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Six learned and godly sermons preached some of them before the Kings Maiestie, some before Queene Elizabeth / by Richard Eedes ...</title>
+      <author>Eedes, Richard, 1555-1604.</author>
+    </titleStmt>
+    <extent>[4], 122 [i.e. 244] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Adam Islip</persName>, for <persName type="publisher">Edward Bishop</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages numbered on recto only.</note>
+      <note>Signatures: First four p. unsigned; B-Q&#8312;, R&#178;.</note>
+      <note>Reproductions of originals in: British Library and University of Illinois (Urbana-Champaign Campus). Library.</note>
+      <note>Includes bibliographical references in marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Bishop</persName>
+    </person>
+    <person type="printer">
+      <persName>Adam Islip</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

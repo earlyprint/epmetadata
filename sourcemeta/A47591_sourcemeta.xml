@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Light broke forth in Wales, expelling darkness, or, The Englishman's love to the antient Britains [sic] being an answer to a book, iutituled [sic] Children's baptism from Heaven, published in the Welsh tongue by Mr. James Owen / by Benjamin Keach.</title>
-         <author>Keach, Benjamin, 1640-1704.</author>
-      </titleStmt>
-      <extent>xxxi, [1], 320 [i.e. 334] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by William Marshall ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata following p. xxxi.</note>
-         <note>Contains numerous errors in pagination.</note>
-         <note>Imperfect: print show-through with loss of print.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Light broke forth in Wales, expelling darkness, or, The Englishman's love to the antient Britains [sic] being an answer to a book, iutituled [sic] Children's baptism from Heaven, published in the Welsh tongue by Mr. James Owen / by Benjamin Keach.</title>
+      <author>Keach, Benjamin, 1640-1704.</author>
+    </titleStmt>
+    <extent>xxxi, [1], 320 [i.e. 334] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">William Marshall</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata following p. xxxi.</note>
+      <note>Contains numerous errors in pagination.</note>
+      <note>Imperfect: print show-through with loss of print.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Marshall</persName>
+    </person>
+    <person type="printer">
+      <persName>William Marshall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

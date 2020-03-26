@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>William the Third, by the grace of God King of England, Scotland, France and Ireland, defender of the faith, &amp;c. to all and singular archbishops, bishops, archdeacons, deans, and their officials, parsons, vicars, curates, and all other spiritual persons ...</title>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Printed by Charles Bill, and the Executrix of Thomas Newcomb deceas'd ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699 [i.e. 1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from first 3 lines of text.</note>
-         <note>For relief of Huguenot refugees in Germany.</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>William the Third, by the grace of God King of England, Scotland, France and Ireland, defender of the faith, &amp;c. to all and singular archbishops, bishops, archdeacons, deans, and their officials, parsons, vicars, curates, and all other spiritual persons ...</title>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher><persName type="printer">Printed</persName> by <persName type="printer">Printed</persName> by <persName type="printer">Charles Bill, and the Executrix of Thomas Newcomb deceas'd</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699 [i.e. 1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from first 3 lines of text.</note>
+      <note>For relief of Huguenot refugees in Germany.</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the Executrix of Thomas Newcomb deceas'd</persName>
+    </person>
+    <person type="printer">
+      <persName>Printed</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

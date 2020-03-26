@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Description of Old England, or, A True declaration of the times</title>
-      </titleStmt>
-      <extent>1 broadside : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. Verex, J. Wright, and J. Clarke,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[between 1665 and 1670]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Caption title.</note>
-         <note>Dates suggested by Wing.</note>
-         <note>Place of publication suggested by NUC pre-1956 imprints.</note>
-         <note>Illustrated with woodcuts.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Description of Old England, or, A True declaration of the times</title>
+    </titleStmt>
+    <extent>1 broadside : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Verex</persName>, <persName type="publisher">J. Wright</persName>, and <persName type="publisher">J. Clarke</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[between 1665 and 1670]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Caption title.</note>
+      <note>Dates suggested by Wing.</note>
+      <note>Place of publication suggested by NUC pre-1956 imprints.</note>
+      <note>Illustrated with woodcuts.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Clarke</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Verex</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

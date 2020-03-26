@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The common-wealth of Oceana</title>
-         <author>Harrington, James, 1611-1677.</author>
-      </titleStmt>
-      <extent>[12], 210 [i.e. 309], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Streater for Livewell Chapman, and are to be sold at his shop ....,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Attributed to James Harrington. cf. BM.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The common-wealth of Oceana</title>
+      <author>Harrington, James, 1611-1677.</author>
+    </titleStmt>
+    <extent>[12], 210 [i.e. 309], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Streater</persName> for <persName type="publisher">Livewell Chapman</persName>, and are to be sold at his shop ....,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Attributed to James Harrington. cf. BM.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Livewell Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

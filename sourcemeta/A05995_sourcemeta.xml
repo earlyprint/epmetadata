@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A commentarie vpon the first chapter of the epistle of Saint Paul, written to the Ephesians Wherein, besides the text fruitfully explained: some principall controuersies about predestination are handled, and diuers arguments of Arminius are examined. By Mr. Paul Bayne, sometimes preacher of Gods word at Saint Andrevves in Cambridge.</title>
-         <author>Baynes, Paul, d. 1617.</author>
-      </titleStmt>
-      <extent>[22], 409, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Snodham, for Robert Milbourne, and are to be sold in Pauls Church-yard, at the signe of the Beare,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Variants have 'Mylbourne' or 'Milburne' in imprint.</note>
-         <note>With errata on 2D7, final printed leaf.</note>
-         <note>The final leaf is a blank.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A commentarie vpon the first chapter of the epistle of Saint Paul, written to the Ephesians Wherein, besides the text fruitfully explained: some principall controuersies about predestination are handled, and diuers arguments of Arminius are examined. By Mr. Paul Bayne, sometimes preacher of Gods word at Saint Andrevves in Cambridge.</title>
+      <author>Baynes, Paul, d. 1617.</author>
+    </titleStmt>
+    <extent>[22], 409, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Snodham</persName>, for <persName type="publisher">Robert Milbourne</persName>, and are to be sold in <placeName>Pauls Church-yard, at the signe of the Beare</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Variants have 'Mylbourne' or 'Milburne' in imprint.</note>
+      <note>With errata on 2D7, final printed leaf.</note>
+      <note>The final leaf is a blank.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Milbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the signe of the Beare</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

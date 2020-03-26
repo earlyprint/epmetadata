@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first fruits of reason, or, A discourse shewing the necessity of applying our selves betimes to the serious practice of religion by Anthony Horneck ...</title>
-         <author>Horneck, Anthony, 1641-1697.</author>
-      </titleStmt>
-      <extent>[12], 132 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Collins for D. Brown ... and are to be sold by John Wild ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first fruits of reason, or, A discourse shewing the necessity of applying our selves betimes to the serious practice of religion by Anthony Horneck ...</title>
+      <author>Horneck, Anthony, 1641-1697.</author>
+    </titleStmt>
+    <extent>[12], 132 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Collins</persName> for <persName type="publisher">D. Brown</persName> ... and are to be sold by <persName type="bookseller">John Wild</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Wild</persName>
+    </person>
+    <person type="publisher">
+      <persName>D. Brown</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Collins</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

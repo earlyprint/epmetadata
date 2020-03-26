@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A panegyrick to my Lord Protector, of the present greatness and joynt interest of His Highness, and this nation. / By E.W. Esq.</title>
-         <author>Waller, Edmund, 1606-1687.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Lowndes at the White Lyon in S. Pauls Church-yard, neer the little North-dore.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>E.W. = Edmund Waller.</note>
-         <note>In verse.</note>
-         <note>Annotation on Thomason copy: "May. 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A panegyrick to my Lord Protector, of the present greatness and joynt interest of His Highness, and this nation. / By E.W. Esq.</title>
+      <author>Waller, Edmund, 1606-1687.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Lowndes</persName> at <placeName>the White Lyon in S. Pauls Church-yard, neer the little North-dore.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>E.W. = Edmund Waller.</note>
+      <note>In verse.</note>
+      <note>Annotation on Thomason copy: "May. 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lowndes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Lyon in S. Pauls Church-yard, neer the little North-dore.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

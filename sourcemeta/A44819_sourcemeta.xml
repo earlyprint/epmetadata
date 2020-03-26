@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached on the first of January 1698 in the parish church of St. Nicholas Cole-Abby being a New-Years-gift to the society of Christians united there to worship God in a more solemn manner after the way of the Church of England / by Robert Howson.</title>
-         <author>Howson, Robert.</author>
-      </titleStmt>
-      <extent>[4], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Downing for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1698?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached on the first of January 1698 in the parish church of St. Nicholas Cole-Abby being a New-Years-gift to the society of Christians united there to worship God in a more solemn manner after the way of the Church of England / by Robert Howson.</title>
+      <author>Howson, Robert.</author>
+    </titleStmt>
+    <extent>[4], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Downing</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1698?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Downing</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

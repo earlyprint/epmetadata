@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[A manuall of spirituall exercises]</title>
-         <title>Manual de exercicios espirituales. English</title>
-         <author>Capilla, Andrés, d. 1610.</author>
-         <author>Manfield, Henry.</author>
-      </titleStmt>
-      <extent>286, [12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by C. Boscard for J. Heigham,</publisher>
-         <pubPlace>[Saint-Omer :</pubPlace>
-         <date>1625]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's preface headed: Henry Manfeilde.</note>
-         <note>Title and imprint from STC.</note>
-         <note>Imperfect; lacks all before page 3 (including title page).</note>
-         <note>Reproduction of the original in the St. Edmund's College. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[A manuall of spirituall exercises]</title>
+      <title>Manual de exercicios espirituales. English</title>
+      <author>Capilla, Andr&#233;s, d. 1610.</author>
+      <author>Manfield, Henry.</author>
+    </titleStmt>
+    <extent>286, [12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">C. Boscard</persName> for <persName type="publisher">J. Heigham</persName>,</publisher>
+      <pubPlace>[Saint-Omer :</pubPlace>
+      <date>1625]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's preface headed: Henry Manfeilde.</note>
+      <note>Title and imprint from STC.</note>
+      <note>Imperfect; lacks all before page 3 (including title page).</note>
+      <note>Reproduction of the original in the St. Edmund's College. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Heigham</persName>
+    </person>
+    <person type="printer">
+      <persName>C. Boscard</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

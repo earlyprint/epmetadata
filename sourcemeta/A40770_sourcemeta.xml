@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A faithful history of the northern affairs of Ireland from the late K. James accession to the crown, to the siege of Londonderry : giving a true account of the occasions of the miscarriages there, and of the reasons why the gentry abandon'd those parts / by a person who bore a great share in those transactions.</title>
-         <author>Person who bore a great share in those transactions.</author>
-      </titleStmt>
-      <extent>40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randall Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A faithful history of the northern affairs of Ireland from the late K. James accession to the crown, to the siege of Londonderry : giving a true account of the occasions of the miscarriages there, and of the reasons why the gentry abandon'd those parts / by a person who bore a great share in those transactions.</title>
+      <author>Person who bore a great share in those transactions.</author>
+    </titleStmt>
+    <extent>40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randall Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randall Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randall Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

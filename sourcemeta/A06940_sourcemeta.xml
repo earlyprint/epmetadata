@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Markhams faithfull farrier wherein the depth of his skill is layd open in all those principall and approued secrets of horsemanship, which the author neuer published, but hath kept in his brest, and hath beene the glory of his practise.</title>
-         <author>Markham, Gervase, 1568?-1637.</author>
-      </titleStmt>
-      <extent>[14], 110 p.   </extent>
-      <publicationStmt>
-         <publisher>By T.C. for Michael Sparke, dwelling in Greene Arbor, and are to be sold by Rich. Royston, at his shop in I[...] Lane,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.p. contains woodcut illustration.</note>
-         <note>Signatures: A⁸(-A1) B-G⁸ H⁷.</note>
-         <note>Pages 19 and 37 misnumbered as 16 and 73 respectively.</note>
-         <note>Imperfect: tightly bound with loss of print.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Markhams faithfull farrier wherein the depth of his skill is layd open in all those principall and approued secrets of horsemanship, which the author neuer published, but hath kept in his brest, and hath beene the glory of his practise.</title>
+      <author>Markham, Gervase, 1568?-1637.</author>
+    </titleStmt>
+    <extent>[14], 110 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">T.C.</persName> for <persName type="publisher">Michael Sparke</persName>, dwelling in <placeName>Greene Arbor</placeName>, and are to be sold by <persName type="bookseller">Rich. Royston</persName>, at his shop in I[...] Lane,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.p. contains woodcut illustration.</note>
+      <note>Signatures: A&#8312;(-A1) B-G&#8312; H&#8311;.</note>
+      <note>Pages 19 and 37 misnumbered as 16 and 73 respectively.</note>
+      <note>Imperfect: tightly bound with loss of print.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Rich. Royston</persName>
+    </person>
+    <person type="publisher">
+      <persName>Michael Sparke</persName>
+    </person>
+    <person type="printer">
+      <persName>T.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Greene Arbor</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in I[] Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

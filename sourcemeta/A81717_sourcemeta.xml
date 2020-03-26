@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A narrative of the great success God hath been pleased to give His Highness forces in Jamaica, against the King of Spains forces; together with a true relation of the Spaniards losing their plate-fleet, as it was communicated in a letter from the Governour of Jamaica. Published by His Highness special command.</title>
-         <author>Doyley, Edward.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Henry Hills, and John Field, printers to His Highness,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Edward Doyley.</note>
-         <note>Annotations on Thomason copy: "June 20"; "June 20".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A narrative of the great success God hath been pleased to give His Highness forces in Jamaica, against the King of Spains forces; together with a true relation of the Spaniards losing their plate-fleet, as it was communicated in a letter from the Governour of Jamaica. Published by His Highness special command.</title>
+      <author>Doyley, Edward.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName>, and <persName type="printer">John Field</persName>, printers to <persName type="patron">His Highness</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Edward Doyley.</note>
+      <note>Annotations on Thomason copy: "June 20"; "June 20".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His Highness</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

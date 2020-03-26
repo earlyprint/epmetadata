@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief memorial of the Bible: or, A summary of the chief matters contained in every chapter of the Old and New Testament.  Done into metre for the help of memory, / by J.C. M.A.</title>
-         <author>Chorley, Josiah, d. 1719?</author>
-      </titleStmt>
-      <extent>[5], 52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Astwood for Thomas Parkhurst ...,</publisher>
-         <pubPlace>London,</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Marginal notes. "Josiah Chorley" written in above "J.C." on t.p.</note>
-         <note>Imperfect: tightly bound with slight loss of text.</note>
-         <note>Reproduction of original in: National Library of Scotland</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief memorial of the Bible: or, A summary of the chief matters contained in every chapter of the Old and New Testament.  Done into metre for the help of memory, / by J.C. M.A.</title>
+      <author>Chorley, Josiah, d. 1719?</author>
+    </titleStmt>
+    <extent>[5], 52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Astwood</persName> for <persName type="publisher">Thomas Parkhurst</persName> ...,</publisher>
+      <pubPlace>London,</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Marginal notes. "Josiah Chorley" written in above "J.C." on t.p.</note>
+      <note>Imperfect: tightly bound with slight loss of text.</note>
+      <note>Reproduction of original in: National Library of Scotland</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Astwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

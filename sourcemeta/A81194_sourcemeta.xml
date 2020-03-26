@@ -1,23 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A compendium of the laws and government ecclesiastical, civil and military, of England, Scotland &amp; Ireland and dominions, plantations and territories thereunto belonging, with the maritime power thereof, and jurisdiction of courts therein. Methodically digested under their proper heads. By H.C. sometime of the Inner Temple.</title>
-         <author>Curson, H. (Henry)</author>
-      </titleStmt>
-      <extent>[16], 642, [14] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by the assigns of Rich. and Edw. Atkins, Esquires, for J. Walthoe, and are to be sold by John Deeve, at Bernard's-Inn-Gate in Holbourn,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With  separate dated title pages: "A compendium of the laws and government of Scotland, with the islands thereunto belonging", "A compendium of the laws and government of Ireland, with the islands thereunto belonging", "A compendious description of the English plantations in Asia, Africa and America", "Addenda, or, A supplement of things omitted in the impression of the book". Pagination is continuous.</note>
-         <note>Preface signed: H. Curson.</note>
-         <note>Advertisements on p. [1] at beginning.</note>
-         <note>Errata: p. [14] at end.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A compendium of the laws and government ecclesiastical, civil and military, of England, Scotland &amp; Ireland and dominions, plantations and territories thereunto belonging, with the maritime power thereof, and jurisdiction of courts therein. Methodically digested under their proper heads. By H.C. sometime of the Inner Temple.</title>
+      <author>Curson, H. (Henry)</author>
+    </titleStmt>
+    <extent>[16], 642, [14] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by the assigns of <persName type="assigns">Rich.</persName> and <persName type="assigns">Edw. Atkins</persName>, <persName type="assigns">Esquires</persName>, for <persName type="publisher">J. Walthoe</persName>, and are to be sold by <persName type="bookseller">John Deeve</persName>, at <placeName>Bernard's-Inn-Gate in Holbourn</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With  separate dated title pages: "A compendium of the laws and government of Scotland, with the islands thereunto belonging", "A compendium of the laws and government of Ireland, with the islands thereunto belonging", "A compendious description of the English plantations in Asia, Africa and America", "Addenda, or, A supplement of things omitted in the impression of the book". Pagination is continuous.</note>
+      <note>Preface signed: H. Curson.</note>
+      <note>Advertisements on p. [1] at beginning.</note>
+      <note>Errata: p. [14] at end.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Deeve</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Walthoe</persName>
+    </person>
+    <person type="assigns">
+      <persName>Edw. Atkins</persName>
+    </person>
+    <person type="assigns">
+      <persName>Esquires</persName>
+    </person>
+    <person type="assigns">
+      <persName>Rich.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Bernard's-Inn-Gate in Holbourn</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

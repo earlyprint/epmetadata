@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached in the collegiat church of S. Peter in Westminster, the sixth of April. 1628 Before the Right Honourable the Lords of the higher house of Parliament. By Iohn, Lord Bishop of Lincolne, and Deane of the said collegiat church. Set forth by their Lordships appointment.</title>
-         <author>Williams, John, 1582-1650.</author>
-      </titleStmt>
-      <extent>[2], 41, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Bill, printer to the Kings most excellent Maiesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Anno. 1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached in the collegiat church of S. Peter in Westminster, the sixth of April. 1628 Before the Right Honourable the Lords of the higher house of Parliament. By Iohn, Lord Bishop of Lincolne, and Deane of the said collegiat church. Set forth by their Lordships appointment.</title>
+      <author>Williams, John, 1582-1650.</author>
+    </titleStmt>
+    <extent>[2], 41, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Bill</persName>, printer to <persName type="patron">the Kings most excellent Maiesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Anno. 1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

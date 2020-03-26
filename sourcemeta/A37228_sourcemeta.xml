@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vvriting school-master, or, The anatomy of fair writing wherein is exactly expressed each several character, together with other rules and documents coincident to the art of fair and speedy writing / by John Davies of Hereford.</title>
-         <author>Davies, John, 1565?-1618.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by S. Griffin for John Overton, and sold by him   at his house ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vvriting school-master, or, The anatomy of fair writing wherein is exactly expressed each several character, together with other rules and documents coincident to the art of fair and speedy writing / by John Davies of Hereford.</title>
+      <author>Davies, John, 1565?-1618.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">S. Griffin</persName> for <persName type="publisher">John Overton</persName>, and sold by <persName type="bookseller">him</persName>   at <placeName>his house</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>him</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Griffin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Know thy self</title>
-         <author>Hammond, John, d. 1707.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>These are to be given away by the author, at the Sarazens-head within Ald-gate,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[ca. 1656?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Man's curious nature still contends to know".</note>
-         <note>By John Hammond.</note>
-         <note>Place of publication from Wing; publication date conjectured by cataloger.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Know thy self</title>
+      <author>Hammond, John, d. 1707.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>These are to be given away by <persName type="printer">the author</persName>, at <placeName>the Sarazens-head within Ald-gate</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[ca. 1656?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Man's curious nature still contends to know".</note>
+      <note>By John Hammond.</note>
+      <note>Place of publication from Wing; publication date conjectured by cataloger.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sarazens-head within Ald-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

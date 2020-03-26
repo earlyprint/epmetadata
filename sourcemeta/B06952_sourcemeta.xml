@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The merchant a-la-mode. To the tune of Which no body can deny.</title>
-      </titleStmt>
-      <extent>6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Read in White-Fryers, near Fleet-Street,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date>[1713]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Attend and prepare for a cargo from Dover ..."</note>
-         <note>The text printed on one side of each leaf, the third leaf on the verso.</note>
-         <note>A satire against the Duke d'Aumont and the peace with France.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The merchant a-la-mode. To the tune of Which no body can deny.</title>
+    </titleStmt>
+    <extent>6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Read</persName> in <placeName>White-Fryers, near Fleet-Street</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date>[1713]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Attend and prepare for a cargo from Dover ..."</note>
+      <note>The text printed on one side of each leaf, the third leaf on the verso.</note>
+      <note>A satire against the Duke d'Aumont and the peace with France.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Read</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>White-Fryers, near Fleet-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

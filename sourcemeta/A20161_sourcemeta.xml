@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Another tombestone; or, A sermon preached at Laurance Pountneys-Church London, vpon the last day of August, in the yeere, 1626 At the celebration of the funerals of Master Iohn Iuxon, late citizen of the Honourable city of London. By Stephen Denison, preacher of Gods most holy Word in the same city.</title>
-         <author>Denison, Stephen, d. 1649 or 50.</author>
-      </titleStmt>
-      <extent>[14], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. M[iller] for Robert Milbourne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Another tombestone; or, A sermon preached at Laurance Pountneys-Church London, vpon the last day of August, in the yeere, 1626 At the celebration of the funerals of Master Iohn Iuxon, late citizen of the Honourable city of London. By Stephen Denison, preacher of Gods most holy Word in the same city.</title>
+      <author>Denison, Stephen, d. 1649 or 50.</author>
+    </titleStmt>
+    <extent>[14], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. M[iller]</persName> for <persName type="publisher">Robert Milbourne</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Milbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>G. M[iller]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

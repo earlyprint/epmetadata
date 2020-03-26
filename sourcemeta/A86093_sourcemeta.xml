@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir Arthur Hesilrige's letter to the honorable committee of Lords &amp; Commons at Derby-House, concerning the revolt and recovery of Tinmouth-castle. In which action, Lieutenant Col: Lilburn (Governor of the castle) was slain, with divers seamen and others.</title>
-         <author>Hesilrige, Arthur, Sir, d. 1661.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, printer to the Honorable House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>August 15. 1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sir Arthur Hesilrige's letter to the honorable committee of Lords &amp; Commons at Derby-House, concerning the revolt and recovery of Tinmouth-castle. In which action, Lieutenant Col: Lilburn (Governor of the castle) was slain, with divers seamen and others.</title>
+      <author>Hesilrige, Arthur, Sir, d. 1661.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>August 15. 1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

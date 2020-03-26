@@ -1,27 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The theatre of the empire of Great Britaine presenting an exact geography of the kingdomes of England, Scotland, Ireland, and the iles adioyning: with the shires, hundreds, cities and shire-townes, within ye kingdome of England, divided and described by Iohn Speed.</title>
-         <author>Speed, John, 1552?-1629.</author>
-         <author>Hondius, Jodocus, 1563-1612, engraver.</author>
-         <author>Schweitzer, Christoph, wood-engraver.</author>
-         <author>Camden, William, 1551-1623. Britannia.</author>
-      </titleStmt>
-      <extent>[14], 146 [i.e. 280], [10] p. : ill. (woodcuts), maps (metal cuts)  </extent>
-      <publicationStmt>
-         <publisher>[By William Hall] anno cum privilegio 1611 and are to be solde by Iohn Sudbury &amp; Georg Humble, in Popes-head alley at ye signe of ye white Horse,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1611, i.e. 1612]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The text is mainly taken from: Camden, William. Britannia.</note>
-         <note>The title page is engraved.</note>
-         <note>Consists of 7 disjunct preliminary leaves; 70 folded sheets, signed A-2L²  2M¹ 2N¹, mounted on stubs; and 5 disjunct index leaves. Each folded sheet, consisting of two leaves, is signed as a single leaf; i.e., A²  is actually two folds, the first signed A1 on the first recto, the second A2. Furthermore, sheets A-2L are grouped in fours, with two sheets bearing a particular letter sandwiched between two sheets bearing the previous letter. For example, the first grouping consists of the two conjugate leaves A1, the two conjugate leaves B1, the two conjugate leaves B2, and the two conjugate leaves A2. Sixty-six of these folds have engraved maps printed on the inner pages, with text on the outer pages; three have text or woodcuts on all pages. Only the outer pages are paginated; inner pages are not included in pagination. There are other irregularities in pagination.</note>
-         <note>"The woodcuts were no doubt cut by Christoph Schweitzer." Some of the maps are signed by Jodocus Hondius, and "all were engraved by him or under his direction in his workshop at Amsterdam" (Skelton).</note>
-         <note>Books 2-4 each have separate title page. Those to books 2 and 4 give William Hall as printer; those to books 3 and 4 are dated 1612.</note>
-         <note>The pagination is continued in "The history of Great Britaine" (STC 23045).</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The theatre of the empire of Great Britaine presenting an exact geography of the kingdomes of England, Scotland, Ireland, and the iles adioyning: with the shires, hundreds, cities and shire-townes, within ye kingdome of England, divided and described by Iohn Speed.</title>
+      <author>Speed, John, 1552?-1629.</author>
+      <author>Hondius, Jodocus, 1563-1612, engraver.</author>
+      <author>Schweitzer, Christoph, wood-engraver.</author>
+      <author>Camden, William, 1551-1623. Britannia.</author>
+    </titleStmt>
+    <extent>[14], 146 [i.e. 280], [10] p. : ill. (woodcuts), maps (metal cuts)  </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">William Hall]</persName> anno cum privilegio 1611 and are to be solde by <persName type="bookseller">Iohn Sudbury</persName> &amp; <persName type="bookseller">Georg Humble</persName>, in <placeName>Popes-head alley at ye signe of ye white Horse</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1611, i.e. 1612]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The text is mainly taken from: Camden, William. Britannia.</note>
+      <note>The title page is engraved.</note>
+      <note>Consists of 7 disjunct preliminary leaves; 70 folded sheets, signed A-2L&#178;  2M&#185; 2N&#185;, mounted on stubs; and 5 disjunct index leaves. Each folded sheet, consisting of two leaves, is signed as a single leaf; i.e., A&#178;  is actually two folds, the first signed A1 on the first recto, the second A2. Furthermore, sheets A-2L are grouped in fours, with two sheets bearing a particular letter sandwiched between two sheets bearing the previous letter. For example, the first grouping consists of the two conjugate leaves A1, the two conjugate leaves B1, the two conjugate leaves B2, and the two conjugate leaves A2. Sixty-six of these folds have engraved maps printed on the inner pages, with text on the outer pages; three have text or woodcuts on all pages. Only the outer pages are paginated; inner pages are not included in pagination. There are other irregularities in pagination.</note>
+      <note>"The woodcuts were no doubt cut by Christoph Schweitzer." Some of the maps are signed by Jodocus Hondius, and "all were engraved by him or under his direction in his workshop at Amsterdam" (Skelton).</note>
+      <note>Books 2-4 each have separate title page. Those to books 2 and 4 give William Hall as printer; those to books 3 and 4 are dated 1612.</note>
+      <note>The pagination is continued in "The history of Great Britaine" (STC 23045).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Georg Humble</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Sudbury</persName>
+    </person>
+    <person type="printer">
+      <persName>William Hall]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head alley at ye signe of ye white Horse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

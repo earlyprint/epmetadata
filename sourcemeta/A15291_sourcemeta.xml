@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The costlie vvhore A comicall historie, acted by the companie of the Revels.</title>
-         <title>Costly whore.</title>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Augustine Mathewes, for William Sheares, and are to be sold at his shoppe in Brittaines Burse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: The costly whore.</note>
-         <note>A variant of the edition with imprint giving Hugh Perrie as the second publisher.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Some print faded and show-through; some pages stained.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The costlie vvhore A comicall historie, acted by the companie of the Revels.</title>
+      <title>Costly whore.</title>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Augustine Mathewes</persName>, for <persName type="publisher">William Sheares</persName>, and are to be sold at <placeName>his shoppe in Brittaines Burse</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: The costly whore.</note>
+      <note>A variant of the edition with imprint giving Hugh Perrie as the second publisher.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Some print faded and show-through; some pages stained.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheares</persName>
+    </person>
+    <person type="printer">
+      <persName>Augustine Mathewes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe in Brittaines Burse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

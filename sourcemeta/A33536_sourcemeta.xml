@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Meteorologia, or, The true way of foreseeing and judging the inclination of the air and alteration of the weather in several regions ... by William Cock ...].</title>
-         <author>Cock, William.</author>
-      </titleStmt>
-      <extent>[12], 62, [10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Jo. Conyers at the Black Raven in Duck Lane,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1670]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in U.S. Weather Bureau Library.</note>
-         <note>Imperfect: t.p. torn and illlegible; t.p. information taken from Arber's Term cat.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Meteorologia, or, The true way of foreseeing and judging the inclination of the air and alteration of the weather in several regions ... by William Cock ...].</title>
+      <author>Cock, William.</author>
+    </titleStmt>
+    <extent>[12], 62, [10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Jo. Conyers</persName> at <placeName>the Black Raven in Duck Lane</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1670]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in U.S. Weather Bureau Library.</note>
+      <note>Imperfect: t.p. torn and illlegible; t.p. information taken from Arber's Term cat.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jo. Conyers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Raven in Duck Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

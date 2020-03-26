@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the commander in chief in Scotland and the officers under his command, in vindication of the liberties of the people and priviledges of Parliament.</title>
-         <author>Albemarle, George Monck, Duke of, 1608-1670.</author>
-         <author>England and Wales. Army.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Christopher Higgens ... and re-printed at London for general satisfaction,</publisher>
-         <pubPlace>Edenburgh [sic] :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Signed in the name, and by consent of the commander in chief, and the officers of the army in Scotland, [signed] VVilliam Clark, secretary."</note>
-         <note>The commander in chief was George Monck.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the commander in chief in Scotland and the officers under his command, in vindication of the liberties of the people and priviledges of Parliament.</title>
+      <author>Albemarle, George Monck, Duke of, 1608-1670.</author>
+      <author>England and Wales. Army.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by Christopher Higgens ... and re-printed at <placeName>London</placeName> for <persName type="publisher">general satisfaction</persName>,</publisher>
+      <pubPlace>Edenburgh [sic] :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Signed in the name, and by consent of the commander in chief, and the officers of the army in Scotland, [signed] VVilliam Clark, secretary."</note>
+      <note>The commander in chief was George Monck.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>general satisfaction</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Higgensand re-printed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

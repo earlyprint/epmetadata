@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Philadelphia, or, Brotherly love to the studious in the hermetick art. Wherein is discovered the principles of hermetick philosophy, with much candor and plainness. / Written by Eyreneus Philoctetes.</title>
-         <author>Philoctetes, Eyreneus.</author>
-         <author>Starkey, George, d. 1666.</author>
-      </titleStmt>
-      <extent>[32], 70 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle at the Crooked Billet in Holy-well-lane in Shoreditch,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes attributed to George Starkey.</note>
-         <note>"To the studious reader" signed: Philomathes; "To his respected and worthy friend" signed: Philetæros; at end of text signed: Eyrenaeus Philoctetes, written in the year 1691.</note>
-         <note>Reproduction of original in: Christ Church Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Philadelphia, or, Brotherly love to the studious in the hermetick art. Wherein is discovered the principles of hermetick philosophy, with much candor and plainness. / Written by Eyreneus Philoctetes.</title>
+      <author>Philoctetes, Eyreneus.</author>
+      <author>Starkey, George, d. 1666.</author>
+    </titleStmt>
+    <extent>[32], 70 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">T. Sowle</persName></persName> at <placeName>the Crooked Billet in Holy-well-lane in Shoreditch</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes attributed to George Starkey.</note>
+      <note>"To the studious reader" signed: Philomathes; "To his respected and worthy friend" signed: Philet&#230;ros; at end of text signed: Eyrenaeus Philoctetes, written in the year 1691.</note>
+      <note>Reproduction of original in: Christ Church Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crooked Billet in Holy-well-lane in Shoreditch</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

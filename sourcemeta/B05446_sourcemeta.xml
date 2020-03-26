@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Proclamation adjourning the Parliament to the twenty ninth day of October instant 1700.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1694-1702 : William II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, Printer to the Kings most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno Dom. 1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed at end: Gilb. Eliot, Cls. Sti. Concilii.</note>
-         <note>Dated at end: Given under Our Signet at Edinburgh, the fifteenth day of October, and of Our Reign the twelfth year.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Proclamation adjourning the Parliament to the twenty ninth day of October instant 1700.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1694-1702 : William II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, Printer to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno Dom. 1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed at end: Gilb. Eliot, Cls. Sti. Concilii.</note>
+      <note>Dated at end: Given under Our Signet at Edinburgh, the fifteenth day of October, and of Our Reign the twelfth year.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

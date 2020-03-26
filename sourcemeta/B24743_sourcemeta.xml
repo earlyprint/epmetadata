@@ -1,25 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lords-Justices of Ireland. A proclamation. Charles Porter, Tho: Coningesby. Whereas the commissioners of their Majestes revenue have represented unto us, that prusuant to the power to them given, ...</title>
-         <author>Ireland. Lords Justices and Council.</author>
-         <author>Coningsby, Thomas Coningsby, Earl, 1656?-1729.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] leaves).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook assignee of Benjamin Tooke, printer to the King and Queens most excellent Majesties on Ormonde-Key,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>[1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at their Majesties castle of Dublin, the 27th day of February, and in the third year of their Majesties Reign.".</note>
-         <note>Date of publication from Steele.</note>
-         <note>Concerning the tillage of forfeited lands.--Steele.</note>
-         <note>Steele notation: Arms 201. Majesties to 2) Do ut-.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lords-Justices of Ireland. A proclamation. Charles Porter, Tho: Coningesby. Whereas the commissioners of their Majestes revenue have represented unto us, that prusuant to the power to them given, ...</title>
+      <author>Ireland. Lords Justices and Council.</author>
+      <author>Coningsby, Thomas Coningsby, Earl, 1656?-1729.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] leaves).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> assignee of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King</persName> and <persName type="patron">Queens most excellent Majesties</persName> on <placeName>Ormonde-Key</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>[1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at their Majesties castle of Dublin, the 27th day of February, and in the third year of their Majesties Reign.".</note>
+      <note>Date of publication from Steele.</note>
+      <note>Concerning the tillage of forfeited lands.--Steele.</note>
+      <note>Steele notation: Arms 201. Majesties to 2) Do ut-.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Queens most excellent Majesties</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

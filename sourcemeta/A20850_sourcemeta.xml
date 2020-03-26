@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A most excellent and compendious method of curing woundes in the head, and in other partes of the body with other precepts of the same arte, practised and written by that famous man Franciscus Arceus, Doctor in phisicke &amp; chirurgery: and translated into English by Iohn Read, chirurgion. Whereunto is added the exact cure of the caruncle, neuer before set foorth in the English toung. With a treatise of the fistulae in the fundament, and other places of the body, translated out of Iohannes Ardern. And also the description of the emplaister called dia chalciteos, with his vse and vertues. With an apt table for the better finding of the perticular matters, contayned in this present worke.</title>
-         <title>De recta curandorum vulnerum ratione. English</title>
-         <author>Arcaeus, Franciscus, 1493-1573?</author>
-         <author>Read, John, surgeon.</author>
-         <author>Arderne, John, fl. 1307-1370.</author>
-         <author>Galen.</author>
-      </titleStmt>
-      <extent>[16], 119, [1] leaves : ill.  </extent>
-      <publicationStmt>
-         <publisher>By Thomas East, for Thomas Cadman,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1588.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The description of the emplaister" is translated from Galen ("De compositione medicamentorum per genera" or "De compositione medicamentorum secundum locos").</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A most excellent and compendious method of curing woundes in the head, and in other partes of the body with other precepts of the same arte, practised and written by that famous man Franciscus Arceus, Doctor in phisicke &amp; chirurgery: and translated into English by Iohn Read, chirurgion. Whereunto is added the exact cure of the caruncle, neuer before set foorth in the English toung. With a treatise of the fistulae in the fundament, and other places of the body, translated out of Iohannes Ardern. And also the description of the emplaister called dia chalciteos, with his vse and vertues. With an apt table for the better finding of the perticular matters, contayned in this present worke.</title>
+      <title>De recta curandorum vulnerum ratione. English</title>
+      <author>Arcaeus, Franciscus, 1493-1573?</author>
+      <author>Read, John, surgeon.</author>
+      <author>Arderne, John, fl. 1307-1370.</author>
+      <author>Galen.</author>
+    </titleStmt>
+    <extent>[16], 119, [1] leaves : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas East</persName>, for <persName type="publisher">Thomas Cadman</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1588.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The description of the emplaister" is translated from Galen ("De compositione medicamentorum per genera" or "De compositione medicamentorum secundum locos").</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Cadman</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas East</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

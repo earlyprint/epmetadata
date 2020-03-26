@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The English atlas</title>
-         <author>Pitt, Moses, fl. 1654-1696.</author>
-         <author>Nicolson, William, 1655-1727.</author>
-         <author>Peers, Richard, 1645-1690.</author>
-      </titleStmt>
-      <extent>5 v. : ports., maps  </extent>
-      <publicationStmt>
-         <publisher>Printed at the Theater, for Moses Pitt ...,</publisher>
-         <pubPlace>Oxford [Oxfordshire] :</pubPlace>
-         <date>1680-82.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally offered to subscribers as prospective work in 11 volumes of which only four were published in 1680 with 145 maps, and the text of a fifth volume in 1682.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>v. 1. Description of the places next the North Pole, as also of Muscovy, Poland, Sweden, Denmark, and their several dependencies -- v. 2. Description of part of the empire of Germany, viz. the upper and lower Saxony, ... Mecklenburg, Bremen, Magdeburg, &amp;c., ... Brandenburg and Misnia ... the Palatinate of the Rhine, and the kingdom of Bohemia / by William Nicolson --v. 3. Description of the remaining part of the empire of Germany, viz. Schwaben, the palatinate of Bavaria, Arch-Dukedom of Austria, Kingdom of Hungary, Principality of Transylvania, the Circle of Westphalia, with the neighboring provinces / by William Nicolson -- v.4. The description of the seventeen provinces of the Low-Countries, or Netherlands / by Richard Peers.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The English atlas</title>
+      <author>Pitt, Moses, fl. 1654-1696.</author>
+      <author>Nicolson, William, 1655-1727.</author>
+      <author>Peers, Richard, 1645-1690.</author>
+    </titleStmt>
+    <extent>5 v. : ports., maps  </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the Theater</placeName>, for <persName type="publisher">Moses Pitt</persName> ...,</publisher>
+      <pubPlace>Oxford [Oxfordshire] :</pubPlace>
+      <date>1680-82.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally offered to subscribers as prospective work in 11 volumes of which only four were published in 1680 with 145 maps, and the text of a fifth volume in 1682.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>v. 1. Description of the places next the North Pole, as also of Muscovy, Poland, Sweden, Denmark, and their several dependencies -- v. 2. Description of part of the empire of Germany, viz. the upper and lower Saxony, ... Mecklenburg, Bremen, Magdeburg, &amp;c., ... Brandenburg and Misnia ... the Palatinate of the Rhine, and the kingdom of Bohemia / by William Nicolson --v. 3. Description of the remaining part of the empire of Germany, viz. Schwaben, the palatinate of Bavaria, Arch-Dukedom of Austria, Kingdom of Hungary, Principality of Transylvania, the Circle of Westphalia, with the neighboring provinces / by William Nicolson -- v.4. The description of the seventeen provinces of the Low-Countries, or Netherlands / by Richard Peers.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Moses Pitt</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Theater</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

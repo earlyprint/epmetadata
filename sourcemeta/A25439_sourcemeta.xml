@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Animadversions on a late book entituled, The reasonableness of Christianity as delivered in the Scriptures</title>
-      </titleStmt>
-      <extent>[8], 102, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leon. Lichfield for George West, and Anthony Piesley,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: [1] p. at end.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Animadversions on a late book entituled, The reasonableness of Christianity as delivered in the Scriptures</title>
+    </titleStmt>
+    <extent>[8], 102, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leon. Lichfield</persName> for <persName type="publisher">George West</persName>, and <persName type="publisher">Anthony Piesley</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: [1] p. at end.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Anthony Piesley</persName>
+    </person>
+    <person type="publisher">
+      <persName>George West</persName>
+    </person>
+    <person type="printer">
+      <persName>Leon. Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

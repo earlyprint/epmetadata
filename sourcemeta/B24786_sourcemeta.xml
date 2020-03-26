@@ -1,25 +1,53 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Deputy and Council. Tyrconnell. Whereas a late proclamation issued forth by the lord lieutenant and council of this kingdom in december last for the suppressing of Tories, robbers, and their harbourers in the words following. ...</title>
-         <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
-         <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
-      </titleStmt>
-      <extent>3 sheets ([3] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham, assigns of Benjamin Tooke, printer to the Kings most excellent Majesty, and are to be sold by Andrew Crook, at his Majesties printing-house on Ormonde-Key, and by Samuel Helsham, at the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1686 [i.e. 1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at the Council-Chamber in Dublin the 21th Day of February, 1686.".</note>
-         <note>Dates are given according to Lady Day dating.</note>
-         <note>Recites and republishes proclamation 8 Dec. no. 968 q.v. The civil magistrates have not done their duty in enforcing it. ...--Steele.</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Deputy and Council. Tyrconnell. Whereas a late proclamation issued forth by the lord lieutenant and council of this kingdom in december last for the suppressing of Tories, robbers, and their harbourers in the words following. ...</title>
+      <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
+      <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
+    </titleStmt>
+    <extent>3 sheets ([3] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="bookseller"><persName type="printer">Andrew Crook</persName></persName> and <persName type="bookseller"><persName type="printer">Samuel Helsham</persName></persName>, assigns of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the Kings most excellent Majesty</persName>, and are to be sold by <persName type="bookseller"><persName type="printer">Andrew Crook</persName></persName>, at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and by <persName type="bookseller"><persName type="printer">Samuel Helsham</persName></persName>, at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1686 [i.e. 1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at the Council-Chamber in Dublin the 21th Day of February, 1686.".</note>
+      <note>Dates are given according to Lady Day dating.</note>
+      <note>Recites and republishes proclamation 8 Dec. no. 968 q.v. The civil magistrates have not done their duty in enforcing it. ...--Steele.</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

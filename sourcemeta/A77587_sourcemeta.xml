@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The confession of Capt. George Baker, at the place of execution, in justification of Mr. Staines, druggist</title>
-         <author>Baker, George, d. 1684.</author>
-         <author>Smith, Samuel, 1620-1698.</author>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Randall Taylor near Stationers-Hall,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Place of publication from Wing (CD-ROM edition).</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The confession of Capt. George Baker, at the place of execution, in justification of Mr. Staines, druggist</title>
+      <author>Baker, George, d. 1684.</author>
+      <author>Smith, Samuel, 1620-1698.</author>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Randall Taylor</persName> near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Place of publication from Wing (CD-ROM edition).</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Randall Taylor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

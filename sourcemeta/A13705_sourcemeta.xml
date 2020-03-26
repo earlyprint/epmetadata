@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe description of the whole worlde wherein are particularly described all the monarchies, empires, and kingdomes of the same, with their seuerall titles and situations thereunto adioyning.</title>
-         <author>Abbot, George, 1562-1633.</author>
-      </titleStmt>
-      <extent>[63] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Iudson, for Iohn Browne, and are to be sould at the signe of the Bible in Fleete-streete,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to George Abbot by STC (2nd ed.).</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe description of the whole worlde wherein are particularly described all the monarchies, empires, and kingdomes of the same, with their seuerall titles and situations thereunto adioyning.</title>
+      <author>Abbot, George, 1562-1633.</author>
+    </titleStmt>
+    <extent>[63] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Iudson</persName>, for <persName type="publisher">Iohn Browne</persName>, and are to be sould at <placeName>the signe of the Bible in Fleete-streete</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to George Abbot by STC (2nd ed.).</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Browne</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Iudson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible in Fleete-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

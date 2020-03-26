@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegy on the death of Mr. James Bristow, late fellow of All-souls</title>
-         <author>Palmer, Edward, 1646 or 7-1670.</author>
-      </titleStmt>
-      <extent>10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.H. for Fran. Oxlad. Jun.,</publisher>
-         <pubPlace>Oxford [Oxfordshire]:</pubPlace>
-         <date>1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Edward Palmer.  Cf. Halkett &amp; Laing (2nd ed.)</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegy on the death of Mr. James Bristow, late fellow of All-souls</title>
+      <author>Palmer, Edward, 1646 or 7-1670.</author>
+    </titleStmt>
+    <extent>10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.H.</persName> for <persName type="publisher">Fran. Oxlad. Jun.</persName>,</publisher>
+      <pubPlace>Oxford [Oxfordshire]:</pubPlace>
+      <date>1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Edward Palmer.  Cf. Halkett &amp; Laing (2nd ed.)</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fran. Oxlad. Jun.</persName>
+    </person>
+    <person type="printer">
+      <persName>W.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

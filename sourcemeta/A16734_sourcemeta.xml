@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Conceyted letters, nevvly layde open: or A most excellent bundle of new wit wherin is knit vp together all the perfections or arte of episteling, by which the most ignorant may with much modestie talke and argue with the best learned. A worke varying from the nature of former presidents.</title>
-         <author>Breton, Nicholas, 1545?-1626?</author>
-         <author>Markham, Gervase, 1568?-1637, attributed name.</author>
-      </titleStmt>
-      <extent>[46] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B. Alsop, for Samuel Rand, and are to be sold at his shop neere Holborne bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: I.M., usually interpreted as Jervis, i.e. Gervase, Markham, to whom authorship is sometimes attributed; more likely he merely edited the work.</note>
-         <note>Signatures: A-F⁴ (-A1).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Conceyted letters, nevvly layde open: or A most excellent bundle of new wit wherin is knit vp together all the perfections or arte of episteling, by which the most ignorant may with much modestie talke and argue with the best learned. A worke varying from the nature of former presidents.</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+      <author>Markham, Gervase, 1568?-1637, attributed name.</author>
+    </titleStmt>
+    <extent>[46] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B. Alsop</persName>, for <persName type="publisher">Samuel Rand</persName>, and are to be sold at <placeName>his shop neere Holborne bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: I.M., usually interpreted as Jervis, i.e. Gervase, Markham, to whom authorship is sometimes attributed; more likely he merely edited the work.</note>
+      <note>Signatures: A-F&#8308; (-A1).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Rand</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Alsop</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Holborne bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

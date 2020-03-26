@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two treatises concerning the preseruation of eie-sight. The first written by Doctor Baily sometimes of Oxford: the other collected out of those two famous phisicions Fernelius and Riolanus</title>
-         <title>Briefe treatise touching the preservation of the eie sight</title>
-         <author>Baley, Walter, 1529-1592.</author>
-         <author>Fernel, Jean, 1497-1558. aut</author>
-         <author>Riolan, Jean, 1538-1605. aut</author>
-      </titleStmt>
-      <extent>[6], 62, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ioseph Barnes [i.e. G. Eld], for Iohn Barnes [in London],</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An edition, with additions, of: Bailey, Walter.  A briefe treatise touching the preservation of the eie sight.</note>
-         <note>Actual printer's name and publisher's address from STC.</note>
-         <note>"A treatise of the principall diseases of the eyes, gathered out of fernelius and Iohn Riolamus [sic] Doctors of Phisicke" has caption title.</note>
-         <note>Final leaf is a blank.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two treatises concerning the preseruation of eie-sight. The first written by Doctor Baily sometimes of Oxford: the other collected out of those two famous phisicions Fernelius and Riolanus</title>
+      <title>Briefe treatise touching the preservation of the eie sight</title>
+      <author>Baley, Walter, 1529-1592.</author>
+      <author>Fernel, Jean, 1497-1558. aut</author>
+      <author>Riolan, Jean, 1538-1605. aut</author>
+    </titleStmt>
+    <extent>[6], 62, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ioseph Barnes [i.e. G. Eld]</persName>, for <persName type="publisher">Iohn Barnes [</persName>in <placeName>London]</placeName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An edition, with additions, of: Bailey, Walter.  A briefe treatise touching the preservation of the eie sight.</note>
+      <note>Actual printer's name and publisher's address from STC.</note>
+      <note>"A treatise of the principall diseases of the eyes, gathered out of fernelius and Iohn Riolamus [sic] Doctors of Phisicke" has caption title.</note>
+      <note>Final leaf is a blank.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Barnes [</persName>
+    </person>
+    <person type="printer">
+      <persName>Ioseph Barnes [i.e. G. Eld]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

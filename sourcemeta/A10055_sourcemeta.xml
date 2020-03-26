@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prince Henry his second anniversary· By Daniel Price Doctor in Divinity, of his Highnesse chaplaines</title>
-         <author>Price, Daniel, 1581-1631.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Ioseph Barnes and are to be sold by Iohn Barnes over against St Pulchers Church [, London],</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>1614.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: Prince Henries second anniversarie.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prince Henry his second anniversary&#183; By Daniel Price Doctor in Divinity, of his Highnesse chaplaines</title>
+      <author>Price, Daniel, 1581-1631.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Ioseph Barnes</persName> and are to be sold by <persName type="bookseller">Iohn Barnes over against St Pulchers Church [</persName>, <persName type="bookseller">London]</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>1614.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: Prince Henries second anniversarie.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iohn Barnes over against St Pulchers Church [</persName>
+    </person>
+    <person type="bookseller">
+      <persName>London]</persName>
+    </person>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The noble souldier. Or, A contract broken, justly reveng'd A tragedy. Written by S.R.</title>
-         <author>Rowley, Samuel, d. 1633?</author>
-         <author>Dekker, Thomas, ca. 1572-1632, attributed name.</author>
-         <author>Day, John, 1574-1640?</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Beale] for Nicholas Vavasour, and are to be sold at his shop in the Temple, neere the Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>S.R. = Samuel Rowley; but often attributed to Thomas Dekker, and possibly revised by him from a work by Rowley. Probably with additions by John Day.</note>
-         <note>Partly in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: The noble Spanish souldier.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The noble souldier. Or, A contract broken, justly reveng'd A tragedy. Written by S.R.</title>
+      <author>Rowley, Samuel, d. 1633?</author>
+      <author>Dekker, Thomas, ca. 1572-1632, attributed name.</author>
+      <author>Day, John, 1574-1640?</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Beale]</persName> for <persName type="publisher">Nicholas Vavasour</persName>, and are to be sold at <placeName>his shop in the Temple, neere the Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>S.R. = Samuel Rowley; but often attributed to Thomas Dekker, and possibly revised by him from a work by Rowley. Probably with additions by John Day.</note>
+      <note>Partly in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: The noble Spanish souldier.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Vavasour</persName>
+    </person>
+    <person type="printer">
+      <persName>John Beale]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Temple, neere the Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

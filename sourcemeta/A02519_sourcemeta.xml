@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The character of man laid forth in a sermon preach't at the court, March, 1⁰. 1634. By the L. Bishop of Exceter.</title>
-         <author>Hall, Joseph, 1574-1656.</author>
-      </titleStmt>
-      <extent>[4], 73, [1] p., port.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher, for Nat: Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M. DC. XXXV. [1635]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Jos. Exon [i.e Joseph Hall].</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The character of man laid forth in a sermon preach't at the court, March, 1&#8304;. 1634. By the L. Bishop of Exceter.</title>
+      <author>Hall, Joseph, 1574-1656.</author>
+    </titleStmt>
+    <extent>[4], 73, [1] p., port.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName>, for <persName type="publisher">Nat: Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M. DC. XXXV. [1635]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Jos. Exon [i.e Joseph Hall].</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nat: Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

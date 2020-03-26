@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Men and brethren, it's like the most part of you come here to gaze and wonder ...</title>
-         <author>Stewart, A.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Alexander Kennedy,</publisher>
-         <pubPlace>[Edinburgh :</pubPlace>
-         <date>1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from first line of text.</note>
-         <note>Imprint from colophon. Place of publication from Wing (2nd ed.).</note>
-         <note>Imperfect: faded, with some loss of text.</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Men and brethren, it's like the most part of you come here to gaze and wonder ...</title>
+      <author>Stewart, A.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Alexander Kennedy</persName>,</publisher>
+      <pubPlace>[Edinburgh :</pubPlace>
+      <date>1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from first line of text.</note>
+      <note>Imprint from colophon. Place of publication from Wing (2nd ed.).</note>
+      <note>Imperfect: faded, with some loss of text.</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Alexander Kennedy</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

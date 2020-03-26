@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd at St. Mary-le-Bow, June 27, 1698, before the societies, for reformation of manners in the city of London and Westminister by Tho. Jekill ...</title>
-         <author>Jekyll, Thomas, 1646-1698.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. and T. Mead, for Ralph Simpson and Richard Cumberland ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Advertisement: p. [8]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd at St. Mary-le-Bow, June 27, 1698, before the societies, for reformation of manners in the city of London and Westminister by Tho. Jekill ...</title>
+      <author>Jekyll, Thomas, 1646-1698.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.</persName> and <persName type="printer">T. Mead</persName>, for <persName type="publisher">Ralph Simpson</persName> and <persName type="publisher">Richard Cumberland</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Advertisement: p. [8]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Simpson</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Cumberland</persName>
+    </person>
+    <person type="printer">
+      <persName>R.</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Mead</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

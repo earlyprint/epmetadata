@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>William Penn and the Quakers either impostors, or apostates which they please: proved from their avowed principles, and contrary practices. By Trepidantium Malleus.</title>
-         <author>Shewen, William, 1631?-1695.</author>
-      </titleStmt>
-      <extent>[6], 134, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and are to be sold by John Lawrence at the Angel in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Trepidantium Malleus = William Shewen.</note>
-         <note>Advertisements bound at end.</note>
-         <note>Imperfect; pages cropped and tightly bound, with faded print and some loss of text.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>William Penn and the Quakers either impostors, or apostates which they please: proved from their avowed principles, and contrary practices. By Trepidantium Malleus.</title>
+      <author>Shewen, William, 1631?-1695.</author>
+    </titleStmt>
+    <extent>[6], 134, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">John Lawrence</persName> at <placeName>the Angel in the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Trepidantium Malleus = William Shewen.</note>
+      <note>Advertisements bound at end.</note>
+      <note>Imperfect; pages cropped and tightly bound, with faded print and some loss of text.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Lawrence</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in the Poultrey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The revelation of revelations particularly as an essay towards the unsealing, opening and discovering the seven seals, the seven thunders, and the New-Jerusalem state ... / published by J.L. ...</title>
-         <author>Lead, Jane, 1623-1704.</author>
-      </titleStmt>
-      <extent>[12], 130 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by A. Sowle ... also by J. Lead ...</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Jane Lead by Wing and NUC pre-1959 imprints.</note>
-         <note>Imperfect: pages stained with print showthrough and loss of print.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The revelation of revelations particularly as an essay towards the unsealing, opening and discovering the seven seals, the seven thunders, and the New-Jerusalem state ... / published by J.L. ...</title>
+      <author>Lead, Jane, 1623-1704.</author>
+    </titleStmt>
+    <extent>[12], 130 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer">A. Sowle</persName> ... also by <persName type="printer">J. Lead</persName> ...</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Jane Lead by Wing and NUC pre-1959 imprints.</note>
+      <note>Imperfect: pages stained with print showthrough and loss of print.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Sowlealso</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Lead</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

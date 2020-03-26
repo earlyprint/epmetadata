@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the King, concerning the obseruation of his edicts of the vnion of his Catholique subiects, to the rooting out of heresie: carrying withall, a putting vp, and burying of all such things as haue beene cmmitted contrarie therevnto, vntill this present, by any of his saide Catholique subiects.</title>
-         <author>France. Sovereign (1574-1589 : Henry III)</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By S. Milanges [i.e. T. Orwin], ordinarie printer vnto the King,</publisher>
-         <pubPlace>At Burdeaux [i.e. London] :</pubPlace>
-         <date>1589.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint false; actual printer's name and place of publication from STC.</note>
-         <note>Translated from the original French.</note>
-         <note>Formerly STC 13094.</note>
-         <note>Identified as STC 13094 on UMI microfilm.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the King, concerning the obseruation of his edicts of the vnion of his Catholique subiects, to the rooting out of heresie: carrying withall, a putting vp, and burying of all such things as haue beene cmmitted contrarie therevnto, vntill this present, by any of his saide Catholique subiects.</title>
+      <author>France. Sovereign (1574-1589 : Henry III)</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">S. Milanges [i.e. T. Orwin], ordinarie</persName> printer vnto <persName type="patron">the King</persName>,</publisher>
+      <pubPlace>At Burdeaux [i.e. London] :</pubPlace>
+      <date>1589.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint false; actual printer's name and place of publication from STC.</note>
+      <note>Translated from the original French.</note>
+      <note>Formerly STC 13094.</note>
+      <note>Identified as STC 13094 on UMI microfilm.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Milanges [i.e. T. Orwin], ordinarie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the true temple and worship of God. And Jesus Christ manifested to be the head of the Church, which is his body, and the onely pastour and also the members of the body of Christ, known by their fruits, from the synagogue of Antichrist, with a few words to the Romane Catholicks. Likewise the order of the church in God the body of Christ made manifest, and the disorder of the synagogue of Antichrist.</title>
-         <author>Harwood, John.</author>
-      </titleStmt>
-      <extent>30 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Thomas Simmons, at the Bull and mouth near Alders-gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the true temple and worship of God. And Jesus Christ manifested to be the head of the Church, which is his body, and the onely pastour and also the members of the body of Christ, known by their fruits, from the synagogue of Antichrist, with a few words to the Romane Catholicks. Likewise the order of the church in God the body of Christ made manifest, and the disorder of the synagogue of Antichrist.</title>
+      <author>Harwood, John.</author>
+    </titleStmt>
+    <extent>30 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Thomas Simmons</persName>, at <placeName>the Bull</placeName> and mouth near <placeName>Alders-gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Simmons</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Alders-gate</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bull</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

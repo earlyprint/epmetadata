@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The helmet of hope, distinguished from the hope of hypocrites. And published to prevent the danger of false hope, and to promote the duty of living in true hope of glory. With an appendix of the grounds of hope, collected in a catalog of promises and experiences. / By A.B. ...</title>
-         <author>Barnett, Andrew, 17th cent.</author>
-      </titleStmt>
-      <extent>164, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.A. for Thomas Parkhurst ... and are to be sold, by Obed. Smith at Daventry in Warwickshire,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The epistle to the reader" signed: And. Barnet.</note>
-         <note>"The appendix : The promise of God verified in the experiences of the godly" (p. [115]-164) has special t.p.</note>
-         <note>Publisher's catalog: [4] p. at end.</note>
-         <note>Reproduction of original in the University of Toronto Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The helmet of hope, distinguished from the hope of hypocrites. And published to prevent the danger of false hope, and to promote the duty of living in true hope of glory. With an appendix of the grounds of hope, collected in a catalog of promises and experiences. / By A.B. ...</title>
+      <author>Barnett, Andrew, 17th cent.</author>
+    </titleStmt>
+    <extent>164, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.A.</persName> for <persName type="publisher">Thomas Parkhurst</persName> ... and are to be sold, by <persName type="printer">Obed. Smith</persName> at <placeName>Daventry in Warwickshire</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The epistle to the reader" signed: And. Barnet.</note>
+      <note>"The appendix : The promise of God verified in the experiences of the godly" (p. [115]-164) has special t.p.</note>
+      <note>Publisher's catalog: [4] p. at end.</note>
+      <note>Reproduction of original in the University of Toronto Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>J.A.</persName>
+    </person>
+    <person type="printer">
+      <persName>Obed. Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Daventry in Warwickshire</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

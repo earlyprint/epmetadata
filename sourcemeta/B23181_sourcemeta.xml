@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A general epistle and a tender greeting, sent unto the flock of Christ; who meet together, to worship the Father and the Son in the spirit of truth; to be read in the fear and wisdom of God, amongst them.</title>
-         <author>Fox, George, d. 1661.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Wilson, at the sign of the Black Spread Eagle and Windmill, in Martins near Aldersgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed on p. 8: "George Fox, the Younger."</note>
-         <note>Imprint taken from colophon.</note>
-         <note>Reproductions of originals in: Union Theological Seminary (New York, N.Y.). Library (reel 1188:33) and Henry E. Huntington Library and Art Gallery (reel 2922:1).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A general epistle and a tender greeting, sent unto the flock of Christ; who meet together, to worship the Father and the Son in the spirit of truth; to be read in the fear and wisdom of God, amongst them.</title>
+      <author>Fox, George, d. 1661.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Wilson</persName>, at <placeName>the sign of the Black Spread Eagle</placeName> and Windmill, in <placeName>Martins near Aldersgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed on p. 8: "George Fox, the Younger."</note>
+      <note>Imprint taken from colophon.</note>
+      <note>Reproductions of originals in: Union Theological Seminary (New York, N.Y.). Library (reel 1188:33) and Henry E. Huntington Library and Art Gallery (reel 2922:1).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Martins near Aldersgate</placeName>
+    </place>
+    <place type="location">
+      <placeName>the sign of the Black Spread Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

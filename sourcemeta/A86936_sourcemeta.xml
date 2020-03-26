@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief exposition on the XII. smal prophets the first volume containing an exposition on the prophecies of Hosea, Joel, &amp; Amos. By George Hutcheson, minister at Edenburgh.</title>
-         <author>Hutcheson, George, 1615-1674.</author>
-      </titleStmt>
-      <extent>[16], 534; [16], 333, [3]; [16], 296 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T.R. and E.M.] for Ralph Smith, at the Bible in Corne-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655 [i.e. 1654]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a preliminary imprimatur leaf.</note>
-         <note>² Y8r is a vertical half-title reading "Mr. Hutcheson on the lesser prophets"; ³A1 is a vertical half-title reading "Mr. Hutcheson's exposition on the three last prophets".</note>
-         <note>Variant: imprint has "Corne hill".</note>
-         <note>Annotation on Thomason copy: "Nouemb. 1st. 1654"; the second 5 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief exposition on the XII. smal prophets the first volume containing an exposition on the prophecies of Hosea, Joel, &amp; Amos. By George Hutcheson, minister at Edenburgh.</title>
+      <author>Hutcheson, George, 1615-1674.</author>
+    </titleStmt>
+    <extent>[16], 534; [16], 333, [3]; [16], 296 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T.R.</persName> and <persName type="printer">E.M.]</persName> for <persName type="publisher">Ralph Smith</persName>, at <placeName>the Bible in Corne-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655 [i.e. 1654]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a preliminary imprimatur leaf.</note>
+      <note>&#178; Y8r is a vertical half-title reading "Mr. Hutcheson on the lesser prophets"; &#179;A1 is a vertical half-title reading "Mr. Hutcheson's exposition on the three last prophets".</note>
+      <note>Variant: imprint has "Corne hill".</note>
+      <note>Annotation on Thomason copy: "Nouemb. 1st. 1654"; the second 5 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.]</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Corne-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

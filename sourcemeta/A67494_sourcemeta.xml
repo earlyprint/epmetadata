@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Wanton Tom: or, The merry history of Tom Stitch the taylor</title>
-      </titleStmt>
-      <extent>[2], 22 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Butler, and sold by Richard Kell, next door to the Sign of the Mytre, in St. Johns-Street,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on p. 1: The pleasant history of Tom Stitch the taylor.</note>
-         <note>Text mostly in black letter.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Imprint in Wing reads: for R. Butler and sold by R. Kell.</note>
-         <note>On p. 22: The end of the first part.</note>
-         <note>Leaves A2 and A3 cropped along outer margin with slight loss of text; pages stained.</note>
-         <note>Reproduction of the original in the Magdalene College Library, Cambridge University.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Wanton Tom: or, The merry history of Tom Stitch the taylor</title>
+    </titleStmt>
+    <extent>[2], 22 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Butler</persName>, and sold by <persName type="bookseller">Richard Kell, next door to the Sign of the Mytre</persName>, in <placeName>St. Johns-Street</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on p. 1: The pleasant history of Tom Stitch the taylor.</note>
+      <note>Text mostly in black letter.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Imprint in Wing reads: for R. Butler and sold by R. Kell.</note>
+      <note>On p. 22: The end of the first part.</note>
+      <note>Leaves A2 and A3 cropped along outer margin with slight loss of text; pages stained.</note>
+      <note>Reproduction of the original in the Magdalene College Library, Cambridge University.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Kell, next door to the Sign of the Mytre</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Butler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>St. Johns-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An oath to be administred unto all officers, souldiers, and such other persons as are or shall be within the garrison of Oxford. Published by authority.</title>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Oxford by Leonard Litchfield, printer to the Vniversity. And reprinted at London for Matthew Walbancke.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reprint of: An oath to be administred unto all officers and souldier and such other persons as are, or shall be within the garrison of Oxford (Wing O79, Madan 1764), a broadside.</note>
-         <note>Annotation on Thomason copy: "Aprill 3d".</note>
-         <note>Imperfect: print bleed-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An oath to be administred unto all officers, souldiers, and such other persons as are or shall be within the garrison of Oxford. Published by authority.</title>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Oxford</placeName> by <persName type="printer">Leonard Litchfield</persName>, printer to <persName type="patron">the Vniversity. And</persName> reprinted at <placeName>London</placeName> for <persName type="publisher">Matthew Walbancke.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reprint of: An oath to be administred unto all officers and souldier and such other persons as are, or shall be within the garrison of Oxford (Wing O79, Madan 1764), a broadside.</note>
+      <note>Annotation on Thomason copy: "Aprill 3d".</note>
+      <note>Imperfect: print bleed-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniversity. And</persName>
+    </person>
+    <person type="publisher">
+      <persName>Matthew Walbancke.</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Litchfield</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Oxford</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

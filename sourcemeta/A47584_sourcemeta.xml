@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of the reformation of the Church of Scotland containing five books : together with some treatises conducing to the history.</title>
-         <author>Knox, John, ca. 1514-1572.</author>
-         <author>Buchanan, David, 1595?-1652?</author>
-      </titleStmt>
-      <extent>[84], 460, 122 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Raworth for George Thomason and Octavian Pullen ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: D.B.</note>
-         <note>Edited, with a life of Knox and a preface, by David Buchanan. Cf. DNB.</note>
-         <note>"Published by authority"</note>
-         <note>Errata: p. [84].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Includes: "The appellation of John Knox, from the ... sentence pronounced against him (p. 1-33); "The admonition of John Knox to his beloved brethren the commonalty of Scotland" (p. 34-42); "A faithfull admonition made by John Knox to the true professors of the Gospel of Christ within the kingdom of England, 1554" (p. 43-79); "The copie of a letter delivered to Queen Mary, Regent of Scotland" (p. 80-97); and "A sermon preached by John Knox [August 19, 1565]" (p. 96 [i.e. 98]-122).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of the reformation of the Church of Scotland containing five books : together with some treatises conducing to the history.</title>
+      <author>Knox, John, ca. 1514-1572.</author>
+      <author>Buchanan, David, 1595?-1652?</author>
+    </titleStmt>
+    <extent>[84], 460, 122 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Raworth</persName> for <persName type="publisher">George Thomason</persName> and <persName type="publisher">Octavian Pullen</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: D.B.</note>
+      <note>Edited, with a life of Knox and a preface, by David Buchanan. Cf. DNB.</note>
+      <note>"Published by authority"</note>
+      <note>Errata: p. [84].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Includes: "The appellation of John Knox, from the ... sentence pronounced against him (p. 1-33); "The admonition of John Knox to his beloved brethren the commonalty of Scotland" (p. 34-42); "A faithfull admonition made by John Knox to the true professors of the Gospel of Christ within the kingdom of England, 1554" (p. 43-79); "The copie of a letter delivered to Queen Mary, Regent of Scotland" (p. 80-97); and "A sermon preached by John Knox [August 19, 1565]" (p. 96 [i.e. 98]-122).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Thomason</persName>
+    </person>
+    <person type="publisher">
+      <persName>Octavian Pullen</persName>
+    </person>
+    <person type="printer">
+      <persName>John Raworth</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

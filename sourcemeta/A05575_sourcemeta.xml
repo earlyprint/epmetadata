@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tvvo bookes of constancie. Written in Latine, by Iustus Lipsius. Containing, principallie, A comfortable conference, in common calamities. And will serue for a singular consolation to all that are priuately distressed, of afflicted, either in body or mind. Englished by Iohn Stradling, gentleman</title>
-         <title>Iusti Lipsi de constantia libri duo.</title>
-         <author>Lipsius, Justus, 1547-1606.</author>
-         <author>Stradling, John, Sir, 1563-1637.</author>
-      </titleStmt>
-      <extent>[8], 127, [1] p., [1] folding plate   </extent>
-      <publicationStmt>
-         <publisher>By [P. Short for] Richard Iohnes, at the signe of the Rose and Crowne neere S. Andrewes Church in Holborn,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1595.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Iusti Lipsi de constantia libri duo.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>A variant of STC 15694.7.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tvvo bookes of constancie. Written in Latine, by Iustus Lipsius. Containing, principallie, A comfortable conference, in common calamities. And will serue for a singular consolation to all that are priuately distressed, of afflicted, either in body or mind. Englished by Iohn Stradling, gentleman</title>
+      <title>Iusti Lipsi de constantia libri duo.</title>
+      <author>Lipsius, Justus, 1547-1606.</author>
+      <author>Stradling, John, Sir, 1563-1637.</author>
+    </titleStmt>
+    <extent>[8], 127, [1] p., [1] folding plate   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[P. Short</persName> for<persName type="publisher">] Richard Iohnes</persName>, at <placeName>the signe of the Rose</placeName> and Crowne neere <placeName>S. Andrewes Church in Holborn</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1595.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Iusti Lipsi de constantia libri duo.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>A variant of STC 15694.7.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Richard Iohnes</persName>
+    </person>
+    <person type="printer">
+      <persName>[P. Short</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Andrewes Church in Holborn</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

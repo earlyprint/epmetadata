@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before Her Majesty the Queen Dowager in her chappel at Sommerset House, upon the second Sunday after Easter, April 10, 1687 / by F. James Ayray ... chaplain and preacher in ordinary to His Excellency the Spanish Ambassador.</title>
-         <author>Ayray, James.</author>
-      </titleStmt>
-      <extent>[2], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John and Thomas Lane ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by Her Majesties Special Command."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before Her Majesty the Queen Dowager in her chappel at Sommerset House, upon the second Sunday after Easter, April 10, 1687 / by F. James Ayray ... chaplain and preacher in ordinary to His Excellency the Spanish Ambassador.</title>
+      <author>Ayray, James.</author>
+    </titleStmt>
+    <extent>[2], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John</persName> and <persName type="publisher">Thomas Lane</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by Her Majesties Special Command."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Lane</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

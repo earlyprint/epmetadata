@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[The courte of vertue.]</title>
-         <author>Hall, John, b. 1529 or 30.</author>
-      </titleStmt>
-      <extent>[2+], 172, [6] leaves : music  </extent>
-      <publicationStmt>
-         <publisher>In fleete streete nighe unto S. Dunstanes churche, by Thomas Marshe,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date>1565. Mense Iulii. 16]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The author's name, John Hall, appears in an acrostic on a2r.</note>
-         <note>In verse.</note>
-         <note>Includes paraphrases from the Bible.</note>
-         <note>Title from caption title, B7r; no known copy has title page.</note>
-         <note>Title in Stationers Register reads: The couurte of vertu contaynynge many holy or spretuall songes sonettes psalmes ballettes shorte sentences as well of holy scriptures as others &amp;c.</note>
-         <note>Imprint from colophon.</note>
-         <note>The last leaf is blank.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[The courte of vertue.]</title>
+      <author>Hall, John, b. 1529 or 30.</author>
+    </titleStmt>
+    <extent>[2+], 172, [6] leaves : music  </extent>
+    <publicationStmt>
+      <publisher>In fleete streete nighe unto <placeName>S. Dunstanes churche</placeName>, by <persName type="printer">Thomas Marshe</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>1565. Mense Iulii. 16]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The author's name, John Hall, appears in an acrostic on a2r.</note>
+      <note>In verse.</note>
+      <note>Includes paraphrases from the Bible.</note>
+      <note>Title from caption title, B7r; no known copy has title page.</note>
+      <note>Title in Stationers Register reads: The couurte of vertu contaynynge many holy or spretuall songes sonettes psalmes ballettes shorte sentences as well of holy scriptures as others &amp;c.</note>
+      <note>Imprint from colophon.</note>
+      <note>The last leaf is blank.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Marshe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Dunstanes churche</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

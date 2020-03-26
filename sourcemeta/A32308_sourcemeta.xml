@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine passions piously and pathetically expressed in three severall bookes / written and composed for private consolation ... by Edward Calver.</title>
-         <author>Calver, Edward, fl. 1649.</author>
-      </titleStmt>
-      <extent>136 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.H. for Richard Harper,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>"Being a dialogue between Dives and Lazarus with the authors epigrams upon that parable. II. A dialogue between the prodigall son and the pitifull father, with epigrams upon that parable also. III. Contains first an argument against atheisme; secondly, an admiration of Gods mercy towards mankinde; thirdly, the care and cure of a wounded conscience."</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine passions piously and pathetically expressed in three severall bookes / written and composed for private consolation ... by Edward Calver.</title>
+      <author>Calver, Edward, fl. 1649.</author>
+    </titleStmt>
+    <extent>136 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.H.</persName> for <persName type="publisher">Richard Harper</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>"Being a dialogue between Dives and Lazarus with the authors epigrams upon that parable. II. A dialogue between the prodigall son and the pitifull father, with epigrams upon that parable also. III. Contains first an argument against atheisme; secondly, an admiration of Gods mercy towards mankinde; thirdly, the care and cure of a wounded conscience."</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Harper</persName>
+    </person>
+    <person type="printer">
+      <persName>T.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

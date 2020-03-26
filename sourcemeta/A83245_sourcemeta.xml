@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Lunæ 24 April. 1648. An ordinance of the Lords and Commons assembled in Parliament, for the redressing of the oppressions of the souldiers taking free-quarter, contrary to the orders of Parliament.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Wright at the Kings head in the Old Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print signed: Joh. Brown Cler. Parliamentorum.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Lun&#230; 24 April. 1648. An ordinance of the Lords and Commons assembled in Parliament, for the redressing of the oppressions of the souldiers taking free-quarter, contrary to the orders of Parliament.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Wright</persName> at <placeName>the Kings head in the Old Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print signed: Joh. Brown Cler. Parliamentorum.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings head in the Old Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

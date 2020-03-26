@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Herodian, a Greeke authour treating of the Romayne emperors, after Marcus, translated oute of Greeke into Latin, by Angelus Politianus, and out of Latin into Englyshe, by Nicholas Smyth. Whereunto are annexed, the argumentes of euery booke, at the begynning therof, with annotacions for the better vnderstandynge of the same historye.</title>
-         <title>History. English</title>
-         <author>Herodian.</author>
-         <author>Smyth, Nicholas, fl. 1556.</author>
-      </titleStmt>
-      <extent>[4], xlvii, xlvii-lxxxv, lxxxv-lxxxvii, [1], lxxxviii-lxxxix, c-cvi, [17] leaves   </extent>
-      <publicationStmt>
-         <publisher>In Flete strete, by Wyllyam Coplande, at the sygne of the Rose Garlande] Cum gratia [et] priuilegio regali ad imprimendum solum,</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date>[1556?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
-         <note>The printer's name also appears in the lower sill of the title-page border.</note>
-         <note>Running title reads: The historie of Herodian ..</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Herodian, a Greeke authour treating of the Romayne emperors, after Marcus, translated oute of Greeke into Latin, by Angelus Politianus, and out of Latin into Englyshe, by Nicholas Smyth. Whereunto are annexed, the argumentes of euery booke, at the begynning therof, with annotacions for the better vnderstandynge of the same historye.</title>
+      <title>History. English</title>
+      <author>Herodian.</author>
+      <author>Smyth, Nicholas, fl. 1556.</author>
+    </titleStmt>
+    <extent>[4], xlvii, xlvii-lxxxv, lxxxv-lxxxvii, [1], lxxxviii-lxxxix, c-cvi, [17] leaves   </extent>
+    <publicationStmt>
+      <publisher>In Flete strete, by <persName type="printer">Wyllyam Coplande</persName>, at <placeName>the sygne of the Rose Garlande] Cum gratia [et] priuilegio regali ad imprimendum solum</placeName>,</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date>[1556?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+      <note>The printer's name also appears in the lower sill of the title-page border.</note>
+      <note>Running title reads: The historie of Herodian ..</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wyllyam Coplande</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the Rose Garlande] Cum gratia [et] priuilegio regali ad imprimendum solum</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

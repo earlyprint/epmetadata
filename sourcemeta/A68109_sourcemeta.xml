@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The passionate sparke of a relenting minde. Written by Simion Grahame. Seene and allowed by authority</title>
-         <author>Grahame, Simion, ca. 1570-1614.</author>
-      </titleStmt>
-      <extent>[46] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>By Humfrey Lownes [for Christopher Pursett], and are to be sold at his shop at the west doore of S. Paules Church,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Publisher's name from colophon.</note>
-         <note>Each page printed within an architectural border.</note>
-         <note>Signatures: [A]⁴ B-F⁴ (-F4).</note>
-         <note>Identified as STC 12169a on UMI microfilm.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The passionate sparke of a relenting minde. Written by Simion Grahame. Seene and allowed by authority</title>
+      <author>Grahame, Simion, ca. 1570-1614.</author>
+    </titleStmt>
+    <extent>[46] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Humfrey Lownes [</persName>for <persName type="publisher">Christopher Pursett]</persName>, and are to be sold at <placeName>his shop at the west doore of S. Paules Church</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Publisher's name from colophon.</note>
+      <note>Each page printed within an architectural border.</note>
+      <note>Signatures: [A]&#8308; B-F&#8308; (-F4).</note>
+      <note>Identified as STC 12169a on UMI microfilm.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Pursett]</persName>
+    </person>
+    <person type="printer">
+      <persName>Humfrey Lownes [</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the west doore of S. Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

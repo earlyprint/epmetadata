@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation against excesse of lauish and licentious speech of matters of state</title>
-         <title>Proclamations. 1620-12-24</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Iohn Bill, printer to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>M.DC.XX. [1620]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Although the growth of intercourse with foreign nations has caused a greater liberty of discourse, even concerning matters of State, than ever before, the King would not stop it, but that it has become too free with matters of State. None are to intermeddle in such matters at home or abroad, but keep to that modest and reverent regard of matters above their their reach that befits good subjects. No man to think himself free from punishment because there are so many offenders. Well-disposed subjects will be punished, and much more those suspected for any reason of disaffection." -- Steele.</note>
-         <note>Dated at end: White-hall, the 24. of December, in the eighteenth yeere of our reigne ... .</note>
-         <note>Steele notation: Amassadors weaknesse glos-; Arms 11.</note>
-         <note>Reproduction of the originals in the Henry E. Huntington Library and Art Gallery (Early English books) and the British Library (Misc. Brit. tracts).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation against excesse of lauish and licentious speech of matters of state</title>
+      <title>Proclamations. 1620-12-24</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Iohn Bill</persName>, printer to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>M.DC.XX. [1620]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Although the growth of intercourse with foreign nations has caused a greater liberty of discourse, even concerning matters of State, than ever before, the King would not stop it, but that it has become too free with matters of State. None are to intermeddle in such matters at home or abroad, but keep to that modest and reverent regard of matters above their their reach that befits good subjects. No man to think himself free from punishment because there are so many offenders. Well-disposed subjects will be punished, and much more those suspected for any reason of disaffection." -- Steele.</note>
+      <note>Dated at end: White-hall, the 24. of December, in the eighteenth yeere of our reigne ... .</note>
+      <note>Steele notation: Amassadors weaknesse glos-; Arms 11.</note>
+      <note>Reproduction of the originals in the Henry E. Huntington Library and Art Gallery (Early English books) and the British Library (Misc. Brit. tracts).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

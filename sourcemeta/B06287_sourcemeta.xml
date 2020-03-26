@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true relation of the sentence and condemnation of Thomas Dangerfield, at the King's Bench Bar, for his horrid crimes and perjuries.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Walter Davis,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from Wing.</note>
-         <note>Text concludes with a short poem.</note>
-         <note>At foot: "This may be printed. July 2. 1685. R.L.S."</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true relation of the sentence and condemnation of Thomas Dangerfield, at the King's Bench Bar, for his horrid crimes and perjuries.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Walter Davis</persName></persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from Wing.</note>
+      <note>Text concludes with a short poem.</note>
+      <note>At foot: "This may be printed. July 2. 1685. R.L.S."</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>Walter Davis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

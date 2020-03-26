@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Hero and Leander, or, The two unfortunate lovers. ... To a pleasant new tune, or, I will never love thee more.</title>
-         <author>Musaeus, Grammaticus. Hero and Leander.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Burton, at the Horse shooe [sic] in Westsmithfield, neer the Hospital-gate,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1665?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Contains three illustrations.</note>
-         <note>Based on a work of the same name by Musaeus Grammaticus.</note>
-         <note>Reproduction of originals in: British Library (reel 2123.2:152-153) and Glasgow University Library (reel 2594:9).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Hero and Leander, or, The two unfortunate lovers. ... To a pleasant new tune, or, I will never love thee more.</title>
+      <author>Musaeus, Grammaticus. Hero and Leander.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Burton</persName>, at <placeName>the Horse shooe [sic] in Westsmithfield, neer the Hospital-gate</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1665?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Contains three illustrations.</note>
+      <note>Based on a work of the same name by Musaeus Grammaticus.</note>
+      <note>Reproduction of originals in: British Library (reel 2123.2:152-153) and Glasgow University Library (reel 2594:9).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Burton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Horse shooe [sic] in Westsmithfield, neer the Hospital-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

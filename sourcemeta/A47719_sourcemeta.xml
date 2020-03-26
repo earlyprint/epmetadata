@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The emperors answer to the French king's manifesto translated from the Latin.</title>
-         <author>Leopold I, Holy Roman Emperor, 1640-1705.</author>
-      </titleStmt>
-      <extent>[2], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Response to Louis XIV's decision regarding the Palatinate.</note>
-         <note>Dated (p. 18): Vienna, Octob. 18th, 1688.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The emperors answer to the French king's manifesto translated from the Latin.</title>
+      <author>Leopold I, Holy Roman Emperor, 1640-1705.</author>
+    </titleStmt>
+    <extent>[2], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Response to Louis XIV's decision regarding the Palatinate.</note>
+      <note>Dated (p. 18): Vienna, Octob. 18th, 1688.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

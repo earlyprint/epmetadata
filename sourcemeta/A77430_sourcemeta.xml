@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief discourse of the most assured ways and means to ruine and pull down the vast monarchy of the Ottoman princes Written by a judicious gentleman, who for above twenty years resided at the Turkish Port, being there employ'd by a great prince, as his ambassador. Also an historical and political discourse of the war in Hungary. Together with the battels of Kermain and Saint Gottard between the Turks and the Christians who there defeated them. With the articles of the last peace, between Leopold the most august emperour of the Romans, and Mahomet the present sultan of the Turks. anno 1664.</title>
-      </titleStmt>
-      <extent>[4], 200, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. H[eptinstall]. for B. Aylmer at the Three Pigeons in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from Wing CD-ROM.</note>
-         <note>With an initial imprimatur leaf.</note>
-         <note>With two final advertisement leaves.</note>
-         <note>Reproduction of original in the William Andrews Clark Memorial Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief discourse of the most assured ways and means to ruine and pull down the vast monarchy of the Ottoman princes Written by a judicious gentleman, who for above twenty years resided at the Turkish Port, being there employ'd by a great prince, as his ambassador. Also an historical and political discourse of the war in Hungary. Together with the battels of Kermain and Saint Gottard between the Turks and the Christians who there defeated them. With the articles of the last peace, between Leopold the most august emperour of the Romans, and Mahomet the present sultan of the Turks. anno 1664.</title>
+    </titleStmt>
+    <extent>[4], 200, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. H[eptinstall].</persName> for <persName type="publisher">B. Aylmer</persName> at <placeName>the Three Pigeons in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from Wing CD-ROM.</note>
+      <note>With an initial imprimatur leaf.</note>
+      <note>With two final advertisement leaves.</note>
+      <note>Reproduction of original in the William Andrews Clark Memorial Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J. H[eptinstall].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Pigeons in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

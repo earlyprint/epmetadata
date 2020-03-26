@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Twelve sermons preached by maister Henry Smith. And published by a more perfect copie then heretofore</title>
-         <author>Smith, Henry, 1550?-1591.</author>
-      </titleStmt>
-      <extent>[2], 109, [104] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Richard Field for Robert Dexter, dwelling in Paules Church-yard, at the signe of the Brasen serpent,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Foure sermons preached" and "Two sermons preached" each have a separate dated title page. "Foure sermons preached" has separate pagination and register; "Two sermons preached" has continuous register and no pagination.</note>
-         <note>Signatures: A-G; A-N⁴.</note>
-         <note>Reproduction of original in the Medical Society of London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Twelve sermons preached by maister Henry Smith. And published by a more perfect copie then heretofore</title>
+      <author>Smith, Henry, 1550?-1591.</author>
+    </titleStmt>
+    <extent>[2], 109, [104] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Richard Field</persName> for <persName type="publisher">Robert Dexter</persName>, dwelling in <placeName>Paules Church-yard, at the signe of the Brasen serpent</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Foure sermons preached" and "Two sermons preached" each have a separate dated title page. "Foure sermons preached" has separate pagination and register; "Two sermons preached" has continuous register and no pagination.</note>
+      <note>Signatures: A-G; A-N&#8308;.</note>
+      <note>Reproduction of original in the Medical Society of London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Dexter</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard, at the signe of the Brasen serpent</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pyers plowmans exhortation, vnto the lordes, knightes and burgoysses of the Parlyamenthouse</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>By Anthony Scoloker dwelling in the Sauoy tentes. without Templebarre,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1550?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date conjectured by STC.</note>
-         <note>At foot of title: Cum priuilegio ad imprimendum solum.</note>
-         <note>Signatures: A B⁴.</note>
-         <note>Print faded.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pyers plowmans exhortation, vnto the lordes, knightes and burgoysses of the Parlyamenthouse</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Anthony Scoloker</persName> dwelling in <placeName>the Sauoy tentes. without Templebarre</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1550?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date conjectured by STC.</note>
+      <note>At foot of title: Cum priuilegio ad imprimendum solum.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Print faded.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Anthony Scoloker</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sauoy tentes. without Templebarre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

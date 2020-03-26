@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Speculum matricis hybernicum, or, The Irish midwives handmaid catechistically composed by James Wolveridge, M.D. ; with a copious alphabetical index.</title>
-         <author>Wolveridge, James, d. 1671.</author>
-      </titleStmt>
-      <extent>[54], 166, [1] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Okes, and are to be sold by Rowland Reynolds ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing lists imprint as Printed for Rowland Reynolds.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Includes index.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Speculum matricis hybernicum, or, The Irish midwives handmaid catechistically composed by James Wolveridge, M.D. ; with a copious alphabetical index.</title>
+      <author>Wolveridge, James, d. 1671.</author>
+    </titleStmt>
+    <extent>[54], 166, [1] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Okes</persName>, and are to be sold by <persName type="bookseller">Rowland Reynolds</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing lists imprint as Printed for Rowland Reynolds.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Includes index.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Rowland Reynolds</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Okes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

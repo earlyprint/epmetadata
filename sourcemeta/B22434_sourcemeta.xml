@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Lords spiritual and temporal assembled at the House of Lords, Westminster, December 25, 1688.</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Starkey, and Awnsham and William Churchill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXXXVIII [1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"His Highness the Prince of Orange's answer to the Lords spiritual and temporal, at St. James's, December 28, 1688."</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Lords spiritual and temporal assembled at the House of Lords, Westminster, December 25, 1688.</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Starkey</persName>, and <persName type="printer">Awnsham</persName> and <persName type="printer">William Churchill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXXXVIII [1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"His Highness the Prince of Orange's answer to the Lords spiritual and temporal, at St. James's, December 28, 1688."</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Awnsham</persName>
+    </person>
+    <person type="printer">
+      <persName>John Starkey</persName>
+    </person>
+    <person type="printer">
+      <persName>William Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

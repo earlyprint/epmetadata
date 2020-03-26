@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Memoirs of what past in Christendom, from the war begun 1672 to the peace concluded 1679</title>
-         <title>Selections. 1692</title>
-         <author>Temple, William, Sir, 1628-1699.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[10], 529 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.R. for Ric. Chiswell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to William Temple. Cf. BM.</note>
-         <note>Errors in pagination.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Memoirs of what past in Christendom, from the war begun 1672 to the peace concluded 1679</title>
+      <title>Selections. 1692</title>
+      <author>Temple, William, Sir, 1628-1699.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[10], 529 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.R.</persName> for <persName type="publisher">Ric. Chiswell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to William Temple. Cf. BM.</note>
+      <note>Errors in pagination.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Chiswell</persName>
+    </person>
+    <person type="printer">
+      <persName>R.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

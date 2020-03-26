@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Dēlōsis: or, The fundamental articles of Christian faith evidenced The seeming absurdities of the Creed of St. Athanasius elucidated. The divine revelation of the Holy Scriptures, by standing miracles, prov'd. The necessity and sufficiency of the satisfaction of Christ, for sins asserted, by demonstration.</title>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Tho. Milbourn, for R. Clavel at the Peacock in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title is in Greek characters.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>D&#275;l&#333;sis: or, The fundamental articles of Christian faith evidenced The seeming absurdities of the Creed of St. Athanasius elucidated. The divine revelation of the Holy Scriptures, by standing miracles, prov'd. The necessity and sufficiency of the satisfaction of Christ, for sins asserted, by demonstration.</title>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Tho. Milbourn</persName>, for <persName type="publisher">R. Clavel</persName> at <placeName>the Peacock in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title is in Greek characters.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Clavel</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Milbourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Peacock in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

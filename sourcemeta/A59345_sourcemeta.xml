@@ -1,21 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some songs as they are sung in The fairy queen set to music by Mr. Henry Purcell.</title>
-         <title>Fairy queen. Selections</title>
-         <author>Purcell, Henry, 1659-1695.</author>
-         <author>Settle, Elkanah, 1648-1724.</author>
-      </titleStmt>
-      <extent>1 score (12 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Heptinstall for the author, and are to be sold by John Carr ... by Henry Playford at his shop ..., and at the Theatre in Dorset-Garden,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The libretto of The fairy queen was written by Elkanah Settle--Cf. Cambr. Bib. Eng. Lit.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some songs as they are sung in The fairy queen set to music by Mr. Henry Purcell.</title>
+      <title>Fairy queen. Selections</title>
+      <author>Purcell, Henry, 1659-1695.</author>
+      <author>Settle, Elkanah, 1648-1724.</author>
+    </titleStmt>
+    <extent>1 score (12 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Heptinstall</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">John Carr</persName> ... by <persName type="printer">Henry Playford</persName> at <placeName>his shop</placeName> ..., and at <placeName>the Theatre in Dorset-Garden</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The libretto of The fairy queen was written by Elkanah Settle--Cf. Cambr. Bib. Eng. Lit.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Carr</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Heptinstall</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Theatre in Dorset-Garden</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

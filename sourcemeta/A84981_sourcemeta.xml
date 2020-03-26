@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A full answer to a scandalous pamphlet, intituled, A character of a London diurnall.</title>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F.P. for Francis Coles and Lawrence Blaikeloke, and are to be sold at their shops, in the Old-Bayly, and at Temple-Barre.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by authoritie."</note>
-         <note>A reply to: Cleveland, John.  The character of a London diurnall (Wing C4659).</note>
-         <note>Annotation on Thomason copy: "Aprill 10th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A full answer to a scandalous pamphlet, intituled, A character of a London diurnall.</title>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F.P.</persName> for <persName type="publisher">Francis Coles</persName> and <persName type="publisher">Lawrence Blaikeloke</persName>, and are to be sold at <placeName>their shops, in the Old-Bayly</placeName>, and at <placeName>Temple-Barre.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by authoritie."</note>
+      <note>A reply to: Cleveland, John.  The character of a London diurnall (Wing C4659).</note>
+      <note>Annotation on Thomason copy: "Aprill 10th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>Lawrence Blaikeloke</persName>
+    </person>
+    <person type="printer">
+      <persName>F.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Temple-Barre.</placeName>
+    </place>
+    <place type="location">
+      <placeName>their shops, in the Old-Bayly</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

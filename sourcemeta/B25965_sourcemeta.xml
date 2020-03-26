@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Life and character of Mrs. Mary Moders, alias Mary Stedman, alias Mary Carleton, alias Mary -------, the famous German princess being an historical relation of her birth and fortunes, with the havock and spoil she committed upon the publick in the reign of King Charles the Second : together with her tragical fall at Tyburn, on the 22d of January 1678, added by way of appendix.</title>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 76 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Cooke ... and sold by the booksellers and pamphlet-sellers ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1678?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written in the style of an autobiography.</note>
-         <note>Reproduction of original in the Harvard Law School Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Life and character of Mrs. Mary Moders, alias Mary Stedman, alias Mary Carleton, alias Mary -------, the famous German princess being an historical relation of her birth and fortunes, with the havock and spoil she committed upon the publick in the reign of King Charles the Second : together with her tragical fall at Tyburn, on the 22d of January 1678, added by way of appendix.</title>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 76 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Cooke</persName> ... and sold by <persName type="bookseller">the booksellers and pamphlet-sellers</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1678?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written in the style of an autobiography.</note>
+      <note>Reproduction of original in the Harvard Law School Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the booksellers and pamphlet-sellers</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Cooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

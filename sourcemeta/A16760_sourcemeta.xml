@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A merrie dialogue betvvixt the taker and mistaker</title>
-         <author>Breton, Nicholas, 1545?-1626?</author>
-      </titleStmt>
-      <extent>[6], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>[By R. Field] for Iames Shaw, and are to be sold at his shop neare Lud-gate,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Nicholas Breton.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A merrie dialogue betvvixt the taker and mistaker</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+    </titleStmt>
+    <extent>[6], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">R. Field]</persName> for <persName type="publisher">Iames Shaw</persName>, and are to be sold at <placeName>his shop neare Lud-gate</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Nicholas Breton.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iames Shaw</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neare Lud-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

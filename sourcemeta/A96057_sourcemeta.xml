@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVarwickshire petition to the Parliament delivered Aug. 17. 1648. With the answer.</title>
-         <author>Warwick, William.</author>
-      </titleStmt>
-      <extent>5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho: Underhill at the Bible in Woodstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Aug ye 21th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVarwickshire petition to the Parliament delivered Aug. 17. 1648. With the answer.</title>
+      <author>Warwick, William.</author>
+    </titleStmt>
+    <extent>5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho: Underhill</persName> at <placeName>the Bible in Woodstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Aug ye 21th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho: Underhill</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Woodstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

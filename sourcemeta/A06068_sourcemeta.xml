@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two godly and fruitfull treatises the one, vpon the Lords prayer. The other, vpon the sixe principles. Both penned by that learned man, Paul Baine, sometimes preacher of Gods word at S. Andrewes in Cambridge.</title>
-         <author>Baynes, Paul, d. 1617.</author>
-      </titleStmt>
-      <extent>[8], 276 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Field for Robert Mylbourne, and are to be sold at his shop at the great South-doore of Paules,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1619.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"A treatise vpon the sixe principles" has separate dated title page.</note>
-         <note>Register and pagination continuous.</note>
-         <note>Some print show-through; some pages marked and stained.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two godly and fruitfull treatises the one, vpon the Lords prayer. The other, vpon the sixe principles. Both penned by that learned man, Paul Baine, sometimes preacher of Gods word at S. Andrewes in Cambridge.</title>
+      <author>Baynes, Paul, d. 1617.</author>
+    </titleStmt>
+    <extent>[8], 276 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Field</persName> for <persName type="publisher">Robert Mylbourne</persName>, and are to be sold at <placeName>his shop at the great South-doore of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1619.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"A treatise vpon the sixe principles" has separate dated title page.</note>
+      <note>Register and pagination continuous.</note>
+      <note>Some print show-through; some pages marked and stained.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Mylbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the great South-doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

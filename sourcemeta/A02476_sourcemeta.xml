@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A commemoration of the most prosperous and peaceable raigne of our gratious and deere soueraigne lady Elizabeth by the grace of God of England, Fraunce and Irelande, Queene &amp;c. Now newly set foorth this. xvii. day of Nouember, beyng the first day of the. xviii. yeere of her Maiesties sayd raigne. By Edw. Hake. Gent.</title>
-         <author>Hake, Edward, fl. 1560-1604.</author>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>By William How, for Richard Iohnes, dwellynge without Newgate, ouer agaynst S. Sepulchers Churche,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1575]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Dedication dated at end: 17 November 1575.</note>
-         <note>Signatures: A-B C⁴.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A commemoration of the most prosperous and peaceable raigne of our gratious and deere soueraigne lady Elizabeth by the grace of God of England, Fraunce and Irelande, Queene &amp;c. Now newly set foorth this. xvii. day of Nouember, beyng the first day of the. xviii. yeere of her Maiesties sayd raigne. By Edw. Hake. Gent.</title>
+      <author>Hake, Edward, fl. 1560-1604.</author>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">William How</persName>, for <persName type="publisher">Richard Iohnes</persName>, dwellynge without <placeName>Newgate, ouer agaynst S. Sepulchers Churche</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1575]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Dedication dated at end: 17 November 1575.</note>
+      <note>Signatures: A-B C&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Iohnes</persName>
+    </person>
+    <person type="printer">
+      <persName>William How</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Newgate, ouer agaynst S. Sepulchers Churche</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

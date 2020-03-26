@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>King Charls II. His declaration to all his loving subjects of the kingdome of England. Dated from his court at Breda in Holland the 4/14 of Aprill 1660 And read in Parliament, May 1. 1660. Together with His Maiesties letter of the same date: to his Excellence the Ld. Gen. Monck, to be communicated to the L. President of the Council of State, and to the officers of the army under his command.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Playford at his shop in the Temple,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>King Charls II. His declaration to all his loving subjects of the kingdome of England. Dated from his court at Breda in Holland the 4/14 of Aprill 1660 And read in Parliament, May 1. 1660. Together with His Maiesties letter of the same date: to his Excellence the Ld. Gen. Monck, to be communicated to the L. President of the Council of State, and to the officers of the army under his command.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Playford</persName> at <placeName>his shop in the Temple</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

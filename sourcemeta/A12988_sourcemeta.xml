@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plaine and easie laying open of the meaning and vnderstanding of the rules of construction in the English accidence appointed by authoritie to be taught in all schooles of hir Maiesties dominions, for the great vse and benefite of yoong beginners: by Iohn Stockwood sometime schoolmaster of Tunbridge.</title>
-         <author>Stockwood, John, d. 1610.</author>
-      </titleStmt>
-      <extent>[8], 88 p.   </extent>
-      <publicationStmt>
-         <publisher>By [Eliot's Court Press for] the assignes of Francis Flower,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1590.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: The making plaine of the rules of construction.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Beginning to page 5 from the British Library copy spliced at end.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plaine and easie laying open of the meaning and vnderstanding of the rules of construction in the English accidence appointed by authoritie to be taught in all schooles of hir Maiesties dominions, for the great vse and benefite of yoong beginners: by Iohn Stockwood sometime schoolmaster of Tunbridge.</title>
+      <author>Stockwood, John, d. 1610.</author>
+    </titleStmt>
+    <extent>[8], 88 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[Eliot's Court Press</persName> for<persName type="publisher">]</persName> the assignes of <persName type="assigns">Francis Flower</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1590.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: The making plaine of the rules of construction.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Beginning to page 5 from the British Library copy spliced at end.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>]</persName>
+    </person>
+    <person type="printer">
+      <persName>[Eliot's Court Press</persName>
+    </person>
+    <person type="assigns">
+      <persName>Francis Flower</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

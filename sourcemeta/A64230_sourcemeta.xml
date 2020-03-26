@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Paidobaptismos orthobaptismos: or, The baptism of infants vindicated by scriptures and reasons Humbly offered in order to a composure of differences at this juncture of time. By Nath. Taylor, M.A.</title>
-         <author>Taylor, Nathanael, d. 1702.</author>
-      </titleStmt>
-      <extent>[8], 96 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Richard Butler next door to the Lamb and Three Bowls in Barbican,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first two words of title are in Greek characters.</note>
-         <note>Pages stained with print show-through.</note>
-         <note>Reproduction of the original in the John Rylands University Library of Manchester.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Paidobaptismos orthobaptismos: or, The baptism of infants vindicated by scriptures and reasons Humbly offered in order to a composure of differences at this juncture of time. By Nath. Taylor, M.A.</title>
+      <author>Taylor, Nathanael, d. 1702.</author>
+    </titleStmt>
+    <extent>[8], 96 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Richard Butler next door to the Lamb</persName> and <persName type="publisher">Three Bowls</persName> in <placeName>Barbican</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first two words of title are in Greek characters.</note>
+      <note>Pages stained with print show-through.</note>
+      <note>Reproduction of the original in the John Rylands University Library of Manchester.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Butler next door to the Lamb</persName>
+    </person>
+    <person type="publisher">
+      <persName>Three Bowls</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Barbican</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

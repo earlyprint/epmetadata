@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The justice of the peace, his clarks cabinet, or, A book of presidents, or warrants, fitted and made ready to his hand for every case that may happen within the compass of his masters office for the ease of the justice of peace, and more speedy dispatch of justice / by William Shepard ...</title>
-         <author>Sheppard, William, d. 1675?</author>
-      </titleStmt>
-      <extent>[16], 127 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Maxwell for William Lee, Daniel Pakeman, and Gabriel Bedell, and are to be sold at their shops ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the Harvard Law Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The justice of the peace, his clarks cabinet, or, A book of presidents, or warrants, fitted and made ready to his hand for every case that may happen within the compass of his masters office for the ease of the justice of peace, and more speedy dispatch of justice / by William Shepard ...</title>
+      <author>Sheppard, William, d. 1675?</author>
+    </titleStmt>
+    <extent>[16], 127 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Maxwell</persName> for <persName type="publisher">William Lee</persName>, <persName type="publisher">Daniel Pakeman</persName>, and <persName type="publisher">Gabriel Bedell</persName>, and are to be sold at <placeName>their shops</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the Harvard Law Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Daniel Pakeman</persName>
+    </person>
+    <person type="publisher">
+      <persName>Gabriel Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Maxwell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

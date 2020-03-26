@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A serious epistle to Mr. William Prynne wherein is interwoven an answer to a late book of his, the title whereof is inserted in the next leafe. By J. Hall, of Grays-Inne.</title>
-         <author>Hall, John, 1627-1656.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Place, and are to sold at his shop at Furnifolds-Inne gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to Prynne's: A legall vindication of the liberties of England, against illegall taxes and pretended Acts of Parliament lately enforced on the people.</note>
-         <note>Reproduction of the original in the Gonville and Caius College Library, Cambridge.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A serious epistle to Mr. William Prynne wherein is interwoven an answer to a late book of his, the title whereof is inserted in the next leafe. By J. Hall, of Grays-Inne.</title>
+      <author>Hall, John, 1627-1656.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Place</persName>, and are to sold at <placeName>his shop at Furnifolds-Inne gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to Prynne's: A legall vindication of the liberties of England, against illegall taxes and pretended Acts of Parliament lately enforced on the people.</note>
+      <note>Reproduction of the original in the Gonville and Caius College Library, Cambridge.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Place</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Furnifolds-Inne gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

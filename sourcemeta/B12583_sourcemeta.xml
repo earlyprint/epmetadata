@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Eliza triumphans.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>These are to be soulde in Pawles Churchyard at the Brasen Serpent by Robert Dexter.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1597.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Elizabeth I, Queen of England, is the author according to STC.</note>
-         <note>Verse: Ye precious shelles that lie on Lybian shore, or Nilus sable sandes in needelesse store, ...</note>
-         <note>Place of publication from STC.</note>
-         <note>Imperfect: letterpress portion only; cut up and pasted together.</note>
-         <note>The two long columns of verse are probably originally on either side of W. Roger's engraved, "Eliza triumphans"; see Hind I.263 and pl.138. There may also have been an emblem with the 3 stanzas pasted at the bottom. Cf. STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Eliza triumphans.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>These are to be soulde in <placeName>Pawles Churchyard at the Brasen Serpent</placeName> by <persName type="printer">Robert Dexter.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1597.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Elizabeth I, Queen of England, is the author according to STC.</note>
+      <note>Verse: Ye precious shelles that lie on Lybian shore, or Nilus sable sandes in needelesse store, ...</note>
+      <note>Place of publication from STC.</note>
+      <note>Imperfect: letterpress portion only; cut up and pasted together.</note>
+      <note>The two long columns of verse are probably originally on either side of W. Roger's engraved, "Eliza triumphans"; see Hind I.263 and pl.138. There may also have been an emblem with the 3 stanzas pasted at the bottom. Cf. STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Dexter.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pawles Churchyard at the Brasen Serpent</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

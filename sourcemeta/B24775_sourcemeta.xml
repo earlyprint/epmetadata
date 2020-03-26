@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lords-Justices and Council, a proclamation. Charles Porter, Coningesby. The King and Queens most excellent Majesties in tender compassion to their loving subjects of this kingdom and in consideration of what they have suffered in the late war ...</title>
-         <author>Ireland. Lords Justices and Council.</author>
-         <author>Coningsby, Thomas Coningsby, Earl, 1656?-1729.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook, assignee of Benjamin Tooke, printer to the King and Queen's most Excellent Majesties on Ormonde-Key,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>"Given at the Council-Chamber in Dublin the 7th. day of July, 1692.".</note>
-         <note>Pardoning arrears of hearth-money, &amp;c.--Steele.</note>
-         <note>Steele notation: Arms 193. Majesties since Ma-.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lords-Justices and Council, a proclamation. Charles Porter, Coningesby. The King and Queens most excellent Majesties in tender compassion to their loving subjects of this kingdom and in consideration of what they have suffered in the late war ...</title>
+      <author>Ireland. Lords Justices and Council.</author>
+      <author>Coningsby, Thomas Coningsby, Earl, 1656?-1729.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName>, assignee of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King</persName> and <persName type="patron">Queen's most Excellent Majesties</persName> on <placeName>Ormonde-Key</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>"Given at the Council-Chamber in Dublin the 7th. day of July, 1692.".</note>
+      <note>Pardoning arrears of hearth-money, &amp;c.--Steele.</note>
+      <note>Steele notation: Arms 193. Majesties since Ma-.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>Queen's most Excellent Majesties</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

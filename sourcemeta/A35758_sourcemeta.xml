@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of Candia in its ancient and modern state with an account of the siege thereof, begun by the Ottoman Emperour, in the year 1666, continued in 1667 and 1668, and surrendred the latter end of 1669 / the most part collected from private letters, during the siege, sent by one in the service of the republique.</title>
-         <author>One in the service of the republique.</author>
-      </titleStmt>
-      <extent>[4], 116 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for William Crook ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of Candia in its ancient and modern state with an account of the siege thereof, begun by the Ottoman Emperour, in the year 1666, continued in 1667 and 1668, and surrendred the latter end of 1669 / the most part collected from private letters, during the siege, sent by one in the service of the republique.</title>
+      <author>One in the service of the republique.</author>
+    </titleStmt>
+    <extent>[4], 116 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">William Crook</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

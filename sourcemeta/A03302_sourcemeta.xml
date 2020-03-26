@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of Dorcas VVherein, hee that pleaseth to reade, may finde both good direction for the ordering of his course: and a necessary warning to be prepared for his end. By Samuel Hieron.</title>
-         <author>Hieron, Samuel, 1576?-1617.</author>
-      </titleStmt>
-      <extent>[6], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Melch. Bradwood for Samuel Macham, and are to be sold at his shop in Pauls Church-yard at the signe of the Bullhead,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A funeral sermon.</note>
-         <note>Some print faded.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of Dorcas VVherein, hee that pleaseth to reade, may finde both good direction for the ordering of his course: and a necessary warning to be prepared for his end. By Samuel Hieron.</title>
+      <author>Hieron, Samuel, 1576?-1617.</author>
+    </titleStmt>
+    <extent>[6], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Melch. Bradwood</persName> for <persName type="publisher">Samuel Macham</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard at the signe of the Bullhead</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A funeral sermon.</note>
+      <note>Some print faded.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Macham</persName>
+    </person>
+    <person type="printer">
+      <persName>Melch. Bradwood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard at the signe of the Bullhead</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, for offering the band obliging heretors and masters for their tenents and servants, in some shires</title>
-         <title>Proclamations. 1688-03-13</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to His most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1678</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given under Our signet at Edinburgh, the thirteenth day of March, 1678. years, and of Our regn [sic] the thirtieth year.</note>
-         <note>Armas 232; Steele notation: Faith,  therein  Reign.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, for offering the band obliging heretors and masters for their tenents and servants, in some shires</title>
+      <title>Proclamations. 1688-03-13</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">His most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1678</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given under Our signet at Edinburgh, the thirteenth day of March, 1678. years, and of Our regn [sic] the thirtieth year.</note>
+      <note>Armas 232; Steele notation: Faith,  therein  Reign.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>His most sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

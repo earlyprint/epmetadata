@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A shorte admonition or warning, vpon the detestable treason vvherevvith Sir VVilliam Stanley and Rovvland Yorke haue betraied and deliuered for monie vnto the Spaniards, the towne of Deuenter, and the sconce of Zutphen. Translated into English by C.C.</title>
-         <title>Shorte admonition or warning, upon the detestable treason wherewith Sir William Stanley and Rowland Yorke have betraied and delivered for monie unto the Spaniards, the towne of Deventer, and the sconce of Zutphen.</title>
-         <author>Prouninck, Gerard, d. 1610.</author>
-         <author>C. C., fl. 1587.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Iones, according to the Dutch copie first printed at Vtrecht by Iohn Cornelissoon, ordinarie sworne printer to his Excellencie, with consent of the counsell of the said towne,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>Anno 1587.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Gerard Prouninck by STC.</note>
-         <note>Woodcut portrait on title page.</note>
-         <note>"Urges the Dutch people not to blame the entire English nation for the treachery of two men."--Folger Shakespeare Library Catalog.</note>
-         <note>Identified as STC 23228a on UMI microfilm.</note>
-         <note>Signatures: A⁴.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A shorte admonition or warning, vpon the detestable treason vvherevvith Sir VVilliam Stanley and Rovvland Yorke haue betraied and deliuered for monie vnto the Spaniards, the towne of Deuenter, and the sconce of Zutphen. Translated into English by C.C.</title>
+      <title>Shorte admonition or warning, upon the detestable treason wherewith Sir William Stanley and Rowland Yorke have betraied and delivered for monie unto the Spaniards, the towne of Deventer, and the sconce of Zutphen.</title>
+      <author>Prouninck, Gerard, d. 1610.</author>
+      <author>C. C., fl. 1587.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Iones, according to the Dutch copie first printed</persName> at <placeName>Vtrecht</placeName> by <persName type="printer">Iohn Cornelissoon, ordinarie sworne</persName> printer to <persName type="patron">his Excellencie</persName>, with consent of the counsell of the said towne,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>Anno 1587.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Gerard Prouninck by STC.</note>
+      <note>Woodcut portrait on title page.</note>
+      <note>"Urges the Dutch people not to blame the entire English nation for the treachery of two men."--Folger Shakespeare Library Catalog.</note>
+      <note>Identified as STC 23228a on UMI microfilm.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his Excellencie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Cornelissoon, ordinarie sworne</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iones, according to the Dutch copie first printed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Vtrecht</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

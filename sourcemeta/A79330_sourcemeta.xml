@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King· A proclamation for restoring and discovering his Majesties goods</title>
-         <title>Proclamations. 1660-08-14</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill and Christopher Barker, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at our court at Whitehall, the fourteenth day of August, in the twelfth  year of our reign, 1660.</note>
-         <note>Steele notation: hath Prosecutions affected; Arms 64.</note>
-         <note>Annotation on Thomason copy: "Aug. 15".</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King&#183; A proclamation for restoring and discovering his Majesties goods</title>
+      <title>Proclamations. 1660-08-14</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at our court at Whitehall, the fourteenth day of August, in the twelfth  year of our reign, 1660.</note>
+      <note>Steele notation: hath Prosecutions affected; Arms 64.</note>
+      <note>Annotation on Thomason copy: "Aug. 15".</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

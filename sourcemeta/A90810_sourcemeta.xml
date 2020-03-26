@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the religious societies in St. Michael's Church Dublin. September the 25th. 1698. / by Thomas Pollard ...</title>
-         <author>Pollard, Thomas.</author>
-      </titleStmt>
-      <extent>[4], 15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed, by and for Joseph Ray, bookseller in Skinner-row over against the Tholsel,</publisher>
-         <pubPlace>Dublin: :</pubPlace>
-         <date>M DC XC VIII. [1698]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library (Dublin, Ireland).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the religious societies in St. Michael's Church Dublin. September the 25th. 1698. / by Thomas Pollard ...</title>
+      <author>Pollard, Thomas.</author>
+    </titleStmt>
+    <extent>[4], 15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed, by and for <persName type="publisher">Joseph Ray</persName>, bookseller in <placeName>Skinner-row over against the Tholsel</placeName>,</publisher>
+      <pubPlace>Dublin: :</pubPlace>
+      <date>M DC XC VIII. [1698]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library (Dublin, Ireland).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Ray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Skinner-row over against the Tholsel</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

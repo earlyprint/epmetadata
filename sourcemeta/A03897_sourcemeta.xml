@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The descent of authoritie: or, The magistrates patent from heaven Manifested in a sermon preached at Lincolnes assizes, March 13. 1636. By Thomas Hurste Dr. of Divinity, and one of his Majesties chaplains.</title>
-         <author>Hurste, Thomas, d. 1680.</author>
-      </titleStmt>
-      <extent>[6], 33, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Bishop] for Iohn Clark, and are to bee sold at his shop under Saint Peters Church in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On Genesis IX, 6.</note>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A-E⁴.</note>
-         <note>The year of the sermon is given according to Lady Day dating.</note>
-         <note>Running title reads: The descent of authority.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The descent of authoritie: or, The magistrates patent from heaven Manifested in a sermon preached at Lincolnes assizes, March 13. 1636. By Thomas Hurste Dr. of Divinity, and one of his Majesties chaplains.</title>
+      <author>Hurste, Thomas, d. 1680.</author>
+    </titleStmt>
+    <extent>[6], 33, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Bishop]</persName> for <persName type="publisher">Iohn Clark</persName>, and are to bee sold at <placeName>his shop under Saint Peters Church in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On Genesis IX, 6.</note>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A-E&#8308;.</note>
+      <note>The year of the sermon is given according to Lady Day dating.</note>
+      <note>Running title reads: The descent of authority.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Clark</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Bishop]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under Saint Peters Church in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Institutions, or, Advice to his grandson in three parts / by William Higford ...</title>
-         <author>Higford, William, 1581?-1657.</author>
-      </titleStmt>
-      <extent>[13], 97 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Warren for Edmund Thorn ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLVIII [1658]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages tightly bound with loss of print.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Institutions, or, Advice to his grandson in three parts / by William Higford ...</title>
+      <author>Higford, William, 1581?-1657.</author>
+    </titleStmt>
+    <extent>[13], 97 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Warren</persName> for <persName type="publisher">Edmund Thorn</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLVIII [1658]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages tightly bound with loss of print.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Thorn</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Warren</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The infants advocate of circumcision on Jewish and baptisme on Christian children. By Thomas Fuller, B.D.</title>
-         <author>Fuller, Thomas, 1608-1661.</author>
-      </titleStmt>
-      <extent>[22], 176; 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Norton, for J. Williams, at the Crown in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.LIII. [1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The words "Circumcision and baptisme" and "Jewish Christian" are enclosed in brackets on the title page.</note>
-         <note>"The infants advocate. Chap. XXI." (caption title) has separate pagination and register.</note>
-         <note>Annotation on Thomason copy: "May 2".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The infants advocate of circumcision on Jewish and baptisme on Christian children. By Thomas Fuller, B.D.</title>
+      <author>Fuller, Thomas, 1608-1661.</author>
+    </titleStmt>
+    <extent>[22], 176; 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Norton</persName>, for <persName type="publisher">J. Williams</persName>, at <placeName>the Crown in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.LIII. [1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The words "Circumcision and baptisme" and "Jewish Christian" are enclosed in brackets on the title page.</note>
+      <note>"The infants advocate. Chap. XXI." (caption title) has separate pagination and register.</note>
+      <note>Annotation on Thomason copy: "May 2".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crown in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

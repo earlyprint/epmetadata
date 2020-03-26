@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sharpnesse of the svvord: or, Abners plea for accommodation. A sermon lately preached by John Pigot, curate of St Sepulchres, London.</title>
-         <author>Pigot, John.</author>
-      </titleStmt>
-      <extent>[8], 47, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Clark, and are to be sold at his shop under S. Peters Church in Corn-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"His maiesties letter to the maior of Bristol" (Wing C2413, Thomason E.83[49]) is bound between quires A and B. Thus, quire A is identified as Thomason E.83[48] and quires B-G are identified as Thomason E.83[49].</note>
-         <note>Annotation on Thomason copy: "Jan: 2d".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sharpnesse of the svvord: or, Abners plea for accommodation. A sermon lately preached by John Pigot, curate of St Sepulchres, London.</title>
+      <author>Pigot, John.</author>
+    </titleStmt>
+    <extent>[8], 47, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Clark</persName>, and are to be sold at <placeName>his shop under S. Peters Church in Corn-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"His maiesties letter to the maior of Bristol" (Wing C2413, Thomason E.83[49]) is bound between quires A and B. Thus, quire A is identified as Thomason E.83[48] and quires B-G are identified as Thomason E.83[49].</note>
+      <note>Annotation on Thomason copy: "Jan: 2d".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Clark</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under S. Peters Church in Corn-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from Major General Sir Hardress VValler, and the Council of Officers at Dublin, to Lieutenant General Ludlow.</title>
-         <author>Waller, Hardress, Sir, 1604?-1666?</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Bladen by special order,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Har. Waller [and 23 others]</note>
-         <note>Imperfect: cropped, with loss of print.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from Major General Sir Hardress VValler, and the Council of Officers at Dublin, to Lieutenant General Ludlow.</title>
+      <author>Waller, Hardress, Sir, 1604?-1666?</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bladen</persName> by <persName type="printer">special order</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Har. Waller [and 23 others]</note>
+      <note>Imperfect: cropped, with loss of print.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Bladen</persName>
+    </person>
+    <person type="printer">
+      <persName>special order</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The chiefe and pryncypall articles of the Christen faythe to holde againste the Pope, and al papistes, and the gates of hell, with other thre very profitable and necessary bokes the names or tyttels, whereof are conteyne in the leafe next followynge. Made by Doctor Marten Luther. To the reader. In thys boke shal you fynde Christian reader the ryght probation of the righte olde catholyke Churche, and of the newe false Churche, whereby eyther of them is to be knowen. Reade and iudge.</title>
-         <title>Selections. English</title>
-         <author>Luther, Martin, 1483-1546.</author>
-         <author>Lynne, Walter.</author>
-      </titleStmt>
-      <extent>[248] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by S. Mierdman] for Gwalter Lynne, dwellyng vpon Somers kaye, by Byllinges gate,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>In the yeare of oure Lorde God. M.D.Xlviij. [1548]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Possibly translated by Walter Lynne.</note>
-         <note>Publisher's name and address from colophon; printer's name from STC.</note>
-         <note>Signatures: A-P Q⁴.</note>
-         <note>Includes: The confessyon of the faythe of Doctor Marten Luther. Of the ryght olde catholyke Churche, and the newe false Churche, whereby eyther of them is to be knowen. The thre symboles or confessyons of the Christen faythe, in the Churche unfourmely used.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The chiefe and pryncypall articles of the Christen faythe to holde againste the Pope, and al papistes, and the gates of hell, with other thre very profitable and necessary bokes the names or tyttels, whereof are conteyne in the leafe next followynge. Made by Doctor Marten Luther. To the reader. In thys boke shal you fynde Christian reader the ryght probation of the righte olde catholyke Churche, and of the newe false Churche, whereby eyther of them is to be knowen. Reade and iudge.</title>
+      <title>Selections. English</title>
+      <author>Luther, Martin, 1483-1546.</author>
+      <author>Lynne, Walter.</author>
+    </titleStmt>
+    <extent>[248] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">S. Mierdman]</persName> for <persName type="publisher">Gwalter Lynne</persName>, dwellyng vpon <placeName>Somers kaye</placeName>, by <persName type="printer">Byllinges gate</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>In the yeare of oure Lorde God. M.D.Xlviij. [1548]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Possibly translated by Walter Lynne.</note>
+      <note>Publisher's name and address from colophon; printer's name from STC.</note>
+      <note>Signatures: A-P Q&#8308;.</note>
+      <note>Includes: The confessyon of the faythe of Doctor Marten Luther. Of the ryght olde catholyke Churche, and the newe false Churche, whereby eyther of them is to be knowen. The thre symboles or confessyons of the Christen faythe, in the Churche unfourmely used.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gwalter Lynne</persName>
+    </person>
+    <person type="printer">
+      <persName>Byllinges gate</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Mierdman]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Somers kaye</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

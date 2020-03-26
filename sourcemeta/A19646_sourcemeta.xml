@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Loves court of conscience written upon two severall occasions, with new lessons for lovers. Wherunto is annexed a kinde husband's advice to his wife. By Humfrey Crowch.</title>
-         <author>Crouch, Humphrey, fl. 1635-1671.</author>
-         <author>Mason, George, fl. 1610-1617. Ayres that were sung and played, at Brougham Castle in Westmerland, in the Kings entertainment. Selections.</author>
-      </titleStmt>
-      <extent>[24] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Harper] for Richard Harper, and are to be sold at his shop in Smithfield, at the hospitall gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>"The sonet of Dido and Eneas" beginning on A7 is reprinted from STC 17601 "The ayres that were sung and played, at Brougham Castle" by George Mason and John Earsden.</note>
-         <note>Signatures: A B⁴.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Loves court of conscience written upon two severall occasions, with new lessons for lovers. Wherunto is annexed a kinde husband's advice to his wife. By Humfrey Crowch.</title>
+      <author>Crouch, Humphrey, fl. 1635-1671.</author>
+      <author>Mason, George, fl. 1610-1617. Ayres that were sung and played, at Brougham Castle in Westmerland, in the Kings entertainment. Selections.</author>
+    </titleStmt>
+    <extent>[24] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Harper]</persName> for <persName type="publisher">Richard Harper</persName>, and are to be sold at <placeName>his shop in Smithfield, at the hospitall gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>"The sonet of Dido and Eneas" beginning on A7 is reprinted from STC 17601 "The ayres that were sung and played, at Brougham Castle" by George Mason and John Earsden.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Harper</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Harper]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Smithfield, at the hospitall gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

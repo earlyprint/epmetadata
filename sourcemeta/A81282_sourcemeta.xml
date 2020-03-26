@@ -1,17 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of peoples duty in living under a scandalous minister, stated and resolved</title>
-      </titleStmt>
-      <extent>23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Sam. Tidmarsh, at the Kings-Head in Corn-hill,  near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of peoples duty in living under a scandalous minister, stated and resolved</title>
+    </titleStmt>
+    <extent>23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Sam. Tidmarsh</persName>, at <placeName>the Kings-Head in Corn-hill</placeName>, <placeName> near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sam. Tidmarsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName> near the Royal Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Kings-Head in Corn-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

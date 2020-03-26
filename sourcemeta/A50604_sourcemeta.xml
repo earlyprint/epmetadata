@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A moral essay, preferring solitude to publick employment, and all it's appanages, such as fame, command, riches, pleasures, conversation, &amp;c.</title>
-         <author>Mackenzie, George, Sir, 1636-1691.</author>
-      </titleStmt>
-      <extent>8, 112 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Brown, and are to be sold at his shop ...,</publisher>
-         <pubPlace>Edinburh [sic] :</pubPlace>
-         <date>1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First edition.</note>
-         <note>Answered by John Evelyn in his Publick employment and an active life prefer'd to solitude.</note>
-         <note>The only difference between Wing M171 and Wing M170 (at reel 2231:13) is the lack in M170 of the publication date in the imprint on t.p.</note>
-         <note>Error in paging: p. 40 mis-numbered 18.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A moral essay, preferring solitude to publick employment, and all it's appanages, such as fame, command, riches, pleasures, conversation, &amp;c.</title>
+      <author>Mackenzie, George, Sir, 1636-1691.</author>
+    </titleStmt>
+    <extent>8, 112 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Brown</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>Edinburh [sic] :</pubPlace>
+      <date>1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First edition.</note>
+      <note>Answered by John Evelyn in his Publick employment and an active life prefer'd to solitude.</note>
+      <note>The only difference between Wing M171 and Wing M170 (at reel 2231:13) is the lack in M170 of the publication date in the imprint on t.p.</note>
+      <note>Error in paging: p. 40 mis-numbered 18.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Brown</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

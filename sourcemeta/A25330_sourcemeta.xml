@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Anatomy of Simon Magus, or, The Sin of simony laid open</title>
-      </titleStmt>
-      <extent>24, [2], 25-212 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Bowyer for Charles Brome ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Anatomy of Simon Magus, or, The Sin of simony laid open</title>
+    </titleStmt>
+    <extent>24, [2], 25-212 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Bowyer</persName> for <persName type="publisher">Charles Brome</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Brome</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Bowyer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

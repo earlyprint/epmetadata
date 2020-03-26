@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first sermon, preached to the Honourable House of Commons now assembled in Parliament at their publique fast. Novemb. 17. 1640. / By Cornelius Burges Doctor of Divinitie. Published by order of that House.</title>
-         <author>Burges, Cornelius, 1589?-1665.</author>
-         <author>Marshall, Stephen, 1594?-1655.</author>
-      </titleStmt>
-      <extent>[8], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I.L. for Philemon Stephens and Christopher Meredith, at the signe of the Golden Lion in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The epistle dedicatory signed: Cornelius Burges. Stephen Marshall.</note>
-         <note>P. 80 is in at least 3 settings: 1). Without colophon and errata on p. 80; 2). With errata on p. 80; 3). With colophon and errata on p. 80.  Cf. Jeffs. English Revolution, v.1, p.3.</note>
-         <note>Variant: lacking comma after "sermon" on title page.</note>
-         <note>Thomason copy imperfect: significant show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first sermon, preached to the Honourable House of Commons now assembled in Parliament at their publique fast. Novemb. 17. 1640. / By Cornelius Burges Doctor of Divinitie. Published by order of that House.</title>
+      <author>Burges, Cornelius, 1589?-1665.</author>
+      <author>Marshall, Stephen, 1594?-1655.</author>
+    </titleStmt>
+    <extent>[8], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I.L.</persName> for <persName type="publisher">Philemon Stephens</persName> and <persName type="publisher">Christopher Meredith</persName>, at <placeName>the signe of the Golden Lion in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The epistle dedicatory signed: Cornelius Burges. Stephen Marshall.</note>
+      <note>P. 80 is in at least 3 settings: 1). Without colophon and errata on p. 80; 2). With errata on p. 80; 3). With colophon and errata on p. 80.  Cf. Jeffs. English Revolution, v.1, p.3.</note>
+      <note>Variant: lacking comma after "sermon" on title page.</note>
+      <note>Thomason copy imperfect: significant show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Philemon Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>I.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Golden Lion in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

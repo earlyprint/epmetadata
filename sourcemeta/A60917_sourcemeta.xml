@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A journey to London in the year 1698 after the ingenuous method of that made by Dr. Martin Lyster to Paris in the same year, &amp;c. / written originally in French by Monsieur Sorbiere and newly translated into English.</title>
-         <author>King, William, 1663-1712.</author>
-         <author>Sorbière, Samuel, 1615-1670. Relation d'un voyage en Angleterre.</author>
-      </titleStmt>
-      <extent>[8], 34, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by A. Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Fictiously attributed to Sorbière but written by William King.  Cf. DNB.</note>
-         <note>Satire on Lister's work: Journey to Paris in the year 1698.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A journey to London in the year 1698 after the ingenuous method of that made by Dr. Martin Lyster to Paris in the same year, &amp;c. / written originally in French by Monsieur Sorbiere and newly translated into English.</title>
+      <author>King, William, 1663-1712.</author>
+      <author>Sorbi&#232;re, Samuel, 1615-1670. Relation d'un voyage en Angleterre.</author>
+    </titleStmt>
+    <extent>[8], 34, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">A. Baldwin</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Fictiously attributed to Sorbi&#232;re but written by William King.  Cf. DNB.</note>
+      <note>Satire on Lister's work: Journey to Paris in the year 1698.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

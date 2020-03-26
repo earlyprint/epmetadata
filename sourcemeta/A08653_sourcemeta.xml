@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The passenger: of Beneuento Italian, professour of his natiue tongue, for these nine yeeres in London. Diuided into two parts, containing seauen exquisite dialogues in Italian and English: the contents whereof you shall finde in the end of the booke. To the illustrious and renowmed Prince Henry ...</title>
-         <title>Passaggiere. English and Italian</title>
-         <author>Benvenuto, Italian.</author>
-         <author>King, Mr., fl. 1612.</author>
-      </titleStmt>
-      <extent>[36], 611, [17] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] S[nodham] for Iohn Stepneth, and are to be solde at his shop at the west-end of Paules Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation attributed to a Mr. King on p. A7r.</note>
-         <note>Italian and English on facing pages, with an added Italian title page.</note>
-         <note>Printer's name from STC.</note>
-         <note>With seven final contents leaves and a final errata leaf.</note>
-         <note>A variant (STC 1895) has Richard Redmer in the imprint.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The passenger: of Beneuento Italian, professour of his natiue tongue, for these nine yeeres in London. Diuided into two parts, containing seauen exquisite dialogues in Italian and English: the contents whereof you shall finde in the end of the booke. To the illustrious and renowmed Prince Henry ...</title>
+      <title>Passaggiere. English and Italian</title>
+      <author>Benvenuto, Italian.</author>
+      <author>King, Mr., fl. 1612.</author>
+    </titleStmt>
+    <extent>[36], 611, [17] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] S[nodham]</persName> for <persName type="publisher">Iohn Stepneth</persName>, and are to be solde at <placeName>his shop at the west-end of Paules Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation attributed to a Mr. King on p. A7r.</note>
+      <note>Italian and English on facing pages, with an added Italian title page.</note>
+      <note>Printer's name from STC.</note>
+      <note>With seven final contents leaves and a final errata leaf.</note>
+      <note>A variant (STC 1895) has Richard Redmer in the imprint.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Stepneth</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the west-end of Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Maxims of state written by Sir Walter Raleigh ; whereunto is added his Instructions to his sonne, and The son's advice to his aged father.</title>
-         <title>Prince</title>
-         <author>Raleigh, Walter, Sir, 1552?-1618.</author>
-      </titleStmt>
-      <extent>[9], 78 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Bentley, and are to be sold by W. Shears ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First published in 1642 as: The prince, or, Maxims of state.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Imperfect: filmed copy lacks all after "Maxims".</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Maxims of state written by Sir Walter Raleigh ; whereunto is added his Instructions to his sonne, and The son's advice to his aged father.</title>
+      <title>Prince</title>
+      <author>Raleigh, Walter, Sir, 1552?-1618.</author>
+    </titleStmt>
+    <extent>[9], 78 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Bentley</persName>, and are to be sold by <persName type="bookseller">W. Shears</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First published in 1642 as: The prince, or, Maxims of state.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Imperfect: filmed copy lacks all after "Maxims".</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>W. Shears</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Bentley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

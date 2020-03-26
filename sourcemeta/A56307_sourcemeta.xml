@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A serious exhortation to an holy life, or conversation With a clear discovery of the nature of it, what it is. The means of attaining it. The trials of it, how it may be known. The motives, or inducements to it. Or, a profitable companion for conversion. Confirmation. Illumination. Consolation. By Robert Purnell.</title>
-         <author>Purnell, Robert, d. 1666.</author>
-      </titleStmt>
-      <extent>[12], 94 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Edward Thomas at the Adam and Eve in Little Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1663</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The title words "The nature of ... inducements to it." and "conversion. Confirmation" are gathered by a left brace; "Illumination. Consolation." gathered by a right brace.</note>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A serious exhortation to an holy life, or conversation With a clear discovery of the nature of it, what it is. The means of attaining it. The trials of it, how it may be known. The motives, or inducements to it. Or, a profitable companion for conversion. Confirmation. Illumination. Consolation. By Robert Purnell.</title>
+      <author>Purnell, Robert, d. 1666.</author>
+    </titleStmt>
+    <extent>[12], 94 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Edward Thomas</persName> at <placeName>the Adam</placeName> and Eve in <placeName>Little Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1663</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The title words "The nature of ... inducements to it." and "conversion. Confirmation" are gathered by a left brace; "Illumination. Consolation." gathered by a right brace.</note>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Thomas</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little Brittain</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Adam</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

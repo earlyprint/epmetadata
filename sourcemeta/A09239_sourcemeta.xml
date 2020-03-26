@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proper new balade expressyng the fames, concerning a warning to al London dames to the tune of the blacke Almaine.</title>
-         <author>Peele, Steven.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at S. Katherins by Alexander Lacie for Henrie Kyrkham, dwellyng at the middle north dore of S. Paules church,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1571]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: quoth Steuen Peell.</note>
-         <note>A song - "You London dames, whose passyng fames".</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proper new balade expressyng the fames, concerning a warning to al London dames to the tune of the blacke Almaine.</title>
+      <author>Peele, Steven.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>S. Katherins</placeName> by <persName type="printer">Alexander Lacie</persName> for <persName type="publisher">Henrie Kyrkham</persName>, dwellyng at <placeName>the middle north dore of S. Paules church</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1571]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: quoth Steuen Peell.</note>
+      <note>A song - "You London dames, whose passyng fames".</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henrie Kyrkham</persName>
+    </person>
+    <person type="printer">
+      <persName>Alexander Lacie</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Katherins</placeName>
+    </place>
+    <place type="location">
+      <placeName>the middle north dore of S. Paules church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

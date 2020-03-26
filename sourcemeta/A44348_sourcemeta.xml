@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition of the principles of religion by Tho. Hooker.</title>
-         <author>Hooker, Thomas, 1586-1647.</author>
-      </titleStmt>
-      <extent>[3], 58 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Dawlman,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition of the principles of religion by Tho. Hooker.</title>
+      <author>Hooker, Thomas, 1586-1647.</author>
+    </titleStmt>
+    <extent>[3], 58 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Dawlman</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Dawlman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

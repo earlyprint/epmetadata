@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations upon a late book, entituled, An essay to the advancement of musick, &amp;c., written by Thomas Salmon ... by Matthew Locke ...</title>
-         <author>Locke, Matthew, 1621 or 2-1677.</author>
-         <author>Playford, John, 1623-1686?</author>
-      </titleStmt>
-      <extent>[5], 39, [2] p. : music  </extent>
-      <publicationStmt>
-         <publisher>Printed by W.G., and are to be sold by John Playford at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Salmon replied to this criticism with his Vindication of An essay to the advancement of musick.</note>
-         <note>Advertisement: p. [2] at end.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations upon a late book, entituled, An essay to the advancement of musick, &amp;c., written by Thomas Salmon ... by Matthew Locke ...</title>
+      <author>Locke, Matthew, 1621 or 2-1677.</author>
+      <author>Playford, John, 1623-1686?</author>
+    </titleStmt>
+    <extent>[5], 39, [2] p. : music  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.G.</persName>, and are to be sold by <persName type="bookseller">John Playford</persName> at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Salmon replied to this criticism with his Vindication of An essay to the advancement of musick.</note>
+      <note>Advertisement: p. [2] at end.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>W.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

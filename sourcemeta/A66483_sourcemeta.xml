@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mnemonica, or, The art of memory drained out of the pure fountains of art &amp; nature, digested into three books : also a physical treatise of cherishing natural memory, diligently collected out of divers learned mens writings / by John Willis.</title>
-         <title>Mnemonica, sive, Reminiscendi ars. English. 1661</title>
-         <author>Willis, John, d. 1628?</author>
-         <author>Sowerby, Leonard.</author>
-      </titleStmt>
-      <extent>[14], 175 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Leonard Sowersby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated from the Latin by Leonard Sowersby.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mnemonica, or, The art of memory drained out of the pure fountains of art &amp; nature, digested into three books : also a physical treatise of cherishing natural memory, diligently collected out of divers learned mens writings / by John Willis.</title>
+      <title>Mnemonica, sive, Reminiscendi ars. English. 1661</title>
+      <author>Willis, John, d. 1628?</author>
+      <author>Sowerby, Leonard.</author>
+    </titleStmt>
+    <extent>[14], 175 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Leonard Sowersby</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated from the Latin by Leonard Sowersby.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Leonard Sowersby</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Sowersby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

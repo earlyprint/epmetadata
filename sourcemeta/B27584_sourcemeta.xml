@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christ the head of civil government A sermon preach'd Novemb. 13. 1699, and now made publick, at the desire of the Societies for Reformation of Manners, in London and Westminster. By Joshua Oldfield, V.D.M.</title>
-         <author>Oldfield, Joshua, 1656-1729.</author>
-      </titleStmt>
-      <extent>[8], 67, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by K. Astwood, for Tho. Parkhurst, at the Bible and Three Crowns in Cheapside, near Mercers-Chappel,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a half-title: A sermon by Mr. Oldfield for the Reformation of Manners.</note>
-         <note>With five final pages of advertisements.</note>
-         <note>Running title: A sermon for the Reformation of Manners.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christ the head of civil government A sermon preach'd Novemb. 13. 1699, and now made publick, at the desire of the Societies for Reformation of Manners, in London and Westminster. By Joshua Oldfield, V.D.M.</title>
+      <author>Oldfield, Joshua, 1656-1729.</author>
+    </titleStmt>
+    <extent>[8], 67, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">K. Astwood</persName>, for <persName type="publisher">Tho. Parkhurst</persName>, at <placeName>the Bible</placeName> and <persName type="publisher">Three Crowns</persName> in <placeName>Cheapside, near Mercers-Chappel</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a half-title: A sermon by Mr. Oldfield for the Reformation of Manners.</note>
+      <note>With five final pages of advertisements.</note>
+      <note>Running title: A sermon for the Reformation of Manners.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="publisher">
+      <persName>Three Crowns</persName>
+    </person>
+    <person type="printer">
+      <persName>K. Astwood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cheapside, near Mercers-Chappel</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

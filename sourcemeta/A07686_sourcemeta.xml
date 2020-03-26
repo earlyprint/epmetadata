@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A liuely anatomie of death wherein you may see from whence it came, what it is by nature, and what by Christ. Togeather with the power, strength, and sting thereof: as also a preparatiue against the same. Tending to teach men to lyue, and die well to the Lord. By Iohn More, preacher of the Gospel.</title>
-         <author>More, John, d. 1592.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>By G. S[imson] for W. Iones, and are to be solde at the signe of the Gunne neare Holborne Conduit,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Signatures: A⁴ B-D F⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A liuely anatomie of death wherein you may see from whence it came, what it is by nature, and what by Christ. Togeather with the power, strength, and sting thereof: as also a preparatiue against the same. Tending to teach men to lyue, and die well to the Lord. By Iohn More, preacher of the Gospel.</title>
+      <author>More, John, d. 1592.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">G. S[imson]</persName> for <persName type="publisher">W. Iones</persName>, and are to be solde at <placeName>the signe of the Gunne neare Holborne Conduit</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Signatures: A&#8308; B-D F&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>G. S[imson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Gunne neare Holborne Conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

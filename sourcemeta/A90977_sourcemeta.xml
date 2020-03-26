@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The astrologers bugg-beare being a briefe discription of many pitthy passages, which were brought to passe upon that day which the astrologers painted out for Black-Monday: whereby wee may all see and know that God's power is beyond mans expectation. Mark well and take notice, it is worth your observation. Written by L.P.</title>
-         <author>L. P. (Laurence Price), fl. 1625-1680?</author>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Sicnarf Seloc [i.e. Francis Coles], in the year of the downfall of darke astrology. and are to be sold in country and city, by honest harmlesse people, that love England and 'its friends,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1652]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A.</note>
-         <note>Date of publication and printer's name from Wing.</note>
-         <note>L.P. = Laurence Price.</note>
-         <note>With a titlepage woodcut.</note>
-         <note>Annotation on Thomason copy: "[Illegible] 9 1652".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The astrologers bugg-beare being a briefe discription of many pitthy passages, which were brought to passe upon that day which the astrologers painted out for Black-Monday: whereby wee may all see and know that God's power is beyond mans expectation. Mark well and take notice, it is worth your observation. Written by L.P.</title>
+      <author>L. P. (Laurence Price), fl. 1625-1680?</author>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Sicnarf Seloc [i.e. Francis Coles]</persName>, in <placeName>the year of the downfall of darke astrology.</placeName> and are to be sold in <placeName>country</placeName> and city, by <persName type="printer">honest harmlesse people, that love England</persName> and <persName type="printer">'its friends</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1652]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A.</note>
+      <note>Date of publication and printer's name from Wing.</note>
+      <note>L.P. = Laurence Price.</note>
+      <note>With a titlepage woodcut.</note>
+      <note>Annotation on Thomason copy: "[Illegible] 9 1652".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sicnarf Seloc [i.e. Francis Coles]</persName>
+    </person>
+    <person type="printer">
+      <persName>'its friends</persName>
+    </person>
+    <person type="printer">
+      <persName>honest harmlesse people, that love England</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>country</placeName>
+    </place>
+    <place type="location">
+      <placeName>the year of the downfall of darke astrology.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

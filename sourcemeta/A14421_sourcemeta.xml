@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A iovrnall of all the proceedings of the duke of Buckingham his grace, in the isle of Ree, a part of France Whereunto is added the names of the French nobilitie that were slaine. Set forth by a gentleman of special note who was a spectator of all that hapned. Published by authoritie.</title>
-      </titleStmt>
-      <extent>[2, 14 [i.e. 16], [2], 19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by A. Mathewes] for Thomas Walkley, and are to be sold at his shop at the Eagle and Childe in Britaines-Bursse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Contains separate title page, with same imprint, reading: A continued iournal of all the proceedings of the duke of Buckingham: his Grace, in the isle of Ree, a part of France. In whom are combined religion, fortitude, and clemencie; being the true characters of a noble generall. Published by authoritie.</note>
-         <note>Includes: Receiued at Yorke-house. August 15. The relation of Mr. Garetson, master of the shippe called the Bread and Beere-pott of Horne in Holland, made and taken at Plimmouth the 12. of August 1627. by Sit Iames Bagge, knight, who reporteth the same as followeth, with caption title.</note>
-         <note>A variant, with additions to the title, of STC 24739.5.</note>
-         <note>Pages 6-7 repeated in number only.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A iovrnall of all the proceedings of the duke of Buckingham his grace, in the isle of Ree, a part of France Whereunto is added the names of the French nobilitie that were slaine. Set forth by a gentleman of special note who was a spectator of all that hapned. Published by authoritie.</title>
+    </titleStmt>
+    <extent>[2, 14 [i.e. 16], [2], 19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">A. Mathewes]</persName> for <persName type="publisher">Thomas Walkley</persName>, and are to be sold at <placeName>his shop at the Eagle</placeName> and Childe in <placeName>Britaines-Bursse</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Contains separate title page, with same imprint, reading: A continued iournal of all the proceedings of the duke of Buckingham: his Grace, in the isle of Ree, a part of France. In whom are combined religion, fortitude, and clemencie; being the true characters of a noble generall. Published by authoritie.</note>
+      <note>Includes: Receiued at Yorke-house. August 15. The relation of Mr. Garetson, master of the shippe called the Bread and Beere-pott of Horne in Holland, made and taken at Plimmouth the 12. of August 1627. by Sit Iames Bagge, knight, who reporteth the same as followeth, with caption title.</note>
+      <note>A variant, with additions to the title, of STC 24739.5.</note>
+      <note>Pages 6-7 repeated in number only.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Mathewes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Britaines-Bursse</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop at the Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

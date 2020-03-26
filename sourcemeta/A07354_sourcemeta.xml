@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mayers catechisme abridged. Or the A.B.C. inlarged With many necessary questions fitted vnto it, for the benefit of all that desire to teach or learne it effectually. A duty to which all wee of the Church of England are bound, it being generally appointed by authoritie.</title>
-         <author>Mayer, John, 1583-1664.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition made more compleat and perfect by the author.</edition>
-      </editionStmt>
-      <extent>[78] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. M[athewes] for I. M[arriot] and are to be sold by Iohn Grismand, at his shop in Pauls Alley, at the signe of the Gun,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Mayer.</note>
-         <note>Printer's and bookseller's name from STC.</note>
-         <note>Signatures: A-E (-E8, blank?).</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mayers catechisme abridged. Or the A.B.C. inlarged With many necessary questions fitted vnto it, for the benefit of all that desire to teach or learne it effectually. A duty to which all wee of the Church of England are bound, it being generally appointed by authoritie.</title>
+      <author>Mayer, John, 1583-1664.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition made more compleat and perfect by the author.</edition>
+    </editionStmt>
+    <extent>[78] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. M[athewes]</persName> for <persName type="publisher">I. M[arriot]</persName> and are to be sold by <persName type="bookseller">Iohn Grismand</persName>, at <placeName>his shop in Pauls Alley, at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Mayer.</note>
+      <note>Printer's and bookseller's name from STC.</note>
+      <note>Signatures: A-E (-E8, blank?).</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iohn Grismand</persName>
+    </person>
+    <person type="publisher">
+      <persName>I. M[arriot]</persName>
+    </person>
+    <person type="printer">
+      <persName>A. M[athewes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Alley, at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

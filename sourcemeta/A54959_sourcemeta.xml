@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The innocent mistress a comedy, as it was acted by His Majesty's servants at the theatre in Little-Lincolns-Inn-Fields / written by Mrs. Mary Pix.</title>
-         <author>Pix, Mary, 1666-1720.</author>
-         <author>Etherege, George, Sir, 1635?-1691. Man of mode.</author>
-      </titleStmt>
-      <extent>[5], 52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Orme, for R. Basset, and F. Cogan,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. 52.</note>
-         <note>Taken in part from Sir George Etherege's "The man of mode".</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The innocent mistress a comedy, as it was acted by His Majesty's servants at the theatre in Little-Lincolns-Inn-Fields / written by Mrs. Mary Pix.</title>
+      <author>Pix, Mary, 1666-1720.</author>
+      <author>Etherege, George, Sir, 1635?-1691. Man of mode.</author>
+    </titleStmt>
+    <extent>[5], 52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Orme</persName>, for <persName type="publisher">R. Basset</persName>, and <persName type="publisher">F. Cogan</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. 52.</note>
+      <note>Taken in part from Sir George Etherege's "The man of mode".</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Cogan</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Basset</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Orme</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

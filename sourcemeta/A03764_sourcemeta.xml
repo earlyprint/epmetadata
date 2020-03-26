@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A second sermon, preached at Paules Crosse, the 21. of May, 1598. vpon the 21. of Math. the 12. and 13. verses concluding a former sermon preached the 4. of December 1597. vpon the same text. By Iohn Hovvson, student of Christes-Church in Oxford.</title>
-         <author>Howson, John, 1557?-1632.</author>
-      </titleStmt>
-      <extent>[2], 52, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>By Arn. Hatfield for Thomas Adams, dwelling in Paules Churchyard, at the signe of the white Lion,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A sermon preached at Paules Crosse.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A second sermon, preached at Paules Crosse, the 21. of May, 1598. vpon the 21. of Math. the 12. and 13. verses concluding a former sermon preached the 4. of December 1597. vpon the same text. By Iohn Hovvson, student of Christes-Church in Oxford.</title>
+      <author>Howson, John, 1557?-1632.</author>
+    </titleStmt>
+    <extent>[2], 52, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Arn. Hatfield</persName> for <persName type="publisher">Thomas Adams</persName>, dwelling in <placeName>Paules Churchyard, at the signe of the white Lion</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A sermon preached at Paules Crosse.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Adams</persName>
+    </person>
+    <person type="printer">
+      <persName>Arn. Hatfield</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard, at the signe of the white Lion</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

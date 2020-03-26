@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Psalmes of David the king and prophet and of other holy prophets, paraphas'd [sic] in English: conferred with the Hebrew veritie, set forth by B. Arias Montanus, together with the Latine, Greek Septuagint, and Chaldee paraphrase. By R.B.</title>
-         <title>Bible. O.T. Psalms. English. Brathwait.</title>
-         <author>Brathwaite, Richard, 1588?-1673.</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-      </titleStmt>
-      <extent>[6], 300, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Young, for Francis Constable, and are to be sold at his shop under S. Martins Church neere Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.B. = Richard Brathwait.</note>
-         <note>In verse.</note>
-         <note>With an additional title page, engraved, signed by W[illiam]. M[arshall].: The Psalmes of Dauid the Kinge and of other holy prophets, paraphras'd by R.B. Esq[uire]. London printed for Francis Constable. 1638.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Psalmes of David the king and prophet and of other holy prophets, paraphas'd [sic] in English: conferred with the Hebrew veritie, set forth by B. Arias Montanus, together with the Latine, Greek Septuagint, and Chaldee paraphrase. By R.B.</title>
+      <title>Bible. O.T. Psalms. English. Brathwait.</title>
+      <author>Brathwaite, Richard, 1588?-1673.</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+    </titleStmt>
+    <extent>[6], 300, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Young</persName>, for <persName type="publisher">Francis Constable</persName>, and are to be sold at <placeName>his shop under S. Martins Church neere Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.B. = Richard Brathwait.</note>
+      <note>In verse.</note>
+      <note>With an additional title page, engraved, signed by W[illiam]. M[arshall].: The Psalmes of Dauid the Kinge and of other holy prophets, paraphras'd by R.B. Esq[uire]. London printed for Francis Constable. 1638.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Young</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under S. Martins Church neere Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

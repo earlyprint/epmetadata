@@ -1,16 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties gracious proclamation, for ordering the prosecution of all rebels and their ressetters, for holding justice-airs, and admitting rebels not heretors, to take the test, &amp;c.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed at Edinburgh by the heir of Andrew Anderson ... and re-printed at London, by John Darby ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties gracious proclamation, for ordering the prosecution of all rebels and their ressetters, for holding justice-airs, and admitting rebels not heretors, to take the test, &amp;c.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Edinburgh</placeName> by the heir of Andrew Anderson ... and re-printed at <placeName>London</placeName>, by <persName type="printer">John Darby</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Darby</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Andersonand re-printed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The deuotions of the dying man, that desireth to die well. Deuised and diuulged by Samuel Gardiner Doctor of Diuinitie, and minister of the Church of great St. Peters in Norwich</title>
-         <author>Gardiner, Samuel, b. 1563 or 4.</author>
-      </titleStmt>
-      <extent>[36], 411, [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Bill, printer to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some print show-through; title page stained; leaves T3,4 torn, with loss of print.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The deuotions of the dying man, that desireth to die well. Deuised and diuulged by Samuel Gardiner Doctor of Diuinitie, and minister of the Church of great St. Peters in Norwich</title>
+      <author>Gardiner, Samuel, b. 1563 or 4.</author>
+    </titleStmt>
+    <extent>[36], 411, [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Bill</persName>, printer to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some print show-through; title page stained; leaves T3,4 torn, with loss of print.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

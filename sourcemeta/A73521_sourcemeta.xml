@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The English vsurer; or Vsury condemned, by the most learned and famous diuines of the Church of England and dedicated to all his Maiesties subiects, for the stay of further increase of the same. Collected by Iohn Blaxton, preacher of Gods VVord at Osmington, in Dorcet-shire.</title>
-         <author>Blaxton, John.</author>
-      </titleStmt>
-      <extent>[16], 84 p. : bill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>printed by Iohn Norton, and are to bee sold by Iohn Long, in Dorchester,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>One of three imprint variants of this edition.</note>
-         <note>E1r catchword: 'weather'; a variant has quire E in different setting with E1r catchword: 'or'--STC.</note>
-         <note>Signatures: A⁴ a⁴ B-L⁴ M² .</note>
-         <note>Reproduction of original in the British Library, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The English vsurer; or Vsury condemned, by the most learned and famous diuines of the Church of England and dedicated to all his Maiesties subiects, for the stay of further increase of the same. Collected by Iohn Blaxton, preacher of Gods VVord at Osmington, in Dorcet-shire.</title>
+      <author>Blaxton, John.</author>
+    </titleStmt>
+    <extent>[16], 84 p. : bill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Iohn Norton</persName>, and are to bee sold by <persName type="bookseller">Iohn Long</persName>, in <placeName>Dorchester</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>One of three imprint variants of this edition.</note>
+      <note>E1r catchword: 'weather'; a variant has quire E in different setting with E1r catchword: 'or'--STC.</note>
+      <note>Signatures: A&#8308; a&#8308; B-L&#8308; M&#178; .</note>
+      <note>Reproduction of original in the British Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Iohn Long</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Dorchester</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The reward of the wicked preached in a sermon at Linfield in Sussex, and publi[she]d at the request of some welld[is]sed [sic] Christians / by Humphrey Everenden.</title>
-         <author>Everinden, Humphrey.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Iones for Robert Bird, and are to be sold at the signe of the Bible in Cheape-side,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A⁷.</note>
-         <note>Imperfect: cropped, stained and tightly bound, with some loss of print.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The reward of the wicked preached in a sermon at Linfield in Sussex, and publi[she]d at the request of some welld[is]sed [sic] Christians / by Humphrey Everenden.</title>
+      <author>Everinden, Humphrey.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Iones</persName> for <persName type="publisher">Robert Bird</persName>, and are to be sold at <placeName>the signe of the Bible in Cheape-side</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8311;.</note>
+      <note>Imperfect: cropped, stained and tightly bound, with some loss of print.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bird</persName>
+    </person>
+    <person type="printer">
+      <persName>William Iones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible in Cheape-side</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

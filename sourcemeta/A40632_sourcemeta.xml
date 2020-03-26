@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of faith and repentance by Francis Fuller ...</title>
-         <author>Fuller, Francis, 1637?-1701.</author>
-      </titleStmt>
-      <extent>[12], 131 [i.e. 145] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. and are to be sold by Jonathan Robinson ... and by Obed Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on p. 65: A discourse of self-denial, being an appendix to The treatise of faith.</note>
-         <note>Caption title on p. 65 [i.e. 77]: A treatise of repentance.</note>
-         <note>Errata: p. [11].</note>
-         <note>Advertisements: p. [12].</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of faith and repentance by Francis Fuller ...</title>
+      <author>Fuller, Francis, 1637?-1701.</author>
+    </titleStmt>
+    <extent>[12], 131 [i.e. 145] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> and are to be sold by <persName type="bookseller">Jonathan Robinson</persName> ... and by <persName type="bookseller">Obed Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on p. 65: A discourse of self-denial, being an appendix to The treatise of faith.</note>
+      <note>Caption title on p. 65 [i.e. 77]: A treatise of repentance.</note>
+      <note>Errata: p. [11].</note>
+      <note>Advertisements: p. [12].</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Obed Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

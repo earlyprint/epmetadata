@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A moral and pitieful comedie, intituled, All for money. Plainly representing the maners of men, and fashion of the world noweadayes. Compiled by T. Lupton  ...</title>
-         <title>All for money</title>
-         <author>Lupton, Thomas.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Warde and Richard Mundee, dwelling at Temple Barre,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>Anno 1578.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-E⁴.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A moral and pitieful comedie, intituled, All for money. Plainly representing the maners of men, and fashion of the world noweadayes. Compiled by T. Lupton  ...</title>
+      <title>All for money</title>
+      <author>Lupton, Thomas.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Warde</persName> and <persName type="printer">Richard Mundee</persName>, dwelling at <placeName>Temple Barre</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>Anno 1578.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-E&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Mundee</persName>
+    </person>
+    <person type="printer">
+      <persName>Roger Warde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Temple Barre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

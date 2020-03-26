@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christian against the Iesuite Wherein the secrete or namelesse writer of a pernitious booke, intituled A discouerie of I. Nicols minister &amp;c. priuily printed, couertly cast abrod, and secretely solde, is not only iustly reprooued: but also a booke, dedicated to the Queenes Maiestie, called A persuasion from papistrie, therein derided and falsified, is defended by Thomas Lupton the authour thereof. Reade with aduisement, and iudge vprightly: and be affectioned only to truth. Seene and allowed.</title>
-         <author>Lupton, Thomas.</author>
-      </titleStmt>
-      <extent>[10], 99, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>[By Thomas Dawson] for Thomas Woodcocke dwelling in Paules Church yard, at the signe of the blacke Beare,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1582.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Lupton.</note>
-         <note>Printer's name from colophon.</note>
-         <note>With a final colophon leaf.</note>
-         <note>"A Discouerie of I. Nicols" (STC 19402) is by Robert Parsons.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christian against the Iesuite Wherein the secrete or namelesse writer of a pernitious booke, intituled A discouerie of I. Nicols minister &amp;c. priuily printed, couertly cast abrod, and secretely solde, is not only iustly reprooued: but also a booke, dedicated to the Queenes Maiestie, called A persuasion from papistrie, therein derided and falsified, is defended by Thomas Lupton the authour thereof. Reade with aduisement, and iudge vprightly: and be affectioned only to truth. Seene and allowed.</title>
+      <author>Lupton, Thomas.</author>
+    </titleStmt>
+    <extent>[10], 99, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Thomas Dawson]</persName> for <persName type="publisher">Thomas Woodcocke</persName> dwelling in <placeName>Paules Church yard, at the signe of the blacke Beare</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1582.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Lupton.</note>
+      <note>Printer's name from colophon.</note>
+      <note>With a final colophon leaf.</note>
+      <note>"A Discouerie of I. Nicols" (STC 19402) is by Robert Parsons.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Woodcocke</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yard, at the signe of the blacke Beare</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[A] true account of what was done by a Church of Christ in Exon (whereof Mr. Lewis Stucley is pastor) the eighth day of March, 1657. when two members thereof were excommunicated. Together with the judgement of the non-conformists in the dayes of Q. Elizabeth, and K. Iames, concerning excommunication by a particular church. [Pu]blished by an eye abd ear-witness.</title>
-         <author>Mall, Thomas, b. 1629 or 30.</author>
-      </titleStmt>
-      <extent>[10], 94 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R.W. for Matthew Keinton, at the Fountain in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The Epistle" signed: Thomas Mall.</note>
-         <note>Imperfect; C1 (pp. 23-24) lacking.</note>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[A] true account of what was done by a Church of Christ in Exon (whereof Mr. Lewis Stucley is pastor) the eighth day of March, 1657. when two members thereof were excommunicated. Together with the judgement of the non-conformists in the dayes of Q. Elizabeth, and K. Iames, concerning excommunication by a particular church. [Pu]blished by an eye abd ear-witness.</title>
+      <author>Mall, Thomas, b. 1629 or 30.</author>
+    </titleStmt>
+    <extent>[10], 94 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.W.</persName> for <persName type="publisher">Matthew Keinton</persName>, at <placeName>the Fountain in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The Epistle" signed: Thomas Mall.</note>
+      <note>Imperfect; C1 (pp. 23-24) lacking.</note>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Keinton</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Fountain in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

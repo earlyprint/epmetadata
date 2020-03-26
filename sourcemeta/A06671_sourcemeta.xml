@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of the passages of our English companies from time to time, since their first departure from England to the parts of Germanie, and the vnited Provinces. Sent from Frankendale in Germanie, by a souldier of those colonels, to his worshipfull friends here in England.</title>
-         <author>A. M., fl. 1621.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde] for Henry Gosson,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signed at end: A.M.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of the passages of our English companies from time to time, since their first departure from England to the parts of Germanie, and the vnited Provinces. Sent from Frankendale in Germanie, by a souldier of those colonels, to his worshipfull friends here in England.</title>
+      <author>A. M., fl. 1621.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">Henry Gosson</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signed at end: A.M.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Gosson</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A rich store-house or treasury for the diseased Wherein, are many approued medicines for diuers and sundry diseases, which haue been long hidden, and not come to light before this time. Now set foorth for the great benefit and comfort of the poorer sort of people that are not of abilitie to go to the physitions. By A.T.</title>
-         <author>A. T., practitioner in physicke.</author>
-      </titleStmt>
-      <extent>[10], 66 leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Purfoot 2] for Thomas Purfoot [1], and Raph Blower,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>Ann. 1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A rich store-house or treasury for the diseased Wherein, are many approued medicines for diuers and sundry diseases, which haue been long hidden, and not come to light before this time. Now set foorth for the great benefit and comfort of the poorer sort of people that are not of abilitie to go to the physitions. By A.T.</title>
+      <author>A. T., practitioner in physicke.</author>
+    </titleStmt>
+    <extent>[10], 66 leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Purfoot 2]</persName> for <persName type="publisher">Thomas Purfoot [1]</persName>, and <persName type="publisher">Raph Blower</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>Ann. 1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Raph Blower</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Purfoot [1]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoot 2]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

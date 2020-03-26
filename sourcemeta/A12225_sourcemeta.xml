@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The defence of poesie. By Sir Phillip Sidney, Knight</title>
-         <title>Defence of poetry</title>
-         <author>Sidney, Philip, Sir, 1554-1586.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Creede] for VVilliam Ponsonby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1595.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The first authorized edition.--STC.</note>
-         <note>Signatures: [A]²  B-I⁴ K² .</note>
-         <note>Reproductions of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The defence of poesie. By Sir Phillip Sidney, Knight</title>
+      <title>Defence of poetry</title>
+      <author>Sidney, Philip, Sir, 1554-1586.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Creede]</persName> for <persName type="publisher">VVilliam Ponsonby</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1595.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The first authorized edition.--STC.</note>
+      <note>Signatures: [A]&#178;  B-I&#8308; K&#178; .</note>
+      <note>Reproductions of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>VVilliam Ponsonby</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

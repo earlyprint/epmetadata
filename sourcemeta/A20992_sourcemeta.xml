@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The art of warre, or Militarie discourses of leavying, marching, encamping; and embattailing an armie. Of building, defending, and expugning forts and fortified cities. Of ordinance, petards, and fireworks. Of the severall duties of officers, and souldiers. Of the Grecian, and Romane militia, and forming of battaillons; &amp;c. By the Lord of Praissac. Englished by I.C.</title>
-         <title>Discours militaires. English</title>
-         <author>Du Praissac, Sieur.</author>
-         <author>Cruso, John, d. 1681.</author>
-      </titleStmt>
-      <extent>[10], 202; [4], 8 p., woodcut diagram : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Daniel, printer to that famous Universitie. And are to be sold by Iohn Williams at the Crane in Pauls church-yard in London,</publisher>
-         <pubPlace>Cambridge :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by John Cruso, of: Du Praissac.  Les discours militaires.</note>
-         <note>"A short method for the easie resolving of any militarie question propounded" has separate dated title page and pagination; register is continuous.</note>
-         <note>A woodcut diagram is inserted after leaf L1.</note>
-         <note>Another issue, with cancel title page, of STC 7365.8; an imprint variant of STC 7365.9.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The art of warre, or Militarie discourses of leavying, marching, encamping; and embattailing an armie. Of building, defending, and expugning forts and fortified cities. Of ordinance, petards, and fireworks. Of the severall duties of officers, and souldiers. Of the Grecian, and Romane militia, and forming of battaillons; &amp;c. By the Lord of Praissac. Englished by I.C.</title>
+      <title>Discours militaires. English</title>
+      <author>Du Praissac, Sieur.</author>
+      <author>Cruso, John, d. 1681.</author>
+    </titleStmt>
+    <extent>[10], 202; [4], 8 p., woodcut diagram : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Daniel</persName>, printer to <persName type="patron">that famous Universitie. And</persName> are to be sold by <persName type="bookseller">Iohn Williams</persName> at <placeName>the Crane in Pauls church-yard in London</placeName>,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by John Cruso, of: Du Praissac.  Les discours militaires.</note>
+      <note>"A short method for the easie resolving of any militarie question propounded" has separate dated title page and pagination; register is continuous.</note>
+      <note>A woodcut diagram is inserted after leaf L1.</note>
+      <note>Another issue, with cancel title page, of STC 7365.8; an imprint variant of STC 7365.9.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>that famous Universitie. And</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>Roger Daniel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crane in Pauls church-yard in London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

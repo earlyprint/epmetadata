@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Memoires of the affairs of France during the reign of the present king Lewis the XIV. Containing the most noted exploits of the now Prince of Condé, the late Mareschal de Turenne, and all the chief commanders in the French armies. Done out of French. Licensed May the 10th, 1675. Roger L'Estrange.</title>
-         <author>J. W.</author>
-      </titleStmt>
-      <extent>[8], 143, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.C. for T. Dring, at the Harrow at the corner of Chancery-lane in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The translator's 'Advertisement' is signed: J.W.</note>
-         <note>Translator's 'Advertisement' (A2r):  "This brief account of many great actions, translated out of the French history reduite en sommaire ...".</note>
-         <note>Original French title not traced.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Memoires of the affairs of France during the reign of the present king Lewis the XIV. Containing the most noted exploits of the now Prince of Cond&#233;, the late Mareschal de Turenne, and all the chief commanders in the French armies. Done out of French. Licensed May the 10th, 1675. Roger L'Estrange.</title>
+      <author>J. W.</author>
+    </titleStmt>
+    <extent>[8], 143, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.C.</persName> for <persName type="publisher">T. Dring</persName>, at <placeName>the Harrow at the corner of Chancery-lane in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The translator's 'Advertisement' is signed: J.W.</note>
+      <note>Translator's 'Advertisement' (A2r):  "This brief account of many great actions, translated out of the French history reduite en sommaire ...".</note>
+      <note>Original French title not traced.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Harrow at the corner of Chancery-lane in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

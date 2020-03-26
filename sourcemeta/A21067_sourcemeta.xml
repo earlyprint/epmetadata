@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from a souldier of good place in Ireland, to his friend in London touching the notable victorie of her Maiesties forces there, against the Spaniards, and Irish rebels: and of the yeelding vp of Kynsale, and other places there held by the Spanyards.</title>
-         <author>I. E., fl. 1602.</author>
-      </titleStmt>
-      <extent>[2], 25, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by T. Creede?] for Symon Waterson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on D3r: I.E.; a variant has 'J.E.'.</note>
-         <note>Sometimes attributed to John Egerton, later Earl of Bridgewater.--STC.</note>
-         <note>Printer's name conjectured by STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from a souldier of good place in Ireland, to his friend in London touching the notable victorie of her Maiesties forces there, against the Spaniards, and Irish rebels: and of the yeelding vp of Kynsale, and other places there held by the Spanyards.</title>
+      <author>I. E., fl. 1602.</author>
+    </titleStmt>
+    <extent>[2], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">T. Creede?]</persName> for <persName type="publisher">Symon Waterson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on D3r: I.E.; a variant has 'J.E.'.</note>
+      <note>Sometimes attributed to John Egerton, later Earl of Bridgewater.--STC.</note>
+      <note>Printer's name conjectured by STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Symon Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Creede?]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

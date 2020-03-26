@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The schoole-masters auxiliaries, to remove the barbarians siege from Athens; advanced under two guides The first, leading by rule and reason to read and write English dexterously. The second, asserting the Latine tongue in prose and verse, to its just inlargement, splendor, and elegancy.</title>
-         <author>Lloyd, Richard, 1594 or 5-1659.</author>
-      </titleStmt>
-      <extent>[4], 34, [4], 37-54 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.R. for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Lloyd.</note>
-         <note>With an initial errata leaf.</note>
-         <note>Text is continuous despite pagination.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The schoole-masters auxiliaries, to remove the barbarians siege from Athens; advanced under two guides The first, leading by rule and reason to read and write English dexterously. The second, asserting the Latine tongue in prose and verse, to its just inlargement, splendor, and elegancy.</title>
+      <author>Lloyd, Richard, 1594 or 5-1659.</author>
+    </titleStmt>
+    <extent>[4], 34, [4], 37-54 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.R.</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Lloyd.</note>
+      <note>With an initial errata leaf.</note>
+      <note>Text is continuous despite pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

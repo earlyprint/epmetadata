@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The demonstration of Antichrist. By Edmund Gurnay, Bach. Theol. p. of Harpley Norfolke</title>
-         <author>Gurnay, Edmund, d. 1648.</author>
-      </titleStmt>
-      <extent>[6], 28, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] B[eale] for Iames Boler, and are to be sold at the signe of the Marigold in Pauls Churchyard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A¹²  B⁶.</note>
-         <note>Running title reads: Ecce Antichristum.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Tightly bound.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The demonstration of Antichrist. By Edmund Gurnay, Bach. Theol. p. of Harpley Norfolke</title>
+      <author>Gurnay, Edmund, d. 1648.</author>
+    </titleStmt>
+    <extent>[6], 28, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] B[eale]</persName> for <persName type="publisher">Iames Boler</persName>, and are to be sold at <placeName>the signe of the Marigold in Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A&#185;&#178;  B&#8310;.</note>
+      <note>Running title reads: Ecce Antichristum.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Tightly bound.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iames Boler</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] B[eale]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Marigold in Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

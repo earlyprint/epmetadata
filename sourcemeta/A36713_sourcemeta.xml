@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The wild gallant a comedy : as it was acted at the Theater-Royal by His Majesties servants / written by John Dryden, esq.</title>
-         <author>Dryden, John, 1631-1700.</author>
-      </titleStmt>
-      <extent>[8], 78 [i.e. 70], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb for H. Herringman ...,</publisher>
-         <pubPlace>[London] In the Savoy :</pubPlace>
-         <date>1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Error in paging: p. 49-56 omitted.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The wild gallant a comedy : as it was acted at the Theater-Royal by His Majesties servants / written by John Dryden, esq.</title>
+      <author>Dryden, John, 1631-1700.</author>
+    </titleStmt>
+    <extent>[8], 78 [i.e. 70], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName> for <persName type="publisher">H. Herringman</persName> ...,</publisher>
+      <pubPlace>[London] In the Savoy :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Error in paging: p. 49-56 omitted.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Herringman</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

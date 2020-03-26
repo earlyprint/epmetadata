@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the honourable society of the natives of the county of Kent, Novemb. the 17th. 1698, at St. Mary le Bow, London by John Peter, D.D. ...</title>
-         <author>Petter, John, 1661 or 2-1700.</author>
-      </titleStmt>
-      <extent>[4], 24 [ie. 26] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Dawks, for J. Back ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of originals in Huntington Library and Duke University Library.</note>
-         <note>Advertisement: p. 24.</note>
-         <note>Errata: p. 24.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the honourable society of the natives of the county of Kent, Novemb. the 17th. 1698, at St. Mary le Bow, London by John Peter, D.D. ...</title>
+      <author>Petter, John, 1661 or 2-1700.</author>
+    </titleStmt>
+    <extent>[4], 24 [ie. 26] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Dawks</persName>, for <persName type="publisher">J. Back</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of originals in Huntington Library and Duke University Library.</note>
+      <note>Advertisement: p. 24.</note>
+      <note>Errata: p. 24.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Back</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Dawks</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

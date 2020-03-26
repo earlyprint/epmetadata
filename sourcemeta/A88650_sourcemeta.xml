@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The freedom of preaching or Spiritual gifts defended: proving that all men endowed with gifts and abilities may teach and preach the Word of God. By D. Lupton, servant of Jesus Christ in the work of the Gospel.</title>
-         <author>Lupton, Donald, d. 1676.</author>
-      </titleStmt>
-      <extent>[2], 29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R.W. for R. Harford, at the Bible and States Arms in Little-Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "August. 16.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The freedom of preaching or Spiritual gifts defended: proving that all men endowed with gifts and abilities may teach and preach the Word of God. By D. Lupton, servant of Jesus Christ in the work of the Gospel.</title>
+      <author>Lupton, Donald, d. 1676.</author>
+    </titleStmt>
+    <extent>[2], 29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.W.</persName> for <persName type="publisher">R. Harford</persName>, at <placeName>the Bible</placeName> and <persName type="publisher">States Arms</persName> in <placeName>Little-Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "August. 16.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Harford</persName>
+    </person>
+    <person type="publisher">
+      <persName>States Arms</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little-Brittain</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

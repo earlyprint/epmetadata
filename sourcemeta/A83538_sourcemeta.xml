@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Jovis, 8 Novembr. 1649. Two orders of Parliament the one, referring to the Councel of State, to give ten pounds to every one who shall bring in a high-way-man; the other, referring to the said Councel to give reprieves to persons guilty of robberies, if they shall discover any of their accomplices.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field for Edward Husband, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing.</note>
-         <note>A variant of the edition lacking caption title (Wing E2269).</note>
-         <note>Signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Jovis, 8 Novembr. 1649. Two orders of Parliament the one, referring to the Councel of State, to give ten pounds to every one who shall bring in a high-way-man; the other, referring to the said Councel to give reprieves to persons guilty of robberies, if they shall discover any of their accomplices.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName> for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing.</note>
+      <note>A variant of the edition lacking caption title (Wing E2269).</note>
+      <note>Signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

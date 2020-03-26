@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plain discourse upon uprightness shewing the properties and priviledges of an upright man / by Richard Steele ...</title>
-         <author>Steele, Richard, 1629-1692.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[15], 176 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E. Calvert, and are to be sold by John Williamson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plain discourse upon uprightness shewing the properties and priviledges of an upright man / by Richard Steele ...</title>
+      <author>Steele, Richard, 1629-1692.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[15], 176 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E. Calvert</persName>, and are to be sold by <persName type="bookseller">John Williamson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Williamson</persName>
+    </person>
+    <person type="publisher">
+      <persName>E. Calvert</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

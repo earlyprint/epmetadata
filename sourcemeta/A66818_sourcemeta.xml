@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short collection of the most remarkable passages from the originall to the dissolution of the Virgina company</title>
-         <author>Woodnoth, Arthur, 1590?-1650?</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Prin[t]ed by Richard Cotes for Edward Husband ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Attributed to Arthur Woodnoth. cf. NUC pre-1956.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short collection of the most remarkable passages from the originall to the dissolution of the Virgina company</title>
+      <author>Woodnoth, Arthur, 1590?-1650?</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Prin[t]ed by <persName type="printer">Richard Cotes</persName> for <persName type="publisher">Edward Husband</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Attributed to Arthur Woodnoth. cf. NUC pre-1956.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

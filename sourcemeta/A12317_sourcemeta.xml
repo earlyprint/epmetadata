@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Great Britanie from the first peopling of this island to this present raigne of or [sic] happy and peacefull monarke K: Iames, by Will: Slatyer.</title>
-         <author>Slatyer, William, 1587-1647.</author>
-      </titleStmt>
-      <extent>[24], 303, [17] p. : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by W: Stansby, for Rich: Meighen, and are to be sold at his shop at St. Clements Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1621]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Parallel Latin and English texts.</note>
-         <note>The title page is engraved.</note>
-         <note>Publication date from colophon, which is usually lacking.</note>
-         <note>The first leaf contains a verse explanation of the title page.</note>
-         <note>Running title reads: Palæ-Albion. ..</note>
-         <note>Includes index.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Leaves [par.]6-2[par.]6 bound at end; lacking colophon.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Great Britanie from the first peopling of this island to this present raigne of or [sic] happy and peacefull monarke K: Iames, by Will: Slatyer.</title>
+      <author>Slatyer, William, 1587-1647.</author>
+    </titleStmt>
+    <extent>[24], 303, [17] p. : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W: Stansby</persName>, for <persName type="publisher">Rich: Meighen</persName>, and are to be sold at <placeName>his shop at St. Clements Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1621]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Parallel Latin and English texts.</note>
+      <note>The title page is engraved.</note>
+      <note>Publication date from colophon, which is usually lacking.</note>
+      <note>The first leaf contains a verse explanation of the title page.</note>
+      <note>Running title reads: Pal&#230;-Albion. ..</note>
+      <note>Includes index.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Leaves [par.]6-2[par.]6 bound at end; lacking colophon.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rich: Meighen</persName>
+    </person>
+    <person type="printer">
+      <persName>W: Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at St. Clements Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

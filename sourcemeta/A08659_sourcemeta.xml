@@ -1,26 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ouid's Metamorphosis Englished by G.S.</title>
-         <title>Metamorphoses. English</title>
-         <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
-         <author>Sandys, George, 1578-1644.</author>
-      </titleStmt>
-      <extent>[26], 336, 347-445, [19] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Young are [sic] to be sold by I. Grismond,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's dedication signed: George Sandys.</note>
-         <note>An unauthorized edition.</note>
-         <note>The title page is engraved.</note>
-         <note>With a preliminary leaf of verses describing the title page.</note>
-         <note>Includes index.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ouid's Metamorphosis Englished by G.S.</title>
+      <title>Metamorphoses. English</title>
+      <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+      <author>Sandys, George, 1578-1644.</author>
+    </titleStmt>
+    <extent>[26], 336, 347-445, [19] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Young</persName> are [sic] to be sold by <persName type="bookseller">I. Grismond</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's dedication signed: George Sandys.</note>
+      <note>An unauthorized edition.</note>
+      <note>The title page is engraved.</note>
+      <note>With a preliminary leaf of verses describing the title page.</note>
+      <note>Includes index.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>I. Grismond</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Young</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

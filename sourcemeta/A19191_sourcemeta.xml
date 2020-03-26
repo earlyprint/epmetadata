@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of Philip de Commines Knight, Lord of Argenton</title>
-         <title>Mémoires. English</title>
-         <author>Commynes, Philippe de, ca. 1447-1511.</author>
-         <author>Danett, Thomas, fl. 1566-1601.</author>
-      </titleStmt>
-      <extent>[16], 396, [2] p. : geneal. charts  </extent>
-      <publicationStmt>
-         <publisher>By Ar. Hatfield, for I. Norton,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of his "Mémoires".</note>
-         <note>Translator's dedication signed: Thomas Danett.</note>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of Philip de Commines Knight, Lord of Argenton</title>
+      <title>M&#233;moires. English</title>
+      <author>Commynes, Philippe de, ca. 1447-1511.</author>
+      <author>Danett, Thomas, fl. 1566-1601.</author>
+    </titleStmt>
+    <extent>[16], 396, [2] p. : geneal. charts  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ar. Hatfield</persName>, for <persName type="publisher">I. Norton</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of his "M&#233;moires".</note>
+      <note>Translator's dedication signed: Thomas Danett.</note>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Ar. Hatfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

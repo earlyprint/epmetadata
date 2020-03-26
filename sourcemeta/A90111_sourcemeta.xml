@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ode made on the welcome news of the safe arrival and kind reception of the Scottish colony at Darien in America</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by James Watson in Craig's close,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Now is the time for Thanks and Praise;".</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ode made on the welcome news of the safe arrival and kind reception of the Scottish colony at Darien in America</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">James Watson</persName> in <placeName>Craig's close</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Now is the time for Thanks and Praise;".</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>James Watson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Craig's close</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

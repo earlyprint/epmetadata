@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the Lords supper in two sermons.</title>
-         <author>Smith, Henry, 1550?-1591.</author>
-      </titleStmt>
-      <extent>[2], 102 p.   </extent>
-      <publicationStmt>
-         <publisher>By R. Field for Thomas Man, dwelling in Paternoster row, at the signe of the Talbot,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1591.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Henry Smith.</note>
-         <note>Identified as STC 22705a on UMI microfilm reel 669.</note>
-         <note>Folger Shakespeare Library copy imperfect; leaves D8 and G4 lacking.</note>
-         <note>Reproductions of the originals in the Folger Shakespeare Library and the British Library.</note>
-         <note>Appears at reel 669 #3 (Folger Shakespeare Library copy; identified as STC 22705a), and at reel 1693 #9 (British Library copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the Lords supper in two sermons.</title>
+      <author>Smith, Henry, 1550?-1591.</author>
+    </titleStmt>
+    <extent>[2], 102 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">R. Field</persName> for <persName type="publisher">Thomas Man</persName>, dwelling in <placeName>Paternoster row, at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1591.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Henry Smith.</note>
+      <note>Identified as STC 22705a on UMI microfilm reel 669.</note>
+      <note>Folger Shakespeare Library copy imperfect; leaves D8 and G4 lacking.</note>
+      <note>Reproductions of the originals in the Folger Shakespeare Library and the British Library.</note>
+      <note>Appears at reel 669 #3 (Folger Shakespeare Library copy; identified as STC 22705a), and at reel 1693 #9 (British Library copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paternoster row, at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

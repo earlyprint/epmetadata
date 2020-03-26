@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Another ballad called the libertines lampoone, or, The curvets of conscience to the tune of Thomas Varner, or 60 / written by the authour of the Geneva Ballad.</title>
-         <author>Butler, Samuel, 1612-1680.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for F.K. and Edward Thomas, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Geneva ballad "attributed to Samuel Butler"--NUC pre-1956 imprints.</note>
-         <note>Reproductions of originals in Chetham's Library and British Library.</note>
-         <note>Identified as B601 in reel guide; in Wing (CD-ROM, 1996) as A3249.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Another ballad called the libertines lampoone, or, The curvets of conscience to the tune of Thomas Varner, or 60 / written by the authour of the Geneva Ballad.</title>
+      <author>Butler, Samuel, 1612-1680.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F.K.</persName> and <persName type="publisher">Edward Thomas</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Geneva ballad "attributed to Samuel Butler"--NUC pre-1956 imprints.</note>
+      <note>Reproductions of originals in Chetham's Library and British Library.</note>
+      <note>Identified as B601 in reel guide; in Wing (CD-ROM, 1996) as A3249.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Thomas</persName>
+    </person>
+    <person type="publisher">
+      <persName>F.K.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

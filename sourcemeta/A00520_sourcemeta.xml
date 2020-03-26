@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heauenly meditations vpon the publicans prayer</title>
-         <author>T. F., fl. 1606.</author>
-      </titleStmt>
-      <extent>[4], 35, [6] leaves : 16#20.  </extent>
-      <publicationStmt>
-         <publisher>Printed by I. R[oberts] for Iohn Flasket,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: T.F.</note>
-         <note>The dedication by T.F. indicates he is not the author--STC.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heauenly meditations vpon the publicans prayer</title>
+      <author>T. F., fl. 1606.</author>
+    </titleStmt>
+    <extent>[4], 35, [6] leaves : 16#20.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. R[oberts]</persName> for <persName type="publisher">Iohn Flasket</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: T.F.</note>
+      <note>The dedication by T.F. indicates he is not the author--STC.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Flasket</persName>
+    </person>
+    <person type="printer">
+      <persName>I. R[oberts]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

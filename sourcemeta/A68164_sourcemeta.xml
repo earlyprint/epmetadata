@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Articles accorded for the truce generall in France. Faythfully translated out of the French coppy; printed by Fredericke Morel: ordinarye printer to the King</title>
-         <author>France. Sovereign (1589-1610 : Henry IV)</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Wolfe for Andrew White, and are to be solde at the signe of the Gunne, at the little North doore of Paules,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1593.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>31 July 1593.--STC.</note>
-         <note>Formerly STC 11257.</note>
-         <note>Identified as STC 11257 on UMI microfilm, reel 567.</note>
-         <note>Some print show-through.</note>
-         <note>Reproductions of the original in the British Library (same copy filmed twice).</note>
-         <note>Appears at reel 567 #8, and at reel 839 #5 (British Library copy, filmed twice).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Articles accorded for the truce generall in France. Faythfully translated out of the French coppy; printed by Fredericke Morel: ordinarye printer to the King</title>
+      <author>France. Sovereign (1589-1610 : Henry IV)</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Wolfe</persName> for <persName type="publisher">Andrew White</persName>, and are to be solde at <placeName>the signe of the Gunne, at the little North doore of Paules</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1593.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>31 July 1593.--STC.</note>
+      <note>Formerly STC 11257.</note>
+      <note>Identified as STC 11257 on UMI microfilm, reel 567.</note>
+      <note>Some print show-through.</note>
+      <note>Reproductions of the original in the British Library (same copy filmed twice).</note>
+      <note>Appears at reel 567 #8, and at reel 839 #5 (British Library copy, filmed twice).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew White</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Wolfe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Gunne, at the little North doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

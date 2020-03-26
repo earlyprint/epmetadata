@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Thursday November 15. 1660. Resolved and declared by the Commons assembled in Parliament, that the priviledge of this House, in point of protection from arrests doth belong to the Members of the House, and their menial servants onely, ...</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill, Printer to the King's most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Signed: W. Jessop, clerk of the Commons House of Parliament.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Thursday November 15. 1660. Resolved and declared by the Commons assembled in Parliament, that the priviledge of this House, in point of protection from arrests doth belong to the Members of the House, and their menial servants onely, ...</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName>, Printer to <persName type="patron">the King's most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Signed: W. Jessop, clerk of the Commons House of Parliament.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the King's most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of vsurie diuided into three bookes: the first defineth what is vsurie. The second determineth that to be vnlawfull. The third remoueth such motiues as perswade men in this age that it may be lawfull. By Robert Fenton Bachelar of Diuinitie.</title>
-         <author>Fenton, Roger, 1565-1616.</author>
-      </titleStmt>
-      <extent>[16], 155, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for VVilliam Aspley,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of vsurie diuided into three bookes: the first defineth what is vsurie. The second determineth that to be vnlawfull. The third remoueth such motiues as perswade men in this age that it may be lawfull. By Robert Fenton Bachelar of Diuinitie.</title>
+      <author>Fenton, Roger, 1565-1616.</author>
+    </titleStmt>
+    <extent>[16], 155, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">VVilliam Aspley</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>VVilliam Aspley</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

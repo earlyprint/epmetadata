@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of ciuill life containing the ethike part of morall philosophie. Fit for the instructing of a gentleman in the course of a vertuous life. By Lod: Br.</title>
-         <author>Bryskett, Lodowick.</author>
-         <author>Giraldi, Giambattista Cinzio, 1504-1573. Ecatommiti. VIII.5.</author>
-      </titleStmt>
-      <extent>[6], 103, 106-279, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Field] for Edvvard Blount,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Lod: Br. = Lodowick Bryskett.</note>
-         <note>Based on "Tre dialoghi della vita civille" by Giambattista Cinzio Giraldi, first published as part 2 of his "De gli hecatommithi".</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of ciuill life containing the ethike part of morall philosophie. Fit for the instructing of a gentleman in the course of a vertuous life. By Lod: Br.</title>
+      <author>Bryskett, Lodowick.</author>
+      <author>Giraldi, Giambattista Cinzio, 1504-1573. Ecatommiti. VIII.5.</author>
+    </titleStmt>
+    <extent>[6], 103, 106-279, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Field]</persName> for <persName type="publisher">Edvvard Blount</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Lod: Br. = Lodowick Bryskett.</note>
+      <note>Based on "Tre dialoghi della vita civille" by Giambattista Cinzio Giraldi, first published as part 2 of his "De gli hecatommithi".</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edvvard Blount</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands looking in and out Presented to the High Court of Parliament now assembled. By the author R.M. Knight.</title>
-         <author>Maddison, Ralph, Sir.</author>
-      </titleStmt>
-      <extent>[8], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Badger for H. Mosley, and are to be sold at his shop at the Princes Armes in Saint Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.M. = Ralph Maddison, whose name appears on a3r.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproductions of the original in the British Library.</note>
-         <note>Appears at UMI microfilm "Early English books, 1475-1640" reel 850 and at UMI microfilm "Early English books, 1641-1700" reel 260 (same copy filmed twice).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands looking in and out Presented to the High Court of Parliament now assembled. By the author R.M. Knight.</title>
+      <author>Maddison, Ralph, Sir.</author>
+    </titleStmt>
+    <extent>[8], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Badger</persName> for <persName type="publisher">H. Mosley</persName>, and are to be sold at <placeName>his shop at the Princes Armes in Saint Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.M. = Ralph Maddison, whose name appears on a3r.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproductions of the original in the British Library.</note>
+      <note>Appears at UMI microfilm "Early English books, 1475-1640" reel 850 and at UMI microfilm "Early English books, 1641-1700" reel 260 (same copy filmed twice).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Mosley</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Badger</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Princes Armes in Saint Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

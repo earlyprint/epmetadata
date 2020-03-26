@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vvorming of a mad dogge: or, A soppe for Cerberus the iaylor of Hell No confutation but a sharpe redargution of the bayter of women. By Constantia Munda</title>
-         <author>Munda, Constantia.</author>
-      </titleStmt>
-      <extent>[8], 35, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by George Purslowe] for Laurence Hayes, and are to be sold at his shop neere Fleet-bridge, ouer against St. Brides Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1617.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Constantia Munda is a pseudonym.</note>
-         <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
-         <note>Running title reads: The worming of a madde dogge.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vvorming of a mad dogge: or, A soppe for Cerberus the iaylor of Hell No confutation but a sharpe redargution of the bayter of women. By Constantia Munda</title>
+      <author>Munda, Constantia.</author>
+    </titleStmt>
+    <extent>[8], 35, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">George Purslowe]</persName> for <persName type="publisher">Laurence Hayes</persName>, and are to be sold at <placeName>his shop neere Fleet-bridge, ouer against St. Brides Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1617.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Constantia Munda is a pseudonym.</note>
+      <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
+      <note>Running title reads: The worming of a madde dogge.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Laurence Hayes</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Fleet-bridge, ouer against St. Brides Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The careles shepherdess a tragi-comedy acted before the King &amp; Queen, and at Salisbury-Court, with great applause / written by T.G. ; with an alphebeticall catologue of all such plays that ever were printed.</title>
-         <author>Goffe, Thomas, 1591-1629.</author>
-      </titleStmt>
-      <extent>76, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Rogers and William Ley, and are to be sould at Pauls Chaine ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"An exact and perfect catologue of all playes that are printed": p. [1]-[6] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The careles shepherdess a tragi-comedy acted before the King &amp; Queen, and at Salisbury-Court, with great applause / written by T.G. ; with an alphebeticall catologue of all such plays that ever were printed.</title>
+      <author>Goffe, Thomas, 1591-1629.</author>
+    </titleStmt>
+    <extent>76, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Rogers</persName> and <persName type="publisher">William Ley</persName>, and are to be sould at <placeName>Pauls Chaine</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"An exact and perfect catologue of all playes that are printed": p. [1]-[6] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Rogers</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Ley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Chaine</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

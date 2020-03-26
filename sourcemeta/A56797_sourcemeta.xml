@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Love in it's [sic] extasie, or, The large prerogative a kind of royall pastorall / written long since by a gentleman student at Aeton and now published.</title>
-         <author>Peaps, William.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilson for Mercy Meighen, Gabriell Bedell, and Thomas Collins and are to be sold at their shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by William Peaps.  Cf. Wing.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Love in it's [sic] extasie, or, The large prerogative a kind of royall pastorall / written long since by a gentleman student at Aeton and now published.</title>
+      <author>Peaps, William.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilson</persName> for <persName type="publisher">Mercy Meighen</persName>, <persName type="publisher">Gabriell Bedell</persName>, and <persName type="publisher">Thomas Collins</persName> and are to be sold at <placeName>their shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by William Peaps.  Cf. Wing.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gabriell Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>Mercy Meighen</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

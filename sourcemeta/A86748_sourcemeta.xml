@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition and grateful, acknowledgement of the town of Taunton in the county of Somerset; to be in all humility presented, to the Honorable House of Commons assembled in Parliament. Die Mercurii, 9 Febr. 1647. The humble petition and grateful acknowledgement of the inhabitants of the town of Taunton in the County of Somerset, in approbation of the late votes passed touching the King, was this day read; and it is ordered, that the thanks of this House be returned to the petitioners for their very good affections expressed to the Parliament : it is further ordered, that the said petition be printed. H: Elsynge, Cler. Parl. D. Com.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, Printer to the Honorable House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Febr. 17. 1647 [i.e. 1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition and grateful, acknowledgement of the town of Taunton in the county of Somerset; to be in all humility presented, to the Honorable House of Commons assembled in Parliament. Die Mercurii, 9 Febr. 1647. The humble petition and grateful acknowledgement of the inhabitants of the town of Taunton in the County of Somerset, in approbation of the late votes passed touching the King, was this day read; and it is ordered, that the thanks of this House be returned to the petitioners for their very good affections expressed to the Parliament : it is further ordered, that the said petition be printed. H: Elsynge, Cler. Parl. D. Com.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Febr. 17. 1647 [i.e. 1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

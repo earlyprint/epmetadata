@@ -1,17 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heraclitus Christianus, or, The man of sorrow being a reflection on all states and conditions of human life : in three books.</title>
-      </titleStmt>
-      <extent>[13], 180 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. and R.R. for Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heraclitus Christianus, or, The man of sorrow being a reflection on all states and conditions of human life : in three books.</title>
+    </titleStmt>
+    <extent>[13], 180 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> and <persName type="printer">R.R.</persName> for <persName type="publisher">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>R.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

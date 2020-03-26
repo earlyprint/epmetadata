@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A more perfect and particular relation of the late great victorie in Scotland obtained over Montrosse and the rebels there, by the forces under the command of Lieutenant-Generall David Lesley, certified by an expresse the 16. of this instant from Hadington. Together with a list of the chiefe men of note taken prisoners and kild in the battell, and after in the pursuit. To which is likewise added a letter written from Master Balsame minister at Berwick, and dated the 17. of Septemb. 1645. to a minister in London concerning the said victory. Published by authority.</title>
-         <author>W. H.</author>
-         <author>Balsome, Robert.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.B. for Robert Bostock at the Kings head in Pauls Churchyard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>25. Sep. 1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The "more perfect and particular relation" is signed: W.H.</note>
-         <note>The "letter written from Master Balsame" is signed: Ro. Balsome.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A more perfect and particular relation of the late great victorie in Scotland obtained over Montrosse and the rebels there, by the forces under the command of Lieutenant-Generall David Lesley, certified by an expresse the 16. of this instant from Hadington. Together with a list of the chiefe men of note taken prisoners and kild in the battell, and after in the pursuit. To which is likewise added a letter written from Master Balsame minister at Berwick, and dated the 17. of Septemb. 1645. to a minister in London concerning the said victory. Published by authority.</title>
+      <author>W. H.</author>
+      <author>Balsome, Robert.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.B.</persName> for <persName type="publisher">Robert Bostock</persName> at <placeName>the Kings head in Pauls Churchyard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>25. Sep. 1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The "more perfect and particular relation" is signed: W.H.</note>
+      <note>The "letter written from Master Balsame" is signed: Ro. Balsome.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="printer">
+      <persName>M.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings head in Pauls Churchyard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

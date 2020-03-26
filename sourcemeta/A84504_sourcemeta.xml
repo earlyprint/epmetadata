@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At the court at Whitehall, March 6, 1664. Present, the King's Most Excellent Majesty ... / It was ordered by His Majesty in Council, that an order this day read and approved at the board, for the dispensing for some time with certain clauses of several acts concerning trade, shipping and navigation, be forthwith printed and published. John Nicholas.</title>
-         <author>England and Wales. Privy Council.</author>
-         <author>Nicholas, John, 17th cent.</author>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker, printers to the Kings Most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1664 [i.e. 1665]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At the court at Whitehall, March 6, 1664. Present, the King's Most Excellent Majesty ... / It was ordered by His Majesty in Council, that an order this day read and approved at the board, for the dispensing for some time with certain clauses of several acts concerning trade, shipping and navigation, be forthwith printed and published. John Nicholas.</title>
+      <author>England and Wales. Privy Council.</author>
+      <author>Nicholas, John, 17th cent.</author>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings Most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1664 [i.e. 1665]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

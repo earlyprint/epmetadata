@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A rational catechism, or, An instructive conference between a father and son</title>
-         <author>Popple, William, d. 1708.</author>
-      </titleStmt>
-      <extent>[13], 142 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to William Popple--Wing.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A rational catechism, or, An instructive conference between a father and son</title>
+      <author>Popple, William, d. 1708.</author>
+    </titleStmt>
+    <extent>[13], 142 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">Andrew Sowle</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to William Popple--Wing.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

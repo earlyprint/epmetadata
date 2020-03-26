@@ -1,24 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation. James R. Whereas for remedy of the present scarcity of money in this our kingdom, and that our standing forces may be the better paid and subsisted, and that our subjects of this realm may be the better enabled to pay and discharge the taxes, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham assigns of Benjamin Tooke printer to the Kings most excellent Majesty; and are to be sold at at the Kings printinghouse on Ormonde-Key, and the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at our court at Dublin castle the 18th day of June, 1689."</note>
-         <note>Making brass money current.</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation. James R. Whereas for remedy of the present scarcity of money in this our kingdom, and that our standing forces may be the better paid and subsisted, and that our subjects of this realm may be the better enabled to pay and discharge the taxes, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName> assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold at <placeName>at the Kings printinghouse on Ormonde-Key</placeName>, and the Colledge-Arms in <placeName>Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at our court at Dublin castle the 18th day of June, 1689."</note>
+      <note>Making brass money current.</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty;</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street.</placeName>
+    </place>
+    <place type="location">
+      <placeName>at the Kings printinghouse on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

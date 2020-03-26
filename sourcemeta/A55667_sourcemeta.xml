@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Predictions of the sudden and total destruction of the Turkish empire, and religion of Mahomet according to the opinions of the Lord Tycho Brahe of Denmark, and many others of the best astronomers of this later age; collected and humbly dedicated to all Christendom by a lover of Christianity.</title>
-         <author>Lover of Christianity.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed; and sold by Walter Davis in Amen-Corner,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Predictions of the sudden and total destruction of the Turkish empire, and religion of Mahomet according to the opinions of the Lord Tycho Brahe of Denmark, and many others of the best astronomers of this later age; collected and humbly dedicated to all Christendom by a lover of Christianity.</title>
+      <author>Lover of Christianity.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed; and sold by <persName type="bookseller">Walter Davis</persName> in <placeName>Amen-Corner</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter Davis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Amen-Corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

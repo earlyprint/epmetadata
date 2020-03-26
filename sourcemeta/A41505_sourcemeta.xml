@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse about ceremonies, church-government and liturgy humbly offered to the consideration of the convocation / by J.G.G.</title>
-         <author>Gailhard, J. (Jean)</author>
-      </titleStmt>
-      <extent>[8], 148 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Richard Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Jean Gailhard by Wing.</note>
-         <note>Errata: p. [8] (1st grouping)</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse about ceremonies, church-government and liturgy humbly offered to the consideration of the convocation / by J.G.G.</title>
+      <author>Gailhard, J. (Jean)</author>
+    </titleStmt>
+    <extent>[8], 148 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Richard Baldwin</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Jean Gailhard by Wing.</note>
+      <note>Errata: p. [8] (1st grouping)</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

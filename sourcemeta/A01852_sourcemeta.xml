@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sermons on St Peter. By Robert Gomersall Bachelar in Divinitie</title>
-         <author>Gomersall, Robert, 1602-1646?</author>
-      </titleStmt>
-      <extent>[8], 72, 75-145, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Iohn Marriot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sermons on St Peter. By Robert Gomersall Bachelar in Divinitie</title>
+      <author>Gomersall, Robert, 1602-1646?</author>
+    </titleStmt>
+    <extent>[8], 72, 75-145, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Iohn Marriot</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Marriot</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

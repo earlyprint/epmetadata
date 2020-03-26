@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the visitation held at High Wickham in the county of Bucks. May 16. 1671 Wherein the ministers duty is remembred. Their dignity asserted. Man's reconciliation with God, urged. By Samuel Gardner M.A. and chaplain to His Majesty.</title>
-         <author>Gardner, Samuel, chaplain in Ordinary.</author>
-      </titleStmt>
-      <extent>[8], 35, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T. Ratcliff, and N. Thompson, for Nath. Ranew at the Kings Arms in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: Ministers dignity and duty.</note>
-         <note>With an errata slip.</note>
-         <note>Reproduction of the original at the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the visitation held at High Wickham in the county of Bucks. May 16. 1671 Wherein the ministers duty is remembred. Their dignity asserted. Man's reconciliation with God, urged. By Samuel Gardner M.A. and chaplain to His Majesty.</title>
+      <author>Gardner, Samuel, chaplain in Ordinary.</author>
+    </titleStmt>
+    <extent>[8], 35, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. Ratcliff</persName>, and <persName type="printer">N. Thompson</persName>, for <persName type="publisher">Nath. Ranew</persName> at <placeName>the Kings Arms in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: Ministers dignity and duty.</note>
+      <note>With an errata slip.</note>
+      <note>Reproduction of the original at the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nath. Ranew</persName>
+    </person>
+    <person type="printer">
+      <persName>N. Thompson</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Ratcliff</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Arms in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

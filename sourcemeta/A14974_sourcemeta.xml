@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Iacobs vvell: or, A sermon preached before the Kings most excellent Maiestie at Saint Albans, in his summer progresse 1612. By William Westerman, Bachelar of Diuinitie, and chaplaine to the most Reuerend Father in God, the Lord Archbishop of Canterbury, his Grace</title>
-         <author>Westerman, William.</author>
-      </titleStmt>
-      <extent>[30], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Beale, for Matthew Lawe, and are to be sold at his shop in Pauls churchyard at the signe of the Fox,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some print show-through and some pages stained.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Iacobs vvell: or, A sermon preached before the Kings most excellent Maiestie at Saint Albans, in his summer progresse 1612. By William Westerman, Bachelar of Diuinitie, and chaplaine to the most Reuerend Father in God, the Lord Archbishop of Canterbury, his Grace</title>
+      <author>Westerman, William.</author>
+    </titleStmt>
+    <extent>[30], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Beale</persName>, for <persName type="publisher">Matthew Lawe</persName>, and are to be sold at <placeName>his shop in Pauls churchyard at the signe of the Fox</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some print show-through and some pages stained.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Lawe</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Beale</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls churchyard at the signe of the Fox</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

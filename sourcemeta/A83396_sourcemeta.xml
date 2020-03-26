@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Propositions and orders, by the Lords and Commons in Parliament for bringing in of money or plate to maintaine horse, horsemen, and armes, for the preservation of the publike peace, and for the defence of the King and both houses of Parliament. Die Veneris 10. Iunii, 1642. Ordered by the Lords and Commons in Parliament, that these propositions shall be forthwith printed and published. Iohn Browne Cleric. Parliament.</title>
-         <title>Proceedings. 1642-06-10</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R.B. for Edward Husbands, and I[ohn]. F[rank]. and are to be sold, the next doore to the Kings-head in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publisher's name from Wing CD.</note>
-         <note>Signatures: A⁴.</note>
-         <note>Reproduction of original in: Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Propositions and orders, by the Lords and Commons in Parliament for bringing in of money or plate to maintaine horse, horsemen, and armes, for the preservation of the publike peace, and for the defence of the King and both houses of Parliament. Die Veneris 10. Iunii, 1642. Ordered by the Lords and Commons in Parliament, that these propositions shall be forthwith printed and published. Iohn Browne Cleric. Parliament.</title>
+      <title>Proceedings. 1642-06-10</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.B.</persName> for <persName type="publisher">Edward Husbands</persName>, and <persName type="publisher">I[ohn]. F[rank].</persName> and are to be sold, the next <placeName>doore to the Kings-head in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publisher's name from Wing CD.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Reproduction of original in: Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="publisher">
+      <persName>I[ohn]. F[rank].</persName>
+    </person>
+    <person type="printer">
+      <persName>R.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>doore to the Kings-head in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

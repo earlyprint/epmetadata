@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funerall poeme. Vpon the death of the most vvorthie and true souldier; Sir Francis Vere, Knight. Captaine of Portsmouth, &amp;c. L. Gouernour of his Maiesties cautionarie towne of Briell in Holland, &amp;c.</title>
-         <author>Tourneur, Cyril, 1575?-1626.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Windet] for Eleazar Edgar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Cyril Tourneur.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: [A]⁴ B-D⁴.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Cropped.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funerall poeme. Vpon the death of the most vvorthie and true souldier; Sir Francis Vere, Knight. Captaine of Portsmouth, &amp;c. L. Gouernour of his Maiesties cautionarie towne of Briell in Holland, &amp;c.</title>
+      <author>Tourneur, Cyril, 1575?-1626.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Windet]</persName> for <persName type="publisher">Eleazar Edgar</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Cyril Tourneur.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: [A]&#8308; B-D&#8308;.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Cropped.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Eleazar Edgar</persName>
+    </person>
+    <person type="printer">
+      <persName>John Windet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

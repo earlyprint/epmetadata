@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vpcheringe of the messe</title>
-         <author>Shepherd, Luke, fl. 1548.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>By Iohn Daye and Willyam Seres,</publisher>
-         <pubPlace>Inprinted at Lo[n]don :</pubPlace>
-         <date>[1548?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Luke Shepherd.</note>
-         <note>In verse.</note>
-         <note>Publication date conjectured by STC.</note>
-         <note>Signatures: A.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vpcheringe of the messe</title>
+      <author>Shepherd, Luke, fl. 1548.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Iohn Daye</persName> and <persName type="printer">Willyam Seres</persName>,</publisher>
+      <pubPlace>Inprinted at Lo[n]don :</pubPlace>
+      <date>[1548?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Luke Shepherd.</note>
+      <note>In verse.</note>
+      <note>Publication date conjectured by STC.</note>
+      <note>Signatures: A.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Daye</persName>
+    </person>
+    <person type="printer">
+      <persName>Willyam Seres</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

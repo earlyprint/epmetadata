@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Description of Buda, in its ancient and present state with an exact and compleat account of the siege thereof : began by the Duke of Lorrain, July 14. 1684, and continued by him and the elector of Bavaria, till November the first, at which time the siege was raised.</title>
-      </titleStmt>
-      <extent>1 broadside : map.  </extent>
-      <publicationStmt>
-         <publisher>Printed for T.M. and sold by Will. Benbridge ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Description of Buda, in its ancient and present state with an exact and compleat account of the siege thereof : began by the Duke of Lorrain, July 14. 1684, and continued by him and the elector of Bavaria, till November the first, at which time the siege was raised.</title>
+    </titleStmt>
+    <extent>1 broadside : map.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">T.M.</persName> and sold by <persName type="bookseller">Will. Benbridge</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Will. Benbridge</persName>
+    </person>
+    <person type="publisher">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

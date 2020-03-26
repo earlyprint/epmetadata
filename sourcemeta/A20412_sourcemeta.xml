@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Milke for babes The English catechisme, set downe in the Common-Prayer Booke, breifly explaned for the private vse of the younger and more vnlearned sort of his parishioners of Apleton, in the county of Berks: By W.D.</title>
-         <author>Dickinson, William, b. 1584 or 5.</author>
-      </titleStmt>
-      <extent>[8], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield, printer to the famous Vniversity,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>Anno. Dom. 1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>W.D = William Dickenson.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Milke for babes The English catechisme, set downe in the Common-Prayer Booke, breifly explaned for the private vse of the younger and more vnlearned sort of his parishioners of Apleton, in the county of Berks: By W.D.</title>
+      <author>Dickinson, William, b. 1584 or 5.</author>
+    </titleStmt>
+    <extent>[8], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName>, printer to <persName type="patron">the famous Vniversity</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>Anno. Dom. 1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>W.D = William Dickenson.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the famous Vniversity</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

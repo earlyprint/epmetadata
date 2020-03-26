@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A declaration of His Maiesties cleare intention, in requiring the ayde of his louing subiects, in that way of loane which is now intended by His Highness</title>
-         <title>Proclamations. 1626-10-07</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton and Iohn Bill, printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>M. DC. XXVI. [1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: White-Hall the seuenth day of October, in the second yeere of our reigne ... .</note>
-         <note>Arms 23 (one leaf under the lion's leg); Steele notation: resol-  (which  frequent.</note>
-         <note>Reproduction of original in the Guildhall Library, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A declaration of His Maiesties cleare intention, in requiring the ayde of his louing subiects, in that way of loane which is now intended by His Highness</title>
+      <title>Proclamations. 1626-10-07</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>M. DC. XXVI. [1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: White-Hall the seuenth day of October, in the second yeere of our reigne ... .</note>
+      <note>Arms 23 (one leaf under the lion's leg); Steele notation: resol-  (which  frequent.</note>
+      <note>Reproduction of original in the Guildhall Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

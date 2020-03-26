@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Knovvledge of the times or, the resolution of the question, how long it shall be unto the end of wonders. By John Tillinghast, a servant of Jesus Christ.</title>
-         <author>Tillinghast, John, 1604-1655.</author>
-      </titleStmt>
-      <extent>[30], 346, [14] p.   </extent>
-      <publicationStmt>
-         <publisher> by R.I. for L. Chapman, and are to be sold at the sign of the Crown in Popes-head Alley,</publisher>
-         <pubPlace>Printed at London : </pubPlace>
-         <date>1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"An appendix" has separate dated title page; pagination and register are continuous.</note>
-         <note>With four final contents leaves followed by two advertisement leaves.</note>
-         <note>Annotation on Thomason copy: "Decem: 9".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Knovvledge of the times or, the resolution of the question, how long it shall be unto the end of wonders. By John Tillinghast, a servant of Jesus Christ.</title>
+      <author>Tillinghast, John, 1604-1655.</author>
+    </titleStmt>
+    <extent>[30], 346, [14] p.   </extent>
+    <publicationStmt>
+      <publisher> by <persName type="printer">R.I.</persName> for <persName type="publisher">L. Chapman</persName>, and are to be sold at <placeName>the sign of the Crown in Popes-head Alley</placeName>,</publisher>
+      <pubPlace>Printed at London : </pubPlace>
+      <date>1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"An appendix" has separate dated title page; pagination and register are continuous.</note>
+      <note>With four final contents leaves followed by two advertisement leaves.</note>
+      <note>Annotation on Thomason copy: "Decem: 9".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>R.I.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Crown in Popes-head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

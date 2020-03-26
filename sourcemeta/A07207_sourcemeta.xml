@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The epicures fast: or: A short discourse, discouering the licenciousnesse of the Romane Church in her religious fasts. By Henrie Mason, parson of St. Andrews Vndershaft, London</title>
-         <author>Mason, Henry, 1573?-1647.</author>
-      </titleStmt>
-      <extent>[8], 58, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G[eorge] P[urslow] for Iohn Clarke, and are to be sold at his shop, vnder St. Peters Church in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Also issued as part 2 of his: Christian humiliation .. Whereunto is added The epicures fast, 1627.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The epicures fast: or: A short discourse, discouering the licenciousnesse of the Romane Church in her religious fasts. By Henrie Mason, parson of St. Andrews Vndershaft, London</title>
+      <author>Mason, Henry, 1573?-1647.</author>
+    </titleStmt>
+    <extent>[8], 58, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G[eorge] P[urslow]</persName> for <persName type="publisher">Iohn Clarke</persName>, and are to be sold at <placeName>his shop, vnder St. Peters Church in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Also issued as part 2 of his: Christian humiliation .. Whereunto is added The epicures fast, 1627.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Clarke</persName>
+    </person>
+    <person type="printer">
+      <persName>G[eorge] P[urslow]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, vnder St. Peters Church in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and faithfull narrative (for substance) of a publique dispute between Mr. Tho. Porter, &amp; Mr. Hen. Haggar; concerning infant-Baptism. In the parish church of Ellesmer in the county of Salop, on the 30 of April, 1656. / By one who was present at, and a diligent observer of, the debate.</title>
-         <author>Porter, Thomas, d. 1667.</author>
-         <author>Haggar, Henry.</author>
-      </titleStmt>
-      <extent>[6], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Clark, at the entrance into Mercers-Chappel, at the lower end of Cheapside.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>One who was present = Thomas Porter.</note>
-         <note>Annotation on Thomason copy: "7ber [i.e. September] 9th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true and faithfull narrative (for substance) of a publique dispute between Mr. Tho. Porter, &amp; Mr. Hen. Haggar; concerning infant-Baptism. In the parish church of Ellesmer in the county of Salop, on the 30 of April, 1656. / By one who was present at, and a diligent observer of, the debate.</title>
+      <author>Porter, Thomas, d. 1667.</author>
+      <author>Haggar, Henry.</author>
+    </titleStmt>
+    <extent>[6], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Clark</persName>, at <placeName>the entrance into Mercers-Chappel, at the lower end of Cheapside.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>One who was present = Thomas Porter.</note>
+      <note>Annotation on Thomason copy: "7ber [i.e. September] 9th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Clark</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the entrance into Mercers-Chappel, at the lower end of Cheapside.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

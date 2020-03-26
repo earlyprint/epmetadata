@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine poems by Edward Waller Esq.</title>
-         <title>Poems. Selections</title>
-         <author>Waller, Edmund, 1606-1687.</author>
-      </titleStmt>
-      <extent>35 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Herringman, and are to be sold by Jos. Knights and Fran. Saunders ...,</publisher>
-         <pubPlace>In the Savoy [London] :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine poems by Edward Waller Esq.</title>
+      <title>Poems. Selections</title>
+      <author>Waller, Edmund, 1606-1687.</author>
+    </titleStmt>
+    <extent>35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Herringman</persName>, and are to be sold by <persName type="bookseller">Jos. Knights</persName> and <persName type="publisher">Fran. Saunders</persName> ...,</publisher>
+      <pubPlace>In the Savoy [London] :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Jos. Knights</persName>
+    </person>
+    <person type="publisher">
+      <persName>Fran. Saunders</persName>
+    </person>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

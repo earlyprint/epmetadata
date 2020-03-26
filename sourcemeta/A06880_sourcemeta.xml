@@ -1,27 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The booke of marchauntes very profitable to all folkes to knowe of what wares they ought to be ware of, for the begilyng of them. Newly perused and augmented by the first authoure well practised in suche doynges. Reade and profite.</title>
-         <title>Livre des marchans. English</title>
-         <author>Marcourt, Antoine de, d. ca. 1560.</author>
-         <author>Farel, Guillaume, 1489-1565, attributed name.</author>
-      </titleStmt>
-      <extent>[92] p.   </extent>
-      <publicationStmt>
-         <publisher>[[By J. Day?] and] are to be sold by Richard Iugge, at the North doore of Pouls. Cum priuilegio ad imprimendum solum],</publisher>
-         <pubPlace>[Imprinted in Lo[n]don :</pubPlace>
-         <date>Anno. 1547.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes also attributed to Guillaume Farel.</note>
-         <note>Translation of: Le livre des marchans.</note>
-         <note>Place of publication and publisher's name from colophon; printer's name conjectured by STC.</note>
-         <note>Running title reads: The marchaunts boke.</note>
-         <note>Formerly STC 3322.</note>
-         <note>Identified as STC 3322 on UMI microfilm.</note>
-         <note>Signatures: a-e f⁶.</note>
-         <note>Reproduction of the original in the Emmanuel College Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The booke of marchauntes very profitable to all folkes to knowe of what wares they ought to be ware of, for the begilyng of them. Newly perused and augmented by the first authoure well practised in suche doynges. Reade and profite.</title>
+      <title>Livre des marchans. English</title>
+      <author>Marcourt, Antoine de, d. ca. 1560.</author>
+      <author>Farel, Guillaume, 1489-1565, attributed name.</author>
+    </titleStmt>
+    <extent>[92] p.   </extent>
+    <publicationStmt>
+      <publisher>[[By <persName type="printer">J. Day?] and]</persName> are to be sold by <persName type="bookseller">Richard Iugge</persName>, at <placeName>the North doore of Pouls. Cum priuilegio ad imprimendum solum]</placeName>,</publisher>
+      <pubPlace>[Imprinted in Lo[n]don :</pubPlace>
+      <date>Anno. 1547.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes also attributed to Guillaume Farel.</note>
+      <note>Translation of: Le livre des marchans.</note>
+      <note>Place of publication and publisher's name from colophon; printer's name conjectured by STC.</note>
+      <note>Running title reads: The marchaunts boke.</note>
+      <note>Formerly STC 3322.</note>
+      <note>Identified as STC 3322 on UMI microfilm.</note>
+      <note>Signatures: a-e f&#8310;.</note>
+      <note>Reproduction of the original in the Emmanuel College Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Richard Iugge</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Day?] and]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the North doore of Pouls. Cum priuilegio ad imprimendum solum]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

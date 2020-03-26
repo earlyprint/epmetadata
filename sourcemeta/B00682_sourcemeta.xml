@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ane deeclaratioun [sic] of the Lordis iust quarrell</title>
-         <author>Sempill, Robert, 1530?-1595.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Imprentit at Edinburgh by Robert Lekpreuik,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date>anno Do. 1567.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Robert Sempill.</note>
-         <note>Verse - "... long ago as I allowe ...,".</note>
-         <note>Printed in three columns.</note>
-         <note>Imperfect: trimmed, stained, and tightly bound with loss of text.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ane deeclaratioun [sic] of the Lordis iust quarrell</title>
+      <author>Sempill, Robert, 1530?-1595.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Imprentit at <placeName>Edinburgh</placeName> by <persName type="printer">Robert Lekpreuik</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date>anno Do. 1567.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Robert Sempill.</note>
+      <note>Verse - "... long ago as I allowe ...,".</note>
+      <note>Printed in three columns.</note>
+      <note>Imperfect: trimmed, stained, and tightly bound with loss of text.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Lekpreuik</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

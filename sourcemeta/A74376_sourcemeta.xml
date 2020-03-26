@@ -1,26 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act impowering several commissioners to put in execution all and every the powers and authorities heretofore given to the commissioners for compounding with delinquents, and for managing of all estates under sequestration, and to the committee for advance of money formerly sittting [sic] at Haberdashers-hall.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>805-808 [i.e. 4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Edward Husband and Iohn Field, printers to the Parliament of England,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1650]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>The last word of first line of text: 'this'; first word of line below initial: 'and'; the last word of last full line of text: 'com-.</note>
-         <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
-         <note>Ornament above caption; initial letter; some text in black letter.</note>
-         <note>Signatures: 7F² .</note>
-         <note>Order to print dated: 15 April, 1650.</note>
-         <note>A different setting from the edition with "sitting" in title; second line of text ends "Parliament,".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act impowering several commissioners to put in execution all and every the powers and authorities heretofore given to the commissioners for compounding with delinquents, and for managing of all estates under sequestration, and to the committee for advance of money formerly sittting [sic] at Haberdashers-hall.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>805-808 [i.e. 4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">Iohn Field</persName>, printers to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1650]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>The last word of first line of text: 'this'; first word of line below initial: 'and'; the last word of last full line of text: 'com-.</note>
+      <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
+      <note>Ornament above caption; initial letter; some text in black letter.</note>
+      <note>Signatures: 7F&#178; .</note>
+      <note>Order to print dated: 15 April, 1650.</note>
+      <note>A different setting from the edition with "sitting" in title; second line of text ends "Parliament,".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

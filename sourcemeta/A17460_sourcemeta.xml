@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant comedie, called the tvvo merry milke-maids. Or, the best words weare the garland As it was acted before the King, with generall approbation, by the Companie of the Reuels. By I.C.</title>
-         <author>J. C., fl. 1620.</author>
-         <author>Cumber, John, d. 1623, attributed name.</author>
-         <author>Cooke, Jo., fl. 1614, attributed name.</author>
-         <author>Chalkhill, John, fl. 1600, attributed name.</author>
-         <author>Clapham, John, b. 1566, attributed name.</author>
-      </titleStmt>
-      <extent>[116] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Bernard Alsop, for Lawrence Chapman, and are to be sold at his shop in Holborne, ouer against Staple Inne, hard by the Barres,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Variously attributed to John Cumber, to John Cooke, to John Chalkhill, and to John Clapham.</note>
-         <note>Signatures: [A]²  B-P⁴.</note>
-         <note>Running title reads: A pleasant comedie of the merry milke-maids.</note>
-         <note>Reproduction of the original in Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant comedie, called the tvvo merry milke-maids. Or, the best words weare the garland As it was acted before the King, with generall approbation, by the Companie of the Reuels. By I.C.</title>
+      <author>J. C., fl. 1620.</author>
+      <author>Cumber, John, d. 1623, attributed name.</author>
+      <author>Cooke, Jo., fl. 1614, attributed name.</author>
+      <author>Chalkhill, John, fl. 1600, attributed name.</author>
+      <author>Clapham, John, b. 1566, attributed name.</author>
+    </titleStmt>
+    <extent>[116] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Bernard Alsop</persName>, for <persName type="publisher">Lawrence Chapman</persName>, and are to be sold at <placeName>his shop in Holborne, ouer against Staple Inne, hard</placeName> by <persName type="printer">the Barres</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Variously attributed to John Cumber, to John Cooke, to John Chalkhill, and to John Clapham.</note>
+      <note>Signatures: [A]&#178;  B-P&#8308;.</note>
+      <note>Running title reads: A pleasant comedie of the merry milke-maids.</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Lawrence Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>Bernard Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>the Barres</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Holborne, ouer against Staple Inne, hard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

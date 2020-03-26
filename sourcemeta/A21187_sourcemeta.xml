@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ethiques of Aristotle, that is to saye, preceptes of good behauoute [sic] and perfighte honestie, now newly tra[n]slated into English</title>
-         <title>Nicomachean ethics. English. Abridgments</title>
-         <author>Aristotle.</author>
-         <author>Wilkinson, John, servant to the Earl of Derby.</author>
-         <author>Latini, Brunetto, 1220-1295.</author>
-      </titleStmt>
-      <extent>[166] p.   </extent>
-      <publicationStmt>
-         <publisher>In the parishe of Christes Church within new gate by Richard Grafton, printer too our soueraigne lorde Kyng Edward the. VI.,</publisher>
-         <pubPlace>[Imprinted at Londo[n] :</pubPlace>
-         <date>1547]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation by John Wilkinson, whose name appears in the heading to the preface, of an abridgment by Brunetto Latini of: Nicomachean ethics.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signatures: A-K L⁴ (-L4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ethiques of Aristotle, that is to saye, preceptes of good behauoute [sic] and perfighte honestie, now newly tra[n]slated into English</title>
+      <title>Nicomachean ethics. English. Abridgments</title>
+      <author>Aristotle.</author>
+      <author>Wilkinson, John, servant to the Earl of Derby.</author>
+      <author>Latini, Brunetto, 1220-1295.</author>
+    </titleStmt>
+    <extent>[166] p.   </extent>
+    <publicationStmt>
+      <publisher>In the parishe of Christes Church within <placeName>new gate</placeName> by <persName type="printer">Richard Grafton, printer too our soueraigne lorde Kyng Edward the. VI.</persName>,</publisher>
+      <pubPlace>[Imprinted at Londo[n] :</pubPlace>
+      <date>1547]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation by John Wilkinson, whose name appears in the heading to the preface, of an abridgment by Brunetto Latini of: Nicomachean ethics.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signatures: A-K L&#8308; (-L4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Grafton, printer too our soueraigne lorde Kyng Edward the. VI.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>new gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

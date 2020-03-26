@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Iack a Lent his beginning and entertainment with the many pranks of his gentleman-vsher Shroue Tuesday that goes before him, and his foot-man Hunger attending. With new additions, dedicated both to the butchers farewell and the fishmongers entrance: written to choake melancholy, and to feed mirth. By Iohn Tailor.</title>
-         <author>Taylor, John, 1580-1653.</author>
-      </titleStmt>
-      <extent>[22] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by G. Purslowe] for I. T[rundle?] and are to be sold at Christ Church gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and bookseller's names in imprint from STC.</note>
-         <note>Signatures: A⁴(-A1) B-C⁴.</note>
-         <note>Identified as STC 23765 on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Iack a Lent his beginning and entertainment with the many pranks of his gentleman-vsher Shroue Tuesday that goes before him, and his foot-man Hunger attending. With new additions, dedicated both to the butchers farewell and the fishmongers entrance: written to choake melancholy, and to feed mirth. By Iohn Tailor.</title>
+      <author>Taylor, John, 1580-1653.</author>
+    </titleStmt>
+    <extent>[22] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">G. Purslowe]</persName> for <persName type="publisher">I. T[rundle?]</persName> and are to be sold at <placeName>Christ Church gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and bookseller's names in imprint from STC.</note>
+      <note>Signatures: A&#8308;(-A1) B-C&#8308;.</note>
+      <note>Identified as STC 23765 on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. T[rundle?]</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Purslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Christ Church gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

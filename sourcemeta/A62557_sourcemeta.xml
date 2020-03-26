@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse against transubstantiation</title>
-         <author>Tillotson, John, 1630-1694.</author>
-      </titleStmt>
-      <extent>[2], 43, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Brabazon Aylmer ..., and W. Rogers ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes bibliographical references.</note>
-         <note>Advertisement: p. [1]-[3] at end.</note>
-         <note>Attributed to John Tillotson, Archbishop of Canterbury. Cf. Halkett &amp; Laing, McAlpin Coll.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse against transubstantiation</title>
+      <author>Tillotson, John, 1630-1694.</author>
+    </titleStmt>
+    <extent>[2], 43, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Brabazon Aylmer</persName> ..., and <persName type="publisher">W. Rogers</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes bibliographical references.</note>
+      <note>Advertisement: p. [1]-[3] at end.</note>
+      <note>Attributed to John Tillotson, Archbishop of Canterbury. Cf. Halkett &amp; Laing, McAlpin Coll.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Rogers</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

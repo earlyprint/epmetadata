@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Quene. The Quenes Maiestie vnderstandyng that certayne vayne and vntrue rumours being of late raysed in and about her citie of London, touchyng a decrye of moneys ...</title>
-         <title>Proclamations. 1562-01-30</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In Powles Church yarde, by Richard Iugge, and Iohn Cawood, Printers to the Quenes Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1562]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A proclamation against false reports of decrying money.</note>
-         <note>Publication date from STC.</note>
-         <note>At foot of sheet: Cum priuilegio Regiæ Maiestatis.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Quene. The Quenes Maiestie vnderstandyng that certayne vayne and vntrue rumours being of late raysed in and about her citie of London, touchyng a decrye of moneys ...</title>
+      <title>Proclamations. 1562-01-30</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In Powles Church yarde, by <persName type="printer">Richard Iugge</persName>, and <persName type="printer">Iohn Cawood</persName>, Printers to <persName type="patron">the Quenes Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1562]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A proclamation against false reports of decrying money.</note>
+      <note>Publication date from STC.</note>
+      <note>At foot of sheet: Cum priuilegio Regi&#230; Maiestatis.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Quenes Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iugge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

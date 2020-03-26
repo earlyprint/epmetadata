@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Eustathia, or the constancie of Susanna containing the preservation of the godly, subversion of the wicked, precepts for the aged, instructions for youth, pleasure with profitte. Penned by R.R.G.</title>
-         <author>Roche, Robert, 1575 or 6-1629.</author>
-      </titleStmt>
-      <extent>[126] p.   </extent>
-      <publicationStmt>
-         <publisher>By Joseph Barnes, and are to be sold [by J. Broome, London] in Paules church-yarde at the signe of the Bible,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date>1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.R.G. = Robert Roche gent.</note>
-         <note>In verse.</note>
-         <note>Bookseller's name and location from STC.</note>
-         <note>Errata on H7v, final page.</note>
-         <note>Signatures: A-H (-H8, blank?).</note>
-         <note>Pages stained and cropped.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Eustathia, or the constancie of Susanna containing the preservation of the godly, subversion of the wicked, precepts for the aged, instructions for youth, pleasure with profitte. Penned by R.R.G.</title>
+      <author>Roche, Robert, 1575 or 6-1629.</author>
+    </titleStmt>
+    <extent>[126] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Joseph Barnes</persName>, and are to be sold [by <persName type="bookseller">J. Broome</persName>, <persName type="bookseller">London]</persName> in <placeName>Paules church-yarde at the signe of the Bible</placeName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date>1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.R.G. = Robert Roche gent.</note>
+      <note>In verse.</note>
+      <note>Bookseller's name and location from STC.</note>
+      <note>Errata on H7v, final page.</note>
+      <note>Signatures: A-H (-H8, blank?).</note>
+      <note>Pages stained and cropped.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Broome</persName>
+    </person>
+    <person type="bookseller">
+      <persName>London]</persName>
+    </person>
+    <person type="printer">
+      <persName>Joseph Barnes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules church-yarde at the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

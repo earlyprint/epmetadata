@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A course of lectures upon the church catechism in four volumes. Vol. I. Upon the preliminary questions and answers by a divine of the Church of England.</title>
-         <author>Bray, Thomas, 1658-1730.</author>
-      </titleStmt>
-      <extent>[10], 303, [16] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Litchfield, Printer to the University, for the author,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A course of lectures upon the church catechism in four volumes. Vol. I. Upon the preliminary questions and answers by a divine of the Church of England.</title>
+      <author>Bray, Thomas, 1658-1730.</author>
+    </titleStmt>
+    <extent>[10], 303, [16] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Litchfield</persName>, Printer to <persName type="patron">the University</persName>, for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Litchfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The prophesie of Mother Shipton in the raigne of King Henry the Eighth. Fortelling the death of Cardinall Wolsey, the Lord Percy and others, as also what should happen in insuing times.</title>
-         <author>Shipton, Mother (Ursula)</author>
-      </titleStmt>
-      <extent>[2], 6 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Lownds, at his Shop adjoyning to Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Illustrated t.p.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The prophesie of Mother Shipton in the raigne of King Henry the Eighth. Fortelling the death of Cardinall Wolsey, the Lord Percy and others, as also what should happen in insuing times.</title>
+      <author>Shipton, Mother (Ursula)</author>
+    </titleStmt>
+    <extent>[2], 6 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Lownds</persName>, at <placeName>his Shop adjoyning to Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Illustrated t.p.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lownds</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Shop adjoyning to Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anniversaries upon his Panarete continued: With her contemplations, penned in the languishing time of her sicknesse. The second yeeres annivers.</title>
-         <author>Brathwaite, Richard, 1588?-1673.</author>
-         <author>Brathwait, Frances, d. 1633.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, and are to be sold by Robert Bostock, at the Kings Head in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Brathwait.</note>
-         <note>Partly in verse.</note>
-         <note>"The distint [sic] titles of these contemplations. .." has separate half-title; register is continuous.</note>
-         <note>Signatures: A-D.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anniversaries upon his Panarete continued: With her contemplations, penned in the languishing time of her sicknesse. The second yeeres annivers.</title>
+      <author>Brathwaite, Richard, 1588?-1673.</author>
+      <author>Brathwait, Frances, d. 1633.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, and are to be sold by <persName type="bookseller">Robert Bostock</persName>, at <placeName>the Kings Head in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Brathwait.</note>
+      <note>Partly in verse.</note>
+      <note>"The distint [sic] titles of these contemplations. .." has separate half-title; register is continuous.</note>
+      <note>Signatures: A-D.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

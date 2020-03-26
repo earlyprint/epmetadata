@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true relation of the great victory obtained by the King of the Abissines, called Prester John, against the Turks. In taking the flourishing city of Habalee, and destroying 10,000 Ottomons [sic]. As also, a coppy of a letter from on board of his Majesties ship the Pearl, (riding then at Lisbon) from a gentleman to his brother in London, giving an account of several remarkable passages and rencounters against the Sally men.</title>
-         <author>Miles, John, fl. 1684.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by John Reid, and are to be sold by James Mein on the South-side of the Cross,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>anno Dom. 1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Letter dated and signed at end: From aboard the Pearl, July the 23d. Sent by the Swain friget, by one which was retaken from a Sally man of war. Your affectionate friend, John Miles.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true relation of the great victory obtained by the King of the Abissines, called Prester John, against the Turks. In taking the flourishing city of Habalee, and destroying 10,000 Ottomons [sic]. As also, a coppy of a letter from on board of his Majesties ship the Pearl, (riding then at Lisbon) from a gentleman to his brother in London, giving an account of several remarkable passages and rencounters against the Sally men.</title>
+      <author>Miles, John, fl. 1684.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">John Reid</persName>, and are to be sold by <persName type="bookseller">James Mein</persName> on <placeName>the South-side of the Cross</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>anno Dom. 1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Letter dated and signed at end: From aboard the Pearl, July the 23d. Sent by the Swain friget, by one which was retaken from a Sally man of war. Your affectionate friend, John Miles.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>James Mein</persName>
+    </person>
+    <person type="printer">
+      <persName>John Reid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the South-side of the Cross</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

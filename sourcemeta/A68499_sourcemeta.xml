@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The 26. of Iuly. A true, plaine, and compendious discourse of the besieging of Bergen up Zome showing the late actions of Spinolas forces before the same. VVith the proceedings of the Prince of Orange before Sattingambus. As also what hath happened of late to the rest of the armies in the low countries.</title>
-      </titleStmt>
-      <extent>[2], 17, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. A[llde] for Nicholas Bourne and Thomas Archer, and are to be sold at their shops at the Exchange, and the Popes-head-Pallace,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Formerly STC 1899.</note>
-         <note>Identified as STC 1899 on UMI microfilm.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The 26. of Iuly. A true, plaine, and compendious discourse of the besieging of Bergen up Zome showing the late actions of Spinolas forces before the same. VVith the proceedings of the Prince of Orange before Sattingambus. As also what hath happened of late to the rest of the armies in the low countries.</title>
+    </titleStmt>
+    <extent>[2], 17, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. A[llde]</persName> for <persName type="publisher">Nicholas Bourne</persName> and <persName type="publisher">Thomas Archer</persName>, and are to be sold at <placeName>their shops at the Exchange</placeName>, and the Popes-head-Pallace,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Formerly STC 1899.</note>
+      <note>Identified as STC 1899 on UMI microfilm.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Archer</persName>
+    </person>
+    <person type="printer">
+      <persName>E. A[llde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops at the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The duty of children to parents.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Sam. and Will. Keble at the Turk's-Head in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1680]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon; date of publication from BL.</note>
-         <note>Printed in double columns.</note>
-         <note>With an 3-line advertisement below imprint for books "by the author of The week's preparation to the sacrament ...".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The duty of children to parents.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Sam.</persName> and <persName type="publisher">Will. Keble</persName> at <placeName>the Turk's-Head in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1680]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon; date of publication from BL.</note>
+      <note>Printed in double columns.</note>
+      <note>With an 3-line advertisement below imprint for books "by the author of The week's preparation to the sacrament ...".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sam.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Will. Keble</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Turk's-Head in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

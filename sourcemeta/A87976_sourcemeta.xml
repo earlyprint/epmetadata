@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Letter from the government of Algier to Admiral Russell</title>
-         <author>Ibrāhīm.</author>
-      </titleStmt>
-      <extent>1 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Hodgkin, and are to be sold by J. Whitlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Ibrahim.</note>
-         <note>Dated in ms. on recto: 10. Sept. 1695.</note>
-         <note>Reproduction of original in: Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Letter from the government of Algier to Admiral Russell</title>
+      <author>Ibr&#257;h&#299;m.</author>
+    </titleStmt>
+    <extent>1 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Hodgkin</persName>, and are to be sold by <persName type="bookseller">J. Whitlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Ibrahim.</note>
+      <note>Dated in ms. on recto: 10. Sept. 1695.</note>
+      <note>Reproduction of original in: Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Hodgkin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

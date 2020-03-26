@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The description and cure of the Kentish and all other agues plainly discovering what it is, from whence it comes; with the reasons of those particular symptomes that do usually attend the same. And humbly shewing (in a measure) the authors judgment, why so many are not cured; with advice in relation thereunto; whether it be quotidian, tertian, or quartan, simple, duble, or triple. With several other observations and instructions, tending to the good welfare of mankind. By Nicholas Sudell, licentiate in phisick, and student in chimistry. Before the fire, living in Mark-Lane, London. But now in the city of Rochester in the county of Kent.</title>
-         <author>Sudell, Nicholas.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by E. Crowch, for T. Passenger at the sign of the Three Bibles on London-Bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect; trimmed at head affecting pagination.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The description and cure of the Kentish and all other agues plainly discovering what it is, from whence it comes; with the reasons of those particular symptomes that do usually attend the same. And humbly shewing (in a measure) the authors judgment, why so many are not cured; with advice in relation thereunto; whether it be quotidian, tertian, or quartan, simple, duble, or triple. With several other observations and instructions, tending to the good welfare of mankind. By Nicholas Sudell, licentiate in phisick, and student in chimistry. Before the fire, living in Mark-Lane, London. But now in the city of Rochester in the county of Kent.</title>
+      <author>Sudell, Nicholas.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">E. Crowch</persName>, for <persName type="publisher">T. Passenger</persName> at <placeName>the sign of the Three Bibles on London-Bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect; trimmed at head affecting pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Passenger</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Crowch</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Three Bibles on London-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

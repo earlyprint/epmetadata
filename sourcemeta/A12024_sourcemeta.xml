@@ -1,26 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The late, and much admired play, called Pericles, Prince of Tyre With the true relation of the whole historie, aduentures, and fortunes of the said prince: as also, the no lesse strange, and worthy accidents, in the birth and life, of his daughter Mariana. As it hath been diuers and sundry times acted by his Maiesties Seruants, at the Globe on the Banck-side. By William Shakespeare.</title>
-         <title>Pericles</title>
-         <author>Shakespeare, William, 1564-1616.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>[By William White and Thomas Creede] for Henry Gosson, and are to be sold at the signe of the Sunne in Pater-noster row, &amp;c.,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printers' names from STC and addendum; "Creede pr[inted]. quires B, F-I".</note>
-         <note>Signatures: A-I⁴.</note>
-         <note>Running title reads: The play of Pericles Prince of Tyre.</note>
-         <note>The last leaf is blank.</note>
-         <note>In this edition, A2r line 3 reads: Enter Gower.</note>
-         <note>Imperfect: cropped; print bleeding and show-through; leaf F4 lacking, replaced by ms. surrogate.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The late, and much admired play, called Pericles, Prince of Tyre With the true relation of the whole historie, aduentures, and fortunes of the said prince: as also, the no lesse strange, and worthy accidents, in the birth and life, of his daughter Mariana. As it hath been diuers and sundry times acted by his Maiesties Seruants, at the Globe on the Banck-side. By William Shakespeare.</title>
+      <title>Pericles</title>
+      <author>Shakespeare, William, 1564-1616.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">William White</persName> and <persName type="printer">Thomas Creede]</persName> for <persName type="publisher">Henry Gosson</persName>, and are to be sold at <placeName>the signe of the Sunne in Pater-noster row</placeName>, <placeName>&amp;c.</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printers' names from STC and addendum; "Creede pr[inted]. quires B, F-I".</note>
+      <note>Signatures: A-I&#8308;.</note>
+      <note>Running title reads: The play of Pericles Prince of Tyre.</note>
+      <note>The last leaf is blank.</note>
+      <note>In this edition, A2r line 3 reads: Enter Gower.</note>
+      <note>Imperfect: cropped; print bleeding and show-through; leaf F4 lacking, replaced by ms. surrogate.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Gosson</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede]</persName>
+    </person>
+    <person type="printer">
+      <persName>William White</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>&amp;c.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Sunne in Pater-noster row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

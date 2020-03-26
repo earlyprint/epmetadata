@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A summe of morall philosophy succinctly gathered, elegantly composed, and methodically handled, by that learned scholler and worthy diuine William Pemble Mr of Arts and late commoner of Mag. Hall</title>
-         <author>Pemble, William, 1592?-1623.</author>
-      </titleStmt>
-      <extent>[4], 56, 56-82, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield printer to the famous Vniversity, for Edward Forrest,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date>An. Dom. 1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A summe of morall philosophy succinctly gathered, elegantly composed, and methodically handled, by that learned scholler and worthy diuine William Pemble Mr of Arts and late commoner of Mag. Hall</title>
+      <author>Pemble, William, 1592?-1623.</author>
+    </titleStmt>
+    <extent>[4], 56, 56-82, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName> printer to <persName type="patron">the famous Vniversity</persName>, for <persName type="publisher">Edward Forrest</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date>An. Dom. 1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the famous Vniversity</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Forrest</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

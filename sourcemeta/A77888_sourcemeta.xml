@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of divine meditation, by that faithful servant of Jesus Christ Mr. John Ball, late minister of the Gospel at Whitmore in Staffordshire. Published by Simeon Ashe, preacher of the Gospel at Austins, London.</title>
-         <author>Ball, John, 1585-1640.</author>
-      </titleStmt>
-      <extent>[16], 284, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Mortlock, at the Phœnix in St. Pauls Church-yard, neer the little North-door.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: [4] p. at end.</note>
-         <note>Annotation on Thomason copy: "Oct:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of divine meditation, by that faithful servant of Jesus Christ Mr. John Ball, late minister of the Gospel at Whitmore in Staffordshire. Published by Simeon Ashe, preacher of the Gospel at Austins, London.</title>
+      <author>Ball, John, 1585-1640.</author>
+    </titleStmt>
+    <extent>[16], 284, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Mortlock</persName>, at <placeName>the Ph&#339;nix in St. Pauls Church-yard, neer the little North-door.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: [4] p. at end.</note>
+      <note>Annotation on Thomason copy: "Oct:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Mortlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Ph&#339;nix in St. Pauls Church-yard, neer the little North-door.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

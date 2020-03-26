@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King a proclamation concerning tobacco.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2] leaves.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, Printer to the Kings most Excellent Maiestie: And by the Assignes of Iohn Bill,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Requiring imported tobacco to pass customs; forbidding domestic cultivation.</note>
-         <note>"Giuen at Our Court at Greenevvich, this nineteenth day of May, in the tenth yeere of Our Reigne of England, Scotland, France and Ireland."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King a proclamation concerning tobacco.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2] leaves.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, Printer to <persName type="patron">the Kings most Excellent Maiestie: And</persName> by <persName type="printer">the Assignes of Iohn Bill</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Requiring imported tobacco to pass customs; forbidding domestic cultivation.</note>
+      <note>"Giuen at Our Court at Greenevvich, this nineteenth day of May, in the tenth yeere of Our Reigne of England, Scotland, France and Ireland."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie: And</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>the Assignes of Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

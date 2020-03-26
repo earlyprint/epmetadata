@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The politician, a tragedy written by James Shirley.</title>
-         <author>Shirley, James, 1596-1666.</author>
-      </titleStmt>
-      <extent>[6], 74 [i.e. 78] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Presented at Salisbury court by Her Majesties servants."</note>
-         <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The politician, a tragedy written by James Shirley.</title>
+      <author>Shirley, James, 1596-1666.</author>
+    </titleStmt>
+    <extent>[6], 74 [i.e. 78] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Presented at Salisbury court by Her Majesties servants."</note>
+      <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

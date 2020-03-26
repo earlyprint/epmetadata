@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Behold the husbandman S. James 5.7.</title>
-         <author>Barksdale, Clement, 1609-1687.</author>
-      </titleStmt>
-      <extent>[4], 33, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Barksdale, next the Five Bells in New-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: C.B. [i.e. Clement Barksdale].</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Behold the husbandman S. James 5.7.</title>
+      <author>Barksdale, Clement, 1609-1687.</author>
+    </titleStmt>
+    <extent>[4], 33, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Barksdale, next the Five Bells</persName> in <placeName>New-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: C.B. [i.e. Clement Barksdale].</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Barksdale, next the Five Bells</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>New-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

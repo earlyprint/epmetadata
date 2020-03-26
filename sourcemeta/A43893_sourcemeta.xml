@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Caledonia, or, The Scots Colony in Darien in the West Indies with an account of the manners of the inhabitants and riches of the countrey / by a Gentleman lately arriv'd.</title>
-         <author>Gentleman lately arriv'd.</author>
-      </titleStmt>
-      <extent>54 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by John Nutt,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Caledonia, or, The Scots Colony in Darien in the West Indies with an account of the manners of the inhabitants and riches of the countrey / by a Gentleman lately arriv'd.</title>
+      <author>Gentleman lately arriv'd.</author>
+    </titleStmt>
+    <extent>54 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">John Nutt</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+    <person type="printer">
+      <persName>John Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

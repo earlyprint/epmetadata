@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegie on the much lamented death of the Right Honorable Sir Arthur Chichester Knight, Lo. Baron of Belfast, Lo. high Treasurer of Ireland, one of the lords of His Maiesties most Honorable Priuie Counsell, and of the Counsell of Warre. By Alex Spicer..</title>
-         <author>Spicer, Alexander, b. 1574 or 5.</author>
-      </titleStmt>
-      <extent>[2], 2, 22 p.   </extent>
-      <publicationStmt>
-         <publisher>By M[iles] F[lesher] for Robert Bird, and are to be sold at his shop in Cheapeside at the signe of the Bible,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1625..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegie on the much lamented death of the Right Honorable Sir Arthur Chichester Knight, Lo. Baron of Belfast, Lo. high Treasurer of Ireland, one of the lords of His Maiesties most Honorable Priuie Counsell, and of the Counsell of Warre. By Alex Spicer..</title>
+      <author>Spicer, Alexander, b. 1574 or 5.</author>
+    </titleStmt>
+    <extent>[2], 2, 22 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">M[iles] F[lesher]</persName> for <persName type="publisher">Robert Bird</persName>, and are to be sold at <placeName>his shop in Cheapeside at the signe of the Bible</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1625..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bird</persName>
+    </person>
+    <person type="printer">
+      <persName>M[iles] F[lesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Cheapeside at the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

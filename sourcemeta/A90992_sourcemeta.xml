@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods working and Brittains wonder. A sermon congratulating the most happy establishment of His sacred Majesty Charls the II. on His throne. Presented to the Kings most Excellent Majtie [sic]. By a person of honor. By Wil. Price B.D. late preacher of Covent-Garden, now to the Reformed English Church in Amsterdam.</title>
-         <author>Price, William, d. 1666.</author>
-      </titleStmt>
-      <extent>[8], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W. Godbid for Peter Dring at the Sun in the Poultrey, next dore to the Rose tavern,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "July 14".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods working and Brittains wonder. A sermon congratulating the most happy establishment of His sacred Majesty Charls the II. on His throne. Presented to the Kings most Excellent Majtie [sic]. By a person of honor. By Wil. Price B.D. late preacher of Covent-Garden, now to the Reformed English Church in Amsterdam.</title>
+      <author>Price, William, d. 1666.</author>
+    </titleStmt>
+    <extent>[8], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Godbid</persName> for <persName type="publisher">Peter Dring</persName> at <placeName>the Sun in the Poultrey, next dore to the Rose tavern</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "July 14".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun in the Poultrey, next dore to the Rose tavern</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A direction for the government of the tongue according to Gods word</title>
-         <author>Perkins, William, 1558-1602.</author>
-      </titleStmt>
-      <extent>[4], 73, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Legate printer to the Vniuersity of Cambridge. And are to be solde by Abraham Kitson at the signe of the Sunne in Pauls Church-yard in London,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date>1593.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: W. Perkins.</note>
-         <note>Running title reads: The government of the tongue.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A direction for the government of the tongue according to Gods word</title>
+      <author>Perkins, William, 1558-1602.</author>
+    </titleStmt>
+    <extent>[4], 73, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legate</persName> printer to <persName type="patron">the Vniuersity of Cambridge. And</persName> are to be solde by <persName type="bookseller">Abraham Kitson</persName> at <placeName>the signe of the Sunne in Pauls Church-yard in London</placeName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date>1593.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: W. Perkins.</note>
+      <note>Running title reads: The government of the tongue.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Vniuersity of Cambridge. And</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Abraham Kitson</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Legate</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Sunne in Pauls Church-yard in London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

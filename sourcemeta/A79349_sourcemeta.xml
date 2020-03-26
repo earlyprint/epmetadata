@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for the preventing of the exportation of wools, wool-fells, woollen-yarn, fullers-earth, and other scouring earths, out of this kingdom</title>
-         <title>Proclamations. 1660-09-15</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>3 sheets (versos blank)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill and Christopher Barker, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Dated at end: Given at our court at Whitehal the fifteenth day of September, in the twelfth year of our reign, 1660.</note>
-         <note>Arms 62; Steele notation: of  We  2) Wool-  3) Pre- due.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for the preventing of the exportation of wools, wool-fells, woollen-yarn, fullers-earth, and other scouring earths, out of this kingdom</title>
+      <title>Proclamations. 1660-09-15</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>3 sheets (versos blank)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Dated at end: Given at our court at Whitehal the fifteenth day of September, in the twelfth year of our reign, 1660.</note>
+      <note>Arms 62; Steele notation: of  We  2) Wool-  3) Pre- due.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

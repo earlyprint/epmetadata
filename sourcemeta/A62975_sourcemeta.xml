@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The womans glorie a treatise, asserting the due honour of that sexe, and directing wherein that honour consists : dedicated to the young princesse, Elizabeth her highnesse / by Samuel Torshel.</title>
-         <author>Torshell, Samuel, 1604-1650.</author>
-      </titleStmt>
-      <extent>[8], 232 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Iohn Bellamie ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The womans glorie a treatise, asserting the due honour of that sexe, and directing wherein that honour consists : dedicated to the young princesse, Elizabeth her highnesse / by Samuel Torshel.</title>
+      <author>Torshell, Samuel, 1604-1650.</author>
+    </titleStmt>
+    <extent>[8], 232 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Iohn Bellamie</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bellamie</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

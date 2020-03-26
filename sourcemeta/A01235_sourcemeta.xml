@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The priuiledges of the vpright in heart Expressed in brief meditations upon the 84 Psalme: and more particularly vpon the 11 verse thereof. Studied for the vse of the right worshipfull Company of Drapers London By W.F.</title>
-         <author>Freake, William.</author>
-      </titleStmt>
-      <extent>[4], 34, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Harper for Richard Harper, and are to be sold at his shop at the Bible,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>[1639]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: William Freake.</note>
-         <note>Publication date from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Identified as STC 11347a on UMI microfilm reel 644.</note>
-         <note>Imperfect; date cropped.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The priuiledges of the vpright in heart Expressed in brief meditations upon the 84 Psalme: and more particularly vpon the 11 verse thereof. Studied for the vse of the right worshipfull Company of Drapers London By W.F.</title>
+      <author>Freake, William.</author>
+    </titleStmt>
+    <extent>[4], 34, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Harper</persName> for <persName type="publisher">Richard Harper</persName>, and are to be sold at <placeName>his shop at the Bible</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>[1639]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: William Freake.</note>
+      <note>Publication date from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Identified as STC 11347a on UMI microfilm reel 644.</note>
+      <note>Imperfect; date cropped.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Harper</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

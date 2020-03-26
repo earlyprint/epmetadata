@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The charter granted by Their Majesties King William and Queen Mary to the inhabitants of the province of the Massachusetts-Bay in New-England</title>
-         <title>Charter</title>
-         <author>Massachusetts.</author>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-      </titleStmt>
-      <extent>[1], 15, [1], 158, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Bartholomew Green and John Allen ... for, and sold by, Michael Perry and Benjamin Eliot,</publisher>
-         <pubPlace>Boston in New-England :</pubPlace>
-         <date>1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Acts and laws of His Majesties province of Massachusetts-Bay in New-England" (158 p.) has special t.p.</note>
-         <note>Includes index.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The charter granted by Their Majesties King William and Queen Mary to the inhabitants of the province of the Massachusetts-Bay in New-England</title>
+      <title>Charter</title>
+      <author>Massachusetts.</author>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+    </titleStmt>
+    <extent>[1], 15, [1], 158, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Bartholomew Green</persName> and <persName type="printer">John Allen</persName> ... for, and sold by, <persName type="bookseller">Michael Perry</persName> and <persName type="publisher">Benjamin Eliot</persName>,</publisher>
+      <pubPlace>Boston in New-England :</pubPlace>
+      <date>1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Acts and laws of His Majesties province of Massachusetts-Bay in New-England" (158 p.) has special t.p.</note>
+      <note>Includes index.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Michael Perry</persName>
+    </person>
+    <person type="publisher">
+      <persName>Benjamin Eliot</persName>
+    </person>
+    <person type="printer">
+      <persName>Bartholomew Green</persName>
+    </person>
+    <person type="printer">
+      <persName>John Allen</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A learned, pious, and practical commentary, upon the Gospel according to St. Mark wherein the sacred text is logically analyzed; the meaning of the holy Spirit clearly and soundly opened: doctrines naturally raised, strongly confirmed, vindicated from exceptions, and excellent inferences deduced from them: all seeming differences in the history between this and the other evangelists fairly reconciled: many important cases of conscience, judiciously, succinctly, and perspicuously solved. By that laborious and faithful servant of Christ, Mr. George Petter, late Minister of the Gospel at Bread in Sussex.</title>
-         <author>Petter, George.</author>
-      </titleStmt>
-      <extent>[26], 884+ p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. Streater, and are to be sold by George Sawbridge, at the Bible on Ludgate-Hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCLXI. [1661]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Catchword on p.884: Chap.</note>
-         <note>Imperfect; lacks all after p.884.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A learned, pious, and practical commentary, upon the Gospel according to St. Mark wherein the sacred text is logically analyzed; the meaning of the holy Spirit clearly and soundly opened: doctrines naturally raised, strongly confirmed, vindicated from exceptions, and excellent inferences deduced from them: all seeming differences in the history between this and the other evangelists fairly reconciled: many important cases of conscience, judiciously, succinctly, and perspicuously solved. By that laborious and faithful servant of Christ, Mr. George Petter, late Minister of the Gospel at Bread in Sussex.</title>
+      <author>Petter, George.</author>
+    </titleStmt>
+    <extent>[26], 884+ p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. Streater</persName>, and are to be sold by <persName type="bookseller">George Sawbridge</persName>, at <placeName>the Bible on Ludgate-Hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCLXI. [1661]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Catchword on p.884: Chap.</note>
+      <note>Imperfect; lacks all after p.884.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>George Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible on Ludgate-Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

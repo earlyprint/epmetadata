@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A president for young pen-men. Or The letter-writer Containing letters of sundry sortes, with their seuerall answeres. Full of variety, delight, and pleasure, and most necessary for the instruction of those that can write, but haue not the guift of enditing.</title>
-         <author>M. R., fl. 1638.</author>
-      </titleStmt>
-      <extent>[60] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. Eld for Robert Wilson, and are to be sold at his shoppe at Grayes Inne Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: M.R.</note>
-         <note>Signatures: A-G⁴ H² .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A president for young pen-men. Or The letter-writer Containing letters of sundry sortes, with their seuerall answeres. Full of variety, delight, and pleasure, and most necessary for the instruction of those that can write, but haue not the guift of enditing.</title>
+      <author>M. R., fl. 1638.</author>
+    </titleStmt>
+    <extent>[60] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Eld</persName> for <persName type="publisher">Robert Wilson</persName>, and are to be sold at <placeName>his shoppe at Grayes Inne Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: M.R.</note>
+      <note>Signatures: A-G&#8308; H&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Wilson</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe at Grayes Inne Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Dutch courtezan As it vvas playd in the Blacke-Friars, by the Children of her Maiesties Reuels. VVritten by Iohn Marston.</title>
-         <author>Marston, John, 1575?-1634.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] P[urfoot] for Iohn Hodgets, and are to be sould at his shop in Paules Church-yard,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-H⁴.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Dutch courtezan As it vvas playd in the Blacke-Friars, by the Children of her Maiesties Reuels. VVritten by Iohn Marston.</title>
+      <author>Marston, John, 1575?-1634.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] P[urfoot]</persName> for <persName type="publisher">Iohn Hodgets</persName>, and are to be sould at <placeName>his shop in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Hodgets</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] P[urfoot]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

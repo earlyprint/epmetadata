@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The holy salutation of the blessed Apostle Saint Jude to the saints and seruants of God. Preached at Pauls Crosse the seuenteenth of Nouember. Anno. Dom. 1611. By Francis Tomlinson, preacher of the Word, and chaplaine to the right honourable, the Lord Ellesmere, Lord High Chancellor of England, and Chancellor of Oxford.</title>
-         <author>Tomlinson, Francis.</author>
-      </titleStmt>
-      <extent>[8], 51, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston for George Norton, dwelling neare Temple barre,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The holy salutation of the blessed Apostle Saint Jude to the saints and seruants of God. Preached at Pauls Crosse the seuenteenth of Nouember. Anno. Dom. 1611. By Francis Tomlinson, preacher of the Word, and chaplaine to the right honourable, the Lord Ellesmere, Lord High Chancellor of England, and Chancellor of Oxford.</title>
+      <author>Tomlinson, Francis.</author>
+    </titleStmt>
+    <extent>[8], 51, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName> for <persName type="publisher">George Norton</persName>, dwelling neare <placeName>Temple barre</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Temple barre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pierce Penilesse his supplication to the diuell. Written by Tho. Nash, Gent</title>
-         <author>Nash, Thomas, 1567-1601.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Abell Ieffes, for I. B[usby],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: [par.]²  A-I⁴.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pierce Penilesse his supplication to the diuell. Written by Tho. Nash, Gent</title>
+      <author>Nash, Thomas, 1567-1601.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Abell Ieffes</persName>, for <persName type="publisher">I. B[usby]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: [par.]&#178;  A-I&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. B[usby]</persName>
+    </person>
+    <person type="printer">
+      <persName>Abell Ieffes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

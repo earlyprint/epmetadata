@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems upon the death of the most honorable, the Lady Marchioness of Winchester / by R. Graham.</title>
-         <author>Preston, Richard Graham, Viscount, 1648-1695.</author>
-      </titleStmt>
-      <extent>[1], 3 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Alice Broad and John White ...,</publisher>
-         <pubPlace>York :</pubPlace>
-         <date>1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems upon the death of the most honorable, the Lady Marchioness of Winchester / by R. Graham.</title>
+      <author>Preston, Richard Graham, Viscount, 1648-1695.</author>
+    </titleStmt>
+    <extent>[1], 3 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Alice Broad</persName> and <persName type="printer">John White</persName> ...,</publisher>
+      <pubPlace>York :</pubPlace>
+      <date>1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Alice Broad</persName>
+    </person>
+    <person type="printer">
+      <persName>John White</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

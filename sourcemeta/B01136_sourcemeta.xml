@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A crovvne for a conquerour; and Too late to call backe yesterday. Two poems, the one divine and the other morall. / By R.D.</title>
-         <author>Davenport, Robert, fl. 1623.</author>
-         <author>Purslowe, Elizabeth, printer.</author>
-         <author>Constable, Francis, d. 1647, bookseller.</author>
-         <author>Davenport, Robert, fl. 1623. Too late to call backe yesterday.</author>
-      </titleStmt>
-      <extent>[2], 23 [i.e. 19] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.P. for Francis Constable, and are to be sold at his shop, under Saint Martins Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Too late to call backe yesterday" has a separate t.p. but continuous pagination and continuous signatures.</note>
-         <note>Second t.p. has printers' device (McK. 311).</note>
-         <note>Signatures: A-C⁴.</note>
-         <note>Imperfect: cropped, with loss of print.</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A crovvne for a conquerour; and Too late to call backe yesterday. Two poems, the one divine and the other morall. / By R.D.</title>
+      <author>Davenport, Robert, fl. 1623.</author>
+      <author>Purslowe, Elizabeth, printer.</author>
+      <author>Constable, Francis, d. 1647, bookseller.</author>
+      <author>Davenport, Robert, fl. 1623. Too late to call backe yesterday.</author>
+    </titleStmt>
+    <extent>[2], 23 [i.e. 19] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.P.</persName> for <persName type="publisher">Francis Constable</persName>, and are to be sold at <placeName>his shop, under Saint Martins Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Too late to call backe yesterday" has a separate t.p. but continuous pagination and continuous signatures.</note>
+      <note>Second t.p. has printers' device (McK. 311).</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Imperfect: cropped, with loss of print.</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>E.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, under Saint Martins Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflexions upon a late pamphlet, intituled, A narrative written by E. Settle with a vindication of the proceedings of the nation from aspersions cast upon them by that libel.</title>
-      </titleStmt>
-      <extent>[2], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.H. for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflexions upon a late pamphlet, intituled, A narrative written by E. Settle with a vindication of the proceedings of the nation from aspersions cast upon them by that libel.</title>
+    </titleStmt>
+    <extent>[2], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.H.</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>J.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

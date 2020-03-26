@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Politicaster or, a comical discourse, in answer unto Mr. Wren's book, intituled, Monarchy asserted, against Mr. Harrington's Oceana. / By J.H.</title>
-         <author>Harrington, James, 1611-1677.</author>
-      </titleStmt>
-      <extent>[6], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for Henry Fletcher, at the three Gilt Cups in Pauls Churchyard, near the west-end,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>J.H. = James Harrington.</note>
-         <note>Annotation on Thomason copy: "August".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Politicaster or, a comical discourse, in answer unto Mr. Wren's book, intituled, Monarchy asserted, against Mr. Harrington's Oceana. / By J.H.</title>
+      <author>Harrington, James, 1611-1677.</author>
+    </titleStmt>
+    <extent>[6], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">Henry Fletcher</persName>, at <placeName>the three Gilt Cups in Pauls Churchyard, near the west-end</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>J.H. = James Harrington.</note>
+      <note>Annotation on Thomason copy: "August".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Fletcher</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Gilt Cups in Pauls Churchyard, near the west-end</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Martis 29. Februarii. 1647. Resolved by the Lords and Commons assembled in Parliament. That no person or persons whatsoever, presume to raise lift, muster, or gather together any souldiers, ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>for John Wright at the Kings Head in the Old-Bayley,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1647 [i.e. 1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>No person to enlist soldiers on pretence of transporting them for the service of any foreign prince in London or within 10 miles of it. No person to enlist soldiers for the service of any foreign prince without the special leave of the Committee at Derby House -- Cf. Steele.</note>
-         <note>Ordered to be printed and published by the House of Lords.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Martis 29. Februarii. 1647. Resolved by the Lords and Commons assembled in Parliament. That no person or persons whatsoever, presume to raise lift, muster, or gather together any souldiers, ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the Old-Bayley</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1647 [i.e. 1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>No person to enlist soldiers on pretence of transporting them for the service of any foreign prince in London or within 10 miles of it. No person to enlist soldiers for the service of any foreign prince without the special leave of the Committee at Derby House -- Cf. Steele.</note>
+      <note>Ordered to be printed and published by the House of Lords.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old-Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

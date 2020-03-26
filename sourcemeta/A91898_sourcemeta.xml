@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Panoplia. Universa arma. Hieron. Or, The Christian compleatly armed: being a treatise of the Christians armour, clearly opening every part thereof, both pressing to the putting of it on, and instructing us so to use it, as we may not be soyled in time of temptation. / Delivered by that late reverend, and faithfull minister of Jesus Christ, Mr. Ralph Robinson, pastor of Mary Woolnoth, London, to his congregation there, in several lectures: and now published for the further benefit of the Church of God.</title>
-         <author>Robinson, Ralph, 1614-1655.</author>
-      </titleStmt>
-      <extent>[8], 206 [i.e. 190], 174 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Streater; for John Sims, at the Cross-keys in the New-Building in Pauls Church-yard; and Elisha Wallis, at the three Black Lyons in the Old-Bayley,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title is in Greek characters.</note>
-         <note>Pages 113-128 in first part lacking in number only; text is continuous.</note>
-         <note>Annotation on Thomason copy: "January. 30. 1655"; the second 6 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Panoplia. Universa arma. Hieron. Or, The Christian compleatly armed: being a treatise of the Christians armour, clearly opening every part thereof, both pressing to the putting of it on, and instructing us so to use it, as we may not be soyled in time of temptation. / Delivered by that late reverend, and faithfull minister of Jesus Christ, Mr. Ralph Robinson, pastor of Mary Woolnoth, London, to his congregation there, in several lectures: and now published for the further benefit of the Church of God.</title>
+      <author>Robinson, Ralph, 1614-1655.</author>
+    </titleStmt>
+    <extent>[8], 206 [i.e. 190], 174 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Streater;</persName> for <persName type="publisher">John Sims</persName>, at <placeName>the Cross-keys in the New-Building in Pauls Church-yard;</placeName> and <persName type="publisher">Elisha Wallis</persName>, at <placeName>the three Black Lyons in the Old-Bayley</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title is in Greek characters.</note>
+      <note>Pages 113-128 in first part lacking in number only; text is continuous.</note>
+      <note>Annotation on Thomason copy: "January. 30. 1655"; the second 6 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Elisha Wallis</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Sims</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Streater;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Cross-keys in the New-Building in Pauls Church-yard;</placeName>
+    </place>
+    <place type="location">
+      <placeName>the three Black Lyons in the Old-Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

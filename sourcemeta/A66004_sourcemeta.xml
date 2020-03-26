@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Iter boreale with large additions of several other poems : being an exact collection of all hitherto extant : never before published together / the author R. Wild.</title>
-         <author>Wild, Robert, 1609-1679.</author>
-      </titleStmt>
-      <extent>[2], 5-120 [i.e. 122], [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the booksellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The recantation of a penitent Proteus" and "The fair quarrel" each has special title page.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Iter boreale with large additions of several other poems : being an exact collection of all hitherto extant : never before published together / the author R. Wild.</title>
+      <author>Wild, Robert, 1609-1679.</author>
+    </titleStmt>
+    <extent>[2], 5-120 [i.e. 122], [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the booksellers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The recantation of a penitent Proteus" and "The fair quarrel" each has special title page.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the booksellers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

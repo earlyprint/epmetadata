@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pindarick ode, upon the death of His Late Sacred Majesty King Charles the Second</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield ... for Anthony Stephens ...,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Another issue has London imprint.</note>
-         <note>Not to be confused with A pindarick ode on the death by J.H., the present work begins: "Alas he's dead--the dismal sound."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pindarick ode, upon the death of His Late Sacred Majesty King Charles the Second</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName> ... for <persName type="publisher">Anthony Stephens</persName> ...,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Another issue has London imprint.</note>
+      <note>Not to be confused with A pindarick ode on the death by J.H., the present work begins: "Alas he's dead--the dismal sound."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Anthony Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

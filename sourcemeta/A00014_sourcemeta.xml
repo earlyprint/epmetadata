@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Greate Brittaines noble and worthy councell of warr</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Archer in Popes head Ally, and are to be sold at this shop in Popes head Ally, ouer against the si[ne?] of the Horse-shoe,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1624]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date from STC (2nd ed.).</note>
-         <note>Engraved illustration with verse. Shows ten men seated around a table. A figure holds a banner inscribed: To the right Hõ'ble Oliver Viscount Grandison, George Lo. Carew, Fulke Lo. Brooke, Arthur Lo. Chichester, Sr. Edward Conway, Sr. Robert Mansell, Sr. Iohn Oagle, Sr. Thomas Button, Yr. Honnors humble seruant.</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Greate Brittaines noble and worthy councell of warr</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Archer</persName> in <placeName>Popes head Ally</placeName>, and are to be sold at this shop in <placeName>Popes head Ally</placeName>, ouer against the si[ne?] of the Horse-shoe,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1624]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date from STC (2nd ed.).</note>
+      <note>Engraved illustration with verse. Shows ten men seated around a table. A figure holds a banner inscribed: To the right H&#245;'ble Oliver Viscount Grandison, George Lo. Carew, Fulke Lo. Brooke, Arthur Lo. Chichester, Sr. Edward Conway, Sr. Robert Mansell, Sr. Iohn Oagle, Sr. Thomas Button, Yr. Honnors humble seruant.</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Archer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Ally</placeName>
+    </place>
+    <place type="location">
+      <placeName>this shop in Popes head Ally, ouer against the si[ne?] of the Horse-shoe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

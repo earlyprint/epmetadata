@@ -1,24 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The passions of the minde in generall. Corrected, enlarged, and with sundry new discourses augmented. By Thomas Wright. With a treatise thereto adioyning of the clymatericall yeare, occasioned by the death of Queene Elizabeth</title>
-         <author>Wright, Thomas, d. 1624.</author>
-         <author>Wright, Thomas, d. 1624. Succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth. aut</author>
-      </titleStmt>
-      <extent>[12], 352; [4], 17, [3] p., folded leaf   </extent>
-      <publicationStmt>
-         <publisher>Printed by Valentine Simmes [and Adam Islip] for Walter Burre [and Thomas Thorpe] and are to be sold [by Walter Burre] in Paules Churchyard at the signe of the Crane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>Anno. 1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published in 1601 as: The passions of the minde.</note>
-         <note>Islip printed quires G-O in part 1 (STC).</note>
-         <note>"A succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth", a reissue of STC 26043.3, has separate dated title page with imprint "Printed for Thomas Thorpe, and are to be sold .. by Walter Burre"; pagination and register are separate. This text is not included in any subsequent edition.</note>
-         <note>The last leaf is blank.</note>
-         <note>A2v line 10 has "connatural". Variant 1: quire ¹A in a different, uncorrected setting; A2v line 10 has "continuall" and title page line 7 begins "Newly enlarged". Variant 2 (stop-press change?): title page has "By Tho. Wr.".</note>
-         <note>Reproduction of the original in Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The passions of the minde in generall. Corrected, enlarged, and with sundry new discourses augmented. By Thomas Wright. With a treatise thereto adioyning of the clymatericall yeare, occasioned by the death of Queene Elizabeth</title>
+      <author>Wright, Thomas, d. 1624.</author>
+      <author>Wright, Thomas, d. 1624. Succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth. aut</author>
+    </titleStmt>
+    <extent>[12], 352; [4], 17, [3] p., folded leaf   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Valentine Simmes</persName> [and <persName type="printer">Adam Islip]</persName> for <persName type="publisher">Walter Burre [</persName>and <persName type="publisher">Thomas Thorpe]</persName> and are to be sold [by <persName type="bookseller">Walter Burre]</persName> in <placeName>Paules Churchyard at the signe of the Crane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>Anno. 1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published in 1601 as: The passions of the minde.</note>
+      <note>Islip printed quires G-O in part 1 (STC).</note>
+      <note>"A succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth", a reissue of STC 26043.3, has separate dated title page with imprint "Printed for Thomas Thorpe, and are to be sold .. by Walter Burre"; pagination and register are separate. This text is not included in any subsequent edition.</note>
+      <note>The last leaf is blank.</note>
+      <note>A2v line 10 has "connatural". Variant 1: quire &#185;A in a different, uncorrected setting; A2v line 10 has "continuall" and title page line 7 begins "Newly enlarged". Variant 2 (stop-press change?): title page has "By Tho. Wr.".</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Walter Burre]</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Thorpe]</persName>
+    </person>
+    <person type="publisher">
+      <persName>Walter Burre [</persName>
+    </person>
+    <person type="printer">
+      <persName>Adam Islip]</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Simmes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard at the signe of the Crane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

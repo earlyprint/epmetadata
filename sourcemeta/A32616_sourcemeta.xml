@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation prohibiting the keeping of the fair at Bristol, commonly called St. Paul's Fair</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfeild ... for John Bill, and Christopher Barker ...,</publisher>
-         <pubPlace>Oxford:</pubPlace>
-         <date>1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our court at Oxford, the one and twentieth day of December, 1665. In the seventeenth year of His Majesties reign."</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation prohibiting the keeping of the fair at Bristol, commonly called St. Paul's Fair</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfeild</persName> ... for <persName type="publisher">John Bill</persName>, and <persName type="publisher">Christopher Barker</persName> ...,</publisher>
+      <pubPlace>Oxford:</pubPlace>
+      <date>1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our court at Oxford, the one and twentieth day of December, 1665. In the seventeenth year of His Majesties reign."</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfeild</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

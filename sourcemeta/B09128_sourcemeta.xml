@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A winding-sheet for the Presbyterian, or, A mite touching the ordination of ministers by Arise Evans.</title>
-         <author>Evans, Arise, b. 1607.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Sold by the Author at Mr. Cadelth's in Black Fryars near the Kings Play-House,</publisher>
-         <pubPlace>[S.l.] :</pubPlace>
-         <date>[1652?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by Wing (2nd ed.).</note>
-         <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A winding-sheet for the Presbyterian, or, A mite touching the ordination of ministers by Arise Evans.</title>
+      <author>Evans, Arise, b. 1607.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Sold by <persName type="bookseller">the Author</persName> at <placeName>Mr. Cadelth's in Black Fryars near the Kings Play-House</placeName>,</publisher>
+      <pubPlace>[S.l.] :</pubPlace>
+      <date>[1652?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by Wing (2nd ed.).</note>
+      <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the Author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Cadelth's in Black Fryars near the Kings Play-House</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

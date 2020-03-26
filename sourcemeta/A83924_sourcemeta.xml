@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Iovis 18 Februarii 1646. Whereas provision is made by the statutes of this realme for the perservation [sic] of game in this kingdome, ...</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for John Wright at the Kings Head in the Old Baley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1646. [i.e. 1647]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from heading and first lines of text.</note>
-         <note>Order to print dated: Die Sabbathi 20 Februarii 1646 and signed: Joh. Brown Cler. Parliamentorum.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Iovis 18 Februarii 1646. Whereas provision is made by the statutes of this realme for the perservation [sic] of game in this kingdome, ...</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the Old Baley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1646. [i.e. 1647]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from heading and first lines of text.</note>
+      <note>Order to print dated: Die Sabbathi 20 Februarii 1646 and signed: Joh. Brown Cler. Parliamentorum.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old Baley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

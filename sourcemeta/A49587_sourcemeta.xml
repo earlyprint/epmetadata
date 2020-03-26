@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of paying of tithes by T.L. ... ; together with an appendix ...</title>
-         <author>Larkham, Thomas, 1602-1669.</author>
-      </titleStmt>
-      <extent>[4], 44, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. &amp; E.M. and are to be sold by Francis Eglesfield ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Larkham.</note>
-         <note>Advertisement: p. [1]-[8] at end.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of paying of tithes by T.L. ... ; together with an appendix ...</title>
+      <author>Larkham, Thomas, 1602-1669.</author>
+    </titleStmt>
+    <extent>[4], 44, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> &amp; <persName type="printer">E.M.</persName> and are to be sold by <persName type="bookseller">Francis Eglesfield</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Larkham.</note>
+      <note>Advertisement: p. [1]-[8] at end.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Eglesfield</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

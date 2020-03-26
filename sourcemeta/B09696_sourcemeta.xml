@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A peace-making iurie, or, Twelve moderate propositions, tending to the reconciling of the present differences about church-combinations betweixt the Presbyterian and independent / by Philalethirenaus Junior, anno 1650.</title>
-         <author>Hall, Joseph, 1574-1656.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. H. for Richard Tomlins, at the Sun and Bible near Pye-Corner,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing (2nd ed.).</note>
-         <note>Reproduction of original in: Massachusetts Historical Society Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A peace-making iurie, or, Twelve moderate propositions, tending to the reconciling of the present differences about church-combinations betweixt the Presbyterian and independent / by Philalethirenaus Junior, anno 1650.</title>
+      <author>Hall, Joseph, 1574-1656.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. H.</persName> for <persName type="publisher">Richard Tomlins</persName>, at <placeName>the Sun</placeName> and Bible near <placeName>Pye-Corner</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing (2nd ed.).</note>
+      <note>Reproduction of original in: Massachusetts Historical Society Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Tomlins</persName>
+    </person>
+    <person type="printer">
+      <persName>W. H.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pye-Corner</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

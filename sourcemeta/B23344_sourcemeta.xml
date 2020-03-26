@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The citizens sacred entertainment being an essay to ingratiate the practice of vertue, to consummate the happiness of humane nature, and to gratifie ingenuous and religious spirits / by Tho. Fydge.</title>
-         <author>Fydge, Tho. (Thomas)</author>
-      </titleStmt>
-      <extent>[12], 146, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.C. and are to be sold by H. Eversden ... W. Flindel ... and W. Fairfax ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.DC.L.X.VI [1666]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The citizens sacred entertainment being an essay to ingratiate the practice of vertue, to consummate the happiness of humane nature, and to gratifie ingenuous and religious spirits / by Tho. Fydge.</title>
+      <author>Fydge, Tho. (Thomas)</author>
+    </titleStmt>
+    <extent>[12], 146, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.C.</persName> and are to be sold by <persName type="bookseller">H. Eversden</persName> ... <persName type="bookseller">W. Flindel</persName> ... and <persName type="bookseller">W. Fairfax</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.DC.L.X.VI [1666]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>H. Eversden</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Fairfax</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Flindel</persName>
+    </person>
+    <person type="printer">
+      <persName>E.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

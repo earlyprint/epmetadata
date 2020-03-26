@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nunc aut nunquam, peace now or never being a dialogue betwixt Jack and Will, upon the present juncture of affairs.</title>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Snowden in Great Carter-Lane, and sold by E. Whitlock, near Stationers-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: faint print with slight loss of text.</note>
-         <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nunc aut nunquam, peace now or never being a dialogue betwixt Jack and Will, upon the present juncture of affairs.</title>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Snowden</persName> in <placeName>Great Carter-Lane</placeName>, and sold by <persName type="bookseller">E. Whitlock</persName>, near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: faint print with slight loss of text.</note>
+      <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Snowden</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Great Carter-Lane</placeName>
+    </place>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

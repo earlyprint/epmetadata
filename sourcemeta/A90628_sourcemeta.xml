@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration concerning the newly invented art of double writing. Wherein are expressed the reasons of the authors proceedings in procuring a priviledge for the same : as also of the time, manner, and price, of the discovery of the said art, and of the instruments belonging thereunto. For the satisfaction of all that desire to be partakers of the great benefit of the same, before they adventure anything towards the reward thereof. Whereunto is annexed a copie of an ordinance of both houses of Parliament, approving the feasibility and great use of the said invention, and allowing a priviledge to the inventor, for the sole benefit thereof for 14 years, upon the penalty of one hundred pounds.</title>
-         <author>Petty, William, Sir, 1623-1687.</author>
-      </titleStmt>
-      <extent>[2], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.L. for R.W. at the Star under Saint Peters Church in Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Anonymous. Attributed to Sir William Petty.</note>
-         <note>Annotation on Thomason copy: "Aprill 29."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration concerning the newly invented art of double writing. Wherein are expressed the reasons of the authors proceedings in procuring a priviledge for the same : as also of the time, manner, and price, of the discovery of the said art, and of the instruments belonging thereunto. For the satisfaction of all that desire to be partakers of the great benefit of the same, before they adventure anything towards the reward thereof. Whereunto is annexed a copie of an ordinance of both houses of Parliament, approving the feasibility and great use of the said invention, and allowing a priviledge to the inventor, for the sole benefit thereof for 14 years, upon the penalty of one hundred pounds.</title>
+      <author>Petty, William, Sir, 1623-1687.</author>
+    </titleStmt>
+    <extent>[2], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.L.</persName> for <persName type="publisher">R.W.</persName> at <placeName>the Star under Saint Peters Church in Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Anonymous. Attributed to Sir William Petty.</note>
+      <note>Annotation on Thomason copy: "Aprill 29."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R.W.</persName>
+    </person>
+    <person type="printer">
+      <persName>R.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Star under Saint Peters Church in Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

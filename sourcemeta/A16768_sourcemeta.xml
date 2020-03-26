@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pasquils mad-cap· And his message.</title>
-         <title>Pasquils mad-cap. Part 1</title>
-         <author>Breton, Nicholas, 1545?-1626?</author>
-      </titleStmt>
-      <extent>[4], 43, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by V[alentine] S[immes] for Thomas Bushell, and are to bee solde at his shop at the great north doore of Paules,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pasquil = Nicholas Breton.</note>
-         <note>In verse.</note>
-         <note>Part 1 only.</note>
-         <note>Printer's name from STC.</note>
-         <note>Vertical chain lines.</note>
-         <note>Probably the second edition. A2 is in the same setting as the edition with title "Pasquils mad-cappe and his message".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pasquils mad-cap&#183; And his message.</title>
+      <title>Pasquils mad-cap. Part 1</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+    </titleStmt>
+    <extent>[4], 43, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">V[alentine] S[immes]</persName> for <persName type="publisher">Thomas Bushell</persName>, and are to bee solde at <placeName>his shop at the great north doore of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pasquil = Nicholas Breton.</note>
+      <note>In verse.</note>
+      <note>Part 1 only.</note>
+      <note>Printer's name from STC.</note>
+      <note>Vertical chain lines.</note>
+      <note>Probably the second edition. A2 is in the same setting as the edition with title "Pasquils mad-cappe and his message".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Bushell</persName>
+    </person>
+    <person type="printer">
+      <persName>V[alentine] S[immes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the great north doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tarltons newes out of purgatorie Onely such a iest as his iigge, fit for gentlemen to laugh at an houre, &amp;c. Published by an old companion of his, Robin Goodfellow.</title>
-         <author>Tarlton, Richard, d. 1588, attributed name.</author>
-         <author>Armin, Robert, fl. 1610, attributed name.</author>
-      </titleStmt>
-      <extent>[4], 53 [i.e. 52] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Robinson] for T. G[ubbin] and T. N[ewman],</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1590.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Not in fact by Richard Tarlton; sometimes attributed to Robert Armin.</note>
-         <note>Names in imprint from STC.</note>
-         <note>Page 52 misnumbered 53.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tarltons newes out of purgatorie Onely such a iest as his iigge, fit for gentlemen to laugh at an houre, &amp;c. Published by an old companion of his, Robin Goodfellow.</title>
+      <author>Tarlton, Richard, d. 1588, attributed name.</author>
+      <author>Armin, Robert, fl. 1610, attributed name.</author>
+    </titleStmt>
+    <extent>[4], 53 [i.e. 52] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Robinson]</persName> for <persName type="publisher">T. G[ubbin]</persName> and <persName type="publisher">T. N[ewman]</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1590.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not in fact by Richard Tarlton; sometimes attributed to Robert Armin.</note>
+      <note>Names in imprint from STC.</note>
+      <note>Page 52 misnumbered 53.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. G[ubbin]</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. N[ewman]</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Robinson]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memorable epitaph, made vpon the lamentable complaint of the people of England, for the death of the right honorable Sir Frauncis Walsingham Knight principall secretarie of estate, chauncellor of her Maiesties court for the Dutchy of Lankaster, and one of her highnesse most honorable priuie councell. Who deceassed at his house in London on the 7. day of Aprill last past. Anno. Dom. 1590.</title>
-         <author>Nelson, Thomas, fl. 1580.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Charlewood] for William Wright,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1590]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Tho. Nelson.</note>
-         <note>Printer's name from STC.</note>
-         <note>Verse - "Who mournes not for the present losse that England dooth sustaine?".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memorable epitaph, made vpon the lamentable complaint of the people of England, for the death of the right honorable Sir Frauncis Walsingham Knight principall secretarie of estate, chauncellor of her Maiesties court for the Dutchy of Lankaster, and one of her highnesse most honorable priuie councell. Who deceassed at his house in London on the 7. day of Aprill last past. Anno. Dom. 1590.</title>
+      <author>Nelson, Thomas, fl. 1580.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Charlewood]</persName> for <persName type="publisher">William Wright</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1590]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Tho. Nelson.</note>
+      <note>Printer's name from STC.</note>
+      <note>Verse - "Who mournes not for the present losse that England dooth sustaine?".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>John Charlewood]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation appointing all passes to ships to be granted hereafter by the High-admiral, his deputes, judges and officers</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, Printer to his most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>Anno Dom. 1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Dated at end: Given under Our Signet, at Edinburgh, the sixth day of May, one thousand six hundred and eighty years; and of Our Reign the thirty two year.</note>
-         <note>Signed: Will. Paterson, Cl. Sti. Concilij.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation appointing all passes to ships to be granted hereafter by the High-admiral, his deputes, judges and officers</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, Printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>Anno Dom. 1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Dated at end: Given under Our Signet, at Edinburgh, the sixth day of May, one thousand six hundred and eighty years; and of Our Reign the thirty two year.</note>
+      <note>Signed: Will. Paterson, Cl. Sti. Concilij.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

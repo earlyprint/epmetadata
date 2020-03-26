@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the governour, council &amp; assembly of Jamaica, in St. Jago de la Vega, Martii 18. 1680/1</title>
-      </titleStmt>
-      <extent>[2], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T. Milbourn, for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the governour, council &amp; assembly of Jamaica, in St. Jago de la Vega, Martii 18. 1680/1</title>
+    </titleStmt>
+    <extent>[2], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. Milbourn</persName>, for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Milbourn</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

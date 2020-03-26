@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The woful complaint and lamentable death of a forsaken lover. To pleasant new tune.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for A. Milbo[urn, W. Onley, Tho. Thackeray,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1695?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint suggested by Wing.</note>
-         <note>Verse: "Down by a forrest as I did pass ..."</note>
-         <note>Imperfect: trimmed affecting imprint.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The woful complaint and lamentable death of a forsaken lover. To pleasant new tune.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A. Milbo[urn</persName>, <persName type="publisher">W. Onley</persName>, <persName type="publisher">Tho. Thackeray</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1695?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint suggested by Wing.</note>
+      <note>Verse: "Down by a forrest as I did pass ..."</note>
+      <note>Imperfect: trimmed affecting imprint.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A. Milbo[urn</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Thackeray</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Onley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

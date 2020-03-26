@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Good-fellows counsel: or, The Bad husbands recantation proving by arguments both just and fit, that he which spends least money has most wit. : To the tune of, Tan Tivye.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] leaves).   </extent>
-      <publicationStmt>
-         <publisher>Printed for P. Brooksby next the Golden Ball by the Hospital Gate at West-Smith field,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[between 1680 and 1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Imprint from colophon.</note>
-         <note>Printed on facing leaves; "The second part, to the same tune" at top of second leaf.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Good-fellows counsel: or, The Bad husbands recantation proving by arguments both just and fit, that he which spends least money has most wit. : To the tune of, Tan Tivye.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] leaves).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">P. Brooksby next the Golden Ball</persName> by <persName type="printer">the Hospital Gate</persName> at <placeName>West-Smith field</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[between 1680 and 1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Imprint from colophon.</note>
+      <note>Printed on facing leaves; "The second part, to the same tune" at top of second leaf.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Brooksby next the Golden Ball</persName>
+    </person>
+    <person type="printer">
+      <persName>the Hospital Gate</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>West-Smith field</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

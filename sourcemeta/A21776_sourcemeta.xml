@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. Forasmuch as the Queenes Maiestie our souerayne lady is creibly informed, that the infection of the plague is at this present in sondry places, in [and] about the citie of London, and in other places neere adioyning the same ...</title>
-         <title>Proclamations. 1577-09-16</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>At her Maiesties commandement, by Christopher Barkar,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1577]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Michaelmas Term is adjourned because of plague.</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. Forasmuch as the Queenes Maiestie our souerayne lady is creibly informed, that the infection of the plague is at this present in sondry places, in [and] about the citie of London, and in other places neere adioyning the same ...</title>
+      <title>Proclamations. 1577-09-16</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>At <placeName>her Maiesties commandement</placeName>, by <persName type="printer">Christopher Barkar</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1577]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Michaelmas Term is adjourned because of plague.</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barkar</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>her Maiesties commandement</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

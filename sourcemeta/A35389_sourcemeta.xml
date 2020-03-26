@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition with practical observations upon the three first chapters of the book of Iob delivered in XXI lectures at Magnus neare the bridge, London, by Joseph Caryl ...</title>
-         <author>Caryl, Joseph, 1602-1673.</author>
-      </titleStmt>
-      <extent>[10], 479, 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. Miller for Henry Overton ... and Luke Fawne and Iohn Rothwell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>M.D.C.XLIII [1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition with practical observations upon the three first chapters of the book of Iob delivered in XXI lectures at Magnus neare the bridge, London, by Joseph Caryl ...</title>
+      <author>Caryl, Joseph, 1602-1673.</author>
+    </titleStmt>
+    <extent>[10], 479, 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Miller</persName> for <persName type="publisher">Henry Overton</persName> ... and <persName type="publisher">Luke Fawne</persName> and <persName type="publisher">Iohn Rothwell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>M.D.C.XLIII [1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Rothwell</persName>
+    </person>
+    <person type="publisher">
+      <persName>Luke Fawne</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Miller</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

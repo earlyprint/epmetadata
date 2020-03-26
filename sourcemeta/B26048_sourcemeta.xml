@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The list of the English Royal Navy, as it is order'd for the line of battle.</title>
-         <title>Lists. 1694.</title>
-         <author>England and Wales. Royal Navy.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Amery, and sold by R. Taylor near Stationers-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at head: St. Heylins May 19, 1694.</note>
-         <note>Followed by docket title in mss. on UMI microfilm reel C15.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The list of the English Royal Navy, as it is order'd for the line of battle.</title>
+      <title>Lists. 1694.</title>
+      <author>England and Wales. Royal Navy.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Amery</persName>, and sold by <persName type="bookseller">R. Taylor</persName> near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at head: St. Heylins May 19, 1694.</note>
+      <note>Followed by docket title in mss. on UMI microfilm reel C15.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Taylor</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Amery</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

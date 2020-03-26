@@ -1,19 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The valorous warrior's welfare, in God's victorious warfare A sermon preach'd in His Majesty's English camp, near the city of Ghendt in Flanders; before the battalion of His Royal Highness George Prince of Denmark, under the command of the right honourable Colonel Charles Churchill, major-general of His Majesty's forces in the Netherlands. By William Williams, minister of the Gospel, and a son of the Church of England.</title>
-         <author>Williams, William, Inferior Brother to the venerable and orthodox clergy.</author>
-      </titleStmt>
-      <extent>[4], 26, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Pero, at the White Swan, and Edward Powel next the Pump-Coffee-House in Little Britain; and sold by R. Baldwin, near the Oxford-Arms in Warwick-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a final advertisment leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The valorous warrior's welfare, in God's victorious warfare A sermon preach'd in His Majesty's English camp, near the city of Ghendt in Flanders; before the battalion of His Royal Highness George Prince of Denmark, under the command of the right honourable Colonel Charles Churchill, major-general of His Majesty's forces in the Netherlands. By William Williams, minister of the Gospel, and a son of the Church of England.</title>
+      <author>Williams, William, Inferior Brother to the venerable and orthodox clergy.</author>
+    </titleStmt>
+    <extent>[4], 26, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Pero</persName>, at <placeName>the White Swan</placeName>, and <persName type="publisher">Edward Powel next the Pump-Coffee-House</persName> in <placeName>Little Britain;</placeName> and sold by <persName type="bookseller">R. Baldwin</persName>, near <placeName>the Oxford-Arms in Warwick-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a final advertisment leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edward Powel next the Pump-Coffee-House</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Pero</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little Britain;</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Oxford-Arms in Warwick-Lane</placeName>
+    </place>
+    <place type="location">
+      <placeName>the White Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

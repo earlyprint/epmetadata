@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A comfort against the Spaniard</title>
-         <author>Nun, Thomas, 1556 or 7-1599.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Windet for I. O[xenbridge],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Nun minister of the word, at Weston.</note>
-         <note>Publisher's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Discusses the Armada of 1588 and the English expedition against Portugal in 1589.</note>
-         <note>Signatures: A-C⁴.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A comfort against the Spaniard</title>
+      <author>Nun, Thomas, 1556 or 7-1599.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Windet</persName> for <persName type="publisher">I. O[xenbridge]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Nun minister of the word, at Weston.</note>
+      <note>Publisher's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Discusses the Armada of 1588 and the English expedition against Portugal in 1589.</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. O[xenbridge]</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

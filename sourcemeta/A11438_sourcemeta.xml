@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The abridgemente of goddes statutes in myter, set oute by Wylliam Samuel seruaunt to the Duke of Somerset hys grace</title>
-         <author>Samuel, William, fl. 1551-1569.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Crowley [i.e. R. Grafton] for Robert Soughton [i.e. Stoughton] dwellynge at the signe of ye bishops miter wythin Ludgate,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno Domini. M.D.L.I [1551]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A verse abridgment of the Pentateuch.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Signatures: A-D E⁶.</note>
-         <note>Identified as STC 21960+ on UMI microfilm.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The abridgemente of goddes statutes in myter, set oute by Wylliam Samuel seruaunt to the Duke of Somerset hys grace</title>
+      <author>Samuel, William, fl. 1551-1569.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Crowley [i.e. R. Grafton]</persName> for <persName type="publisher">Robert Soughton [i.e. Stoughton]</persName> dwellynge at <placeName>the signe of ye bishops miter wythin Ludgate</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno Domini. M.D.L.I [1551]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A verse abridgment of the Pentateuch.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Signatures: A-D E&#8310;.</note>
+      <note>Identified as STC 21960+ on UMI microfilm.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Soughton [i.e. Stoughton]</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Crowley [i.e. R. Grafton]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of ye bishops miter wythin Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

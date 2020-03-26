@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Full and exact relation of the fight betwixt the Henry, an East-India merchant-man, and the Marine, a French man of war of 40 guns, on the coast of Ireland on the 12th of July 1695 written from Ireland by an officer of the said ship.</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.E. and are to be sold by J. Whitlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Full and exact relation of the fight betwixt the Henry, an East-India merchant-man, and the Marine, a French man of war of 40 guns, on the coast of Ireland on the 12th of July 1695 written from Ireland by an officer of the said ship.</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.E.</persName> and are to be sold by <persName type="bookseller">J. Whitlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+    <person type="printer">
+      <persName>R.E.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

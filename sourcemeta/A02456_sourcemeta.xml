@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A learned sermon handling the question of ceremonies, controuerted in our church: by Roger Hacket Doctor in Diuinitie</title>
-         <author>Hacket, Roger, 1559-1621.</author>
-      </titleStmt>
-      <extent>[2], 57, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Felix Kyngston, for Cuthbert Burbie, and are to be sold at his shop at the signe of the Swan in Pauls Churchyard,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A sermon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A learned sermon handling the question of ceremonies, controuerted in our church: by Roger Hacket Doctor in Diuinitie</title>
+      <author>Hacket, Roger, 1559-1621.</author>
+    </titleStmt>
+    <extent>[2], 57, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Cuthbert Burbie</persName>, and are to be sold at <placeName>his shop at the signe of the Swan in Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A sermon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cuthbert Burbie</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Swan in Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

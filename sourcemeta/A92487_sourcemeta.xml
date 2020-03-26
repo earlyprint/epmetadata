@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act for a new supply out of the Land-Rent Edinburgh, the fourth of May, 1693.</title>
-         <title>Acts. 1661-05-04</title>
-         <author>Scotland. Parliament. Committee of Estates.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to their Most Excellent Majesties,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Steele notation: the  Do  Pay-.</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act for a new supply out of the Land-Rent Edinburgh, the fourth of May, 1693.</title>
+      <title>Acts. 1661-05-04</title>
+      <author>Scotland. Parliament. Committee of Estates.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">their Most Excellent Majesties</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Steele notation: the  Do  Pay-.</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>their Most Excellent Majesties</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

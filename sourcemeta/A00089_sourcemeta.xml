@@ -1,25 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Constitutions and canons ecclesiasticall; treated upon by the Archbishops of Canterbury and York, presidents of the convocations for the respective provinces of Canterbury and York, and the rest of the bishops and clergie of those provinces; and agreed upon with the Kings Majesties licence in their severall synods begun at London and York. 1640  ...</title>
-         <title>Constitutions and canons ecclesiastical</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>And now published for the due observation of them, by His Majesties authority under the Great Seal of England.</edition>
-      </editionStmt>
-      <extent>[4], 10, [42] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Barker, printer to the Kings most excellent Majestie: and by the assignes of John Bill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-G⁴.</note>
-         <note>The first leaf is blank except for signature-mark "A" in a mortised ornament.</note>
-         <note>Quire B is in two settings: B1v line 1 has (1) "fidelitie" or (2) "fidelity". Quire C inner forme is in two impositions: C1v has catchword (1) "And" or (2) "they".</note>
-         <note>Reproductions of the originals in the Union Theological Seminary (New York, N.Y.). Library and the British Library (Thomason Tracts).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Constitutions and canons ecclesiasticall; treated upon by the Archbishops of Canterbury and York, presidents of the convocations for the respective provinces of Canterbury and York, and the rest of the bishops and clergie of those provinces; and agreed upon with the Kings Majesties licence in their severall synods begun at London and York. 1640  ...</title>
+      <title>Constitutions and canons ecclesiastical</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>And now published for the due observation of them, by His Majesties authority under the Great Seal of England.</edition>
+    </editionStmt>
+    <extent>[4], 10, [42] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings most excellent Majestie: and</persName> by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-G&#8308;.</note>
+      <note>The first leaf is blank except for signature-mark "A" in a mortised ornament.</note>
+      <note>Quire B is in two settings: B1v line 1 has (1) "fidelitie" or (2) "fidelity". Quire C inner forme is in two impositions: C1v has catchword (1) "And" or (2) "they".</note>
+      <note>Reproductions of the originals in the Union Theological Seminary (New York, N.Y.). Library and the British Library (Thomason Tracts).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie: and</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

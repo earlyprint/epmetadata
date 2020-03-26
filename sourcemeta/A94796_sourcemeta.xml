@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief commentary or exposition vpon the Gospel according to St John: wherein the text is explained, divers doubts are resolved, and many other profitable things hinted, that had been by former interpreters pretermitted. / By John Trappe, M. A. pastour of Weston upon Avon in Glocester-shire.</title>
-         <author>Trapp, John, 1601-1669.</author>
-      </titleStmt>
-      <extent>[8], 152, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Iohn Bellamy, and are to be sold at his shop, at the signe of the three Golden-Lyons in Cornehill, near the Royall Exchange.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Final leaf = "A table of .. texts of scripture".</note>
-         <note>Annotation on Thomason copy: "Aprill 7th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief commentary or exposition vpon the Gospel according to St John: wherein the text is explained, divers doubts are resolved, and many other profitable things hinted, that had been by former interpreters pretermitted. / By John Trappe, M. A. pastour of Weston upon Avon in Glocester-shire.</title>
+      <author>Trapp, John, 1601-1669.</author>
+    </titleStmt>
+    <extent>[8], 152, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Iohn Bellamy</persName>, and are to be sold at <placeName>his shop, at the signe of the three Golden-Lyons in Cornehill, near the Royall Exchange.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Final leaf = "A table of .. texts of scripture".</note>
+      <note>Annotation on Thomason copy: "Aprill 7th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bellamy</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the signe of the three Golden-Lyons in Cornehill, near the Royall Exchange.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

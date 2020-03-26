@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King whereas wee are giuen to vnderstand, that since our entrie into this kingdome many of our subiects of our realme of Scotland, and some also of England ... doe not obserue our lawes, but to the intent to defraud vs of our sayd customes, doe goe with their goods and merchandizes ouer the Fells ...</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, Printer to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno 1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Other title information from first 9 lines of text.</note>
-         <note>Line 1 of text ends "into."</note>
-         <note>Contains woodcut initial possibly illustrating Cain and Abel.</note>
-         <note>"Giuen vnder our hand at Wilton, the fourth day of November, in the first yeere of our Reigne of England, France and Ireland, and the seuen and thirtieth of Scotland."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King whereas wee are giuen to vnderstand, that since our entrie into this kingdome many of our subiects of our realme of Scotland, and some also of England ... doe not obserue our lawes, but to the intent to defraud vs of our sayd customes, doe goe with their goods and merchandizes ouer the Fells ...</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, Printer to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno 1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Other title information from first 9 lines of text.</note>
+      <note>Line 1 of text ends "into."</note>
+      <note>Contains woodcut initial possibly illustrating Cain and Abel.</note>
+      <note>"Giuen vnder our hand at Wilton, the fourth day of November, in the first yeere of our Reigne of England, France and Ireland, and the seuen and thirtieth of Scotland."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

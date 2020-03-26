@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>De termino Trinitatis anno I regni regis Edwardi Quinti</title>
-         <title>Year books (Edward V : 1483)</title>
-      </titleStmt>
-      <extent>[15] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London in Fletestrete within Temple Barre, at the signe of the Hande and Starre, by Rycharde Tottel,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>the xij daye of September, in the yere of oure Lorde, 1555.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In Law French.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signatures: A-B⁴.</note>
-         <note>Item at reel 378:21 identified as STC 9897+.</note>
-         <note>Reproductions of originals in the Henry E. Huntington Library and Art Gallery and Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>De termino Trinitatis anno I regni regis Edwardi Quinti</title>
+      <title>Year books (Edward V : 1483)</title>
+    </titleStmt>
+    <extent>[15] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London in Fletestrete within Temple Barre, at the signe of the Hande</placeName> and Starre, by <persName type="printer">Rycharde Tottel</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>the xij daye of September, in the yere of oure Lorde, 1555.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In Law French.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Item at reel 378:21 identified as STC 9897+.</note>
+      <note>Reproductions of originals in the Henry E. Huntington Library and Art Gallery and Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Rycharde Tottel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fletestrete within Temple Barre, at the signe of the Hande</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

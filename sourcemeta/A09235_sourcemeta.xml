@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to Rome, to declare to ye Pope, Iohn Felton his freend is hangd in a rope and farther, a right his grace to enforme, he dyed a papist, and seemd not to turne. To the tune of Row well ye mariners.</title>
-         <author>Peele, Steven.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Alexander Lacie for Henrie Kyrkham, dwelling at the signe of the blacke Boy: at the middle north dore of Paules church,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1571]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Steuen Peele.</note>
-         <note>A song - "Who keepes Saint Angell gates?".</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to Rome, to declare to ye Pope, Iohn Felton his freend is hangd in a rope and farther, a right his grace to enforme, he dyed a papist, and seemd not to turne. To the tune of Row well ye mariners.</title>
+      <author>Peele, Steven.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Alexander Lacie</persName> for <persName type="publisher">Henrie Kyrkham</persName>, dwelling at <placeName>the signe of the blacke Boy: at the middle north dore of Paules church</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1571]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Steuen Peele.</note>
+      <note>A song - "Who keepes Saint Angell gates?".</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henrie Kyrkham</persName>
+    </person>
+    <person type="printer">
+      <persName>Alexander Lacie</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the blacke Boy: at the middle north dore of Paules church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

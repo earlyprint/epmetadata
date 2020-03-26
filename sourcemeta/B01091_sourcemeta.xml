@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The complaint of a lover forsaken of his love. To a pleasant new tune.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by M.P. for Edward Wright at his shop neere Christ Church gate,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>[1639?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In two parts, separated for mounting; woodcuts at head of each part.</note>
-         <note>Publication date suggested by STC.</note>
-         <note>Verse: "A poore soule sate sighing, by a sicamore tree ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The complaint of a lover forsaken of his love. To a pleasant new tune.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.P.</persName> for <persName type="publisher">Edward Wright</persName> at <placeName>his shop neere Christ Church gate</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[1639?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In two parts, separated for mounting; woodcuts at head of each part.</note>
+      <note>Publication date suggested by STC.</note>
+      <note>Verse: "A poore soule sate sighing, by a sicamore tree ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>M.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Christ Church gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

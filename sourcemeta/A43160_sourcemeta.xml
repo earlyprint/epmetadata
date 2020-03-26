@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hic et ubique, or, The humors of Dublin a comedy, acted privately, with general applause / written by Richard Head, Gent.</title>
-         <author>Head, Richard, 1637?-1686?</author>
-      </titleStmt>
-      <extent>[6], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.D. for the Author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hic et ubique, or, The humors of Dublin a comedy, acted privately, with general applause / written by Richard Head, Gent.</title>
+      <author>Head, Richard, 1637?-1686?</author>
+    </titleStmt>
+    <extent>[6], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.D.</persName> for <persName type="publisher">the Author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Author</persName>
+    </person>
+    <person type="printer">
+      <persName>R.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

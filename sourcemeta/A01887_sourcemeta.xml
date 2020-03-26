@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Automachia, or the self-conflict of a Christian</title>
-         <author>Goodwin, George, fl. 1607-1620.</author>
-         <author>Sylvester, Josuah, 1563-1618.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Melch. Bradwood for Edward Blovnt,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1607]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By George Goodwin. Translator's preface signed I[oshua]. S[ylvester].</note>
-         <note>In verse.</note>
-         <note>Goodwin's Latin original is unknown--DNB.</note>
-         <note>Imprint from STC.</note>
-         <note>Signatures: [A]⁶ B-C D⁶.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Automachia, or the self-conflict of a Christian</title>
+      <author>Goodwin, George, fl. 1607-1620.</author>
+      <author>Sylvester, Josuah, 1563-1618.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Melch. Bradwood</persName> for <persName type="publisher">Edward Blovnt</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1607]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By George Goodwin. Translator's preface signed I[oshua]. S[ylvester].</note>
+      <note>In verse.</note>
+      <note>Goodwin's Latin original is unknown--DNB.</note>
+      <note>Imprint from STC.</note>
+      <note>Signatures: [A]&#8310; B-C D&#8310;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blovnt</persName>
+    </person>
+    <person type="printer">
+      <persName>Melch. Bradwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

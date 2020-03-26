@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the Royal Society. His sacred majesty King James the II.</title>
-         <author>Royal Society (Great Britain). Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Chiswell ...,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>MDCLXXXVIII. [1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: torn, with slight loss of text.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the Royal Society. His sacred majesty King James the II.</title>
+      <author>Royal Society (Great Britain). Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Chiswell</persName> ...,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>MDCLXXXVIII. [1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: torn, with slight loss of text.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Chiswell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The martyr'd souldier as it was sundry times acted with a generall applause at the Private House in Drury lane, and at other publicke theaters. By the Queenes Majesties servants. The author H. Shirley Gent.</title>
-         <author>Shirley, Henry, d. 1627.</author>
-         <author>Kirke, John, d. 1643.</author>
-      </titleStmt>
-      <extent>[80] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. Okes, and are to be sold by Francis Eglesfield at his house in Pauls Church-yard at the signe of the Mary-gold,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's dedication signed "Io. Kirke". Variant: dedication signed "I.K.".</note>
-         <note>In verse.</note>
-         <note>Signatures: A-K⁴.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the University of Michigan. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The martyr'd souldier as it was sundry times acted with a generall applause at the Private House in Drury lane, and at other publicke theaters. By the Queenes Majesties servants. The author H. Shirley Gent.</title>
+      <author>Shirley, Henry, d. 1627.</author>
+      <author>Kirke, John, d. 1643.</author>
+    </titleStmt>
+    <extent>[80] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. Okes</persName>, and are to be sold by <persName type="bookseller">Francis Eglesfield</persName> at <placeName>his house in Pauls Church-yard at the signe of the Mary-gold</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's dedication signed "Io. Kirke". Variant: dedication signed "I.K.".</note>
+      <note>In verse.</note>
+      <note>Signatures: A-K&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the University of Michigan. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Francis Eglesfield</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Pauls Church-yard at the signe of the Mary-gold</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

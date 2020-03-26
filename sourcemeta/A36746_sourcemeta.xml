@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations on the mineral waters of France made in the Royal Academy of the Sciences / by the Sieur Du Clos.</title>
-         <author>Du Clos, Sieur (Samuel), d. 1715.</author>
-      </titleStmt>
-      <extent>[2], 125, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Faithorne and John Kersey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Now made English."</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations on the mineral waters of France made in the Royal Academy of the Sciences / by the Sieur Du Clos.</title>
+      <author>Du Clos, Sieur (Samuel), d. 1715.</author>
+    </titleStmt>
+    <extent>[2], 125, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Faithorne</persName> and <persName type="publisher">John Kersey</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Now made English."</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Faithorne</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Kersey</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

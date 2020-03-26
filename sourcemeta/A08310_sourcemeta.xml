@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The surueyors dialogue Diuided into fiue bookes: very profitable for all men to peruse, that haue to do with the reuenues of land, or the manurance, vse, or occupation thereof, both lords and tenants: as also and especially for such as indeuor to be seene in the faculty of surueying of mannors, lands, tenements, &amp;c. By I.N.</title>
-         <author>Norden, John, 1548-1625?</author>
-      </titleStmt>
-      <extent>[16], 244, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Simon Stafford] for Hugh Astley, dwelling at S. Magnus corner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Io. Norden.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank except for signature-mark "A"; the last two leaves are blank.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The surueyors dialogue Diuided into fiue bookes: very profitable for all men to peruse, that haue to do with the reuenues of land, or the manurance, vse, or occupation thereof, both lords and tenants: as also and especially for such as indeuor to be seene in the faculty of surueying of mannors, lands, tenements, &amp;c. By I.N.</title>
+      <author>Norden, John, 1548-1625?</author>
+    </titleStmt>
+    <extent>[16], 244, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Simon Stafford]</persName> for <persName type="publisher">Hugh Astley</persName>, dwelling at <placeName>S. Magnus corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Io. Norden.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank except for signature-mark "A"; the last two leaves are blank.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hugh Astley</persName>
+    </person>
+    <person type="printer">
+      <persName>Simon Stafford]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Magnus corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

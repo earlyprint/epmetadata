@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The food of the soule: against the day of iudgement. By A. D.</title>
-         <author>A. D.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>by M.F. for I. Wright. and C. Wright.</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date>1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-B C⁴.</note>
-         <note>The first and last leaf are blank.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The food of the soule: against the day of iudgement. By A. D.</title>
+      <author>A. D.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">M.F.</persName> for <persName type="publisher">I. Wright.</persName> and <persName type="publisher">C. Wright.</persName></publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date>1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-B C&#8308;.</note>
+      <note>The first and last leaf are blank.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. Wright.</persName>
+    </person>
+    <person type="publisher">
+      <persName>I. Wright.</persName>
+    </person>
+    <person type="printer">
+      <persName>M.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short, plaine, and profitable catechisme containing an instruction vnto the foure principal points of Christian religion. Needfull for all those, who doe not as yet perfitly knowe the same.</title>
-         <author>Aldem, Mordecai, d. 1615.</author>
-      </titleStmt>
-      <extent>[16], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>By R. B[ourne] for Richard Watkins, and Iohn Wolfe,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Dedication signed: M.A. [i.e. Mordecai Aldem].</note>
-         <note>Identified as STC 287a on reel 719.</note>
-         <note>Imperfect; lacking leaves A8, C1 and C2.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short, plaine, and profitable catechisme containing an instruction vnto the foure principal points of Christian religion. Needfull for all those, who doe not as yet perfitly knowe the same.</title>
+      <author>Aldem, Mordecai, d. 1615.</author>
+    </titleStmt>
+    <extent>[16], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">R. B[ourne]</persName> for <persName type="publisher">Richard Watkins</persName>, and <persName type="publisher">Iohn Wolfe</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Dedication signed: M.A. [i.e. Mordecai Aldem].</note>
+      <note>Identified as STC 287a on reel 719.</note>
+      <note>Imperfect; lacking leaves A8, C1 and C2.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Wolfe</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Watkins</persName>
+    </person>
+    <person type="printer">
+      <persName>R. B[ourne]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

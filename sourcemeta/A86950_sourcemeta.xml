@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true copy of Sir Henry Hide's speech on the scaffold, immediately before his execution before the Exchange, on the 4th of March, 1650. Taken in short-hand from his mouth, by John Hinde.</title>
-         <author>Hyde, Henry, Sir, 1605 or 6-1651.</author>
-         <author>Hinde, John, 17th cent.</author>
-      </titleStmt>
-      <extent>15, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Peter Cole, at the sign of the Printing-Press in Cornhil by the Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCL. [1650, i.e. 1651]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "March 7th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true copy of Sir Henry Hide's speech on the scaffold, immediately before his execution before the Exchange, on the 4th of March, 1650. Taken in short-hand from his mouth, by John Hinde.</title>
+      <author>Hyde, Henry, Sir, 1605 or 6-1651.</author>
+      <author>Hinde, John, 17th cent.</author>
+    </titleStmt>
+    <extent>15, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Peter Cole</persName>, at <placeName>the sign of the Printing-Press in Cornhil</placeName> by <persName type="printer">the Exchange</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCL. [1650, i.e. 1651]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "March 7th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Peter Cole</persName>
+    </person>
+    <person type="printer">
+      <persName>the Exchange</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Printing-Press in Cornhil</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

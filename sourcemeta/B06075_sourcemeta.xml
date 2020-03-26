@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation Forasmuch as the lords of the Committy of our privy Council met in the west ... requiring and commanding all and sundry the heretors ... within the shyre of Air ... to appear personally before the said Lords ...</title>
-         <author>Scotland. Committee of the West.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Saunders, Printer to the City and University, by warrant of the Privy Council,</publisher>
-         <pubPlace>Glasgow :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Dated at end: Given under our Signet at Air the tuenty two day of February 1678 and of our Reigne, the threetie year.</note>
-         <note>Prohibiting persons in Ayrshire who have not taken the bond from keeping horses above a specified value.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation Forasmuch as the lords of the Committy of our privy Council met in the west ... requiring and commanding all and sundry the heretors ... within the shyre of Air ... to appear personally before the said Lords ...</title>
+      <author>Scotland. Committee of the West.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Saunders</persName>, Printer to <persName type="patron">the City</persName> and <persName type="patron">University</persName>, by <persName type="printer">warrant of the Privy Council</persName>,</publisher>
+      <pubPlace>Glasgow :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Dated at end: Given under our Signet at Air the tuenty two day of February 1678 and of our Reigne, the threetie year.</note>
+      <note>Prohibiting persons in Ayrshire who have not taken the bond from keeping horses above a specified value.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>University</persName>
+    </person>
+    <person type="patron">
+      <persName>the City</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Saunders</persName>
+    </person>
+    <person type="printer">
+      <persName>warrant of the Privy Council</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

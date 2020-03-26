@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proposition for the advancement of experimental philosophy. By A. Cowley.</title>
-         <title>Proposition for the advancement of learning</title>
-         <author>Cowley, Abraham, 1618-1667.</author>
-         <author>P. P.</author>
-      </titleStmt>
-      <extent>[2], 53, [11] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Henry Herringman; and are to be sold at his shop at the sign of the Blew-Anchor in the lower-walk of the New-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: P.P.</note>
-         <note>The last leaf is blank.</note>
-         <note>A reissue of "A proposition for the advancement of learning", with title page cancelled by a²  (new title page and dedication).</note>
-         <note>Annotation on Thomason copy E.1856[3]: "March 1660"; imprint date crossed through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proposition for the advancement of experimental philosophy. By A. Cowley.</title>
+      <title>Proposition for the advancement of learning</title>
+      <author>Cowley, Abraham, 1618-1667.</author>
+      <author>P. P.</author>
+    </titleStmt>
+    <extent>[2], 53, [11] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Henry Herringman;</persName> and are to be sold at <placeName>his shop at the sign of the Blew-Anchor in the lower-walk of the New-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: P.P.</note>
+      <note>The last leaf is blank.</note>
+      <note>A reissue of "A proposition for the advancement of learning", with title page cancelled by a&#178;  (new title page and dedication).</note>
+      <note>Annotation on Thomason copy E.1856[3]: "March 1660"; imprint date crossed through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman;</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Blew-Anchor in the lower-walk of the New-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

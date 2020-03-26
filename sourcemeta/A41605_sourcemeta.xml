@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Letter from a dissenter to the divines of the Church of England in order to a union</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Authorship uncertain; has been ascribed to John Gother.  Cf. NUC pre-1956.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imprint partially false; probable publisher Henry Hills.  Cf. NUC pre-1956.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Letter from a dissenter to the divines of the Church of England in order to a union</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Randal Taylor</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Authorship uncertain; has been ascribed to John Gother.  Cf. NUC pre-1956.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imprint partially false; probable publisher Henry Hills.  Cf. NUC pre-1956.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

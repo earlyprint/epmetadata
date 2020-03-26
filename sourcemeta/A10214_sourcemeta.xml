@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The secretary in fashion: or, A compendious and refined way of expression in all manner of letters. Composed in French by P. Sr de la Serre, historiographer of France. And translated into English, by John Massinger, Gent</title>
-         <title>Secrétaire à la mode. English</title>
-         <author>La Serre, M. de (Jean-Puget), ca. 1600-1665.</author>
-         <author>Massinger, John.</author>
-      </titleStmt>
-      <extent>[16], 48 p., 49-56, a-d leaves, 57-131, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J[ohn] B[eale] and S[tephen] B[ulkley] for Godfrey Emerson, and are to be sold at his shop in Little Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Le secrétaire à la mode.</note>
-         <note>Title page in red and black.</note>
-         <note>Printers' names from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The secretary in fashion: or, A compendious and refined way of expression in all manner of letters. Composed in French by P. Sr de la Serre, historiographer of France. And translated into English, by John Massinger, Gent</title>
+      <title>Secr&#233;taire &#224; la mode. English</title>
+      <author>La Serre, M. de (Jean-Puget), ca. 1600-1665.</author>
+      <author>Massinger, John.</author>
+    </titleStmt>
+    <extent>[16], 48 p., 49-56, a-d leaves, 57-131, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J[ohn] B[eale]</persName> and <persName type="printer">S[tephen] B[ulkley]</persName> for <persName type="publisher">Godfrey Emerson</persName>, and are to be sold at <placeName>his shop in Little Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Le secr&#233;taire &#224; la mode.</note>
+      <note>Title page in red and black.</note>
+      <note>Printers' names from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Godfrey Emerson</persName>
+    </person>
+    <person type="printer">
+      <persName>J[ohn] B[eale]</persName>
+    </person>
+    <person type="printer">
+      <persName>S[tephen] B[ulkley]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Little Brittain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

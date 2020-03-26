@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Rules, directions and by-laws, devised, and made by the Court of Aldermen of the City of London, by vertue of the late ordinance of His Highnesse the Lord Protector, with consent of his Councell; for regulation of hackney coachmen, within the said City, and places adjacent.</title>
-         <author>City of London (England). Court of Aldermen.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, printer to the honourable City of London,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date>[1654]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Printer from colophon.</note>
-         <note>Dated at end: 1654.</note>
-         <note>Reproductions of the originals in the British Library (Thomason Tracts) and the Henry E. Huntington Library and Art Gallery (Early English books).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Rules, directions and by-laws, devised, and made by the Court of Aldermen of the City of London, by vertue of the late ordinance of His Highnesse the Lord Protector, with consent of his Councell; for regulation of hackney coachmen, within the said City, and places adjacent.</title>
+      <author>City of London (England). Court of Aldermen.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, printer to <persName type="patron">the honourable City of London</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date>[1654]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Printer from colophon.</note>
+      <note>Dated at end: 1654.</note>
+      <note>Reproductions of the originals in the British Library (Thomason Tracts) and the Henry E. Huntington Library and Art Gallery (Early English books).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the honourable City of London</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

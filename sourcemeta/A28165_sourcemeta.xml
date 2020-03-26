@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epistle of tender love to friends in Ireland by your faithful friend and brother in the truth William Bingley.</title>
-         <author>Bingley, William, 1651-1715.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T.S. ...</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epistle of tender love to friends in Ireland by your faithful friend and brother in the truth William Bingley.</title>
+      <author>Bingley, William, 1651-1715.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">T.S.</persName></persName> ...</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>T.S.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.S.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

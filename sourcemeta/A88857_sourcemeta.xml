@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The messenger of an universal peace: or a third message to the Philadelphian Society. By J. Lead</title>
-         <author>Lead, Jane, 1623-1704.</author>
-      </titleStmt>
-      <extent>[24], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the booksellers of London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing reports title as "A messenger of an universal peace."</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The messenger of an universal peace: or a third message to the Philadelphian Society. By J. Lead</title>
+      <author>Lead, Jane, 1623-1704.</author>
+    </titleStmt>
+    <extent>[24], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the booksellers of London</persName> and <persName type="publisher">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing reports title as "A messenger of an universal peace."</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Westminster</persName>
+    </person>
+    <person type="publisher">
+      <persName>the booksellers of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

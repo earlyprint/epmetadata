@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The complaint of a sinner, vexed with paine, desyring the ioye, that euer shall remayne After W.E. moralized.</title>
-         <author>Birch, William, fl. 1562-1571.</author>
-         <author>Elderton, William, d. 1592?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Alexander Lacy, for Richard Applow, dwellyng in Pater noster row, hard by the Castle Tauerne,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1563]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: VV. Birch.</note>
-         <note>Verse - "The God of loue, that sits aboue,".</note>
-         <note>A moralization of William Elderton's "God of love".</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Mutilated at fold.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The complaint of a sinner, vexed with paine, desyring the ioye, that euer shall remayne After W.E. moralized.</title>
+      <author>Birch, William, fl. 1562-1571.</author>
+      <author>Elderton, William, d. 1592?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Alexander Lacy</persName>, for <persName type="publisher">Richard Applow</persName>, dwellyng in <placeName>Pater noster row, hard</placeName> by <persName type="printer">the Castle Tauerne</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1563]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: VV. Birch.</note>
+      <note>Verse - "The God of loue, that sits aboue,".</note>
+      <note>A moralization of William Elderton's "God of love".</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Mutilated at fold.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Applow</persName>
+    </person>
+    <person type="printer">
+      <persName>Alexander Lacy</persName>
+    </person>
+    <person type="printer">
+      <persName>the Castle Tauerne</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pater noster row, hard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

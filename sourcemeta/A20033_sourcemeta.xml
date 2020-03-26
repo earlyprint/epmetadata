@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Syr Degore</title>
-      </titleStmt>
-      <extent>[36] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>In Flete strete at the sygne of the sonne by wynkyn de worde,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date>[1512-13]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
-         <note>In this edition leaf B1v line 10 reads: And in his shylde sette shuche [sic] a dente.</note>
-         <note>A metrical romance.</note>
-         <note>Signatures: A B⁴ C⁶.</note>
-         <note>Reproduction of the original in the Pierpont Morgan Library, New York City.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Syr Degore</title>
+    </titleStmt>
+    <extent>[36] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>In Flete strete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">wynkyn de worde</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date>[1512-13]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+      <note>In this edition leaf B1v line 10 reads: And in his shylde sette shuche [sic] a dente.</note>
+      <note>A metrical romance.</note>
+      <note>Signatures: A B&#8308; C&#8310;.</note>
+      <note>Reproduction of the original in the Pierpont Morgan Library, New York City.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>wynkyn de worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

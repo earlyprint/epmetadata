@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tvvo soveraigne salves for the soules sicknesse deliuered in certaine sermons at Hurst-church in the county of Berkes, neere Reading. By Robert Lovell, then minister and preacher of Gods word in the same parish.</title>
-         <author>Lovell, Robert, curate of Allhallows, Barking.</author>
-      </titleStmt>
-      <extent>[10], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. S[nodham] for Nathanael Newbery, and are to be sould at the signe of the starre vnder St. Peters Church in Cornehill, and in Popes-head Ally,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tvvo soveraigne salves for the soules sicknesse deliuered in certaine sermons at Hurst-church in the county of Berkes, neere Reading. By Robert Lovell, then minister and preacher of Gods word in the same parish.</title>
+      <author>Lovell, Robert, curate of Allhallows, Barking.</author>
+    </titleStmt>
+    <extent>[10], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. S[nodham]</persName> for <persName type="publisher">Nathanael Newbery</persName>, and are to be sould at <placeName>the signe of the starre vnder St. Peters Church in Cornehill</placeName>, and in <placeName>Popes-head Ally</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>T. S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Ally</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the starre vnder St. Peters Church in Cornehill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

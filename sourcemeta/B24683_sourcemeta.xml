@@ -1,22 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Deputy General, and General Governour of Ireland. A declaration concerning the incamping of the horse and dragoons, and for incouraging such as have hay, to preserve it, and bring it to the camp. Tyrconnel, Whereas it is our intention to cause all the horse and dragoons (as well as the foot) of his majesty's army ...</title>
-         <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
-         <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham assigns of Benjamin Tooke printer to the Kings most excellent Majesty; and are to be sold at the Kings printinghouse on Ormonde-Key, and the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date>1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>"Given at his Majesty's castle of Dublin the 28th day of August, 1688.".</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Deputy General, and General Governour of Ireland. A declaration concerning the incamping of the horse and dragoons, and for incouraging such as have hay, to preserve it, and bring it to the camp. Tyrconnel, Whereas it is our intention to cause all the horse and dragoons (as well as the foot) of his majesty's army ...</title>
+      <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
+      <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName> assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold at <placeName>the Kings printinghouse on Ormonde-Key</placeName>, and the Colledge-Arms in <placeName>Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date>1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>"Given at his Majesty's castle of Dublin the 28th day of August, 1688.".</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty;</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Kings printinghouse on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

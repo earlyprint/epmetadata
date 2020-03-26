@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of the miraculous cure of Susannah Arch of a leprosy and ptysick, wherewith for some years past she had been sorely afflicted.</title>
-         <author>Arch, Susannah.</author>
-         <author>Hume, Robert, apothecary, attributed name.</author>
-         <author>Fortey, Thomas.</author>
-         <author>Nichols, Charles, b. 1627.</author>
-      </titleStmt>
-      <extent>viii, 9-23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. D. and sold by R. Baldwin in Warwick-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXCV. [1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First person narrative signed at end: Susannah Arch.</note>
-         <note>Includes signed testimonials from Dr. Charles Nicholls and Mr. Thomas Forty and Mr. Robert Hume, apothecaries.</note>
-         <note>Copy has print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of the miraculous cure of Susannah Arch of a leprosy and ptysick, wherewith for some years past she had been sorely afflicted.</title>
+      <author>Arch, Susannah.</author>
+      <author>Hume, Robert, apothecary, attributed name.</author>
+      <author>Fortey, Thomas.</author>
+      <author>Nichols, Charles, b. 1627.</author>
+    </titleStmt>
+    <extent>viii, 9-23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. D.</persName> and sold by <persName type="bookseller">R. Baldwin</persName> in <placeName>Warwick-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXCV. [1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First person narrative signed at end: Susannah Arch.</note>
+      <note>Includes signed testimonials from Dr. Charles Nicholls and Mr. Thomas Forty and Mr. Robert Hume, apothecaries.</note>
+      <note>Copy has print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>J. D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Warwick-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

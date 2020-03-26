@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The alphabet of prayers very fruitefull to be exercised and vsed of euerye Christian man. Newly collected and set forth, in the yeare of our Lorde, 1564. Seene and allowed according to the order appointed in the Queenes Maiesties iniunctions.</title>
-         <author>Cancellar, James,</author>
-      </titleStmt>
-      <extent>[96] p.   </extent>
-      <publicationStmt>
-         <publisher>By Henry Denham, dwelling in Paternoster Rowe, at the signe of the Starre,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[Anno. 1565. Septembris 3.]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from colophon.</note>
-         <note>Signatures: A-F.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The alphabet of prayers very fruitefull to be exercised and vsed of euerye Christian man. Newly collected and set forth, in the yeare of our Lorde, 1564. Seene and allowed according to the order appointed in the Queenes Maiesties iniunctions.</title>
+      <author>Cancellar, James,</author>
+    </titleStmt>
+    <extent>[96] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Henry Denham</persName>, dwelling in <placeName>Paternoster Rowe, at the signe of the Starre</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[Anno. 1565. Septembris 3.]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from colophon.</note>
+      <note>Signatures: A-F.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Denham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paternoster Rowe, at the signe of the Starre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

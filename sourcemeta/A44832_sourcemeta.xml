@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A collection of the several books and writings of that faithful servant of God, Richard Hubberthorn who finished his testimony (being a prisoner in Newgate for the truths sake) the 17th of the 6th month, 1662.</title>
-         <author>Hubberthorn, Richard, 1628-1662.</author>
-      </titleStmt>
-      <extent>[16], 72, 188 [i.e. 288] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by William Warwick,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [16].</note>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A collection of the several books and writings of that faithful servant of God, Richard Hubberthorn who finished his testimony (being a prisoner in Newgate for the truths sake) the 17th of the 6th month, 1662.</title>
+      <author>Hubberthorn, Richard, 1628-1662.</author>
+    </titleStmt>
+    <extent>[16], 72, 188 [i.e. 288] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">William Warwick</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [16].</note>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>William Warwick</persName>
+    </person>
+    <person type="printer">
+      <persName>William Warwick</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

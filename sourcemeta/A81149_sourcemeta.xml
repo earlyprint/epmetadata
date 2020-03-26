@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mr Culpeper's ghost, giving seasonable advice to the lovers of his writing. Before which is prefixed, Mris. Culpepers epistle in vindication of her husband's reputation</title>
-         <author>Culpeper, Nicholas, 1616-1654.</author>
-      </titleStmt>
-      <extent>[8], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Peter Cole, and are to be sold at his shop, at the sign of the Printing-Press in Corn-hil, neer the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mr Culpeper's ghost, giving seasonable advice to the lovers of his writing. Before which is prefixed, Mris. Culpepers epistle in vindication of her husband's reputation</title>
+      <author>Culpeper, Nicholas, 1616-1654.</author>
+    </titleStmt>
+    <extent>[8], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Peter Cole</persName>, and are to be sold at <placeName>his shop, at the sign of the Printing-Press in Corn-hil, neer the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Cole</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the sign of the Printing-Press in Corn-hil, neer the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

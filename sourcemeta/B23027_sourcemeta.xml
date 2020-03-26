@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>England's solar pill agains the scurvey. This noble solar pill, cures that inveterate disease the scurvey, with all its symptoms, which are pains in the head, inflamations of the brain, frensies, madness, megrim, convulsions, falling sickness, tremblings and weakness of the limbs, rheumatick and gouty swellings in the joynts, ...</title>
-         <author>Fletcher, R. (Richard), fl. 1676-1677.</author>
-      </titleStmt>
-      <extent>1 sheet (2 p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author at the sun in Gutter-lane near Cheapside, by Tho. James.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>[1680?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Author and imprint date from Wing.</note>
-         <note>Wing says standardized imprint is "printed for Fletcher, Richard (author) printed by James, Thomas.</note>
-         <note>Item at reel position E8:2[144] appears to be only a slightly variant setting of this document; E8:2[224] is a variant edition in the sense that it has the standardized imprint for this document discussed by Wing,</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>England's solar pill agains the scurvey. This noble solar pill, cures that inveterate disease the scurvey, with all its symptoms, which are pains in the head, inflamations of the brain, frensies, madness, megrim, convulsions, falling sickness, tremblings and weakness of the limbs, rheumatick and gouty swellings in the joynts, ...</title>
+      <author>Fletcher, R. (Richard), fl. 1676-1677.</author>
+    </titleStmt>
+    <extent>1 sheet (2 p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName> at <placeName>the sun in Gutter-lane near Cheapside</placeName>, by <persName type="printer">Tho. James.</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>[1680?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Author and imprint date from Wing.</note>
+      <note>Wing says standardized imprint is "printed for Fletcher, Richard (author) printed by James, Thomas.</note>
+      <note>Item at reel position E8:2[144] appears to be only a slightly variant setting of this document; E8:2[224] is a variant edition in the sense that it has the standardized imprint for this document discussed by Wing,</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. James.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sun in Gutter-lane near Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

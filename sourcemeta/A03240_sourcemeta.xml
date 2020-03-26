@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pleasant comedy, called A mayden-head well lost As it hath beene publickly acted at the Cocke-pit in Drury-lane, with much applause: by her Maiesties Seruants. Written by Thomas Heyvvood.</title>
-         <title>Maidenhead well lost</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-      </titleStmt>
-      <extent>[70] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes for Iohn Iackson and Francis Church, and are to be sold at the Kings Armes in Cheape-side,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-I⁴ (-A1).</note>
-         <note>The last leaf is blank.</note>
-         <note>Running title reads: A mayden-head well lost.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pleasant comedy, called A mayden-head well lost As it hath beene publickly acted at the Cocke-pit in Drury-lane, with much applause: by her Maiesties Seruants. Written by Thomas Heyvvood.</title>
+      <title>Maidenhead well lost</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+    </titleStmt>
+    <extent>[70] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName> for <persName type="publisher">Iohn Iackson</persName> and <persName type="publisher">Francis Church</persName>, and are to be sold at <placeName>the Kings Armes in Cheape-side</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-I&#8308; (-A1).</note>
+      <note>The last leaf is blank.</note>
+      <note>Running title reads: A mayden-head well lost.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Church</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Armes in Cheape-side</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

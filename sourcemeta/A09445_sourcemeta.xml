@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of the calling of the ministerie two treatises, discribing the duties and dignities of that calling. Delivered publickly in the Vniuersitie of Cambridge, by Maister Perkins. Taken then from his mouth, and now dilligently perused and published, by a preacher of the word with a preface prefixed touching the publishing of Maister Perkins his workes, &amp; a catalogue of all such particulars thereof, as are to bee expected.</title>
-         <author>Perkins, William, 1558-1602.</author>
-         <author>Crashaw, William, 1572-1626.</author>
-      </titleStmt>
-      <extent>[16], 52, [8], 127, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By I. R[oberts] for William Welby, and are to be sold at his shop in Paules-Churchyard, at the signe of the Grayhound,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: W. Crashawe.</note>
-         <note>Printer's name from STC.</note>
-         <note>In two parts; part 2 has a separate divisional title page, "The second treatise of the duties and dignities of the ministerie, by Maister Perkins", and separate pagination and register.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of the calling of the ministerie two treatises, discribing the duties and dignities of that calling. Delivered publickly in the Vniuersitie of Cambridge, by Maister Perkins. Taken then from his mouth, and now dilligently perused and published, by a preacher of the word with a preface prefixed touching the publishing of Maister Perkins his workes, &amp; a catalogue of all such particulars thereof, as are to bee expected.</title>
+      <author>Perkins, William, 1558-1602.</author>
+      <author>Crashaw, William, 1572-1626.</author>
+    </titleStmt>
+    <extent>[16], 52, [8], 127, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">I. R[oberts]</persName> for <persName type="publisher">William Welby</persName>, and are to be sold at <placeName>his shop in Paules-Churchyard, at the signe of the Grayhound</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: W. Crashawe.</note>
+      <note>Printer's name from STC.</note>
+      <note>In two parts; part 2 has a separate divisional title page, "The second treatise of the duties and dignities of the ministerie, by Maister Perkins", and separate pagination and register.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Welby</persName>
+    </person>
+    <person type="printer">
+      <persName>I. R[oberts]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules-Churchyard, at the signe of the Grayhound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

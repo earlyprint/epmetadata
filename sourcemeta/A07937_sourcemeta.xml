@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The complaint of a Christian soule Containing certaine remedies and comforts against the trouble and conflict of conscience. Newlie written in meter.</title>
-         <author>Muschet, George, poet.</author>
-      </titleStmt>
-      <extent>[20] p.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Charters [sic], printer to the Kings most excellent Majestie,</publisher>
-         <pubPlace>Printed at Edinburgh :</pubPlace>
-         <date>M.D.C.X. [1610]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: George Muschet.</note>
-         <note>Signatures: [A]⁴ B⁴ C² .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The complaint of a Christian soule Containing certaine remedies and comforts against the trouble and conflict of conscience. Newlie written in meter.</title>
+      <author>Muschet, George, poet.</author>
+    </titleStmt>
+    <extent>[20] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Charters [sic]</persName>, printer to <persName type="patron">the Kings most excellent Majestie</persName>,</publisher>
+      <pubPlace>Printed at Edinburgh :</pubPlace>
+      <date>M.D.C.X. [1610]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: George Muschet.</note>
+      <note>Signatures: [A]&#8308; B&#8308; C&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Charters [sic]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

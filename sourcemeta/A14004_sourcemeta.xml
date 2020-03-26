@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The practise of the faithfull containing many godly praiers both of morning and euening and other necessarie occasions. Whereunto are added diuers profitable and comfortable meditations necessarie to be remembered and practised of euery Christian.</title>
-         <author>Tuke, Thomas, d. 1657.</author>
-      </titleStmt>
-      <extent>[8], 250 [i.e. 256], [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Io. Beale for Samuel Man and are to be sold in Pauls Church yard at the signe of the Ball,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by Thomas Tuke.</note>
-         <note>Numerous mispaginations; pagination deduced from signature collation.</note>
-         <note>Signatures: A-L¹²  M⁴.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The practise of the faithfull containing many godly praiers both of morning and euening and other necessarie occasions. Whereunto are added diuers profitable and comfortable meditations necessarie to be remembered and practised of euery Christian.</title>
+      <author>Tuke, Thomas, d. 1657.</author>
+    </titleStmt>
+    <extent>[8], 250 [i.e. 256], [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Io. Beale</persName> for <persName type="publisher">Samuel Man</persName> and are to be sold in <placeName>Pauls Church yard at the signe of the Ball</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by Thomas Tuke.</note>
+      <note>Numerous mispaginations; pagination deduced from signature collation.</note>
+      <note>Signatures: A-L&#185;&#178;  M&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Io. Beale</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church yard at the signe of the Ball</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

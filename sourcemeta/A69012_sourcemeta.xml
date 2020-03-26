@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the Beatitudes. Or Christs happy men. By James Buck Bachelor of Divinitie, and vicar of Stradbrooke in Suffolke</title>
-         <author>Buck, James.</author>
-      </titleStmt>
-      <extent>[10], 124, [6], 135-157, 160-221, 224-253, 256-259, [3], 261-340 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Bernard Alsop and Thomas Fawcet] for [John Clarke and] William Cooke, neare Furnivalls Inne gate in Holbourne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>MDCXXXVII. [1637]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names from STC.</note>
-         <note>The six pages following 124 are numbered: [unnumbered], [unnumbered], 129, 131, 132, 132.</note>
-         <note>"Beati pauperes. The poore", "Beati lugentes. The mourner", "Beati mites. The meeke", "Beati qui esuriunt. The desirer", "Beati misericordes. The mercifull", "Beati mundo corde. The pure", "Beati pacifici. The peace-maker", and "Beati qui persecutionem patiuntur. The blessed sufferer" each has separate dated title page; pagination and register are continuous. The first four subsidiary imprints read "London, printed for Iohn Clark, and Wil: Cooke, 1637."; the last four read "London, printed by B.A. and T.F. for Iohn Clark, and Wil. Cooke. 1637.".</note>
-         <note>A variant of the edition with John Cooke's name in the general title page imprint.</note>
-         <note>In the British Library copy (formerly STC 3999), the date on the general title page has been altered by pen to 1638.</note>
-         <note>Identified as STC 3999 on UMI microfilm, reel 1570.</note>
-         <note>Reproductions of the originals in the Cambridge University Library and the British Library.</note>
-         <note>Appears at reel 1570 (British Library copy) and at reel 705 (Cambridge Univerity Library copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the Beatitudes. Or Christs happy men. By James Buck Bachelor of Divinitie, and vicar of Stradbrooke in Suffolke</title>
+      <author>Buck, James.</author>
+    </titleStmt>
+    <extent>[10], 124, [6], 135-157, 160-221, 224-253, 256-259, [3], 261-340 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Bernard Alsop</persName> and <persName type="printer">Thomas Fawcet]</persName> for <persName type="publisher">[John Clarke and] William Cooke</persName>, neare <placeName>Furnivalls Inne gate in Holbourne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>MDCXXXVII. [1637]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names from STC.</note>
+      <note>The six pages following 124 are numbered: [unnumbered], [unnumbered], 129, 131, 132, 132.</note>
+      <note>"Beati pauperes. The poore", "Beati lugentes. The mourner", "Beati mites. The meeke", "Beati qui esuriunt. The desirer", "Beati misericordes. The mercifull", "Beati mundo corde. The pure", "Beati pacifici. The peace-maker", and "Beati qui persecutionem patiuntur. The blessed sufferer" each has separate dated title page; pagination and register are continuous. The first four subsidiary imprints read "London, printed for Iohn Clark, and Wil: Cooke, 1637."; the last four read "London, printed by B.A. and T.F. for Iohn Clark, and Wil. Cooke. 1637.".</note>
+      <note>A variant of the edition with John Cooke's name in the general title page imprint.</note>
+      <note>In the British Library copy (formerly STC 3999), the date on the general title page has been altered by pen to 1638.</note>
+      <note>Identified as STC 3999 on UMI microfilm, reel 1570.</note>
+      <note>Reproductions of the originals in the Cambridge University Library and the British Library.</note>
+      <note>Appears at reel 1570 (British Library copy) and at reel 705 (Cambridge Univerity Library copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>[John Clarke and] William Cooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Bernard Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Fawcet]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Furnivalls Inne gate in Holbourne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

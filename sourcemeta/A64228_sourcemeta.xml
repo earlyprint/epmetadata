@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funeral sermon occasioned by the sudden death of the Reverend Mr. Nathanael Vincent, late minister of the gospel in Southwark by Nathanael Taylor.</title>
-         <author>Taylor, Nathanael, d. 1702.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Lawrence ..., and Thomas Cockeril ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes bibliographical references.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funeral sermon occasioned by the sudden death of the Reverend Mr. Nathanael Vincent, late minister of the gospel in Southwark by Nathanael Taylor.</title>
+      <author>Taylor, Nathanael, d. 1702.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Lawrence</persName> ..., and <persName type="publisher">Thomas Cockeril</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes bibliographical references.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Lawrence</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Cockeril</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

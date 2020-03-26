@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The night-rauen. By S.R.</title>
-         <author>Rowlands, Samuel, 1570?-1630?</author>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G: Eld for Iohn Deane and Thomas Baily,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>S.R. = Samuel Rowlands.</note>
-         <note>In verse.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Signatures: A-D⁴ E² .</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The night-rauen. By S.R.</title>
+      <author>Rowlands, Samuel, 1570?-1630?</author>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G: Eld</persName> for <persName type="publisher">Iohn Deane</persName> and <persName type="publisher">Thomas Baily</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>S.R. = Samuel Rowlands.</note>
+      <note>In verse.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Signatures: A-D&#8308; E&#178; .</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Deane</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Baily</persName>
+    </person>
+    <person type="printer">
+      <persName>G: Eld</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

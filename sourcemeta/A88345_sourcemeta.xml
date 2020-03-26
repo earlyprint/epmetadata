@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A List of the names of the corporation of the Kings College of Physitians in London with the names of honorary the fellows, and others, who are permitted to exercise the honourable faculty of physick in the said city or within seven miles compass of the same, according to the several royal charters and acts of Parliament in that case provided.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for Samuel Tidmarsh in Cornhill,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date>1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A List of the names of the corporation of the Kings College of Physitians in London with the names of honorary the fellows, and others, who are permitted to exercise the honourable faculty of physick in the said city or within seven miles compass of the same, according to the several royal charters and acts of Parliament in that case provided.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Samuel Tidmarsh</persName> in <placeName>Cornhill</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date>1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Tidmarsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Popes ware-house, laid open to the world: or, A true account how many trades the Pope is on viz. He is a gold-smith, a jeweller, a linnen-draper, a silk-man, a turner, a brazier, an iron-monger, a stone-cutter, a tinker, a vintner, a corn-chandler, a drover, a coach maker, a body-seller, and a soul seller. To which is added Sir William Wallers new discovery of the Popes sham-plot. Entred according to order.</title>
-         <author>Waller, William, Sir, d. 1699. aut</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for T. Mills and are to be sold by a running book-seller,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Popes ware-house, laid open to the world: or, A true account how many trades the Pope is on viz. He is a gold-smith, a jeweller, a linnen-draper, a silk-man, a turner, a brazier, an iron-monger, a stone-cutter, a tinker, a vintner, a corn-chandler, a drover, a coach maker, a body-seller, and a soul seller. To which is added Sir William Wallers new discovery of the Popes sham-plot. Entred according to order.</title>
+      <author>Waller, William, Sir, d. 1699. aut</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">T. Mills</persName> and are to be sold by <persName type="bookseller">a running</persName> book-seller,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>a running</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Mills</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

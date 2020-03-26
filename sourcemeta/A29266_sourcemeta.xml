@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The excellency of primitive government in a sermon preach'd at Guild-Hall Chappel at the election of this present Lord Mayor / by Henry Bagshaw ...</title>
-         <author>Bagshaw, Henry, 1632-1709.</author>
-      </titleStmt>
-      <extent>[4], 35 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid, for Joseph Nevil ..., and Moses Pitt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Waterman Mayor. Octobr. 26, Die. 1672 ... it is order'd ... that Dr. Bagshaw be desired to print his sermon which he preach'd ... at the election of Sir Robert Hanson to be Lord Mayor"</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The excellency of primitive government in a sermon preach'd at Guild-Hall Chappel at the election of this present Lord Mayor / by Henry Bagshaw ...</title>
+      <author>Bagshaw, Henry, 1632-1709.</author>
+    </titleStmt>
+    <extent>[4], 35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName>, for <persName type="publisher">Joseph Nevil</persName> ..., and <persName type="publisher">Moses Pitt</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Waterman Mayor. Octobr. 26, Die. 1672 ... it is order'd ... that Dr. Bagshaw be desired to print his sermon which he preach'd ... at the election of Sir Robert Hanson to be Lord Mayor"</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Nevil</persName>
+    </person>
+    <person type="publisher">
+      <persName>Moses Pitt</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

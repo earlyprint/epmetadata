@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tunbridge-Wells, or, A days courtship a comedy : as it is acted at the Dukes-Theatre / written by a person of quality ...</title>
-         <author>Rawlins, Thomas, 1620?-1670.</author>
-      </titleStmt>
-      <extent>[4], 42 [i.e. 50], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Henry Rogers ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Thomas Rawlins. Cf. BM.</note>
-         <note>"Licensed, Roger L'Estrange"</note>
-         <note>Advertisement on p. [2] at end.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tunbridge-Wells, or, A days courtship a comedy : as it is acted at the Dukes-Theatre / written by a person of quality ...</title>
+      <author>Rawlins, Thomas, 1620?-1670.</author>
+    </titleStmt>
+    <extent>[4], 42 [i.e. 50], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller"><persName type="printer">Henry Rogers</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Thomas Rawlins. Cf. BM.</note>
+      <note>"Licensed, Roger L'Estrange"</note>
+      <note>Advertisement on p. [2] at end.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Henry Rogers</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Rogers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

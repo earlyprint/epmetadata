@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>On the ever to be lamented death of the most magnanimous and illustrious prince, Charles Leopold Duke of Lorraine, general of the imperial army; who died suddenly, April the eighth 1690</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin in the Old-Bailey.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date>1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Heark! heark! What dismal Noise is this I hear?".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>On the ever to be lamented death of the most magnanimous and illustrious prince, Charles Leopold Duke of Lorraine, general of the imperial army; who died suddenly, April the eighth 1690</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName> in <placeName>the Old-Bailey.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date>1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Heark! heark! What dismal Noise is this I hear?".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Bailey.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

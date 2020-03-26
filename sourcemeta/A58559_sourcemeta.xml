@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act for a solemn anniversary thanksgiving, for His Majesties restauration to the royal government of His kingdoms At Edinburgh the thirteenth of May, 1661.</title>
-         <title>Laws, etc.</title>
-         <author>Scotland.</author>
-         <author>Scotland. Convention of Estates. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Evan Tyler, printer to the Kings most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date>1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: A. Primerose, Cls. Reg.</note>
-         <note>Steele notation: Slavery as Majesties.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act for a solemn anniversary thanksgiving, for His Majesties restauration to the royal government of His kingdoms At Edinburgh the thirteenth of May, 1661.</title>
+      <title>Laws, etc.</title>
+      <author>Scotland.</author>
+      <author>Scotland. Convention of Estates. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date>1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: A. Primerose, Cls. Reg.</note>
+      <note>Steele notation: Slavery as Majesties.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

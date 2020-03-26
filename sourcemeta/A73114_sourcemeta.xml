@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The oration or substance of that which was deliuered before his Maiestie of Great Brittaine by the Emperours embassador, the high and excellent Lord, Count Swartesienbourge, at his day of audience, being the seuenth of Aprill, in the Parliament chamber. Translated out of the high Dutch, and now published by especiall command.</title>
-         <author>Schwarzenberg, Georg Ludwig, Graf von, 1586-1646.</author>
-         <author>Holy Roman Empire. Emperor (1619-1637 : Ferdinand II)</author>
-      </titleStmt>
-      <extent>[2], 12, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>[by B. Alsop] for Thomas Acrher [sic], and are to be sold in Popes head Pallace, ouer against the signe of the Horse-shooe,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>16. Aprill. 1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The oration or substance of that which was deliuered before his Maiestie of Great Brittaine by the Emperours embassador, the high and excellent Lord, Count Swartesienbourge, at his day of audience, being the seuenth of Aprill, in the Parliament chamber. Translated out of the high Dutch, and now published by especiall command.</title>
+      <author>Schwarzenberg, Georg Ludwig, Graf von, 1586-1646.</author>
+      <author>Holy Roman Empire. Emperor (1619-1637 : Ferdinand II)</author>
+    </titleStmt>
+    <extent>[2], 12, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>[by <persName type="printer">B. Alsop]</persName> for <persName type="publisher">Thomas Acrher [sic]</persName>, and are to be sold in <placeName>Popes head Pallace, ouer against the signe of the Horse-shooe</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>16. Aprill. 1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Acrher [sic]</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Alsop]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Pallace, ouer against the signe of the Horse-shooe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

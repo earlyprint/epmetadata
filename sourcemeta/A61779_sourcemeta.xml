@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>De juramento seven lectures concerning the obligation of promissory oathes / read publicly in the divinity school of Oxford by Robert Sanderson ; translated into English by His Late Majesties speciall command and afterwards revised and approved under His Majesties own hand.</title>
-         <author>Sanderson, Robert, 1587-1663.</author>
-      </titleStmt>
-      <extent>[5], 272, [12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.C. for Humphrey Moseley, Octavian Pulleyn and Andrew Crook ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>De juramento seven lectures concerning the obligation of promissory oathes / read publicly in the divinity school of Oxford by Robert Sanderson ; translated into English by His Late Majesties speciall command and afterwards revised and approved under His Majesties own hand.</title>
+      <author>Sanderson, Robert, 1587-1663.</author>
+    </titleStmt>
+    <extent>[5], 272, [12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.C.</persName> for <persName type="publisher">Humphrey Moseley</persName>, <persName type="publisher">Octavian Pulleyn</persName> and <persName type="publisher">Andrew Crook</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+    <person type="publisher">
+      <persName>Octavian Pulleyn</persName>
+    </person>
+    <person type="printer">
+      <persName>E.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

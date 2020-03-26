@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Runne from Rome. Or, A treatise shevving the necessitie of separating from the Church of Rome Disputed in these termes: euerie man is bound vpon paine of damnation to refuse the faith of the Church of Rome. By Antony Wotton. B.D.</title>
-         <author>Wotton, Anthony, 1561?-1626.</author>
-      </titleStmt>
-      <extent>[8], 88 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W[illiam] I[ones] for Nicholas Bourne, and are to be sold at his shop at the south side of the Royall-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: Necessity of separation from the Church of Rome.</note>
-         <note>Reproduction of the original in Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Runne from Rome. Or, A treatise shevving the necessitie of separating from the Church of Rome Disputed in these termes: euerie man is bound vpon paine of damnation to refuse the faith of the Church of Rome. By Antony Wotton. B.D.</title>
+      <author>Wotton, Anthony, 1561?-1626.</author>
+    </titleStmt>
+    <extent>[8], 88 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W[illiam] I[ones]</persName> for <persName type="publisher">Nicholas Bourne</persName>, and are to be sold at <placeName>his shop at the south side of the Royall-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: Necessity of separation from the Church of Rome.</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W[illiam] I[ones]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the south side of the Royall-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

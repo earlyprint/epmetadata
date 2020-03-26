@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At Whitehall the eleuenth of March 1628 ... whereas His Maiesties armie (lately discharged at Portsmouth) hath continued since the first raysing thereof by the space of forty two months ...</title>
-         <author>England and Wales. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton, and Iohn Bill, Printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno M.DC.XXVIII [1628, i.e. 1629]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: faded, with loss of text.</note>
-         <note>Announcing audit to determine what pay is due to officers.</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At Whitehall the eleuenth of March 1628 ... whereas His Maiesties armie (lately discharged at Portsmouth) hath continued since the first raysing thereof by the space of forty two months ...</title>
+      <author>England and Wales. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno M.DC.XXVIII [1628, i.e. 1629]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: faded, with loss of text.</note>
+      <note>Announcing audit to determine what pay is due to officers.</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

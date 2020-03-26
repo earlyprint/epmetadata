@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A rebuke to the authors of a blew-book call'd, The state of physick in London which is indeed the black and blew state of physick, dated from the college, and signed by Th. G. and R.M. / written in behalf of the apothecaries and chirurgians of the city of London by William Salmon ...</title>
-         <author>Salmon, William, 1644-1713.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by E. Whitlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cushing Collection, Yale University Medical School Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A rebuke to the authors of a blew-book call'd, The state of physick in London which is indeed the black and blew state of physick, dated from the college, and signed by Th. G. and R.M. / written in behalf of the apothecaries and chirurgians of the city of London by William Salmon ...</title>
+      <author>Salmon, William, 1644-1713.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="bookseller"><persName type="printer">E. Whitlock</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cushing Collection, Yale University Medical School Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Whitlock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

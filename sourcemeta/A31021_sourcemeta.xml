@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Erotopaignion, or, The Cyprian academy by Robert Baron of Grayes-Inne, Gent.</title>
-         <author>Baron, Robert, b. 1630.</author>
-      </titleStmt>
-      <extent>[27], 61, 101 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W.W. and are to be sold by J. Hardesty, T. Huntington, and T. Jackson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A romance, in prose and verse, in the style of Sir Philip Sidney's Arcadia.</note>
-         <note>First word of title transliterated from Greek.</note>
-         <note>Added t.p. and frontispiece engraved by William Marshall.</note>
-         <note>"Gripus and Hegio, or, The passionate lovers" has special t.p.</note>
-         <note>"Deorvm dona, a masqve" has special t.p. with imprint: London : Printed for I: H.T., H.T.: I, 1647.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Erotopaignion, or, The Cyprian academy by Robert Baron of Grayes-Inne, Gent.</title>
+      <author>Baron, Robert, b. 1630.</author>
+    </titleStmt>
+    <extent>[27], 61, 101 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.W.</persName> and are to be sold by <persName type="bookseller">J. Hardesty</persName>, <persName type="bookseller">T. Huntington</persName>, and <persName type="bookseller">T. Jackson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A romance, in prose and verse, in the style of Sir Philip Sidney's Arcadia.</note>
+      <note>First word of title transliterated from Greek.</note>
+      <note>Added t.p. and frontispiece engraved by William Marshall.</note>
+      <note>"Gripus and Hegio, or, The passionate lovers" has special t.p.</note>
+      <note>"Deorvm dona, a masqve" has special t.p. with imprint: London : Printed for I: H.T., H.T.: I, 1647.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Hardesty</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Huntington</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Jackson</persName>
+    </person>
+    <person type="printer">
+      <persName>W.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

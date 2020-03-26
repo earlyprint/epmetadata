@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The French King's declaration to prevent the assemblies of the nevv converts, in the provinces of his kingdom.</title>
-         <author>France. Sovereign (1643-1715 : Louis XIV)</author>
-         <author>Louis XIV, King of France, 1638-1715.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed at Paris: and reprinted at London, for Richard Baldwin near the Black Bull in the Old-Bailey,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at Versailles the twelfth of March, 1689.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The French King's declaration to prevent the assemblies of the nevv converts, in the provinces of his kingdom.</title>
+      <author>France. Sovereign (1643-1715 : Louis XIV)</author>
+      <author>Louis XIV, King of France, 1638-1715.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Paris:</placeName> and reprinted at <placeName>London</placeName>, for <persName type="publisher">Richard Baldwin</persName> near <placeName>the Black Bull in the Old-Bailey</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at Versailles the twelfth of March, 1689.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Paris:</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Black Bull in the Old-Bailey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

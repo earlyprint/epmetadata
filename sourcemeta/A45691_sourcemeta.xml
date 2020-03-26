@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Threni Hybernici: or, Ireland sympathising with England and Scotland, in a sad lamentation for the loss of their Josiah Represented in a sermon at Christ-Church in Dublin before His Excellency the Lord Deputy, with divers of the nobility, gentry, and commonality there assembled, to celebrate a funerall solemnity upon the death of the late Lord Protector. By Dr. Harrison, chief chaplain to his said Excellency.</title>
-         <author>Harrison, Thomas, 1619-1682.</author>
-      </titleStmt>
-      <extent>[6], 23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Robert Clavell, at the Staggs-head by St. Gregories Church in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Edward Matthews.</note>
-         <note>Reproduction of the original in Dr. Williams' Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Threni Hybernici: or, Ireland sympathising with England and Scotland, in a sad lamentation for the loss of their Josiah Represented in a sermon at Christ-Church in Dublin before His Excellency the Lord Deputy, with divers of the nobility, gentry, and commonality there assembled, to celebrate a funerall solemnity upon the death of the late Lord Protector. By Dr. Harrison, chief chaplain to his said Excellency.</title>
+      <author>Harrison, Thomas, 1619-1682.</author>
+    </titleStmt>
+    <extent>[6], 23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Robert Clavell</persName>, at <placeName>the Staggs-head</placeName> by <persName type="printer">St. Gregories Church</persName> in <placeName>Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Edward Matthews.</note>
+      <note>Reproduction of the original in Dr. Williams' Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Clavell</persName>
+    </person>
+    <person type="printer">
+      <persName>St. Gregories Church</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Staggs-head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

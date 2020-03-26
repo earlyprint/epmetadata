@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The shape of .ii. mo~sters. M. D. Lxij.</title>
-         <author>Fulwood, William.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>At the Long Shop in the Pultry by Iohn Alde,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>[1562]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: q W.F. [i.e. William Fulwood].</note>
-         <note>Woodcut with prose and verse. Cf. STC.</note>
-         <note>Date of publication suggested by STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The shape of .ii. mo~sters. M. D. Lxij.</title>
+      <author>Fulwood, William.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>At <placeName>the Long Shop in the Pultry</placeName> by <persName type="printer">Iohn Alde</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>[1562]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: q W.F. [i.e. William Fulwood].</note>
+      <note>Woodcut with prose and verse. Cf. STC.</note>
+      <note>Date of publication suggested by STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Alde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Long Shop in the Pultry</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The palace of pleasure beautified, adorned and well furnished, with pleasaunt histories and excellent nouelles, selected out of diuers good and commendable authors. By William Painter clarke of the ordinaunce and armarie</title>
-         <title>Palace of pleasure. Vol. 1</title>
-         <author>Painter, William, 1540?-1594.</author>
-      </titleStmt>
-      <extent>[14], 135 [i.e. 145], 201-345 [i.e. 341], [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>1566. Imprinted at London, by [John Kingston and] Henry Denham, for Richard Tottell and William Iones[. These bookes are to be solde at the long shoppe at the weast ende of Paules],</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>[1566 (26 Jan.)]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Kingston pr[inted]. quires A-Oo"--STC.</note>
-         <note>Bookseller's address and month date from colophon.</note>
-         <note>Leaf 145 misnumbered 135; leaf 341 misnumbered 345.</note>
-         <note>Leaf 2O2 not attested in any known copy.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The palace of pleasure beautified, adorned and well furnished, with pleasaunt histories and excellent nouelles, selected out of diuers good and commendable authors. By William Painter clarke of the ordinaunce and armarie</title>
+      <title>Palace of pleasure. Vol. 1</title>
+      <author>Painter, William, 1540?-1594.</author>
+    </titleStmt>
+    <extent>[14], 135 [i.e. 145], 201-345 [i.e. 341], [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>1566. Imprinted at <placeName>London</placeName>, by <persName type="printer">[John Kingston and] Henry Denham</persName>, for <persName type="publisher">Richard Tottell</persName> and <persName type="publisher">William Iones[. These bookes</persName> are to be solde at <placeName>the long shoppe at the weast ende of Paules]</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>[1566 (26 Jan.)]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Kingston pr[inted]. quires A-Oo"--STC.</note>
+      <note>Bookseller's address and month date from colophon.</note>
+      <note>Leaf 145 misnumbered 135; leaf 341 misnumbered 345.</note>
+      <note>Leaf 2O2 not attested in any known copy.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Tottell</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Iones[. These bookes</persName>
+    </person>
+    <person type="printer">
+      <persName>[John Kingston and] Henry Denham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the long shoppe at the weast ende of Paules]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vox clamantis. Mark 1. 3 A stil voice, to the three thrice-honourable estates of Parliament: and in them, to all the soules of this our nation, of what state or condition soeuer they be. By William Loe, Doctor of Diuinitie, and chaplaine to the Kings most excellent Maiestie.</title>
-         <author>Loe, William, d. 1645.</author>
-      </titleStmt>
-      <extent>[16], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] S[nodham] for Iohn Teage, and are to be sold at the signe of the Golden-Ball in Pauls Church-yard,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date>1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: [fleuron]⁴ A-K⁴.</note>
-         <note>The first leaf is blank except for signature-mark "[fleuron]".</note>
-         <note>Running title reads: A still voyce, to the three estates of Parliament.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vox clamantis. Mark 1. 3 A stil voice, to the three thrice-honourable estates of Parliament: and in them, to all the soules of this our nation, of what state or condition soeuer they be. By William Loe, Doctor of Diuinitie, and chaplaine to the Kings most excellent Maiestie.</title>
+      <author>Loe, William, d. 1645.</author>
+    </titleStmt>
+    <extent>[16], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] S[nodham]</persName> for <persName type="publisher">Iohn Teage</persName>, and are to be sold at <placeName>the signe of the Golden-Ball in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date>1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: [fleuron]&#8308; A-K&#8308;.</note>
+      <note>The first leaf is blank except for signature-mark "[fleuron]".</note>
+      <note>Running title reads: A still voyce, to the three estates of Parliament.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Teage</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Golden-Ball in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

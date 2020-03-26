@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ashrea: or, The grove of beatitudes represented in emblemes: and, by the art of memory, to be read on our blessed Saviour crucifi'd: with considerations &amp; meditations suitable to every beatitude.</title>
-         <author>Manning, Edward.</author>
-      </titleStmt>
-      <extent>[36], 117, [1] p., [1] leaf of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by J[ohn]. M[acock]. for W[illiam]. Place, at Grayes-Inn Gate in Holborne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Edward Manning--Wing (CD-ROM edition).</note>
-         <note>Printer and publisher's names from Wing (CD-ROM edition).</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ashrea: or, The grove of beatitudes represented in emblemes: and, by the art of memory, to be read on our blessed Saviour crucifi'd: with considerations &amp; meditations suitable to every beatitude.</title>
+      <author>Manning, Edward.</author>
+    </titleStmt>
+    <extent>[36], 117, [1] p., [1] leaf of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J[ohn]. M[acock].</persName> for <persName type="publisher">W[illiam]. Place</persName>, at <placeName>Grayes-Inn Gate in Holborne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Edward Manning--Wing (CD-ROM edition).</note>
+      <note>Printer and publisher's names from Wing (CD-ROM edition).</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W[illiam]. Place</persName>
+    </person>
+    <person type="printer">
+      <persName>J[ohn]. M[acock].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Grayes-Inn Gate in Holborne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The poore mans appeale In a sermon preached at Leicester assises before the judges. By T.P.</title>
-         <author>Pestell, Thomas, 1584?-1659?</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw: Griffin, for Arthur Johnson, and are to be sold at his shop neere the great north doore of St. Pauls,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date>1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.P. = Thomas Pestell.</note>
-         <note>Printer's device (McKerrow 409) on title page.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The poore mans appeale In a sermon preached at Leicester assises before the judges. By T.P.</title>
+      <author>Pestell, Thomas, 1584?-1659?</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw: Griffin</persName>, for <persName type="publisher">Arthur Johnson</persName>, and are to be sold at <placeName>his shop neere the great north doore of St. Pauls</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date>1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.P. = Thomas Pestell.</note>
+      <note>Printer's device (McKerrow 409) on title page.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Arthur Johnson</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw: Griffin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere the great north doore of St. Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

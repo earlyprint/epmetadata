@@ -1,17 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A breif account of the Popes pretences of a civil right to the Crown of England, and the answer thereunto</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by Leon. Lichfield for Richard Davis, 1679. And are to be sold by Moses Pitt, at the Angel; Henry Mortlock, at the Phœnix, in St. Pauls Church Yard: and at the White Hart in Westminster Hall,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date>[1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library, Oxford, Eng.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A breif account of the Popes pretences of a civil right to the Crown of England, and the answer thereunto</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Leon. Lichfield</persName> for <persName type="publisher">Richard Davis</persName>, <persName type="publisher">1679. And</persName> are to be sold by <persName type="bookseller">Moses Pitt</persName>, at <placeName>the Angel; Henry Mortlock, at the Ph&#339;nix, in St. Pauls Church Yard:</placeName> and at <placeName>the White Hart in Westminster Hall</placeName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date>[1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library, Oxford, Eng.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Moses Pitt</persName>
+    </person>
+    <person type="publisher">
+      <persName>1679. And</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>Leon. Lichfield</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel; Henry Mortlock, at the Ph&#339;nix, in St. Pauls Church Yard:</placeName>
+    </place>
+    <place type="location">
+      <placeName>the White Hart in Westminster Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mithridates, King of Pontus a tragedy : acted at the Theatre Royal by Their Majestie's servants / written by Nat. Lee.</title>
-         <author>Lee, Nathaniel, 1653?-1692.</author>
-         <author>Dryden, John, 1631-1700.</author>
-      </titleStmt>
-      <extent>[8], 77, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.E. for James Magnes and Rich. Bentley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Epilogue by Dryden.</note>
-         <note>"Licensed March 28, 1678. Roger L'Estrange"</note>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>"Prologue" and "Persons represented": p. [1]-[2] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mithridates, King of Pontus a tragedy : acted at the Theatre Royal by Their Majestie's servants / written by Nat. Lee.</title>
+      <author>Lee, Nathaniel, 1653?-1692.</author>
+      <author>Dryden, John, 1631-1700.</author>
+    </titleStmt>
+    <extent>[8], 77, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.E.</persName> for <persName type="publisher">James Magnes</persName> and <persName type="publisher">Rich. Bentley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Epilogue by Dryden.</note>
+      <note>"Licensed March 28, 1678. Roger L'Estrange"</note>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>"Prologue" and "Persons represented": p. [1]-[2] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Magnes</persName>
+    </person>
+    <person type="publisher">
+      <persName>Rich. Bentley</persName>
+    </person>
+    <person type="printer">
+      <persName>R.E.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

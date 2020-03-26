@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Remember man both night and daye. Thou must nedes die, there is no nay</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Willyam Powell for Willyam Pickering dwelling at Sainct Magnus corner,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date>Anno. 1566. 21. August.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Thy mortall body formed of clay,".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Remember man both night and daye. Thou must nedes die, there is no nay</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Willyam Powell</persName> for <persName type="publisher">Willyam Pickering</persName> dwelling at <placeName>Sainct Magnus corner</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date>Anno. 1566. 21. August.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Thy mortall body formed of clay,".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Willyam Pickering</persName>
+    </person>
+    <person type="printer">
+      <persName>Willyam Powell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Sainct Magnus corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

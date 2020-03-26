@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fannaticks letter sent out of the dungeon of the gate-house prison of VVestminster: to all his brethren in the three nations at liberty; and also in the several goales and dungeons therein, that are under all the principles of the doctrines of Christ, Heb. 6. I, 2. By Henry Adis, a baptized believer, undergoing the name of a free-willer; and also most ignomineously by the tongue of infamy, called a fannatick, or a mad man.</title>
-         <author>Adis, Henry.</author>
-      </titleStmt>
-      <extent>25 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by S. Dover for the author, and are to be sold at book-sellers shops,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "march. 6.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fannaticks letter sent out of the dungeon of the gate-house prison of VVestminster: to all his brethren in the three nations at liberty; and also in the several goales and dungeons therein, that are under all the principles of the doctrines of Christ, Heb. 6. I, 2. By Henry Adis, a baptized believer, undergoing the name of a free-willer; and also most ignomineously by the tongue of infamy, called a fannatick, or a mad man.</title>
+      <author>Adis, Henry.</author>
+    </titleStmt>
+    <extent>25 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">S. Dover</persName> for <persName type="publisher">the author</persName>, and are to be sold at <placeName>book-sellers shops</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "march. 6.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Dover</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>book-sellers shops</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

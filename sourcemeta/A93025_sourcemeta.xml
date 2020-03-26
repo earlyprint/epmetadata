@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation, or an account of the Imperial Court, by Sacredo, a noble Venetian-Senator. Given in an oration made by him to the Doge (or Duke) of Venice, in the Venetian Senate-House, of what things happened during the last war of the Emperor with the Turks, and during his embassy to the Emperor, at his return out of Germany to Venice. Done into English by T.G. Esq</title>
-         <author>Sagredo, Giovanni, 1616-ca. 1696.</author>
-         <author>T. G.</author>
-      </titleStmt>
-      <extent>[28], 88, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for W. Crooke at the Green Dragon without Temple-bar, and G. Wells at the Sun in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date>1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation, or an account of the Imperial Court, by Sacredo, a noble Venetian-Senator. Given in an oration made by him to the Doge (or Duke) of Venice, in the Venetian Senate-House, of what things happened during the last war of the Emperor with the Turks, and during his embassy to the Emperor, at his return out of Germany to Venice. Done into English by T.G. Esq</title>
+      <author>Sagredo, Giovanni, 1616-ca. 1696.</author>
+      <author>T. G.</author>
+    </titleStmt>
+    <extent>[28], 88, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">W. Crooke</persName> at <placeName>the Green Dragon without Temple-bar</placeName>, and <persName type="publisher">G. Wells</persName> at <placeName>the Sun in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date>1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Wells</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Crooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Green Dragon without Temple-bar</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sun in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>
