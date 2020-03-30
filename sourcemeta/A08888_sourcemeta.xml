@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Collectanea Out of St. Gregory the Great, and St. Bernard the devout, against the Papists who adhere to the doctrine of the present Church of Rome, in the most fundamentall points betweene them and vs.</title>
-         <author>Panke, John.</author>
-      </titleStmt>
-      <extent>[22], 113, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield, and Iames Short, printers to the famous Vniversitie,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: John Panke.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Collectanea Out of St. Gregory the Great, and St. Bernard the devout, against the Papists who adhere to the doctrine of the present Church of Rome, in the most fundamentall points betweene them and vs.</title>
+      <author>Panke, John.</author>
+    </titleStmt>
+    <extent>[22], 113, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName>, and <persName type="printer">Iames Short</persName>, printers to <persName type="patron">the famous Vniversitie</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: John Panke.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iames Short</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the famous Vniversitie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

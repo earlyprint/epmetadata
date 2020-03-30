@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ester hath hang'd Haman: or An ansvvere to a lewd pamphlet, entituled, The arraignment of women With the arraignment of lewd, idle, froward, and vnconstant men, and husbands. Diuided into two parts. The first proueth the dignity and worthinesse of women, out of diuine testimonies. The second shewing the estimation of the f&#339;minine sexe, in ancient and pagan times; all which is acknowledged by men themselues in their daily actions. VVritten by Ester Sowernam, neither maide, wife nor widdowe, yet really all, and therefore experienced to defend all.</title>
-         <author>Sowernam, Ester.</author>
-      </titleStmt>
-      <extent>[8], 51, 50-51, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Snodham] for Nicholas Bourne, and are to be sold at his shop at the entrance of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1617">1617.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Ester Sowernam is a pseudonym.</note>
-         <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
-         <note>The last chapter, signed "Ioane Sharp" (also probably a pseudonym), is in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ester hath hang'd Haman: or An ansvvere to a lewd pamphlet, entituled, The arraignment of women With the arraignment of lewd, idle, froward, and vnconstant men, and husbands. Diuided into two parts. The first proueth the dignity and worthinesse of women, out of diuine testimonies. The second shewing the estimation of the f&#339;minine sexe, in ancient and pagan times; all which is acknowledged by men themselues in their daily actions. VVritten by Ester Sowernam, neither maide, wife nor widdowe, yet really all, and therefore experienced to defend all.</title>
+      <author>Sowernam, Ester.</author>
+    </titleStmt>
+    <extent>[8], 51, 50-51, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">Nicholas Bourne</persName>, and are to be sold at <placeName>his shop at the entrance of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1617">1617.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Ester Sowernam is a pseudonym.</note>
+      <note>A reply to: Swetnam, Joseph.  The araignment of lewde, idle, froward, and unconstant women.</note>
+      <note>The last chapter, signed "Ioane Sharp" (also probably a pseudonym), is in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the entrance of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

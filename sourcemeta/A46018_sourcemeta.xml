@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An idyll on the peace.</title>
-      </titleStmt>
-      <extent>10 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for R. Parker, at the Unicorn under the piazza of the Royal Exchange in Cornhil; Peter Buck, at the sign of the Temple at the middle-Temple-Gate in Fleetstreet; and are to be sold by R. Baldwin in VVarwick lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: An idyll on the peace.</note>
-         <note>Signatures: A-B&#8308; C2.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An idyll on the peace.</title>
+    </titleStmt>
+    <extent>10 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">R. Parker</persName>, at <placeName>the Unicorn under the piazza of the Royal Exchange in Cornhil; Peter Buck, at the sign of the Temple at the middle-Temple-Gate in Fleetstreet;</placeName> and are to be sold by <persName type="bookseller">R. Baldwin</persName> in <placeName>VVarwick lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: An idyll on the peace.</note>
+      <note>Signatures: A-B&#8308; C2.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Parker</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>VVarwick lane</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Unicorn under the piazza of the Royal Exchange in Cornhil; Peter Buck, at the sign of the Temple at the middle-Temple-Gate in Fleetstreet;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

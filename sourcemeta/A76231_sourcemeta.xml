@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Enchiridion medicum: containing the causes, signs, and cures of all those diseases, that do chiefly affect the body of man: divided into three books. With alphabetical tables of such matters as are therein contained. Whereunto is added a treatise, De facultatibus medicamentorum compositorum, &amp; dosibus. / By Robert Bayfield.</title>
-         <author>Bayfield, Robert, b. 1629.</author>
-      </titleStmt>
-      <extent>[32], 431, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Tyler for Joseph Cranford, and are to be sold at his shop at the sign of the Phenix in S. Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Tractatus de facultatibus medicamentorum compositorum, &amp; dosibus" has caption title.</note>
-         <note>Annotation on Thomason copy: "August. 25.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Enchiridion medicum: containing the causes, signs, and cures of all those diseases, that do chiefly affect the body of man: divided into three books. With alphabetical tables of such matters as are therein contained. Whereunto is added a treatise, De facultatibus medicamentorum compositorum, &amp; dosibus. / By Robert Bayfield.</title>
+      <author>Bayfield, Robert, b. 1629.</author>
+    </titleStmt>
+    <extent>[32], 431, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Tyler</persName> for <persName type="publisher">Joseph Cranford</persName>, and are to be sold at <placeName>his shop at the sign of the Phenix in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Tractatus de facultatibus medicamentorum compositorum, &amp; dosibus" has caption title.</note>
+      <note>Annotation on Thomason copy: "August. 25.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Cranford</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Tyler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Phenix in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

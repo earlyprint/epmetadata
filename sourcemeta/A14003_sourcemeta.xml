@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The picture of a true protestant: or, Gods house and husbandry wherein is declared the duty and dignitie of all Gods children, both minister and people. Written by Thomas Tuke.</title>
-         <author>Tuke, Thomas, d. 1657.</author>
-      </titleStmt>
-      <extent>[22], 232 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, and are to be sold by Thomas Archer in Popes head Pallace, neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The picture of a true protestant: or, Gods house and husbandry wherein is declared the duty and dignitie of all Gods children, both minister and people. Written by Thomas Tuke.</title>
+      <author>Tuke, Thomas, d. 1657.</author>
+    </titleStmt>
+    <extent>[22], 232 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, and are to be sold by <persName type="bookseller">Thomas Archer</persName> in <placeName>Popes head Pallace, neere the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Archer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Pallace, neere the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

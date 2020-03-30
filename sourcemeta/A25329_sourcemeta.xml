@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Anatomy of popery, or, A catalogue of popish errours in doctrine, and corruptions in worship together with the agreement between paganism, pharisaism, and popery.</title>
-      </titleStmt>
-      <extent>[23], 216 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Milbourne for Tho. Passenger ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of originals in Edinburgh University Library and the University of Illinois (Urbana-Champaign Campus). Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Anatomy of popery, or, A catalogue of popish errours in doctrine, and corruptions in worship together with the agreement between paganism, pharisaism, and popery.</title>
+    </titleStmt>
+    <extent>[23], 216 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Milbourne</persName> for <persName type="publisher">Tho. Passenger</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of originals in Edinburgh University Library and the University of Illinois (Urbana-Champaign Campus). Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Passenger</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Milbourne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

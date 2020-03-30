@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Great Britains glory, or, A brief description of the present state, splendor, and magnificence of the Royal Exchange with some remarkable passages relating to the present engagement : humbly presented to the several merchants of the City of London, who daily meet, traffique, and converse in the said place / by Theophilus Philalethes.</title>
-         <author>T. P. (Theophilus Philalethes)</author>
-      </titleStmt>
-      <extent>[10], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Ratcliffe, and Nat. Thompson, for Jonathan Edwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">Anno Domini 1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>"With Authoritie."</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Great Britains glory, or, A brief description of the present state, splendor, and magnificence of the Royal Exchange with some remarkable passages relating to the present engagement : humbly presented to the several merchants of the City of London, who daily meet, traffique, and converse in the said place / by Theophilus Philalethes.</title>
+      <author>T. P. (Theophilus Philalethes)</author>
+    </titleStmt>
+    <extent>[10], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Ratcliffe</persName>, and <persName type="printer">Nat. Thompson</persName>, for <persName type="publisher">Jonathan Edwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">Anno Domini 1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>"With Authoritie."</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Edwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Nat. Thompson</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Ratcliffe</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

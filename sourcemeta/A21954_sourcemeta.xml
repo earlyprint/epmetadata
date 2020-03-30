@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. A proclamation for the prohibition of transporting moneys into Ireland</title>
-         <title>Proclamations. 1601-07-03</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 leaf ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, printer to the Queenes most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1601">Anno 1601.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. A proclamation for the prohibition of transporting moneys into Ireland</title>
+      <title>Proclamations. 1601-07-03</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 leaf ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Queenes most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1601">Anno 1601.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

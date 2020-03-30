@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The First and second part of the history of the famous Euordanus Prince of Denmark With the strange aduentures of Iago Prince of Saxonie: and of both theyr seuerall fortunes in loue.</title>
-      </titleStmt>
-      <extent>[200] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by I. R[oberts]. for R. B[ankworth]. and are to be sold in Paules Church-yard, at the signe of the Sun,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1605">1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publisher's names from STC.</note>
-         <note>Caption title on A2r: The first part of the history of the famous Euordanus, Prince of Denmarke; with his aduentures, and fortune in loue.</note>
-         <note>In two parts; part 2 has caption title on M4r: The second part of the famous history of the two princes, Euordanus Prince of Denmarke, and Iago Prince of Saxonie, with their seuerall aduentures and fortunes in loue.</note>
-         <note>Signatures: A-2B4.</note>
-         <note>Item at reel 644:2 identified as STC 10566a.</note>
-         <note>Reproduction of original in the John Rylands University Library, Manchester, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The First and second part of the history of the famous Euordanus Prince of Denmark With the strange aduentures of Iago Prince of Saxonie: and of both theyr seuerall fortunes in loue.</title>
+    </titleStmt>
+    <extent>[200] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">I. R[oberts].</persName> for <persName type="publisher">R. B[ankworth].</persName> and are to be sold in <placeName>Paules Church-yard, at the signe of the Sun</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1605">1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publisher's names from STC.</note>
+      <note>Caption title on A2r: The first part of the history of the famous Euordanus, Prince of Denmarke; with his aduentures, and fortune in loue.</note>
+      <note>In two parts; part 2 has caption title on M4r: The second part of the famous history of the two princes, Euordanus Prince of Denmarke, and Iago Prince of Saxonie, with their seuerall aduentures and fortunes in loue.</note>
+      <note>Signatures: A-2B4.</note>
+      <note>Item at reel 644:2 identified as STC 10566a.</note>
+      <note>Reproduction of original in the John Rylands University Library, Manchester, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. B[ankworth].</persName>
+    </person>
+    <person type="printer">
+      <persName>I. R[oberts].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard, at the signe of the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

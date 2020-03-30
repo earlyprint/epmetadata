@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon dedicatory Preached at the consecration of of the chapell of Epping in Essex, October, 28. 1622. By Ier. Dyke, minister there.</title>
-         <author>Dyke, Jeremiah, 1584-1639.</author>
-      </titleStmt>
-      <extent>[4], 29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] D[awson] for Nathanael Newbery, and are to be sold at his shop vnder Saint Peters Church in Cornehill, and in Popes-head Alley, at the signe of the Stare,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On Exodus XX, 24.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon dedicatory Preached at the consecration of of the chapell of Epping in Essex, October, 28. 1622. By Ier. Dyke, minister there.</title>
+      <author>Dyke, Jeremiah, 1584-1639.</author>
+    </titleStmt>
+    <extent>[4], 29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] D[awson]</persName> for <persName type="publisher">Nathanael Newbery</persName>, and are to be sold at <placeName>his shop vnder Saint Peters Church in Cornehill</placeName>, and in <placeName>Popes-head Alley, at the signe of the Stare</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On Exodus XX, 24.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] D[awson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley, at the signe of the Stare</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop vnder Saint Peters Church in Cornehill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

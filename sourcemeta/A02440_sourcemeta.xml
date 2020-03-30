@@ -1,27 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVork for chimny-sweepers: or A warning for tabacconists Describing the pernicious vse of tabacco, no lesse pleasant then profitable for all sorts to reade.</title>
-         <author>Philaretes, fl. 1602.</author>
-         <author>Hind, John, fl. 1596-1606.</author>
-         <author>I. H., fl. 1602.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>By T. Este [and Thomas Creede], for Thomas Bushell, &amp; are to be sould at the great north dore of Powles,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1602">1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Philaretes.</note>
-         <note>The introductory verse signed: I.H., i.e. John Hind?.</note>
-         <note>"East pr[inted]. A-C, Creede the rest"--STC.</note>
-         <note>Signatures: A-C&#8308; E-G&#8308;.</note>
-         <note>The first leaf is blank except for signature-mark "A".</note>
-         <note>Running title reads: A warning for tabacconists.</note>
-         <note>The preliminaries and most of the last twelve pages are reimposed from STC 12571.5, which came first.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVork for chimny-sweepers: or A warning for tabacconists Describing the pernicious vse of tabacco, no lesse pleasant then profitable for all sorts to reade.</title>
+      <author>Philaretes, fl. 1602.</author>
+      <author>Hind, John, fl. 1596-1606.</author>
+      <author>I. H., fl. 1602.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">T. Este</persName> [and <persName type="printer">Thomas Creede]</persName>, for <persName type="publisher">Thomas Bushell</persName>, <persName type="publisher">&amp;</persName> are to be sould at <placeName>the great north dore of Powles</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1602">1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Philaretes.</note>
+      <note>The introductory verse signed: I.H., i.e. John Hind?.</note>
+      <note>"East pr[inted]. A-C, Creede the rest"--STC.</note>
+      <note>Signatures: A-C&#8308; E-G&#8308;.</note>
+      <note>The first leaf is blank except for signature-mark "A".</note>
+      <note>Running title reads: A warning for tabacconists.</note>
+      <note>The preliminaries and most of the last twelve pages are reimposed from STC 12571.5, which came first.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>&amp;</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Bushell</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Este</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the great north dore of Powles</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Leuites reuenge containing poeticall meditations vpon the 19. and 20. chapters of Iudges. By R. Gomersall.</title>
-         <author>Gomersall, Robert, 1602-1646?</author>
-         <author>Cecil, Thomas, fl. 1630, engraver.</author>
-      </titleStmt>
-      <extent>[18], 76, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>[By Miles Flesher for John Marriott],</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1628">in the yeare M.DC.XXVIII. [1628]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>With an additional title page, engraved, signed "Tho Cecill sculp", with imprint: London. Printed for Iohn Marriott 1628.</note>
-         <note>"A thanksgiuing for a recouery from a burning feauer", [4] p. at end.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Leuites reuenge containing poeticall meditations vpon the 19. and 20. chapters of Iudges. By R. Gomersall.</title>
+      <author>Gomersall, Robert, 1602-1646?</author>
+      <author>Cecil, Thomas, fl. 1630, engraver.</author>
+    </titleStmt>
+    <extent>[18], 76, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Miles Flesher</persName> for <persName type="publisher">John Marriott]</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1628">in the yeare M.DC.XXVIII. [1628]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>With an additional title page, engraved, signed "Tho Cecill sculp", with imprint: London. Printed for Iohn Marriott 1628.</note>
+      <note>"A thanksgiuing for a recouery from a burning feauer", [4] p. at end.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Marriott]</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations upon the instructions for the taking the vovv and covenant throughout England.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield, printer to the University,</publisher>
-         <pubPlace>Oxford [i.e. London?] :</pubPlace>
-         <date when="1643">1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Apparently a London counterfeit of the Oxford edition (Madan).</note>
-         <note>Includes an abridgment of "Instructions how and in what manner the said vow and covenant shall be taken" which were promulgated by Parliament 27 June 1643. "The said vow and covenant" is that promulgated by Parliament 6 June 1643.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations upon the instructions for the taking the vovv and covenant throughout England.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford [i.e. London?] :</pubPlace>
+      <date when="1643">1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Apparently a London counterfeit of the Oxford edition (Madan).</note>
+      <note>Includes an abridgment of "Instructions how and in what manner the said vow and covenant shall be taken" which were promulgated by Parliament 27 June 1643. "The said vow and covenant" is that promulgated by Parliament 6 June 1643.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

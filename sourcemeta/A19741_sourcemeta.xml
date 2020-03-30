@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anagrammata in nomina illustrissimorum heroum Thomae Egertoni, ...</title>
-         <author>Davison, Francis, 1575?-1619?, attributed name.</author>
-         <author>A. L. S., fl. 1603, attributed name.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>ex officina Simonis Stafford,</publisher>
-         <pubPlace>Londini :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end: Honoris ergo ab A.L.S. [and] F.D. (i.e. Francis Davison).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anagrammata in nomina illustrissimorum heroum Thomae Egertoni, ...</title>
+      <author>Davison, Francis, 1575?-1619?, attributed name.</author>
+      <author>A. L. S., fl. 1603, attributed name.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>ex officina <persName type="printer">Simonis Stafford</persName>,</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end: Honoris ergo ab A.L.S. [and] F.D. (i.e. Francis Davison).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Simonis Stafford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

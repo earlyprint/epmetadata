@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The priests routed in their front-guard of tythes. Or an answer to a paper brought in Mr. Naltons name (teacher of Leonard Fosterlane) to some of the inhabitants of that place. Intituled the dreadfull danger of sacriledge, the with-holding of tythes,&amp;c. A true copy whereof is herewith printed. By the shoemaker of Martins Legrand.</title>
-         <author>Nalton, James, 1600-1662.</author>
-      </titleStmt>
-      <extent>19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Hen. Hils and are to be sold at his house in Fleet-yard, and at William Larnars living at the Black-moore near Fleet-Bridge.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>P.16 ends with 'Finis', and is followed by 'The dreadfull danger of sacriledge'.</note>
-         <note>A reply to: Nalton, James  The dreadfull danger of sacriledge.</note>
-         <note>Annotation on Thomason copy: "Nou. 30th.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The priests routed in their front-guard of tythes. Or an answer to a paper brought in Mr. Naltons name (teacher of Leonard Fosterlane) to some of the inhabitants of that place. Intituled the dreadfull danger of sacriledge, the with-holding of tythes,&amp;c. A true copy whereof is herewith printed. By the shoemaker of Martins Legrand.</title>
+      <author>Nalton, James, 1600-1662.</author>
+    </titleStmt>
+    <extent>19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Hen. Hils</persName> and are to be sold at <placeName>his house in Fleet-yard</placeName>, and at <placeName>William Larnars living at the Black-moore near Fleet-Bridge.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>P.16 ends with 'Finis', and is followed by 'The dreadfull danger of sacriledge'.</note>
+      <note>A reply to: Nalton, James  The dreadfull danger of sacriledge.</note>
+      <note>Annotation on Thomason copy: "Nou. 30th.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Hen. Hils</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>William Larnars living at the Black-moore near Fleet-Bridge.</placeName>
+    </place>
+    <place type="location">
+      <placeName>his house in Fleet-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

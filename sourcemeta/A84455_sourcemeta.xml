@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Council of State, a proclamation whereas by an act of the last Parliament intituled An act for dissolving the Parliament begun the third of November 1640 ... persons engaged in the late rebellion in Ireland, and all who profess the popish religion, and all ... who have assisted ... in any war against the Parliament ... shall be incapable to be elected to serve as members in the next Parliament ...</title>
-         <author>England and Wales. Council of State.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Abel Roper and Tho. Collins, Printers to the Council of State,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1660">[1660].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first words of text.</note>
-         <note>"Wednesday March 28. 1660. By the Council of State at VVhitehal. Ordered, That this Proclamation by forthwith Printed and Published. W. Jessop, Clerk of the Council."</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Council of State, a proclamation whereas by an act of the last Parliament intituled An act for dissolving the Parliament begun the third of November 1640 ... persons engaged in the late rebellion in Ireland, and all who profess the popish religion, and all ... who have assisted ... in any war against the Parliament ... shall be incapable to be elected to serve as members in the next Parliament ...</title>
+      <author>England and Wales. Council of State.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Abel Roper</persName> and <persName type="printer">Tho. Collins</persName>, Printers to <persName type="patron">the Council of State</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1660">[1660].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first words of text.</note>
+      <note>"Wednesday March 28. 1660. By the Council of State at VVhitehal. Ordered, That this Proclamation by forthwith Printed and Published. W. Jessop, Clerk of the Council."</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Abel Roper</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Collins</persName>
+    </person>
+    <person type="patron">
+      <persName>the Council of State</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

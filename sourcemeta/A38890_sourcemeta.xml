@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact and true account of the proceedings of the sessions begun at the Old-Bayly, on Wednesday January the 17th. 1682. Giving an account of the tryals and condemnations of the several prisoners brought thither. Printed by authority.</title>
-         <author>England and Wales. Court of Quarter Sessions of the Peace (London)</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by George Croom, in Thames-street, over against Baynard's Castle,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1682">1682]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact and true account of the proceedings of the sessions begun at the Old-Bayly, on Wednesday January the 17th. 1682. Giving an account of the tryals and condemnations of the several prisoners brought thither. Printed by authority.</title>
+      <author>England and Wales. Court of Quarter Sessions of the Peace (London)</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">George Croom</persName>, in <placeName>Thames-street, over against Baynard's Castle</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1682">1682]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Croom</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Thames-street, over against Baynard's Castle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

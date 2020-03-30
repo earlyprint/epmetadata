@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The most easie method for making the best cyder by J.W. Gent.</title>
-         <author>Worlidge, John, fl. 1660-1698.</author>
-      </titleStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for George Graston ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The most easie method for making the best cyder by J.W. Gent.</title>
+      <author>Worlidge, John, fl. 1660-1698.</author>
+    </titleStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">George Graston</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Graston</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

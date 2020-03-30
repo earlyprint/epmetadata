@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Draught of an act concerning the mint</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson,</publisher>
-         <pubPlace>[Edinburgh :</pubPlace>
-         <date when="1695">1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Publication data from Wing (2nd ed.).</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Draught of an act concerning the mint</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>,</publisher>
+      <pubPlace>[Edinburgh :</pubPlace>
+      <date when="1695">1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Publication data from Wing (2nd ed.).</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

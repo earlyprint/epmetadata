@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Jacobite conventicle a poem.</title>
-         <author>Ames, Richard, d. 1693.</author>
-      </titleStmt>
-      <extent>[4], 22, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Stafford,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Richard Ames. Cf. BM.</note>
-         <note>Advertisement: p. [2] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Jacobite conventicle a poem.</title>
+      <author>Ames, Richard, d. 1693.</author>
+    </titleStmt>
+    <extent>[4], 22, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Stafford</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Richard Ames. Cf. BM.</note>
+      <note>Advertisement: p. [2] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Stafford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

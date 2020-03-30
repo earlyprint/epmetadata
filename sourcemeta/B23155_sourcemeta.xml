@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>This to all people who stumble at Gods commands</title>
-         <author>Fox, George, 1624-1691.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Mary Westwood ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Imperfect: cropped and slighty faded, with some loss of print.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>This to all people who stumble at Gods commands</title>
+      <author>Fox, George, 1624-1691.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Mary Westwood</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Imperfect: cropped and slighty faded, with some loss of print.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mary Westwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

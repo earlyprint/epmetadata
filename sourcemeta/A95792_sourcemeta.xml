@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Unfortunate favourite, or, Memoirs on the life and actions of the late Lord Chancellour of England from his cradle to his grave. With what remarkably happen'd in his proceedings. : Together with a discourse by way of funeral sermon, on the fall of ambition.</title>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for P. Brooksby, at the Golden-Ball, in Pye Corner,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed according to order."</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Unfortunate favourite, or, Memoirs on the life and actions of the late Lord Chancellour of England from his cradle to his grave. With what remarkably happen'd in his proceedings. : Together with a discourse by way of funeral sermon, on the fall of ambition.</title>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">P. Brooksby</persName>, at <placeName>the Golden-Ball, in Pye Corner</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed according to order."</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden-Ball, in Pye Corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

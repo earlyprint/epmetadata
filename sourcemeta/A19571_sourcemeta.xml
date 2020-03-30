@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A defence of the true and catholike doctrine of the sacrament of the body and bloud of our sauiour Christ with a confutacion of sundry errors concernyng the same, grounded and stablished vpon Goddes holy woorde, [and] approued by ye consent of the moste auncient doctors of the Churche. Made by the moste reuerende father in God Thomas Archebyshop of Canterbury, primate of all Englande and Metropolitane.</title>
-         <author>Cranmer, Thomas, 1489-1556.</author>
-      </titleStmt>
-      <extent>[8], 117, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>In Poules churcheyarde, at the signe of the Brasen serpent, by Reginald Wolfe. Cum priuilegio ad imprimendum solum,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1550">Anno Domini. M.D.L. [1550]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from STC.</note>
-         <note>B4r catchword: 'me'; S1r catchword: 'but'.</note>
-         <note>S3 is canceled, replaced by a bifolium, with leaves signed: 'S.iii' and 'Siii'.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A defence of the true and catholike doctrine of the sacrament of the body and bloud of our sauiour Christ with a confutacion of sundry errors concernyng the same, grounded and stablished vpon Goddes holy woorde, [and] approued by ye consent of the moste auncient doctors of the Churche. Made by the moste reuerende father in God Thomas Archebyshop of Canterbury, primate of all Englande and Metropolitane.</title>
+      <author>Cranmer, Thomas, 1489-1556.</author>
+    </titleStmt>
+    <extent>[8], 117, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>In Poules churcheyarde, at <placeName>the signe of the Brasen serpent</placeName>, by <persName type="printer">Reginald Wolfe.</persName> Cum priuilegio ad imprimendum solum,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1550">Anno Domini. M.D.L. [1550]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from STC.</note>
+      <note>B4r catchword: 'me'; S1r catchword: 'but'.</note>
+      <note>S3 is canceled, replaced by a bifolium, with leaves signed: 'S.iii' and 'Siii'.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Reginald Wolfe.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Brasen serpent</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

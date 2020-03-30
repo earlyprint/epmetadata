@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Free ports the nature and necessitie of them stated.</title>
-         <author>Worsley, Benjamin.</author>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Du-Gard, Printer to the Council of State; and are to bee sold by Nicholas Bourn in Cornhil, at the corner shop, at the entrance into the Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: B.W. [i.e. Benjamin Worlsey].</note>
-         <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery (Early English books), the University of London (Goldsmiths'-Kress library of economic literature) and the British Library (Thomason Tracts).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Free ports the nature and necessitie of them stated.</title>
+      <author>Worsley, Benjamin.</author>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Du-Gard</persName>, Printer to <persName type="patron">the Council of State;</persName> and are to bee sold by <persName type="bookseller">Nicholas Bourn</persName> in <placeName>Cornhil, at the corner shop, at the entrance into the Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: B.W. [i.e. Benjamin Worlsey].</note>
+      <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery (Early English books), the University of London (Goldsmiths'-Kress library of economic literature) and the British Library (Thomason Tracts).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Du-Gard</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nicholas Bourn</persName>
+    </person>
+    <person type="patron">
+      <persName>the Council of State;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil, at the corner shop, at the entrance into the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

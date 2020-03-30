@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The uncharitable informer charitably informed, that sycophancy is a sin, pernicious to all, but most of all to himself. By Faithfull Teate, minister of the Gospel of peace and truth.</title>
-         <author>Teate, Faithful, b. 1621.</author>
-      </titleStmt>
-      <extent>[2], 81, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Bladen, by order,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1660">anno Dom. 1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Aprill".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The uncharitable informer charitably informed, that sycophancy is a sin, pernicious to all, but most of all to himself. By Faithfull Teate, minister of the Gospel of peace and truth.</title>
+      <author>Teate, Faithful, b. 1621.</author>
+    </titleStmt>
+    <extent>[2], 81, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bladen</persName>, by <persName type="printer">order</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1660">anno Dom. 1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Aprill".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Bladen</persName>
+    </person>
+    <person type="printer">
+      <persName>order</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Popes bull gelded or An edict published by the Duke and State of Venice, against the late bull of Pope Paulus Quintus the sixth of May 1606. in the fourth indiction. Truly translated out of the Italian coppy, as appeareth in this booke.</title>
-         <author>Venice (Republic : to 1797). Doge (1606-1612 : Donato)</author>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by J. Windet] for Iohn Hardie, dwelling on Saint Peters Hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The English translation is followed by the original Italian text, which has caption title: Leonardo Donato per gratia di Dio Duce di Venetia, &amp;c.</note>
-         <note>Signatures: A&#8308; B&#178; .</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Emmanuel College.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Popes bull gelded or An edict published by the Duke and State of Venice, against the late bull of Pope Paulus Quintus the sixth of May 1606. in the fourth indiction. Truly translated out of the Italian coppy, as appeareth in this booke.</title>
+      <author>Venice (Republic : to 1797). Doge (1606-1612 : Donato)</author>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">J. Windet]</persName> for <persName type="publisher">Iohn Hardie</persName>, dwelling on <placeName>Saint Peters Hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The English translation is followed by the original Italian text, which has caption title: Leonardo Donato per gratia di Dio Duce di Venetia, &amp;c.</note>
+      <note>Signatures: A&#8308; B&#178; .</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Emmanuel College.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Hardie</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Windet]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Saint Peters Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

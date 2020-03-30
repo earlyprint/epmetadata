@@ -1,22 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for prising of wines.</title>
-         <title>Proclamations. 1678-01-12.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill, Christopher Barker, Thomas Newcomb, and Henry Hills, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At foot of title: Given at our Court at Witehall the twelfth day of January 1677/8. In the nine and twentieth year of our reign. God save the King.</note>
-         <note>Imprint date reads 1677/8.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for prising of wines.</title>
+      <title>Proclamations. 1678-01-12.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName>, <persName type="printer">Christopher Barker</persName>, <persName type="printer">Thomas Newcomb</persName>, and <persName type="printer">Henry Hills</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At foot of title: Given at our Court at Witehall the twelfth day of January 1677/8. In the nine and twentieth year of our reign. God save the King.</note>
+      <note>Imprint date reads 1677/8.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

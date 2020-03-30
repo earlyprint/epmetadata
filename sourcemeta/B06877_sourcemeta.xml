@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Brief memorial of the losse of the late incomparable and excellent Andrew Lord Rutherford Earle of Teveot, &amp;c. Killed by an ambuscadoe of Moores, May the 3d. 1664.</title>
-         <author>Rich, Jeremiah, fl. 1664.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (metalcut).  </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Marsh at the Princes Armes in Chancery-Lane,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Jeremiah Rich.</note>
-         <note>With a description of ambush followed by an elegy.</note>
-         <note>Imperfect: stained, affecting ill. and title.</note>
-         <note>Cf. Wing R1340 which has title "Death's envious triumph, in a memorial of ...".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Brief memorial of the losse of the late incomparable and excellent Andrew Lord Rutherford Earle of Teveot, &amp;c. Killed by an ambuscadoe of Moores, May the 3d. 1664.</title>
+      <author>Rich, Jeremiah, fl. 1664.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (metalcut).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Marsh</persName> at <placeName>the Princes Armes in Chancery-Lane</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Jeremiah Rich.</note>
+      <note>With a description of ambush followed by an elegy.</note>
+      <note>Imperfect: stained, affecting ill. and title.</note>
+      <note>Cf. Wing R1340 which has title "Death's envious triumph, in a memorial of ...".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Marsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Princes Armes in Chancery-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

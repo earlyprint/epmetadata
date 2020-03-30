@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Foure bookes of offices enabling privat persons for the speciall seruice of all good princes and policies. Made and deuised by Barnabe Barnes.</title>
-         <author>Barnes, Barnabe, 1569?-1609.</author>
-      </titleStmt>
-      <extent>[20], 210, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by A. Islip] at the charges of George Bishop, T. Adams, and C. Burbie,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from colophon.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproductions of the originals in Cambridge University Library and the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Appears at reel 824 (Cambridge University Library copy) and at reel 1370 (Henry E. Huntington Library and Art Gallery copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Foure bookes of offices enabling privat persons for the speciall seruice of all good princes and policies. Made and deuised by Barnabe Barnes.</title>
+      <author>Barnes, Barnabe, 1569?-1609.</author>
+    </titleStmt>
+    <extent>[20], 210, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">A. Islip]</persName> at <placeName>the charges of George Bishop</placeName>, <placeName>T. Adams</placeName>, and C. Burbie,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from colophon.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproductions of the originals in Cambridge University Library and the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Appears at reel 824 (Cambridge University Library copy) and at reel 1370 (Henry E. Huntington Library and Art Gallery copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Islip]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>T. Adams</placeName>
+    </place>
+    <place type="location">
+      <placeName>the charges of George Bishop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

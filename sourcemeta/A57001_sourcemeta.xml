@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The works of the famous Mr. Francis Rabelais, doctor in physick treating of the lives, heroick deeds, and sayings of Gargantua and his son Pantagruel : to which is newly added the life of the author / written originally in French, and translated into English by Sr. Thomas Urchard.</title>
-         <title>Works. English. 1664</title>
-         <author>Rabelais, Fran&#231;ois, ca. 1490-1553?</author>
-         <author>Urquhart, Thomas, Sir, 1611-1660.</author>
-      </titleStmt>
-      <extent>ca. 520 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R.B., and are to be sold by John Starkey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Gargantua" and "Pantagruel" each have separate t.p., dated 1653, and pagination.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The works of the famous Mr. Francis Rabelais, doctor in physick treating of the lives, heroick deeds, and sayings of Gargantua and his son Pantagruel : to which is newly added the life of the author / written originally in French, and translated into English by Sr. Thomas Urchard.</title>
+      <title>Works. English. 1664</title>
+      <author>Rabelais, Fran&#231;ois, ca. 1490-1553?</author>
+      <author>Urquhart, Thomas, Sir, 1611-1660.</author>
+    </titleStmt>
+    <extent>ca. 520 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R.B.</persName>, and are to be sold by <persName type="bookseller">John Starkey</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Gargantua" and "Pantagruel" each have separate t.p., dated 1653, and pagination.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R.B.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Starkey</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

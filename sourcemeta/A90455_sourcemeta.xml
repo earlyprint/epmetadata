@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The illustrious shepherdess. Dedicated to the Marchioness of Dorchester.</title>
-         <title>Successos y prodigias de amor. Book 5. English</title>
-         <author>P&#233;rez de Montalv&#225;n, Juan, 1602-1638.</author>
-         <author>Phillips, Edward, 1630-1696?</author>
-      </titleStmt>
-      <extent>[16], 90 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for Nath. Brook, at the Angel in Cornhil,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of book 5 of: P&#233;rez de Montalv&#225;n, Juan. Successos y prodigias de amor.</note>
-         <note>Dedication signed: E.P. [i.e. Edward Phillips].</note>
-         <note>Annotation on Thomason copy: The second 6 in the imprint has been crossed out and replaced with a "5".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The illustrious shepherdess. Dedicated to the Marchioness of Dorchester.</title>
+      <title>Successos y prodigias de amor. Book 5. English</title>
+      <author>P&#233;rez de Montalv&#225;n, Juan, 1602-1638.</author>
+      <author>Phillips, Edward, 1630-1696?</author>
+    </titleStmt>
+    <extent>[16], 90 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">Nath. Brook</persName>, at <placeName>the Angel in Cornhil</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of book 5 of: P&#233;rez de Montalv&#225;n, Juan. Successos y prodigias de amor.</note>
+      <note>Dedication signed: E.P. [i.e. Edward Phillips].</note>
+      <note>Annotation on Thomason copy: The second 6 in the imprint has been crossed out and replaced with a "5".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nath. Brook</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Cornhil</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

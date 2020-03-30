@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The meditations of a humble heart written only for Friends, who can read it.</title>
-         <author>Smith, Humphrey, d. 1663.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Wilson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed at end: Humphrey Smith.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The meditations of a humble heart written only for Friends, who can read it.</title>
+      <author>Smith, Humphrey, d. 1663.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Wilson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed at end: Humphrey Smith.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Wilson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

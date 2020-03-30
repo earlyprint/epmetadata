@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of the army soberly discussed.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Written and printed by friends to religion, and well-wishers to the army,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1647">July 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "July 3d".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of the army soberly discussed.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Written and printed by <persName type="printer">friends to religion, and well-wishers to the army</persName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1647">July 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "July 3d".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>friends to religion, and well-wishers to the army</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

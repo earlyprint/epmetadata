@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Spirituall vvhordome discovered in a sermon preach'd before the Honourable House of Commons assembled in Parliament, upon the solemn day of humiliation, May 26. 1647. / By Tho. Case, preacher in Milkstreet, London; and one of the Assembly of Divines.</title>
-         <author>Case, Thomas, 1598-1682.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[8], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock, for Luke Favvne, and are to be sold at his shop, at the sign of the Parrot in Pauls-Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a preliminary order to print.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Spirituall vvhordome discovered in a sermon preach'd before the Honourable House of Commons assembled in Parliament, upon the solemn day of humiliation, May 26. 1647. / By Tho. Case, preacher in Milkstreet, London; and one of the Assembly of Divines.</title>
+      <author>Case, Thomas, 1598-1682.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[8], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName>, for <persName type="publisher">Luke Favvne</persName>, and are to be sold at <placeName>his shop, at the sign of the Parrot in Pauls-Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a preliminary order to print.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Luke Favvne</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the sign of the Parrot in Pauls-Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

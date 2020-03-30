@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The defence of a certayne poore Christen man who els shuldhaue [sic] bene condemned by the Popes lawe. Written in the hye Allmaynes tonge by a right excellent and noble prynce, and tra[n]slated into Englishe by Myles Couerdale.</title>
-         <author>Coverdale, Miles, 1488-1568.</author>
-      </titleStmt>
-      <extent>[80] p.   </extent>
-      <publicationStmt>
-         <publisher>S. Mierdman] And translated owt of douche in to Englishe by Myles Couerdale,</publisher>
-         <pubPlace>[Printed at Nurembergh [i.e. Antwerp :</pubPlace>
-         <date when="1545">In the yeare of our Lorde. M.D.XLV. in the laste of Octobre. [1545]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon; actual place of publication and printer's name from STC.</note>
-         <note>Folger Shakespeare Library Catalogue suggests Richard Pygge as printer.</note>
-         <note>Signatures: A-E.</note>
-         <note>Reproduction of the original in Marsh's Library, Dublin.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The defence of a certayne poore Christen man who els shuldhaue [sic] bene condemned by the Popes lawe. Written in the hye Allmaynes tonge by a right excellent and noble prynce, and tra[n]slated into Englishe by Myles Couerdale.</title>
+      <author>Coverdale, Miles, 1488-1568.</author>
+    </titleStmt>
+    <extent>[80] p.   </extent>
+    <publicationStmt>
+      <publisher>S. Mierdman] And translated owt of douche in <placeName>to Englishe</placeName> by <persName type="printer">Myles Couerdale</persName>,</publisher>
+      <pubPlace>[Printed at Nurembergh [i.e. Antwerp :</pubPlace>
+      <date when="1545">In the yeare of our Lorde. M.D.XLV. in the laste of Octobre. [1545]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon; actual place of publication and printer's name from STC.</note>
+      <note>Folger Shakespeare Library Catalogue suggests Richard Pygge as printer.</note>
+      <note>Signatures: A-E.</note>
+      <note>Reproduction of the original in Marsh's Library, Dublin.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Myles Couerdale</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>to Englishe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

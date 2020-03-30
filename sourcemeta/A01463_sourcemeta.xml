@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of suche true articles as George Ioye hath gone about to confute as false</title>
-         <author>Gardiner, Stephen, 1483?-1555.</author>
-      </titleStmt>
-      <extent>clxxx leaves   </extent>
-      <publicationStmt>
-         <publisher>In Aldersgate strete by Iohannes Herforde, at the costes and charges of Robert Toye, dwellyng in Paules church yarde at the sygne of the Bell],</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1546">1546.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Foreword signed: Steuen Bysshop of wynchester, i.e. Stephen Gardiner.</note>
-         <note>A reply to: Joye, George.  George Joye confuteth, Winchesters false articles.</note>
-         <note>Place of publication and printer's name from colophon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of suche true articles as George Ioye hath gone about to confute as false</title>
+      <author>Gardiner, Stephen, 1483?-1555.</author>
+    </titleStmt>
+    <extent>clxxx leaves   </extent>
+    <publicationStmt>
+      <publisher>In Aldersgate strete by <persName type="printer">Iohannes Herforde</persName>, at <placeName>the costes</placeName> and charges of Robert Toye, dwellyng in <placeName>Paules church yarde at the sygne of the Bell]</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1546">1546.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Foreword signed: Steuen Bysshop of wynchester, i.e. Stephen Gardiner.</note>
+      <note>A reply to: Joye, George.  George Joye confuteth, Winchesters false articles.</note>
+      <note>Place of publication and printer's name from colophon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohannes Herforde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules church yarde at the sygne of the Bell]</placeName>
+    </place>
+    <place type="location">
+      <placeName>the costes</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

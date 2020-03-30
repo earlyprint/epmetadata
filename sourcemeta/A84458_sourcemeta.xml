@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Council of State. The Council of State taking notice of the tumultuous and barbarous actings at the New-Exchange ...</title>
-         <author>England and Wales. Council of State.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills Printer to the Council of State,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1653">[1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint date from Wing.</note>
-         <note>Dated and signed at end: Saturday 10. December 1653. John Thurloe Sec.</note>
-         <note>Annotation on Thomason copy: "Decemb ye 14:".</note>
-         <note>Reproductions of the originals in the British Library (Thomason Tracts) and in the Harvard University Library (Early English Books).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Council of State. The Council of State taking notice of the tumultuous and barbarous actings at the New-Exchange ...</title>
+      <author>England and Wales. Council of State.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> Printer to <persName type="patron">the Council of State</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1653">[1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint date from Wing.</note>
+      <note>Dated and signed at end: Saturday 10. December 1653. John Thurloe Sec.</note>
+      <note>Annotation on Thomason copy: "Decemb ye 14:".</note>
+      <note>Reproductions of the originals in the British Library (Thomason Tracts) and in the Harvard University Library (Early English Books).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="patron">
+      <persName>the Council of State</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

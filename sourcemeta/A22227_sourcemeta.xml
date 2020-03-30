@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation declaring his Maiesties pleasure concerning Captaine Roger North, and those vvho are gone foorth as aduenturers with him</title>
-         <title>Proclamations. 1620-05-15</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>[2] sheets   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, and Iohn Bill, printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1620">Anno Dom. M.DC.XX. [1620]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Dated at end: Greenwich this fifteenth day of May, in the eighteenth yeere of our reigne ..</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation declaring his Maiesties pleasure concerning Captaine Roger North, and those vvho are gone foorth as aduenturers with him</title>
+      <title>Proclamations. 1620-05-15</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>[2] sheets   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1620">Anno Dom. M.DC.XX. [1620]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Dated at end: Greenwich this fifteenth day of May, in the eighteenth yeere of our reigne ..</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

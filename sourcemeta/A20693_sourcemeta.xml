@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The third and last booke of songs or aires Newly composed to sing to the lute, orpharion, or viols, and a dialogue for a base and meane lute with fiue voices to sing thereto. By Iohn Dowland, Bacheler in Musicke, and lutenist to the most high and mightie Christian the fourth by the grace of God king of Denmark and Norwey, &amp;c.</title>
-         <title>Songs or ayres, 3rd book</title>
-         <author>Dowland, John, 1563?-1626.</author>
-      </titleStmt>
-      <extent>[48] p. : music  </extent>
-      <publicationStmt>
-         <publisher>By P. S[hort] for Thomas Adams, and are to be sold at the signe of the white Lion in Paules Churchyard, by the assignement of a patent granted to T. Morley,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-M&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The third and last booke of songs or aires Newly composed to sing to the lute, orpharion, or viols, and a dialogue for a base and meane lute with fiue voices to sing thereto. By Iohn Dowland, Bacheler in Musicke, and lutenist to the most high and mightie Christian the fourth by the grace of God king of Denmark and Norwey, &amp;c.</title>
+      <title>Songs or ayres, 3rd book</title>
+      <author>Dowland, John, 1563?-1626.</author>
+    </titleStmt>
+    <extent>[48] p. : music  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">P. S[hort]</persName> for <persName type="publisher">Thomas Adams</persName>, and are to be sold at <placeName>the signe of the white Lion in Paules Churchyard</placeName>, by the assignement of <persName type="assigns">a patent granted to T. Morley</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-M&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Adams</persName>
+    </person>
+    <person type="printer">
+      <persName>P. S[hort]</persName>
+    </person>
+    <person type="assigns">
+      <persName>a patent granted to T. Morley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the white Lion in Paules Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Diatribae, or, Discourses upon select texts wherein several weighty truths are handled and applyed against the papist and the Socinian / by Henry Bagshaw.</title>
-         <author>Bagshaw, Henry, 1632-1709.</author>
-      </titleStmt>
-      <extent>[5], 186 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.H. for Ric. Chiswell,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Diatribae, or, Discourses upon select texts wherein several weighty truths are handled and applyed against the papist and the Socinian / by Henry Bagshaw.</title>
+      <author>Bagshaw, Henry, 1632-1709.</author>
+    </titleStmt>
+    <extent>[5], 186 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.H.</persName> for <persName type="publisher">Ric. Chiswell</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Chiswell</persName>
+    </person>
+    <person type="printer">
+      <persName>T.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

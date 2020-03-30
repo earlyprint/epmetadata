@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration against a crosse petition: wherein some secret lets of the intended reformation are discovered. The danger of division prevented. And the unity of this iland in religion urged. By the Commissioners of the Generall Assembly.</title>
-         <author>Church of Scotland. General Assembly. Commission.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>First, printed at Edenburgh, and now reprinted at London for I.B. in Cornhill,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1643">1642 [i.e. 1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published: Edenburgh, 1642?.</note>
-         <note>Annotation on Thomason copy: "feb [illegible]".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration against a crosse petition: wherein some secret lets of the intended reformation are discovered. The danger of division prevented. And the unity of this iland in religion urged. By the Commissioners of the Generall Assembly.</title>
+      <author>Church of Scotland. General Assembly. Commission.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>First, printed at <placeName>Edenburgh</placeName>, and now reprinted at <placeName>London</placeName> for <persName type="publisher">I.B.</persName> in <placeName>Cornhill</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1643">1642 [i.e. 1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published: Edenburgh, 1642?.</note>
+      <note>Annotation on Thomason copy: "feb [illegible]".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhill</placeName>
+    </place>
+    <place type="location">
+      <placeName>Edenburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

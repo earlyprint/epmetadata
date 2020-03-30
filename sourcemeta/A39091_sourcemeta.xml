@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Elegy on the death of that learned and famous physician Dr. Richard Lower</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E. Reyner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Elegy on the death of that learned and famous physician Dr. Richard Lower</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E. Reyner</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Reyner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

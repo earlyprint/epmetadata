@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two treatises of Mr. Jeremiah Burroughs. The first of earthly-mindedness, wherein is shewed, 1. What earthly-mindedness is. ... 6. Directions how to get our hearts free from earthly-mindedness. The second treatise. Of conversing in heaven, and walking with God. Wherein is shewed, 1. How the Saints have their conversation in heaven. ... 9. Rules for our walking with God. The fourth volumn [sic] published by Thomas Goodwyn. William Greenhil. Sydrach Simpson. Philip Nye. William Bridge. John Yates. William Adderley.</title>
-         <author>Burroughs, Jeremiah, 1599-1646.</author>
-         <author>Goodwin, Thomas, 1600-1680.</author>
-      </titleStmt>
-      <extent>[20], 72, 75-82, 85-116, 217-339, [13] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Peter Cole, at the Printing-Press in Cornhill, near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Thomas Goodwyn [and 6 others].</note>
-         <note>The words "Thomas Goodwyn. .. Philip Nye." and "William Bridge. .. William Adderley." are bracketed together on title page.</note>
-         <note>Includes indexes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two treatises of Mr. Jeremiah Burroughs. The first of earthly-mindedness, wherein is shewed, 1. What earthly-mindedness is. ... 6. Directions how to get our hearts free from earthly-mindedness. The second treatise. Of conversing in heaven, and walking with God. Wherein is shewed, 1. How the Saints have their conversation in heaven. ... 9. Rules for our walking with God. The fourth volumn [sic] published by Thomas Goodwyn. William Greenhil. Sydrach Simpson. Philip Nye. William Bridge. John Yates. William Adderley.</title>
+      <author>Burroughs, Jeremiah, 1599-1646.</author>
+      <author>Goodwin, Thomas, 1600-1680.</author>
+    </titleStmt>
+    <extent>[20], 72, 75-82, 85-116, 217-339, [13] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Peter Cole</persName>, at <placeName>the Printing-Press in Cornhill, near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Thomas Goodwyn [and 6 others].</note>
+      <note>The words "Thomas Goodwyn. .. Philip Nye." and "William Bridge. .. William Adderley." are bracketed together on title page.</note>
+      <note>Includes indexes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Cole</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Printing-Press in Cornhill, near the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

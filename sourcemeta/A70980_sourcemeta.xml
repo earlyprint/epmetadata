@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation discharging the importing of foreign linnen and woollen cloth, gold and silver thread, &amp;c.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh printed by the heir of Andrew Anderson ..., 1681, and reprinted at London for S.J.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1681">[1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of reprinting suggested by Wing.</note>
-         <note>"Given under our signet at Edinburgh, the first day of March one thousand six hundred eighty and one, and in the three and thirtieth year of our reign."</note>
-         <note>Item at reel 1184:76 identified as Wing C3295 (number cancelled).</note>
-         <note>Reproduction of originals in the Huntington Library and the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation discharging the importing of foreign linnen and woollen cloth, gold and silver thread, &amp;c.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh printed by <persName type="printer">the heir of Andrew Anderson</persName> ..., <persName type="printer">1681</persName>, and reprinted at <placeName>London</placeName> for <persName type="publisher">S.J.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1681">[1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of reprinting suggested by Wing.</note>
+      <note>"Given under our signet at Edinburgh, the first day of March one thousand six hundred eighty and one, and in the three and thirtieth year of our reign."</note>
+      <note>Item at reel 1184:76 identified as Wing C3295 (number cancelled).</note>
+      <note>Reproduction of originals in the Huntington Library and the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S.J.</persName>
+    </person>
+    <person type="printer">
+      <persName>1681</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

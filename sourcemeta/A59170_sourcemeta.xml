@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Medea a tragedie / written in Latine by Lucius Ann&#230;us, Seneca ; Englished by E.S., Esq., with annotations.</title>
-         <title>Medea. English</title>
-         <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
-         <author>Sherburne, Edward, Sir, 1618-1702.</author>
-      </titleStmt>
-      <extent>[9], 112 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's name, Edward Sherburne, given in commendatory verse.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Medea a tragedie / written in Latine by Lucius Ann&#230;us, Seneca ; Englished by E.S., Esq., with annotations.</title>
+      <title>Medea. English</title>
+      <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
+      <author>Sherburne, Edward, Sir, 1618-1702.</author>
+    </titleStmt>
+    <extent>[9], 112 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's name, Edward Sherburne, given in commendatory verse.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

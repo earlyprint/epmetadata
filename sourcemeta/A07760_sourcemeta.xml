@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The anatomie of popish tyrannie wherein is conteyned a plaine declaration and Christian censure, of all the principall parts, of the libels, letters, edictes, pamphlets, and bookes, lately published by the secular-priests and English hispanized Iesuties, with their Iesuited arch-priest; both pleasant and profitable to all well affected readers.</title>
-         <author>Bell, Thomas, fl. 1593-1610.</author>
-      </titleStmt>
-      <extent>[24], 184, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Harison, for Richard Bankworth, dwelling in Paules Churchyard at the signe of the Sunne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Bell.</note>
-         <note>With an index.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The anatomie of popish tyrannie wherein is conteyned a plaine declaration and Christian censure, of all the principall parts, of the libels, letters, edictes, pamphlets, and bookes, lately published by the secular-priests and English hispanized Iesuties, with their Iesuited arch-priest; both pleasant and profitable to all well affected readers.</title>
+      <author>Bell, Thomas, fl. 1593-1610.</author>
+    </titleStmt>
+    <extent>[24], 184, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Harison</persName>, for <persName type="publisher">Richard Bankworth</persName>, dwelling in <placeName>Paules Churchyard at the signe of the Sunne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Bell.</note>
+      <note>With an index.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Bankworth</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Harison</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard at the signe of the Sunne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

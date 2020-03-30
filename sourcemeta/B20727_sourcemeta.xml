@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The keyes of the kingdom of heaven and power thereof according to the word of God / by Mr. Iohn Cotton ...</title>
-         <author>Cotton, John, 1584-1652.</author>
-      </titleStmt>
-      <extent>[12], 59 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Simmons for Henry Overton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by Tho. Goodwin, Philip Nye."</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The keyes of the kingdom of heaven and power thereof according to the word of God / by Mr. Iohn Cotton ...</title>
+      <author>Cotton, John, 1584-1652.</author>
+    </titleStmt>
+    <extent>[12], 59 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Simmons</persName> for <persName type="publisher">Henry Overton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by Tho. Goodwin, Philip Nye."</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Simmons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

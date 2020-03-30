@@ -1,27 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Several sermons and discourses of William Dell Minister of the Gospel; sometimes attending both the generals in the army: and now Master of Gonvil and Caius Colledge in Cambridge. Heretofore published at several times, and on several occasions; and now gathered in one volumn, for the benefit of the faithful, and conviction of the world.</title>
-         <author>Dell, William, d. 1664.</author>
-         <author>Goad, Christopher, 1601-1652.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[20], 243, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. White] for [Hen. Cripps, Lod. Lloyd and] Giles Calvert, at the sign of the Black-Spread-Eagle, at the West-end of Pauls towards Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1652 [i.e. 1651]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface to the reader signed: Christop. Goad.</note>
-         <note>"The right reformation" was preached before the House of Commons on 25 November 1646.</note>
-         <note>"The way of true peace and unity" is dedicated to the House of Commons, General Fairfax and Lieutenant-General Cromwel, and may have been preached before the House of Commons.</note>
-         <note>Contains five sermons, each with a separate title page dated 1651: "Christ's spirit, a Christians strength", with "printed for Hen. Cripps and Lod. Lloyd" in imprint; "Uniformity examined, whether it be found in the Gospel"; "The building, beauty, teaching, and establishment of the truly Christian and spiritual Church"; "Right reformation", with "printed by R. White" in imprint; "The way of true peace and unity in the true Church of Christ". Pagination and register are continuous.</note>
-         <note>Annotation on Thomason copy: "1651. Nou: 10"; the '2' in the imprint date is crossed out.</note>
-         <note>"The way of true peace and unity in the true Church of Christ" identified as Wing D940 on UMI microfilm "Early English books, 1641-1700" reel 1255.</note>
-         <note>Reproduction of the originals in the British Library and the Henry E. Huntington Library and Art Gallery.</note>
-         <note>The entire work appears at reel 99:E.645[4] (British Library, Thomason copy) and the sermon "The way of true peace and unity in the true church of Christ" appears at reel 1255 (Henry E. Huntington Library and Art Gallery copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Several sermons and discourses of William Dell Minister of the Gospel; sometimes attending both the generals in the army: and now Master of Gonvil and Caius Colledge in Cambridge. Heretofore published at several times, and on several occasions; and now gathered in one volumn, for the benefit of the faithful, and conviction of the world.</title>
+      <author>Dell, William, d. 1664.</author>
+      <author>Goad, Christopher, 1601-1652.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[20], 243, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. White]</persName> for <persName type="publisher">[Hen. Cripps</persName>, <persName type="publisher">Lod. Lloyd and] Giles Calvert</persName>, at <placeName>the sign of the Black-Spread-Eagle, at the West-end of Pauls towards Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1652 [i.e. 1651]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface to the reader signed: Christop. Goad.</note>
+      <note>"The right reformation" was preached before the House of Commons on 25 November 1646.</note>
+      <note>"The way of true peace and unity" is dedicated to the House of Commons, General Fairfax and Lieutenant-General Cromwel, and may have been preached before the House of Commons.</note>
+      <note>Contains five sermons, each with a separate title page dated 1651: "Christ's spirit, a Christians strength", with "printed for Hen. Cripps and Lod. Lloyd" in imprint; "Uniformity examined, whether it be found in the Gospel"; "The building, beauty, teaching, and establishment of the truly Christian and spiritual Church"; "Right reformation", with "printed by R. White" in imprint; "The way of true peace and unity in the true Church of Christ". Pagination and register are continuous.</note>
+      <note>Annotation on Thomason copy: "1651. Nou: 10"; the '2' in the imprint date is crossed out.</note>
+      <note>"The way of true peace and unity in the true Church of Christ" identified as Wing D940 on UMI microfilm "Early English books, 1641-1700" reel 1255.</note>
+      <note>Reproduction of the originals in the British Library and the Henry E. Huntington Library and Art Gallery.</note>
+      <note>The entire work appears at reel 99:E.645[4] (British Library, Thomason copy) and the sermon "The way of true peace and unity in the true church of Christ" appears at reel 1255 (Henry E. Huntington Library and Art Gallery copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Lod. Lloyd and] Giles Calvert</persName>
+    </person>
+    <person type="publisher">
+      <persName>[Hen. Cripps</persName>
+    </person>
+    <person type="printer">
+      <persName>R. White]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Black-Spread-Eagle, at the West-end of Pauls towards Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

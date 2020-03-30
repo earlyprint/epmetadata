@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A lytle treatise after the maner of an epystle wryten by the famous clerk Doctor Vrbanus Regius, vnto a specyall frynde of hys wherin he declareth the cause of the great co[n]trouersy that hath bene [and] is yet at this day in the chrysten relygyon and also the dyuersyte betwene the ryght worshyppyng [and] seruice of God and the ceremonis inuented by mannis institucion, very fruteful and profytable.</title>
-         <author>Rhegius, Urbanus, 1489-1541.</author>
-         <author>Holbein, Hans, 1497-1543, artist.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by me [Steven Mierdman for] Gwalter Lynne, dwellyng vpon Somers kaye, by Byllynges gate,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1548">In the yeare of our Lorde God. M.D.Xlviij. [1548]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Original title not found.</note>
-         <note>Actual printer's name from STC; publisher's name and publication date from colophon.</note>
-         <note>With a title-page woodcut signed: Hans Holbein.</note>
-         <note>Signatures: A-C D&#8308;.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A lytle treatise after the maner of an epystle wryten by the famous clerk Doctor Vrbanus Regius, vnto a specyall frynde of hys wherin he declareth the cause of the great co[n]trouersy that hath bene [and] is yet at this day in the chrysten relygyon and also the dyuersyte betwene the ryght worshyppyng [and] seruice of God and the ceremonis inuented by mannis institucion, very fruteful and profytable.</title>
+      <author>Rhegius, Urbanus, 1489-1541.</author>
+      <author>Holbein, Hans, 1497-1543, artist.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">me [Steven Mierdman</persName> for<persName type="publisher">] Gwalter Lynne</persName>, dwellyng vpon <placeName>Somers kaye</placeName>, by <persName type="printer">Byllynges gate</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1548">In the yeare of our Lorde God. M.D.Xlviij. [1548]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Original title not found.</note>
+      <note>Actual printer's name from STC; publisher's name and publication date from colophon.</note>
+      <note>With a title-page woodcut signed: Hans Holbein.</note>
+      <note>Signatures: A-C D&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Gwalter Lynne</persName>
+    </person>
+    <person type="printer">
+      <persName>Byllynges gate</persName>
+    </person>
+    <person type="printer">
+      <persName>me [Steven Mierdman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Somers kaye</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

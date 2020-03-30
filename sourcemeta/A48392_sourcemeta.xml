@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of James commonly called Collonel Turner executed at Lime-street end Ianua[ry] the 21. 1663. for a burglary and fellony committed in the house of Mr. Francis Tryon of Limestreet, Merchant. Licensed and entred.</title>
-         <author>Turner, James, d. 1664.</author>
-      </titleStmt>
-      <extent>[4], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for T.J.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1663">1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the originals at the British Library and the Trinity College Library, Cambridge.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of James commonly called Collonel Turner executed at Lime-street end Ianua[ry] the 21. 1663. for a burglary and fellony committed in the house of Mr. Francis Tryon of Limestreet, Merchant. Licensed and entred.</title>
+      <author>Turner, James, d. 1664.</author>
+    </titleStmt>
+    <extent>[4], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">T.J.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1663">1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the originals at the British Library and the Trinity College Library, Cambridge.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T.J.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

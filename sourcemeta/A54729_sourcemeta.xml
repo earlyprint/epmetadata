@@ -1,29 +1,51 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first book of architecture, by Andrea Palladio. Translated out of Italian: with an appendix touching doors and windows, by Dr Le Muet architect to the French King: translated out of French by G.R. Also rules and demonstrations, with several designs for the framing of any manner of roofs either above pitch or under pitch, whether square or bevel, never published before. With designes of floors of variety of small pieces of wood, lately made in the pallace of the Queen Mother, at Sommerset-House; a curiosity never practiced in England before</title>
-         <title>Quattro libri dell'architettura. English</title>
-         <author>Palladio, Andrea, 1508-1580.</author>
-         <author>Le Muet, Pierre, 1591-1669. Divers traictez d'architecture pour l'art de bien bastir. aut</author>
-         <author>Richards, Godfrey.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition corrected and enlarged.</edition>
-      </editionStmt>
-      <extent>[10], 32, [1], 36-159, [29], 191-198, [19], p. 218, [3], p. 220, [3], p. 226, [3], p. 230, [3], p. 234, [2], 237-239 p., [5] leaves of plates (fold.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by J.M. and sold by G. Richards, at the Golden Ball over against the Exchange, London: and by Sam. Thomson, at the Bishops Head in Duck-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1668">1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated from: Palladio, Andrea.  Quattro libri dell'architettura; and from: Le Muet, Pierre.  Divers traictez d'architecture pour l'art de bien bastir.</note>
-         <note>With an engraved title page.</note>
-         <note>With numerous engraved illustrations.</note>
-         <note>Text appears to be continuous despite pagination.</note>
-         <note>R.G. = Godfrey Richards.</note>
-         <note>Reproduction of the original in the Trinity College (Dublin, Ireland) Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first book of architecture, by Andrea Palladio. Translated out of Italian: with an appendix touching doors and windows, by Dr Le Muet architect to the French King: translated out of French by G.R. Also rules and demonstrations, with several designs for the framing of any manner of roofs either above pitch or under pitch, whether square or bevel, never published before. With designes of floors of variety of small pieces of wood, lately made in the pallace of the Queen Mother, at Sommerset-House; a curiosity never practiced in England before</title>
+      <title>Quattro libri dell'architettura. English</title>
+      <author>Palladio, Andrea, 1508-1580.</author>
+      <author>Le Muet, Pierre, 1591-1669. Divers traictez d'architecture pour l'art de bien bastir. aut</author>
+      <author>Richards, Godfrey.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition corrected and enlarged.</edition>
+    </editionStmt>
+    <extent>[10], 32, [1], 36-159, [29], 191-198, [19], p. 218, [3], p. 220, [3], p. 226, [3], p. 230, [3], p. 234, [2], 237-239 p., [5] leaves of plates (fold.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.M.</persName> and sold by <persName type="bookseller">G. Richards</persName>, at <placeName>the Golden Ball over against the Exchange</placeName>, <placeName>London:</placeName> and by <persName type="bookseller">Sam. Thomson</persName>, at <placeName>the Bishops Head in Duck-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1668">1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated from: Palladio, Andrea.  Quattro libri dell'architettura; and from: Le Muet, Pierre.  Divers traictez d'architecture pour l'art de bien bastir.</note>
+      <note>With an engraved title page.</note>
+      <note>With numerous engraved illustrations.</note>
+      <note>Text appears to be continuous despite pagination.</note>
+      <note>R.G. = Godfrey Richards.</note>
+      <note>Reproduction of the original in the Trinity College (Dublin, Ireland) Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>G. Richards</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Sam. Thomson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London:</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bishops Head in Duck-Lane</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Golden Ball over against the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

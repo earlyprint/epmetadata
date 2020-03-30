@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christians dayly practice; or, A practical discourse of prayer. By Sampson Tounesend, minister of Gods word at Hackford in Whitwell in Norffolke. Imprimatur Edm. Calamy.</title>
-         <author>Townsend, Sampson.</author>
-      </titleStmt>
-      <extent>[48], 124 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.M. for George Calvert, at the signe of the Half-Moon in St. Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1659">[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "nouemb: 1659".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christians dayly practice; or, A practical discourse of prayer. By Sampson Tounesend, minister of Gods word at Hackford in Whitwell in Norffolke. Imprimatur Edm. Calamy.</title>
+      <author>Townsend, Sampson.</author>
+    </titleStmt>
+    <extent>[48], 124 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.M.</persName> for <persName type="publisher">George Calvert</persName>, at <placeName>the signe of the Half-Moon in St. Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1659">[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "nouemb: 1659".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Calvert</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Half-Moon in St. Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

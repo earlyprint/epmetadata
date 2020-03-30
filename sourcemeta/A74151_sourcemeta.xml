@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Protector. A proclamation commanding all persons, who have been of the late Kings party, or his sons, to depart out of the cities of London and Westminster, and late lines of communication on or before Thursday the twelfth day of July instant.</title>
-         <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
-         <author>England and Wales. Council of State.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills and John Field, Printers to His Highness,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1655">MDCLV. [1655]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Given at White-Hall this 6th day of July, 1655.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Protector. A proclamation commanding all persons, who have been of the late Kings party, or his sons, to depart out of the cities of London and Westminster, and late lines of communication on or before Thursday the twelfth day of July instant.</title>
+      <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
+      <author>England and Wales. Council of State.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName>, Printers to <persName type="patron">His Highness</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1655">MDCLV. [1655]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Given at White-Hall this 6th day of July, 1655.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>His Highness</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

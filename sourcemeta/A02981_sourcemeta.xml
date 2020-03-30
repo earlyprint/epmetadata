@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An edict or statute lately set foorth by the French King, concerning the prohibition and punishment of single and priuate combats Published there in the Parlament, Iune 27. 1609. And first printed at Poictiers by Iohn of Marness the Kings printer, 1609. with his Maiesties priuilege or licence. Newly translated out of French.</title>
-         <title>Proclamations. 1609-06-26</title>
-         <author>France. Sovereign (1589-1610 : Henry IV)</author>
-         <author>Henry IV, King of France, 1553-1610.</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Hall for Richard Boyle, and are to be sold at his shop in the Black-Friers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Fountaine-Bleau, in Iune .. one thousand six hundred and nine.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An edict or statute lately set foorth by the French King, concerning the prohibition and punishment of single and priuate combats Published there in the Parlament, Iune 27. 1609. And first printed at Poictiers by Iohn of Marness the Kings printer, 1609. with his Maiesties priuilege or licence. Newly translated out of French.</title>
+      <title>Proclamations. 1609-06-26</title>
+      <author>France. Sovereign (1589-1610 : Henry IV)</author>
+      <author>Henry IV, King of France, 1553-1610.</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Hall</persName> for <persName type="publisher">Richard Boyle</persName>, and are to be sold at <placeName>his shop in the Black-Friers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Fountaine-Bleau, in Iune .. one thousand six hundred and nine.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Boyle</persName>
+    </person>
+    <person type="printer">
+      <persName>William Hall</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Black-Friers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

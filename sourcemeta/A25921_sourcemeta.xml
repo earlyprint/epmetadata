@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Account of the seducing of Ann, the daughter of Edward Ketelbey, of Ludlow, Gent., to the popish religion with some very extraordinary passages relating thereto, particularly of the gross prevarications, and insolent boldness of the two popish bishops, Leyborn and Gifford, in the management of it ...</title>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by J. Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Account of the seducing of Ann, the daughter of Edward Ketelbey, of Ludlow, Gent., to the popish religion with some very extraordinary passages relating thereto, particularly of the gross prevarications, and insolent boldness of the two popish bishops, Leyborn and Gifford, in the management of it ...</title>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">J. Nutt</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Nutt</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

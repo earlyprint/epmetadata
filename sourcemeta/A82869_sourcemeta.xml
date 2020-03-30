@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Mercurii 11 Aug. 1647. The Lords and Commons in Parliament assembled, doe approve of the late action of the officers, souldiers, and inhabitants of the borough of Southwarke, ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for John Wright at the Kings Head in the Old Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Joh. Brown Cler. Parliament.</note>
-         <note>Approving the action of the officers, soldiers, and inhabitants of Southwark in joining the army -- Cf. Steele.</note>
-         <note>Also approving the actions of one Colonell Blunt, as well as the Committee of the Militia of the County of Herts.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Mercurii 11 Aug. 1647. The Lords and Commons in Parliament assembled, doe approve of the late action of the officers, souldiers, and inhabitants of the borough of Southwarke, ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the Old Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Joh. Brown Cler. Parliament.</note>
+      <note>Approving the action of the officers, soldiers, and inhabitants of Southwark in joining the army -- Cf. Steele.</note>
+      <note>Also approving the actions of one Colonell Blunt, as well as the Committee of the Militia of the County of Herts.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

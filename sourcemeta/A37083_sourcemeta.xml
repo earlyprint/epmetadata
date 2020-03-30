@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The reformed librarie-keeper with a supplement to The reformed-school, as subordinate to colleges in universities / by John Durie ; whereunto is added, I. An idea of mathematicks II. The description of one of the chiefest libraries which is in Germanie ...</title>
-         <author>Dury, John, 1596-1680.</author>
-         <author>Hartlib, Samuel, d. 1662.</author>
-         <author>Pell, John, 1611-1685. Idea of mathematicks.</author>
-         <author>Schwartzkopf, Johann, 1596-1659. Bibliotheca augusta ... quae est Wolferbyti.</author>
-      </titleStmt>
-      <extent>[4], 65 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Du-Gard, and are to bee [sic] sold by Rob. Littleberrie ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>English or Latin.</note>
-         <note>"To the reader" signed by the editor: Samuel Hartlib.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>"An idea of mathematicks" written by Mr. Joh. Pell to Samuel Hartlib: p. 33-46.</note>
-         <note>"Bibliotheca augusta ... quae est wolferbyti" by Johann Schwartzkopff: p. [47]-65.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The reformed librarie-keeper with a supplement to The reformed-school, as subordinate to colleges in universities / by John Durie ; whereunto is added, I. An idea of mathematicks II. The description of one of the chiefest libraries which is in Germanie ...</title>
+      <author>Dury, John, 1596-1680.</author>
+      <author>Hartlib, Samuel, d. 1662.</author>
+      <author>Pell, John, 1611-1685. Idea of mathematicks.</author>
+      <author>Schwartzkopf, Johann, 1596-1659. Bibliotheca augusta ... quae est Wolferbyti.</author>
+    </titleStmt>
+    <extent>[4], 65 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Du-Gard</persName>, and are to bee [sic] sold by <persName type="bookseller">Rob. Littleberrie</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>English or Latin.</note>
+      <note>"To the reader" signed by the editor: Samuel Hartlib.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>"An idea of mathematicks" written by Mr. Joh. Pell to Samuel Hartlib: p. 33-46.</note>
+      <note>"Bibliotheca augusta ... quae est wolferbyti" by Johann Schwartzkopff: p. [47]-65.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Du-Gard</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Rob. Littleberrie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

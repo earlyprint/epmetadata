@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The castell of Christians and fortresse of the faithfull beseiged, and defended, now almost sixe thowsand yeares. VVritten by Iohn VVolton, on e of the Cathederal Church in Exetor.</title>
-         <author>Woolton, John, 1535?-1594.</author>
-      </titleStmt>
-      <extent>[206] p.   </extent>
-      <publicationStmt>
-         <publisher>By J. C[harlewood] for Thomas Sturrup; dwellinge in Paules churchyard, at the signe of the George,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1577">Anno 1577]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-N [-N8].</note>
-         <note>Imprint from colophon; printer's name from STC.</note>
-         <note>Title within engraved frame.</note>
-         <note>Leaf K4 torn; print faded and show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The castell of Christians and fortresse of the faithfull beseiged, and defended, now almost sixe thowsand yeares. VVritten by Iohn VVolton, on e of the Cathederal Church in Exetor.</title>
+      <author>Woolton, John, 1535?-1594.</author>
+    </titleStmt>
+    <extent>[206] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">J. C[harlewood]</persName> for <persName type="publisher">Thomas Sturrup;</persName> dwellinge in <placeName>Paules churchyard, at the signe of the George</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1577">Anno 1577]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-N [-N8].</note>
+      <note>Imprint from colophon; printer's name from STC.</note>
+      <note>Title within engraved frame.</note>
+      <note>Leaf K4 torn; print faded and show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Sturrup;</persName>
+    </person>
+    <person type="printer">
+      <persName>J. C[harlewood]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules churchyard, at the signe of the George</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

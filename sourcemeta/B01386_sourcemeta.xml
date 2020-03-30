@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the movements of their Majesties royal fleet, vvith other occurrences. In a letter from Falmouth, July the 6th.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. C. near St. Andrew's Church ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>"Licens'd, July 10. 1691."</note>
-         <note>Reproduction of original in: Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the movements of their Majesties royal fleet, vvith other occurrences. In a letter from Falmouth, July the 6th.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. C.</persName> near <placeName>St. Andrew's Church</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>"Licens'd, July 10. 1691."</note>
+      <note>Reproduction of original in: Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>St. Andrew's Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

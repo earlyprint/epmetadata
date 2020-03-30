@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of wit by David Abercromby ...</title>
-         <author>Abercromby, David, d. 1701 or 2.</author>
-      </titleStmt>
-      <extent>[12], 236 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Weld ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on preliminary p. [12]</note>
-         <note>Imperfect : pages cropped and tightly bound, with slight loss of print.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of wit by David Abercromby ...</title>
+      <author>Abercromby, David, d. 1701 or 2.</author>
+    </titleStmt>
+    <extent>[12], 236 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Weld</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on preliminary p. [12]</note>
+      <note>Imperfect : pages cropped and tightly bound, with slight loss of print.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Weld</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

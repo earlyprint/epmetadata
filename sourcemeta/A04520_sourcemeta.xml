@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first and second part of the troublesome raigne of Iohn King of England With the discouerie of King Richard Cordelions base sonne (vulgarly named, the bastard Fawconbridge:) Also, the death of King Iohn at Swinstead Abbey. As they were (sundry times) lately acted by the Queenes Maiesties Players. Written by W. Sh.</title>
-         <title>Troublesome raigne of John, King of England.</title>
-         <author>Shakespeare, William, 1564-1616, attributed name.</author>
-         <author>Marlowe, Christopher, 1564-1593, attributed name.</author>
-      </titleStmt>
-      <extent>[92] p.   </extent>
-      <publicationStmt>
-         <publisher>By Valentine Simmes for Iohn Helme, and are to be sold at his shop in Saint Dunstons Churchyard in Fleetestreet,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The attribution to Shakespeare is probably spurious; sometimes also attributed to Christopher Marlowe.</note>
-         <note>Signatures: A-L&#8308; M&#178; .</note>
-         <note>The last leaf is blank.</note>
-         <note>Running title reads: The troublesome raigne of King Iohn.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first and second part of the troublesome raigne of Iohn King of England With the discouerie of King Richard Cordelions base sonne (vulgarly named, the bastard Fawconbridge:) Also, the death of King Iohn at Swinstead Abbey. As they were (sundry times) lately acted by the Queenes Maiesties Players. Written by W. Sh.</title>
+      <title>Troublesome raigne of John, King of England.</title>
+      <author>Shakespeare, William, 1564-1616, attributed name.</author>
+      <author>Marlowe, Christopher, 1564-1593, attributed name.</author>
+    </titleStmt>
+    <extent>[92] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Valentine Simmes</persName> for <persName type="publisher">Iohn Helme</persName>, and are to be sold at <placeName>his shop in Saint Dunstons Churchyard in Fleetestreet</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The attribution to Shakespeare is probably spurious; sometimes also attributed to Christopher Marlowe.</note>
+      <note>Signatures: A-L&#8308; M&#178; .</note>
+      <note>The last leaf is blank.</note>
+      <note>Running title reads: The troublesome raigne of King Iohn.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Helme</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Simmes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Saint Dunstons Churchyard in Fleetestreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

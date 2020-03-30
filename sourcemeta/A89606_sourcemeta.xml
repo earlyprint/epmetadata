@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The independency of England endeavored to be maintained by Henry Marten, a member of the Parliament there, against the claim of the Scottish Commissioners, in their late ansvver upon the bills and propostions sent to the King in the Isle of Wight.</title>
-         <author>Marten, Henry, 1602-1680.</author>
-      </titleStmt>
-      <extent>28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Peter Cole, at the Printing-Press in Cornhil, near the Royal-Exchange, and John Sweeting, at the Angel in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Jan: 11th 1647"; the "8" in the imprint has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The independency of England endeavored to be maintained by Henry Marten, a member of the Parliament there, against the claim of the Scottish Commissioners, in their late ansvver upon the bills and propostions sent to the King in the Isle of Wight.</title>
+      <author>Marten, Henry, 1602-1680.</author>
+    </titleStmt>
+    <extent>28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Peter Cole</persName>, at <placeName>the Printing-Press in Cornhil, near the Royal-Exchange</placeName>, and <persName type="publisher">John Sweeting</persName>, at <placeName>the Angel in Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Jan: 11th 1647"; the "8" in the imprint has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Sweeting</persName>
+    </person>
+    <person type="publisher">
+      <persName>Peter Cole</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Printing-Press in Cornhil, near the Royal-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

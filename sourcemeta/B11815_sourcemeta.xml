@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A summary of the Bible vvherein the generall heads of the seuerall bookes thereof are so methodically set downe, as may be a helpe to the vnskilfull reader / by Robert Bruen ...</title>
-         <author>Bruen, Robert.</author>
-      </titleStmt>
-      <extent>[18], 267 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.P. for John Budge, and are to be sold at his shop, at the Greene Dragon in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-L&#185;&#178; M&#185;&#185;.</note>
-         <note>Pages 242 and 243 misnumbered as 240 and 241 respectively.</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A summary of the Bible vvherein the generall heads of the seuerall bookes thereof are so methodically set downe, as may be a helpe to the vnskilfull reader / by Robert Bruen ...</title>
+      <author>Bruen, Robert.</author>
+    </titleStmt>
+    <extent>[18], 267 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.P.</persName> for <persName type="publisher">John Budge</persName>, and are to be sold at <placeName>his shop, at the Greene Dragon in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-L&#185;&#178; M&#185;&#185;.</note>
+      <note>Pages 242 and 243 misnumbered as 240 and 241 respectively.</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Budge</persName>
+    </person>
+    <person type="printer">
+      <persName>G.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the Greene Dragon in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Miscellanea spiritualia: or, Devout essayes: the second part, composed by the honorable Walter Montagu Esq; Abbot of Nanteul, &amp;c.</title>
-         <title>Miscellanea spiritualia. Part 2</title>
-         <author>Montagu, Walter, 1603?-1677.</author>
-      </titleStmt>
-      <extent>[20], 264 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Crook, Gabriel Bedell, and partners; and are to be sold at the Ship in S. Pauls Church-yard, and at the Middle Temple-gate in Fleetstreet,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1653">1654. [i.e. 1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Part 1 was published in 1648.</note>
-         <note>Annotation on Thomason copy: "Octob. 31. 1653"; the 4 in imprint date crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>T.p. in red and black.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Miscellanea spiritualia: or, Devout essayes: the second part, composed by the honorable Walter Montagu Esq; Abbot of Nanteul, &amp;c.</title>
+      <title>Miscellanea spiritualia. Part 2</title>
+      <author>Montagu, Walter, 1603?-1677.</author>
+    </titleStmt>
+    <extent>[20], 264 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Crook</persName>, <persName type="publisher">Gabriel Bedell, and partners;</persName> and are to be sold at <placeName>the Ship in S. Pauls Church-yard</placeName>, and at <placeName>the Middle Temple-gate in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1653">1654. [i.e. 1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Part 1 was published in 1648.</note>
+      <note>Annotation on Thomason copy: "Octob. 31. 1653"; the 4 in imprint date crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>T.p. in red and black.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gabriel Bedell, and partners;</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Crook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Middle Temple-gate in Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Ship in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

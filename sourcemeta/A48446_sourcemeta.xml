@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The temple, especially as it stood in the dayes of Our Saviovr described by John Lightfoote.</title>
-         <author>Lightfoot, John, 1602-1675.</author>
-      </titleStmt>
-      <extent>16, 286, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.C. for Andrew Crook ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. [16].</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The temple, especially as it stood in the dayes of Our Saviovr described by John Lightfoote.</title>
+      <author>Lightfoot, John, 1602-1675.</author>
+    </titleStmt>
+    <extent>16, 286, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.C.</persName> for <persName type="publisher">Andrew Crook</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. [16].</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>R.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

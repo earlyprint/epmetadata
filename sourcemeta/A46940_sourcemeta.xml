@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Praxis medicin&#230; reformata: = or, The practice of physick reformed Being an epitome of the whole art: wherein is briefly shewed, the true causes, signs, prognosticks, and cure, of most diseases. Published for the benefit of all persons. By Robert Johnson, Med. Professor.</title>
-         <author>Johnson, Robert, b. 1640?</author>
-      </titleStmt>
-      <extent>[6], xxii, [4], 203, [1], 204, [1], 205-317, [7] p. : ill. (port)  </extent>
-      <publicationStmt>
-         <publisher>printed for Brabazon Aylmer, at the Three Pigeons, in Cornhil,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With engraved frontispiece.</note>
-         <note>Text is continuous despite pagination.</note>
-         <note>An additional leaf of text numbered 204 on recto appears to be tipped in between leaves O6 and O7.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Praxis medicin&#230; reformata: = or, The practice of physick reformed Being an epitome of the whole art: wherein is briefly shewed, the true causes, signs, prognosticks, and cure, of most diseases. Published for the benefit of all persons. By Robert Johnson, Med. Professor.</title>
+      <author>Johnson, Robert, b. 1640?</author>
+    </titleStmt>
+    <extent>[6], xxii, [4], 203, [1], 204, [1], 205-317, [7] p. : ill. (port)  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Brabazon Aylmer</persName>, at <placeName>the Three Pigeons, in Cornhil</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With engraved frontispiece.</note>
+      <note>Text is continuous despite pagination.</note>
+      <note>An additional leaf of text numbered 204 on recto appears to be tipped in between leaves O6 and O7.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Pigeons, in Cornhil</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

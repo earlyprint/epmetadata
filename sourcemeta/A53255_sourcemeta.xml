@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and particular relation of the late victory obtained by Colonel Horton &amp; Colonel Okey, against the VVelsh forces under Major Generall Langhorn expressed in a letter from Colonel Okey to a friend of his in London.</title>
-         <author>Okey, John, d. 1662.</author>
-      </titleStmt>
-      <extent>6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Matthew Simmons, for Henry Overton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated and signed at end: "From the field by St. Fagons this 8. of May, 1648. John Okey."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true and particular relation of the late victory obtained by Colonel Horton &amp; Colonel Okey, against the VVelsh forces under Major Generall Langhorn expressed in a letter from Colonel Okey to a friend of his in London.</title>
+      <author>Okey, John, d. 1662.</author>
+    </titleStmt>
+    <extent>6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Matthew Simmons</persName>, for <persName type="publisher">Henry Overton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated and signed at end: "From the field by St. Fagons this 8. of May, 1648. John Okey."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>Matthew Simmons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

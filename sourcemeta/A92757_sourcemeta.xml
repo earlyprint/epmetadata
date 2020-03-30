@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Scrinia sacra; secrets of empire, in letters of illustrious persons. A supplement of the Cabala. In which business of the same quality and grandeur is contained: with many famous passages of the late reigns of K. Henry 8. Q. Elizabeth, K. James, and K. Charls.</title>
-         <title>C&#225;bala. Part 2.</title>
-         <author>Bedell, Gabriel, d. 1668.</author>
-         <author>Collins, Thomas, fl. 1650-1682.</author>
-      </titleStmt>
-      <extent>[12], 160, 181-355 [i.e. 255], [9] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for G. Bedel, and T. Collins, and are to be sold at their shop at the Middle-Temple-gate in Fleet-street.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The stationers to the reader" signed: G.B. T.C., i.e. Gabriel Bedell and Thomas Collins.</note>
-         <note>Title page is in red and black.</note>
-         <note>Text continuous despite pagination; page 255 misnumbered 355.</note>
-         <note>Includes index.</note>
-         <note>Also issued as part 2 of "Cabala" (Wing C184) in the same year.</note>
-         <note>Annotation on Thomason copy: "May 12".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Scrinia sacra; secrets of empire, in letters of illustrious persons. A supplement of the Cabala. In which business of the same quality and grandeur is contained: with many famous passages of the late reigns of K. Henry 8. Q. Elizabeth, K. James, and K. Charls.</title>
+      <title>C&#225;bala. Part 2.</title>
+      <author>Bedell, Gabriel, d. 1668.</author>
+      <author>Collins, Thomas, fl. 1650-1682.</author>
+    </titleStmt>
+    <extent>[12], 160, 181-355 [i.e. 255], [9] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">G. Bedel</persName>, and <persName type="publisher">T. Collins</persName>, and are to be sold at <placeName>their shop at the Middle-Temple-gate in Fleet-street.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The stationers to the reader" signed: G.B. T.C., i.e. Gabriel Bedell and Thomas Collins.</note>
+      <note>Title page is in red and black.</note>
+      <note>Text continuous despite pagination; page 255 misnumbered 355.</note>
+      <note>Includes index.</note>
+      <note>Also issued as part 2 of "Cabala" (Wing C184) in the same year.</note>
+      <note>Annotation on Thomason copy: "May 12".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Bedel</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Collins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop at the Middle-Temple-gate in Fleet-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

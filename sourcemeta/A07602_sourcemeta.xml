@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The silkewormes, and their flies: liuely described in verse, by T.M. a countrie farmar, and an apprentice in physicke. For the great benefit and enriching of England</title>
-         <author>Moffett, Thomas, 1553-1604.</author>
-      </titleStmt>
-      <extent>[8], 75, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By V[alentine] S[immes] for Nicholas Ling, and are to be sold at his shop at the west ende of Paules,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.M. = Thomas Moffett.</note>
-         <note>In verse.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank except for signature-mark "A".</note>
-         <note>Running title reads: Of the silke wormes and their flies.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The silkewormes, and their flies: liuely described in verse, by T.M. a countrie farmar, and an apprentice in physicke. For the great benefit and enriching of England</title>
+      <author>Moffett, Thomas, 1553-1604.</author>
+    </titleStmt>
+    <extent>[8], 75, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">V[alentine] S[immes]</persName> for <persName type="publisher">Nicholas Ling</persName>, and are to be sold at <placeName>his shop at the west ende of Paules</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.M. = Thomas Moffett.</note>
+      <note>In verse.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank except for signature-mark "A".</note>
+      <note>Running title reads: Of the silke wormes and their flies.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Ling</persName>
+    </person>
+    <person type="printer">
+      <persName>V[alentine] S[immes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the west ende of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

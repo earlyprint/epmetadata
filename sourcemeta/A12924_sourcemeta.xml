@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposicion of the kinges prerogatiue collected out of the great abridgement of Iustice Fitzherbert and other olde writers of the lawes of Englande by the right woorshipfull sir William Staunford Knight, lately one of the iustices of the Queenes maiesties court of comon pleas: whereunto is annexed the proces to the same prerogatiue appertaining. 1567</title>
-         <author>Staunford, William, Sir, 1509-1558.</author>
-         <author>Fitzherbert, Anthony, Sir, 1470-1538. Graunde abridgement.</author>
-      </titleStmt>
-      <extent>[1], 85 leaves   </extent>
-      <publicationStmt>
-         <publisher>In flete strete within temple Barre at the signe of the hand [and] starre. by Rychard Tottel,</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date when="1567">an. 1567]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposicion of the kinges prerogatiue collected out of the great abridgement of Iustice Fitzherbert and other olde writers of the lawes of Englande by the right woorshipfull sir William Staunford Knight, lately one of the iustices of the Queenes maiesties court of comon pleas: whereunto is annexed the proces to the same prerogatiue appertaining. 1567</title>
+      <author>Staunford, William, Sir, 1509-1558.</author>
+      <author>Fitzherbert, Anthony, Sir, 1470-1538. Graunde abridgement.</author>
+    </titleStmt>
+    <extent>[1], 85 leaves   </extent>
+    <publicationStmt>
+      <publisher>In flete strete within <placeName>temple Barre at the signe of the hand [</placeName>and] starre. by <persName type="printer">Rychard Tottel</persName>,</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date when="1567">an. 1567]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Rychard Tottel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>temple Barre at the signe of the hand [</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

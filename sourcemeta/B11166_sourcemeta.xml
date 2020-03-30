@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A deuout prayer of s. Ambrose, very expedie[n]t for all suche as prepare them selues to saye masse, or receaue ye blessed sacrament of the very body and bloud of Christ. Englished by Thomas Paynell. 1.5.5.5</title>
-         <author>Ambrose, Saint, Bishop of Milan, d. 397.</author>
-         <author>Paynell, Thomas.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>In Paules churcheyarde, at the signe of the holy Goste, by Ihon Cawood, prynter to the Queenes highnes],</publisher>
-         <pubPlace>[Imprynted at London :</pubPlace>
-         <date when="1555">1555.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and printer's name from colophon.</note>
-         <note>Identified as STC 549a in reel guide.</note>
-         <note>Signatures: A B&#8308;.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A deuout prayer of s. Ambrose, very expedie[n]t for all suche as prepare them selues to saye masse, or receaue ye blessed sacrament of the very body and bloud of Christ. Englished by Thomas Paynell. 1.5.5.5</title>
+      <author>Ambrose, Saint, Bishop of Milan, d. 397.</author>
+      <author>Paynell, Thomas.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>In Paules churcheyarde, at <placeName>the signe of the holy Goste</placeName>, by <persName type="printer">Ihon Cawood</persName>, prynter to the Queenes highnes],</publisher>
+      <pubPlace>[Imprynted at London :</pubPlace>
+      <date when="1555">1555.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and printer's name from colophon.</note>
+      <note>Identified as STC 549a in reel guide.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ihon Cawood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the holy Goste</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

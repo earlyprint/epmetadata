@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Platoes cap Cast at this yeare 1604, being leape-yeere.</title>
-         <author>Evesdropper, Adam.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Purfoot] for Ieffrey Chorlton,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Adam Euesdropper.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D&#8308;.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Platoes cap Cast at this yeare 1604, being leape-yeere.</title>
+      <author>Evesdropper, Adam.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Purfoot]</persName> for <persName type="publisher">Ieffrey Chorlton</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Adam Euesdropper.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D&#8308;.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ieffrey Chorlton</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoot]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

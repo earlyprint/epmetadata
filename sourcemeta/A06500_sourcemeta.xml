@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A commentarie vpon the fiftene Psalmes, called Psalmi graduum, that is, Psalmes of degrees faithfully copied out of the lectures of D. Martin Luther ; very frutefull and comfortable for all Christian afflicted consciences to reade ; translated out of Latine into Englishe by Henry Bull.</title>
-         <author>Luther, Martin, 1483-1546.</author>
-         <author>Bull, Henry, d. 1575?</author>
-      </titleStmt>
-      <extent>[8], 223 p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Vautroullier dwelling in the Blacke Friers by Ludgate,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1577">1577.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: John Foxe.</note>
-         <note>"Cum priuilegio."</note>
-         <note>Signatures: A-2F&#8308;.</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A commentarie vpon the fiftene Psalmes, called Psalmi graduum, that is, Psalmes of degrees faithfully copied out of the lectures of D. Martin Luther ; very frutefull and comfortable for all Christian afflicted consciences to reade ; translated out of Latine into Englishe by Henry Bull.</title>
+      <author>Luther, Martin, 1483-1546.</author>
+      <author>Bull, Henry, d. 1575?</author>
+    </titleStmt>
+    <extent>[8], 223 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Vautroullier</persName> dwelling in <placeName>the Blacke Friers</placeName> by <persName type="printer">Ludgate</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1577">1577.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: John Foxe.</note>
+      <note>"Cum priuilegio."</note>
+      <note>Signatures: A-2F&#8308;.</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ludgate</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Vautroullier</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blacke Friers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

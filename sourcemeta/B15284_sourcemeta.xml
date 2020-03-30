@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The epistles of Phalaris, the tyrant of Agrigentum in Sicily. Translated into English by W.D.</title>
-         <title>Epistolae. English</title>
-         <author>Pseudo-Phalaris.</author>
-         <author>W. D., fl. 1634.</author>
-         <author>Phalaris, Tyrant of Agrigentum, 6th cent. B.C., attributed name.</author>
-      </titleStmt>
-      <extent>[12], 227, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Badger, for George Latham, dwelling at the signe of the Bishops-head in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1634">1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Not in fact by Phalaris.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The epistles of Phalaris, the tyrant of Agrigentum in Sicily. Translated into English by W.D.</title>
+      <title>Epistolae. English</title>
+      <author>Pseudo-Phalaris.</author>
+      <author>W. D., fl. 1634.</author>
+      <author>Phalaris, Tyrant of Agrigentum, 6th cent. B.C., attributed name.</author>
+    </titleStmt>
+    <extent>[12], 227, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Badger</persName>, for <persName type="publisher">George Latham</persName>, dwelling at <placeName>the signe of the Bishops-head in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1634">1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not in fact by Phalaris.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Latham</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Badger</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bishops-head in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

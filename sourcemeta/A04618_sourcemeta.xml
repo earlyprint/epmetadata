@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mysterie of Christes natiuitie A sermon preached in the parish church of All-Saints in Dorchester, within the countie of Dorset, the 25. day of December 1613. being Christmas Daye. By William Iones, Master of Arts, and preacher of Gods Word.</title>
-         <author>Jones, William, b. 1581 or 2.</author>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by William Stansby] for Richard Hawkins, and are to be sold at his shop in Chancery-lane, neere Seriants Inne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1614">1614.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D&#8308; E&#178; .</note>
-         <note>Running title reads: The mysterie of Christs natiuitie.</note>
-         <note>Identified as STC 14745 on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mysterie of Christes natiuitie A sermon preached in the parish church of All-Saints in Dorchester, within the countie of Dorset, the 25. day of December 1613. being Christmas Daye. By William Iones, Master of Arts, and preacher of Gods Word.</title>
+      <author>Jones, William, b. 1581 or 2.</author>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">William Stansby]</persName> for <persName type="publisher">Richard Hawkins</persName>, and are to be sold at <placeName>his shop in Chancery-lane, neere Seriants Inne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1614">1614.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D&#8308; E&#178; .</note>
+      <note>Running title reads: The mysterie of Christs natiuitie.</note>
+      <note>Identified as STC 14745 on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Hawkins</persName>
+    </person>
+    <person type="printer">
+      <persName>William Stansby]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Chancery-lane, neere Seriants Inne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

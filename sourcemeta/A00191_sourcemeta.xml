@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Articles to be inquired of the clergie set foorth by the reuerend father in God, Thomas Bishop of Lincoln, in his first visitation for his diocesse, anno Domini 1571.</title>
-         <author>Church of England. Diocese of Lincoln. Bishop (1570-1584 : Cooper)</author>
-         <author>Cooper, Thomas, 1517?-1594.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London in Fleet-streete by Rafe Newbery,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1571">[1571]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A&#8308;.</note>
-         <note>Title within ornamental border.</note>
-         <note>Reproduction of original in the Christ Church (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Articles to be inquired of the clergie set foorth by the reuerend father in God, Thomas Bishop of Lincoln, in his first visitation for his diocesse, anno Domini 1571.</title>
+      <author>Church of England. Diocese of Lincoln. Bishop (1570-1584 : Cooper)</author>
+      <author>Cooper, Thomas, 1517?-1594.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London in Fleet-streete</placeName> by <persName type="printer">Rafe Newbery</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1571">[1571]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8308;.</note>
+      <note>Title within ornamental border.</note>
+      <note>Reproduction of original in the Christ Church (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Rafe Newbery</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fleet-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

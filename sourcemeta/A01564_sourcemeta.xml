@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[The Jest of Sir Gawaine]</title>
-      </titleStmt>
-      <extent>[4+] leaves.   </extent>
-      <publicationStmt>
-         <publisher>Imprynted at London in Fletestrete at the sygne of Saynt Iohan euaugelyst [sic], by me Iohan Butler,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1528" cert="low">[1528?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
-         <note>Imprint from colophon; date of publication suggested by STC (2nd ed.)</note>
-         <note>Imperfect: all but 4 leaves lacking; cropped.</note>
-         <note>Reproduction of original in the Lambeth Palace Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[The Jest of Sir Gawaine]</title>
+    </titleStmt>
+    <extent>[4+] leaves.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted at <placeName>London in Fletestrete at the sygne of Saynt Iohan euaugelyst [sic]</placeName>, by <persName type="printer">me Iohan Butler</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1528" cert="low">[1528?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
+      <note>Imprint from colophon; date of publication suggested by STC (2nd ed.)</note>
+      <note>Imperfect: all but 4 leaves lacking; cropped.</note>
+      <note>Reproduction of original in the Lambeth Palace Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Iohan Butler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fletestrete at the sygne of Saynt Iohan euaugelyst [sic]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

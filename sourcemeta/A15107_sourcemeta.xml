@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Pawles Crosse on Sunday the ninth of December. 1576. by T.W.</title>
-         <author>White, Thomas, ca. 1550-1624.</author>
-      </titleStmt>
-      <extent>[8], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>By [Henry Bynneman for] Francis Coldock,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1578">1578.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.W. = Thomas White.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Running title reads: A godly sermon.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Pawles Crosse on Sunday the ninth of December. 1576. by T.W.</title>
+      <author>White, Thomas, ca. 1550-1624.</author>
+    </titleStmt>
+    <extent>[8], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[Henry Bynneman</persName> for<persName type="publisher">] Francis Coldock</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1578">1578.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.W. = Thomas White.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Running title reads: A godly sermon.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Francis Coldock</persName>
+    </person>
+    <person type="printer">
+      <persName>[Henry Bynneman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

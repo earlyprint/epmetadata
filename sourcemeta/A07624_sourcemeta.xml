@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Christian almanacke Needefull and true for all countryes, persons and times. Faithfully calculated by the course of holy Scripture, not onely for this present yeere 1613, but also for many yeeres to come. Written by J. M.</title>
-         <author>Monipennie, John.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by W. Stansby] for Iohn Budge, and are to be sold at the Great South doore of Pauls, and Britaines Bursse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1612">1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>J. M. = John Monipennie.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#8308; B-C D&#8308;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Christian almanacke Needefull and true for all countryes, persons and times. Faithfully calculated by the course of holy Scripture, not onely for this present yeere 1613, but also for many yeeres to come. Written by J. M.</title>
+      <author>Monipennie, John.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">W. Stansby]</persName> for <persName type="publisher">Iohn Budge</persName>, and are to be sold at <placeName>the Great South doore of Pauls</placeName>, and <persName type="publisher">Britaines Bursse</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1612">1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>J. M. = John Monipennie.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#8308; B-C D&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Britaines Bursse</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Budge</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Great South doore of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

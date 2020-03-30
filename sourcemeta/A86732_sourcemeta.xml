@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble apology of some commonly called Anabaptists, in behalf of themselves and others of the same judgement with them: with their protestation against the late wicked and most horrid treasonable insurrection and rebellion acted in the city of London. Together with an apology formerly presented to the Kings most Excellent Majesty.</title>
-         <author>Kiffin, William, 1616-1701.</author>
-      </titleStmt>
-      <extent>20 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Henry Hills, and are to be sold by Francis Smith, at the sign of the Elephant and Castle without Temple-Bar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on B3v: William Kiffen [and 29 others].</note>
-         <note>The first leaf is blank.</note>
-         <note>Annotation on Thomason copy: "Jan. 28.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble apology of some commonly called Anabaptists, in behalf of themselves and others of the same judgement with them: with their protestation against the late wicked and most horrid treasonable insurrection and rebellion acted in the city of London. Together with an apology formerly presented to the Kings most Excellent Majesty.</title>
+      <author>Kiffin, William, 1616-1701.</author>
+    </titleStmt>
+    <extent>20 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName>, and are to be sold by <persName type="bookseller">Francis Smith</persName>, at <placeName>the sign of the Elephant</placeName> and Castle without Temple-Bar,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on B3v: William Kiffen [and 29 others].</note>
+      <note>The first leaf is blank.</note>
+      <note>Annotation on Thomason copy: "Jan. 28.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Francis Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Elephant</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

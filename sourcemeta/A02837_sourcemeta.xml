@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The equall vvayes of God tending to the rectifying of the crooked wayes of man. The passages whereof are briefly and clearly drawne from the sacred Scriptures. By T.H.</title>
-         <author>Hayne, Thomas, 1582-1645.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Miles Flesher] for Iohn Clarke, and are to be sold at his shop under St Peters Church in Cornehill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.H. = Thomas Hayne.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The equall vvayes of God tending to the rectifying of the crooked wayes of man. The passages whereof are briefly and clearly drawne from the sacred Scriptures. By T.H.</title>
+      <author>Hayne, Thomas, 1582-1645.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Miles Flesher]</persName> for <persName type="publisher">Iohn Clarke</persName>, and are to be sold at <placeName>his shop under St Peters Church in Cornehill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.H. = Thomas Hayne.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Clarke</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop under St Peters Church in Cornehill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

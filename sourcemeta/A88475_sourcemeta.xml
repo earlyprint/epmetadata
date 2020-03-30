@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Major. Forasmuch as notwithstanding divers good acts and ordinancees of Parliament, and the frequent aadmonitions formerly given in this behalf by the present Lord Maior, this predecessors late Lord Maiors of this city, it is observed, that the Lords day, and the days of publike fast, are in these sad times of distraction and calamity much profaned, ...</title>
-         <author>City of London (England). Lord Mayor.</author>
-         <author>Warner, John, Sir, d. 1648.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, Printer to the Honourable City of London,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">[1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Major. Forasmuch as notwithstanding divers good acts and ordinancees of Parliament, and the frequent aadmonitions formerly given in this behalf by the present Lord Maior, this predecessors late Lord Maiors of this city, it is observed, that the Lords day, and the days of publike fast, are in these sad times of distraction and calamity much profaned, ...</title>
+      <author>City of London (England). Lord Mayor.</author>
+      <author>Warner, John, Sir, d. 1648.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, Printer to <persName type="patron">the Honourable City of London</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">[1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honourable City of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

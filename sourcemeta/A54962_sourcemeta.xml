@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Plague checkt, or, Piety will either prevent or alter the property of the plague ... together with sundry other things in a letter written by a friend to sundry of his godly friends ... with respect to the present times ...</title>
-      </titleStmt>
-      <extent>[14], 71 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. for the authors friends,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: C.B., S.H., &amp;c.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Plague checkt, or, Piety will either prevent or alter the property of the plague ... together with sundry other things in a letter written by a friend to sundry of his godly friends ... with respect to the present times ...</title>
+    </titleStmt>
+    <extent>[14], 71 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> for <persName type="publisher">the authors friends</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: C.B., S.H., &amp;c.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the authors friends</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

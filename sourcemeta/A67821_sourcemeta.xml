@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The great advertisement, that a religious life is the best way to present happiness in two sermons preach'd at White-hall, the 1st on Sunday, April the 15th, the 2d on Sunday, Apr. 22, 1694 / by E. Young ...</title>
-         <author>Young, Edward, 1641 or 2-1705.</author>
-      </titleStmt>
-      <extent>62, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Warren for Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by Her Majesties special command"</note>
-         <note>Errata: p. 33.</note>
-         <note>Advertisements: p. [1] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The great advertisement, that a religious life is the best way to present happiness in two sermons preach'd at White-hall, the 1st on Sunday, April the 15th, the 2d on Sunday, Apr. 22, 1694 / by E. Young ...</title>
+      <author>Young, Edward, 1641 or 2-1705.</author>
+    </titleStmt>
+    <extent>62, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Warren</persName> for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by Her Majesties special command"</note>
+      <note>Errata: p. 33.</note>
+      <note>Advertisements: p. [1] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Warren</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

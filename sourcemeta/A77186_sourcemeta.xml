@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rights of the crovvn of England, as it is established by law. / Written in the time of the late King, by Edward Bagshaw Esquire, an apprentice of the common-law.</title>
-         <author>Bagshaw, Edward, d. 1662.</author>
-      </titleStmt>
-      <extent>[16], 126, [10] p. : ill. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for Simon Miller at the Starre in St Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With preliminary and final blank leaves.</note>
-         <note>Signatures K-K3 bear publisher's advertisement.</note>
-         <note>Annotation on Thomason copy: "Sept:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rights of the crovvn of England, as it is established by law. / Written in the time of the late King, by Edward Bagshaw Esquire, an apprentice of the common-law.</title>
+      <author>Bagshaw, Edward, d. 1662.</author>
+    </titleStmt>
+    <extent>[16], 126, [10] p. : ill. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">Simon Miller</persName> at <placeName>the Starre in St Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With preliminary and final blank leaves.</note>
+      <note>Signatures K-K3 bear publisher's advertisement.</note>
+      <note>Annotation on Thomason copy: "Sept:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Miller</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Starre in St Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

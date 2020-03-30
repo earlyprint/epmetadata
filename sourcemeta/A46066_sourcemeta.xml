@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the lord lieutenant and council, a proclamation concerning passes for shipps</title>
-         <author>Ireland. Lord Lieutenant (1672-1677 : Essex)</author>
-         <author>Essex, Arthur Capel, Earl of, 1631-1683.</author>
-      </titleStmt>
-      <extent>[2] leaves.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Benjamin Tooke ... and are to be sold by Joseph Wilde ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1677">1676 [i.e. 1677]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at the council chamber in Dublin the tenth day of January 1676--Leaf [2].</note>
-         <note>Broadside in [2] leaves.</note>
-         <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the lord lieutenant and council, a proclamation concerning passes for shipps</title>
+      <author>Ireland. Lord Lieutenant (1672-1677 : Essex)</author>
+      <author>Essex, Arthur Capel, Earl of, 1631-1683.</author>
+    </titleStmt>
+    <extent>[2] leaves.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Benjamin Tooke</persName> ... and are to be sold by <persName type="bookseller">Joseph Wilde</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1677">1676 [i.e. 1677]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at the council chamber in Dublin the tenth day of January 1676--Leaf [2].</note>
+      <note>Broadside in [2] leaves.</note>
+      <note>Reproduction of original in the Society of Antiquaries Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Joseph Wilde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

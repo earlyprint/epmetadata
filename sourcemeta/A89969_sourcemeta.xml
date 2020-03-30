@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new discoverie of Mr. Jermyns conspiracy. Being the coppie of a letter sent from France from the said Mr. Iermyn, to a nobleman in the North. With divers other passages from Yorke. Published by a true copie.</title>
-         <author>St. Albans, Henry Jermyn, Earl of, ca. 1604-1684.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.F. for D.C.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">Iuly 21. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new discoverie of Mr. Jermyns conspiracy. Being the coppie of a letter sent from France from the said Mr. Iermyn, to a nobleman in the North. With divers other passages from Yorke. Published by a true copie.</title>
+      <author>St. Albans, Henry Jermyn, Earl of, ca. 1604-1684.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.F.</persName> for <persName type="publisher">D.C.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">Iuly 21. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>D.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

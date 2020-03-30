@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The kings-bench cabal, a song. To the tune, hark, hark, I hear the cannons rore</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for J[ames]. Dean, bookseller in Cranborn-street near Newport House in Leicester Fields,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Eternal Whigs that still depends".</note>
-         <note>Bookseller's name from Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The kings-bench cabal, a song. To the tune, hark, hark, I hear the cannons rore</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J[ames]. Dean</persName>, bookseller in <placeName>Cranborn-street near Newport House in Leicester Fields</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Eternal Whigs that still depends".</note>
+      <note>Bookseller's name from Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J[ames]. Dean</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cranborn-street near Newport House in Leicester Fields</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the University of Cambridge in Kings-College Chapel, on the 25th of March, 1689, being the anniversary for commemoration of King Henry VI, the founder by William Fleetwood ...</title>
-         <author>Fleetwood, William, 1656-1723.</author>
-      </titleStmt>
-      <extent>[4], 27 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Hayes ..., for William Graves ...,</publisher>
-         <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Duke University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the University of Cambridge in Kings-College Chapel, on the 25th of March, 1689, being the anniversary for commemoration of King Henry VI, the founder by William Fleetwood ...</title>
+      <author>Fleetwood, William, 1656-1723.</author>
+    </titleStmt>
+    <extent>[4], 27 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Hayes</persName> ..., for <persName type="publisher">William Graves</persName> ...,</publisher>
+      <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Duke University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Graves</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hayes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

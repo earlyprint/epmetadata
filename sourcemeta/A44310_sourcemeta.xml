@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some necessary and important considerations (to be consider'd of by all sorts of people). Taken out of (that late worthy and renowned judge) Sir. Matthew Hale's writings: and therein his own experience of the inward, and invisible guidance of the spirit of God.</title>
-         <title>Contemplations moral and divine. Selections.</title>
-         <author>Hale, Matthew, Sir, 1609-1676.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The ninth edition.</edition>
-      </editionStmt>
-      <extent>15, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John How, in Ram-Head-Inn-Yard, in Fenchurch-street, 1697. And are freely given away by J[ohn]. P[ennyman].,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">[1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Distributor's name from other editions.</note>
-         <note>Extracted from his: 'Contemplations moral and divine'.</note>
-         <note>copy has some print fade and print show-through.</note>
-         <note>Reproduction of the original in the Trinity College Library, Cambridge University.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some necessary and important considerations (to be consider'd of by all sorts of people). Taken out of (that late worthy and renowned judge) Sir. Matthew Hale's writings: and therein his own experience of the inward, and invisible guidance of the spirit of God.</title>
+      <title>Contemplations moral and divine. Selections.</title>
+      <author>Hale, Matthew, Sir, 1609-1676.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The ninth edition.</edition>
+    </editionStmt>
+    <extent>15, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John How</persName>, in <placeName>Ram-Head-Inn-Yard, in Fenchurch-street</placeName>, <placeName>1697. And are freely given away</placeName> by <persName type="printer">J[ohn]. P[ennyman].</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">[1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Distributor's name from other editions.</note>
+      <note>Extracted from his: 'Contemplations moral and divine'.</note>
+      <note>copy has some print fade and print show-through.</note>
+      <note>Reproduction of the original in the Trinity College Library, Cambridge University.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J[ohn]. P[ennyman].</persName>
+    </person>
+    <person type="printer">
+      <persName>John How</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>1697. And are freely given away</placeName>
+    </place>
+    <place type="location">
+      <placeName>Ram-Head-Inn-Yard, in Fenchurch-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

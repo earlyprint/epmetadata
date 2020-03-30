@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe of the Bible drawne first into English po&#235;sy, and then illustrated by apte annotations: togither vvith some other necessary appendices. By Henoch Clapham.</title>
-         <author>Clapham, Henoch.</author>
-      </titleStmt>
-      <extent>237, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Walde-graue, printer to the Kings Maiestie,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date when="1596">1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>At foot of title: Cum priuilegio regio.</note>
-         <note>"The second part of the Bibles brief" has separately dated title page; pagination and register are continuous.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe of the Bible drawne first into English po&#235;sy, and then illustrated by apte annotations: togither vvith some other necessary appendices. By Henoch Clapham.</title>
+      <author>Clapham, Henoch.</author>
+    </titleStmt>
+    <extent>237, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Walde-graue</persName>, printer to <persName type="patron">the Kings Maiestie</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date when="1596">1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>At foot of title: Cum priuilegio regio.</note>
+      <note>"The second part of the Bibles brief" has separately dated title page; pagination and register are continuous.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Walde-graue</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

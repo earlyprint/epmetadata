@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Youth knovv thy selfe</title>
-         <author>Turner, Richard, poet.</author>
-      </titleStmt>
-      <extent>[22] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Augustine Mathevves and Iohn Norton, and are to be sold [by R. Milbourne] at the great south doore of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Turner.</note>
-         <note>In verse.</note>
-         <note>Bookseller's name from STC.</note>
-         <note>Signatures: A-C&#8308; (-C4).</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Youth knovv thy selfe</title>
+      <author>Turner, Richard, poet.</author>
+    </titleStmt>
+    <extent>[22] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Augustine Mathevves</persName> and <persName type="printer">Iohn Norton</persName>, and are to be sold [by <persName type="bookseller">R. Milbourne]</persName> at <placeName>the great south doore of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Turner.</note>
+      <note>In verse.</note>
+      <note>Bookseller's name from STC.</note>
+      <note>Signatures: A-C&#8308; (-C4).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Augustine Mathevves</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Norton</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Milbourne]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the great south doore of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

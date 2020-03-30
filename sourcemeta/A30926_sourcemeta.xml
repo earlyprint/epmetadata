@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Flores intellectuales, or, Select notions, sentences, and observations collected out of several authors, and made publick, especially for the use of young scholars, entring into the ministry / by Matthew Barker ...</title>
-         <author>Barker, Matthew, 1619-1698.</author>
-      </titleStmt>
-      <extent>[6], 145 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Astwood for John Dunton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Flores intellectuales, or, Select notions, sentences, and observations collected out of several authors, and made publick, especially for the use of young scholars, entring into the ministry / by Matthew Barker ...</title>
+      <author>Barker, Matthew, 1619-1698.</author>
+    </titleStmt>
+    <extent>[6], 145 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Astwood</persName> for <persName type="publisher">John Dunton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Dunton</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Astwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

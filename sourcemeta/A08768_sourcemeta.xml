@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Gouldsbrough in Yorke-shire, before the right worshipfull Sir Richard Hutton knight, one of His Maiesties iustices of the Court of Common Pleas</title>
-         <author>Oxley, Robert.</author>
-      </titleStmt>
-      <extent>[4], 23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Haviland for Richard Moore, and are to be sold at his shop in Saint Dunstans Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Robert Oxley.</note>
-         <note>Signatures: A-C&#8308; D&#178;.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Gouldsbrough in Yorke-shire, before the right worshipfull Sir Richard Hutton knight, one of His Maiesties iustices of the Court of Common Pleas</title>
+      <author>Oxley, Robert.</author>
+    </titleStmt>
+    <extent>[4], 23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Haviland</persName> for <persName type="publisher">Richard Moore</persName>, and are to be sold at <placeName>his shop in Saint Dunstans Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Robert Oxley.</note>
+      <note>Signatures: A-C&#8308; D&#178;.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Moore</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Haviland</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Saint Dunstans Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

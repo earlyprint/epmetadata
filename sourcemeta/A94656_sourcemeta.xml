@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Right Honourable, the Lords and Commons in Parliament assembled, the humble petition of the gentry, ministers, free-holders, and other substantiall inhabitants of the county of York.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at York, and reprinted at London for Richard Lownes,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1642">June 8. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the Right Honourable, the Lords and Commons in Parliament assembled, the humble petition of the gentry, ministers, free-holders, and other substantiall inhabitants of the county of York.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>York</placeName>, and reprinted at <placeName>London</placeName> for <persName type="publisher">Richard Lownes</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1642">June 8. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lownes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>York</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

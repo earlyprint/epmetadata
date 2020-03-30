@@ -1,26 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ballance of the sanctuarie shewing hovv vve must behaue our selues when wee see and behold the people of God in miserie and oppression vnder the tyranny of their enemies. Written by William Teelinck, minister of the Word of God at Midlebrough in Zealand.</title>
-         <author>Teellinck, Willem, 1579-1629.</author>
-         <author>Gataker, Thomas, 1574-1654.</author>
-         <author>Harmar, Christopher, attributed name.</author>
-      </titleStmt>
-      <extent>[8], 99, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] D[awson] for William Sheffard, and are to be sold [in the shops of Nathaniel Newbery] at the signe of the Starre vnder St Peters. Church in Corne-hill, and in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's preface signed: Tho: Gataker.</note>
-         <note>Dutch original not traced.</note>
-         <note>Possibly translated by Christopher Harmar.</note>
-         <note>Printer's and bookseller's names from STC and addendum.</note>
-         <note>Running title reads: The ballance of the sanctuary.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Lacks O2. Pages 80-99 from the Folger Shakespeare Library copy filmed at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ballance of the sanctuarie shewing hovv vve must behaue our selues when wee see and behold the people of God in miserie and oppression vnder the tyranny of their enemies. Written by William Teelinck, minister of the Word of God at Midlebrough in Zealand.</title>
+      <author>Teellinck, Willem, 1579-1629.</author>
+      <author>Gataker, Thomas, 1574-1654.</author>
+      <author>Harmar, Christopher, attributed name.</author>
+    </titleStmt>
+    <extent>[8], 99, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] D[awson]</persName> for <persName type="publisher">William Sheffard</persName>, and are to be sold [in <placeName>the shops of Nathaniel Newbery] at the signe of the Starre vnder St Peters. Church in Corne-hill</placeName>, and in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's preface signed: Tho: Gataker.</note>
+      <note>Dutch original not traced.</note>
+      <note>Possibly translated by Christopher Harmar.</note>
+      <note>Printer's and bookseller's names from STC and addendum.</note>
+      <note>Running title reads: The ballance of the sanctuary.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Lacks O2. Pages 80-99 from the Folger Shakespeare Library copy filmed at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheffard</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] D[awson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the shops of Nathaniel Newbery] at the signe of the Starre vnder St Peters. Church in Corne-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

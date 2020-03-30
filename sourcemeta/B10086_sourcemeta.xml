@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The safety of appearing at the day of judgement, in the righteousness of Christ: opened and applied. By Solomon Stoddard ...</title>
-         <author>Stoddard, Solomon, 1643-1729.</author>
-      </titleStmt>
-      <extent>[8], 351 [i.e. 353], [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Samuel Green, for Samuel Phillips.,</publisher>
-         <pubPlace>[Boston :</pubPlace>
-         <date when="1687">1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint suggested by Wing.</note>
-         <note>Error in paging: page numbers 217-218 repeated.</note>
-         <note>Includes: Books to be sold by Samuel Phillips ... (p. [2-3 at end]).</note>
-         <note>Imperfect: t.p. cropped with loss of imprint.</note>
-         <note>Reproduction of original in the Massachusetts Historical Society Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The safety of appearing at the day of judgement, in the righteousness of Christ: opened and applied. By Solomon Stoddard ...</title>
+      <author>Stoddard, Solomon, 1643-1729.</author>
+    </titleStmt>
+    <extent>[8], 351 [i.e. 353], [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Samuel Green</persName>, for <persName type="publisher">Samuel Phillips.</persName>,</publisher>
+      <pubPlace>[Boston :</pubPlace>
+      <date when="1687">1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint suggested by Wing.</note>
+      <note>Error in paging: page numbers 217-218 repeated.</note>
+      <note>Includes: Books to be sold by Samuel Phillips ... (p. [2-3 at end]).</note>
+      <note>Imperfect: t.p. cropped with loss of imprint.</note>
+      <note>Reproduction of original in the Massachusetts Historical Society Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Phillips.</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Green</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

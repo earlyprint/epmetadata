@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of the holy vvarre; by Thomas Fuller, B.D. prebendarie of Sarum, late of Sidney Colledge in Cambridge</title>
-         <author>Fuller, Thomas, 1608-1661.</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-      </titleStmt>
-      <extent>[18], 286, [30] p., folded plate : map  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Buck, one of the printers to the Universitie of Cambridge [, and sold by John Williams, London],</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an additional title page, engraved, with "sold by Iohn Williams at ye Crane in St. P. Church-yard" in imprint.</note>
-         <note>The first leaf bears "A declaration of the frontispice" signed: J.C., i.e. John Cleveland.</note>
-         <note>The engraved title page and map are signed by William Marshall.</note>
-         <note>The last 14 leaves contain a chronological table and an index.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of the holy vvarre; by Thomas Fuller, B.D. prebendarie of Sarum, late of Sidney Colledge in Cambridge</title>
+      <author>Fuller, Thomas, 1608-1661.</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+    </titleStmt>
+    <extent>[18], 286, [30] p., folded plate : map  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Buck, one of the printers to the Universitie of Cambridge [</persName>, and sold by <persName type="bookseller">John Williams</persName>, <persName type="bookseller">London]</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an additional title page, engraved, with "sold by Iohn Williams at ye Crane in St. P. Church-yard" in imprint.</note>
+      <note>The first leaf bears "A declaration of the frontispice" signed: J.C., i.e. John Cleveland.</note>
+      <note>The engraved title page and map are signed by William Marshall.</note>
+      <note>The last 14 leaves contain a chronological table and an index.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Buck, one of the printers to the Universitie of Cambridge [</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Williams</persName>
+    </person>
+    <person type="bookseller">
+      <persName>London]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

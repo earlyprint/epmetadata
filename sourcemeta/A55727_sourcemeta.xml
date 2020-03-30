@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tandem bona causa triumphet, or, Scotlands late misery bewailed, and the honour and loyalty of this ancient kingdom, asserted in a sermon preached before His Majesties High Commissioner, and the Honourable Parliament of the kingdom of Scotland, at Edinburgh the 17 day of February, 1661 / by Mr. John Paterson, Minister of the Gospel at Aberdene.</title>
-         <author>Paterson, John, 1604?-1679.</author>
-         <author>Paradise, John.</author>
-      </titleStmt>
-      <extent>[6], 21 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Edinburgh, and reprinted at London for James Thrale,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing attributes this edition of the text to John Paradise; the edition of 1681 (probably the original), he assigns to John Paterson.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tandem bona causa triumphet, or, Scotlands late misery bewailed, and the honour and loyalty of this ancient kingdom, asserted in a sermon preached before His Majesties High Commissioner, and the Honourable Parliament of the kingdom of Scotland, at Edinburgh the 17 day of February, 1661 / by Mr. John Paterson, Minister of the Gospel at Aberdene.</title>
+      <author>Paterson, John, 1604?-1679.</author>
+      <author>Paradise, John.</author>
+    </titleStmt>
+    <extent>[6], 21 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Edinburgh</placeName>, and reprinted at <placeName>London</placeName> for <persName type="publisher">James Thrale</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing attributes this edition of the text to John Paradise; the edition of 1681 (probably the original), he assigns to John Paterson.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Thrale</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

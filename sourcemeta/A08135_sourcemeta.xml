@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epytaphe, of the godlye constau[n]t, [and] counfortable co[n]fessor mystres (Darothye [sic] Wynnes) whiche slepte in Christ the yere of grace. M.D.LX. Made by, Frances Newport</title>
-         <author>Newport, Frances.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>By Owen Rogers dwelling betwene both Saynt Bartelmews, at the Spread Eagle,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1560">[1560]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
-         <note>Formerly also STC 10386 and 18500.</note>
-         <note>Identified as STC 10386 (fragment of 18499) on UMI microfilm reel 1545 and as STC 18500 on reel 1550.</note>
-         <note>Imperfect; torn affecting text.</note>
-         <note>Reproductions of the originals in the Bodleian Library.</note>
-         <note>Signatures: A.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epytaphe, of the godlye constau[n]t, [and] counfortable co[n]fessor mystres (Darothye [sic] Wynnes) whiche slepte in Christ the yere of grace. M.D.LX. Made by, Frances Newport</title>
+      <author>Newport, Frances.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Owen Rogers</persName> dwelling betwene both Saynt Bartelmews, at <placeName>the Spread Eagle</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1560">[1560]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+      <note>Formerly also STC 10386 and 18500.</note>
+      <note>Identified as STC 10386 (fragment of 18499) on UMI microfilm reel 1545 and as STC 18500 on reel 1550.</note>
+      <note>Imperfect; torn affecting text.</note>
+      <note>Reproductions of the originals in the Bodleian Library.</note>
+      <note>Signatures: A.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Owen Rogers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Spread Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

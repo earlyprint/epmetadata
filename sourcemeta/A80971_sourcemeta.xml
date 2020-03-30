@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An off-spring of mercy, issuing out of the womb of cruelty. or, A passion sermon preached at Christs-Church in Oxford, by that late renowned ornament of the University, William Carwright.</title>
-         <author>Cartwright, William, 1611-1643.</author>
-      </titleStmt>
-      <extent>[6], 31, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. and are to be sold by Iohn Brown at the guilded Acorn in Pauls-Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A passion sermon.</note>
-         <note>Annotation on Thomason copy: "July. 15.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An off-spring of mercy, issuing out of the womb of cruelty. or, A passion sermon preached at Christs-Church in Oxford, by that late renowned ornament of the University, William Carwright.</title>
+      <author>Cartwright, William, 1611-1643.</author>
+    </titleStmt>
+    <extent>[6], 31, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> and are to be sold by <persName type="bookseller">Iohn Brown</persName> at <placeName>the guilded Acorn in Pauls-Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A passion sermon.</note>
+      <note>Annotation on Thomason copy: "July. 15.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Brown</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the guilded Acorn in Pauls-Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

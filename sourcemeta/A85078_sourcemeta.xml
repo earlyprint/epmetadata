@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The faithful young man &amp; constant maid; or, The unexpressable love between sweet William and fair Elenor To the tune of, The plowman's health. This may be printed. R.P.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed for J[ohn]. Back at the Black Boy near the Draw-Bridge on London-Bridge,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1686" cert="low">[1686?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "We will leave all the thoughts of the world for a while".</note>
-         <note>Wing CD-ROM, 1996 gives range of dates: 1685-1688. Place of publication and publisher's name from Wing CD.</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The faithful young man &amp; constant maid; or, The unexpressable love between sweet William and fair Elenor To the tune of, The plowman's health. This may be printed. R.P.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J[ohn]. Back</persName> at <placeName>the Black Boy near the Draw-Bridge on London-Bridge</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1686" cert="low">[1686?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "We will leave all the thoughts of the world for a while".</note>
+      <note>Wing CD-ROM, 1996 gives range of dates: 1685-1688. Place of publication and publisher's name from Wing CD.</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J[ohn]. Back</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Boy near the Draw-Bridge on London-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

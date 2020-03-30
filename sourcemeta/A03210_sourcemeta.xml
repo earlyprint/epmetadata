@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Susanna Compiled according to the Prophet Daniel, amplified with convenient meditations; sung by the devoted honourer of the divine muses, George Ballard.</title>
-         <author>Ballard, George, writer of verse.</author>
-      </titleStmt>
-      <extent>[152] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper for William Hope, at the Vnicorne in Cornhill neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1638">1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>First leaf blank?.</note>
-         <note>Signatures: pi&#178;  A-I K&#178; .</note>
-         <note>Print show-through; affects readability of text.</note>
-         <note>Reproduction of the original in the British Library. ent/ful.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Susanna Compiled according to the Prophet Daniel, amplified with convenient meditations; sung by the devoted honourer of the divine muses, George Ballard.</title>
+      <author>Ballard, George, writer of verse.</author>
+    </titleStmt>
+    <extent>[152] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName> for <persName type="publisher">William Hope</persName>, at <placeName>the Vnicorne in Cornhill neere the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1638">1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>First leaf blank?.</note>
+      <note>Signatures: pi&#178;  A-I K&#178; .</note>
+      <note>Print show-through; affects readability of text.</note>
+      <note>Reproduction of the original in the British Library. ent/ful.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Hope</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Vnicorne in Cornhill neere the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

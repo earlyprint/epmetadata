@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The garland of a greene vvitte Discouering the constancie of Calipolis. A precious spectacle for wanton wiues, fit to be read of all sorts, if oportunitie serue. Profitable to some, and pleasant to all saue the enuious. By R. Turnar.</title>
-         <author>Turner, Richard, poet.</author>
-      </titleStmt>
-      <extent>[38] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by J. Roberts] for William Kirkham, and are to be solde at the little north doore of S. Paules Church, at the signe of the black Boy,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1595" cert="low">[1595?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Printer's name supplied and publication date conjectured by STC.</note>
-         <note>Signatures: A-E&#8308; (-E4).</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The garland of a greene vvitte Discouering the constancie of Calipolis. A precious spectacle for wanton wiues, fit to be read of all sorts, if oportunitie serue. Profitable to some, and pleasant to all saue the enuious. By R. Turnar.</title>
+      <author>Turner, Richard, poet.</author>
+    </titleStmt>
+    <extent>[38] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">J. Roberts]</persName> for <persName type="publisher">William Kirkham</persName>, and are to be solde at <placeName>the little north doore of S. Paules Church, at the signe of the black Boy</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1595" cert="low">[1595?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Printer's name supplied and publication date conjectured by STC.</note>
+      <note>Signatures: A-E&#8308; (-E4).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Kirkham</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Roberts]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the little north doore of S. Paules Church, at the signe of the black Boy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

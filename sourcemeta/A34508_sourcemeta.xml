@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Copy of the articles for the surender of the city of Yorke, July the 16, 1644</title>
-         <author>Glemham, Thomas, Sir, d. 1649.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.B. for Robert Bostock and Samuell Gellibrand,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Tho. Glenham.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Copy of the articles for the surender of the city of Yorke, July the 16, 1644</title>
+      <author>Glemham, Thomas, Sir, d. 1649.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.B.</persName> for <persName type="publisher">Robert Bostock</persName> and <persName type="publisher">Samuell Gellibrand</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Tho. Glenham.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuell Gellibrand</persName>
+    </person>
+    <person type="printer">
+      <persName>G.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

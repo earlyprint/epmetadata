@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegie on the never to be forgotten Sir Thomas Armstrong Knight; executed for conspiring the death of his most sacred Majesty, and royal brother, June 20. 1684. With some satyrical reflections on the whole faction.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by the heir of Andrew Anderson, printer to his most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1684">Anno Dom. 1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Text printed in two columns within black mourning borders.</note>
-         <note>Imperfect: blurred print with slight loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegie on the never to be forgotten Sir Thomas Armstrong Knight; executed for conspiring the death of his most sacred Majesty, and royal brother, June 20. 1684. With some satyrical reflections on the whole faction.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1684">Anno Dom. 1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Text printed in two columns within black mourning borders.</note>
+      <note>Imperfect: blurred print with slight loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

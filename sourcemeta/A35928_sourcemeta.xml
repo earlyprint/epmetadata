@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Diana's darling, or, The modish courtier ... to an excellent new tune much in request called Diana's a nymph.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Conyers ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1675" cert="low">[ca. 1675]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"With allowance"</note>
-         <note>Place and date of publication from BM.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Diana's darling, or, The modish courtier ... to an excellent new tune much in request called Diana's a nymph.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Conyers</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1675" cert="low">[ca. 1675]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"With allowance"</note>
+      <note>Place and date of publication from BM.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Conyers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

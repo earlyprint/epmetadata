@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Scots figgaries, or, A knot of knaves a comedy.</title>
-         <author>Tatham, John, fl. 1632-1664.</author>
-      </titleStmt>
-      <extent>[4], 52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.H. for Iohn Tey ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Jo. Tatham.</note>
-         <note>First ed.? with "new" printed in roman letters in the imprint. One of two editions published in the same year. Cf. BM.</note>
-         <note>Reproduction of original in Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Scots figgaries, or, A knot of knaves a comedy.</title>
+      <author>Tatham, John, fl. 1632-1664.</author>
+    </titleStmt>
+    <extent>[4], 52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.H.</persName> for <persName type="publisher">Iohn Tey</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Jo. Tatham.</note>
+      <note>First ed.? with "new" printed in roman letters in the imprint. One of two editions published in the same year. Cf. BM.</note>
+      <note>Reproduction of original in Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Tey</persName>
+    </person>
+    <person type="printer">
+      <persName>W.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

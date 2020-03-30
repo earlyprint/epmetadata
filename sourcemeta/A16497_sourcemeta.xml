@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>God and man. Or, a treatise catechisticall wherein the sauing knowledge of God and man is plainely, and breifely declared, whereby such as are ignorant may be helped, to heare sermons with profit, to reade the Bible or other bookes with iudgement, to receiue the Lords Supper with comfort, to discerne betweene truth and error, with vnderstanding, and to giue an answere to their minister, or any other that shall aske them a reason of their faith, with readinesse. Collected out of the sacred Scriptures, and the most orthodoxe and best approued diuines ancient and moderne, for the good of such as desire to be made wise to saluation, and heires of eternall life. By I.B. preacher of the Word.</title>
-         <author>Boughton, John, preacher of the word.</author>
-      </titleStmt>
-      <extent>[6], 185, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by N[icholas] O[kes] for Samuel Man, and are to be sold at his shop in Paules Church-yard, at the signe of the Swanne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>I.B. = John Boughton.</note>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A-M [N]&#185;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>God and man. Or, a treatise catechisticall wherein the sauing knowledge of God and man is plainely, and breifely declared, whereby such as are ignorant may be helped, to heare sermons with profit, to reade the Bible or other bookes with iudgement, to receiue the Lords Supper with comfort, to discerne betweene truth and error, with vnderstanding, and to giue an answere to their minister, or any other that shall aske them a reason of their faith, with readinesse. Collected out of the sacred Scriptures, and the most orthodoxe and best approued diuines ancient and moderne, for the good of such as desire to be made wise to saluation, and heires of eternall life. By I.B. preacher of the Word.</title>
+      <author>Boughton, John, preacher of the word.</author>
+    </titleStmt>
+    <extent>[6], 185, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">N[icholas] O[kes]</persName> for <persName type="publisher">Samuel Man</persName>, and are to be sold at <placeName>his shop in Paules Church-yard, at the signe of the Swanne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>I.B. = John Boughton.</note>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A-M [N]&#185;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="printer">
+      <persName>N[icholas] O[kes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard, at the signe of the Swanne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

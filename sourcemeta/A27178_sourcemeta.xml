@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fifty comedies and tragedies written by Francis Beaumont and John Fletcher, Gentlemen ; all in one volume, published by the authors original copies, the songs to each play being added.</title>
-         <title>Plays. Selections</title>
-         <author>Beaumont, Francis, 1584-1616.</author>
-         <author>Fletcher, John, 1579-1625.</author>
-      </titleStmt>
-      <extent>[10], 578 [i.e. 580], 557 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock, for John Martyn, Henry Herringman, Richard Marriot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The second folio; contains seventeen plays not in the first folio, 1647.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fifty comedies and tragedies written by Francis Beaumont and John Fletcher, Gentlemen ; all in one volume, published by the authors original copies, the songs to each play being added.</title>
+      <title>Plays. Selections</title>
+      <author>Beaumont, Francis, 1584-1616.</author>
+      <author>Fletcher, John, 1579-1625.</author>
+    </titleStmt>
+    <extent>[10], 578 [i.e. 580], 557 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName>, for <persName type="publisher">John Martyn</persName>, <persName type="publisher">Henry Herringman</persName>, <persName type="publisher">Richard Marriot</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The second folio; contains seventeen plays not in the first folio, 1647.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Martyn</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Marriot</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

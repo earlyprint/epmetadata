@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for continuance of a former Act for setling the militia of this Common-vvealth&#183;</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Husband and John Field, Printers to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1650 [i.e. 1651]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print dated: Die Martis, 28 Januarii, 1650. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>With Parliamentary seal at head of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for continuance of a former Act for setling the militia of this Common-vvealth&#183;</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">John Field</persName>, Printers to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1650 [i.e. 1651]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print dated: Die Martis, 28 Januarii, 1650. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>With Parliamentary seal at head of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The battell of Alcazar fought in Barbarie, betweene Sebastian king of Portugall, and Abdelmelec king of Marocco. With the death of Captaine Stukeley. As it was sundrie times plaid by the Lord high Admirall his seruants.</title>
-         <author>Peele, George, 1556-1596.</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>By Edward Allde for Richard Bankworth, and are to be solde at his shoppe in Pouls Churchyard at the signe of the Sunne,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1594">1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By George Peele.</note>
-         <note>Signatures: A-E F&#8308;.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The battell of Alcazar fought in Barbarie, betweene Sebastian king of Portugall, and Abdelmelec king of Marocco. With the death of Captaine Stukeley. As it was sundrie times plaid by the Lord high Admirall his seruants.</title>
+      <author>Peele, George, 1556-1596.</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Edward Allde</persName> for <persName type="publisher">Richard Bankworth</persName>, and are to be solde at <placeName>his shoppe in Pouls Churchyard at the signe of the Sunne</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1594">1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By George Peele.</note>
+      <note>Signatures: A-E F&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Bankworth</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe in Pouls Churchyard at the signe of the Sunne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The dodechedron of fortune; or, The exercise of a quick wit A booke so rarely and strangely composed, that it giueth (after a most admirable manner) a pleasant and ingenious answer to euery demaund; the like whereof hath not heretofore beene published in our English tongue. Being first composed in French by Iohn de Meum, one of the most worthie and famous poets of his time; and dedicated to the French King, Charles the fift, and by him, for the worth and raritie thereof, verie much countenanced, vsed, and priuiledged: and now, for the content of our countrey-men, Englished by Sr. W.B. Knight. The vse of the booke the preface annexed declareth.</title>
-         <title>Plaisant jeu du dodechedron de fortune. English</title>
-         <author>Jean, de Meun, d. 1305?</author>
-         <author>B., W., Sir.</author>
-      </titleStmt>
-      <extent>[26], 144 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Pindley, for H. H[ooper] and S. M[an] and are to be sold at his shop in Paules Church-yard, at the signe of the Ball,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1613">1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>A translation of: Le plaisant jeu du dodechedron de fortune.</note>
-         <note>Another state (STC 17847.2) lacks Hooper's initials in the imprint.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The dodechedron of fortune; or, The exercise of a quick wit A booke so rarely and strangely composed, that it giueth (after a most admirable manner) a pleasant and ingenious answer to euery demaund; the like whereof hath not heretofore beene published in our English tongue. Being first composed in French by Iohn de Meum, one of the most worthie and famous poets of his time; and dedicated to the French King, Charles the fift, and by him, for the worth and raritie thereof, verie much countenanced, vsed, and priuiledged: and now, for the content of our countrey-men, Englished by Sr. W.B. Knight. The vse of the booke the preface annexed declareth.</title>
+      <title>Plaisant jeu du dodechedron de fortune. English</title>
+      <author>Jean, de Meun, d. 1305?</author>
+      <author>B., W., Sir.</author>
+    </titleStmt>
+    <extent>[26], 144 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Pindley</persName>, for <persName type="publisher">H. H[ooper]</persName> and <persName type="publisher">S. M[an]</persName> and are to be sold at <placeName>his shop in Paules Church-yard, at the signe of the Ball</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1613">1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>A translation of: Le plaisant jeu du dodechedron de fortune.</note>
+      <note>Another state (STC 17847.2) lacks Hooper's initials in the imprint.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. H[ooper]</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. M[an]</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Pindley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard, at the signe of the Ball</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

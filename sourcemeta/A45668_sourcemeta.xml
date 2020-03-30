@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Idea longitudinis being a brief definition of the best known axioms for finding the longitude, or a more rational discovery thereof, than hath been heretofore published / by Edward Harrison ...</title>
-         <author>Harrison, Edward.</author>
-      </titleStmt>
-      <extent>[16], 83 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and sold by Mr. Sellers ..., R. Mount ..., and P. Led ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. 83.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Idea longitudinis being a brief definition of the best known axioms for finding the longitude, or a more rational discovery thereof, than hath been heretofore published / by Edward Harrison ...</title>
+      <author>Harrison, Edward.</author>
+    </titleStmt>
+    <extent>[16], 83 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and sold by <persName type="bookseller">Mr. Sellers</persName> ..., <persName type="bookseller">R. Mount</persName> ..., and <persName type="publisher">P. Led</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. 83.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Led</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mr. Sellers</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Mount</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

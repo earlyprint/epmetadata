@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Elegies on the death of that worthy and accomplish't gentleman Colonell John Hampden, Esquire. Entred into the Hall book according to order.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Luke Norton for I.T.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1643">October 16, 1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Elegies on the death of that worthy and accomplish't gentleman Colonell John Hampden, Esquire. Entred into the Hall book according to order.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Luke Norton</persName> for <persName type="publisher">I.T.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1643">October 16, 1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I.T.</persName>
+    </person>
+    <person type="printer">
+      <persName>Luke Norton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Essay of a new version of the Psalms of David consisting of the first twenty : fitted to the tunes used in churches.</title>
-      </titleStmt>
-      <extent>[2], 59 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the Company of Stationers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Essay of a new version of the Psalms of David consisting of the first twenty : fitted to the tunes used in churches.</title>
+    </titleStmt>
+    <extent>[2], 59 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the Company of Stationers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Company of Stationers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

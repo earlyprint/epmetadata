@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A copy of the petition of the Divines of the Assembly, delivered to both Houses of Parliament, Iuly 19, 1643. Together, with the Houses answer to the said petition. This is entred according to order, Henery Walley.</title>
-         <author>Westminster Assembly</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Christopher Meredith, at the signe of the Crane in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1643">M.DC.XLIII. [1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Annotation on Thomason copy: "August 4th".</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A copy of the petition of the Divines of the Assembly, delivered to both Houses of Parliament, Iuly 19, 1643. Together, with the Houses answer to the said petition. This is entred according to order, Henery Walley.</title>
+      <author>Westminster Assembly</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Christopher Meredith</persName>, at <placeName>the signe of the Crane in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1643">M.DC.XLIII. [1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Annotation on Thomason copy: "August 4th".</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crane in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

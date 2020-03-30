@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new prognostication for the year of our blessed Lord 1677 Being the first after leap-year. Containing the moveable feasts: the eclipses the four quarters of the year: the changes of the moon, with the disposition of the weather. The dismal dayes. And the whole known fairs of Scotland. With other observations. Serving most fitly for the most part of the Kingdom of Scotland, but more especially for our city of Glasgow, where the pole is elevated 55. deg. 55. min. At Aberdene, by an expert mathematician.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>by Robert Sanders, printer to the ci[ty and] University, and are to be sold in his shop,</publisher>
-         <pubPlace>Glasgow :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new prognostication for the year of our blessed Lord 1677 Being the first after leap-year. Containing the moveable feasts: the eclipses the four quarters of the year: the changes of the moon, with the disposition of the weather. The dismal dayes. And the whole known fairs of Scotland. With other observations. Serving most fitly for the most part of the Kingdom of Scotland, but more especially for our city of Glasgow, where the pole is elevated 55. deg. 55. min. At Aberdene, by an expert mathematician.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Robert Sanders</persName>, printer to <persName type="patron">the ci[ty and] University</persName>, and are to be sold in <placeName>his shop</placeName>,</publisher>
+      <pubPlace>Glasgow :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Sanders</persName>
+    </person>
+    <person type="patron">
+      <persName>the ci[ty and] University</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

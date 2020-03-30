@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hell in an uproar occasioned by a scuffle that happened between the lawyers and the physicians, for superiority. A satyr.</title>
-         <author>Burridge, Richard, b. 1670.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for S. Cook, and are to be sold by most booksellers in London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">MDCC. [1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Burridge--Wing (CD-ROM edition).</note>
-         <note>Satire on a scuffle between lawyers and physicians for superiority.</note>
-         <note>In verse.</note>
-         <note>Reproduction of original in the William Andrews Clark Memorial Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hell in an uproar occasioned by a scuffle that happened between the lawyers and the physicians, for superiority. A satyr.</title>
+      <author>Burridge, Richard, b. 1670.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">S. Cook</persName>, and are to be sold by <persName type="bookseller">most booksellers</persName> in <placeName>London</placeName> and Westminster,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">MDCC. [1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Burridge--Wing (CD-ROM edition).</note>
+      <note>Satire on a scuffle between lawyers and physicians for superiority.</note>
+      <note>In verse.</note>
+      <note>Reproduction of original in the William Andrews Clark Memorial Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S. Cook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>most booksellers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

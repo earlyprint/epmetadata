@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act for the relief and release of poor distressed prisoners for debt or dammages</title>
-         <author>Ireland.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Andrew Crook, printer to the King's Most Excellent Majesty, on the Blind-Key, near Copper-Alley,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1699">M.DC.XC.IX. [1699]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Act for the relief and release of poor distressed prisoners for debt or dammages</title>
+      <author>Ireland.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Andrew Crook</persName>, printer to <persName type="patron">the King's Most Excellent Majesty</persName>, on <placeName>the Blind-Key, near Copper-Alley</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1699">M.DC.XC.IX. [1699]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's Most Excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blind-Key, near Copper-Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

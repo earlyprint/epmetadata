@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at St. Bartholomevvs the lesse in London, on the xxvii. day of March 1642; being the day of the inauguration of our soveraigne lord King Charles. By William Hall. Minister of that parish, and now thought fit to be published.</title>
-         <author>Hall, William, d. 1662.</author>
-      </titleStmt>
-      <extent>[6], 33, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Badger for Samuel Brown,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at St. Bartholomevvs the lesse in London, on the xxvii. day of March 1642; being the day of the inauguration of our soveraigne lord King Charles. By William Hall. Minister of that parish, and now thought fit to be published.</title>
+      <author>Hall, William, d. 1662.</author>
+    </titleStmt>
+    <extent>[6], 33, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Badger</persName> for <persName type="publisher">Samuel Brown</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Brown</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Badger</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

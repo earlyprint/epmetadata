@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the exposing to sale divers castles, houses, parks, lands and hereditaments belonging to the late King, Queen or Prince, exempted from sale by a former act. Friday the 31th of December, 1652. Ordered by the Parliament, that this Act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>p. [2], 1913-1922.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Also issued as part of a through-paged set with a table for the entire set added.</note>
-         <note>On 14Z2r: last word of first line of text: "Par-"; first word of line below initial: "Middlesex,"; last word of last line: "Mansion-house".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the exposing to sale divers castles, houses, parks, lands and hereditaments belonging to the late King, Queen or Prince, exempted from sale by a former act. Friday the 31th of December, 1652. Ordered by the Parliament, that this Act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>p. [2], 1913-1922.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Also issued as part of a through-paged set with a table for the entire set added.</note>
+      <note>On 14Z2r: last word of first line of text: "Par-"; first word of line below initial: "Middlesex,"; last word of last line: "Mansion-house".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

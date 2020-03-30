@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of Sr. Edw. Turnor, Kt., speaker of the honourable House of Commons, to the Kings Most Excellent Majesty delivered on Monday the nineteeth day of May, 1662, at the prorogation of the Parliament.</title>
-         <author>Turnor, Edward, Sir, 1617-1676.</author>
-      </titleStmt>
-      <extent>11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Maxwell for Henry Twyford, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of Sr. Edw. Turnor, Kt., speaker of the honourable House of Commons, to the Kings Most Excellent Majesty delivered on Monday the nineteeth day of May, 1662, at the prorogation of the Parliament.</title>
+      <author>Turnor, Edward, Sir, 1617-1676.</author>
+    </titleStmt>
+    <extent>11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Maxwell</persName> for <persName type="publisher">Henry Twyford</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Twyford</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Maxwell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

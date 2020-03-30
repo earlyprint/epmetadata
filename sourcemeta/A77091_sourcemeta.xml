@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>August 1660. Books lately printed to acquaint those that are studious what are extant, divers of them being printed this moneth.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Rothwel at the Fountain in Goldsmiths-Row in Cheapside,</publisher>
-         <pubPlace>[London?] :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A broadside.</note>
-         <note>An advertisement.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>August 1660. Books lately printed to acquaint those that are studious what are extant, divers of them being printed this moneth.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Rothwel</persName> at <placeName>the Fountain in Goldsmiths-Row in Cheapside</placeName>,</publisher>
+      <pubPlace>[London?] :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A broadside.</note>
+      <note>An advertisement.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Rothwel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Fountain in Goldsmiths-Row in Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

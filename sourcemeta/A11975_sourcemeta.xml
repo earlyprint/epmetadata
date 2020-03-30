@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cronicle history of Henry the fift with his battell fought at Agin Court in France. Togither with Auntient Pistoll. As it hath bene sundry times playd by the Right honorable the Lord Chamberlaine his seruants.</title>
-         <title>Henry V</title>
-         <author>Shakespeare, William, 1564-1616.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Creede, for Tho. Millington, and Iohn Busby. And are to be sold at his house in Carter Lane, next the Powle head,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1600">1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By William Shakespeare.</note>
-         <note>In verse.</note>
-         <note>Signatures: A-G&#8308;.</note>
-         <note>Running title reads: The chronicle historie of Henry the fift.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cronicle history of Henry the fift with his battell fought at Agin Court in France. Togither with Auntient Pistoll. As it hath bene sundry times playd by the Right honorable the Lord Chamberlaine his seruants.</title>
+      <title>Henry V</title>
+      <author>Shakespeare, William, 1564-1616.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Creede</persName>, for <persName type="publisher">Tho. Millington</persName>, and <persName type="publisher">Iohn Busby. And</persName> are to be sold at <placeName>his house in Carter Lane, next the Powle head</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1600">1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By William Shakespeare.</note>
+      <note>In verse.</note>
+      <note>Signatures: A-G&#8308;.</note>
+      <note>Running title reads: The chronicle historie of Henry the fift.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Busby. And</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Millington</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Carter Lane, next the Powle head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

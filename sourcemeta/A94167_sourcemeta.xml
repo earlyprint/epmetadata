@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An English translation of the Scottish Declaration against James Graham alias Marquess of Montrosse. Wherein many things are set right between the kingdom of Scotland and Commonwealth of England. With many observable passages, concerning the transactions with the late king, and their now declared king.</title>
-         <author>Sydenham, Cuthbert, 1622-1654.</author>
-      </titleStmt>
-      <extent>28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Macock, for Francis Tyton, and are to be sold at his shop at the sign of the three daggers neer the inner Temple in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Cuthbert Sydenham.</note>
-         <note>A reply to: Scotland, Parliament.  A declaration of the Committee of Estates of the Parliament of Scotland, in vindication of their proceedings from the aspersions of a scandalous pamphlet, published by that excommunicate traytor, James Grahame. Under the title of a Declaration of James Marques of Montrosse, &amp;c. Printed in the year, 1649.</note>
-         <note>Annotation on Thomason copy: "Aprill 2. 1649"; the 50 in imprint date is crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An English translation of the Scottish Declaration against James Graham alias Marquess of Montrosse. Wherein many things are set right between the kingdom of Scotland and Commonwealth of England. With many observable passages, concerning the transactions with the late king, and their now declared king.</title>
+      <author>Sydenham, Cuthbert, 1622-1654.</author>
+    </titleStmt>
+    <extent>28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Macock</persName>, for <persName type="publisher">Francis Tyton</persName>, and are to be sold at <placeName>his shop at the sign of the three daggers neer the inner Temple in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Cuthbert Sydenham.</note>
+      <note>A reply to: Scotland, Parliament.  A declaration of the Committee of Estates of the Parliament of Scotland, in vindication of their proceedings from the aspersions of a scandalous pamphlet, published by that excommunicate traytor, James Grahame. Under the title of a Declaration of James Marques of Montrosse, &amp;c. Printed in the year, 1649.</note>
+      <note>Annotation on Thomason copy: "Aprill 2. 1649"; the 50 in imprint date is crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+    <person type="printer">
+      <persName>John Macock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the three daggers neer the inner Temple in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

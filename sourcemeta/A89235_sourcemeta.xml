@@ -1,26 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Miscellanea spiritualia: or, Devout essaies: composed by the Honourable Walter Montagu Esq.</title>
-         <title>Miscellanea spiritualia. Part 1.</title>
-         <author>Montagu, Walter, 1603?-1677.</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-      </titleStmt>
-      <extent>[36], 198, 265-405, [13] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Lee, Daniel Pakeman, and Gabriel Bedell, and are to be sold at their shops in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">MDCXLVIII. [1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an additional title page, engraved, signed: W&#183; Marshall sculpsit.</note>
-         <note>Page numbers 199-264 (quires 2D-2L) are lacking; text is continuous.</note>
-         <note>Includes index and a final errata leaf.</note>
-         <note>A second part was published in 1654 [i.e. 1653].</note>
-         <note>3E1 is a cancel.</note>
-         <note>Annotations on Thomason copy: "Nouemb: 1647"; the final 'I' in the imprint has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Miscellanea spiritualia: or, Devout essaies: composed by the Honourable Walter Montagu Esq.</title>
+      <title>Miscellanea spiritualia. Part 1.</title>
+      <author>Montagu, Walter, 1603?-1677.</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+    </titleStmt>
+    <extent>[36], 198, 265-405, [13] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Lee</persName>, <persName type="publisher">Daniel Pakeman</persName>, and <persName type="publisher">Gabriel Bedell</persName>, and are to be sold at <placeName>their shops in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">MDCXLVIII. [1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an additional title page, engraved, signed: W&#183; Marshall sculpsit.</note>
+      <note>Page numbers 199-264 (quires 2D-2L) are lacking; text is continuous.</note>
+      <note>Includes index and a final errata leaf.</note>
+      <note>A second part was published in 1654 [i.e. 1653].</note>
+      <note>3E1 is a cancel.</note>
+      <note>Annotations on Thomason copy: "Nouemb: 1647"; the final 'I' in the imprint has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Daniel Pakeman</persName>
+    </person>
+    <person type="publisher">
+      <persName>Gabriel Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

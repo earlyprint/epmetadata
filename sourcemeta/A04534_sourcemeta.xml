@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Duke of Saxonie his iubilee with a short chronologie. Both shewing the goodnesse of God, in blessing the Gospel of Christ, since Luther first opposed the Popes pardons.</title>
-         <author>Johann Georg I, Elector of Saxony, 1585-1656. aut</author>
-         <author>W. S., fl. 1618.</author>
-      </titleStmt>
-      <extent>[10], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Iones dwelling in Red crosse-streete,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface initialed: W.S.</note>
-         <note>"The Duke of Saxonie his iubilee" signed: Iohannes George, Churfurst, that is, Prince Elector.</note>
-         <note>Proclaiming a celebration of the jubilee of one hundred years since Luther posted his theses--Folger Shakespeare Library Catalog.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Duke of Saxonie his iubilee with a short chronologie. Both shewing the goodnesse of God, in blessing the Gospel of Christ, since Luther first opposed the Popes pardons.</title>
+      <author>Johann Georg I, Elector of Saxony, 1585-1656. aut</author>
+      <author>W. S., fl. 1618.</author>
+    </titleStmt>
+    <extent>[10], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Iones</persName> dwelling in <placeName>Red crosse-streete</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface initialed: W.S.</note>
+      <note>"The Duke of Saxonie his iubilee" signed: Iohannes George, Churfurst, that is, Prince Elector.</note>
+      <note>Proclaiming a celebration of the jubilee of one hundred years since Luther posted his theses--Folger Shakespeare Library Catalog.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Iones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Red crosse-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

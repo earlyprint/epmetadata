@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Respublica de decimis. Written by Sir VVilliam Cockburne of Langtoun Knight</title>
-         <author>Cockburn, William, Sir, d. 1628.</author>
-      </titleStmt>
-      <extent>[2], 16, [2] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Wreittoun,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1627">anno Domini 1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Respublica.</note>
-         <note>Addressing abuses in tithing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Respublica de decimis. Written by Sir VVilliam Cockburne of Langtoun Knight</title>
+      <author>Cockburn, William, Sir, d. 1628.</author>
+    </titleStmt>
+    <extent>[2], 16, [2] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Wreittoun</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1627">anno Domini 1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Respublica.</note>
+      <note>Addressing abuses in tithing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Wreittoun</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

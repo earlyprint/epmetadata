@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Jovial Tom of all trads [sic], or, The Various cries of London-city to the tune of A Begging we will go.</title>
-      </titleStmt>
-      <extent>[26], 67 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Back ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1687" cert="low">[1687?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Jovial Tom of all trads [sic], or, The Various cries of London-city to the tune of A Begging we will go.</title>
+    </titleStmt>
+    <extent>[26], 67 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Back</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1687" cert="low">[1687?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Back</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

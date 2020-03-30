@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Religions love in wisedomes worth, the truest beauty, best sets forth... [microform] [by] Ni. Br. ; Simon Pass&#230;us sculpsit, L.</title>
-         <author>Breton, Nicholas, 1545?-1626?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Are to be sould in Popes head Ally by Ioh. Sudbury &amp; Geo. Humble,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1615">[1615]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from STC (2nd ed.).</note>
-         <note>Title from first two lines of six-line poem beneath engr. port. of Lucy Russell, Countess of Bedford.</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Religions love in wisedomes worth, the truest beauty, best sets forth... [microform] [by] Ni. Br. ; Simon Pass&#230;us sculpsit, L.</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Are to be sould in <placeName>Popes head Ally</placeName> by <persName type="printer">Ioh. Sudbury</persName> &amp; <persName type="printer">Geo. Humble</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1615">[1615]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from STC (2nd ed.).</note>
+      <note>Title from first two lines of six-line poem beneath engr. port. of Lucy Russell, Countess of Bedford.</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Geo. Humble</persName>
+    </person>
+    <person type="printer">
+      <persName>Ioh. Sudbury</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Ally</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

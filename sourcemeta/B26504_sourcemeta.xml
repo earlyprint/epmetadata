@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A congratulatory poem humbly offered to the King, upon His return home, after the taking of Namur. By Mr. Manning.</title>
-         <author>Manning, Mr. (Francis), fl. 1688-1716.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Peter Buck, at the sign of the Temple, near Temple-Bar in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A congratulatory poem humbly offered to the King, upon His return home, after the taking of Namur. By Mr. Manning.</title>
+      <author>Manning, Mr. (Francis), fl. 1688-1716.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Peter Buck</persName>, at <placeName>the sign of the Temple, near Temple-Bar in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Buck</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Temple, near Temple-Bar in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

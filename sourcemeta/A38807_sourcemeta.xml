@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pomona, or, An appendix concerning fruit-trees in relation to cider the making and several ways of ordering it.</title>
-         <author>Evelyn, John, 1620-1706.</author>
-      </titleStmt>
-      <extent>[2], 67 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by John Martyn and James Allestry, printers to the Royal Society,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1670">1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Epistle dedicatory signed : J. Evelyn.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pomona, or, An appendix concerning fruit-trees in relation to cider the making and several ways of ordering it.</title>
+      <author>Evelyn, John, 1620-1706.</author>
+    </titleStmt>
+    <extent>[2], 67 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Martyn</persName> and <persName type="printer">James Allestry</persName>, printers to <persName type="patron">the Royal Society</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1670">1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Epistle dedicatory signed : J. Evelyn.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>James Allestry</persName>
+    </person>
+    <person type="printer">
+      <persName>John Martyn</persName>
+    </person>
+    <person type="patron">
+      <persName>the Royal Society</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

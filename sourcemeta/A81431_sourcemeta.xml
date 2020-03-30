@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dialogue betwixt Lewis and the devil in the last year of his puissance: with his last will and testament</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Wallis, near the Green Dragon Tavern in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">[1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing (CD-ROM edition).</note>
-         <note>In verse: "What shrill and eccho'd groans possess my soul?"</note>
-         <note>Lewis = Louis XIV, King of France.</note>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dialogue betwixt Lewis and the devil in the last year of his puissance: with his last will and testament</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Wallis</persName>, near <placeName>the Green Dragon Tavern in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">[1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing (CD-ROM edition).</note>
+      <note>In verse: "What shrill and eccho'd groans possess my soul?"</note>
+      <note>Lewis = Louis XIV, King of France.</note>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Wallis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Green Dragon Tavern in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

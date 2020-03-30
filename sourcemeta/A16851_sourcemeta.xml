@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise, vvherein is declared the sufficiencie of English medicines, for cure of all diseases, cured with medicines. Whereunto is added a collection of medicines growing (for the most part) within our English climat, approoued and experimented against the iaundise, dropsie, stone, falling-sicknesse, pestilence</title>
-         <author>Bright, Timothie, 1550-1615.</author>
-         <author>Bedford, Thomas, fl. 1580, attributed name.</author>
-      </titleStmt>
-      <extent>[12], 127, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H[umphrey] L[ownes] for Tho. Man,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1615">1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: T.B., i.e. Timothie Bright.</note>
-         <note>Sometimes attributed to Thomas Bedford.</note>
-         <note>Printer's name from STC.</note>
-         <note>"A collection of medicines, growing for the most part within our English climat" has separate dated title page; pagination and register are continuous.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise, vvherein is declared the sufficiencie of English medicines, for cure of all diseases, cured with medicines. Whereunto is added a collection of medicines growing (for the most part) within our English climat, approoued and experimented against the iaundise, dropsie, stone, falling-sicknesse, pestilence</title>
+      <author>Bright, Timothie, 1550-1615.</author>
+      <author>Bedford, Thomas, fl. 1580, attributed name.</author>
+    </titleStmt>
+    <extent>[12], 127, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H[umphrey] L[ownes]</persName> for <persName type="publisher">Tho. Man</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1615">1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: T.B., i.e. Timothie Bright.</note>
+      <note>Sometimes attributed to Thomas Bedford.</note>
+      <note>Printer's name from STC.</note>
+      <note>"A collection of medicines, growing for the most part within our English climat" has separate dated title page; pagination and register are continuous.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Man</persName>
+    </person>
+    <person type="printer">
+      <persName>H[umphrey] L[ownes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Excellent new song on Lewis le Grand, or, The French king and the Devil tune of, The orange.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">[1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing.</note>
-         <note>"Printed according to order"</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Excellent new song on Lewis le Grand, or, The French king and the Devil tune of, The orange.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">[1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing.</note>
+      <note>"Printed according to order"</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

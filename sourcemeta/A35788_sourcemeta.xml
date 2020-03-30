@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The loves of sundry philosophers and other great men translated out of French.</title>
-         <title>Amours des grands hommes. English</title>
-         <author>Villedieu, Madame de, d. 1683.</author>
-      </titleStmt>
-      <extent>[2], 270 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.N. for Henry Herringman ..., and John Starkey ...,</publisher>
-         <pubPlace>[London] Savoy :</pubPlace>
-         <date when="1673">1673</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of Amours des grands hommes.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The loves of sundry philosophers and other great men translated out of French.</title>
+      <title>Amours des grands hommes. English</title>
+      <author>Villedieu, Madame de, d. 1683.</author>
+    </titleStmt>
+    <extent>[2], 270 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.N.</persName> for <persName type="publisher">Henry Herringman</persName> ..., and <persName type="publisher">John Starkey</persName> ...,</publisher>
+      <pubPlace>[London] Savoy :</pubPlace>
+      <date when="1673">1673</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of Amours des grands hommes.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Starkey</persName>
+    </person>
+    <person type="printer">
+      <persName>T.N.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memento treating of the rise, progress, and remedies of seditions with some historical reflections upon the series of our late troubles / by Roger L'Estrange.</title>
-         <author>L'Estrange, Roger, Sir, 1616-1704.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>138 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed in the year 1642, and now reprinted for Joanna Brome ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Pages 49-54 are missing in the filmed copy. Pages 40-65 photographed from Cambridge University Library copy and inserted at the end.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memento treating of the rise, progress, and remedies of seditions with some historical reflections upon the series of our late troubles / by Roger L'Estrange.</title>
+      <author>L'Estrange, Roger, Sir, 1616-1704.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>138 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>the year 1642</placeName>, and now reprinted for <persName type="publisher">Joanna Brome</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Pages 49-54 are missing in the filmed copy. Pages 40-65 photographed from Cambridge University Library copy and inserted at the end.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joanna Brome</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the year 1642</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

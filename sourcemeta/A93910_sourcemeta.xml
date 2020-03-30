@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A salutation of my endeared love in God's holy fear and dread, and for the clearing of my conscience, once more unto you of that city of Bristol ...</title>
-         <author>Stirredge, Elizabeth, 1634-1706.</author>
-         <author>Dole, Dorcas.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle?,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1683">1683]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed on p. 6: Elizabeth Stirredge ... 1683.</note>
-         <note>"To you that have been professors of the truth of God in the city of Bristol ..., p. 7-11, signed Dorcas Dole, 1683.</note>
-         <note>"O Lord! by a high hand ..." p. 12, signed: D.D.</note>
-         <note>Advertisement in colophon reads: Printed and sold by Andrew Sowle.</note>
-         <note>Reproduction of original in: Friends' Library (London, England).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A salutation of my endeared love in God's holy fear and dread, and for the clearing of my conscience, once more unto you of that city of Bristol ...</title>
+      <author>Stirredge, Elizabeth, 1634-1706.</author>
+      <author>Dole, Dorcas.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Andrew Sowle</persName></persName>?,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1683">1683]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed on p. 6: Elizabeth Stirredge ... 1683.</note>
+      <note>"To you that have been professors of the truth of God in the city of Bristol ..., p. 7-11, signed Dorcas Dole, 1683.</note>
+      <note>"O Lord! by a high hand ..." p. 12, signed: D.D.</note>
+      <note>Advertisement in colophon reads: Printed and sold by Andrew Sowle.</note>
+      <note>Reproduction of original in: Friends' Library (London, England).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

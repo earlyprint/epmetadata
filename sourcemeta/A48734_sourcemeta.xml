@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached in Lent-assizes, holden for the county of Bucks, at Alesbury, March 8th 1671/2 being Ash-Wednesday by Ad. Littleton ...</title>
-         <author>Littleton, Adam, 1627-1694.</author>
-      </titleStmt>
-      <extent>[7], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock for R. Davis of Oxon,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1671">1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: prelim. p. [7].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached in Lent-assizes, holden for the county of Bucks, at Alesbury, March 8th 1671/2 being Ash-Wednesday by Ad. Littleton ...</title>
+      <author>Littleton, Adam, 1627-1694.</author>
+    </titleStmt>
+    <extent>[7], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName> for <persName type="publisher">R. Davis of Oxon</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1671">1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: prelim. p. [7].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Davis of Oxon</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

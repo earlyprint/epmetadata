@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe treatise touching the preservation of the eie sight consisting partly in good order of diet, and partly in vse of medicines.</title>
-         <author>Baley, Walter, 1529-1592.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The sixte edition.</edition>
-      </editionStmt>
-      <extent>[6], 25, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ioseph Barnes, Printer to the Vniversitie,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1602">1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Walter Bailey.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe treatise touching the preservation of the eie sight consisting partly in good order of diet, and partly in vse of medicines.</title>
+      <author>Baley, Walter, 1529-1592.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The sixte edition.</edition>
+    </editionStmt>
+    <extent>[6], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ioseph Barnes</persName>, Printer to <persName type="patron">the Vniversitie</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1602">1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Walter Bailey.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversitie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

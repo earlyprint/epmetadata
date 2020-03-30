@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A collection of Scotch proverbs. Collected by Pappity Stampoy.</title>
-         <author>Stampoy, Pappity, pseud.</author>
-      </titleStmt>
-      <extent>[2], 58 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.D.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1663">in the y[ear] 1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: type missing in imprint.</note>
-         <note>Signatures: A-B&#185;&#178;, C&#8310;.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A collection of Scotch proverbs. Collected by Pappity Stampoy.</title>
+      <author>Stampoy, Pappity, pseud.</author>
+    </titleStmt>
+    <extent>[2], 58 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.D.</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1663">in the y[ear] 1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: type missing in imprint.</note>
+      <note>Signatures: A-B&#185;&#178;, C&#8310;.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The oliue leafe: or, Vniuersall abce Wherein is set foorth the creation, descent, and authoritie of letters: together with th'estimation, profit, affinitie or declination of them: for the familiar vse of all studentes, teachers, and learners of what chirography soeuer, most necessarie. By two tables, newly and briefly composed charactericall and syllabicall. Of Alexander Top Gent.</title>
-         <author>Top, Alexander.</author>
-      </titleStmt>
-      <extent>[30] p. : folded table  </extent>
-      <publicationStmt>
-         <publisher>By W. White for George Vincent, dwelling in great Woodstreete, at the signe fo the Hand in hand, where they are to be sold,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-D&#8308; (-A1).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The oliue leafe: or, Vniuersall abce Wherein is set foorth the creation, descent, and authoritie of letters: together with th'estimation, profit, affinitie or declination of them: for the familiar vse of all studentes, teachers, and learners of what chirography soeuer, most necessarie. By two tables, newly and briefly composed charactericall and syllabicall. Of Alexander Top Gent.</title>
+      <author>Top, Alexander.</author>
+    </titleStmt>
+    <extent>[30] p. : folded table  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">W. White</persName> for <persName type="publisher">George Vincent</persName>, dwelling in <placeName>great Woodstreete, at the signe fo the Hand in hand, where they are to be sold</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-D&#8308; (-A1).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Vincent</persName>
+    </person>
+    <person type="printer">
+      <persName>W. White</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>great Woodstreete, at the signe fo the Hand in hand, where they are to be sold</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

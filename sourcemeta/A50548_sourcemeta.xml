@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at White-Hall in Lent, March the 16, 1682/3 by Richard Meggott ...</title>
-         <author>Meggott, Richard, d. 1692.</author>
-      </titleStmt>
-      <extent>[2], 37, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by His Majesties special command."</note>
-         <note>Advertisement on p. [1-2] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at White-Hall in Lent, March the 16, 1682/3 by Richard Meggott ...</title>
+      <author>Meggott, Richard, d. 1692.</author>
+    </titleStmt>
+    <extent>[2], 37, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by His Majesties special command."</note>
+      <note>Advertisement on p. [1-2] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A choice collection of wonderful miracles, ghosts, and visions</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for B. R. and DW.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681" cert="low">[1681?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Some text in verse.</note>
-         <note>In double columns.</note>
-         <note>Imperfect: cropped at head with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A choice collection of wonderful miracles, ghosts, and visions</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">B. R.</persName> and <persName type="publisher">DW.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681" cert="low">[1681?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Some text in verse.</note>
+      <note>In double columns.</note>
+      <note>Imperfect: cropped at head with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. R.</persName>
+    </person>
+    <person type="publisher">
+      <persName>DW.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

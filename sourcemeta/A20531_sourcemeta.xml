@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anwick his meditations vpon Gods monarchie and the deuill his kingdome And of the knowledge that man in this life may obtaine of the almightie, eternal, and most glorious godhed: with other thinges not only worth the reading but also the marking and the retayning.</title>
-         <author>Anwick, I.</author>
-      </titleStmt>
-      <extent>[14], 117, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By [T. Marsh for] Gerred Dewes, dwelling in Powles Churchard [sic], at the signe of the Swan,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1587">1587.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anwick his meditations vpon Gods monarchie and the deuill his kingdome And of the knowledge that man in this life may obtaine of the almightie, eternal, and most glorious godhed: with other thinges not only worth the reading but also the marking and the retayning.</title>
+      <author>Anwick, I.</author>
+    </titleStmt>
+    <extent>[14], 117, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[T. Marsh</persName> for<persName type="publisher">] Gerred Dewes</persName>, dwelling in <placeName>Powles Churchard [sic], at the signe of the Swan</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1587">1587.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Gerred Dewes</persName>
+    </person>
+    <person type="printer">
+      <persName>[T. Marsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Powles Churchard [sic], at the signe of the Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

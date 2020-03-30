@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at a visitation held at Lin in Norfolk, June the 24th anno 1633. Being an admonition to the clergy to remember and keep those severall oaths, promises, and subscriptions, which they solemnly have made at the taking of their degrees, their ordinations, and institutions to their benefices. By William Strode D.D.</title>
-         <author>Strode, William, 1600 or 1601-1645.</author>
-      </titleStmt>
-      <extent>[2], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W. Wilson for Samuel Brown, living in Well-yard in Little St. Bartholomews, near the Lame-Hospitall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A visitation-sermon.</note>
-         <note>Annotation on Thomason copy: "July 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at a visitation held at Lin in Norfolk, June the 24th anno 1633. Being an admonition to the clergy to remember and keep those severall oaths, promises, and subscriptions, which they solemnly have made at the taking of their degrees, their ordinations, and institutions to their benefices. By William Strode D.D.</title>
+      <author>Strode, William, 1600 or 1601-1645.</author>
+    </titleStmt>
+    <extent>[2], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Wilson</persName> for <persName type="publisher">Samuel Brown</persName>, living in <placeName>Well-yard in Little St. Bartholomews, near the Lame-Hospitall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A visitation-sermon.</note>
+      <note>Annotation on Thomason copy: "July 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Brown</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Well-yard in Little St. Bartholomews, near the Lame-Hospitall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

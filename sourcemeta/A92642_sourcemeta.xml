@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords of His Majesties Privie-Councell in Scotland; and commissioners for conserving the articles of the treaty: for the information of His Majesties good subjects of this kingdom. Together with a treacherous and damnable plot of the Irish, English, and Scottish papists, begun to be discovered by the unexpected apprehending of the Earl of Antrim coming from York; partly by letters which were found in the said Earls pockets, and partly by the depositions of a servant of his, who was hanged at Carrick-Fergus.</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh, Printed by Evan Tyler, printer to the Kings most Excellent Majesty ; and now re-printed at London for Edward Husbands,</publisher>
-         <pubPlace>[London]</pubPlace>
-         <date when="1643">27 Junii, 1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published: Edinburgh : Printed by Evan Tyler, 1643?.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords of His Majesties Privie-Councell in Scotland; and commissioners for conserving the articles of the treaty: for the information of His Majesties good subjects of this kingdom. Together with a treacherous and damnable plot of the Irish, English, and Scottish papists, begun to be discovered by the unexpected apprehending of the Earl of Antrim coming from York; partly by letters which were found in the said Earls pockets, and partly by the depositions of a servant of his, who was hanged at Carrick-Fergus.</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh, Printed by <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the Kings most Excellent Majesty ; and now re-printed</persName> at <placeName>London</placeName> for <persName type="publisher">Edward Husbands</persName>,</publisher>
+      <pubPlace>[London]</pubPlace>
+      <date when="1643">27 Junii, 1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published: Edinburgh : Printed by Evan Tyler, 1643?.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty ; and now re-printed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

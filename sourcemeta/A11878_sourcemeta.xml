@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Titles of honor by Iohn Selden</title>
-         <author>Selden, John, 1584-1654.</author>
-      </titleStmt>
-      <extent>[38], 391, [45] p. : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>By William Stansby for Iohn Helme, and are to be sold at his shop in S. Dunstans Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1614">M.DC.XIV. [1614]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes bibliography and index.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Titles of honor by Iohn Selden</title>
+      <author>Selden, John, 1584-1654.</author>
+    </titleStmt>
+    <extent>[38], 391, [45] p. : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">William Stansby</persName> for <persName type="publisher">Iohn Helme</persName>, and are to be sold at <placeName>his shop in S. Dunstans Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1614">M.DC.XIV. [1614]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes bibliography and index.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Helme</persName>
+    </person>
+    <person type="printer">
+      <persName>William Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in S. Dunstans Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

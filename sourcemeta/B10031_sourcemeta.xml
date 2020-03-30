@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short compendium of the new and much enlarged sea-book, or, Pilots sea-mirror: containing the distances and thwart courses of the eastern, northern, and western navigation. Newly enlarged and amended, by several experienced navigators. / And now for the benefit and encouragement of our sea-men translated into English: and calculated according to 20 leagues for a degree by L. Childe Esquire.</title>
-         <author>Childe, L.</author>
-      </titleStmt>
-      <extent>48, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid for G. Hurlock ... and W. Fisher ...,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1669">1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation and adaptation of parts of the Dutch Seespiegel and De lichtende columne.</note>
-         <note>Reproduction of original in the Boston Public Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short compendium of the new and much enlarged sea-book, or, Pilots sea-mirror: containing the distances and thwart courses of the eastern, northern, and western navigation. Newly enlarged and amended, by several experienced navigators. / And now for the benefit and encouragement of our sea-men translated into English: and calculated according to 20 leagues for a degree by L. Childe Esquire.</title>
+      <author>Childe, L.</author>
+    </titleStmt>
+    <extent>48, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName> for <persName type="publisher">G. Hurlock</persName> ... and <persName type="publisher">W. Fisher</persName> ...,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1669">1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation and adaptation of parts of the Dutch Seespiegel and De lichtende columne.</note>
+      <note>Reproduction of original in the Boston Public Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Hurlock</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Fisher</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

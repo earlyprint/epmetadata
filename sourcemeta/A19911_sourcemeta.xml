@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A select second husband for Sir Thomas Ouerburie's wife, now a matchlesse widow</title>
-         <author>Davies, John, 1565?-1618.</author>
-         <author>Overbury, Thomas, Sir, 1581-1613. Wife, now a widowe.</author>
-      </titleStmt>
-      <extent>[94] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Creede and Barnard Allsopp, for Iohn Marriott: and are to be sold at his shop at the white Flower-de-luce, neere Fetter Lane end in Fleetstreete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1616">1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iohn Dauies.</note>
-         <note>In verse.</note>
-         <note>An imitation of: Overbury, Sir Thomas.  A wife, now a widowe.</note>
-         <note>Signatures: [A]&#8308; (-A1) B-F G&#8308;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A select second husband for Sir Thomas Ouerburie's wife, now a matchlesse widow</title>
+      <author>Davies, John, 1565?-1618.</author>
+      <author>Overbury, Thomas, Sir, 1581-1613. Wife, now a widowe.</author>
+    </titleStmt>
+    <extent>[94] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Creede</persName> and <persName type="printer">Barnard Allsopp</persName>, for <persName type="publisher">Iohn Marriott:</persName> and are to be sold at <placeName>his shop at the white Flower-de-luce, neere Fetter Lane end in Fleetstreete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1616">1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iohn Dauies.</note>
+      <note>In verse.</note>
+      <note>An imitation of: Overbury, Sir Thomas.  A wife, now a widowe.</note>
+      <note>Signatures: [A]&#8308; (-A1) B-F G&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Marriott:</persName>
+    </person>
+    <person type="printer">
+      <persName>Barnard Allsopp</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the white Flower-de-luce, neere Fetter Lane end in Fleetstreete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

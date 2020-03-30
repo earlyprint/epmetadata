@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe sonet declaring the lamentation of Beckles, a market towne in Suffolke which was in the great winde vpon S. Andrewes eue pitifully burned with fire to the value by estimation of tweentie thousande pounds And to the number of fourescore dwelling houses, besides a great number of other houses. 1586. To the tune of Labandalashotte.</title>
-         <author>Sterrie, D.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Robert Robinson for Nicholas Colman of Norwich, dwelling in S. Andrewes Church yarde,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1586">[1586]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: q[uod] D. Sterri.</note>
-         <note>A song - "My louing good neighbours, that comes to beholde,".</note>
-         <note>Printed on the same sheet as STC 6564.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Mutilated.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe sonet declaring the lamentation of Beckles, a market towne in Suffolke which was in the great winde vpon S. Andrewes eue pitifully burned with fire to the value by estimation of tweentie thousande pounds And to the number of fourescore dwelling houses, besides a great number of other houses. 1586. To the tune of Labandalashotte.</title>
+      <author>Sterrie, D.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Robert Robinson</persName> for <persName type="publisher">Nicholas Colman of Norwich</persName>, dwelling in <placeName>S. Andrewes Church yarde</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1586">[1586]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: q[uod] D. Sterri.</note>
+      <note>A song - "My louing good neighbours, that comes to beholde,".</note>
+      <note>Printed on the same sheet as STC 6564.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Mutilated.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Colman of Norwich</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert Robinson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Andrewes Church yarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

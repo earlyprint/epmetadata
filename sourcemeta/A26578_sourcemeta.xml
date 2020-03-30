@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The art of logick; or, The entire body of logick in English. Unfolding to the meanest capacity the way to dispute well, and to refute all fallacies whatsoever. The second edition, corrected and amended. By Zachary Coke of Grays-Inn, Gent.</title>
-         <author>Ainsworth, Henry, 1571-1622?</author>
-         <author>Coke, Zachary, attributed name.</author>
-      </titleStmt>
-      <extent>[16], 222 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Streater, and are to be sold by the book-sellers of London,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Zachary Coke is a pseudonym for Henry Ainsworth.</note>
-         <note>Running title: The art of logick.</note>
-         <note>Identified on film as Wing C4987 (number cancelled).</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The art of logick; or, The entire body of logick in English. Unfolding to the meanest capacity the way to dispute well, and to refute all fallacies whatsoever. The second edition, corrected and amended. By Zachary Coke of Grays-Inn, Gent.</title>
+      <author>Ainsworth, Henry, 1571-1622?</author>
+      <author>Coke, Zachary, attributed name.</author>
+    </titleStmt>
+    <extent>[16], 222 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Streater</persName>, and are to be sold by <persName type="bookseller">the book-sellers of London</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Zachary Coke is a pseudonym for Henry Ainsworth.</note>
+      <note>Running title: The art of logick.</note>
+      <note>Identified on film as Wing C4987 (number cancelled).</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Streater</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the book-sellers of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

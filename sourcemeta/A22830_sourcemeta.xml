@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lawes and ordinances of vvarre, for the better government of His Maiesties Army Royall, in the present expedition for the northern parts, and safety of the kingdome Under the conduct of his Excellence, the Right Honourable Thomas Earl of Arundel and Surrey, Earl Marshall of England, &amp;c. and Generall of His Majesties forces.</title>
-         <title>Regulations. 1639</title>
-         <author>England and Wales. Army.</author>
-         <author>Arundel, Thomas Howard, Earl of, 1585-1646.</author>
-      </titleStmt>
-      <extent>[4], 27, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, printer to the Kings most excellent Majestie; and by the assignes of John Bill,</publisher>
-         <pubPlace>Imprinted at Newcastle :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf contains a woodcut coat of arms.</note>
-         <note>In this edition, line three of the title page ends: of.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lawes and ordinances of vvarre, for the better government of His Maiesties Army Royall, in the present expedition for the northern parts, and safety of the kingdome Under the conduct of his Excellence, the Right Honourable Thomas Earl of Arundel and Surrey, Earl Marshall of England, &amp;c. and Generall of His Majesties forces.</title>
+      <title>Regulations. 1639</title>
+      <author>England and Wales. Army.</author>
+      <author>Arundel, Thomas Howard, Earl of, 1585-1646.</author>
+    </titleStmt>
+    <extent>[4], 27, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings most excellent Majestie; and</persName> by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>Imprinted at Newcastle :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf contains a woodcut coat of arms.</note>
+      <note>In this edition, line three of the title page ends: of.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie; and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

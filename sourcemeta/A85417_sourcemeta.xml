@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Synkr&#275;tismos. Or Dis-satisfaction satisfied. In seventeen sober and serious queries, tending to allay the discontents, and satisfie the scruples, of persons dis-satisfied about the late revolution of government in the Common-Wealth, and to guide every mans feet into the way of his duty, and the publique peace. Proposed by J.G. a cordiall friend, and well-willer to the interest of all men, consistent with the publique peace and safety.</title>
-         <author>Goodwin, John, 1594?-1665.</author>
-      </titleStmt>
-      <extent>20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock, for Henry Cripps, and L. Lloyd, and are to be sold their shop [sic] in Popes head Alley, neer Lombard street.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1653">1654. [i.e. 1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>J.G. = John Goodwin.</note>
-         <note>First word of title in Greek characters.</note>
-         <note>Annotation on Thomason copy: "December. 22. 1653"; the 4 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Synkr&#275;tismos. Or Dis-satisfaction satisfied. In seventeen sober and serious queries, tending to allay the discontents, and satisfie the scruples, of persons dis-satisfied about the late revolution of government in the Common-Wealth, and to guide every mans feet into the way of his duty, and the publique peace. Proposed by J.G. a cordiall friend, and well-willer to the interest of all men, consistent with the publique peace and safety.</title>
+      <author>Goodwin, John, 1594?-1665.</author>
+    </titleStmt>
+    <extent>20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName>, for <persName type="publisher">Henry Cripps</persName>, and <persName type="publisher">L. Lloyd</persName>, and are to be sold their shop [sic] in <placeName>Popes head Alley, neer Lombard street.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1653">1654. [i.e. 1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>J.G. = John Goodwin.</note>
+      <note>First word of title in Greek characters.</note>
+      <note>Annotation on Thomason copy: "December. 22. 1653"; the 4 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Cripps</persName>
+    </person>
+    <person type="publisher">
+      <persName>L. Lloyd</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Alley, neer Lombard street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

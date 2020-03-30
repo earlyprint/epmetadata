@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act against vagrants, and wandring, idle, dissolute persons. At the Parliament begun at Westminster the 17th day of September, anno Domini, 1656.</title>
-         <title>Laws, etc. (Public General Acts)</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>3, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills and John Field, printers to His Highness,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Act against vagrants, and wandring, idle, dissolute persons. At the Parliament begun at Westminster the 17th day of September, anno Domini, 1656.</title>
+      <title>Laws, etc. (Public General Acts)</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName>, printers to <persName type="patron">His Highness</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>His Highness</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

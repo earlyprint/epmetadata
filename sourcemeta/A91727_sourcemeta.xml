@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Celestial amities: or, A soul sighing for the love of her saviour. By Edward Reynell, Esq;</title>
-         <author>Reynell, Edward, 1612-1663.</author>
-      </titleStmt>
-      <extent>[16], 190 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Abel Roper, and are to be sold at his shop at the sign of the Sun over against S. Dunstans Church in Fleet-street,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "July".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Celestial amities: or, A soul sighing for the love of her saviour. By Edward Reynell, Esq;</title>
+      <author>Reynell, Edward, 1612-1663.</author>
+    </titleStmt>
+    <extent>[16], 190 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Abel Roper</persName>, and are to be sold at <placeName>his shop at the sign of the Sun over against S. Dunstans Church in Fleet-street</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "July".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Abel Roper</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Sun over against S. Dunstans Church in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

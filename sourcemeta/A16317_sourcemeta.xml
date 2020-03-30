@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse about the state of true happinesse deliuered in certaine sermons in Oxford, and at Pauls Crosse: by Robert Bolton.</title>
-         <author>Bolton, Robert, 1572-1631.</author>
-      </titleStmt>
-      <extent>[24], 156 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston, for Edmund Weauer, and are to be sold at his shop, at the great North-gate of Pauls Church,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A discourse of true happinesse.</note>
-         <note>Reproduction of the original in the Central Library (Bristol, Eng.).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse about the state of true happinesse deliuered in certaine sermons in Oxford, and at Pauls Crosse: by Robert Bolton.</title>
+      <author>Bolton, Robert, 1572-1631.</author>
+    </titleStmt>
+    <extent>[24], 156 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName>, for <persName type="publisher">Edmund Weauer</persName>, and are to be sold at <placeName>his shop, at the great North-gate of Pauls Church</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A discourse of true happinesse.</note>
+      <note>Reproduction of the original in the Central Library (Bristol, Eng.).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Weauer</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the great North-gate of Pauls Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

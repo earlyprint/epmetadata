@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The princess of Montserrat a novel containing her history and the amours of the Count of Saluces.</title>
-         <author>Br&#233;mond, Gabriel de.</author>
-         <author>E. S.</author>
-      </titleStmt>
-      <extent>190, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bently and M. Magnes,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of La princesse de Montserrat.</note>
-         <note>Dedication signed: E.S.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The princess of Montserrat a novel containing her history and the amours of the Count of Saluces.</title>
+      <author>Br&#233;mond, Gabriel de.</author>
+      <author>E. S.</author>
+    </titleStmt>
+    <extent>190, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bently</persName> and <persName type="publisher">M. Magnes</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of La princesse de Montserrat.</note>
+      <note>Dedication signed: E.S.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M. Magnes</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Bently</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

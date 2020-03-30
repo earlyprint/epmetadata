@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christian moderation In two books. By Jos: Exon.</title>
-         <author>Hall, Joseph, 1574-1656.</author>
-      </titleStmt>
-      <extent>[14], 191, [1], 175, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Miles Flesher [and R. Oulton?], and are to be sold by Nathaniel Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640">MDCXL. [1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Oulton app[arently]. pr[inted]. bk. 2"--STC.</note>
-         <note>The second book begins on *Aar with new pagination.</note>
-         <note>The title page is conjugate; chain lines are approximately 20mm apart. Variant: title page is a cancel, but same setting as above, with chain lines approximately 25mm apart; rest of quire as above.</note>
-         <note>Reproduction of the original in Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christian moderation In two books. By Jos: Exon.</title>
+      <author>Hall, Joseph, 1574-1656.</author>
+    </titleStmt>
+    <extent>[14], 191, [1], 175, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Miles Flesher</persName> [and <persName type="printer">R. Oulton?]</persName>, and are to be sold by <persName type="bookseller">Nathaniel Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640">MDCXL. [1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Oulton app[arently]. pr[inted]. bk. 2"--STC.</note>
+      <note>The second book begins on *Aar with new pagination.</note>
+      <note>The title page is conjugate; chain lines are approximately 20mm apart. Variant: title page is a cancel, but same setting as above, with chain lines approximately 25mm apart; rest of quire as above.</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Miles Flesher</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Oulton?]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nathaniel Butter</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

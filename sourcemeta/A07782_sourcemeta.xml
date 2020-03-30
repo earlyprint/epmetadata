@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Christian dialogue, betweene Theophilus a deformed Catholike in Rome, and Remigius a reformed Catholike in the Church of England Conteining. a plaine and succinct resolution, of sundry very intricate and important points of religion, which doe mightily assaile the weake consciences of the vulgar sort of people; penned ... for the vtter confusion of all seditious Iesuites and Iesuited popelings in England ...</title>
-         <author>Bell, Thomas, fl. 1593-1610.</author>
-      </titleStmt>
-      <extent>[8], 140 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for VVilliam VVelby, and are to be sold at his shop in Paules Church-yard, at the signe of the Gray-hound,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Bell.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: A plaine and succinct resolution, of sundry important points of religion.</note>
-         <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Christian dialogue, betweene Theophilus a deformed Catholike in Rome, and Remigius a reformed Catholike in the Church of England Conteining. a plaine and succinct resolution, of sundry very intricate and important points of religion, which doe mightily assaile the weake consciences of the vulgar sort of people; penned ... for the vtter confusion of all seditious Iesuites and Iesuited popelings in England ...</title>
+      <author>Bell, Thomas, fl. 1593-1610.</author>
+    </titleStmt>
+    <extent>[8], 140 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">VVilliam VVelby</persName>, and are to be sold at <placeName>his shop in Paules Church-yard, at the signe of the Gray-hound</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Bell.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: A plaine and succinct resolution, of sundry important points of religion.</note>
+      <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>VVilliam VVelby</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard, at the signe of the Gray-hound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The famous history of that most renowned Christian worthy Arthur King of the Britaines, and his famous Knights of the Round Table.</title>
-         <author>M. P. (Martin Parker), d. 1656?</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Francis Coles at the signe of the Lamb in the Old-Bailey,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1660">1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Anonymous. By Martin Parker.</note>
-         <note>Imprint from colophon.</note>
-         <note>Includes woodcut illus. on t.p.</note>
-         <note>Annotation on Thomason copy: "May 2d. 1660.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The famous history of that most renowned Christian worthy Arthur King of the Britaines, and his famous Knights of the Round Table.</title>
+      <author>M. P. (Martin Parker), d. 1656?</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Francis Coles</persName> at <placeName>the signe of the Lamb in the Old-Bailey</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1660">1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Anonymous. By Martin Parker.</note>
+      <note>Imprint from colophon.</note>
+      <note>Includes woodcut illus. on t.p.</note>
+      <note>Annotation on Thomason copy: "May 2d. 1660.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Coles</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Lamb in the Old-Bailey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Here endeth the boke of Iohn Maunduyle knyght of wayes to Ierusalem [and] of marueylys of y5xx]</title>
-         <title>Itinerarium. English</title>
-         <author>Mandeville, John, Sir.</author>
-         <author>Jean, d'Outremeuse, 1338-ca. 1399, attributed name.</author>
-      </titleStmt>
-      <extent>[144] p.   </extent>
-      <publicationStmt>
-         <publisher>[Emprented by Richard Pynson,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1496">[1496]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Mandeville, but in fact an English version of a text known as "Itinerarium". The original was probably written in Anglo-Norman French and has been attributed to Jean d'Outremeuse.</note>
-         <note>Title from k4r; publication date from STC; printer's name from colophon.</note>
-         <note>Signatures: a-i.</note>
-         <note>Imperfect; title page, other leaves lacking.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Here endeth the boke of Iohn Maunduyle knyght of wayes to Ierusalem [and] of marueylys of y5xx]</title>
+      <title>Itinerarium. English</title>
+      <author>Mandeville, John, Sir.</author>
+      <author>Jean, d'Outremeuse, 1338-ca. 1399, attributed name.</author>
+    </titleStmt>
+    <extent>[144] p.   </extent>
+    <publicationStmt>
+      <publisher>[Emprented by <persName type="printer">Richard Pynson</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1496">[1496]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Mandeville, but in fact an English version of a text known as "Itinerarium". The original was probably written in Anglo-Norman French and has been attributed to Jean d'Outremeuse.</note>
+      <note>Title from k4r; publication date from STC; printer's name from colophon.</note>
+      <note>Signatures: a-i.</note>
+      <note>Imperfect; title page, other leaves lacking.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Pynson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

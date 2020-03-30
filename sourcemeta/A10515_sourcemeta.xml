@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Moses and Iethro: or the good magistrate containing sundry necessary admonitions to all maiors, gouernours, and freemen of townes corporate, as they were deliuered in a sermon at S. Maries in Douer on the election day. By Io: Reading.</title>
-         <author>Reading, John, 1588-1667.</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Legatt for Robert Allott, and are to be sold in Pauls-Church-yard at the signe of the Gray-hound,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Moses and Iethro: or the good magistrate containing sundry necessary admonitions to all maiors, gouernours, and freemen of townes corporate, as they were deliuered in a sermon at S. Maries in Douer on the election day. By Io: Reading.</title>
+      <author>Reading, John, 1588-1667.</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legatt</persName> for <persName type="publisher">Robert Allott</persName>, and are to be sold in <placeName>Pauls-Church-yard at the signe of the Gray-hound</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Allott</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Legatt</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls-Church-yard at the signe of the Gray-hound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

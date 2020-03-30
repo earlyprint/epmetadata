@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christs kingdome Described in seuen fruitfull sermons vpon the second Psalme. By Richard Web preacher of Gods word. The contents whereof follows after the epistles.</title>
-         <author>Webb, Richard, preacher of God's word.</author>
-      </titleStmt>
-      <extent>[12], 192 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Nicholas Okes for Henry Rockit, and are to be sold at his shop in the Poultry, vnder S. Mildreds Diall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A variant of the 1610 edition.</note>
-         <note>Copy at reel 2087 has print faded on title page.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christs kingdome Described in seuen fruitfull sermons vpon the second Psalme. By Richard Web preacher of Gods word. The contents whereof follows after the epistles.</title>
+      <author>Webb, Richard, preacher of God's word.</author>
+    </titleStmt>
+    <extent>[12], 192 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Nicholas Okes</persName> for <persName type="publisher">Henry Rockit</persName>, and are to be sold at <placeName>his shop in the Poultry, vnder S. Mildreds Diall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A variant of the 1610 edition.</note>
+      <note>Copy at reel 2087 has print faded on title page.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Rockit</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Poultry, vnder S. Mildreds Diall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

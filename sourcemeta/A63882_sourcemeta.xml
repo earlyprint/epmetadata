@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the King on Easter-Day, 1684 by Francis Lord Bishop of Rochester ...</title>
-         <author>Turner, Francis, 1638?-1700.</author>
-      </titleStmt>
-      <extent>[2], 33 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Macock for R. Royston...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by His Majesties Special Command."</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the King on Easter-Day, 1684 by Francis Lord Bishop of Rochester ...</title>
+      <author>Turner, Francis, 1638?-1700.</author>
+    </titleStmt>
+    <extent>[2], 33 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Macock</persName> for <persName type="publisher">R. Royston</persName>...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by His Majesties Special Command."</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

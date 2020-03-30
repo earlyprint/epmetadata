@@ -1,15 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Humble petition of the Presbyterian ministers and professors of the church, to the high commissioner and Parliament of Scotland</title>
-         <author>Scotland. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed at Edinburgh, and re-printed at London, by George Croom ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Humble petition of the Presbyterian ministers and professors of the church, to the high commissioner and Parliament of Scotland</title>
+      <author>Scotland. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Edinburgh</placeName>, and re-printed at <placeName>London</placeName>, by <persName type="printer">George Croom</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Croom</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

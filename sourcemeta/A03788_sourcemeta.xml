@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A riche storehouse, or treasurie, for the sicke, full of Christian counsels holesome doctrines, comfortable persuasions, and godly meditations, meete for all Christians, both in sicknesse and in health. Wherevnto is annexed a comfort for poore prisoners, and also an exhortation to repentance. Written in Dutch, by Gaspar Huberine, and Englished by Thomas Godfrie, esquire, late ... fruits and ... at the request of his dangter Marie, wife ... Iohn French, gentleman of the Inner Temple</title>
-         <author>Huberinus, Caspar.</author>
-         <author>Godfrie, Thomas.</author>
-      </titleStmt>
-      <extent>101 leaves   </extent>
-      <publicationStmt>
-         <publisher>By [H. Middleton for] Ralph Newberrie, dwelling in Fleetestreat a litle aboue the conduit,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1578">Anno. 1578.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In four parts. Part 2 caption title reads: How to aduise and comfort them that lye in prison, and be by the magistrate iudgged to dye. Part 3 caption title reads: A faithful and Christian exhortation to repentaunce, and to leade a life in the feare of God. Part 4 caption title reads: An instruction to teache children howe they ought to goe to the Lordes table.</note>
-         <note>A note at the head of part 4 says that it has been adapted to English use.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A riche storehouse, or treasurie, for the sicke, full of Christian counsels holesome doctrines, comfortable persuasions, and godly meditations, meete for all Christians, both in sicknesse and in health. Wherevnto is annexed a comfort for poore prisoners, and also an exhortation to repentance. Written in Dutch, by Gaspar Huberine, and Englished by Thomas Godfrie, esquire, late ... fruits and ... at the request of his dangter Marie, wife ... Iohn French, gentleman of the Inner Temple</title>
+      <author>Huberinus, Caspar.</author>
+      <author>Godfrie, Thomas.</author>
+    </titleStmt>
+    <extent>101 leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[H. Middleton</persName> for<persName type="publisher">] Ralph Newberrie</persName>, dwelling in <placeName>Fleetestreat a litle aboue the conduit</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1578">Anno. 1578.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In four parts. Part 2 caption title reads: How to aduise and comfort them that lye in prison, and be by the magistrate iudgged to dye. Part 3 caption title reads: A faithful and Christian exhortation to repentaunce, and to leade a life in the feare of God. Part 4 caption title reads: An instruction to teache children howe they ought to goe to the Lordes table.</note>
+      <note>A note at the head of part 4 says that it has been adapted to English use.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Ralph Newberrie</persName>
+    </person>
+    <person type="printer">
+      <persName>[H. Middleton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetestreat a litle aboue the conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

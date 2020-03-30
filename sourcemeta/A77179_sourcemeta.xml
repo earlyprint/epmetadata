@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A disquisition about the final causes of natural things wherein it is inquir'd, whether, and (if at all) with what cautions, a naturalist should admit them? By T.H. R.B. Fellow of the Royal Society. To which are subjoyn'd, by way of appendix some uncommon observations about vitiated sight. By the same author.</title>
-         <author>Boyle, Robert, 1627-1691.</author>
-      </titleStmt>
-      <extent>[16], 96, 81-112, 129-274, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by H.C. for John Taylor, at the Ship in St. Paul's Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Some uncommon observations about vitiated sight. London: printed for J. Taylor, at the Ship in St. Paul's Church-Yard, 1688."; pagination and register are continuous.</note>
-         <note>With a final errata leaf and two final advertisement leaves.</note>
-         <note>Attributed to Robert Boyle by Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A disquisition about the final causes of natural things wherein it is inquir'd, whether, and (if at all) with what cautions, a naturalist should admit them? By T.H. R.B. Fellow of the Royal Society. To which are subjoyn'd, by way of appendix some uncommon observations about vitiated sight. By the same author.</title>
+      <author>Boyle, Robert, 1627-1691.</author>
+    </titleStmt>
+    <extent>[16], 96, 81-112, 129-274, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">H.C.</persName> for <persName type="publisher">John Taylor</persName>, at <placeName>the Ship in St. Paul's Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Some uncommon observations about vitiated sight. London: printed for J. Taylor, at the Ship in St. Paul's Church-Yard, 1688."; pagination and register are continuous.</note>
+      <note>With a final errata leaf and two final advertisement leaves.</note>
+      <note>Attributed to Robert Boyle by Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>H.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Ship in St. Paul's Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

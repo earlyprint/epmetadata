@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A just and true remonstrance of His Maiesties mines-royall in the principality of Wales presented by Thomas Bushell, Esquire, farmer of the said mines-royall to His Majestie.</title>
-         <author>Bushell, Thomas, 1594-1674.</author>
-      </titleStmt>
-      <extent>36 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London by E.G.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A just and true remonstrance of His Maiesties mines-royall in the principality of Wales presented by Thomas Bushell, Esquire, farmer of the said mines-royall to His Majestie.</title>
+      <author>Bushell, Thomas, 1594-1674.</author>
+    </titleStmt>
+    <extent>36 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName> by <persName type="printer">E.G.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

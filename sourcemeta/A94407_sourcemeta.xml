@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To his Excellencie the Lord Charls Fleetwood and the rest of the officers of the Army.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for Livewel Chapman,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: From several thousands of faithful friends to the good old cause, in and about the city of London.</note>
-         <note>Complaining of the Army's neglect of its duty to the country and the cause.</note>
-         <note>Annotation on Thomason copy: "April 26".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To his Excellencie the Lord Charls Fleetwood and the rest of the officers of the Army.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">Livewel Chapman</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: From several thousands of faithful friends to the good old cause, in and about the city of London.</note>
+      <note>Complaining of the Army's neglect of its duty to the country and the cause.</note>
+      <note>Annotation on Thomason copy: "April 26".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Livewel Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

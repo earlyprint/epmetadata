@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A tender visitation in the love of God unto all people everywhere particularly unto the inhabitants of Wiltshire, Gloucestershire, and Bristol, and to my neighbours in and about Tetherton, Calloways, and the adjacent towns and villages / by Charles Marshall.</title>
-         <author>Marshall, Charles, 1637-1698.</author>
-      </titleStmt>
-      <extent>23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A tender visitation in the love of God unto all people everywhere particularly unto the inhabitants of Wiltshire, Gloucestershire, and Bristol, and to my neighbours in and about Tetherton, Calloways, and the adjacent towns and villages / by Charles Marshall.</title>
+      <author>Marshall, Charles, 1637-1698.</author>
+    </titleStmt>
+    <extent>23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Andrew Sowle</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

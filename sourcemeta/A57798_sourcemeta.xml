@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The royall remonstrance with a declaration to the people touching our Soveraign Lord King Charles; and two excellent speeches spoken by his Royal Majesty, for the restoring of all his loyall subjects to their just rights, laws, liberties, and freedoms. With the proclaiming of the Kings most excellent Majesty (yesterday) in Middlesex, King of England, Scotland, France, and Ireland, Defender of the Faith, &amp;c. And the honorable commissioners of Parliament beginnning [sic] their journey the same day to wait upon his Majesty, with the Parliaments letter and answer, to his Majesties gracious message and declaration; and the desires of both Houses.</title>
-         <author>Charles II, King of England, 1630-1685. aut</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>for W. Parker and are to be sold at Ludgate-Hill, and within Black-Friers Gate,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Stained, with print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The royall remonstrance with a declaration to the people touching our Soveraign Lord King Charles; and two excellent speeches spoken by his Royal Majesty, for the restoring of all his loyall subjects to their just rights, laws, liberties, and freedoms. With the proclaiming of the Kings most excellent Majesty (yesterday) in Middlesex, King of England, Scotland, France, and Ireland, Defender of the Faith, &amp;c. And the honorable commissioners of Parliament beginnning [sic] their journey the same day to wait upon his Majesty, with the Parliaments letter and answer, to his Majesties gracious message and declaration; and the desires of both Houses.</title>
+      <author>Charles II, King of England, 1630-1685. aut</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">W. Parker</persName> and are to be sold at <placeName>Ludgate-Hill</placeName>, and within <placeName>Black-Friers Gate</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Stained, with print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Parker</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Black-Friers Gate</placeName>
+    </place>
+    <place type="location">
+      <placeName>Ludgate-Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

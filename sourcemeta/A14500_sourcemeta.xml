@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Virgil's Georgicks Englished. by Tho: May Esqr</title>
-         <title>Georgica. English</title>
-         <author>Virgil.</author>
-         <author>May, Thomas, 1595-1650.</author>
-         <author>Vaughan, Robert, engraver.</author>
-      </titleStmt>
-      <extent>[10], 147, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Humphrey Lownes] for Tho: Walkley in Brittains Burse,</publisher>
-         <pubPlace>Lo: :</pubPlace>
-         <date when="1628">1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>The title page is engraved and signed: R Vaughan fecit.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf and the last two leaves are blank.</note>
-         <note>In this edition the text ends on K2.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Virgil's Georgicks Englished. by Tho: May Esqr</title>
+      <title>Georgica. English</title>
+      <author>Virgil.</author>
+      <author>May, Thomas, 1595-1650.</author>
+      <author>Vaughan, Robert, engraver.</author>
+    </titleStmt>
+    <extent>[10], 147, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Humphrey Lownes]</persName> for <persName type="publisher">Tho: Walkley</persName> in <placeName>Brittains Burse</placeName>,</publisher>
+      <pubPlace>Lo: :</pubPlace>
+      <date when="1628">1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>The title page is engraved and signed: R Vaughan fecit.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf and the last two leaves are blank.</note>
+      <note>In this edition the text ends on K2.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho: Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>Humphrey Lownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Brittains Burse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

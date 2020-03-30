@@ -1,24 +1,52 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Deputy and Council. Tyrconnell. Whereas an act of council past at this board, dated the second day of May 1687. Which act of council followeth in these words; By the Lord Deputy and Council, Tyrconnel. Whereas a petition was presented at this board on the behalf of the merchant traders and dealers, and other his Majesties subjects in this kingdom, setting forth that the chief governours and council of this kingdom had for several years ... dispensed with several provisoes ... for settling the subsidy of tunnage ...</title>
-         <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
-         <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham, assigns of Benjamin Tooke printer to the Kings most excellent Majesty; and are to be sold by Andrew Crook at his Majesties printing-house on Ormonde-Key, and by Samuel Helsham at the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at the Council-Chamber in Dublin the 18th day of July, 1687."</note>
-         <note>By royal letters of 7 June, 1687, the Act of Council, no.980 q.v., of 2 May, ... is revoked and annulled.--Steele.</note>
-         <note>Arms 186.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Deputy and Council. Tyrconnell. Whereas an act of council past at this board, dated the second day of May 1687. Which act of council followeth in these words; By the Lord Deputy and Council, Tyrconnel. Whereas a petition was presented at this board on the behalf of the merchant traders and dealers, and other his Majesties subjects in this kingdom, setting forth that the chief governours and council of this kingdom had for several years ... dispensed with several provisoes ... for settling the subsidy of tunnage ...</title>
+      <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
+      <author>Tyrconnel, Richard Talbot, Earl of, 1630-1691.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer"><persName type="bookseller">Andrew Crook</persName></persName> and <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName>, assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings most excellent Majesty;</persName> and are to be sold by <persName type="printer"><persName type="bookseller">Andrew Crook</persName></persName> at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and by <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName> at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at the Council-Chamber in Dublin the 18th day of July, 1687."</note>
+      <note>By royal letters of 7 June, 1687, the Act of Council, no.980 q.v., of 2 May, ... is revoked and annulled.--Steele.</note>
+      <note>Arms 186.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

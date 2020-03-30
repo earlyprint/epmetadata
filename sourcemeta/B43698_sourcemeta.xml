@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The present state and condition of the clergy, and Church of Scotland</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Taylor near Stationers-Hall,,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1689 [i.e. 1690].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Dated at end: Jan. 23d, 1689/90.</note>
-         <note>Imperfect: stained with slight loss of text.</note>
-         <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The present state and condition of the clergy, and Church of Scotland</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Randal Taylor</persName></persName> near <placeName>Stationers-Hall</placeName>,,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1689 [i.e. 1690].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dated at end: Jan. 23d, 1689/90.</note>
+      <note>Imperfect: stained with slight loss of text.</note>
+      <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

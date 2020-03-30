@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact list of Their Majesties and the Dutch fleet, design'd for the year, 1693. For the line of battel the English to lead with the larboard, and the Dutch with their starboard, tacks on board.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for Richard Baldwin in Warwick Lane near the Oxford Arms,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title; advertisement at foot of page.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact list of Their Majesties and the Dutch fleet, design'd for the year, 1693. For the line of battel the English to lead with the larboard, and the Dutch with their starboard, tacks on board.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Richard Baldwin</persName> in <placeName>Warwick Lane near the Oxford Arms</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title; advertisement at foot of page.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Warwick Lane near the Oxford Arms</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

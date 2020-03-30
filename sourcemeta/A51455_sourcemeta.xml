@@ -1,18 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The most excellent history of Antonius and Aurelia: or, The two incomparable lovers. Wherein is demonstrated the unparalel'd constancy of true affection to Aurelia by Antonius; the many inevitable dangers he underwent in the pursuit of her love; and how in the end he obtained it. Interlaced with pleasant discourses, wanton dalliances, and all the various intreagues which attend true love, when parents and friends are obstructive in the same. Very pleasant and delightful to read, especially to those whose mistrisses are perverse and froward, for hereby, observing the sequel of this history, they may by art and means obtain their desires.</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T. Haley, and are to be sold by J. Wright, J. Clarke, W. Thackeray, and T. Passenger,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-C&#8308;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The most excellent history of Antonius and Aurelia: or, The two incomparable lovers. Wherein is demonstrated the unparalel'd constancy of true affection to Aurelia by Antonius; the many inevitable dangers he underwent in the pursuit of her love; and how in the end he obtained it. Interlaced with pleasant discourses, wanton dalliances, and all the various intreagues which attend true love, when parents and friends are obstructive in the same. Very pleasant and delightful to read, especially to those whose mistrisses are perverse and froward, for hereby, observing the sequel of this history, they may by art and means obtain their desires.</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T. Haley</persName>, and are to be sold by <persName type="bookseller">J. Wright</persName>, <persName type="bookseller">J. Clarke</persName>, <persName type="bookseller">W. Thackeray</persName>, and <persName type="bookseller">T. Passenger</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Haley</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Clarke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Wright</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Passenger</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Thackeray</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

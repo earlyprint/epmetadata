@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A royall edict for military exercises published in a sermon preached to the captaines, and gentlemen that exercise armes in the artillery garden at their generall meeting. In Saint Andrewes vndershaft, in London, Iune 23. 1629. By Iohn Dauenporte, B. of Diuinity, and P. of Saint Stephans in Cole-man-street in London.</title>
-         <author>Davenport, John, 1597-1670.</author>
-      </titleStmt>
-      <extent>[8], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Elizabeth Allde for Ralph Mab, and are to be sold by Nicholas Bourne, at the south entrance of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1629">1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A royall edict for military exercises published in a sermon preached to the captaines, and gentlemen that exercise armes in the artillery garden at their generall meeting. In Saint Andrewes vndershaft, in London, Iune 23. 1629. By Iohn Dauenporte, B. of Diuinity, and P. of Saint Stephans in Cole-man-street in London.</title>
+      <author>Davenport, John, 1597-1670.</author>
+    </titleStmt>
+    <extent>[8], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Elizabeth Allde</persName> for <persName type="publisher">Ralph Mab</persName>, and are to be sold by <persName type="bookseller">Nicholas Bourne</persName>, at <placeName>the south entrance of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1629">1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Mab</persName>
+    </person>
+    <person type="printer">
+      <persName>Elizabeth Allde</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nicholas Bourne</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the south entrance of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

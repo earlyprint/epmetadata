@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A consolatory poem humbly addressed to Her Royal Highness upon the much lamented death of His Most Illustrious Highness, William, Duke of Glocester / by Dr. Gibbs.</title>
-         <author>Gibbs, James, d. 1724.</author>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Hartley, and sold by John Nutt,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A consolatory poem humbly addressed to Her Royal Highness upon the much lamented death of His Most Illustrious Highness, William, Duke of Glocester / by Dr. Gibbs.</title>
+      <author>Gibbs, James, d. 1724.</author>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Hartley</persName>, and sold by <persName type="bookseller">John Nutt</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Hartley</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

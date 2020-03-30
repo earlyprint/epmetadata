@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Dialogues of the dead relating to the present controversy concerning the Epistles of Phalaris / by the author of the Journey to London.</title>
-         <author>King, William, 1663-1712.</author>
-      </titleStmt>
-      <extent>[8], 83, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by A. Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An attack on Richard Bentley.</note>
-         <note>Attributed to William King. Cf. BM.</note>
-         <note>First ed. Cf. BM.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-         <note>Includes index.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Dialogues of the dead relating to the present controversy concerning the Epistles of Phalaris / by the author of the Journey to London.</title>
+      <author>King, William, 1663-1712.</author>
+    </titleStmt>
+    <extent>[8], 83, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">A. Baldwin</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An attack on Richard Bentley.</note>
+      <note>Attributed to William King. Cf. BM.</note>
+      <note>First ed. Cf. BM.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+      <note>Includes index.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Baldwin</persName>
+    </person>
+    <person type="bookseller">
+      <persName>A. Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

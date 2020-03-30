@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Granadiers loyal health A song.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Dean, in Cranborn-Street, in Leicester-Fields near Newport-House,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Verse - "Old England's glory now begins,".</note>
-         <note>Includes 1 staff of music.</note>
-         <note>Identified both as Wing G1485 (reel 1551) and Wing G1934A (reel 1794) on UMI microfilm set "Early English books, 1641-1700".</note>
-         <note>Reproductions of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Granadiers loyal health A song.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Dean</persName>, in <placeName>Cranborn-Street, in Leicester-Fields near Newport-House</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Verse - "Old England's glory now begins,".</note>
+      <note>Includes 1 staff of music.</note>
+      <note>Identified both as Wing G1485 (reel 1551) and Wing G1934A (reel 1794) on UMI microfilm set "Early English books, 1641-1700".</note>
+      <note>Reproductions of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Dean</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cranborn-Street, in Leicester-Fields near Newport-House</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

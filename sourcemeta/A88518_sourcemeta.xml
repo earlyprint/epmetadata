@@ -1,26 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Daphnis and Chloe. A most sweet, and pleasant pastorall romance for young ladies. / By Geo: Thornley, Gent.</title>
-         <title>Daphnis and Chloe. English</title>
-         <author>Longus.</author>
-         <author>Thornley, George, b. 1614.</author>
-         <author>Cross, Thomas, fl. 1632-1682, engraver.</author>
-      </titleStmt>
-      <extent>[18], 229, [3] p. : ill. (metal cut).  </extent>
-      <publicationStmt>
-         <publisher>Printed for John Garfeild, at the sign of the Rolling-presse for Pictures near the Royal-Exchange in Cornhill, over against Popes-Head-Alley,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Longus. Daphnis and Chloe.</note>
-         <note>The frontispiece is signed: Cross fecit.</note>
-         <note>Running title reads: Daphnis and Chloe; or, a pastoral romance.</note>
-         <note>The last leaf is blank.</note>
-         <note>Annotation on Thomason copy: "may. 14".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Daphnis and Chloe. A most sweet, and pleasant pastorall romance for young ladies. / By Geo: Thornley, Gent.</title>
+      <title>Daphnis and Chloe. English</title>
+      <author>Longus.</author>
+      <author>Thornley, George, b. 1614.</author>
+      <author>Cross, Thomas, fl. 1632-1682, engraver.</author>
+    </titleStmt>
+    <extent>[18], 229, [3] p. : ill. (metal cut).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Garfeild</persName>, at <placeName>the sign of the Rolling-presse</placeName> for <persName type="publisher">Pictures</persName> near <placeName>the Royal-Exchange in Cornhill, over against Popes-Head-Alley</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Longus. Daphnis and Chloe.</note>
+      <note>The frontispiece is signed: Cross fecit.</note>
+      <note>Running title reads: Daphnis and Chloe; or, a pastoral romance.</note>
+      <note>The last leaf is blank.</note>
+      <note>Annotation on Thomason copy: "may. 14".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Garfeild</persName>
+    </person>
+    <person type="publisher">
+      <persName>Pictures</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royal-Exchange in Cornhill, over against Popes-Head-Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the sign of the Rolling-presse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

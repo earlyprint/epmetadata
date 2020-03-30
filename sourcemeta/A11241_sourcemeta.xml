@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Clidamas, or The Sicilian tale. VVritten by I.S.</title>
-         <author>I. S., fl. 1639.</author>
-         <author>Hollar, Wenceslaus, 1607-1677, engraver.</author>
-      </titleStmt>
-      <extent>[10], 152 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Payne, and are to be sold by Iohn Cowper, at the Holy Lambe, at the east end of Saint Paules Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an additional title page, engraved, signed: W: Hollar, fecit.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Clidamas, or The Sicilian tale. VVritten by I.S.</title>
+      <author>I. S., fl. 1639.</author>
+      <author>Hollar, Wenceslaus, 1607-1677, engraver.</author>
+    </titleStmt>
+    <extent>[10], 152 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Payne</persName>, and are to be sold by <persName type="bookseller">Iohn Cowper</persName>, at <placeName>the Holy Lambe, at the east end of Saint Paules Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an additional title page, engraved, signed: W: Hollar, fecit.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Payne</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Cowper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Holy Lambe, at the east end of Saint Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

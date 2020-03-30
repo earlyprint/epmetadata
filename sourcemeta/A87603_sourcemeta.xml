@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of the famous Thomas Stukely An English gentleman in the time of Queen Elizabeth, who ended his life in the baetle of the three kings of Barbary.</title>
-         <title>Life and death of famous Thomas Stukely</title>
-         <author>Johnson, Richard, 1573-1659?</author>
-      </titleStmt>
-      <extent>2 sheets (versos blank) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed and sold in Bow-Church-Yard, London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1700" cert="low">[ca. 1700]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Johnson.</note>
-         <note>Verse - "In the west of England,".</note>
-         <note>In four columns with the title and woodcut above the first two; the columns are not separated by rules.</note>
-         <note>Place and date of publication from Wing (CD-ROM edition).</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of the famous Thomas Stukely An English gentleman in the time of Queen Elizabeth, who ended his life in the baetle of the three kings of Barbary.</title>
+      <title>Life and death of famous Thomas Stukely</title>
+      <author>Johnson, Richard, 1573-1659?</author>
+    </titleStmt>
+    <extent>2 sheets (versos blank) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed and sold in <placeName>Bow-Church-Yard</placeName>, <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1700" cert="low">[ca. 1700]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Johnson.</note>
+      <note>Verse - "In the west of England,".</note>
+      <note>In four columns with the title and woodcut above the first two; the columns are not separated by rules.</note>
+      <note>Place and date of publication from Wing (CD-ROM edition).</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Bow-Church-Yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vindici&#230; Ecclesi&#230; Anglican&#230;: or A iustification of the religion now professed in England VVherein it is prooued to be the same which was taught by our Sauiour Iesus Christ, and by his holy Apostles; written for their vse that haue desired such proofe. By W.T.</title>
-         <author>Travers, Walter, 1547 or 8-1635.</author>
-         <author>A. B.</author>
-         <author>Travers, Walter, d. 1646, attributed name.</author>
-      </titleStmt>
-      <extent>[8], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>By T[homas] C[otes] &amp; R[obert] C[otes] for Michael Sparke, dwelling at the blue Bible in Greene Arbor,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>W.T. = Walter Travers.</note>
-         <note>Sometimes attributed to Walter Travers, chaplain to Charles I.</note>
-         <note>Editor's note "Ad lectorem" signed: A.B.</note>
-         <note>Printers' names from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vindici&#230; Ecclesi&#230; Anglican&#230;: or A iustification of the religion now professed in England VVherein it is prooued to be the same which was taught by our Sauiour Iesus Christ, and by his holy Apostles; written for their vse that haue desired such proofe. By W.T.</title>
+      <author>Travers, Walter, 1547 or 8-1635.</author>
+      <author>A. B.</author>
+      <author>Travers, Walter, d. 1646, attributed name.</author>
+    </titleStmt>
+    <extent>[8], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">T[homas] C[otes]</persName> &amp; <persName type="printer">R[obert] C[otes]</persName> for <persName type="publisher">Michael Sparke</persName>, dwelling at <placeName>the blue Bible in Greene Arbor</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>W.T. = Walter Travers.</note>
+      <note>Sometimes attributed to Walter Travers, chaplain to Charles I.</note>
+      <note>Editor's note "Ad lectorem" signed: A.B.</note>
+      <note>Printers' names from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Michael Sparke</persName>
+    </person>
+    <person type="printer">
+      <persName>R[obert] C[otes]</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] C[otes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the blue Bible in Greene Arbor</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

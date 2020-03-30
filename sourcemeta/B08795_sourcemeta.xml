@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Animadversions upon a fatal period, or, A brief discourse concerning the present state of the body, and the future state of the soul by Tho. Collard.</title>
-         <author>Collard, Tho.</author>
-      </titleStmt>
-      <extent>[14], 83, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.D. for Thomas Basset,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes advertisements at end -- [5] p.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Animadversions upon a fatal period, or, A brief discourse concerning the present state of the body, and the future state of the soul by Tho. Collard.</title>
+      <author>Collard, Tho.</author>
+    </titleStmt>
+    <extent>[14], 83, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.D.</persName> for <persName type="publisher">Thomas Basset</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes advertisements at end -- [5] p.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Basset</persName>
+    </person>
+    <person type="printer">
+      <persName>T.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Moses next to God, and Aaron next to Moses subordinate and subservient opened in a sermon preached at St. Peters in Exon on Wednesday the 29th of May 1661, being the solemn and anniversary thanksgiving for the double birth of our most gracious sovereign, K. Charles the II / by John Copleston ...</title>
-         <author>Copleston, John.</author>
-      </titleStmt>
-      <extent>[8], 34, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid for Richard Thrale, and are to be sold at the Cross Keys in St. Paul's Church-yard at the entring into Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">M DC LXI [1661]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1]-[2] at end.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Moses next to God, and Aaron next to Moses subordinate and subservient opened in a sermon preached at St. Peters in Exon on Wednesday the 29th of May 1661, being the solemn and anniversary thanksgiving for the double birth of our most gracious sovereign, K. Charles the II / by John Copleston ...</title>
+      <author>Copleston, John.</author>
+    </titleStmt>
+    <extent>[8], 34, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName> for <persName type="publisher">Richard Thrale</persName>, and are to be sold at <placeName>the Cross Keys in St. Paul's Church-yard at the entring into Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">M DC LXI [1661]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1]-[2] at end.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Thrale</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Cross Keys in St. Paul's Church-yard at the entring into Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

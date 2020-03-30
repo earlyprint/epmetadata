@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The plague of the heart its [brace] nature and quality, original and causes, signs and symptoms, prevention and cure : with directions for our behaviour under the present judgement and plague of the Almighty / by John Edwards ...</title>
-         <author>Edwards, John, 1637-1716.</author>
-      </titleStmt>
-      <extent>[4], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, for Edmund Beechinoe ...,</publisher>
-         <pubPlace>Cambridge [England] :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The plague of the heart its [brace] nature and quality, original and causes, signs and symptoms, prevention and cure : with directions for our behaviour under the present judgement and plague of the Almighty / by John Edwards ...</title>
+      <author>Edwards, John, 1637-1716.</author>
+    </titleStmt>
+    <extent>[4], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, for <persName type="publisher">Edmund Beechinoe</persName> ...,</publisher>
+      <pubPlace>Cambridge [England] :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Beechinoe</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

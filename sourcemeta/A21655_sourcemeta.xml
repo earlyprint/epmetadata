@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The exhortation of Salomon. By H.A.</title>
-         <author>H. A. (Henry Arthington)</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Scarlet] for Cuthbert Burby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1594">1594.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>H.A. = Henry Arthington.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The exhortation to Salomon.</note>
-         <note>Includes, with caption title: A briefe praier of the foresayd text.</note>
-         <note>Signatures: A-I&#8308; (A1 blank).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The exhortation of Salomon. By H.A.</title>
+      <author>H. A. (Henry Arthington)</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Scarlet]</persName> for <persName type="publisher">Cuthbert Burby</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1594">1594.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>H.A. = Henry Arthington.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The exhortation to Salomon.</note>
+      <note>Includes, with caption title: A briefe praier of the foresayd text.</note>
+      <note>Signatures: A-I&#8308; (A1 blank).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cuthbert Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Scarlet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

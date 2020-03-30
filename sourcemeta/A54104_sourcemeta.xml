@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief account of the province of Pennsylvania, lately granted by the King, under the great seal of England to William Penn and his heirs and assigns</title>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>8 p., 1 folded leaf of plates : map.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Benjamin Clark ...,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1681" cert="low">1681?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signed: William Penn.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief account of the province of Pennsylvania, lately granted by the King, under the great seal of England to William Penn and his heirs and assigns</title>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>8 p., 1 folded leaf of plates : map.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Benjamin Clark</persName> ...,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1681" cert="low">1681?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signed: William Penn.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of the United Provinces of Achaia collected in Latine by the learned Jacobus Gothofredus ; and rendred into English, with some additions, by Henry Stubbe.</title>
-         <title>Achaica. English</title>
-         <author>Godefroy, Jacques, 1587-1652.</author>
-         <author>Stubbe, Henry, 1632-1676.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Clark for Jonathan Edwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Achaica, seu, De causis interitus reipublicae Achaeorum.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of the United Provinces of Achaia collected in Latine by the learned Jacobus Gothofredus ; and rendred into English, with some additions, by Henry Stubbe.</title>
+      <title>Achaica. English</title>
+      <author>Godefroy, Jacques, 1587-1652.</author>
+      <author>Stubbe, Henry, 1632-1676.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName> for <persName type="publisher">Jonathan Edwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Achaica, seu, De causis interitus reipublicae Achaeorum.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Edwin</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

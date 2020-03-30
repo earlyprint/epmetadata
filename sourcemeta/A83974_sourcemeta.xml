@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands monument of mercies in her miraculous preservations from manifold plots, conspiracies, contrivances and attempts of forraigne and home-bred treacherous enemies, against the Parliament, kingdome, and purity of religion: discovering the time, persons and places of these attempts; with all their most remarkable proceedings. Published purposely to raise up the hearts of all the faithfull in the kingdome, unto a continued thankfulnesse unto God.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (ports.)  </extent>
-      <publicationStmt>
-         <publisher>Printed for S.W. and I.P. and are to be sold at their shops in great Woodstreet, and in thegreat [sic] Old-Baily, neere the Sessions-House,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Features engraved portraits of: William Laud, Archbishop of Canterbury; the Deputy of Ireland; Sir Basil Brook; Lord Digbie; Lady Aubignye; Prince Rupert; the Earl of Newcastle; Lord Jarmin; and the Earl of Montrose.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "Septemb: 21th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands monument of mercies in her miraculous preservations from manifold plots, conspiracies, contrivances and attempts of forraigne and home-bred treacherous enemies, against the Parliament, kingdome, and purity of religion: discovering the time, persons and places of these attempts; with all their most remarkable proceedings. Published purposely to raise up the hearts of all the faithfull in the kingdome, unto a continued thankfulnesse unto God.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (ports.)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">S.W.</persName> and <persName type="publisher">I.P.</persName> and are to be sold at <placeName>their shops in great Woodstreet</placeName>, and in <placeName>thegreat [sic] Old-Baily, neere the Sessions-House</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Features engraved portraits of: William Laud, Archbishop of Canterbury; the Deputy of Ireland; Sir Basil Brook; Lord Digbie; Lady Aubignye; Prince Rupert; the Earl of Newcastle; Lord Jarmin; and the Earl of Montrose.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "Septemb: 21th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I.P.</persName>
+    </person>
+    <person type="publisher">
+      <persName>S.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>thegreat [sic] Old-Baily, neere the Sessions-House</placeName>
+    </place>
+    <place type="location">
+      <placeName>their shops in great Woodstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

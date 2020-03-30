@@ -1,24 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mourning-ring, in memory of your departed friend ...</title>
-         <author>Dunton, John, 1627 or 8-1676.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[22], 266, 81-296, 161-256.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Dunton ...</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>A collection consisting of copies of works previously pub. in separate form.</note>
-         <note>Table of contents: p. [18]-[22]</note>
-         <note>Attributed to John Dunton. cf. BM.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mourning-ring, in memory of your departed friend ...</title>
+      <author>Dunton, John, 1627 or 8-1676.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[22], 266, 81-296, 161-256.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Dunton</persName> ...</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>A collection consisting of copies of works previously pub. in separate form.</note>
+      <note>Table of contents: p. [18]-[22]</note>
+      <note>Attributed to John Dunton. cf. BM.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Dunton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

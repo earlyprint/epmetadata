@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Churchyardes lamentacion of freyndshyp</title>
-         <author>Churchyard, Thomas, 1520?-1604.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Colwell for Nicolas Wyer dwelling in S. Martyus [sic] paryshe nere to Charynge Crosse, at the sygne of Saint Iohn Euangelist,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1566">[1566]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: qd. Churchyarde, i.e. Thomas Churchyard.</note>
-         <note>Verse - "In court some say doth freindshyp flowe,".</note>
-         <note>Publication date from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Churchyardes lamentacion of freyndshyp</title>
+      <author>Churchyard, Thomas, 1520?-1604.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Colwell</persName> for <persName type="publisher">Nicolas Wyer</persName> dwelling in <placeName>S. Martyus [sic] paryshe nere to Charynge Crosse, at the sygne of Saint Iohn Euangelist</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1566">[1566]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: qd. Churchyarde, i.e. Thomas Churchyard.</note>
+      <note>Verse - "In court some say doth freindshyp flowe,".</note>
+      <note>Publication date from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicolas Wyer</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Colwell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. Martyus [sic] paryshe nere to Charynge Crosse, at the sygne of Saint Iohn Euangelist</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

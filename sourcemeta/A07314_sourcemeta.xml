@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mirrour of religious men, and of godly matrones Exhibited in the golden legends of these six famous and faithfull persons. Abraham &amp; Sara, Isack [&amp;] Rebecca: Iacob [&amp;] Rahel. Very comfortable to be read of all the sonnes and daughters of such faithfull parents according to the promise, for the rectifying of their liues and the confirming of their faith. By I.M. Master in Arts.</title>
-         <author>Maxwell, James, b. 1581.</author>
-      </titleStmt>
-      <extent>[14], 159, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Alde] for E. White, and are to be sold at his shop at the signe of the gun, neere the little north dore of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iames Maxwell.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mirrour of religious men, and of godly matrones Exhibited in the golden legends of these six famous and faithfull persons. Abraham &amp; Sara, Isack [&amp;] Rebecca: Iacob [&amp;] Rahel. Very comfortable to be read of all the sonnes and daughters of such faithfull parents according to the promise, for the rectifying of their liues and the confirming of their faith. By I.M. Master in Arts.</title>
+      <author>Maxwell, James, b. 1581.</author>
+    </titleStmt>
+    <extent>[14], 159, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Alde]</persName> for <persName type="publisher">E. White</persName>, and are to be sold at <placeName>his shop at the signe of the gun, neere the little north dore of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iames Maxwell.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. White</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Alde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the gun, neere the little north dore of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

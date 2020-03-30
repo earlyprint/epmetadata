@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Memoires of the family of Stuarts and the remarkable providences of God towards them in an historical account of the lives of those His Majesty's progenitors of that name that were kings of Scotland.</title>
-         <author>Watson, John, b. 1597?</author>
-      </titleStmt>
-      <extent>[22], 185 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Wallis for Walter Kettleby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Watson by Wing and NUC pre-1956 imprints.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Memoires of the family of Stuarts and the remarkable providences of God towards them in an historical account of the lives of those His Majesty's progenitors of that name that were kings of Scotland.</title>
+      <author>Watson, John, b. 1597?</author>
+    </titleStmt>
+    <extent>[22], 185 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Wallis</persName> for <persName type="publisher">Walter Kettleby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Watson by Wing and NUC pre-1956 imprints.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettleby</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Wallis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

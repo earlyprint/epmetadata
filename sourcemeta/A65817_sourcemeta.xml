@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Leviathan found out, or, The answer to Mr. Hobbes's Leviathan in that which my Lord of Clarendon hath past over by John Whitehall ...</title>
-         <author>Whitehall, John, fl. 1679-1685.</author>
-      </titleStmt>
-      <extent>[12], 163 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Godbid and J. Playford ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Leviathan found out, or, The answer to Mr. Hobbes's Leviathan in that which my Lord of Clarendon hath past over by John Whitehall ...</title>
+      <author>Whitehall, John, fl. 1679-1685.</author>
+    </titleStmt>
+    <extent>[12], 163 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Godbid</persName> and <persName type="printer">J. Playford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Godbid</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Playford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

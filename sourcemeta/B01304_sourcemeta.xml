@@ -1,18 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief (yet full) account of the doctrine of vulgar and decimal fractions, with a specimen on their demonstrations by William Alingham, teacher of the mathematicks.</title>
-      </titleStmt>
-      <extent>[5], 75 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed; sold by Mr. Mount at the Postern on Tower-hill, Mr. Lea, Globemaker in Cheapside. Mr. Worgan, Mathematick-Instrument-maker, under St. Dunstan's Church in Fleetstreet; and by the Author, at his House in Channel-Row, Westminster.</publisher>
-         <pubPlace>London:</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes preface by the author on [4]-[5].</note>
-         <note>Reproduction of original in: Universit&#228;t G&#246;ttingen Bibliothek.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief (yet full) account of the doctrine of vulgar and decimal fractions, with a specimen on their demonstrations by William Alingham, teacher of the mathematicks.</title>
+    </titleStmt>
+    <extent>[5], 75 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed; sold by <persName type="bookseller">Mr. Mount</persName> at <placeName>the Postern on Tower-hill</placeName>, <placeName>Mr. Lea</placeName>, <placeName>Globemaker in Cheapside. Mr. Worgan</placeName>, <placeName>Mathematick-Instrument-maker, under St. Dunstan's Church in Fleetstreet;</placeName> and by <persName type="printer">the Author</persName>, at <placeName>his House in Channel-Row</placeName>, <placeName>Westminster.</placeName></publisher>
+      <pubPlace>London:</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes preface by the author on [4]-[5].</note>
+      <note>Reproduction of original in: Universit&#228;t G&#246;ttingen Bibliothek.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the Author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mr. Mount</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Globemaker in Cheapside. Mr. Worgan</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mathematick-Instrument-maker, under St. Dunstan's Church in Fleetstreet;</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mr. Lea</placeName>
+    </place>
+    <place type="location">
+      <placeName>Westminster.</placeName>
+    </place>
+    <place type="location">
+      <placeName>his House in Channel-Row</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Postern on Tower-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

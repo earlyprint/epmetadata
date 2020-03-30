@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sinfull mans search: or seeking of God. Preached by Henrie Smith, and published according to a true corrected copie, sent by the author to an honorable ladie</title>
-         <author>Smith, Henry, 1550?-1591.</author>
-      </titleStmt>
-      <extent>[94] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Scarlet] for Cuthbert Burby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1592">1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>In two parts; part 2 formerly STC 22682.</note>
-         <note>Part 2, "Maries choise", identified as STC 22682 on UMI microfilm, reel 1465.</note>
-         <note>"Maries choise" has separate dated title page; register is continuous.</note>
-         <note>Signatures: A-F (-D1, blank?).</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sinfull mans search: or seeking of God. Preached by Henrie Smith, and published according to a true corrected copie, sent by the author to an honorable ladie</title>
+      <author>Smith, Henry, 1550?-1591.</author>
+    </titleStmt>
+    <extent>[94] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Scarlet]</persName> for <persName type="publisher">Cuthbert Burby</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1592">1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>In two parts; part 2 formerly STC 22682.</note>
+      <note>Part 2, "Maries choise", identified as STC 22682 on UMI microfilm, reel 1465.</note>
+      <note>"Maries choise" has separate dated title page; register is continuous.</note>
+      <note>Signatures: A-F (-D1, blank?).</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Cuthbert Burby</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Scarlet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Catalogue des diverses liures francoises recueill&#233;es dans la France / par Robert Martine, Libraire de Londres ; aupres du quel ils se vendent, a l'enseigne de Venize, en la rue nomm&#233; Old-Bayly.</title>
-         <author>Martin, Robert, fl. 1635-1641.</author>
-      </titleStmt>
-      <extent>[28] p.   </extent>
-      <publicationStmt>
-         <publisher>Chez Thomas Harper,</publisher>
-         <pubPlace>Imprime a Londres :</pubPlace>
-         <date when="1640">MDCXL [1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: [A]&#185; B-D&#8308; E&#185;.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Catalogue des diverses liures francoises recueill&#233;es dans la France / par Robert Martine, Libraire de Londres ; aupres du quel ils se vendent, a l'enseigne de Venize, en la rue nomm&#233; Old-Bayly.</title>
+      <author>Martin, Robert, fl. 1635-1641.</author>
+    </titleStmt>
+    <extent>[28] p.   </extent>
+    <publicationStmt>
+      <publisher>Chez <persName type="printer">Thomas Harper</persName>,</publisher>
+      <pubPlace>Imprime a Londres :</pubPlace>
+      <date when="1640">MDCXL [1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: [A]&#185; B-D&#8308; E&#185;.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

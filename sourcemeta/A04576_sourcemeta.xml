@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Dauids teacher, or The true teacher of the right-vvay to heauen Discouering erroneous teachers and seditious sectuaries. Preached at Paules-Crosse the 3. of September. 1609. By Ro: Iohnson, M. of Arts, chaplaine to the Right Reuerend Father in God, the L. Bishop of Lincolne.</title>
-         <author>Johnson, Robert, chaplain to the Bishop of Lincoln.</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Haueland, for Mathew Law, and are to be solde at his shop in Pauls-Church-yard, neere S. Austins-gate, at the signe of the Fox,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A&#178;  B-G&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Slight print show-through.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Dauids teacher, or The true teacher of the right-vvay to heauen Discouering erroneous teachers and seditious sectuaries. Preached at Paules-Crosse the 3. of September. 1609. By Ro: Iohnson, M. of Arts, chaplaine to the Right Reuerend Father in God, the L. Bishop of Lincolne.</title>
+      <author>Johnson, Robert, chaplain to the Bishop of Lincoln.</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Haueland</persName>, for <persName type="publisher">Mathew Law</persName>, and are to be solde at <placeName>his shop in Pauls-Church-yard, neere S. Austins-gate, at the signe of the Fox</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#178;  B-G&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Slight print show-through.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mathew Law</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Haueland</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls-Church-yard, neere S. Austins-gate, at the signe of the Fox</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

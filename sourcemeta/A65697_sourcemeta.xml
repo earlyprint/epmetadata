@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Considerations humbly offered for taking the oath of allegiance to King William and Queen Mary</title>
-         <author>Whitby, Daniel, 1638-1726.</author>
-      </titleStmt>
-      <extent>[8], 62 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Leake for Awnsham Churchill ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">MDCLXXXIX [1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Whitby by Wing.</note>
-         <note>Errata at foot of p. 62.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Considerations humbly offered for taking the oath of allegiance to King William and Queen Mary</title>
+      <author>Whitby, Daniel, 1638-1726.</author>
+    </titleStmt>
+    <extent>[8], 62 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Leake</persName> for <persName type="publisher">Awnsham Churchill</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">MDCLXXXIX [1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Whitby by Wing.</note>
+      <note>Errata at foot of p. 62.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham Churchill</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Leake</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

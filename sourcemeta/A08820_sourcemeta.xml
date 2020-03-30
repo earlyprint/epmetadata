@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of the Bible briefly collected by way of question and ansvver. Read and corrected by the author.</title>
-         <title>History of the Bible.</title>
-         <author>Pagit, Eusebius, 1547?-1617.</author>
-      </titleStmt>
-      <extent>[4], 282 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Legate printer to the Vniuersitie of [Ca]mbridge. And are to be sold in [London in] Pauls Churchyard at the signe of the Crovvne by Simon Waterson,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1605">[c. 1605]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Eusebius Pagit.</note>
-         <note>Place of imprint and place of distribution and publication date from STC.</note>
-         <note>Pages 192 and 240 misnumbered 292 and 140.</note>
-         <note>Another edition of STC 19105.5, published in 1602.</note>
-         <note>Imperfect; some pages stained, with loss of print on title page.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of the Bible briefly collected by way of question and ansvver. Read and corrected by the author.</title>
+      <title>History of the Bible.</title>
+      <author>Pagit, Eusebius, 1547?-1617.</author>
+    </titleStmt>
+    <extent>[4], 282 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legate</persName> printer to <persName type="patron">the Vniuersitie of [Ca]mbridge. And</persName> are to be sold in <placeName>[London in] Pauls Churchyard at the signe of the Crovvne</placeName> by <persName type="printer">Simon Waterson</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1605">[c. 1605]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Eusebius Pagit.</note>
+      <note>Place of imprint and place of distribution and publication date from STC.</note>
+      <note>Pages 192 and 240 misnumbered 292 and 140.</note>
+      <note>Another edition of STC 19105.5, published in 1602.</note>
+      <note>Imperfect; some pages stained, with loss of print on title page.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Legate</persName>
+    </person>
+    <person type="printer">
+      <persName>Simon Waterson</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniuersitie of [Ca]mbridge. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>[London in] Pauls Churchyard at the signe of the Crovvne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

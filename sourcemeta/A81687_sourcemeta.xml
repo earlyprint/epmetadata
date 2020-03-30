@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The clergies honour: or, the lives of St. Basil the Great, Archbishop of Neo-c&#230;sarea, and St. Chrysostom, Archbishop of Constantinople. Drawn by way of parallel</title>
-         <author>Dowell, John, ca. 1627-1690.</author>
-      </titleStmt>
-      <extent>[16], 94, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Nat. Thompson, for William Cooper, at the Pelican in Little-Britain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The clergies honour: or, the lives of St. Basil the Great, Archbishop of Neo-c&#230;sarea, and St. Chrysostom, Archbishop of Constantinople. Drawn by way of parallel</title>
+      <author>Dowell, John, ca. 1627-1690.</author>
+    </titleStmt>
+    <extent>[16], 94, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Nat. Thompson</persName>, for <persName type="publisher">William Cooper</persName>, at <placeName>the Pelican in Little-Britain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Cooper</persName>
+    </person>
+    <person type="printer">
+      <persName>Nat. Thompson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Pelican in Little-Britain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

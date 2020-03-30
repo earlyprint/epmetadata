@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The bride-womans counseller being a sermon preach'd at a wedding, May the 11th, 1699, at Sherbourn, in Dorsetshire / by John Sprint.</title>
-         <author>Sprint, John.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hills ... for the benefit of the poor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699" cert="low">[1699?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from NUC pre-1956 imprints.</note>
-         <note>Reproduction of original in Clark Library, University of California, Los Angeles.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The bride-womans counseller being a sermon preach'd at a wedding, May the 11th, 1699, at Sherbourn, in Dorsetshire / by John Sprint.</title>
+      <author>Sprint, John.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hills</persName> ... for <persName type="publisher">the benefit of the poor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699" cert="low">[1699?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from NUC pre-1956 imprints.</note>
+      <note>Reproduction of original in Clark Library, University of California, Los Angeles.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the benefit of the poor</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hills</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

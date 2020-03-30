@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vertues of that well-known and often experienced medicine Fletcher's powder</title>
-         <author>Fletcher, R. (Richard), fl. 1676-1677.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. James for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Attributed to Fletcher by Wing and NUC pre-1956 imprints.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imperfect: faded and stained, with slight loss of print.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vertues of that well-known and often experienced medicine Fletcher's powder</title>
+      <author>Fletcher, R. (Richard), fl. 1676-1677.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. James</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Attributed to Fletcher by Wing and NUC pre-1956 imprints.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imperfect: faded and stained, with slight loss of print.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. James</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

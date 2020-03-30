@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Iyl of braintfords testament Newly compiled.</title>
-         <author>Copland, Robert, fl. 1508-1547.</author>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>By me William Copland,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1567" cert="low">[ca. 1567?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The author's name, Robert Copland, appears on A2r.</note>
-         <note>In verse.</note>
-         <note>Printer's name from colophon; publication date estimated by STC.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Iyl of braintfords testament Newly compiled.</title>
+      <author>Copland, Robert, fl. 1508-1547.</author>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">me William Copland</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1567" cert="low">[ca. 1567?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The author's name, Robert Copland, appears on A2r.</note>
+      <note>In verse.</note>
+      <note>Printer's name from colophon; publication date estimated by STC.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me William Copland</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

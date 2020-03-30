@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Jovis, 20 Januarii. 1647. An ordinance of the Lords and Commons assembled in Parliament, for enabling a committee in the county of Kent to put in execution all former ordinances of Parliament concerning indempnity.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for Iohn VVright at the Kings head in the old Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1647 [i.e. 1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Joh. Brown Cler. Parliamentorum.</note>
-         <note>Recites ordinances of 21 May 1647 and 7 June. Sir John Rivers, Sir Edward Moyns, etc. are appointed a committee for Kent. They or any five of them to act -- Cf. Steele.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Jovis, 20 Januarii. 1647. An ordinance of the Lords and Commons assembled in Parliament, for enabling a committee in the county of Kent to put in execution all former ordinances of Parliament concerning indempnity.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Iohn VVright</persName> at <placeName>the Kings head in the old Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1647 [i.e. 1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Joh. Brown Cler. Parliamentorum.</note>
+      <note>Recites ordinances of 21 May 1647 and 7 June. Sir John Rivers, Sir Edward Moyns, etc. are appointed a committee for Kent. They or any five of them to act -- Cf. Steele.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn VVright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings head in the old Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

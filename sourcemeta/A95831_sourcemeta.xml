@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plea for the common-laws of England or an answer to a book entituled, A good work for a good magistrate: or, a short cut to a great quiet. (Published by Mr. Hugh Peters:) So far as concerns his proposals touching the said laws. By R. Vaughan of Grays-Inne.</title>
-         <author>Vaughan, Rice.</author>
-      </titleStmt>
-      <extent>[16], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Tyton, and are to be sold at his shop, at the three Daggers in Fleetstreet, near the Inner Temple-gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Peters, Hugh, 1598-1660.  Good work for a good magistrate. Or a short cut to great quiet.</note>
-         <note>Annotation on Thomason copy: "July 3d".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plea for the common-laws of England or an answer to a book entituled, A good work for a good magistrate: or, a short cut to a great quiet. (Published by Mr. Hugh Peters:) So far as concerns his proposals touching the said laws. By R. Vaughan of Grays-Inne.</title>
+      <author>Vaughan, Rice.</author>
+    </titleStmt>
+    <extent>[16], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Tyton</persName>, and are to be sold at <placeName>his shop, at the three Daggers in Fleetstreet, near the Inner Temple-gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Peters, Hugh, 1598-1660.  Good work for a good magistrate. Or a short cut to great quiet.</note>
+      <note>Annotation on Thomason copy: "July 3d".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the three Daggers in Fleetstreet, near the Inner Temple-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of the pitifull life, and unfortunate death of Edward the Fifth, and the then Duke of Yorke, his brother with the troublesome and tyrannical government of usurping Richard the Third, and his miserable end / written by the Right Honorable Sir Thomas Moore ...</title>
-         <author>More, Thomas, Sir, Saint, 1478-1535.</author>
-      </titleStmt>
-      <extent>[8], 461 [i.e. 469] p. : ports.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Payne for the Company of Stationers, and are to be sold by Mich. Young ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Part 2 has separate t.p.: The tragicall historie of the life and reigne of Richard the Third. London : Printed by T. Paine and M. Simmons, 1641.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of the pitifull life, and unfortunate death of Edward the Fifth, and the then Duke of Yorke, his brother with the troublesome and tyrannical government of usurping Richard the Third, and his miserable end / written by the Right Honorable Sir Thomas Moore ...</title>
+      <author>More, Thomas, Sir, Saint, 1478-1535.</author>
+    </titleStmt>
+    <extent>[8], 461 [i.e. 469] p. : ports.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Payne</persName> for <persName type="publisher">the Company of Stationers</persName>, and are to be sold by <persName type="bookseller">Mich. Young</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Part 2 has separate t.p.: The tragicall historie of the life and reigne of Richard the Third. London : Printed by T. Paine and M. Simmons, 1641.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Company of Stationers</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Payne</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mich. Young</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

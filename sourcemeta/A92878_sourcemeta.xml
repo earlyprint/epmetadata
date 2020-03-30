@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Theanthropos: or, God made man. A tract proving the nativity of our Saviour to be on the 25. of December. / By John Selden, that eminently-learned antiquary, late of the Inner-Temple.</title>
-         <author>Selden, John, 1584-1654.</author>
-         <author>Chantry, John, d. 1662?, engraver.</author>
-      </titleStmt>
-      <extent>[8], 91, [21] p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by J.G. for Nathaniel Brooks at the Angel in Corn-hill.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title in Greek characters.</note>
-         <note>The portrait of the author is signed: I: Chantry: scu.</note>
-         <note>Annotation on Thomason copy: "Decemb.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Theanthropos: or, God made man. A tract proving the nativity of our Saviour to be on the 25. of December. / By John Selden, that eminently-learned antiquary, late of the Inner-Temple.</title>
+      <author>Selden, John, 1584-1654.</author>
+      <author>Chantry, John, d. 1662?, engraver.</author>
+    </titleStmt>
+    <extent>[8], 91, [21] p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Nathaniel Brooks</persName> at <placeName>the Angel in Corn-hill.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title in Greek characters.</note>
+      <note>The portrait of the author is signed: I: Chantry: scu.</note>
+      <note>Annotation on Thomason copy: "Decemb.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Brooks</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Corn-hill.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

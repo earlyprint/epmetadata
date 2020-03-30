@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Arviragus and Philicia As it was acted at the Private House in Black-Fryers by his Majesties servants. The first and second part.</title>
-         <author>Carlell, Lodowick, 1602?-1675.</author>
-      </titleStmt>
-      <extent>[180] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Norton, for Iohn Crooke and Richard Sergier, and are to be sold at the Grey-hound in S. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Lodowick Carlell.</note>
-         <note>The hyphen in "Church-yard" has dropped.</note>
-         <note>Signatures: A-D&#185;&#178;  E&#8310; E-G&#185;&#178; .</note>
-         <note>The first leaf is blank.</note>
-         <note>With a final epilogue and imprimatur leaf.</note>
-         <note>Reproduction of the original in the Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Arviragus and Philicia As it was acted at the Private House in Black-Fryers by his Majesties servants. The first and second part.</title>
+      <author>Carlell, Lodowick, 1602?-1675.</author>
+    </titleStmt>
+    <extent>[180] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Norton</persName>, for <persName type="publisher">Iohn Crooke</persName> and <persName type="publisher">Richard Sergier</persName>, and are to be sold at <placeName>the Grey-hound in S. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Lodowick Carlell.</note>
+      <note>The hyphen in "Church-yard" has dropped.</note>
+      <note>Signatures: A-D&#185;&#178;  E&#8310; E-G&#185;&#178; .</note>
+      <note>The first leaf is blank.</note>
+      <note>With a final epilogue and imprimatur leaf.</note>
+      <note>Reproduction of the original in the Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Crooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Sergier</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Grey-hound in S. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

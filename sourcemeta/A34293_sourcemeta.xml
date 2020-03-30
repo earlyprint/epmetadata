@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Congratulatory poem to the ministers sons on their splendid feast, Thursday, December 7th, 1682.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.A. for John Dunton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Manuscript date at end: 7 December.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Congratulatory poem to the ministers sons on their splendid feast, Thursday, December 7th, 1682.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.A.</persName> for <persName type="publisher">John Dunton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Manuscript date at end: 7 December.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Dunton</persName>
+    </person>
+    <person type="printer">
+      <persName>J.A.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

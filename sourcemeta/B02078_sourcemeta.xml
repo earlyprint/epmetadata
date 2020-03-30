@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties gracious speech to both houses of Parliament, at their prorogation, on Wednesday the 9th. of June 1675.</title>
-         <author>Charles II, King of England, 1630-1685.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by Benjamin Tooke, ..., and are to be sold by Joseph Wilde ...,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Columbia University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties gracious speech to both houses of Parliament, at their prorogation, on Wednesday the 9th. of June 1675.</title>
+      <author>Charles II, King of England, 1630-1685.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">Benjamin Tooke</persName>, ..., and are to be sold by <persName type="bookseller">Joseph Wilde</persName> ...,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Columbia University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Joseph Wilde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

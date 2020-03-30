@@ -1,25 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>St. Augustine, Of the citie of God vvith the learned comments of Io. Lod. Viues. Englished by I.H.</title>
-         <title>De civitate Dei. English</title>
-         <author>Augustine, Saint, Bishop of Hippo.</author>
-         <author>Healey, John, d. 1610.</author>
-         <author>Vives, Juan Luis, 1492-1540.</author>
-      </titleStmt>
-      <extent>[20], 921, [11] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by George Eld,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1610">1610.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: De civitate Dei.</note>
-         <note>I.H. = John Healey.</note>
-         <note>Includes index.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>St. Augustine, Of the citie of God vvith the learned comments of Io. Lod. Viues. Englished by I.H.</title>
+      <title>De civitate Dei. English</title>
+      <author>Augustine, Saint, Bishop of Hippo.</author>
+      <author>Healey, John, d. 1610.</author>
+      <author>Vives, Juan Luis, 1492-1540.</author>
+    </titleStmt>
+    <extent>[20], 921, [11] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Eld</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1610">1610.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: De civitate Dei.</note>
+      <note>I.H. = John Healey.</note>
+      <note>Includes index.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Eld</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

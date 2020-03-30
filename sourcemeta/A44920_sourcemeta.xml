@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The compleat vineyard, or, A most excellent way for the planting of vines not onely according to the German and French way, but also long experimented in England : wherein are set forth the whole circumstances necessary for the planting a vineyard ... / by William Hughes.</title>
-         <author>Hughes, William, fl. 1665-1683.</author>
-      </titleStmt>
-      <extent>[8], 27 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for W. Crooke ... and John Playfere ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The compleat vineyard, or, A most excellent way for the planting of vines not onely according to the German and French way, but also long experimented in England : wherein are set forth the whole circumstances necessary for the planting a vineyard ... / by William Hughes.</title>
+      <author>Hughes, William, fl. 1665-1683.</author>
+    </titleStmt>
+    <extent>[8], 27 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">W. Crooke</persName> ... and <persName type="publisher">John Playfere</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playfere</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

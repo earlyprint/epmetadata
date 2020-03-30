@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The recantacio[n] of Jacke lent late vicare generall to the mooste cruell Antichriste of Rome.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>By Jhon Day and William Seres, dwellyng in Sepulchres parysh, at the signe of the resurrection alitle aboue Holbourne Condiute],</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1548">M.D.xlviii [1548]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A.</note>
-         <note>Place of publication and printers' names from STC.</note>
-         <note>"Jacke Lent" is a not a real person, but rather a fictional narrartor.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The recantacio[n] of Jacke lent late vicare generall to the mooste cruell Antichriste of Rome.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Jhon Day</persName> and <persName type="printer">William Seres</persName>, dwellyng in <placeName>Sepulchres parysh, at the signe of the resurrection alitle aboue Holbourne Condiute]</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1548">M.D.xlviii [1548]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A.</note>
+      <note>Place of publication and printers' names from STC.</note>
+      <note>"Jacke Lent" is a not a real person, but rather a fictional narrartor.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Jhon Day</persName>
+    </person>
+    <person type="printer">
+      <persName>William Seres</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Sepulchres parysh, at the signe of the resurrection alitle aboue Holbourne Condiute]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

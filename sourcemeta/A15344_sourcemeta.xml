@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[A short, yet a true and faithfull narration of the fearefull fire that fell in the towne of Wooburne, in the countie of Bedford, on Saturday the 13. of September last, Anno. 1595 Together with a Christian admonition as to the particular people of that place]</title>
-         <author>T. W. (Thomas Wilcox), 1549?-1608.</author>
-      </titleStmt>
-      <extent>76 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the Widdow Orwin, for Thomas Man,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1595">1595]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas Wilcox.</note>
-         <note>Title and imprint from STC.</note>
-         <note>Pages torn, with slight loss of text.</note>
-         <note>Imperfect; title page lacking, supplied from Bodleian Library copy spliced at end.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[A short, yet a true and faithfull narration of the fearefull fire that fell in the towne of Wooburne, in the countie of Bedford, on Saturday the 13. of September last, Anno. 1595 Together with a Christian admonition as to the particular people of that place]</title>
+      <author>T. W. (Thomas Wilcox), 1549?-1608.</author>
+    </titleStmt>
+    <extent>76 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the Widdow Orwin</persName>, for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1595">1595]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Wilcox.</note>
+      <note>Title and imprint from STC.</note>
+      <note>Pages torn, with slight loss of text.</note>
+      <note>Imperfect; title page lacking, supplied from Bodleian Library copy spliced at end.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>the Widdow Orwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden trade: or, A discouery of the riuer Gambra, and the golden trade of the Aethiopians Also, the commerce with a great blacke merchant, called Buckor Sano, and his report of the houses couered with gold, and other strange obseruations for the good of our owne countrey; set downe as they were collected in trauelling, part of the yeares, 1620. and 1621. By Richard Iobson, Gentleman.</title>
-         <author>Jobson, Richard, fl. 1620-1623.</author>
-      </titleStmt>
-      <extent>[8], 143, 152-166, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, and are to be sold by Nicholas Bourne, dwelling at the entrance of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden trade: or, A discouery of the riuer Gambra, and the golden trade of the Aethiopians Also, the commerce with a great blacke merchant, called Buckor Sano, and his report of the houses couered with gold, and other strange obseruations for the good of our owne countrey; set downe as they were collected in trauelling, part of the yeares, 1620. and 1621. By Richard Iobson, Gentleman.</title>
+      <author>Jobson, Richard, fl. 1620-1623.</author>
+    </titleStmt>
+    <extent>[8], 143, 152-166, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, and are to be sold by <persName type="bookseller">Nicholas Bourne</persName>, dwelling at <placeName>the entrance of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nicholas Bourne</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the entrance of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

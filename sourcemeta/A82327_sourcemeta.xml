@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lettre a Monsieur Henry Arnaud F.M.D.S.E. et pasteur Vaudois, etant &#224; present &#224; Londres, avec sa reponse &#224; l'autheur de ladite lettre</title>
-         <author>Delme, Jean.</author>
-         <author>Arnaud, Henri, 1641-1721.</author>
-      </titleStmt>
-      <extent>27, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>par Jean Brudenell en Jewinstreet, pour F. Vaillant, Marchand libraire, demeurant dans le Strand, vis-&#224;-vis l'Eglise Francoise de la Savoye,</publisher>
-         <pubPlace>Londres :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first letter is signed: Jean Delme'.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lettre a Monsieur Henry Arnaud F.M.D.S.E. et pasteur Vaudois, etant &#224; present &#224; Londres, avec sa reponse &#224; l'autheur de ladite lettre</title>
+      <author>Delme, Jean.</author>
+      <author>Arnaud, Henri, 1641-1721.</author>
+    </titleStmt>
+    <extent>27, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>par <persName type="printer">Jean Brudenell en Jewinstreet, pour F. Vaillant</persName>, <persName type="printer">Marchand libraire, demeurant dans le Strand, vis-&#224;-vis l'Eglise Francoise de la Savoye</persName>,</publisher>
+      <pubPlace>Londres :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first letter is signed: Jean Delme'.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Jean Brudenell en Jewinstreet, pour F. Vaillant</persName>
+    </person>
+    <person type="printer">
+      <persName>Marchand libraire, demeurant dans le Strand, vis-&#224;-vis l'Eglise Francoise de la Savoye</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

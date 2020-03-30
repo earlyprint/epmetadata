@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The doctors medicines and counsel which he gave to a maiden or, A cloak for a gross widdow</title>
-         <title>Doctors medicines and counsel which he gave to a maiden.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Clark at the Harp and Bible in West-smith-field,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1680">[1680]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint place and and imprint date from Wing.</note>
-         <note>Verse - "Draw near young lasses that in the street passes".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The doctors medicines and counsel which he gave to a maiden or, A cloak for a gross widdow</title>
+      <title>Doctors medicines and counsel which he gave to a maiden.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Clark</persName> at <placeName>the Harp</placeName> and Bible in <placeName>West-smith-field</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1680">[1680]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint place and and imprint date from Wing.</note>
+      <note>Verse - "Draw near young lasses that in the street passes".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Clark</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>West-smith-field</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Harp</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

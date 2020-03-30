@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lords Justices, a proclamation Tho. Cantuar. J. Sommers C.S. Shrewsbury. Dorset. Whereas we have received information upon oath, that the persons hereafter mentioned have committed high treason in clipping and counterfeiting the current coin of this kingdom ...</title>
-         <author>England and Wales. Lords Justices.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, and the executrix of Thomas Newcomb, deceas'd, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>Lonodn[sic] :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>Dated at end: the tenth day of September 1696.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lords Justices, a proclamation Tho. Cantuar. J. Sommers C.S. Shrewsbury. Dorset. Whereas we have received information upon oath, that the persons hereafter mentioned have committed high treason in clipping and counterfeiting the current coin of this kingdom ...</title>
+      <author>England and Wales. Lords Justices.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill, and the executrix of Thomas Newcomb, deceas'd</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>Lonodn[sic] :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>Dated at end: the tenth day of September 1696.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the executrix of Thomas Newcomb, deceas'd</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A compendyous treatyse of sclau[n]dre declarynge what sclaundre is, and what it sygnifyeth, and how many kyndes of sclaundre there be.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>In the Old bayly in saynt Sepulchres parysshe, by me Rychard Lant,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1545" cert="low">[1545?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon; publication date suggested by STC.</note>
-         <note>Signatures: [A]-B&#8308;.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A compendyous treatyse of sclau[n]dre declarynge what sclaundre is, and what it sygnifyeth, and how many kyndes of sclaundre there be.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>In the Old bayly in <placeName>saynt Sepulchres parysshe</placeName>, by <persName type="printer">me Rychard Lant</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1545" cert="low">[1545?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon; publication date suggested by STC.</note>
+      <note>Signatures: [A]-B&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Rychard Lant</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>saynt Sepulchres parysshe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

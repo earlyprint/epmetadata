@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Serious sober state-considerations, relating to the government of England and the garrison of Dunkirk in Flanders. By Theophilus Verax a Dunkirker.</title>
-         <author>Verax, Theophilus.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W.G. over against the Anchor in Little-Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Theophilus Verax is a pseudonym.</note>
-         <note>Annotation on Thomason copy: "April. 17".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Serious sober state-considerations, relating to the government of England and the garrison of Dunkirk in Flanders. By Theophilus Verax a Dunkirker.</title>
+      <author>Verax, Theophilus.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W.G. over against the Anchor</persName> in <placeName>Little-Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Theophilus Verax is a pseudonym.</note>
+      <note>Annotation on Thomason copy: "April. 17".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W.G. over against the Anchor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little-Brittain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

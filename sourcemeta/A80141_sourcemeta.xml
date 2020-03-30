@@ -1,19 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of the true gospel blessedness in the New Covenant, or The distinction of the two Covenants, new and old, first and second. With the doing away of the first, and the establishment of the second, and likewise the mediatorship of Christ in the New Covenant, with some principles, duties, promises, and priviledges of the New Covenant. A useful companion for all saints at all times. / Written by Tho. Collier.</title>
-         <author>Collier, Thomas, fl. 1691.</author>
-      </titleStmt>
-      <extent>[8], 134 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hills for the author, and are to be sold by Giles Calvert at the Black-spread-eagle at the west end of Pauls, and Tho. Brewster, at the sign of the Three Bibles in Pauls Church-yard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nouemb.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of the true gospel blessedness in the New Covenant, or The distinction of the two Covenants, new and old, first and second. With the doing away of the first, and the establishment of the second, and likewise the mediatorship of Christ in the New Covenant, with some principles, duties, promises, and priviledges of the New Covenant. A useful companion for all saints at all times. / Written by Tho. Collier.</title>
+      <author>Collier, Thomas, fl. 1691.</author>
+    </titleStmt>
+    <extent>[8], 134 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hills</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Giles Calvert</persName> at <placeName>the Black-spread-eagle at the west end of Pauls</placeName>, and <persName type="publisher">Tho. Brewster</persName>, at <placeName>the sign of the Three Bibles in Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nouemb.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Brewster</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hills</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Giles Calvert</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-spread-eagle at the west end of Pauls</placeName>
+    </place>
+    <place type="location">
+      <placeName>the sign of the Three Bibles in Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

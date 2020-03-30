@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief commentary upon the CIII Psalme with the severall axiomes or doctrines therein conteined [sic], and uses thereupon inferred.</title>
-         <author>Sterne, Richard, 1596?-1683.</author>
-      </titleStmt>
-      <extent>[4], 370 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.F. for Timothy Garthwaite,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Richard Sterne. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief commentary upon the CIII Psalme with the severall axiomes or doctrines therein conteined [sic], and uses thereupon inferred.</title>
+      <author>Sterne, Richard, 1596?-1683.</author>
+    </titleStmt>
+    <extent>[4], 370 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.F.</persName> for <persName type="publisher">Timothy Garthwaite</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Richard Sterne. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Timothy Garthwaite</persName>
+    </person>
+    <person type="printer">
+      <persName>M.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

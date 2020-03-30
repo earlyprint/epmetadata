@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two speeches delivered by the Earl of Manchester, and Mr. Io: Pym, Esquire, in Guild-Hall, on Friday the 25. of Nov. 1642. Concerning a present supply of money for the army, and propositions for easing the city for the time to come: and laying the burthen on the neutrallists and malignants throughout the kingdom.</title>
-         <author>Manchester, Edward Montagu, Earl of, 1602-1671.</author>
-         <author>Pym, John, 1584-1643.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. F. for Peter Cole, and are to be sold at his shop at the sign of the Glove and Lyon, neer the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pym and Manchester were "dispatched by Parliament to the city to announce the resolution" to levy a tax.  cf. Gardiner, S. R.  This history of the great Civil war.  London, 1888-1901.  v. 1, p. 74.</note>
-         <note>Annotation on Thomason copy: "Nouemb: 26:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two speeches delivered by the Earl of Manchester, and Mr. Io: Pym, Esquire, in Guild-Hall, on Friday the 25. of Nov. 1642. Concerning a present supply of money for the army, and propositions for easing the city for the time to come: and laying the burthen on the neutrallists and malignants throughout the kingdom.</title>
+      <author>Manchester, Edward Montagu, Earl of, 1602-1671.</author>
+      <author>Pym, John, 1584-1643.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. F.</persName> for <persName type="publisher">Peter Cole</persName>, and are to be sold at <placeName>his shop at the sign of the Glove</placeName> and Lyon, neer <placeName>the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pym and Manchester were "dispatched by Parliament to the city to announce the resolution" to levy a tax.  cf. Gardiner, S. R.  This history of the great Civil war.  London, 1888-1901.  v. 1, p. 74.</note>
+      <note>Annotation on Thomason copy: "Nouemb: 26:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Cole</persName>
+    </person>
+    <person type="printer">
+      <persName>J. F.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Glove</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

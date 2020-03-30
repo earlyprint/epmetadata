@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Old Mr. Dod's sayings</title>
-         <author>Dod, John, 1549?-1645.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. and R.R.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1678">MDCLXXVIII [1678]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Captain title.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Old Mr. Dod's sayings</title>
+      <author>Dod, John, 1549?-1645.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> and <persName type="printer">R.R.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1678">MDCLXXVIII [1678]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Captain title.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>R.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

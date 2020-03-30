@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Wimondham in Norfolke, at the primary visitation of the Right Honourable and Reverend Father in God, Matthevv, Lord Bishop of Norwich, on the third of Iune, Ann. Dom. 1636. By Richard Tedder.</title>
-         <author>Tedder, Richard.</author>
-      </titleStmt>
-      <extent>[4], 26, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Thomas Harper, and are to be sold by Godfrey Emerson, and are to be sold at his shop in little Brittaine,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1637">1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Wimondham in Norfolke, at the primary visitation of the Right Honourable and Reverend Father in God, Matthevv, Lord Bishop of Norwich, on the third of Iune, Ann. Dom. 1636. By Richard Tedder.</title>
+      <author>Tedder, Richard.</author>
+    </titleStmt>
+    <extent>[4], 26, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Thomas Harper</persName>, and are to be sold by <persName type="bookseller">Godfrey Emerson</persName>, and are to be sold at <placeName>his shop in little Brittaine</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1637">1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Godfrey Emerson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in little Brittaine</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

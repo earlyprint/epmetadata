@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A panegyrick on the coronation of His Most Sacred Majesty Charles II by Samuel Holland.</title>
-         <author>Holland, Samuel, gent.</author>
-      </titleStmt>
-      <extent>[2], 5 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Plaice ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A panegyrick on the coronation of His Most Sacred Majesty Charles II by Samuel Holland.</title>
+      <author>Holland, Samuel, gent.</author>
+    </titleStmt>
+    <extent>[2], 5 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Plaice</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Plaice</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

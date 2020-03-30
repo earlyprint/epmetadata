@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Enchiridium epigrammatum Latino-Anglicum. An epitome of essais, Englished out of Latin: without elucidat explications. Containing six classes or centuries of [brace] 1. Theologicals. 2. Historicals. 3. Heterogeneals. 4. Bryto-Anglicals. 5. Miscellaneals. 6. Mutuatitials. Beside a fardel of 76 fragments. / Doon [sic] by Rob. Vilvain of Excester. Price at press unbound 1s. 6d.</title>
-         <author>Vilvain, Robert, 1575?-1663.</author>
-      </titleStmt>
-      <extent>[12], 18, 28-87, 68-191 leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by R: Hodgkinsonne (for the author) and are to be sold at his house in Thames-street, neer Baynards Castle.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1654">A.D. 1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First edition.</note>
-         <note>Leaves printed both sides.</note>
-         <note>Annotation on Thomason copy: "7ber [i.e. September] 3"; the 4 in the date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Enchiridium epigrammatum Latino-Anglicum. An epitome of essais, Englished out of Latin: without elucidat explications. Containing six classes or centuries of [brace] 1. Theologicals. 2. Historicals. 3. Heterogeneals. 4. Bryto-Anglicals. 5. Miscellaneals. 6. Mutuatitials. Beside a fardel of 76 fragments. / Doon [sic] by Rob. Vilvain of Excester. Price at press unbound 1s. 6d.</title>
+      <author>Vilvain, Robert, 1575?-1663.</author>
+    </titleStmt>
+    <extent>[12], 18, 28-87, 68-191 leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R: Hodgkinsonne</persName> (for <persName type="publisher">the author</persName>) and are to be sold at <placeName>his house in Thames-street, neer Baynards Castle.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1654">A.D. 1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First edition.</note>
+      <note>Leaves printed both sides.</note>
+      <note>Annotation on Thomason copy: "7ber [i.e. September] 3"; the 4 in the date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>R: Hodgkinsonne</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Thames-street, neer Baynards Castle.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

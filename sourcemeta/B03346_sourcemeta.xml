@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fore-warn'd, fore-arm'd: or, A caveat to batchelors, in the character of a bad woman.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. van Solingen, and J. Colmar,</publisher>
-         <pubPlace>Edinburgh, :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fore-warn'd, fore-arm'd: or, A caveat to batchelors, in the character of a bad woman.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. van Solingen</persName>, and <persName type="printer">J. Colmar</persName>,</publisher>
+      <pubPlace>Edinburgh, :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Colmar</persName>
+    </person>
+    <person type="printer">
+      <persName>J. van Solingen</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

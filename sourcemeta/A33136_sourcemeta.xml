@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divi Britannici being a remark upon the lives of all the kings of this isle from the year of the world 2855, unto the year of grace 1660 / by Sir Winston Churchill, Kt.</title>
-         <author>Churchill, Winston, Sir, 1620?-1688.</author>
-      </titleStmt>
-      <extent>[6], 362, [2] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Roycroft, to be sold by Francis Eglesfield ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Each of the six divisions preceded by a half-title, not included in paging.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divi Britannici being a remark upon the lives of all the kings of this isle from the year of the world 2855, unto the year of grace 1660 / by Sir Winston Churchill, Kt.</title>
+      <author>Churchill, Winston, Sir, 1620?-1688.</author>
+    </titleStmt>
+    <extent>[6], 362, [2] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Roycroft, to be</persName> sold by <persName type="bookseller">Francis Eglesfield</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Each of the six divisions preceded by a half-title, not included in paging.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Roycroft, to be</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Francis Eglesfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

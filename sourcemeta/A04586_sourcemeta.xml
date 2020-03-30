@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cornucopi&#230;, or diuers secrets wherein is contained the rare secrets in man, beasts, foules, fishes, trees, plantes, stones and such like, most pleasant and profitable, and not before committed to bee printed in English. Newlie drawen out of diuers Latine authors into English by Thomas Iohnson.</title>
-         <author>Johnson, Thomas, d. 1644.</author>
-      </titleStmt>
-      <extent>[46] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by J. Danter] for VVilliam Barley, and are to be sold at his shop at the vpper end of Gratious streete nere Leaden Hall,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1595">1595.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#8308; (-A1) B-F&#8308;.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Cornucopi&#230;, or diuers secrets wherein is contained the rare secrets in man, beasts, foules, fishes, trees, plantes, stones and such like, most pleasant and profitable, and not before committed to bee printed in English. Newlie drawen out of diuers Latine authors into English by Thomas Iohnson.</title>
+      <author>Johnson, Thomas, d. 1644.</author>
+    </titleStmt>
+    <extent>[46] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">J. Danter]</persName> for <persName type="publisher">VVilliam Barley</persName>, and are to be sold at <placeName>his shop at the vpper end of Gratious streete nere Leaden Hall</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1595">1595.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#8308; (-A1) B-F&#8308;.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>VVilliam Barley</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Danter]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the vpper end of Gratious streete nere Leaden Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Urim and thummim, or, The clergies dignity and duty recommended in a visitation sermon preached at Lewes April 27, 1669 / by Malachi Conant ...</title>
-         <author>Connant, M. (Malachi), d. 1680.</author>
-      </titleStmt>
-      <extent>[4], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hall ... for James Collins ...,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1669">1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Urim and thummim, or, The clergies dignity and duty recommended in a visitation sermon preached at Lewes April 27, 1669 / by Malachi Conant ...</title>
+      <author>Connant, M. (Malachi), d. 1680.</author>
+    </titleStmt>
+    <extent>[4], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hall</persName> ... for <persName type="publisher">James Collins</persName> ...,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1669">1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sentiments, a poem to the Earl of Danby in the Tower by a person of quality.</title>
-         <author>Person of quality.</author>
-      </titleStmt>
-      <extent>[1], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for James Vade ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sentiments, a poem to the Earl of Danby in the Tower by a person of quality.</title>
+      <author>Person of quality.</author>
+    </titleStmt>
+    <extent>[1], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">James Vade</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Vade</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christian commemoration, and imitation of saints departed explicated, and pressed from Heb.13.7. Occasioned by the decease of the Reverend Mr. Henry Hurst, lately minister of the gospel in London. By Daniel Burgess.</title>
-         <author>Burgess, Daniel, 1645-1713.</author>
-      </titleStmt>
-      <extent>[12], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Tho. Parkhurst at the Bible and Three Crowns in Cheapside near Mercers chapel,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christian commemoration, and imitation of saints departed explicated, and pressed from Heb.13.7. Occasioned by the decease of the Reverend Mr. Henry Hurst, lately minister of the gospel in London. By Daniel Burgess.</title>
+      <author>Burgess, Daniel, 1645-1713.</author>
+    </titleStmt>
+    <extent>[12], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Tho. Parkhurst</persName> at <placeName>the Bible</placeName> and <persName type="publisher">Three Crowns</persName> in <placeName>Cheapside near Mercers chapel</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="publisher">
+      <persName>Three Crowns</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cheapside near Mercers chapel</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

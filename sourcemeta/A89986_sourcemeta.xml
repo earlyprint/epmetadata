@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The new medley:, or, A song composed of the rairest tunes.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Fran. Grove on Snow-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680" cert="low">[1680?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Contains five wood-cut illustrations.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Reproduction of original in: Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The new medley:, or, A song composed of the rairest tunes.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Fran. Grove</persName> on <placeName>Snow-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680" cert="low">[1680?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Contains five wood-cut illustrations.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Reproduction of original in: Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fran. Grove</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Snow-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

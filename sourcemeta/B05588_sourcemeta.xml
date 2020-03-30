@@ -1,26 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, discharging the levying or transporting of souldiers vvithout licence</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Gibson, Alexander, Sir, d. 1693.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Anderson, Printer to his most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Intentional blank spaces in text.</note>
-         <note>Dated at end: Given under Our Signet, at Edinburgh the tenth day of June, one thousand six hundred and seventy five years, and of Our Reign the twentieth and sixth year.</note>
-         <note>Signed: Al. Gibson Cl. Sti. Concilii.</note>
-         <note>Imperfect: stained with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, discharging the levying or transporting of souldiers vvithout licence</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Gibson, Alexander, Sir, d. 1693.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Anderson</persName>, Printer to <persName type="patron">his most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Intentional blank spaces in text.</note>
+      <note>Dated at end: Given under Our Signet, at Edinburgh the tenth day of June, one thousand six hundred and seventy five years, and of Our Reign the twentieth and sixth year.</note>
+      <note>Signed: Al. Gibson Cl. Sti. Concilii.</note>
+      <note>Imperfect: stained with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

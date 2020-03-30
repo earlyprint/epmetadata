@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Marginall antidotes, to be affixed over against the lines of R.H. and E.B. their pamphlet, entituled, The rebukes of a reviler. Written and prescribed by John Stalham of Terling.</title>
-         <author>Stalham, John, d. 1681.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Edward Brewster, and are to be sold at his shop at the signe of the Crane in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Hubberthorn, Richard.  The rebukes of a reviler fallen upon his own head.</note>
-         <note>R.H. = Richard Hubberthorn; E.B. = Edward Burrough.</note>
-         <note>Annotation on Thomason copy: "8ber [i.e. October] 15.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Marginall antidotes, to be affixed over against the lines of R.H. and E.B. their pamphlet, entituled, The rebukes of a reviler. Written and prescribed by John Stalham of Terling.</title>
+      <author>Stalham, John, d. 1681.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Edward Brewster</persName>, and are to be sold at <placeName>his shop at the signe of the Crane in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Hubberthorn, Richard.  The rebukes of a reviler fallen upon his own head.</note>
+      <note>R.H. = Richard Hubberthorn; E.B. = Edward Burrough.</note>
+      <note>Annotation on Thomason copy: "8ber [i.e. October] 15.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Brewster</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Crane in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

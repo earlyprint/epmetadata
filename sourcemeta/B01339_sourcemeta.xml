@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new prognostication, for the year of our redemption, 1678, being the second after bissextile, or leap year. Most curiously and artificially calculated, for all north-Brittain, but more especially (and even according to every typographer's very bound duty) for the latitude and meridian of our most famous city of Bon-Accord. Which stands upon a pleasant lone, whose gallant dykes, are Dee and Done. / by A. R. A.M. an expert mathematician.</title>
-         <author>A. R., mathematician, fl. 1678.</author>
-      </titleStmt>
-      <extent>[16] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>by John Forbes, printer to the town and colledges,</publisher>
-         <pubPlace>Printed in Aberdeen :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: tightly bound with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new prognostication, for the year of our redemption, 1678, being the second after bissextile, or leap year. Most curiously and artificially calculated, for all north-Brittain, but more especially (and even according to every typographer's very bound duty) for the latitude and meridian of our most famous city of Bon-Accord. Which stands upon a pleasant lone, whose gallant dykes, are Dee and Done. / by A. R. A.M. an expert mathematician.</title>
+      <author>A. R., mathematician, fl. 1678.</author>
+    </titleStmt>
+    <extent>[16] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">John Forbes</persName>, printer to <persName type="patron">the town and colledges</persName>,</publisher>
+      <pubPlace>Printed in Aberdeen :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: tightly bound with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Forbes</persName>
+    </person>
+    <person type="patron">
+      <persName>the town and colledges</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cupids tragedy: Eibng [sic] Corydon's courtship; or, Philomels exaltation. Tothe [sic] tune of, The new Bory; or, Will you be a man of fashion.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts), music.  </extent>
-      <publicationStmt>
-         <publisher>Printed for P[hilip]. Brooksby, at the Golden-ball, in West-smithfield.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1670" notAfter="1696">[between 1670-1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place, date of publication, and publisher's name from Wing.</note>
-         <note>The second 't' in 'Tothe' [sic] in the title is printed upside down.</note>
-         <note>Reproduction of original in the Harvard University, Houghton Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Cupids tragedy: Eibng [sic] Corydon's courtship; or, Philomels exaltation. Tothe [sic] tune of, The new Bory; or, Will you be a man of fashion.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts), music.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">P[hilip]. Brooksby</persName>, at <placeName>the Golden-ball, in West-smithfield.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1670" notAfter="1696">[between 1670-1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place, date of publication, and publisher's name from Wing.</note>
+      <note>The second 't' in 'Tothe' [sic] in the title is printed upside down.</note>
+      <note>Reproduction of original in the Harvard University, Houghton Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P[hilip]. Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden-ball, in West-smithfield.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

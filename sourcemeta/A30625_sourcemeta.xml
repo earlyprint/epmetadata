@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of church-government occasion'd by some letters lately printed concerning the same subject / by Robert Burscough ...</title>
-         <author>Burscough, Robert, 1651-1709.</author>
-      </titleStmt>
-      <extent>[3], xxxvii, [7], 270 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First ed. Cf. DNB.</note>
-         <note>Errata: p. [1] (3rd pagination).</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of church-government occasion'd by some letters lately printed concerning the same subject / by Robert Burscough ...</title>
+      <author>Burscough, Robert, 1651-1709.</author>
+    </titleStmt>
+    <extent>[3], xxxvii, [7], 270 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First ed. Cf. DNB.</note>
+      <note>Errata: p. [1] (3rd pagination).</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

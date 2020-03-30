@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queenes commaundement forasmuch as it is found by good proofe, that many persons which haue serued of late on the  seas, in the iourney towardes Spayne and Portingall, in comming from Plimmouth, and other portes ... haue fallen sicke by the way, and diuers died as infected with the plague ...</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By the Deputies of Christopher Barker, Printer to the Queenes most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1589">[1589]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Last complete line of text ends "bee".</note>
-         <note>"At Nonsuch 22. Iulii. Anno 31. Regin&#230; Elizab. 1589."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queenes commaundement forasmuch as it is found by good proofe, that many persons which haue serued of late on the  seas, in the iourney towardes Spayne and Portingall, in comming from Plimmouth, and other portes ... haue fallen sicke by the way, and diuers died as infected with the plague ...</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the Deputies of Christopher Barker</persName>, Printer to <persName type="patron">the Queenes most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1589">[1589]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Last complete line of text ends "bee".</note>
+      <note>"At Nonsuch 22. Iulii. Anno 31. Regin&#230; Elizab. 1589."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the Deputies of Christopher Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

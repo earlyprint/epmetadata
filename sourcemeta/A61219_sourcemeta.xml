@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of the misery of Hell and happiness of Heaven grounded from the following words, Matth. 25, 46, And these shall go away into everlasting punishment, but the righteous into life eternal.</title>
-         <author>Stafford, Richard, 1663-1703.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by E. Whitlock,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: Richard Stafford.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of the misery of Hell and happiness of Heaven grounded from the following words, Matth. 25, 46, And these shall go away into everlasting punishment, but the righteous into life eternal.</title>
+      <author>Stafford, Richard, 1663-1703.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">E. Whitlock</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: Richard Stafford.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

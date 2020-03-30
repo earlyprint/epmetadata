@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Account of Sir George Rook's arrival in the chanel with the fleet under his command</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Jones in the Savoy,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">[1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At head of account: Whitehall, April 24, 1696.</note>
-         <note>Date of publication from Wing.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Account of Sir George Rook's arrival in the chanel with the fleet under his command</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">[1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At head of account: Whitehall, April 24, 1696.</note>
+      <note>Date of publication from Wing.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edw. Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

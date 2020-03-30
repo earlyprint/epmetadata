@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The fox-chace: or, The huntsmens harmony, by the noble Duke of Buckingham's hounds, [et]c. To an excellent tune much in request. Licens'd and enter'd according to order.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by and for W.O. and sold by the booksellers of Pye-corner and London-bridge.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690" cert="low">[1690?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "All in a morning fair ..."</note>
-         <note>Publication date suggested by Wing.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The fox-chace: or, The huntsmens harmony, by the noble Duke of Buckingham's hounds, [et]c. To an excellent tune much in request. Licens'd and enter'd according to order.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by and for <persName type="publisher">W.O.</persName> and sold by <persName type="bookseller">the booksellers of Pye-corner</persName> and <persName type="bookseller">London-bridge.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690" cert="low">[1690?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "All in a morning fair ..."</note>
+      <note>Publication date suggested by Wing.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W.O.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>London-bridge.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of Pye-corner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

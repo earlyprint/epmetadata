@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Detection of Ed. Glouers hereticall confection lately contriued and proffered to the Church of England, vnder the name of A present preseruatiue. VVherein with the laying open of his impudent slander against our whole ministrie, the reader shal find a new built nest of old hatcht heresies discouered, (and by the grace of God) ouerthrowne: togither with an admonistion to the followers of Glouer and Browne. By Steph. Bredwell, student in phisicke. Seene and allowed.</title>
-         <author>Bredwell, Stephen.</author>
-      </titleStmt>
-      <extent>[14], 125, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Wolfe, and are to be sold by Edward White, dwelling at the signe of the Gunne at the little North doore of Paules,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1586">[1586]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from colophon.</note>
-         <note>With final errata leaf.</note>
-         <note>Identified as STC 3598a on UMI microfilm reel 1266.</note>
-         <note>Leaves closely cropped at head, affecting running titles.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Detection of Ed. Glouers hereticall confection lately contriued and proffered to the Church of England, vnder the name of A present preseruatiue. VVherein with the laying open of his impudent slander against our whole ministrie, the reader shal find a new built nest of old hatcht heresies discouered, (and by the grace of God) ouerthrowne: togither with an admonistion to the followers of Glouer and Browne. By Steph. Bredwell, student in phisicke. Seene and allowed.</title>
+      <author>Bredwell, Stephen.</author>
+    </titleStmt>
+    <extent>[14], 125, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Wolfe</persName>, and are to be sold by <persName type="bookseller">Edward White</persName>, dwelling at <placeName>the signe of the Gunne at the little North doore of Paules</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1586">[1586]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from colophon.</note>
+      <note>With final errata leaf.</note>
+      <note>Identified as STC 3598a on UMI microfilm reel 1266.</note>
+      <note>Leaves closely cropped at head, affecting running titles.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Wolfe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Edward White</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Gunne at the little North doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

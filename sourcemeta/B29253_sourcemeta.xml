@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>St. Pauls life and travels from his conversion. And also his several sufferings, unto his martyrdom at Rome. Collected from sacred scripture and serious historians.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Phillip Brooksby in West-smithfield,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1680" cert="low">[1680?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon; place and date of publication from Wing.</note>
-         <note>Printed in two columns, with ornamental divider and border.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>St. Pauls life and travels from his conversion. And also his several sufferings, unto his martyrdom at Rome. Collected from sacred scripture and serious historians.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Phillip Brooksby</persName> in <placeName>West-smithfield</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1680" cert="low">[1680?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon; place and date of publication from Wing.</note>
+      <note>Printed in two columns, with ornamental divider and border.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Phillip Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>West-smithfield</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

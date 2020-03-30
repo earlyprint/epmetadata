@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Short and impartial considerations upon the present state of affairs in England</title>
-      </titleStmt>
-      <extent>38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Allen Banks, and are to be sold by Richard Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Short and impartial considerations upon the present state of affairs in England</title>
+    </titleStmt>
+    <extent>38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Allen Banks</persName>, and are to be sold by <persName type="bookseller">Richard Baldwin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Allen Banks</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

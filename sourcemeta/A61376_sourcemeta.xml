@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Campanalogia: or, The art of ringing improved. With plain and easie rules to guide the practitioner in the ringing all kinds of changes. To which is added, great variety of new peals.</title>
-         <author>Stedman, Fabian, 1631?-1713.</author>
-      </titleStmt>
-      <extent>[8], 231 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid, for W.S. and are to be sold by Langley Curtis in Goat-Court on Ludgate-hill.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing and NUC pre-1956 imprints to Fabian Stedman.</note>
-         <note>Dedication signed: F.S.</note>
-         <note>Errata on preliminary p. [8]</note>
-         <note>Item at reel 1537:9 identified as Wing S5374.</note>
-         <note>Reproductions of originals in the Harvard University Library and Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Campanalogia: or, The art of ringing improved. With plain and easie rules to guide the practitioner in the ringing all kinds of changes. To which is added, great variety of new peals.</title>
+      <author>Stedman, Fabian, 1631?-1713.</author>
+    </titleStmt>
+    <extent>[8], 231 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName>, for <persName type="publisher">W.S.</persName> and are to be sold by <persName type="bookseller">Langley Curtis</persName> in <placeName>Goat-Court on Ludgate-hill.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing and NUC pre-1956 imprints to Fabian Stedman.</note>
+      <note>Dedication signed: F.S.</note>
+      <note>Errata on preliminary p. [8]</note>
+      <note>Item at reel 1537:9 identified as Wing S5374.</note>
+      <note>Reproductions of originals in the Harvard University Library and Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W.S.</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Langley Curtis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Goat-Court on Ludgate-hill.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

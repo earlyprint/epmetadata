@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the plague containing the nature, signes, and accidents of the same, with the certaine and absolute cure of the feuers, botches and carbuncles that raigne in these times: and aboue all things most singular experiments and preseruatiues in the same, gathered by the obseruation of diuers worthy trauailers, and selected out of the writing of the best learned phisitians in this age. By Thomas Lodge, Doctor in Phisicke.</title>
-         <author>Lodge, Thomas, 1558?-1625.</author>
-      </titleStmt>
-      <extent>[88] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Creede and Valentine Simmes] for Edward White and N[icholas] L[ing],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' and Ling's names from STC.</note>
-         <note>Signatures: A-L&#8308;.</note>
-         <note>Running title reads: The causes and cures of the plague.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the plague containing the nature, signes, and accidents of the same, with the certaine and absolute cure of the feuers, botches and carbuncles that raigne in these times: and aboue all things most singular experiments and preseruatiues in the same, gathered by the obseruation of diuers worthy trauailers, and selected out of the writing of the best learned phisitians in this age. By Thomas Lodge, Doctor in Phisicke.</title>
+      <author>Lodge, Thomas, 1558?-1625.</author>
+    </titleStmt>
+    <extent>[88] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Creede</persName> and <persName type="printer">Valentine Simmes]</persName> for <persName type="publisher">Edward White</persName> and <persName type="publisher">N[icholas] L[ing]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' and Ling's names from STC.</note>
+      <note>Signatures: A-L&#8308;.</note>
+      <note>Running title reads: The causes and cures of the plague.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward White</persName>
+    </person>
+    <person type="publisher">
+      <persName>N[icholas] L[ing]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Creede</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Simmes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

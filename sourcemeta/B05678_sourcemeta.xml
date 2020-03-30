@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation for regulating the post-office. Edinburgh, the twenty ninth day of November, one thousand six hundred eighty and nine years.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1689-1694 : William and Mary)</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, by order of Privy Council,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1689">Anno Dom. 1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Signed at end: Gilb: Eliot, Cls. Sti. Concilii.</note>
-         <note>Imperfect: cropped and stained with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation for regulating the post-office. Edinburgh, the twenty ninth day of November, one thousand six hundred eighty and nine years.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1689-1694 : William and Mary)</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, by <persName type="printer">order of Privy Council</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1689">Anno Dom. 1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Signed at end: Gilb: Eliot, Cls. Sti. Concilii.</note>
+      <note>Imperfect: cropped and stained with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>order of Privy Council</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

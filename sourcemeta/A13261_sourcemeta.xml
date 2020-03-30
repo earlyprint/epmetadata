@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Christian loue-letter sent particularly to K.T. a gentlewoman mis-styled a Catholicke, but generallie intended to all of the Romish religion, to labour their conuersion to the true faith of Christ Iesus. By Iohn Swynnerton, Gent</title>
-         <author>Swynnerton, John.</author>
-      </titleStmt>
-      <extent>[84] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Iaggard dwelling in Barbican,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: [A]&#178;  B-L&#8308;.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Some print show-through.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Christian loue-letter sent particularly to K.T. a gentlewoman mis-styled a Catholicke, but generallie intended to all of the Romish religion, to labour their conuersion to the true faith of Christ Iesus. By Iohn Swynnerton, Gent</title>
+      <author>Swynnerton, John.</author>
+    </titleStmt>
+    <extent>[84] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Iaggard</persName> dwelling in <placeName>Barbican</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: [A]&#178;  B-L&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Some print show-through.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W. Iaggard</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Barbican</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

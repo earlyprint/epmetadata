@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Great Brittains warning piece, or Englands terror being an exhortation to all people to avoid the threatnings of Gods judgements, likely to come on us for our sins, by a speedy repentance, and turning to God. By. William Knowles B. of P. 1662.</title>
-         <author>Knowles, William.</author>
-      </titleStmt>
-      <extent>24 p. : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>printed for F. Coles at the sign of the Lamb in the Old-baily,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On verso of title page, woodcut portrait of William Knowles.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Great Brittains warning piece, or Englands terror being an exhortation to all people to avoid the threatnings of Gods judgements, likely to come on us for our sins, by a speedy repentance, and turning to God. By. William Knowles B. of P. 1662.</title>
+      <author>Knowles, William.</author>
+    </titleStmt>
+    <extent>24 p. : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">F. Coles</persName> at <placeName>the sign of the Lamb in the Old-baily</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On verso of title page, woodcut portrait of William Knowles.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Lamb in the Old-baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

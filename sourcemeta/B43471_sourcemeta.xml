@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief rule of life directing how to manage it according to the principles both of piety &amp; prudence : to which is added, a form of prayer for a family, both for morning and evening : which may likewise be used in the closet by those that want such helps.</title>
-         <author>Morton, John, fl. 1672.</author>
-      </titleStmt>
-      <extent>[8], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.C. [i.e. J. Cottrell] for Hen. Brome, at the Gun in Ivy-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: John Morton.</note>
-         <note>Printer's name suggested by Wing (2nd ed.).</note>
-         <note>Imperfect: cropped with slight loss of text.</note>
-         <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief rule of life directing how to manage it according to the principles both of piety &amp; prudence : to which is added, a form of prayer for a family, both for morning and evening : which may likewise be used in the closet by those that want such helps.</title>
+      <author>Morton, John, fl. 1672.</author>
+    </titleStmt>
+    <extent>[8], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.C. [i.e. J. Cottrell]</persName> for <persName type="publisher">Hen. Brome</persName>, at <placeName>the Gun in Ivy-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: John Morton.</note>
+      <note>Printer's name suggested by Wing (2nd ed.).</note>
+      <note>Imperfect: cropped with slight loss of text.</note>
+      <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Brome</persName>
+    </person>
+    <person type="publisher">
+      <persName>J.C. [i.e. J. Cottrell]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Gun in Ivy-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

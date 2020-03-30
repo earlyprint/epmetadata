@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At the Court at Whitehall April the twenty first, 1680 present the Kings Most Excellent Majesty ...</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-         <author>England and Wales. Privy Council.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Bill, Thomas Newcomb, and Henry Hills,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An order offering a reward for the discovery of the assaulters of John Arnold.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At the Court at Whitehall April the twenty first, 1680 present the Kings Most Excellent Majesty ...</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+      <author>England and Wales. Privy Council.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Bill</persName>, <persName type="publisher">Thomas Newcomb</persName>, and <persName type="publisher">Henry Hills</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An order offering a reward for the discovery of the assaulters of John Arnold.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Bill</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

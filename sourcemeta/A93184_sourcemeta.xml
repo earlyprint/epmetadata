@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londons glory or, The histor[y] of the famous and valiant London-prentice being an account of his parentage, birth and breeding together wi[th] many brave and heroick exploits perform'd by him throughout the course of his life; for the honour of London, and the whole ... nation.</title>
-         <author>J. S. (John Shirley), fl. 1680-1702.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W.O., sold by E. Tracy,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1700" cert="low">1700?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an illustrated title page.</note>
-         <note>Author from Wing.</note>
-         <note>Signatures: A-C&#8308;.</note>
-         <note>Imprint from Wing CD-ROM, 1996.</note>
-         <note>O copy cropped affecting imprint.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londons glory or, The histor[y] of the famous and valiant London-prentice being an account of his parentage, birth and breeding together wi[th] many brave and heroick exploits perform'd by him throughout the course of his life; for the honour of London, and the whole ... nation.</title>
+      <author>J. S. (John Shirley), fl. 1680-1702.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W.O.</persName>, sold by <persName type="bookseller">E. Tracy</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1700" cert="low">1700?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an illustrated title page.</note>
+      <note>Author from Wing.</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Imprint from Wing CD-ROM, 1996.</note>
+      <note>O copy cropped affecting imprint.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W.O.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Tracy</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

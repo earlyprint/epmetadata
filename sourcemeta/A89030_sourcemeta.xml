@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The copy of a letter sent to the King by Sir Jo. Meldrum.</title>
-         <author>Meldrum, John, Sir, d. 1645.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Joseph Hunscott,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">Octob. 18. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The copy of a letter sent to the King by Sir Jo. Meldrum.</title>
+      <author>Meldrum, John, Sir, d. 1645.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Joseph Hunscott</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">Octob. 18. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Hunscott</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Account of what men of war and privateers have been taken from the French since the beginning of the war (declared the 7th of May 1689,) to the first of October 1695.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Jones in the Savoy,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>"16 Octob. 1695"--In ms. under colophon.</note>
-         <note>Reproduction of original in: The Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Account of what men of war and privateers have been taken from the French since the beginning of the war (declared the 7th of May 1689,) to the first of October 1695.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>"16 Octob. 1695"--In ms. under colophon.</note>
+      <note>Reproduction of original in: The Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

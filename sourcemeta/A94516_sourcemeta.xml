@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Kings most Excellent Majesty. The humble address of the nobility and gentry of the county of Dorset.</title>
-         <author>Strode, John.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Clavel at the Stags-head in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">MDCLX. [1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: John Strode [and 220 others].</note>
-         <note>Annotation on Thomason copy: "June 14".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the Kings most Excellent Majesty. The humble address of the nobility and gentry of the county of Dorset.</title>
+      <author>Strode, John.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Clavel</persName> at <placeName>the Stags-head in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">MDCLX. [1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: John Strode [and 220 others].</note>
+      <note>Annotation on Thomason copy: "June 14".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Clavel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Stags-head in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

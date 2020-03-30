@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A gospel church describ'd in its author, names, head, matter, form, and end wherein are various cases concerning the ministery, divination, admission of members, discipline, schism ... / by Michael Harrison in Potters-Pury.</title>
-         <author>Harrison, Michael, Minister at Potters-Pury.</author>
-      </titleStmt>
-      <extent>[4], 136 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Pashum and M. Conyers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A gospel church describ'd in its author, names, head, matter, form, and end wherein are various cases concerning the ministery, divination, admission of members, discipline, schism ... / by Michael Harrison in Potters-Pury.</title>
+      <author>Harrison, Michael, Minister at Potters-Pury.</author>
+    </titleStmt>
+    <extent>[4], 136 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Pashum</persName></persName> and <persName type="bookseller">M. Conyers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Pashum</persName>
+    </person>
+    <person type="bookseller">
+      <persName>M. Conyers</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Pashum</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Quadriennium Jacobi, or, The history of the reign of King James II from his first coming to the crown to his desertion.</title>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[4], 258, 5 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed for James Knapton, and sold by Randal Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Quadriennium Jacobi, or, The history of the reign of King James II from his first coming to the crown to his desertion.</title>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[4], 258, 5 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">James Knapton</persName>, and sold by <persName type="bookseller">Randal Taylor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Knapton</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

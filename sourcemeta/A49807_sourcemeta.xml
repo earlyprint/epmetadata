@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An appeal to the Parliament concerning the poor that there may not be a beggar in England.</title>
-         <author>Lawson, Thomas, 1630-1691.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Wilson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: T.L.</note>
-         <note>Attributed by Wing to Thomas Lawson.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An appeal to the Parliament concerning the poor that there may not be a beggar in England.</title>
+      <author>Lawson, Thomas, 1630-1691.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Wilson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: T.L.</note>
+      <note>Attributed by Wing to Thomas Lawson.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Wilson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

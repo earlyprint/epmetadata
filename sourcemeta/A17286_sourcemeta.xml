@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The excellency of a gracious spirit Deliuered in a treatise upon the 14. of Numbers, verse 24. By Ier. Burroughes minister of Gods Word.</title>
-         <author>Burroughs, Jeremiah, 1599-1646.</author>
-      </titleStmt>
-      <extent>[24], 431, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M[iles] F[lesher] for R. Dawlman, and L. Fawne, at the Brazen Serpent in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The excellency of a gracious spirit Deliuered in a treatise upon the 14. of Numbers, verse 24. By Ier. Burroughes minister of Gods Word.</title>
+      <author>Burroughs, Jeremiah, 1599-1646.</author>
+    </titleStmt>
+    <extent>[24], 431, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M[iles] F[lesher]</persName> for <persName type="publisher">R. Dawlman</persName>, and <persName type="publisher">L. Fawne</persName>, at <placeName>the Brazen Serpent in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. Fawne</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Dawlman</persName>
+    </person>
+    <person type="printer">
+      <persName>M[iles] F[lesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Brazen Serpent in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

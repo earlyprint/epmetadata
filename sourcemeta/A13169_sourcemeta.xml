@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The examination and confutation of a certaine scurrilous treatise entituled, The suruey of the newe religion, published by Matthew Kellison, in disgrace of true religion professed in the Church of England</title>
-         <author>Sutcliffe, Matthew, 1550?-1629.</author>
-      </titleStmt>
-      <extent>[28], 113, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Allde for Richard Serger and Edmund Weauer, &amp; are to be solde at the great north dore of S. Paules Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Matthew Sutcliffe.</note>
-         <note>Running title reads: The reuew and examination of Kellisons scurrilous Suruey.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The examination and confutation of a certaine scurrilous treatise entituled, The suruey of the newe religion, published by Matthew Kellison, in disgrace of true religion professed in the Church of England</title>
+      <author>Sutcliffe, Matthew, 1550?-1629.</author>
+    </titleStmt>
+    <extent>[28], 113, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Allde</persName> for <persName type="publisher">Richard Serger</persName> and <persName type="publisher">Edmund Weauer</persName>, <persName type="publisher">&amp;</persName> are to be solde at <placeName>the great north dore of S. Paules Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Matthew Sutcliffe.</note>
+      <note>Running title reads: The reuew and examination of Kellisons scurrilous Suruey.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>&amp;</persName>
+    </person>
+    <person type="publisher">
+      <persName>Edmund Weauer</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Serger</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the great north dore of S. Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

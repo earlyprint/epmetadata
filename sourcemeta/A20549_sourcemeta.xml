@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plaine and familiar exposition of the thirteenth and fourteenth chapters of the Prouerbs of Salomon</title>
-         <author>Dod, John, 1549?-1645.</author>
-         <author>Cleaver, Robert, 1561 or 2-ca. 1625.</author>
-      </titleStmt>
-      <extent>[4], 152 [i.e. 154], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By R.B. for Roger Iackson, and are to be sold at his shop in Fleetstreet, neare the Conduit,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iohn Dod, Robert Cleauer.</note>
-         <note>Signatures: A-V&#8308;.</note>
-         <note>Marginal notes.</note>
-         <note>Errors in paging: p. 90 misnumbered 60, p. 115 repeated in the numbering.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plaine and familiar exposition of the thirteenth and fourteenth chapters of the Prouerbs of Salomon</title>
+      <author>Dod, John, 1549?-1645.</author>
+      <author>Cleaver, Robert, 1561 or 2-ca. 1625.</author>
+    </titleStmt>
+    <extent>[4], 152 [i.e. 154], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">R.B.</persName> for <persName type="publisher">Roger Iackson</persName>, and are to be sold at <placeName>his shop in Fleetstreet, neare the Conduit</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iohn Dod, Robert Cleauer.</note>
+      <note>Signatures: A-V&#8308;.</note>
+      <note>Marginal notes.</note>
+      <note>Errors in paging: p. 90 misnumbered 60, p. 115 repeated in the numbering.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>R.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleetstreet, neare the Conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

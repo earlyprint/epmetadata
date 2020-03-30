@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The conscionable Christian: or, The indeuour of Saint Paul, to haue and discharge a good conscience alwayes towards God, and men laid open and applyed in three sermons. Preached before the honourable judges of the circuit, at their seuerall assises, holden in Chard and Taunton, for the county of Somerset. 1620. By Richard Carpenter, Doctor of Diuinity, and pastor of Sherwell in Deuon.</title>
-         <author>Carpenter, Richard, 1575-1627.</author>
-      </titleStmt>
-      <extent>[10], 119, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By F[elix] K[ingston] for Iohn Bartlet, and are to be sold at the signe of the gilded Cup, in the Goldsmiths Rowe in Cheapside,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The conscionable Christian: or, The indeuour of Saint Paul, to haue and discharge a good conscience alwayes towards God, and men laid open and applyed in three sermons. Preached before the honourable judges of the circuit, at their seuerall assises, holden in Chard and Taunton, for the county of Somerset. 1620. By Richard Carpenter, Doctor of Diuinity, and pastor of Sherwell in Deuon.</title>
+      <author>Carpenter, Richard, 1575-1627.</author>
+    </titleStmt>
+    <extent>[10], 119, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">F[elix] K[ingston]</persName> for <persName type="publisher">Iohn Bartlet</persName>, and are to be sold at <placeName>the signe of the gilded Cup, in the Goldsmiths Rowe in Cheapside</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bartlet</persName>
+    </person>
+    <person type="printer">
+      <persName>F[elix] K[ingston]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the gilded Cup, in the Goldsmiths Rowe in Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

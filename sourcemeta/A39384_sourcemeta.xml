@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Emilia</title>
-         <author>Aureli, Aurelio, d. 1708. Costanza di Rosamonda.</author>
-      </titleStmt>
-      <extent>[8], 95 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A tragedy.</note>
-         <note>"Plot ... from La Costanza di Rosamondo [i.e. Rosmonda], of Aurelio Aureli"--Author's note entitled "To the onely few."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Emilia</title>
+      <author>Aureli, Aurelio, d. 1708. Costanza di Rosamonda.</author>
+    </titleStmt>
+    <extent>[8], 95 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A tragedy.</note>
+      <note>"Plot ... from La Costanza di Rosamondo [i.e. Rosmonda], of Aurelio Aureli"--Author's note entitled "To the onely few."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

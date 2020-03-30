@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act for furnishing of baggage-horse to His Majesties host at Edinburgh, the seventeeth day of July, One Thousand Six Hundred and Eighty Nine Years.</title>
-         <author>Scotland.</author>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, by order of His Majesties Privy Council,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act for furnishing of baggage-horse to His Majesties host at Edinburgh, the seventeeth day of July, One Thousand Six Hundred and Eighty Nine Years.</title>
+      <author>Scotland.</author>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, by <persName type="printer">order of His Majesties Privy Council</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>order of His Majesties Privy Council</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The present state of Jamaica with the life of the great Columbus the first discoverer : to which is added an exact account of Sir Hen. Morgan's voyage to, and famous siege and taking of Panama from the Spaniards.</title>
-      </titleStmt>
-      <extent>[10], 117 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Fr. Clark for Tho. Malthus ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: prelim. p. [7]-[10].</note>
-         <note>Sir Henry Morgan's voyage to Panama 1670. London : Printed for T. Malthus, 1683 (With special t.p.): p. [55-97].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The present state of Jamaica with the life of the great Columbus the first discoverer : to which is added an exact account of Sir Hen. Morgan's voyage to, and famous siege and taking of Panama from the Spaniards.</title>
+    </titleStmt>
+    <extent>[10], 117 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Fr. Clark</persName> for <persName type="publisher">Tho. Malthus</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: prelim. p. [7]-[10].</note>
+      <note>Sir Henry Morgan's voyage to Panama 1670. London : Printed for T. Malthus, 1683 (With special t.p.): p. [55-97].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Malthus</persName>
+    </person>
+    <person type="printer">
+      <persName>Fr. Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

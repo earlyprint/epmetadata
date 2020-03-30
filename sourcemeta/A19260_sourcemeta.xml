@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Greenes Tu quoque, or, The cittie gallant As it hath beene diuers times acted by the Queenes Maiesties seruants, written by Io. Cooke Gent.</title>
-         <author>Cooke, Jo., fl. 1614.</author>
-         <author>Heywood, Thomas, d. 1641.</author>
-         <author>Greene, Thomas, d. 1612.</author>
-      </titleStmt>
-      <extent>[88] p.   </extent>
-      <publicationStmt>
-         <publisher>[By Nicholas Okes] for Iohn Trundle,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1614">1614.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's note "to the reader" signed: Thomas Heywood.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Printer's name from STC. "Quires G-K may be by a different printer or compositor".</note>
-         <note>Signatures: A&#178;  B-L&#8308; M&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Greenes Tu quoque, or, The cittie gallant As it hath beene diuers times acted by the Queenes Maiesties seruants, written by Io. Cooke Gent.</title>
+      <author>Cooke, Jo., fl. 1614.</author>
+      <author>Heywood, Thomas, d. 1641.</author>
+      <author>Greene, Thomas, d. 1612.</author>
+    </titleStmt>
+    <extent>[88] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Nicholas Okes]</persName> for <persName type="publisher">Iohn Trundle</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1614">1614.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's note "to the reader" signed: Thomas Heywood.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Printer's name from STC. "Quires G-K may be by a different printer or compositor".</note>
+      <note>Signatures: A&#178;  B-L&#8308; M&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Trundle</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of vvill-vvorship.</title>
-         <author>Hammond, Henry, 1605-1660.</author>
-      </titleStmt>
-      <extent>[2], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hall printer to the Universitie.,</publisher>
-         <pubPlace>Oxford, :</pubPlace>
-         <date when="1645">1644 [i.e. 1645]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Henry Hammond by Wing.</note>
-         <note>Wing has publication year 1644 only; Thomason catalogue lists under 1645.</note>
-         <note>Annotation on Thomason copy: "by Dr Hen: Hamond"; "March 20th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of vvill-vvorship.</title>
+      <author>Hammond, Henry, 1605-1660.</author>
+    </titleStmt>
+    <extent>[2], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hall</persName> printer to <persName type="patron">the Universitie.</persName>,</publisher>
+      <pubPlace>Oxford, :</pubPlace>
+      <date when="1645">1644 [i.e. 1645]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Henry Hammond by Wing.</note>
+      <note>Wing has publication year 1644 only; Thomason catalogue lists under 1645.</note>
+      <note>Annotation on Thomason copy: "by Dr Hen: Hamond"; "March 20th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hall</persName>
+    </person>
+    <person type="patron">
+      <persName>the Universitie.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

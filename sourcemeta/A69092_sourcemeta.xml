@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christian liberty described in a sermon preached in the Collegiate Church at Westminster, by a minister of Suffolke. A.C.</title>
-         <author>Chapman, Alexander, 1576 or 7-1629.</author>
-         <author>Barlow, William, d. 1613.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. VV[indet] for Matthew Lawe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A.C. = Alexander Chapman.</note>
-         <note>Sometimes attributed to William Barlow.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-E&#8308; F&#178; .</note>
-         <note>Identified as STC 1448 on UMI microfilm.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christian liberty described in a sermon preached in the Collegiate Church at Westminster, by a minister of Suffolke. A.C.</title>
+      <author>Chapman, Alexander, 1576 or 7-1629.</author>
+      <author>Barlow, William, d. 1613.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. VV[indet]</persName> for <persName type="publisher">Matthew Lawe</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A.C. = Alexander Chapman.</note>
+      <note>Sometimes attributed to William Barlow.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-E&#8308; F&#178; .</note>
+      <note>Identified as STC 1448 on UMI microfilm.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Lawe</persName>
+    </person>
+    <person type="printer">
+      <persName>I. VV[indet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

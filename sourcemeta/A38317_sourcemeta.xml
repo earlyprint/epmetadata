@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Veneris, 24 die Augusti, 1660. The Lords in Parliament taking notice, that the streets, lanes, and other publike passages in or neer the cities of London and Westminster ... are very much out of repair ..</title>
-         <title>Proceedings. 1660-08-24.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for John Bill, printer to the King's most excellent Majesty [At the King's printing-house in Black-Friers],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660. At the King's printing-house in Black-Friers.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>"Saturday the 22. day of December, 1660. Ordered by the Lords in Parliament assembled, that the above said order be renewed for six moneths longer next ensuing the date hereof, and to be printed and published forthwith. Jo. Browne cleric. Parliamentorum.".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Veneris, 24 die Augusti, 1660. The Lords in Parliament taking notice, that the streets, lanes, and other publike passages in or neer the cities of London and Westminster ... are very much out of repair ..</title>
+      <title>Proceedings. 1660-08-24.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Bill</persName>, printer to <persName type="patron">the King's most excellent Majesty [At the King's printing-house</persName> in <placeName>Black-Friers]</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660. At the King's printing-house in Black-Friers.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>"Saturday the 22. day of December, 1660. Ordered by the Lords in Parliament assembled, that the above said order be renewed for six moneths longer next ensuing the date hereof, and to be printed and published forthwith. Jo. Browne cleric. Parliamentorum.".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty [At the King's printing-house</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Black-Friers]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

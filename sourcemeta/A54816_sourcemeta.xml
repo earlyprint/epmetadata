@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Physical dictionary, or, An Interpretation of such crabbed words and terms of arts, as are deriv'd from the Greek or Latin, and used in physick, anatomy, chirurgery, and chymistry with a definition of most diseases incident to the body of man, and a description of the marks and characters used by doctors in their receipts. ...</title>
-      </titleStmt>
-      <extent>[221] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.D. for John Garfield ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Physical dictionary, or, An Interpretation of such crabbed words and terms of arts, as are deriv'd from the Greek or Latin, and used in physick, anatomy, chirurgery, and chymistry with a definition of most diseases incident to the body of man, and a description of the marks and characters used by doctors in their receipts. ...</title>
+    </titleStmt>
+    <extent>[221] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.D.</persName> for <persName type="publisher">John Garfield</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Garfield</persName>
+    </person>
+    <person type="printer">
+      <persName>G.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

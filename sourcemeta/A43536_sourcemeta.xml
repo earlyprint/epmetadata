@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Er&#333;ologia Anglorum. Or, An help to English history Containing a succession of all the kings of England, and the English-Saxons, the kings and princes of Wales, the kings and lords of Man, and the Isle of Wight. As also of all the arch-bishops, bishops, dukes, marquesses, and earles, within the said dominions. In three tables. By Robert Hall, Gent.</title>
-         <author>Peter Heylyn, 1600-1662.</author>
-      </titleStmt>
-      <extent>[6], 379, [1] p. : ill., port.  </extent>
-      <publicationStmt>
-         <publisher>by T. and R. Cotes, for Henry Seile, and are to be sold at his shop in Fleet-street, over against Saint Dunstans-Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Robert Hall is a pseudonym for Peter Heylyn.</note>
-         <note>First word of title is in Greek characters.</note>
-         <note>Each table has separate dated title page; second table has two parts, each with separate dated title page.</note>
-         <note>Imperfect; leaves K7-K12 lacking.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Er&#333;ologia Anglorum. Or, An help to English history Containing a succession of all the kings of England, and the English-Saxons, the kings and princes of Wales, the kings and lords of Man, and the Isle of Wight. As also of all the arch-bishops, bishops, dukes, marquesses, and earles, within the said dominions. In three tables. By Robert Hall, Gent.</title>
+      <author>Peter Heylyn, 1600-1662.</author>
+    </titleStmt>
+    <extent>[6], 379, [1] p. : ill., port.  </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">T.</persName> and <persName type="printer">R. Cotes</persName>, for <persName type="publisher">Henry Seile</persName>, and are to be sold at <placeName>his shop in Fleet-street, over against Saint Dunstans-Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Robert Hall is a pseudonym for Peter Heylyn.</note>
+      <note>First word of title is in Greek characters.</note>
+      <note>Each table has separate dated title page; second table has two parts, each with separate dated title page.</note>
+      <note>Imperfect; leaves K7-K12 lacking.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Cotes</persName>
+    </person>
+    <person type="printer">
+      <persName>T.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleet-street, over against Saint Dunstans-Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached in St. Maries in Cambridge, upon Sunday the 27 of March, being the day of His Majesties happy inauguration: By Ri. Holdsvvorth D.D. Master of Emmanuel Colledge in Cambridge, Vicechancellour of the Universitie, and one of His Majesties chaplains. Published by His Majesties command.</title>
-         <author>Holdsworth, Richard, 1590-1649.</author>
-      </titleStmt>
-      <extent>[6], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Daniel, Printer to the Universitie of Cambridge,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached in St. Maries in Cambridge, upon Sunday the 27 of March, being the day of His Majesties happy inauguration: By Ri. Holdsvvorth D.D. Master of Emmanuel Colledge in Cambridge, Vicechancellour of the Universitie, and one of His Majesties chaplains. Published by His Majesties command.</title>
+      <author>Holdsworth, Richard, 1590-1649.</author>
+    </titleStmt>
+    <extent>[6], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Daniel</persName>, Printer to <persName type="patron">the Universitie of Cambridge</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Roger Daniel</persName>
+    </person>
+    <person type="patron">
+      <persName>the Universitie of Cambridge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

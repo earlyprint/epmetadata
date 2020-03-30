@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sudorificum regale, or, The royal sudoforick</title>
-         <author>Barker, Richard, Sir.</author>
-      </titleStmt>
-      <extent>[47], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Sir Richard Barker,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sudorificum regale, or, The royal sudoforick</title>
+      <author>Barker, Richard, Sir.</author>
+    </titleStmt>
+    <extent>[47], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Sir Richard Barker</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sir Richard Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

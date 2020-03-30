@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Colonel Rich's letter to the House of Commons, of a great victory obtained against eight hundred of the Princes forces, lately landed in Kent by Sandown Castle. Where were one hundred and eighty kill'd in the place, one hundred prisoners taken, three hundred arms, and all their chief commanders, as by a list herewith appeareth. VVhich letter was read in the House of Commons, and by the Honorable William Lenthal Esq; Speaker of the said House, appointed to be printed and published.</title>
-         <author>Rich, Nathaniel, d. 1701.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, printer to the Honorable House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">August 16. 1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on A4r: Nath: Rich.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Colonel Rich's letter to the House of Commons, of a great victory obtained against eight hundred of the Princes forces, lately landed in Kent by Sandown Castle. Where were one hundred and eighty kill'd in the place, one hundred prisoners taken, three hundred arms, and all their chief commanders, as by a list herewith appeareth. VVhich letter was read in the House of Commons, and by the Honorable William Lenthal Esq; Speaker of the said House, appointed to be printed and published.</title>
+      <author>Rich, Nathaniel, d. 1701.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">August 16. 1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on A4r: Nath: Rich.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

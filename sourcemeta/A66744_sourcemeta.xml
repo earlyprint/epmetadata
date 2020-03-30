@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The British appeals, with Gods mercifull replies, on the behalfe of the Commonwealth of England Contained in a brief commemorative poem, composed for a memorial of some of those many signall mercies, lately vouchsafed to this rebublike; especially, for those deliverances upon the appeales of the Parliaments, and royall forces at Naseby; of the English and Sccottish armies neer Dunbar in Scotland, and for the late surrender of Edenburgh-Castle, &amp;c. By Geo. Wither, Esquire.</title>
-         <author>Wither, George, 1588-1667.</author>
-      </titleStmt>
-      <extent>[8], 64 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and are to be sold by Nathaniel Brooks, at the Angel in Corn-hill,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Errata at foot of p. 64.</note>
-         <note>Stained, torn and cropped, with some print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The British appeals, with Gods mercifull replies, on the behalfe of the Commonwealth of England Contained in a brief commemorative poem, composed for a memorial of some of those many signall mercies, lately vouchsafed to this rebublike; especially, for those deliverances upon the appeales of the Parliaments, and royall forces at Naseby; of the English and Sccottish armies neer Dunbar in Scotland, and for the late surrender of Edenburgh-Castle, &amp;c. By Geo. Wither, Esquire.</title>
+      <author>Wither, George, 1588-1667.</author>
+    </titleStmt>
+    <extent>[8], 64 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Nathaniel Brooks</persName>, at <placeName>the Angel in Corn-hill</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Errata at foot of p. 64.</note>
+      <note>Stained, torn and cropped, with some print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nathaniel Brooks</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Corn-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

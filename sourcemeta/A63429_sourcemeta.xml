@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True and perfect journal of the affairs in Ireland since His Majesties arrival in that kingdom by a person of quality.</title>
-         <author>Person of quality.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True and perfect journal of the affairs in Ireland since His Majesties arrival in that kingdom by a person of quality.</title>
+      <author>Person of quality.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Randal Taylor</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

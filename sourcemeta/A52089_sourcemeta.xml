@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Coll. Henry Marten's familiar letters to his lady of delight Also her kind returnes. With his rival R. Pettingalls heroicall epistles. Published by Edm: Gayton, according to the original papers under their own hands: with an answer to that letter, intituled, A copy of H. Marten's letter in justification of the murther of the late King Charles.</title>
-         <author>Marten, Henry, 1602-1680.</author>
-         <author>Pettingall, Richard.</author>
-         <author>Ward, Mary, 17th cent.</author>
-         <author>Gayton, Edmund, 1606-1666.</author>
-      </titleStmt>
-      <extent>[8], 95, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed [by A. Lichfield] for Richard Davis,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>His lady of delight = Mary Ward.</note>
-         <note>Dedications signed: De Specios&#226; Vill&#226;, i.e. Edmund Gayton. Cf. Madan, III, 2602.</note>
-         <note>Printer's name from Madan.</note>
-         <note>Date altered in MS. to 1663.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Coll. Henry Marten's familiar letters to his lady of delight Also her kind returnes. With his rival R. Pettingalls heroicall epistles. Published by Edm: Gayton, according to the original papers under their own hands: with an answer to that letter, intituled, A copy of H. Marten's letter in justification of the murther of the late King Charles.</title>
+      <author>Marten, Henry, 1602-1680.</author>
+      <author>Pettingall, Richard.</author>
+      <author>Ward, Mary, 17th cent.</author>
+      <author>Gayton, Edmund, 1606-1666.</author>
+    </titleStmt>
+    <extent>[8], 95, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed [by <persName type="printer">A. Lichfield]</persName> for <persName type="publisher">Richard Davis</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>His lady of delight = Mary Ward.</note>
+      <note>Dedications signed: De Specios&#226; Vill&#226;, i.e. Edmund Gayton. Cf. Madan, III, 2602.</note>
+      <note>Printer's name from Madan.</note>
+      <note>Date altered in MS. to 1663.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Lichfield]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

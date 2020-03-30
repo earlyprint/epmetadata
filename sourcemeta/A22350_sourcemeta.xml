@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King a proclamation for better furnishing the nauy, and shipping of the realme, with able and skilfull mariners.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>2 leaves.   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton and Iohn Bill, Printers  to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1625">M.DC.XXV [1625]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Sheet 1 line 1 of text ends "Iames"; sheet 2, line 7 ends "entertaine".</note>
-         <note>"Giuen at Our Court at Saint Iames, the one and thirtieth day of March, in the first yeere Our Reigne of Great Britain, France, and Ireland."</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King a proclamation for better furnishing the nauy, and shipping of the realme, with able and skilfull mariners.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>2 leaves.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, <persName type="printer">Printers  to the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1625">M.DC.XXV [1625]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Sheet 1 line 1 of text ends "Iames"; sheet 2, line 7 ends "entertaine".</note>
+      <note>"Giuen at Our Court at Saint Iames, the one and thirtieth day of March, in the first yeere Our Reigne of Great Britain, France, and Ireland."</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Printers  to the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

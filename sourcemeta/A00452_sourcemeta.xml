@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sacrifice of a contrite heart in teares, meditations, and prayers. Penned by Iohn Euans minister of Gods word.</title>
-         <author>Evans, John, minister of Gods word.</author>
-      </titleStmt>
-      <extent>[22], 354 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. M[athewes] for Richard Hamond, and are to be sold at his shop of the vpper end of Fleete lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Partly in verse.</note>
-         <note>Imperfect; leaf R3 lacking.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sacrifice of a contrite heart in teares, meditations, and prayers. Penned by Iohn Euans minister of Gods word.</title>
+      <author>Evans, John, minister of Gods word.</author>
+    </titleStmt>
+    <extent>[22], 354 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. M[athewes]</persName> for <persName type="publisher">Richard Hamond</persName>, and are to be sold at <placeName>his shop of the vpper end of Fleete lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Partly in verse.</note>
+      <note>Imperfect; leaf R3 lacking.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Hamond</persName>
+    </person>
+    <person type="printer">
+      <persName>A. M[athewes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop of the vpper end of Fleete lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

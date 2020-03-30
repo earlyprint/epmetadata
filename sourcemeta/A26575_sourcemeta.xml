@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londerias, or, A narrative of the siege of London-Dery which was formed by the late King James the 18th of April, and raised the 1st of August, Anno Dom. 1689 : written in verse / by Joseph Aickin.</title>
-         <author>Aickin, Joseph.</author>
-      </titleStmt>
-      <extent>[6], 76 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. B. and S. P. ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londerias, or, A narrative of the siege of London-Dery which was formed by the late King James the 18th of April, and raised the 1st of August, Anno Dom. 1689 : written in verse / by Joseph Aickin.</title>
+      <author>Aickin, Joseph.</author>
+    </titleStmt>
+    <extent>[6], 76 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. B.</persName> and <persName type="printer">S. P.</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. B.</persName>
+    </person>
+    <person type="printer">
+      <persName>S. P.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

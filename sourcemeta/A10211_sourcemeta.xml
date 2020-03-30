@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Histoire de l'entree de la reyne mere du roy tres Chrestien, dans la Grande-Bretaigne Enrichie de planches. Par le Sr. de la Serre, Historigraphe de France.</title>
-         <author>La Serre, M. de (Jean-Puget), ca. 1600-1665.</author>
-      </titleStmt>
-      <extent>[66] p., : ill.  </extent>
-      <publicationStmt>
-         <publisher>Par Jean Raworth, pour George Thomason, &amp; Octauian Pullen, &#224; la Rose, au Cimetiere de Sainct Paul,</publisher>
-         <pubPlace>A Londre :</pubPlace>
-         <date when="1639">M.DC.XXXIX [1639]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: [pi]&#178;  ):(&#179; A-O&#178; .</note>
-         <note>Reproduction of the original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Histoire de l'entree de la reyne mere du roy tres Chrestien, dans la Grande-Bretaigne Enrichie de planches. Par le Sr. de la Serre, Historigraphe de France.</title>
+      <author>La Serre, M. de (Jean-Puget), ca. 1600-1665.</author>
+    </titleStmt>
+    <extent>[66] p., : ill.  </extent>
+    <publicationStmt>
+      <publisher>Par <persName type="printer">Jean Raworth, pour George Thomason</persName>, <persName type="printer">&amp; Octauian Pullen</persName>, <persName type="printer">&#224; la Rose, au Cimetiere de Sainct Paul</persName>,</publisher>
+      <pubPlace>A Londre :</pubPlace>
+      <date when="1639">M.DC.XXXIX [1639]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: [pi]&#178;  ):(&#179; A-O&#178; .</note>
+      <note>Reproduction of the original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>&amp; Octauian Pullen</persName>
+    </person>
+    <person type="printer">
+      <persName>Jean Raworth, pour George Thomason</persName>
+    </person>
+    <person type="printer">
+      <persName>&#224; la Rose, au Cimetiere de Sainct Paul</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

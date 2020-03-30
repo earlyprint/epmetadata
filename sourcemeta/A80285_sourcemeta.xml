@@ -1,19 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The compleat clark, and scriveners guide. Containing exact draughts and presidents of all manner of assurances and instruments now in use: as they were penned and perfected by divers learned judges, eminent lawyers, and great conveyancers, both ancient and modern. Whereunto is also added a concordance of years, from the time of King Richard the third untill this present; very usefull for conveyancers and others. With an exact alphabeticall table, whereby any of the said presidents may be easily found out.</title>
-      </titleStmt>
-      <extent>[10], 664, [16] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. for H. Twyford, and are to be sold at his shop in Vine-Court Middle Temple, N. Brookes at the Angell in Cornhill, J. Place at Furnivals Inne Gate in Holborne, and R. Wingate, at the Golden Hind in Chancery-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes index.</note>
-         <note>Annotation on Thomason copy: "July".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The compleat clark, and scriveners guide. Containing exact draughts and presidents of all manner of assurances and instruments now in use: as they were penned and perfected by divers learned judges, eminent lawyers, and great conveyancers, both ancient and modern. Whereunto is also added a concordance of years, from the time of King Richard the third untill this present; very usefull for conveyancers and others. With an exact alphabeticall table, whereby any of the said presidents may be easily found out.</title>
+    </titleStmt>
+    <extent>[10], 664, [16] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> for <persName type="publisher">H. Twyford</persName>, and are to be sold at <placeName>his shop in Vine-Court Middle Temple</placeName>, <placeName>N. Brookes at the Angell in Cornhill</placeName>, <placeName>J. Place at Furnivals Inne Gate in Holborne</placeName>, and <persName type="publisher">R. Wingate</persName>, at <placeName>the Golden Hind in Chancery-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes index.</note>
+      <note>Annotation on Thomason copy: "July".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Twyford</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Wingate</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>J. Place at Furnivals Inne Gate in Holborne</placeName>
+    </place>
+    <place type="location">
+      <placeName>N. Brookes at the Angell in Cornhill</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Vine-Court Middle Temple</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Golden Hind in Chancery-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

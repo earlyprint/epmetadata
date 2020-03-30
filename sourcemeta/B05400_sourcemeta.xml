@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh, April 5th. 1694. The Lords of Their Majesties Privy Council being informed ...</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson,</publisher>
-         <pubPlace>[Edinburgh, :</pubPlace>
-         <date when="1694">1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first line of text.</note>
-         <note>Place and date of publication suggested by Wing (2nd ed.).</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh, April 5th. 1694. The Lords of Their Majesties Privy Council being informed ...</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>,</publisher>
+      <pubPlace>[Edinburgh, :</pubPlace>
+      <date when="1694">1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first line of text.</note>
+      <note>Place and date of publication suggested by Wing (2nd ed.).</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

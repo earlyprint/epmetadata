@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of many well-affected freemen, and citizens of the City of London, for themselves, and the rest of those Covenant-ingaged citizens, whose names were subscribed to the late humble representation presented to the Parliament. To the Right Honorable the Lord Mayor, the right worshipfull the aldermen, and commons of the City of London in Common-Councell assembled. Presented Ianuary 25. 1646. Published according to order.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho: Underhill at the Bible in Woodstreet.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1647">1646. [i.e. 1647]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wing has publication year 1646[7].</note>
-         <note>Annotation on Thomason copy: "Jan: 29".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of many well-affected freemen, and citizens of the City of London, for themselves, and the rest of those Covenant-ingaged citizens, whose names were subscribed to the late humble representation presented to the Parliament. To the Right Honorable the Lord Mayor, the right worshipfull the aldermen, and commons of the City of London in Common-Councell assembled. Presented Ianuary 25. 1646. Published according to order.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho: Underhill</persName> at <placeName>the Bible in Woodstreet.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1647">1646. [i.e. 1647]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wing has publication year 1646[7].</note>
+      <note>Annotation on Thomason copy: "Jan: 29".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho: Underhill</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Woodstreet.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

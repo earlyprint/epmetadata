@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Christian and brotherly exhortation to peace: directed unto the soverain states of England, and the United Provinces of the Netherlands. And to the people of both nations. Translated out of the French copie, sent by a lover of peace from beyond sea.</title>
-         <author>Lover of peace from beyond sea.</author>
-      </titleStmt>
-      <extent>[2], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Wodenothe in Leaden-hall-street.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1653">1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from colophon.</note>
-         <note>Annotation on Thomason copy: "Decemb: 30 1653".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Christian and brotherly exhortation to peace: directed unto the soverain states of England, and the United Provinces of the Netherlands. And to the people of both nations. Translated out of the French copie, sent by a lover of peace from beyond sea.</title>
+      <author>Lover of peace from beyond sea.</author>
+    </titleStmt>
+    <extent>[2], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Wodenothe</persName> in <placeName>Leaden-hall-street.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1653">1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from colophon.</note>
+      <note>Annotation on Thomason copy: "Decemb: 30 1653".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Wodenothe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Leaden-hall-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

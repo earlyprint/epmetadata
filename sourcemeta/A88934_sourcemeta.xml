@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Work upon the ark. Meditations upon the ark as a type of the church; delivered in a sermon at Boston, and now dedicated unto the service of all, but especially of those whose concerns lye in ships. / By Cotton Mather.</title>
-         <author>Mather, Cotton, 1663-1728.</author>
-      </titleStmt>
-      <extent>[10], 54 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Samuel Green, and sold by Joseph Browning at the corner of the Prison Lane.,</publisher>
-         <pubPlace>Boston :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-D&#8312; (A&#179;, C&#179;, D&#179; unsigned)</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Work upon the ark. Meditations upon the ark as a type of the church; delivered in a sermon at Boston, and now dedicated unto the service of all, but especially of those whose concerns lye in ships. / By Cotton Mather.</title>
+      <author>Mather, Cotton, 1663-1728.</author>
+    </titleStmt>
+    <extent>[10], 54 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Samuel Green</persName>, and sold by <persName type="bookseller">Joseph Browning</persName> at <placeName>the corner of the Prison Lane.</placeName>,</publisher>
+      <pubPlace>Boston :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-D&#8312; (A&#179;, C&#179;, D&#179; unsigned)</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Samuel Green</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Joseph Browning</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the corner of the Prison Lane.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise concerning estates tayle and discents of inheritance written by N.N. ; and published by I. Sherman ...</title>
-         <author>N. N.</author>
-         <author>Sherman, John.</author>
-      </titleStmt>
-      <extent>[2], 42, [i.e. 43] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Grove ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages 42, 43 misnumbered 43 and 42, respectively.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise concerning estates tayle and discents of inheritance written by N.N. ; and published by I. Sherman ...</title>
+      <author>N. N.</author>
+      <author>Sherman, John.</author>
+    </titleStmt>
+    <extent>[2], 42, [i.e. 43] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Grove</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages 42, 43 misnumbered 43 and 42, respectively.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Grove</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

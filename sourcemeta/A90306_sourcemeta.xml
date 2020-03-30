@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the decree of the University of Oxford, against some heretical tenets At a meeting of Mr. Vice-Chancellour, and the heads of colledges and halls, in the University of Oxford, the 25th of November, 1695.</title>
-         <author>University of Oxford.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Sold by J. Whitlock, near Stationers-Hall,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1695">[1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the decree of the University of Oxford, against some heretical tenets At a meeting of Mr. Vice-Chancellour, and the heads of colledges and halls, in the University of Oxford, the 25th of November, 1695.</title>
+      <author>University of Oxford.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Sold by <persName type="bookseller">J. Whitlock</persName>, near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1695">[1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The advantage of a learned education being a sermon preached at the cathedral Church of St. Paul on St. Paul's day 1697/8, before the gentlemen educated at that school, upon the reviving their antient anniversary meeting / by W. Nicholls, D.D.</title>
-         <author>Nicholls, William, 1664-1712.</author>
-      </titleStmt>
-      <extent>[4], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Redmayne for Fran. Saunders ..., and Benj. Tooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date notBefore="1697" notAfter="1698">1697/8.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The advantage of a learned education being a sermon preached at the cathedral Church of St. Paul on St. Paul's day 1697/8, before the gentlemen educated at that school, upon the reviving their antient anniversary meeting / by W. Nicholls, D.D.</title>
+      <author>Nicholls, William, 1664-1712.</author>
+    </titleStmt>
+    <extent>[4], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Redmayne</persName> for <persName type="publisher">Fran. Saunders</persName> ..., and <persName type="publisher">Benj. Tooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date notBefore="1697" notAfter="1698">1697/8.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>Fran. Saunders</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Redmayne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

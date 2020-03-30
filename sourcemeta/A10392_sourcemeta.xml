@@ -1,28 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The most sacred Bible, whiche is the Holy Scripture conteyning the Old and New Testament / translated into English, and newly recognised with great diligence after most faythful exemplars, by Rychard Taverner.</title>
-         <title>Bible. English. Taverner. 1539.</title>
-         <author>Taverner, Richard, 1505?-1575.</author>
-      </titleStmt>
-      <extent>[32], CCXXX [i.e. 460], LXXXXI [i.e. 182], [2], LXXV [i.e. 150], [2], CI [i.e. 190], [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Prynted at London in Fletestrete at the sygne of the Sonne by John Byddell, for Thomas Barthlet,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1539">M.D.XXXIX. [1539]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Apocrypha and New Testament each have special t.p.</note>
-         <note>Signatures: [pi]4 [2 hands]6 [3 hands]6 A-2O6 2P8, 2A-2O6 2P8 3A-3M6 3N4, A-I6 L-Q6 R8. Quire K lacking in all known copies.</note>
-         <note>Pages numbered on recto only.</note>
-         <note>Numerous errors in paging.</note>
-         <note>Title within illustrated border.</note>
-         <note>Marginal notes.</note>
-         <note>This is a replacement copy for incomplete British Library filming on reel 83.</note>
-         <note>Reel guide erroneously lists this item as being on reel 1764.</note>
-         <note>Imperfect: tightly bound with slight loss of print.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The most sacred Bible, whiche is the Holy Scripture conteyning the Old and New Testament / translated into English, and newly recognised with great diligence after most faythful exemplars, by Rychard Taverner.</title>
+      <title>Bible. English. Taverner. 1539.</title>
+      <author>Taverner, Richard, 1505?-1575.</author>
+    </titleStmt>
+    <extent>[32], CCXXX [i.e. 460], LXXXXI [i.e. 182], [2], LXXV [i.e. 150], [2], CI [i.e. 190], [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Prynted at <placeName>London in Fletestrete at the sygne of the Sonne</placeName> by <persName type="printer">John Byddell</persName>, for <persName type="publisher">Thomas Barthlet</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1539">M.D.XXXIX. [1539]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Apocrypha and New Testament each have special t.p.</note>
+      <note>Signatures: [pi]4 [2 hands]6 [3 hands]6 A-2O6 2P8, 2A-2O6 2P8 3A-3M6 3N4, A-I6 L-Q6 R8. Quire K lacking in all known copies.</note>
+      <note>Pages numbered on recto only.</note>
+      <note>Numerous errors in paging.</note>
+      <note>Title within illustrated border.</note>
+      <note>Marginal notes.</note>
+      <note>This is a replacement copy for incomplete British Library filming on reel 83.</note>
+      <note>Reel guide erroneously lists this item as being on reel 1764.</note>
+      <note>Imperfect: tightly bound with slight loss of print.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Barthlet</persName>
+    </person>
+    <person type="printer">
+      <persName>John Byddell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fletestrete at the sygne of the Sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

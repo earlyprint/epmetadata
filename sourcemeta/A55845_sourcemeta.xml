@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A synopsis of councels. By John Prideaux, late Regius Professour of Divinity at Oxford, and Bishop of Worcester</title>
-         <author>Prideaux, John, 1578-1650.</author>
-      </titleStmt>
-      <extent>[2], 58, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by A. &amp; L. Lichfield, printers to the University,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With two final contents leaves.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A synopsis of councels. By John Prideaux, late Regius Professour of Divinity at Oxford, and Bishop of Worcester</title>
+      <author>Prideaux, John, 1578-1650.</author>
+    </titleStmt>
+    <extent>[2], 58, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">A.</persName> &amp; <persName type="printer">L. Lichfield</persName>, printers to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With two final contents leaves.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A.</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

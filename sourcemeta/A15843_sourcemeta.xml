@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Canzonets to three voyces newly composed by Henry Youll practicioner in the art of musicke.</title>
-         <author>Youll, Henry.</author>
-      </titleStmt>
-      <extent>[54] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Este, the assigne of William Barley,</publisher>
-         <pubPlace>In London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: [A]&#178;  B-E&#8308;, [A]&#178;  B-E&#8308;, [A]&#178;  B-E&#8308;.</note>
-         <note>Publication date appears on title page in ornamental cartouche above imprint.</note>
-         <note>Three partbooks, each with separate title page identical to main title page.</note>
-         <note>Pages marked and stained.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Canzonets to three voyces newly composed by Henry Youll practicioner in the art of musicke.</title>
+      <author>Youll, Henry.</author>
+    </titleStmt>
+    <extent>[54] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Este</persName>, the assigne of <persName type="assigns">William Barley</persName>,</publisher>
+      <pubPlace>In London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: [A]&#178;  B-E&#8308;, [A]&#178;  B-E&#8308;, [A]&#178;  B-E&#8308;.</note>
+      <note>Publication date appears on title page in ornamental cartouche above imprint.</note>
+      <note>Three partbooks, each with separate title page identical to main title page.</note>
+      <note>Pages marked and stained.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Este</persName>
+    </person>
+    <person type="assigns">
+      <persName>William Barley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

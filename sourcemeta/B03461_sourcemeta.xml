@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The late speech and testimony of William Gogor, one of the three desperate and incorrigible traytors executed at the Grass Mercat in Edinburgh, the eleventh day of March, 1681. for disowning His Sacred Majesties authority ...</title>
-         <author>Gogor, William, d. 1681.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Reprinted for John Smith, in Great Queen-Street,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1681">[1681].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Date of publication fron Wing (2nd ed.).</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The late speech and testimony of William Gogor, one of the three desperate and incorrigible traytors executed at the Grass Mercat in Edinburgh, the eleventh day of March, 1681. for disowning His Sacred Majesties authority ...</title>
+      <author>Gogor, William, d. 1681.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Reprinted for <persName type="publisher">John Smith</persName>, in <placeName>Great Queen-Street</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1681">[1681].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Date of publication fron Wing (2nd ed.).</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Great Queen-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

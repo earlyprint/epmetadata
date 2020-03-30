@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The manner how statutes are enacted in Parliament by passing of bills collected many yeares past out of the iournalls of the House of Commons by W. Hakewil ... ; together with a catalogue of the speakers names.</title>
-         <author>Hakewill, William, 1574-1655.</author>
-      </titleStmt>
-      <extent>[18], 148 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.H. for Iohn Benson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"A catalogue of the names of the speakers of the Commons House of Parliament": p. 105-148.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The manner how statutes are enacted in Parliament by passing of bills collected many yeares past out of the iournalls of the House of Commons by W. Hakewil ... ; together with a catalogue of the speakers names.</title>
+      <author>Hakewill, William, 1574-1655.</author>
+    </titleStmt>
+    <extent>[18], 148 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.H.</persName> for <persName type="publisher">Iohn Benson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"A catalogue of the names of the speakers of the Commons House of Parliament": p. 105-148.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Benson</persName>
+    </person>
+    <person type="printer">
+      <persName>T.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

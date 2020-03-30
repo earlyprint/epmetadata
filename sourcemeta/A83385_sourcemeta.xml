@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Parliament a proclamation commanding all Jesuits, seminary priests, and other Romish priests, to depart out of this Commonwealth.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1653">1652 [i.e. 1653]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print dated: Wednesday the Fifth of Ianuary, 1652. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>With Parliamentary seal at head of text.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Parliament a proclamation commanding all Jesuits, seminary priests, and other Romish priests, to depart out of this Commonwealth.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1653">1652 [i.e. 1653]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print dated: Wednesday the Fifth of Ianuary, 1652. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>With Parliamentary seal at head of text.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Irelands lamentation for the late destructive cessation, or, A trap to catch Protestants. Written by Lieutenant Colonell Chidly Coote. Published according to order.</title>
-         <author>Coote, Chidly.</author>
-      </titleStmt>
-      <extent>[2], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. C. for H. S.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "March 1st 1643".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Irelands lamentation for the late destructive cessation, or, A trap to catch Protestants. Written by Lieutenant Colonell Chidly Coote. Published according to order.</title>
+      <author>Coote, Chidly.</author>
+    </titleStmt>
+    <extent>[2], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. C.</persName> for <persName type="publisher">H. S.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "March 1st 1643".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. S.</persName>
+    </person>
+    <person type="printer">
+      <persName>R. C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

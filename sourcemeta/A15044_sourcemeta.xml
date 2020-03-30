@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A remembraunce of the wel imployed life, [and] godly end, of George Gaskoigne Esquire who deceassed at Stalmford in Lincolneshire the 7. of October. 1577. The reporte of Geor. Whetstons gent. an eye witnes of his godly and charitable end in this world.</title>
-         <author>Whetstone, George, 1544?-1587?</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>For Edward Aggas, dwelling in Paules Churchyard and are there to be solde,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1577">[1577]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Running title reads: The lyfe and death of George Gaskoigne.</note>
-         <note>Publication date from STC.</note>
-         <note>Printer's device on title page.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>Some print show-through; some pages stained.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A remembraunce of the wel imployed life, [and] godly end, of George Gaskoigne Esquire who deceassed at Stalmford in Lincolneshire the 7. of October. 1577. The reporte of Geor. Whetstons gent. an eye witnes of his godly and charitable end in this world.</title>
+      <author>Whetstone, George, 1544?-1587?</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Edward Aggas</persName>, dwelling in <placeName>Paules Churchyard</placeName> and are there to be solde,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1577">[1577]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Running title reads: The lyfe and death of George Gaskoigne.</note>
+      <note>Publication date from STC.</note>
+      <note>Printer's device on title page.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Some print show-through; some pages stained.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Aggas</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

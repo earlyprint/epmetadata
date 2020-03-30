@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of Exeter-Colledge in the University of Oxford related and vindicated</title>
-         <author>Bury, Arthur, 1624-1713.</author>
-         <author>Washington, Joseph, d. 1694.</author>
-      </titleStmt>
-      <extent>[2], 74 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Randal Tayler,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Arthur Bury--LC-NUC author lists, 1942-1962. Also sometimes attributed to Joseph Washington--Halkett &amp; Laing; British museum gen. cat.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of Exeter-Colledge in the University of Oxford related and vindicated</title>
+      <author>Bury, Arthur, 1624-1713.</author>
+      <author>Washington, Joseph, d. 1694.</author>
+    </titleStmt>
+    <extent>[2], 74 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Randal Tayler</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Arthur Bury--LC-NUC author lists, 1942-1962. Also sometimes attributed to Joseph Washington--Halkett &amp; Laing; British museum gen. cat.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Randal Tayler</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Tayler</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of Pomponius Atticus written by his contemporary and acquaintance Cornelius Nepos ; translated out of his fragments, together with observations, political and moral, thereupon.</title>
-         <title>Atticus. English</title>
-         <author>Nepos, Cornelius.</author>
-      </titleStmt>
-      <extent>[14], 242, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Godbid, for W. Shrowsbury ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of Atticus.</note>
-         <note>Errata: p. [1] at end.</note>
-         <note>Addenda: p. [3]-[5] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of Pomponius Atticus written by his contemporary and acquaintance Cornelius Nepos ; translated out of his fragments, together with observations, political and moral, thereupon.</title>
+      <title>Atticus. English</title>
+      <author>Nepos, Cornelius.</author>
+    </titleStmt>
+    <extent>[14], 242, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Godbid</persName>, for <persName type="publisher">W. Shrowsbury</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of Atticus.</note>
+      <note>Errata: p. [1] at end.</note>
+      <note>Addenda: p. [3]-[5] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Shrowsbury</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

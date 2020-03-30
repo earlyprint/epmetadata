@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Honey out of the rock, or, Gods method in giving the sweetest comforts in sharpest combates. Chiefly intended, as spirituall plunder for plundered beleevers.</title>
-         <author>Price, John, Citizen of London.</author>
-      </titleStmt>
-      <extent>[6], 33, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Francis Neile for Henry Overton in Popes-Head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: J.P., i.e. John Price.</note>
-         <note>With a preliminary license to print.</note>
-         <note>Annotation on Thomason copy: "May. 10th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Honey out of the rock, or, Gods method in giving the sweetest comforts in sharpest combates. Chiefly intended, as spirituall plunder for plundered beleevers.</title>
+      <author>Price, John, Citizen of London.</author>
+    </titleStmt>
+    <extent>[6], 33, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Francis Neile</persName> for <persName type="publisher">Henry Overton</persName> in <placeName>Popes-Head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: J.P., i.e. John Price.</note>
+      <note>With a preliminary license to print.</note>
+      <note>Annotation on Thomason copy: "May. 10th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="printer">
+      <persName>Francis Neile</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-Head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

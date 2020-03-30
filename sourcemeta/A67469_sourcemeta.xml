@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of Mr. Rich. Hooker, the author of those learned books of the laws of ecclesiastical polity</title>
-         <author>Walton, Izaak, 1593-1683.</author>
-         <author>King, Henry, 1592-1669.</author>
-      </titleStmt>
-      <extent>[22], 208 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J.G. for Rich. Marriott, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First ed.</note>
-         <note>Dedication signed: Izaak Walton.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>"The copy of a letter writ to Mr. Walton by Dr. King, Lord Bishop of Chichester" : p. [10].</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of Mr. Rich. Hooker, the author of those learned books of the laws of ecclesiastical polity</title>
+      <author>Walton, Izaak, 1593-1683.</author>
+      <author>King, Henry, 1592-1669.</author>
+    </titleStmt>
+    <extent>[22], 208 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Rich. Marriott</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First ed.</note>
+      <note>Dedication signed: Izaak Walton.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>"The copy of a letter writ to Mr. Walton by Dr. King, Lord Bishop of Chichester" : p. [10].</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rich. Marriott</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

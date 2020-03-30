@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The glorious lover a divine poem upon the adorable mystery of sinners redemption / by B.K., author of War with the Devil.</title>
-         <author>Keach, Benjamin, 1640-1704.</author>
-      </titleStmt>
-      <extent>[5], 266 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Christopher Hussey ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to B.K. [i.e. B. Keach]. Cf. BM.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The glorious lover a divine poem upon the adorable mystery of sinners redemption / by B.K., author of War with the Devil.</title>
+      <author>Keach, Benjamin, 1640-1704.</author>
+    </titleStmt>
+    <extent>[5], 266 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Christopher Hussey</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to B.K. [i.e. B. Keach]. Cf. BM.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Hussey</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

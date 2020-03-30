@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Religious covenanting directed, and covenant-keeping perswaded: presented, in a sermon preached before the Right Honourable Thomas Adams Lord Major, and the right worshipfull the sheriffs, and aldermen his brethren, and the rest of the Common-Councel of the famous City of London, January 14. 1645. Upon which day the solemne League and Covenant was renewed by them and their officers, with prayer and fasting, at Michael Basing-shaw, London. / By Simeon Ash minister of the Gospel.</title>
-         <author>Ashe, Simeon, d. 1662.</author>
-      </titleStmt>
-      <extent>[4], 22, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Tho. Underhill at the signe of the Bible in Wood-street.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1646">M.DC.XLVI. [1646]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Religious covenanting directed, and covenant-keeping perswaded: presented, in a sermon preached before the Right Honourable Thomas Adams Lord Major, and the right worshipfull the sheriffs, and aldermen his brethren, and the rest of the Common-Councel of the famous City of London, January 14. 1645. Upon which day the solemne League and Covenant was renewed by them and their officers, with prayer and fasting, at Michael Basing-shaw, London. / By Simeon Ash minister of the Gospel.</title>
+      <author>Ashe, Simeon, d. 1662.</author>
+    </titleStmt>
+    <extent>[4], 22, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Tho. Underhill</persName> at <placeName>the signe of the Bible in Wood-street.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1646">M.DC.XLVI. [1646]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Underhill</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible in Wood-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

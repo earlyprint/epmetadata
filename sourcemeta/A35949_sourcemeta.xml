@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief exposition of the evangel of Jesus Christ according to Matthew by David Dickson ...</title>
-         <author>Dickson, David, 1583?-1663.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The third edition.</edition>
-      </editionStmt>
-      <extent>[10], 357 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Ralph Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief exposition of the evangel of Jesus Christ according to Matthew by David Dickson ...</title>
+      <author>Dickson, David, 1583?-1663.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The third edition.</edition>
+    </editionStmt>
+    <extent>[10], 357 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ralph Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

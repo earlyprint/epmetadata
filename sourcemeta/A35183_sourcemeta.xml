@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached upon April xxiii. MDCLXXX. in the cathedral church of Bristol, before the gentlemen of the artillery-company, newly raised in that city. By Samuel Crossman, B.D.</title>
-         <author>Crossman, Samuel, 1624?-1684.</author>
-      </titleStmt>
-      <extent>[4], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Charles Allen, bookseller in Bristol,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A sermon preached before the artillery-company of Bristol.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached upon April xxiii. MDCLXXX. in the cathedral church of Bristol, before the gentlemen of the artillery-company, newly raised in that city. By Samuel Crossman, B.D.</title>
+      <author>Crossman, Samuel, 1624?-1684.</author>
+    </titleStmt>
+    <extent>[4], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Charles Allen</persName>, bookseller in <placeName>Bristol</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A sermon preached before the artillery-company of Bristol.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Allen</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Bristol</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

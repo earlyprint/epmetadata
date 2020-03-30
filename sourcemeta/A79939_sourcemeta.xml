@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Cantique de triomphe sur la victoire navale des Anglois &amp; des Hollandois remport&#233;e sur les Fran&#231;ois, le 29. May 1692.</title>
-         <author>Delage, J. bookseller.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Se vendent par J. Delage, &amp; par tous les Portiers des Eglises Fran&#231;oises.</publisher>
-         <pubPlace>A Londres, :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Cantique de triomphe sur la victoire navale des Anglois &amp; des Hollandois remport&#233;e sur les Fran&#231;ois, le 29. May 1692.</title>
+      <author>Delage, J. bookseller.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Se vendent par <persName type="printer">J. Delage</persName>, <persName type="printer">&amp; par tous les Portiers des Eglises Fran&#231;oises.</persName></publisher>
+      <pubPlace>A Londres, :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>&amp; par tous les Portiers des Eglises Fran&#231;oises.</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Delage</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

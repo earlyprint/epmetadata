@@ -1,25 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden fleece diuided into three parts, vnder which are discouered the errours of religion, the vices and decayes of the kingdome, and lastly the wayes to get wealth, and to restore trading so much complayned of. Transported from Cambrioll Colchos, out of the southermost part of the iland, commonly called the Newfoundland, by Orpheus Iunior, for the generall and perpetuall good of Great Britaine.</title>
-         <author>Vaughan, William, 1577-1641.</author>
-         <author>Mason, John, 1586-1635.</author>
-      </titleStmt>
-      <extent>[28], 149, [1], 105, [1], 96 p., folded plate : map  </extent>
-      <publicationStmt>
-         <publisher>Printed [by William Stansby, Miles Flesher, and another] for Francis Williams, and are to bee sold at his shop at the signe of the Globe, ouer against the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Orpheus Junior = William Vaughan.</note>
-         <note>Partly in verse.</note>
-         <note>Stansby printed the preliminaries and A-V; Flesher printed 3A-3M; the rest was done by an unidentified printer (STC).</note>
-         <note>The map has legend: Insula olim vocata Noua Terr&#230;. The iland called of olde: Newfound Land. described by Captaine Iohn Mason an industrious gent: who spent seuen yeares in the countrey.</note>
-         <note>Each part has separate pagination; register is continuous.</note>
-         <note>Leaf 2O2 is bound after V2. It is numbered 149 on recto; the verso is blank.</note>
-         <note>Reproduction of the original in Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden fleece diuided into three parts, vnder which are discouered the errours of religion, the vices and decayes of the kingdome, and lastly the wayes to get wealth, and to restore trading so much complayned of. Transported from Cambrioll Colchos, out of the southermost part of the iland, commonly called the Newfoundland, by Orpheus Iunior, for the generall and perpetuall good of Great Britaine.</title>
+      <author>Vaughan, William, 1577-1641.</author>
+      <author>Mason, John, 1586-1635.</author>
+    </titleStmt>
+    <extent>[28], 149, [1], 105, [1], 96 p., folded plate : map  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">William Stansby</persName>, <persName type="printer">Miles Flesher, and another]</persName> for <persName type="publisher">Francis Williams</persName>, and are to bee sold at <placeName>his shop at the signe of the Globe, ouer against the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Orpheus Junior = William Vaughan.</note>
+      <note>Partly in verse.</note>
+      <note>Stansby printed the preliminaries and A-V; Flesher printed 3A-3M; the rest was done by an unidentified printer (STC).</note>
+      <note>The map has legend: Insula olim vocata Noua Terr&#230;. The iland called of olde: Newfound Land. described by Captaine Iohn Mason an industrious gent: who spent seuen yeares in the countrey.</note>
+      <note>Each part has separate pagination; register is continuous.</note>
+      <note>Leaf 2O2 is bound after V2. It is numbered 149 on recto; the verso is blank.</note>
+      <note>Reproduction of the original in Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher, and another]</persName>
+    </person>
+    <person type="printer">
+      <persName>William Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Globe, ouer against the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

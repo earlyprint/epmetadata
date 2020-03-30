@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene. A proclamation against the maintenaunce of pirates</title>
-         <title>Proclamations. 1569-08-03</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In Powles Churchyarde by Richarde Iugge and Iohn Cawood, Printers to the Queenes Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1569">[1569]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from STC.</note>
-         <note>Last complete line of text ends: "remayne".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene. A proclamation against the maintenaunce of pirates</title>
+      <title>Proclamations. 1569-08-03</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In Powles Churchyarde by <persName type="printer">Richarde Iugge</persName> and <persName type="printer">Iohn Cawood</persName>, Printers to <persName type="patron">the Queenes Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1569">[1569]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from STC.</note>
+      <note>Last complete line of text ends: "remayne".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Richarde Iugge</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

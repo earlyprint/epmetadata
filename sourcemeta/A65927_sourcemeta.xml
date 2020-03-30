@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of the necessity of Revelation and an holy life deliver'd in a visitation-sermon at Guilford, October 7, 1697 / by William Whitfeld.</title>
-         <author>Whitfeld, William, 1658-1717.</author>
-      </titleStmt>
-      <extent>20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Holt for Tho. Bennet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of the necessity of Revelation and an holy life deliver'd in a visitation-sermon at Guilford, October 7, 1697 / by William Whitfeld.</title>
+      <author>Whitfeld, William, 1658-1717.</author>
+    </titleStmt>
+    <extent>20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Holt</persName> for <persName type="publisher">Tho. Bennet</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Holt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

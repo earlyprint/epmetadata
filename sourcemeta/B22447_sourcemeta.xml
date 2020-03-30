@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Lun&#230; 20: Maii 1661. The Lords in Parliament assembled, having considered of a paper sent unto them ... called, The solemn league or[sic] covenant ...</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker, Printers to the Kings most Excellent Majesty,,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1661">1661..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>At end: "Die Lun&#230; 20. Maii, 1661. Ordered by the Lords in Parliament assembled, that this Order be forthwith printed and published. Jo. Browne Cleric. Parliamentorum."</note>
-         <note>Initial, royal arms; Steele notation: a said upon.</note>
-         <note>An order for the common hangman to burn the Solemn League and Covenant on May 22, 1661, and that all copies be destroyed. -- Steele.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Lun&#230; 20: Maii 1661. The Lords in Parliament assembled, having considered of a paper sent unto them ... called, The solemn league or[sic] covenant ...</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, Printers to <persName type="patron">the Kings most Excellent Majesty</persName>,,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1661">1661..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>At end: "Die Lun&#230; 20. Maii, 1661. Ordered by the Lords in Parliament assembled, that this Order be forthwith printed and published. Jo. Browne Cleric. Parliamentorum."</note>
+      <note>Initial, royal arms; Steele notation: a said upon.</note>
+      <note>An order for the common hangman to burn the Solemn League and Covenant on May 22, 1661, and that all copies be destroyed. -- Steele.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

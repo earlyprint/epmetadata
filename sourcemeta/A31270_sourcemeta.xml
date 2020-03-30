@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of English, Greek and Latin books, both ancient and modern especially of the writings of the most eminent divines of our own nation, together with variety of other books ... which will be sold by auction ... at Frank's Coffee-house ... on Wednesday the 13th of this instant October 1697 ... / by Thomas Axe.</title>
-         <author>Axe, Thomas.</author>
-      </titleStmt>
-      <extent>14 p.   </extent>
-      <publicationStmt>
-         <publisher>Catalogues are given gratis at Mr. Keebles ..., Mr. Cumberlands ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1697">[1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained and cropped, with print show-through and loss of print.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of English, Greek and Latin books, both ancient and modern especially of the writings of the most eminent divines of our own nation, together with variety of other books ... which will be sold by auction ... at Frank's Coffee-house ... on Wednesday the 13th of this instant October 1697 ... / by Thomas Axe.</title>
+      <author>Axe, Thomas.</author>
+    </titleStmt>
+    <extent>14 p.   </extent>
+    <publicationStmt>
+      <publisher>Catalogues are given gratis at <placeName>Mr. Keebles</placeName> ..., <placeName>Mr. Cumberlands</placeName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1697">[1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained and cropped, with print show-through and loss of print.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Cumberlands</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mr. Keebles</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The works of George Swinnock, M.A. containing these several treatises ...</title>
-         <title>Works. 1665.</title>
-         <author>Swinnock, George, 1627-1673.</author>
-      </titleStmt>
-      <extent>[42], 877, [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.B. for Tho. Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: prelim. p. [41].</note>
-         <note>Includes bibliographical references.</note>
-         <note>Advertisement: p. [14]-[17] at end.</note>
-         <note>"An alphabetical table ..." [i.e. index]: p. [1]-[13] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>(from t.p.) The Christian mans calling, First part, wherein a Christian is directed how to carry himself in religious duties, natural actions, particular vocation, family direction, his own recreation -- Second part, The Christian directed to perform his duty as parent, child, husband, wife, master, servant, and in the conditions of prosperity and adversity --Third part, Directing a Christian to perform his duty, in his dealings with all men, in the choice of his companions, in evil company, in good company, in solitude, on a week-day from morning to night, in visiting the sick, on a dying bed -- Heaven and Hell epitomized, or, The true Christian characterized -- Door of salvation opened, by the key of regeneration -- Fading of the flesh, and flourishing of faith -- A valedictory sermon, on Act. 20. 32. -- Men are Gods, on Psal. 82. 6, 7.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The works of George Swinnock, M.A. containing these several treatises ...</title>
+      <title>Works. 1665.</title>
+      <author>Swinnock, George, 1627-1673.</author>
+    </titleStmt>
+    <extent>[42], 877, [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.B.</persName> for <persName type="publisher">Tho. Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: prelim. p. [41].</note>
+      <note>Includes bibliographical references.</note>
+      <note>Advertisement: p. [14]-[17] at end.</note>
+      <note>"An alphabetical table ..." [i.e. index]: p. [1]-[13] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>(from t.p.) The Christian mans calling, First part, wherein a Christian is directed how to carry himself in religious duties, natural actions, particular vocation, family direction, his own recreation -- Second part, The Christian directed to perform his duty as parent, child, husband, wife, master, servant, and in the conditions of prosperity and adversity --Third part, Directing a Christian to perform his duty, in his dealings with all men, in the choice of his companions, in evil company, in good company, in solitude, on a week-day from morning to night, in visiting the sick, on a dying bed -- Heaven and Hell epitomized, or, The true Christian characterized -- Door of salvation opened, by the key of regeneration -- Fading of the flesh, and flourishing of faith -- A valedictory sermon, on Act. 20. 32. -- Men are Gods, on Psal. 82. 6, 7.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

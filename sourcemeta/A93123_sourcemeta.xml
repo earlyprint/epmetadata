@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Kings supremacy asserted. Or A remonstrance of the Kings right against the pretended Parliament. By Robert Sheringham M.A. and Fellow of Gunvill, and Caius-Colledge in Cambridge</title>
-         <author>Sheringham, Robert, 1602-1678.</author>
-      </titleStmt>
-      <extent>[8], 128 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed formerly in Holland, and now reprinted by W. Godbid and are to be sold by Richard Skelton, and Richard Head, at [ ,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1660">1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing (CD-ROM edition).</note>
-         <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2432 has title page cropped at bottom; part of imprint missing.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Kings supremacy asserted. Or A remonstrance of the Kings right against the pretended Parliament. By Robert Sheringham M.A. and Fellow of Gunvill, and Caius-Colledge in Cambridge</title>
+      <author>Sheringham, Robert, 1602-1678.</author>
+    </titleStmt>
+    <extent>[8], 128 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed formerly in <placeName>Holland</placeName>, and now reprinted by <persName type="printer">W. Godbid</persName> and are to be sold by <persName type="bookseller">Richard Skelton</persName>, and <persName type="bookseller">Richard Head</persName>, at <placeName>[</placeName> ,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1660">1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing (CD-ROM edition).</note>
+      <note>Copy filmed at UMI microfilm Early English Books 1641-1700 reel 2432 has title page cropped at bottom; part of imprint missing.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Head</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Skelton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holland</placeName>
+    </place>
+    <place type="location">
+      <placeName>[</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of william Long beard, the most famous and witty English traitor, borne in the citty of London Accompanied with manye other most pleasant and prettie histories, by T.L. of Lincolns Inne, gent.</title>
-         <author>Lodge, Thomas, 1558?-1625.</author>
-      </titleStmt>
-      <extent>[70]+ p.   </extent>
-      <publicationStmt>
-         <publisher>By Rychard Yardley and Peter Short, dwelling on Breadstreat hill, at the signe of the Starre,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1593">1593.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.L. = Thomas Lodge.</note>
-         <note>Signatures: pi&#185;+ A-H&#8308; I&#178; .</note>
-         <note>Title is found in 2 states: with or without a Latin motto. This copy lacks the motto.</note>
-         <note>Imperfect; lacks dedication.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of william Long beard, the most famous and witty English traitor, borne in the citty of London Accompanied with manye other most pleasant and prettie histories, by T.L. of Lincolns Inne, gent.</title>
+      <author>Lodge, Thomas, 1558?-1625.</author>
+    </titleStmt>
+    <extent>[70]+ p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Rychard Yardley</persName> and <persName type="printer">Peter Short</persName>, dwelling on <placeName>Breadstreat hill, at the signe of the Starre</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1593">1593.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.L. = Thomas Lodge.</note>
+      <note>Signatures: pi&#185;+ A-H&#8308; I&#178; .</note>
+      <note>Title is found in 2 states: with or without a Latin motto. This copy lacks the motto.</note>
+      <note>Imperfect; lacks dedication.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Peter Short</persName>
+    </person>
+    <person type="printer">
+      <persName>Rychard Yardley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Breadstreat hill, at the signe of the Starre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Josephus redivivus: or, Innocencie  violated and vindicated. In a sermon preached on the publike day of Thanksgiving, in Wandsworth in Surey by the vicar there.  On Thursday May the 24th, 1660.</title>
-         <author>Roberts, Hugh, fl. 1660.</author>
-      </titleStmt>
-      <extent>[4], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Cottrel, for Humphrey Robinson, at the Three Pigeons in St. Paul's Church-Yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Hugh Roberts.  Cf. Wing (2nd ed.).</note>
-         <note>Reproduction of original in: Peterborough Cathedral.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Josephus redivivus: or, Innocencie  violated and vindicated. In a sermon preached on the publike day of Thanksgiving, in Wandsworth in Surey by the vicar there.  On Thursday May the 24th, 1660.</title>
+      <author>Roberts, Hugh, fl. 1660.</author>
+    </titleStmt>
+    <extent>[4], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Cottrel</persName>, for <persName type="publisher">Humphrey Robinson</persName>, at <placeName>the Three Pigeons in St. Paul's Church-Yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Hugh Roberts.  Cf. Wing (2nd ed.).</note>
+      <note>Reproduction of original in: Peterborough Cathedral.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>James Cottrel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Pigeons in St. Paul's Church-Yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

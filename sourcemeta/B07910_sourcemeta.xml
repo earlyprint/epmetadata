@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A forme of prayer, with thankesgiuing, to bee vsed of all the Kings Maiesties louing subiects euery yeere the 27. of March. Being the day of His Highnesse entry to this kingdome. ; Set forth by authority.</title>
-         <author>Church of England.</author>
-         <author>Norton, Bonham, 1565-1635.</author>
-         <author>Bill, John, d. 1630.</author>
-      </titleStmt>
-      <extent>[43] p.   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton, and Iohn Bill, Printers to the Kings most Excellent Maiesty.,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1626">1626..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title within woodcut border (McK. &amp; Ferg. 165[beta]); initial; tail-piece; black letter.</note>
-         <note>Colophon dated 1625.</note>
-         <note>Signatures: A-E&#8308; F&#178;.</note>
-         <note>"Cum priuilegio."</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A forme of prayer, with thankesgiuing, to bee vsed of all the Kings Maiesties louing subiects euery yeere the 27. of March. Being the day of His Highnesse entry to this kingdome. ; Set forth by authority.</title>
+      <author>Church of England.</author>
+      <author>Norton, Bonham, 1565-1635.</author>
+      <author>Bill, John, d. 1630.</author>
+    </titleStmt>
+    <extent>[43] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiesty.</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1626">1626..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title within woodcut border (McK. &amp; Ferg. 165[beta]); initial; tail-piece; black letter.</note>
+      <note>Colophon dated 1625.</note>
+      <note>Signatures: A-E&#8308; F&#178;.</note>
+      <note>"Cum priuilegio."</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiesty.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

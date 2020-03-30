@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A myrrour or glasse for them that be syke [and] in payne. Translated out of Dutche in English</title>
-         <author>Gnaphaeus, Gulielmus, 1493-1568.</author>
-         <author>Coverdale, Miles, 1488-1568, attributed name.</author>
-      </titleStmt>
-      <extent>[200] p.   </extent>
-      <publicationStmt>
-         <publisher>By my Iames Nicolson, for Ian Gough cum priuilegio Regali],</publisher>
-         <pubPlace>[Prynted in Southwarke :</pubPlace>
-         <date when="1536">1536.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Translated by Miles Coverdale?--STC.</note>
-         <note>Signatures: A-M N&#8308;.</note>
-         <note>Formerly STC 17982.</note>
-         <note>Identified as STC 17982 on UMI microfilm.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A myrrour or glasse for them that be syke [and] in payne. Translated out of Dutche in English</title>
+      <author>Gnaphaeus, Gulielmus, 1493-1568.</author>
+      <author>Coverdale, Miles, 1488-1568, attributed name.</author>
+    </titleStmt>
+    <extent>[200] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">my Iames Nicolson</persName>, for <persName type="publisher">Ian Gough</persName> cum priuilegio Regali],</publisher>
+      <pubPlace>[Prynted in Southwarke :</pubPlace>
+      <date when="1536">1536.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Translated by Miles Coverdale?--STC.</note>
+      <note>Signatures: A-M N&#8308;.</note>
+      <note>Formerly STC 17982.</note>
+      <note>Identified as STC 17982 on UMI microfilm.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ian Gough</persName>
+    </person>
+    <person type="printer">
+      <persName>my Iames Nicolson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

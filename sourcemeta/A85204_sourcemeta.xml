@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Davids recognition, with a parallel betwixt his and our present soveraigns sufferings and deliverances; set forth in a sermon preached at Grymston in Norfolk, before the right worshipful Captain Roger Spelman and his foot company, there celebrating the 30. aniversary of his Majesites nativity, May 29, 1660. By R. Feltwell, Vicar of East Walton.</title>
-         <author>Feltwell, Robert, 1610 or 11-1669.</author>
-      </titleStmt>
-      <extent>[4], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and are to be sold by Thomas Parkhurst, at the Three Crowns, in the lower end of Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Davids recognition, with a parallel betwixt his and our present soveraigns sufferings and deliverances; set forth in a sermon preached at Grymston in Norfolk, before the right worshipful Captain Roger Spelman and his foot company, there celebrating the 30. aniversary of his Majesites nativity, May 29, 1660. By R. Feltwell, Vicar of East Walton.</title>
+      <author>Feltwell, Robert, 1610 or 11-1669.</author>
+    </titleStmt>
+    <extent>[4], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Thomas Parkhurst</persName>, at <placeName>the Three Crowns, in the lower end of Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Crowns, in the lower end of Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Parliament having received intelligence of the taking of the castle of Sterling in Scotland ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from first two lines of text.</note>
-         <note>At head of title: Saturday the 30th day of August, 1651.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Parliament having received intelligence of the taking of the castle of Sterling in Scotland ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from first two lines of text.</note>
+      <note>At head of title: Saturday the 30th day of August, 1651.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

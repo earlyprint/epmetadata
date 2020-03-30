@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Historical memoires on the reigns of Queen Elizabeth and King James</title>
-         <author>Osborne, Francis, 1593-1659.</author>
-      </titleStmt>
-      <extent>2 pts. : ill., ports.  </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Grismond, and are to be sold by T. Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Traditional memoires on the reign of Queen Elizabeth" has special t.p.</note>
-         <note>Attributed to Francis Osborne. Cf. NUC pre-1956.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Imperfect: "Traditional memoyres on the raigne of King James" and portraits are lacking on film.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Historical memoires on the reigns of Queen Elizabeth and King James</title>
+      <author>Osborne, Francis, 1593-1659.</author>
+    </titleStmt>
+    <extent>2 pts. : ill., ports.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Grismond</persName>, and are to be sold by <persName type="bookseller">T. Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Traditional memoires on the reign of Queen Elizabeth" has special t.p.</note>
+      <note>Attributed to Francis Osborne. Cf. NUC pre-1956.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Imperfect: "Traditional memoyres on the raigne of King James" and portraits are lacking on film.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Grismond</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Robinson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

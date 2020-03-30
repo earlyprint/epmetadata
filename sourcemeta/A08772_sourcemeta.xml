@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The prentises practise in Godlinesse, and his true freedome Diuided into ten chapters. Written by B.P.</title>
-         <author>B. P., fl. 1608.</author>
-         <author>T. R., fl. 1608.</author>
-      </titleStmt>
-      <extent>[15], 71, [14] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for Iohn Bach, and are to be sold at his shop in Popes head Palace,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: T.R.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The prentises practise in Godlinesse, and his true freedome Diuided into ten chapters. Written by B.P.</title>
+      <author>B. P., fl. 1608.</author>
+      <author>T. R., fl. 1608.</author>
+    </titleStmt>
+    <extent>[15], 71, [14] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">Iohn Bach</persName>, and are to be sold at <placeName>his shop in Popes head Palace</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: T.R.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bach</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes head Palace</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

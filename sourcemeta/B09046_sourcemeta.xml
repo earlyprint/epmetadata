@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The declaration of the Lords and Commons of Parliament assembled at Oxford of their proceedings touching a treaty for peace and the refusall thereof with the severall letters and answers that passed therein.</title>
-         <author>England and Wales. Parliament.</author>
-         <author>Essex, Robert Devereux, Earl of, 1591-1646.</author>
-      </titleStmt>
-      <extent>[2], 25 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by His Majesties command, at the desire of the Lords and Commons of Parliament assembled at Oxford, by Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>[Oxford] :</pubPlace>
-         <date when="1643">1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Charles R. Ovr expresse pleasure is, that this declaration of the Lords and Commons of Parliament assembled at Oxford, be read by the parson, vicar, or curate, in every church and chappell within our kingdom of England and dominion of Wales. March. 19. 1643."</note>
-         <note>"Names of the Lords and Commons of Parliament assembled at Oxford who did subscribe the letter to the Earle of Essex, dated January 27, 1643" -- p. 20-25.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The declaration of the Lords and Commons of Parliament assembled at Oxford of their proceedings touching a treaty for peace and the refusall thereof with the severall letters and answers that passed therein.</title>
+      <author>England and Wales. Parliament.</author>
+      <author>Essex, Robert Devereux, Earl of, 1591-1646.</author>
+    </titleStmt>
+    <extent>[2], 25 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">His Majesties command</persName>, at <placeName>the desire of the Lords</placeName> and Commons of Parliament assembled at <placeName>Oxford</placeName>, by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>[Oxford] :</pubPlace>
+      <date when="1643">1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Charles R. Ovr expresse pleasure is, that this declaration of the Lords and Commons of Parliament assembled at Oxford, be read by the parson, vicar, or curate, in every church and chappell within our kingdom of England and dominion of Wales. March. 19. 1643."</note>
+      <note>"Names of the Lords and Commons of Parliament assembled at Oxford who did subscribe the letter to the Earle of Essex, dated January 27, 1643" -- p. 20-25.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>His Majesties command</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Oxford</placeName>
+    </place>
+    <place type="location">
+      <placeName>the desire of the Lords</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

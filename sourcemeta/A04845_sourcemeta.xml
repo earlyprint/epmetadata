@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lectures vpon Ionas deliuered at Yorke in the yeare of our Lorde 1594. By John Kinge: newlie corrected and amended.</title>
-         <author>King, John, 1559?-1621.</author>
-      </titleStmt>
-      <extent>[12], 660, [2], 661-683, [3], 685-706, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ioseph Barnes, and are to be solde [in London, by Joan Brome] in Paules Church-yarde at the signe of the Bible,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Bookseller's name from STC.</note>
-         <note>"A sermon preached at the funeralles of the most Reuerend Father, John, late Arch-bishoppe of Yorke, Novem. the 17. in the yeare of our Lorde, 1494 [sic]" and "A sermon preached in Yorke the seuenteenth day of November in the yeare of our Lorde 1595" each have separate dated title page; pagination and register are continuous.</note>
-         <note>The first leaf is blank except for a fleuron; the last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lectures vpon Ionas deliuered at Yorke in the yeare of our Lorde 1594. By John Kinge: newlie corrected and amended.</title>
+      <author>King, John, 1559?-1621.</author>
+    </titleStmt>
+    <extent>[12], 660, [2], 661-683, [3], 685-706, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ioseph Barnes</persName>, and are to be solde [in <placeName>London</placeName>, by <persName type="printer">Joan Brome]</persName> in <placeName>Paules Church-yarde at the signe of the Bible</placeName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Bookseller's name from STC.</note>
+      <note>"A sermon preached at the funeralles of the most Reuerend Father, John, late Arch-bishoppe of Yorke, Novem. the 17. in the yeare of our Lorde, 1494 [sic]" and "A sermon preached in Yorke the seuenteenth day of November in the yeare of our Lorde 1595" each have separate dated title page; pagination and register are continuous.</note>
+      <note>The first leaf is blank except for a fleuron; the last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+    <person type="printer">
+      <persName>Joan Brome]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Paules Church-yarde at the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

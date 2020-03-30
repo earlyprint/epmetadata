@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sinners safetie, if heere hee looke for assurance by Richard Barnerd ...</title>
-         <author>Bernard, Richard, 1568-1641.</author>
-      </titleStmt>
-      <extent>[6], 100 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H.L. for T.M. and Ionas Man, and are to be sold at his shoppe at the West doore of Paules,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Richard Bernard.</note>
-         <note>Signatures: A&#8308;(-A1) B-G&#8312; H&#178;.</note>
-         <note>Includes marginal notes.</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sinners safetie, if heere hee looke for assurance by Richard Barnerd ...</title>
+      <author>Bernard, Richard, 1568-1641.</author>
+    </titleStmt>
+    <extent>[6], 100 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H.L.</persName> for <persName type="publisher">T.M.</persName> and <persName type="publisher">Ionas Man</persName>, and are to be sold at <placeName>his shoppe at the West doore of Paules</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Richard Bernard.</note>
+      <note>Signatures: A&#8308;(-A1) B-G&#8312; H&#178;.</note>
+      <note>Includes marginal notes.</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ionas Man</persName>
+    </person>
+    <person type="publisher">
+      <persName>T.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>H.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe at the West doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

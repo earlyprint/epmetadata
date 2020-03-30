@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief and excellent treatise containing the doctrine of godliness, or living unto God. Wherein the body of divinity is substantially proposed, and methodically digested, by way of question and answer. And, wherein sundry difficult points, much controverted in these times, are briefly and solidly determined, by that reverend and learned divine, Mr. John Norton, teacher of the church of God at Ipswich in New-England. Feb. 4. 1647. Imprimatur Joseph Caryl.</title>
-         <author>Norton, John, 1606-1663.</author>
-      </titleStmt>
-      <extent>63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field for Edmund Paxton, and are to be sold at his shop in Pauls chain, over against the Castle Tavern near to the Doctors Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1468 [i.e. 1648]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "march 9th. 1647".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief and excellent treatise containing the doctrine of godliness, or living unto God. Wherein the body of divinity is substantially proposed, and methodically digested, by way of question and answer. And, wherein sundry difficult points, much controverted in these times, are briefly and solidly determined, by that reverend and learned divine, Mr. John Norton, teacher of the church of God at Ipswich in New-England. Feb. 4. 1647. Imprimatur Joseph Caryl.</title>
+      <author>Norton, John, 1606-1663.</author>
+    </titleStmt>
+    <extent>63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName> for <persName type="publisher">Edmund Paxton</persName>, and are to be sold at <placeName>his shop in Pauls chain, over against the Castle Tavern near to the Doctors Commons</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1468 [i.e. 1648]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "march 9th. 1647".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Paxton</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls chain, over against the Castle Tavern near to the Doctors Commons</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

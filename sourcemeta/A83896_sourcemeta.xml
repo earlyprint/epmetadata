@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble address of the Right Honourable the Lords Spiritual &amp; Temporal in Parliament assembled presented to His Majesty on Munday the sixth day of February, 1698.</title>
-         <title>Proceedings. 1699-02-06</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, and the executrix of Thomas Newcomb, deceas'd; printers to the King's most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1698 [i.e. 1699]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Years given are according to Lady Day dating.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble address of the Right Honourable the Lords Spiritual &amp; Temporal in Parliament assembled presented to His Majesty on Munday the sixth day of February, 1698.</title>
+      <title>Proceedings. 1699-02-06</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill, and the executrix of Thomas Newcomb, deceas'd;</persName> printers to <persName type="patron">the King's most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1698 [i.e. 1699]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Years given are according to Lady Day dating.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the executrix of Thomas Newcomb, deceas'd;</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

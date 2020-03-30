@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dialogue conteinyng the nomber in effect of all the prouerbes in the englishe tongue compacte in a matter concernyng two maner of mariages, made and set foorth by Iohn&#772; Heywood.</title>
-         <author>Heywood, John, 1497?-1580?</author>
-      </titleStmt>
-      <extent>[92] p.   </extent>
-      <publicationStmt>
-         <publisher>[Imprinted at London in Fletestrete by Thomas Berthelet prynter to the kynges hyghnesse],</publisher>
-         <pubPlace>Londini :</pubPlace>
-         <date when="1546">An. M.D.XLVI. [1546]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name and address from colophon; the printer's initials appear at foot of title.</note>
-         <note>Signatures: A-K&#8308; L&#8310;.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dialogue conteinyng the nomber in effect of all the prouerbes in the englishe tongue compacte in a matter concernyng two maner of mariages, made and set foorth by Iohn&#772; Heywood.</title>
+      <author>Heywood, John, 1497?-1580?</author>
+    </titleStmt>
+    <extent>[92] p.   </extent>
+    <publicationStmt>
+      <publisher>[Imprinted at <placeName>London in Fletestrete</placeName> by <persName type="printer">Thomas Berthelet</persName> prynter to the kynges hyghnesse],</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date when="1546">An. M.D.XLVI. [1546]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name and address from colophon; the printer's initials appear at foot of title.</note>
+      <note>Signatures: A-K&#8308; L&#8310;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Berthelet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fletestrete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

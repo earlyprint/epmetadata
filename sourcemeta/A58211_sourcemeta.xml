@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon delivered in the Cathedral Church of Canterbury, concerning church-musick by John Reading ...</title>
-         <author>Reading, John, 1588-1667.</author>
-      </titleStmt>
-      <extent>[4], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1663">1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon delivered in the Cathedral Church of Canterbury, concerning church-musick by John Reading ...</title>
+      <author>Reading, John, 1588-1667.</author>
+    </titleStmt>
+    <extent>[4], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1663">1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

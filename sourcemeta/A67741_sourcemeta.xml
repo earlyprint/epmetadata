@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The blemish of government, the shame of religion, the disgrace of mankind, or, A charge drawn up against drunkards and presented to His Highness the Lord Protector, in the name of all the Sober Party in the three nations, humbly craving that they may be kept alone by themselves from infecting others ... / by R. Younge of Roxwell in Essex.</title>
-         <author>Younge, Richard.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. and are to be sold by Henry Crips ... and James Crump ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Running title: The disgrace of mankind.</note>
-         <note>"Offer of help to drowning-men" -- p. 11-16.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The blemish of government, the shame of religion, the disgrace of mankind, or, A charge drawn up against drunkards and presented to His Highness the Lord Protector, in the name of all the Sober Party in the three nations, humbly craving that they may be kept alone by themselves from infecting others ... / by R. Younge of Roxwell in Essex.</title>
+      <author>Younge, Richard.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> and are to be sold by <persName type="bookseller">Henry Crips</persName> ... and <persName type="bookseller">James Crump</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Running title: The disgrace of mankind.</note>
+      <note>"Offer of help to drowning-men" -- p. 11-16.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Henry Crips</persName>
+    </person>
+    <person type="bookseller">
+      <persName>James Crump</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

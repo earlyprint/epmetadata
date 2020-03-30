@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse, shewing that it is lawfull, and our duty to swear obedience to King William, notwithstanding the oath of allegiance taken to the late King. By a divine in the north</title>
-         <author>Divine in the north.</author>
-      </titleStmt>
-      <extent>[4], 31, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Joseph Hall, bookseller in New-castle upon Tyne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Identified as Wing D1618 variant (number cancelled in Wing (2nd ed.)) on UMI microfilm "Early English books, 1641-1700" reel 1329, and as Wing (2nd ed.) D1618AB on reel 1985.</note>
-         <note>Reproductions of the originals in the Union Theological Seminary Library, New York, New York ("Early English books, 1641-1700" reel 1329), and the British Library (reel 1985).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse, shewing that it is lawfull, and our duty to swear obedience to King William, notwithstanding the oath of allegiance taken to the late King. By a divine in the north</title>
+      <author>Divine in the north.</author>
+    </titleStmt>
+    <extent>[4], 31, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Joseph Hall</persName>, bookseller in <placeName>New-castle upon Tyne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Identified as Wing D1618 variant (number cancelled in Wing (2nd ed.)) on UMI microfilm "Early English books, 1641-1700" reel 1329, and as Wing (2nd ed.) D1618AB on reel 1985.</note>
+      <note>Reproductions of the originals in the Union Theological Seminary Library, New York, New York ("Early English books, 1641-1700" reel 1329), and the British Library (reel 1985).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Hall</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>New-castle upon Tyne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Pauls Crosse by Iohn Walsal, one of the preachers of Christ his Church in Canterburie. 5. October. 1578. And published at the earnest request of certeine godlie Londoners and others</title>
-         <author>Walsall, John.</author>
-      </titleStmt>
-      <extent>[84] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Henrie Middleton] for G. Byshop,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1578">[1578]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-E F&#178; .</note>
-         <note>Printer's name and publication date from STC.</note>
-         <note>Considerable print faded and show-through; pages marked and stained.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Pauls Crosse by Iohn Walsal, one of the preachers of Christ his Church in Canterburie. 5. October. 1578. And published at the earnest request of certeine godlie Londoners and others</title>
+      <author>Walsall, John.</author>
+    </titleStmt>
+    <extent>[84] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Henrie Middleton]</persName> for <persName type="publisher">G. Byshop</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1578">[1578]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-E F&#178; .</note>
+      <note>Printer's name and publication date from STC.</note>
+      <note>Considerable print faded and show-through; pages marked and stained.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Byshop</persName>
+    </person>
+    <person type="printer">
+      <persName>Henrie Middleton]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

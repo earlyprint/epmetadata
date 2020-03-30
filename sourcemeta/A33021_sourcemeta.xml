@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A form of prayer to be used next after the prayer in the time of war and tumults, in all churches and chappels of London and Westminster, at morning and evening prayer, as often as there is divine service, during the time of Their Majesties fleets being at sea. By her Majesties special command.</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill and the executrix of Thomas Newcomb, deceas'd; printers to the King and Queens most Excellent Majesties,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With imprint date in Arabic numbers.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A form of prayer to be used next after the prayer in the time of war and tumults, in all churches and chappels of London and Westminster, at morning and evening prayer, as often as there is divine service, during the time of Their Majesties fleets being at sea. By her Majesties special command.</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill and the executrix of Thomas Newcomb, deceas'd;</persName> printers to <persName type="patron">the King</persName> and <persName type="patron">Queens most Excellent Majesties</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With imprint date in Arabic numbers.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill and the executrix of Thomas Newcomb, deceas'd;</persName>
+    </person>
+    <person type="patron">
+      <persName>Queens most Excellent Majesties</persName>
+    </person>
+    <person type="patron">
+      <persName>the King</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of Mr. James Lordel who was buried at St. Magnus Church March 27, 1694 by Lilly Butler.</title>
-         <author>Butler, Charles, d. 1647.</author>
-      </titleStmt>
-      <extent>[2], 23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Brabazon Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of Mr. James Lordel who was buried at St. Magnus Church March 27, 1694 by Lilly Butler.</title>
+      <author>Butler, Charles, d. 1647.</author>
+    </titleStmt>
+    <extent>[2], 23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Brabazon Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

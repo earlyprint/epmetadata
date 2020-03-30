@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The penitent prisoner his character, carriage upon his commitment, letany, proper prayers, serious meditations, sighs, occasional ejaculations, devotion going to execution, and at the place of execution. By a friend to the souls in prison.</title>
-         <author>Flower, Christopher, 1621 or 2-1699.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Williams, at the Crown, in Cross Keys Court in Little Brittain,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A friend to the souls in prison = Christopher Flower.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The penitent prisoner his character, carriage upon his commitment, letany, proper prayers, serious meditations, sighs, occasional ejaculations, devotion going to execution, and at the place of execution. By a friend to the souls in prison.</title>
+      <author>Flower, Christopher, 1621 or 2-1699.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Williams</persName>, at <placeName>the Crown, in Cross Keys Court in Little Brittain</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A friend to the souls in prison = Christopher Flower.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crown, in Cross Keys Court in Little Brittain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

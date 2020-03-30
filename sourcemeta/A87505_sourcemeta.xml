@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact list of Their Majesties forces now in the kingdom of Ireland, and where quartered</title>
-         <author>W. J.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>re-printed by the heir of Andrew Anderson,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: W.J.</note>
-         <note>At head of title: Lisbourn, April 3. 1690.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact list of Their Majesties forces now in the kingdom of Ireland, and where quartered</title>
+      <author>W. J.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>re-printed by <persName type="printer">the heir of Andrew Anderson</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: W.J.</note>
+      <note>At head of title: Lisbourn, April 3. 1690.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

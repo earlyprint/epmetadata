@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The nine worthies of London explayning the honourable exercise of armes, the vertues of the valiant, and the memorable attempts of magnanimious minds. Pleasant for gentlemen, not vnseemely for magistrates, and most profitable for prentises. Compiled by Richard Iohnson.</title>
-         <author>Johnson, Richard, 1573-1659?</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Orwin for Humfrey Lownes, and are to be sold at his shop at the west doore of Paules,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1592">1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse and prose.</note>
-         <note>Signatures: A-F&#8308;.</note>
-         <note>Another issue of STC 14685.7.</note>
-         <note>The British Library copy has preface of STC 1485 inserted.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The nine worthies of London explayning the honourable exercise of armes, the vertues of the valiant, and the memorable attempts of magnanimious minds. Pleasant for gentlemen, not vnseemely for magistrates, and most profitable for prentises. Compiled by Richard Iohnson.</title>
+      <author>Johnson, Richard, 1573-1659?</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Orwin</persName> for <persName type="publisher">Humfrey Lownes</persName>, and are to be sold at <placeName>his shop at the west doore of Paules</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1592">1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse and prose.</note>
+      <note>Signatures: A-F&#8308;.</note>
+      <note>Another issue of STC 14685.7.</note>
+      <note>The British Library copy has preface of STC 1485 inserted.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humfrey Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Orwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the west doore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vvay to a blessed estate in this life. By Ezekel Culuervvel.</title>
-         <author>Culverwell, Ezekiel, 1553 or 4-1631.</author>
-      </titleStmt>
-      <extent>[4], 17, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Dawson, for William Sheffard, and are to be sold at his shop, at the entring in of Popes-head Alley out of Lumbard-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank except for a fleuron and rules.</note>
-         <note>Usually bound with author's "A treatise of faith," third edition, 1623 (STC 6115).</note>
-         <note>In this edition, A3r has a headpiece of type ornaments.</note>
-         <note>Reproductions of the original in the British Library.</note>
-         <note>Appears as part of STC 6115 on reel 1544 (British Library copy) and by itself at reel 1749 (same copy filmed again).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vvay to a blessed estate in this life. By Ezekel Culuervvel.</title>
+      <author>Culverwell, Ezekiel, 1553 or 4-1631.</author>
+    </titleStmt>
+    <extent>[4], 17, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Dawson</persName>, for <persName type="publisher">William Sheffard</persName>, and are to be sold at <placeName>his shop, at the entring in of Popes-head Alley out of Lumbard-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank except for a fleuron and rules.</note>
+      <note>Usually bound with author's "A treatise of faith," third edition, 1623 (STC 6115).</note>
+      <note>In this edition, A3r has a headpiece of type ornaments.</note>
+      <note>Reproductions of the original in the British Library.</note>
+      <note>Appears as part of STC 6115 on reel 1544 (British Library copy) and by itself at reel 1749 (same copy filmed again).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheffard</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the entring in of Popes-head Alley out of Lumbard-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

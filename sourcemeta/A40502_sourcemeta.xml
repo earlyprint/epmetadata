@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A frivolous paper, in forme of a petition: framed and composed by a disaffected party in this citie of London, intended by them to be presented to the honourable House of Commons. With certaine considerations propounded by way of advertisement and caution unto those who through unadvisednesse, are apt to subscribe the same. / By a Wel-willer to peace and truth.</title>
-         <author>Wel-willer to peace and truth.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Enlarged with new additions, by way of advertisement to all such who unadvisedly had subscribed; and three speciall rules for their present caution, and future admonition.</edition>
-      </editionStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Stephen Bowtell, and are to be sold at his shop in Popeshead Alley.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Thomason Collection, British Library and Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A frivolous paper, in forme of a petition: framed and composed by a disaffected party in this citie of London, intended by them to be presented to the honourable House of Commons. With certaine considerations propounded by way of advertisement and caution unto those who through unadvisednesse, are apt to subscribe the same. / By a Wel-willer to peace and truth.</title>
+      <author>Wel-willer to peace and truth.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Enlarged with new additions, by way of advertisement to all such who unadvisedly had subscribed; and three speciall rules for their present caution, and future admonition.</edition>
+    </editionStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Stephen Bowtell</persName>, and are to be sold at <placeName>his shop in Popeshead Alley.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Thomason Collection, British Library and Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Stephen Bowtell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popeshead Alley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

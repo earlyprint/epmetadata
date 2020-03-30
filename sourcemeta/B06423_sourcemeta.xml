@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands remembrancer, or, a thankfull acknowledgement of Parliamentary mercies to our English-nation. Wherein is contained a breife enumeration of all, or the most of Gods free favours and choise blessings multiplied on us since this Parliament first began.</title>
-         <author>Vicars, John, 1579 or 80-1652.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Underhill, and are to be sold at the Bible in Wood-street,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1641">M.DC.XLI. [1641]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signed at end: John Vicars.</note>
-         <note>Verse: "Come hither, each true Christian heart and see;".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands remembrancer, or, a thankfull acknowledgement of Parliamentary mercies to our English-nation. Wherein is contained a breife enumeration of all, or the most of Gods free favours and choise blessings multiplied on us since this Parliament first began.</title>
+      <author>Vicars, John, 1579 or 80-1652.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Underhill</persName>, and are to be sold at <placeName>the Bible in Wood-street</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1641">M.DC.XLI. [1641]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signed at end: John Vicars.</note>
+      <note>Verse: "Come hither, each true Christian heart and see;".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Underhill</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Wood-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

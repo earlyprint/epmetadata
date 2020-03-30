@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The great prerogative of a private life by way of dialogue / written by the learned Horatius Tubero or The Sieur Moth-le-Vayer.</title>
-         <author>La Mothe Le Vayer, Fran&#231;ois de, 1583-1672.</author>
-      </titleStmt>
-      <extent>[16], 126 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for L.C. and sold by Charles Blount ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of his "De la vie priv&#233;e" from his "Cinq dialogues faits &#224; l'imitation des anciens."</note>
-         <note>This item appears at reel 499:29 and at reel 1311:11.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The great prerogative of a private life by way of dialogue / written by the learned Horatius Tubero or The Sieur Moth-le-Vayer.</title>
+      <author>La Mothe Le Vayer, Fran&#231;ois de, 1583-1672.</author>
+    </titleStmt>
+    <extent>[16], 126 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">L.C.</persName> and sold by <persName type="bookseller">Charles Blount</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of his "De la vie priv&#233;e" from his "Cinq dialogues faits &#224; l'imitation des anciens."</note>
+      <note>This item appears at reel 499:29 and at reel 1311:11.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Charles Blount</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

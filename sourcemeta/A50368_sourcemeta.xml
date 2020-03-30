@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of the Parliament of England, which began November the third, MDCXL with a short and necessary view of some precedent yeares / written by Thomas May, Esquire ...</title>
-         <author>May, Thomas, 1595-1650.</author>
-      </titleStmt>
-      <extent>3 pts. ([16], 119, 128, 115 p.)   </extent>
-      <publicationStmt>
-         <publisher>By Moses Bell for George Thomason ...,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by authority"</note>
-         <note>Title page vignette.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of the Parliament of England, which began November the third, MDCXL with a short and necessary view of some precedent yeares / written by Thomas May, Esquire ...</title>
+      <author>May, Thomas, 1595-1650.</author>
+    </titleStmt>
+    <extent>3 pts. ([16], 119, 128, 115 p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Moses Bell</persName> for <persName type="publisher">George Thomason</persName> ...,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by authority"</note>
+      <note>Title page vignette.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Thomason</persName>
+    </person>
+    <person type="printer">
+      <persName>Moses Bell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

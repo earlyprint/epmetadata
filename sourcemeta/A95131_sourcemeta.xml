@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to a letter written by the R.R. the Ld Bp of Rochester. Concerning the chapter of original sin, in the Vnum necessarium. / By Jer. Taylor D.D.</title>
-         <author>Taylor, Jeremy, 1613-1667.</author>
-      </titleStmt>
-      <extent>[2], 111, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Cotes for R. Royston at the Angel in Ivie-lane,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With two final advertisement leaves.</note>
-         <note>Annotation on Thomason copy: "June 29.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to a letter written by the R.R. the Ld Bp of Rochester. Concerning the chapter of original sin, in the Vnum necessarium. / By Jer. Taylor D.D.</title>
+      <author>Taylor, Jeremy, 1613-1667.</author>
+    </titleStmt>
+    <extent>[2], 111, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Cotes</persName> for <persName type="publisher">R. Royston</persName> at <placeName>the Angel in Ivie-lane</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With two final advertisement leaves.</note>
+      <note>Annotation on Thomason copy: "June 29.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Ivie-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

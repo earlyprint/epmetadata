@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A book of some of the sufferings and passages of Myles Halhead of Mount-Joy in Underbarrow in the county of Westmorland as also, concerning his labour and travel in the work of the Lord ...</title>
-         <author>Halhead, Miles, 1613 or 14-1689 or 90.</author>
-      </titleStmt>
-      <extent>24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by A. Sowle ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A book of some of the sufferings and passages of Myles Halhead of Mount-Joy in Underbarrow in the county of Westmorland as also, concerning his labour and travel in the work of the Lord ...</title>
+      <author>Halhead, Miles, 1613 or 14-1689 or 90.</author>
+    </titleStmt>
+    <extent>24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">A. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>A. Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

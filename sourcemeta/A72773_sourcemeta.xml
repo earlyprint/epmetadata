@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Orders taken, and enacted, for orphans and their porcions. anno. M.D.L1 [sic].</title>
-         <title>Acts and orders. 1551-10-13</title>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>in Powles Churchyard, by Iohn Cawood, printer to the Queenes Maiestie [i.e. by Thomas East?,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date>1554? i.e. 1575?]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Ostensible printer's name and address from colophon. "Cawood is styled printer to the Queen's Majesty as in [STC] 16701 and undoubtedly did print a Marian ed. of an Edwardian text, both of which are now lost. The present item is considerably later and has the same woodcut 'F' as 16708"--STC addendum.</note>
-         <note>Signatures: A B&#8308;.</note>
-         <note>Running title reads: Orders enacted for orphanes.</note>
-         <note>The last two leaves are blank.</note>
-         <note>Identified as STC 16705+ on UMI microfilm reel 217, as STC 18843a on reel 1002 (filmed following STC 20552 without spaces; omitted from reel guide), and as 18843a on reel 1250.</note>
-         <note>Reproductions of originals in the Guildhall Library, London, England, and the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Orders taken, and enacted, for orphans and their porcions. anno. M.D.L1 [sic].</title>
+      <title>Acts and orders. 1551-10-13</title>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>in <placeName>Powles Churchyard</placeName>, by <persName type="printer">Iohn Cawood</persName>, printer to <persName type="patron">the Queenes Maiestie [i.e.</persName> by <persName type="printer">Thomas East</persName>?,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date>1554? i.e. 1575?]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Ostensible printer's name and address from colophon. "Cawood is styled printer to the Queen's Majesty as in [STC] 16701 and undoubtedly did print a Marian ed. of an Edwardian text, both of which are now lost. The present item is considerably later and has the same woodcut 'F' as 16708"--STC addendum.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Running title reads: Orders enacted for orphanes.</note>
+      <note>The last two leaves are blank.</note>
+      <note>Identified as STC 16705+ on UMI microfilm reel 217, as STC 18843a on reel 1002 (filmed following STC 20552 without spaces; omitted from reel guide), and as 18843a on reel 1250.</note>
+      <note>Reproductions of originals in the Guildhall Library, London, England, and the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas East</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes Maiestie [i.e.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Powles Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

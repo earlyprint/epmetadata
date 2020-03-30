@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Phrygian fabulist or, The fables of &#198;sop: extracted from the Latine copie, and moraliz'd. By Leonard Willan Gent.</title>
-         <title>Aesop's fables. English</title>
-         <author>Willan, Leonard.</author>
-         <author>Cross, Thomas, fl. 1632-1682, engraver.</author>
-      </titleStmt>
-      <extent>[32], 184 p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by W.D. for Nicolas Bourn, at the south entrance of the Roial-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1650 [i.e. 1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>The portrait of Willan is signed: T: Cross sculpsit.</note>
-         <note>Annotation on Thomason copy: "Nou: 8 1649"; 50 in imprint date crossed through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Phrygian fabulist or, The fables of &#198;sop: extracted from the Latine copie, and moraliz'd. By Leonard Willan Gent.</title>
+      <title>Aesop's fables. English</title>
+      <author>Willan, Leonard.</author>
+      <author>Cross, Thomas, fl. 1632-1682, engraver.</author>
+    </titleStmt>
+    <extent>[32], 184 p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.D.</persName> for <persName type="publisher">Nicolas Bourn</persName>, at <placeName>the south entrance of the Roial-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1650 [i.e. 1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>The portrait of Willan is signed: T: Cross sculpsit.</note>
+      <note>Annotation on Thomason copy: "Nou: 8 1649"; 50 in imprint date crossed through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicolas Bourn</persName>
+    </person>
+    <person type="printer">
+      <persName>W.D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the south entrance of the Roial-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Honor military, and ciuill contained in foure bookes. Viz. 1. Iustice, and iurisdiction military. 2. Knighthood in generall, and particular. 3. Combats for life, and triumph. 4. Precedencie of great estates, and others.</title>
-         <author>Segar, William, Sir, d. 1633.</author>
-         <author>Rogers, William, b. ca. 1545, engraver.</author>
-      </titleStmt>
-      <extent>[4], 256 p., [8] plates : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, printer to the Queenes most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1602">Anno Dom. 1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: W. Segar Norroy.</note>
-         <note>Running title reads: Of honour militarie and ciuil.</note>
-         <note>The 8 portraits are engraved by William Rogers, and have Latin inscriptions. Variant: portraits lack inscriptions.</note>
-         <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Honor military, and ciuill contained in foure bookes. Viz. 1. Iustice, and iurisdiction military. 2. Knighthood in generall, and particular. 3. Combats for life, and triumph. 4. Precedencie of great estates, and others.</title>
+      <author>Segar, William, Sir, d. 1633.</author>
+      <author>Rogers, William, b. ca. 1545, engraver.</author>
+    </titleStmt>
+    <extent>[4], 256 p., [8] plates : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Queenes most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1602">Anno Dom. 1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: W. Segar Norroy.</note>
+      <note>Running title reads: Of honour militarie and ciuil.</note>
+      <note>The 8 portraits are engraved by William Rogers, and have Latin inscriptions. Variant: portraits lack inscriptions.</note>
+      <note>Reproduction of the original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

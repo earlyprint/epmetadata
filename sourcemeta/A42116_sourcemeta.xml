@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tractatus de salis cathartici amari in aquis Ebeshamensibus et hujusmodi aliis contenti natura &amp; usu / authore Nehemia  Grew.</title>
-         <author>Grew, Nehemiah, 1641-1712.</author>
-      </titleStmt>
-      <extent>[8], 96 p.   </extent>
-      <publicationStmt>
-         <publisher>Impensis S. Smith &amp; B. Walford,</publisher>
-         <pubPlace>Londini :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tractatus de salis cathartici amari in aquis Ebeshamensibus et hujusmodi aliis contenti natura &amp; usu / authore Nehemia  Grew.</title>
+      <author>Grew, Nehemiah, 1641-1712.</author>
+    </titleStmt>
+    <extent>[8], 96 p.   </extent>
+    <publicationStmt>
+      <publisher>Impensis <persName type="publisher">S. Smith</persName> &amp; <persName type="publisher">B. Walford</persName>,</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. Walford</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

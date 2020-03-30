@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd in the chappel of His Excellency the Spanish embassador on the second Sunday of Advent, December 4. 1687. On which was solemniz'd the Feast of St. Francis Xaverius, of the Society of Jesus, apostle of the Indies and Kingdom of Japan. By the R.F. Lewis Sabran of the same Society. Permissu superiorum.</title>
-         <author>Sabran, Lewis, 1652-1732.</author>
-      </titleStmt>
-      <extent>39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Henry Hills, printer to the King's most excellent Majesty, for His houshold and chappel; and are sold at his printing-house on the Ditch-side in Black-Fryers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Marginal notes.</note>
-         <note>Copy stained, with print show-through.</note>
-         <note>Reproduction of the original at the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd in the chappel of His Excellency the Spanish embassador on the second Sunday of Advent, December 4. 1687. On which was solemniz'd the Feast of St. Francis Xaverius, of the Society of Jesus, apostle of the Indies and Kingdom of Japan. By the R.F. Lewis Sabran of the same Society. Permissu superiorum.</title>
+      <author>Sabran, Lewis, 1652-1732.</author>
+    </titleStmt>
+    <extent>39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName>, printer to <persName type="patron">the King's most excellent Majesty</persName>, for <persName type="publisher">His houshold and chappel;</persName> and are sold at <placeName>his printing-house on the Ditch-side in Black-Fryers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Marginal notes.</note>
+      <note>Copy stained, with print show-through.</note>
+      <note>Reproduction of the original at the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>His houshold and chappel;</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his printing-house on the Ditch-side in Black-Fryers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

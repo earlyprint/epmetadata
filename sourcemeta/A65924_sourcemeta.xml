@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vindication of the doctrine of Gods absolute decree and of Christs absolute and special redemption. In way of answer to those objections that are brought against them by Mr. Tho: Pierce, in his treatise, entituled, The divine philanthropy. By Tho: Whitfeld, minister of the gospel.</title>
-         <author>Whitfield, Thomas, Minister of the Gospel.</author>
-      </titleStmt>
-      <extent>[6], 83, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills and John Field, printers to His Highness,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vindication of the doctrine of Gods absolute decree and of Christs absolute and special redemption. In way of answer to those objections that are brought against them by Mr. Tho: Pierce, in his treatise, entituled, The divine philanthropy. By Tho: Whitfeld, minister of the gospel.</title>
+      <author>Whitfield, Thomas, Minister of the Gospel.</author>
+    </titleStmt>
+    <extent>[6], 83, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName>, printers to <persName type="patron">His Highness</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>His Highness</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A just rebuke to the Quakers insolent behaviour, in their two books, i.e. A just censure, &amp;c. the other, A sober reply, &amp;c. both presented to some members of Parliament. : Also a dialogue between a civilian and a Quaker.</title>
-         <author>Bugg, Francis, 1640-1724?</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, by Rich. Janeway, Jun. near Doctors-Commons.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: Fra. Bugg.</note>
-         <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A just rebuke to the Quakers insolent behaviour, in their two books, i.e. A just censure, &amp;c. the other, A sober reply, &amp;c. both presented to some members of Parliament. : Also a dialogue between a civilian and a Quaker.</title>
+      <author>Bugg, Francis, 1640-1724?</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, by <persName type="printer">Rich. Janeway</persName>, <persName type="printer">Jun.</persName> near <placeName>Doctors-Commons.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: Fra. Bugg.</note>
+      <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Jun.</persName>
+    </person>
+    <person type="printer">
+      <persName>Rich. Janeway</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Doctors-Commons.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

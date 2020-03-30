@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogve of the names of the knights for the counties, citizens, burgesses for the boroughes, and barons for the ports for the House of Commons, for this Parliament begvn at Westminster the 3. of November, 1640.</title>
-         <author>Walkley, Thomas, d. 1658?</author>
-      </titleStmt>
-      <extent>[15] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho. Walkley, and are to be sold at his shop, at the signe of the Flying Horse, betweene Brittains Bursse, and Yorke House,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Walkley by NUC pre-1956 imprints.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogve of the names of the knights for the counties, citizens, burgesses for the boroughes, and barons for the ports for the House of Commons, for this Parliament begvn at Westminster the 3. of November, 1640.</title>
+      <author>Walkley, Thomas, d. 1658?</author>
+    </titleStmt>
+    <extent>[15] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho. Walkley</persName>, and are to be sold at <placeName>his shop, at the signe of the Flying Horse, betweene Brittains Bursse</placeName>, and <persName type="publisher">Yorke House</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Walkley by NUC pre-1956 imprints.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Walkley</persName>
+    </person>
+    <person type="publisher">
+      <persName>Yorke House</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the signe of the Flying Horse, betweene Brittains Bursse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funeral elegie, vpon the much lamented death of the trespuissant and vnmatchable king, King Iames, King of Great Brittaine, France and Ireland, defender of the faith Who to the vniuersall sorrow of the princes his allies, his owne kingdomes and people, expired the 27. of March, anno 1625. in the yeere of his reigne 23. Written by Thom. Heywood.</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [at Eliot's Court Press] for Thomas Harper,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1625">1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer identified by STC.</note>
-         <note>Signatures: A-D&#8308;.</note>
-         <note>With an additional title page, engraved.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of a photostat (to which the engraved title of another copy has been added) of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funeral elegie, vpon the much lamented death of the trespuissant and vnmatchable king, King Iames, King of Great Brittaine, France and Ireland, defender of the faith Who to the vniuersall sorrow of the princes his allies, his owne kingdomes and people, expired the 27. of March, anno 1625. in the yeere of his reigne 23. Written by Thom. Heywood.</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [at <placeName>Eliot's Court Press]</placeName> for <persName type="publisher">Thomas Harper</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1625">1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer identified by STC.</note>
+      <note>Signatures: A-D&#8308;.</note>
+      <note>With an additional title page, engraved.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of a photostat (to which the engraved title of another copy has been added) of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Eliot's Court Press]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

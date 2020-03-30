@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Forgery detected and innocency vindicated being a faithful account of the seasonable discovery of an horrid and detectible slander raised on the Anabaptists of New-England, in the diabolical pamphlet entituled, Mr. Baxter baptized in blood, designing so maliciously the reproach and exposure of all under that denomination.</title>
-      </titleStmt>
-      <extent>15, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Fr. Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Forgery detected and innocency vindicated being a faithful account of the seasonable discovery of an horrid and detectible slander raised on the Anabaptists of New-England, in the diabolical pamphlet entituled, Mr. Baxter baptized in blood, designing so maliciously the reproach and exposure of all under that denomination.</title>
+    </titleStmt>
+    <extent>15, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Fr. Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fr. Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A private peace-offering, for the discovery and disappointment of the late horrid conspiracy against the King, &amp;c. in a sermon preached July the 8th, in St. Helen's-Church London / by Henry Hesketh.</title>
-         <author>Hesketh, Henry, 1637?-1710.</author>
-      </titleStmt>
-      <extent>[4], 27 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills, for Henry Bonwick ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A private peace-offering, for the discovery and disappointment of the late horrid conspiracy against the King, &amp;c. in a sermon preached July the 8th, in St. Helen's-Church London / by Henry Hesketh.</title>
+      <author>Hesketh, Henry, 1637?-1710.</author>
+    </titleStmt>
+    <extent>[4], 27 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName>, for <persName type="publisher">Henry Bonwick</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Bonwick</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

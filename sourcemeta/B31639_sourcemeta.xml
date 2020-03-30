@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short account of Blurton-Spaw-Water, with some plain directions, and necessary rules for the more efficacious drinking of it.</title>
-         <author>Westmacott, William.</author>
-         <author>Floyer, John, Sir, 1649-1734.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Bateman, apothecary in Stone, in Stafford-shire, who is intrusted to take any observations from any ingenious or distemper'd persons, that make trials of this spaw.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1694">[1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Dated and signed at end: New-Castle-under-line, Mar.30.1694 ... Will. Westmacott.</note>
-         <note>Also at end: [recommendation given ] signed: John Floyer.; dated: Litchfield, Feb.16.93.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short account of Blurton-Spaw-Water, with some plain directions, and necessary rules for the more efficacious drinking of it.</title>
+      <author>Westmacott, William.</author>
+      <author>Floyer, John, Sir, 1649-1734.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Bateman, apothecary</persName> in <placeName>Stone, in Stafford-shire, who is intrusted to take any observations from any ingenious or distemper'd persons, that make trials of this spaw.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1694">[1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Dated and signed at end: New-Castle-under-line, Mar.30.1694 ... Will. Westmacott.</note>
+      <note>Also at end: [recommendation given ] signed: John Floyer.; dated: Litchfield, Feb.16.93.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Bateman, apothecary</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stone, in Stafford-shire, who is intrusted to take any observations from any ingenious or distemper'd persons, that make trials of this spaw.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

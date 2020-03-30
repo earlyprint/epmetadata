@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historie of Edward the Second, surnamed Carnarvan, one of our English kings together with the fatall down-fall of his two vnfortunate favorites Gaveston and Spencer : now published by the author thereof, according to the true originall copie, and purged from those foule errors and corruptions, wherewith that spurious and surreptitious peece, which lately came forth vnder the same tytle, was too much defiled and deformed : with the addition of some other observations both of vse and ornament / by F.H. knight.</title>
-         <author>Hubert, Francis, Sir, d. 1629.</author>
-      </titleStmt>
-      <extent>[14], 168 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by B.A. and T.F. for L. Chapman, and are to be sold at his shop at the vpper end of Chantery-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1629">1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>"Spurious and surreptitious peece" published in 1628 under title: The deplorable life and death of Edward the Second" (STC 13900)--Cf. NUC pre-1956 imprints.</note>
-         <note>Dedication signed: Fran. Hubert.</note>
-         <note>Signatures: A&#8312;(-A1) B-L&#8312; M&#8308;.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historie of Edward the Second, surnamed Carnarvan, one of our English kings together with the fatall down-fall of his two vnfortunate favorites Gaveston and Spencer : now published by the author thereof, according to the true originall copie, and purged from those foule errors and corruptions, wherewith that spurious and surreptitious peece, which lately came forth vnder the same tytle, was too much defiled and deformed : with the addition of some other observations both of vse and ornament / by F.H. knight.</title>
+      <author>Hubert, Francis, Sir, d. 1629.</author>
+    </titleStmt>
+    <extent>[14], 168 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B.A.</persName> and <persName type="printer">T.F.</persName> for <persName type="publisher">L. Chapman</persName>, and are to be sold at <placeName>his shop at the vpper end of Chantery-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1629">1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>"Spurious and surreptitious peece" published in 1628 under title: The deplorable life and death of Edward the Second" (STC 13900)--Cf. NUC pre-1956 imprints.</note>
+      <note>Dedication signed: Fran. Hubert.</note>
+      <note>Signatures: A&#8312;(-A1) B-L&#8312; M&#8308;.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>B.A.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.F.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the vpper end of Chantery-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

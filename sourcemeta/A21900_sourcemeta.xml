@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[By the Privy Council] [the several rates for  wages for the East Riding]</title>
-         <author>Yorkshire (England)</author>
-      </titleStmt>
-      <extent>2 leaves.   </extent>
-      <publicationStmt>
-         <publisher>By the Deputies of Christopher Barker, Printer to the Queenes most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1593">1593. Iuly 30.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: first page lacking. Title supplied from STC (2nd ed.).</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[By the Privy Council] [the several rates for  wages for the East Riding]</title>
+      <author>Yorkshire (England)</author>
+    </titleStmt>
+    <extent>2 leaves.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the Deputies of Christopher Barker</persName>, Printer to <persName type="patron">the Queenes most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1593">1593. Iuly 30.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: first page lacking. Title supplied from STC (2nd ed.).</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the Deputies of Christopher Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

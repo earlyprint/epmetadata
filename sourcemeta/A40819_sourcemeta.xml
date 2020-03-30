@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the triennial visitation of the Right Reverend Father in God, James, Lord Bishop of Lincoln held at Hartford, June 12, 1700 / by Philip Falle ...</title>
-         <author>Falle, Philip, 1656-1742.</author>
-      </titleStmt>
-      <extent>[8], 56, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Bowyer, for John Newton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Errata: p. [1] at end.</note>
-         <note>Advertisement: p. [1] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the triennial visitation of the Right Reverend Father in God, James, Lord Bishop of Lincoln held at Hartford, June 12, 1700 / by Philip Falle ...</title>
+      <author>Falle, Philip, 1656-1742.</author>
+    </titleStmt>
+    <extent>[8], 56, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Bowyer</persName>, for <persName type="publisher">John Newton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Errata: p. [1] at end.</note>
+      <note>Advertisement: p. [1] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Newton</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Bowyer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

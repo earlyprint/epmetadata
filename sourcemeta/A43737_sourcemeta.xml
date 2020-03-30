@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hierocles upon the Golden verses of the Pythagoreans translated immediately out of the Greek into English.</title>
-         <title>Commentarius in aurea Pythagoreorum carmina. English</title>
-         <author>Hierocles, of Alexandria, fl. 430.</author>
-         <author>Norris, John, 1657-1711.</author>
-      </titleStmt>
-      <extent>[55], 166 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Thomas Fickus ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Commentarius in aurea Pythagoreorum carmina.</note>
-         <note>Translated by John Norris. Cf. DNB.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hierocles upon the Golden verses of the Pythagoreans translated immediately out of the Greek into English.</title>
+      <title>Commentarius in aurea Pythagoreorum carmina. English</title>
+      <author>Hierocles, of Alexandria, fl. 430.</author>
+      <author>Norris, John, 1657-1711.</author>
+    </titleStmt>
+    <extent>[55], 166 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Thomas Fickus</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Commentarius in aurea Pythagoreorum carmina.</note>
+      <note>Translated by John Norris. Cf. DNB.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Fickus</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Heart-treasure, or, An essay tending to fil [sic] and furnish the head and heart of every Christian ... being the substance of some sermons preached at Coley in Yorkshire on Mat. 12. 35 ... / by O.H. ...</title>
-         <author>Heywood, Oliver, 1629-1702.</author>
-      </titleStmt>
-      <extent>[16], 333 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Ibbitson for Thomas Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1667">1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing to Heywood.</note>
-         <note>Imperfect: pages stained and faded.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Heart-treasure, or, An essay tending to fil [sic] and furnish the head and heart of every Christian ... being the substance of some sermons preached at Coley in Yorkshire on Mat. 12. 35 ... / by O.H. ...</title>
+      <author>Heywood, Oliver, 1629-1702.</author>
+    </titleStmt>
+    <extent>[16], 333 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Ibbitson</persName> for <persName type="publisher">Thomas Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1667">1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing to Heywood.</note>
+      <note>Imperfect: pages stained and faded.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Ibbitson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

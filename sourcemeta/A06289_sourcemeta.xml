@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The maides tragedy As it hath beene diuers times acted at the Blacke-friers by the Kings Maiesties Seruants.</title>
-         <author>Beaumont, Francis, 1584-1616.</author>
-         <author>Fletcher, John, 1579-1625. aut</author>
-      </titleStmt>
-      <extent>[84] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Nicholas Okes] for Richard Higgenbotham and are to be sold at the Angell in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1619">1619.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Francis Beaumont and John Fletcher.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#178;  B-L&#8308;.</note>
-         <note>The first leaf is blank.</note>
-         <note>A variant of the edition with Francis Constable in the imprint.</note>
-         <note>Running title reads: The maydes tragedy.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The maides tragedy As it hath beene diuers times acted at the Blacke-friers by the Kings Maiesties Seruants.</title>
+      <author>Beaumont, Francis, 1584-1616.</author>
+      <author>Fletcher, John, 1579-1625. aut</author>
+    </titleStmt>
+    <extent>[84] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Nicholas Okes]</persName> for <persName type="publisher">Richard Higgenbotham</persName> and are to be sold at <placeName>the Angell in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1619">1619.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Francis Beaumont and John Fletcher.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#178;  B-L&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>A variant of the edition with Francis Constable in the imprint.</note>
+      <note>Running title reads: The maydes tragedy.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Higgenbotham</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angell in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

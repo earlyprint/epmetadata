@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflection, in vindication of one arch-deacon (and consequently of all) from the scurrilous and groundless invectives against him, (besides several other more eminent persons) in a late scandalous pamplet [sic], intituled, A pretended visitor visited. In a letter, &amp;c.</title>
-      </titleStmt>
-      <extent>[2], 31, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Awnsham Churchil, at the Black Swan in Ave-mary-Lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">MDCXC. [1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on p. 1 reads: A vindication of one arch-deacon, &amp;c.</note>
-         <note>The "one arch-deacon" refers to Francis Fullwood, arch-deacon of Totnes (cf. Wing).</note>
-         <note>The "late scandalous pamplet" [sic] refers to: "[Hebrew] or, A (pretended) visitor visited", published in 1690 (cf. Wing P3318A).</note>
-         <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflection, in vindication of one arch-deacon (and consequently of all) from the scurrilous and groundless invectives against him, (besides several other more eminent persons) in a late scandalous pamplet [sic], intituled, A pretended visitor visited. In a letter, &amp;c.</title>
+    </titleStmt>
+    <extent>[2], 31, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Awnsham Churchil</persName>, at <placeName>the Black Swan in Ave-mary-Lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">MDCXC. [1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on p. 1 reads: A vindication of one arch-deacon, &amp;c.</note>
+      <note>The "one arch-deacon" refers to Francis Fullwood, arch-deacon of Totnes (cf. Wing).</note>
+      <note>The "late scandalous pamplet" [sic] refers to: "[Hebrew] or, A (pretended) visitor visited", published in 1690 (cf. Wing P3318A).</note>
+      <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham Churchil</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Swan in Ave-mary-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

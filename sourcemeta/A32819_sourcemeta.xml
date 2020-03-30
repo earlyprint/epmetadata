@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A serious examination of the independent's catechism and therein of the chief principles of non-conformity to, and separation from the Church of England / by Benjamin Camfield ... ; in two parts, the first general, the second more particular.</title>
-         <author>Camfield, Benjamin, 1638-1693.</author>
-      </titleStmt>
-      <extent>[9], 347, [14], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Redmayne for the author, and are to be sold by Henry Eversden at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1668">1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Some pages are stained and faded. Pages 220, 222, 232, and 284 are tightly bound in the filmed copy. Pages 210-295 are photographed from Union Theological Seminary Library, New York copy and inserted at the end.</note>
-         <note>Errata: p. [1] (3rd pagination).</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>"An appendix of the authority of kings": 38 p. at end.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A serious examination of the independent's catechism and therein of the chief principles of non-conformity to, and separation from the Church of England / by Benjamin Camfield ... ; in two parts, the first general, the second more particular.</title>
+      <author>Camfield, Benjamin, 1638-1693.</author>
+    </titleStmt>
+    <extent>[9], 347, [14], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Redmayne</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Henry Eversden</persName> at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1668">1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Some pages are stained and faded. Pages 220, 222, 232, and 284 are tightly bound in the filmed copy. Pages 210-295 are photographed from Union Theological Seminary Library, New York copy and inserted at the end.</note>
+      <note>Errata: p. [1] (3rd pagination).</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>"An appendix of the authority of kings": 38 p. at end.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Redmayne</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Henry Eversden</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Naumachia, or Hollands sea-fight</title>
-         <author>Holland, Abraham, d. 1626.</author>
-      </titleStmt>
-      <extent>[38] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] P[urfoot] for Thomas Law, and William Garrat,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1622">An. Dom. 1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Dedication signed: Abra: Holland.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#8308; [par.]&#185; 2[par.]&#178;  B-D&#8308;.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Naumachia, or Hollands sea-fight</title>
+      <author>Holland, Abraham, d. 1626.</author>
+    </titleStmt>
+    <extent>[38] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] P[urfoot]</persName> for <persName type="publisher">Thomas Law</persName>, and <persName type="publisher">William Garrat</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1622">An. Dom. 1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Dedication signed: Abra: Holland.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#8308; [par.]&#185; 2[par.]&#178;  B-D&#8308;.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Law</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Garrat</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] P[urfoot]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

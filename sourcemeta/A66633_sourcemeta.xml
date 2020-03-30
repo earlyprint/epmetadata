@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Examen astronomi&#230; Carolin&#230;: T.S. or, a short mathematicall discourse containing, some animadversions upon Mr. Thomas Streetes astronomicall tables of the c&#339;lestial motions wherein his errours and mistakes are clearly detected, and the author hereof justly vindicated from his unjust aspersions. (In an appenidx to the said astronomical treatise.) By Vincent Wing, mathemat.</title>
-         <author>Wing, Vincent, 1619-1668.</author>
-      </titleStmt>
-      <extent>[6], 42 p. : diagrams, tables;  </extent>
-      <publicationStmt>
-         <publisher>printed by W. Leybourn, for G. Sawbridge, at the Bible upon Ludgate Hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original at the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Examen astronomi&#230; Carolin&#230;: T.S. or, a short mathematicall discourse containing, some animadversions upon Mr. Thomas Streetes astronomicall tables of the c&#339;lestial motions wherein his errours and mistakes are clearly detected, and the author hereof justly vindicated from his unjust aspersions. (In an appenidx to the said astronomical treatise.) By Vincent Wing, mathemat.</title>
+      <author>Wing, Vincent, 1619-1668.</author>
+    </titleStmt>
+    <extent>[6], 42 p. : diagrams, tables;  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Leybourn</persName>, for <persName type="publisher">G. Sawbridge</persName>, at <placeName>the Bible upon Ludgate Hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original at the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Leybourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible upon Ludgate Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

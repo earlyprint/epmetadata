@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act in favours of the vassals and creditors of forefaulted persons</title>
-         <author>Scotland.</author>
-         <author>Scotland. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed at Edinburgh, and re-printed by Edw. Jones in the Savoy,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Edinburgh, April 27, 1689."</note>
-         <note>"Licensed, May 6, 1688; J. Fraser."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act in favours of the vassals and creditors of forefaulted persons</title>
+      <author>Scotland.</author>
+      <author>Scotland. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Edinburgh</placeName>, and re-printed by <persName type="printer">Edw. Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Edinburgh, April 27, 1689."</note>
+      <note>"Licensed, May 6, 1688; J. Fraser."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edw. Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true Christians test, or, A discovery of the love and lovers of the world by Samuel Shaw ...</title>
-         <author>Shaw, Samuel, 1635-1696.</author>
-      </titleStmt>
-      <extent>[16], 400 [i.e. 398] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas James for Samuel Tidmarsh ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">MDCLXXXIII [1683]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Special t.p. for second part on p. [7].</note>
-         <note>Advertisement: p. [1]-[2] at end.</note>
-         <note>Errata p. [16].</note>
-         <note>Numerous errors in paging.</note>
-         <note>Imperfect: tightly bound and slightly faded, with print show-through.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-         <note>(from t.p.) "In two parts, I. Of man considered in his moral capacity, in an hundred meditations, derived from I John 2.15 -- II. Of man considered in his political capacity, in forty nine meditations, derived from I John 2. 15."</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The true Christians test, or, A discovery of the love and lovers of the world by Samuel Shaw ...</title>
+      <author>Shaw, Samuel, 1635-1696.</author>
+    </titleStmt>
+    <extent>[16], 400 [i.e. 398] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas James</persName> for <persName type="publisher">Samuel Tidmarsh</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">MDCLXXXIII [1683]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Special t.p. for second part on p. [7].</note>
+      <note>Advertisement: p. [1]-[2] at end.</note>
+      <note>Errata p. [16].</note>
+      <note>Numerous errors in paging.</note>
+      <note>Imperfect: tightly bound and slightly faded, with print show-through.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+      <note>(from t.p.) "In two parts, I. Of man considered in his moral capacity, in an hundred meditations, derived from I John 2.15 -- II. Of man considered in his political capacity, in forty nine meditations, derived from I John 2. 15."</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Tidmarsh</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas James</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

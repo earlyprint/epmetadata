@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ioy of the vpright man In a sermon preached at Grayes Inne: By I. B. Wherein is declared the hidden comfort, the sure reward, the present condition of the vpright-hearted.</title>
-         <author>Barlow, John, b. 1580 or 81.</author>
-      </titleStmt>
-      <extent>[6], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston for Nathaniel Newbery, and are to be sold at his shop vnder Saint Peters Church in Corne-hill, at the signe of the Starre, and in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1619">1619.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>I.B. = John Barlow.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ioy of the vpright man In a sermon preached at Grayes Inne: By I. B. Wherein is declared the hidden comfort, the sure reward, the present condition of the vpright-hearted.</title>
+      <author>Barlow, John, b. 1580 or 81.</author>
+    </titleStmt>
+    <extent>[6], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName> for <persName type="publisher">Nathaniel Newbery</persName>, and are to be sold at <placeName>his shop vnder Saint Peters Church in Corne-hill, at the signe of the Starre</placeName>, and in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1619">1619.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>I.B. = John Barlow.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop vnder Saint Peters Church in Corne-hill, at the signe of the Starre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

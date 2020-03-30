@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true copy of the paper delivered by Sir John Fenwicke, Baronet, to the sheriffs of London and Middlesex on Tower-Hill, the place of execution, on Thursday, Jan. 28, 1696/7</title>
-         <author>Fenwick, John, Sir, 1645?-1697.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Orme for R. Bentley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1696 [i.e. 1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by authority."</note>
-         <note>Publisher and place of publication from colophon.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true copy of the paper delivered by Sir John Fenwicke, Baronet, to the sheriffs of London and Middlesex on Tower-Hill, the place of execution, on Thursday, Jan. 28, 1696/7</title>
+      <author>Fenwick, John, Sir, 1645?-1697.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Orme</persName> for <persName type="publisher">R. Bentley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1696 [i.e. 1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by authority."</note>
+      <note>Publisher and place of publication from colophon.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Orme</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

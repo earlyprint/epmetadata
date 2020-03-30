@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True and exact relation of the most dreadful and remarkable fires [...]e happened since the reign of King William the Conqueror, to this present year 1666 : in the cities of London and Westminster and other parts of England.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B.W. ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True and exact relation of the most dreadful and remarkable fires [...]e happened since the reign of King William the Conqueror, to this present year 1666 : in the cities of London and Westminster and other parts of England.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B.W.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>B.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

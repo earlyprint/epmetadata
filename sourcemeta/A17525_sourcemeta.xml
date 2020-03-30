@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A prognostication in which you may beholde the state of this present yeere of our Lord God, M.DC. Made and set foorth by Iohn Dade Gent. practicioner in phisicke</title>
-         <author>Dade, John, fl. 1589-1614.</author>
-      </titleStmt>
-      <extent>[2+] p.   </extent>
-      <publicationStmt>
-         <publisher>For Edward White, the assigne of Iames Roberts,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1600">[1600]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and publisher's name from colophon; publication date from STC.</note>
-         <note>Identified as STC 6187 on UMI microfilm.</note>
-         <note>Formerly also STC 6187.</note>
-         <note>Imperfect; a one leaf fragment.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A prognostication in which you may beholde the state of this present yeere of our Lord God, M.DC. Made and set foorth by Iohn Dade Gent. practicioner in phisicke</title>
+      <author>Dade, John, fl. 1589-1614.</author>
+    </titleStmt>
+    <extent>[2+] p.   </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Edward White</persName>, the assigne of <persName type="assigns">Iames Roberts</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1600">[1600]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and publisher's name from colophon; publication date from STC.</note>
+      <note>Identified as STC 6187 on UMI microfilm.</note>
+      <note>Formerly also STC 6187.</note>
+      <note>Imperfect; a one leaf fragment.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward White</persName>
+    </person>
+    <person type="assigns">
+      <persName>Iames Roberts</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

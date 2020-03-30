@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Short meditations on, with a briefe description of the life and death of Oliver Cromwell. Written by J.D. Durnovari&#230;.</title>
-         <author>Durnovari&#230;, J. D.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.M. for Robert Clavel at the Stags-head in St. Pauls Church yard,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1661">1661]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Annotation on Thomason copy: "feb. 11 1660", "1660 Feb. 11".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Short meditations on, with a briefe description of the life and death of Oliver Cromwell. Written by J.D. Durnovari&#230;.</title>
+      <author>Durnovari&#230;, J. D.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.M.</persName> for <persName type="publisher">Robert Clavel</persName> at <placeName>the Stags-head in St. Pauls Church yard</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1661">1661]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Annotation on Thomason copy: "feb. 11 1660", "1660 Feb. 11".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Clavel</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Stags-head in St. Pauls Church yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

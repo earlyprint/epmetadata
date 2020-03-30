@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>New mad Tom of Bedlam. Or, The man in the moon drinks clarret, vvith powder-beef, turnip and carret. Tune is, Grays-Inn Mask.</title>
-      </titleStmt>
-      <extent>1 sheet ([] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by and for A.M. and sold by the booksellers of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690" cert="low">[ca. 1690?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Forth from my sad and pecksome cell ..."</note>
-         <note>Cut in half, mounted, and bound with second ballad first.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>New mad Tom of Bedlam. Or, The man in the moon drinks clarret, vvith powder-beef, turnip and carret. Tune is, Grays-Inn Mask.</title>
+    </titleStmt>
+    <extent>1 sheet ([] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by and for <persName type="publisher">A.M.</persName> and sold by <persName type="bookseller">the booksellers of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690" cert="low">[ca. 1690?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Forth from my sad and pecksome cell ..."</note>
+      <note>Cut in half, mounted, and bound with second ballad first.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise againste the preuee masse in the behalfe and furtheraunce of the mooste hylye communyon made by Edmund Gest. Reade gentyll reader and then iudge. M. D. XLVIII.</title>
-         <author>Gest, Edmund.</author>
-      </titleStmt>
-      <extent>[180] p.   </extent>
-      <publicationStmt>
-         <publisher>In saynt Andrewes Paryshe, in the Waredrop. By [William Hill and] Thomas Raynald,</publisher>
-         <pubPlace>Imprinted at London[n] :</pubPlace>
-         <date when="1548">1548.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title page varies: line 4 has misprint: "hylye" or is corrected to: "holye"--STC.</note>
-         <note>Additonal printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise againste the preuee masse in the behalfe and furtheraunce of the mooste hylye communyon made by Edmund Gest. Reade gentyll reader and then iudge. M. D. XLVIII.</title>
+      <author>Gest, Edmund.</author>
+    </titleStmt>
+    <extent>[180] p.   </extent>
+    <publicationStmt>
+      <publisher>In saynt Andrewes Paryshe, in <placeName>the Waredrop. By [William Hill</placeName> and] Thomas Raynald,</publisher>
+      <pubPlace>Imprinted at London[n] :</pubPlace>
+      <date when="1548">1548.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title page varies: line 4 has misprint: "hylye" or is corrected to: "holye"--STC.</note>
+      <note>Additonal printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>the Waredrop. By [William Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

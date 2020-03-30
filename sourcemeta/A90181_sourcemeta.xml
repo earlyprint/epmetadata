@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lord Lieutenant General of Ireland, for setling the Protestant religion, maintaining his Majesties just rights, and the priviledges of Parliament.</title>
-         <author>Ireland. Lord Lieutenant (1641-1649 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Cork, and re-printed at London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nouemb: 27".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lord Lieutenant General of Ireland, for setling the Protestant religion, maintaining his Majesties just rights, and the priviledges of Parliament.</title>
+      <author>Ireland. Lord Lieutenant (1641-1649 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Cork</placeName>, and re-printed at <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nouemb: 27".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Cork</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

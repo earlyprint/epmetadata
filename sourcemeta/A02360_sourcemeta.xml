@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A yong mans inquisition, or triall VVhereby all young men (as of all ages) may know how to redresse and direct their waies, according to Gods word, and if they bee in the way of life to saluation, or in the way of death, to condemnation. Together with a godly and most comfortable meditation and praier ioyned thereunto. By William Guilde.</title>
-         <author>Guild, William, 1586-1657.</author>
-      </titleStmt>
-      <extent>[14], 270, [18] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Raworth, for Iohn Bache, and are to be sold at his shop in Popes-head Pallace,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A yong mans inquisition, or triall VVhereby all young men (as of all ages) may know how to redresse and direct their waies, according to Gods word, and if they bee in the way of life to saluation, or in the way of death, to condemnation. Together with a godly and most comfortable meditation and praier ioyned thereunto. By William Guilde.</title>
+      <author>Guild, William, 1586-1657.</author>
+    </titleStmt>
+    <extent>[14], 270, [18] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Raworth</persName>, for <persName type="publisher">Iohn Bache</persName>, and are to be sold at <placeName>his shop in Popes-head Pallace</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bache</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Raworth</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes-head Pallace</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

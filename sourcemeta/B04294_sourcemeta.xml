@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Whitehall, October 18. 1697. Last night came in two mails from Holland.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Jones in the Savoy,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Below title: Published by authority.</note>
-         <note>Imprint from colophon.</note>
-         <note>Concerns the War of the Grand Alliance.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Whitehall, October 18. 1697. Last night came in two mails from Holland.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Jones</persName> in <placeName>the Savoy</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Below title: Published by authority.</note>
+      <note>Imprint from colophon.</note>
+      <note>Concerns the War of the Grand Alliance.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edw. Jones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A gold chain of directions, with twenty gold-linkes of love, to preserve love firm between husband and wife during their lives ... by Immanuel Bourne ...</title>
-         <author>Bourne, Immanuel, 1590-1672.</author>
-      </titleStmt>
-      <extent>[23], 189 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Streater for George Sawbridge ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1669">1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A gold chain of directions, with twenty gold-linkes of love, to preserve love firm between husband and wife during their lives ... by Immanuel Bourne ...</title>
+      <author>Bourne, Immanuel, 1590-1672.</author>
+    </titleStmt>
+    <extent>[23], 189 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Streater</persName> for <persName type="publisher">George Sawbridge</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1669">1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

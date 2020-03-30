@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse touching Tanger in a letter to a person of quality.</title>
-         <author>Sheeres, Henry, Sir, d. 1710.</author>
-      </titleStmt>
-      <extent>[2], 49, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Sir Henry Sheeres - Cf. BM.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse touching Tanger in a letter to a person of quality.</title>
+      <author>Sheeres, Henry, Sir, d. 1710.</author>
+    </titleStmt>
+    <extent>[2], 49, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Sir Henry Sheeres - Cf. BM.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

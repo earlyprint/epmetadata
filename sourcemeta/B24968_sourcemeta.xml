@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A declaration. James R. Whereas we are informed that several officers of our army, on pretence of taking leases of lands forfeited to us by the late act of attainder, do follow the commissioners of our revenue now in their circuit, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for alderman James Malone printer to the King's most excellent Majesty; and are to be sold at his shop in Skinner-Row,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1690">[1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our court at Dublin Castle the 25th day of April, 1690."</note>
-         <note>No further leases of forfeited lands to be granted. Cf. Steele.</note>
-         <note>Arms 185.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A declaration. James R. Whereas we are informed that several officers of our army, on pretence of taking leases of lands forfeited to us by the late act of attainder, do follow the commissioners of our revenue now in their circuit, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">alderman James Malone</persName> printer to <persName type="patron">the King's most excellent Majesty;</persName> and are to be sold at <placeName>his shop in Skinner-Row</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1690">[1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our court at Dublin Castle the 25th day of April, 1690."</note>
+      <note>No further leases of forfeited lands to be granted. Cf. Steele.</note>
+      <note>Arms 185.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>alderman James Malone</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Skinner-Row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

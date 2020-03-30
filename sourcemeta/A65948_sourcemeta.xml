@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Constantinus redivivus, or, A full account of the wonderful providences, and unparallell'd successes that have all along attended the glorious enterprises of the heroical prince, William the 3d, now King of Great Britain, &amp;c. wherein are many curious passages relating to the intrigues of Lewis the 14th, &amp;c. carried on here, and elsewhere, never printed before, &amp;c. / by Mr. John Whittel ...</title>
-         <author>Whittel, John.</author>
-      </titleStmt>
-      <extent>[27], 199 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Tho. Harbin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: prelim. p. [27].</note>
-         <note>First edition.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Constantinus redivivus, or, A full account of the wonderful providences, and unparallell'd successes that have all along attended the glorious enterprises of the heroical prince, William the 3d, now King of Great Britain, &amp;c. wherein are many curious passages relating to the intrigues of Lewis the 14th, &amp;c. carried on here, and elsewhere, never printed before, &amp;c. / by Mr. John Whittel ...</title>
+      <author>Whittel, John.</author>
+    </titleStmt>
+    <extent>[27], 199 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Tho. Harbin</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: prelim. p. [27].</note>
+      <note>First edition.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Harbin</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Tho. Harbin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

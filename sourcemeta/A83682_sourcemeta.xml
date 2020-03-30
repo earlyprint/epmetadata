@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Commons of England assembled in Parliament, of their true intentions concerning the ancient and fundamental government of the kingdom, the government of the church, the present peace; securing the people against all arbitrary government, and maintaining a right understanding between the two kingdoms of England and Scotland, according to the covenant and treaties. Ordered by the Commons assembled in Parliament, that this declaration be forthwith printed and published. H: Elsynge, Cler. Parl. D. Com.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, printer to the Honorable House of Commons, dwelling in Fleetstreet at the sign of the Golden Dragon.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1646">April 18. 1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Four thousand copies ordered to be printed, distributed throughout the county [i.e. country?] and set up in every parish church--Thomason Catalogue.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Commons of England assembled in Parliament, of their true intentions concerning the ancient and fundamental government of the kingdom, the government of the church, the present peace; securing the people against all arbitrary government, and maintaining a right understanding between the two kingdoms of England and Scotland, according to the covenant and treaties. Ordered by the Commons assembled in Parliament, that this declaration be forthwith printed and published. H: Elsynge, Cler. Parl. D. Com.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>, dwelling in <placeName>Fleetstreet at the sign of the Golden Dragon.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1646">April 18. 1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Four thousand copies ordered to be printed, distributed throughout the county [i.e. country?] and set up in every parish church--Thomason Catalogue.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet at the sign of the Golden Dragon.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

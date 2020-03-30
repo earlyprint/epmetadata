@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A speech or declaration of the declared King of Scots upon the death of Montrosse the setting forth of a fleet by the Hollander, and two ships taken by the French, with the last intelligence out of Scotland. Also some excellent passages concerning the Lord Generall Cromwell, his entertainment at Windsor Castle, and the manner of his coming from thence to London, the first of June, 1650.</title>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.C. And are to be sold at the Royall-Exchange, and in the Old-Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June 9".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A speech or declaration of the declared King of Scots upon the death of Montrosse the setting forth of a fleet by the Hollander, and two ships taken by the French, with the last intelligence out of Scotland. Also some excellent passages concerning the Lord Generall Cromwell, his entertainment at Windsor Castle, and the manner of his coming from thence to London, the first of June, 1650.</title>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.C. And</persName> are to be sold at <placeName>the Royall-Exchange</placeName>, and in <placeName>the Old-Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June 9".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J.C. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Bayley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royall-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

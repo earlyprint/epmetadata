@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir Thomas Wrothe his sad encomion, vpon his dearest consort, Dame Margaret Wrothe Who died of a fever at Petherton Parke, in the countie of Somerset, about midnight of the 14. day of October, 1635. And was buried in the parish church of St. Stephen, in Coleman Street, London, the 11. of November, next ensuing.</title>
-         <author>Wroth, Thomas, Sir, 1584-1672.</author>
-      </titleStmt>
-      <extent>[2], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Elizabeth Purslowe] for Henry Seile,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1635">1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sir Thomas Wrothe his sad encomion, vpon his dearest consort, Dame Margaret Wrothe Who died of a fever at Petherton Parke, in the countie of Somerset, about midnight of the 14. day of October, 1635. And was buried in the parish church of St. Stephen, in Coleman Street, London, the 11. of November, next ensuing.</title>
+      <author>Wroth, Thomas, Sir, 1584-1672.</author>
+    </titleStmt>
+    <extent>[2], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Elizabeth Purslowe]</persName> for <persName type="publisher">Henry Seile</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1635">1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>Elizabeth Purslowe]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

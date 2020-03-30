@@ -1,21 +1,49 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Deputy, Chief Governour and General of His Majesties Army in Ireland. A declaration Tyrconnel. Whereas, we find it requisite for His Majesties service, that the forces he is obliged to maintain, for the preservation of the peace of this his kingdom, be kept in good order and discipline: ...</title>
-         <title>Proclamations. 1687-02-24.</title>
-         <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
-      </titleStmt>
-      <extent>2 sheets (versos only)   </extent>
-      <publicationStmt>
-         <publisher>printed by Andrew Crooke and Samuel Helsham, assigns of Benjamin Tooke printer to the Kings Most Excellent Majesty; and are to be sold by Andrew Crook at His Majesties printing-house on Ormonde-Key, and by Samuel Helsham at the Colledge-Arms in Castle-Street,</publisher>
-         <pubPlace>[Dublin :</pubPlace>
-         <date when="1687">1686. [i.e. 1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given .. the 24th day of February 1686[/]7".</note>
-         <note>Arms 187; Steele notation: Majesties duly  2) themselves Mili-.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Deputy, Chief Governour and General of His Majesties Army in Ireland. A declaration Tyrconnel. Whereas, we find it requisite for His Majesties service, that the forces he is obliged to maintain, for the preservation of the peace of this his kingdom, be kept in good order and discipline: ...</title>
+      <title>Proclamations. 1687-02-24.</title>
+      <author>Ireland. Lord Deputy (1687-1689 : Tyrconnel)</author>
+    </titleStmt>
+    <extent>2 sheets (versos only)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer"><persName type="bookseller">Andrew Crook</persName>e</persName> and <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName>, assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the Kings Most Excellent Majesty;</persName> and are to be sold by <persName type="bookseller">Andrew Crook</persName> at <placeName>His Majesties printing-house on Ormonde-Key</placeName>, and by <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName> at <placeName>the Colledge-Arms in Castle-Street</placeName>,</publisher>
+      <pubPlace>[Dublin :</pubPlace>
+      <date when="1687">1686. [i.e. 1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given .. the 24th day of February 1686[/]7".</note>
+      <note>Arms 187; Steele notation: Majesties duly  2) themselves Mili-.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>His Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

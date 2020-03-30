@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation, indicting a parliament, to be held at Edinburgh, the 28. day of July, 1681</title>
-         <title>Proclamations. 1681-06-08</title>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to his most Sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Given at Our court at Whitehall, the eighth day of June, one thousand six hundred and eighty one, and of Our Reign, the thretty and third year.</note>
-         <note>Arms 232; Steele notation: England,  Deputs  Head; this edition signed at end: 'Morray.'.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation, indicting a parliament, to be held at Edinburgh, the 28. day of July, 1681</title>
+      <title>Proclamations. 1681-06-08</title>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most Sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Given at Our court at Whitehall, the eighth day of June, one thousand six hundred and eighty one, and of Our Reign, the thretty and third year.</note>
+      <note>Arms 232; Steele notation: England,  Deputs  Head; this edition signed at end: 'Morray.'.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most Sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

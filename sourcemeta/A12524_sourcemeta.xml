@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Ethiopian eunuchs conuersion. Or, The summe of thirtie sermons vpon part of the eight chapter of the Acts. By Samuel Smith, minister of the word</title>
-         <author>Smith, Samuel, 1588-1665.</author>
-      </titleStmt>
-      <extent>[16], 540 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper, for Thomas Alchorne, and are to be sold at his shop in Pauls Church-yard, at the signe of the Greene Dragon,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Ethiopian eunuchs conuersion. Or, The summe of thirtie sermons vpon part of the eight chapter of the Acts. By Samuel Smith, minister of the word</title>
+      <author>Smith, Samuel, 1588-1665.</author>
+    </titleStmt>
+    <extent>[16], 540 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName>, for <persName type="publisher">Thomas Alchorne</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard, at the signe of the Greene Dragon</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Alchorne</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard, at the signe of the Greene Dragon</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

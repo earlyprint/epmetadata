@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A p[i]ndarique elegie upon the death of the R.R. Father in God Jeremy, late Lord Bishop of Doune, Connor, and Dromore by Le. Mathews ...</title>
-         <author>Mathews, Lemuel, fl. 1661-1705.</author>
-      </titleStmt>
-      <extent>[2], 5-14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Crook ... and are to be sold by Samuel Dancer ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1667">1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Indistinct letter in second word of title.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A p[i]ndarique elegie upon the death of the R.R. Father in God Jeremy, late Lord Bishop of Doune, Connor, and Dromore by Le. Mathews ...</title>
+      <author>Mathews, Lemuel, fl. 1661-1705.</author>
+    </titleStmt>
+    <extent>[2], 5-14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Crook</persName> ... and are to be sold by <persName type="bookseller">Samuel Dancer</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1667">1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Indistinct letter in second word of title.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

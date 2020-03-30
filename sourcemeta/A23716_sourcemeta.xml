@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Eighteen sermons whereof fifteen preached the King, the rest upon publick occasions / by Richard Allestry ...</title>
-         <author>Allestree, Richard, 1619-1681.</author>
-      </titleStmt>
-      <extent>[4], 329 [i.e. 347], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Roycroft, for James Allestry ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1669">MDCLXIX [1669]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata bound at end.</note>
-         <note>Numerous errors in paging.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Eighteen sermons whereof fifteen preached the King, the rest upon publick occasions / by Richard Allestry ...</title>
+      <author>Allestree, Richard, 1619-1681.</author>
+    </titleStmt>
+    <extent>[4], 329 [i.e. 347], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Roycroft</persName>, for <persName type="publisher">James Allestry</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1669">MDCLXIX [1669]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata bound at end.</note>
+      <note>Numerous errors in paging.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Allestry</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Roycroft</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

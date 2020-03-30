@@ -1,26 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first parte, of the eyghth liberall science: entituled, Ars adulandi, the arte of flatterie with the confutation therof, both very pleasaunt and profitable, deuised and compiled, by Vlpian Fulwell.</title>
-         <author>Fulwell, Ulpian, fl. 1586.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Newly corrected and augmented.</edition>
-      </editionStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>By [William How for] Richarde Iones, and are to bee solde at his shoppe ouer agaynst Sainct Sepulchers Churche,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1579">[1579]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Eight dialogues, partly in verse.</note>
-         <note>Actual printer's name and publication date from STC.</note>
-         <note>A variant of the edition with year "1579" in the imprint--Cf. STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Signatures: A-I&#8308; K&#178; .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first parte, of the eyghth liberall science: entituled, Ars adulandi, the arte of flatterie with the confutation therof, both very pleasaunt and profitable, deuised and compiled, by Vlpian Fulwell.</title>
+      <author>Fulwell, Ulpian, fl. 1586.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Newly corrected and augmented.</edition>
+    </editionStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[William How</persName> for<persName type="publisher">] Richarde Iones</persName>, and are to bee solde at <placeName>his shoppe ouer agaynst Sainct Sepulchers Churche</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1579">[1579]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Eight dialogues, partly in verse.</note>
+      <note>Actual printer's name and publication date from STC.</note>
+      <note>A variant of the edition with year "1579" in the imprint--Cf. STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Signatures: A-I&#8308; K&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Richarde Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>[William How</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe ouer agaynst Sainct Sepulchers Churche</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

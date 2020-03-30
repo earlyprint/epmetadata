@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Catalogue of valuable and choice books being the collections of a person of eminent quality, and a learned divine deceased, consisting of divinity, history and all other learning, especially histories of England, Scotland, Ireland &amp;c. ... : the sale will begin on Monday the 17th instant at nine in the morning.</title>
-      </titleStmt>
-      <extent>[2], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Catalogues are sold at six-pence each at the place of sale, at the Black Swan and Bible ... at Mr. Felthams ... and at the Golden Ball ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1699">[1699]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Imperfect: cropped and tightly bound, with loss of print.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Catalogue of valuable and choice books being the collections of a person of eminent quality, and a learned divine deceased, consisting of divinity, history and all other learning, especially histories of England, Scotland, Ireland &amp;c. ... : the sale will begin on Monday the 17th instant at nine in the morning.</title>
+    </titleStmt>
+    <extent>[2], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Catalogues are sold at <placeName>six-pence each at the place of sale, at the Black Swan</placeName> and Bible ... at <placeName>Mr. Felthams</placeName> ... and at <placeName>the Golden Ball</placeName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1699">[1699]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Imperfect: cropped and tightly bound, with loss of print.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Felthams</placeName>
+    </place>
+    <place type="location">
+      <placeName>six-pence each at the place of sale, at the Black Swan</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Golden Ball</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

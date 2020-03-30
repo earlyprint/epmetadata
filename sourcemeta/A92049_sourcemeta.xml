@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The royal martyrs or, a list of the lords, knights, commanders, and gentlemen, that were slain in the late wars, in defence of their King and country. As also of those executed by the high courts of justice or law-martial.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb, living in Thames-street over against Baynards Castle,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At foot of text: If the names of any persons of quality have escaped the industry of the collectors pen, upon notice given to the printer, they shall be inserted.</note>
-         <note>Annotation on Thomason copy: "May 23".</note>
-         <note>Reproductions of the originals in the Harvard University Library and the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The royal martyrs or, a list of the lords, knights, commanders, and gentlemen, that were slain in the late wars, in defence of their King and country. As also of those executed by the high courts of justice or law-martial.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName>, living in <placeName>Thames-street over against Baynards Castle</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At foot of text: If the names of any persons of quality have escaped the industry of the collectors pen, upon notice given to the printer, they shall be inserted.</note>
+      <note>Annotation on Thomason copy: "May 23".</note>
+      <note>Reproductions of the originals in the Harvard University Library and the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Thames-street over against Baynards Castle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

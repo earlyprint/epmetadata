@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise concerning statutes, or acts of Parliament, and the exposition thereof written by Sir Christopher Hatton ...</title>
-         <author>Hatton, Christopher, Sir, 1540-1591.</author>
-      </titleStmt>
-      <extent>[15], 85, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Tonson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisements: p. [1]-[3] at end.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise concerning statutes, or acts of Parliament, and the exposition thereof written by Sir Christopher Hatton ...</title>
+      <author>Hatton, Christopher, Sir, 1540-1591.</author>
+    </titleStmt>
+    <extent>[15], 85, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Tonson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisements: p. [1]-[3] at end.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Tonson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

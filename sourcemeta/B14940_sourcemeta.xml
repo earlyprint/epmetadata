@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Courant newes out of Italy, Germany, Bohemia, Poland, &amp;c.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By George Veseler. The 9. of Iuly. [sold by P. Keerius],</publisher>
-         <pubPlace>Printed at Amsterdam :</pubPlace>
-         <date when="1621">[1621]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title. Vendor's name and publication date from STC.</note>
-         <note>Formerly STC 5745.</note>
-         <note>Identified as STC 5745 on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Bound and filmed with twenty-four other issues.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Courant newes out of Italy, Germany, Bohemia, Poland, &amp;c.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">George Veseler. The 9. of Iuly. [</persName>sold by <persName type="bookseller">P. Keerius]</persName>,</publisher>
+      <pubPlace>Printed at Amsterdam :</pubPlace>
+      <date when="1621">[1621]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title. Vendor's name and publication date from STC.</note>
+      <note>Formerly STC 5745.</note>
+      <note>Identified as STC 5745 on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Bound and filmed with twenty-four other issues.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Veseler. The 9. of Iuly. [</persName>
+    </person>
+    <person type="bookseller">
+      <persName>P. Keerius]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

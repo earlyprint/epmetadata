@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Catholique traditions. Or A treatise of the beliefe of the Christians of Asia, Europa, and Africa, in the principall controuersies of our time In fauour of the louers of the catholicke trueth, and the peace of the Church. Written in French by Th. A.I.C. and translated into English, by L.O.</title>
-         <title>Tradition catholique. English</title>
-         <author>Eudes, Morton.</author>
-         <author>Owen, Lewis, 1572-1633.</author>
-      </titleStmt>
-      <extent>[16], 96, 99-235, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Stansby, for Henry Fetherstone, and are to be sold at his shoppe in Pauls Church-yard, at the signe of the Rose,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of "Tradition catholique", attributed to Morton Eudes.</note>
-         <note>L.O. = Lewis Owen.</note>
-         <note>Variants (STC 10562) are dated 1610.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Catholique traditions. Or A treatise of the beliefe of the Christians of Asia, Europa, and Africa, in the principall controuersies of our time In fauour of the louers of the catholicke trueth, and the peace of the Church. Written in French by Th. A.I.C. and translated into English, by L.O.</title>
+      <title>Tradition catholique. English</title>
+      <author>Eudes, Morton.</author>
+      <author>Owen, Lewis, 1572-1633.</author>
+    </titleStmt>
+    <extent>[16], 96, 99-235, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Stansby</persName>, for <persName type="publisher">Henry Fetherstone</persName>, and are to be sold at <placeName>his shoppe in Pauls Church-yard, at the signe of the Rose</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of "Tradition catholique", attributed to Morton Eudes.</note>
+      <note>L.O. = Lewis Owen.</note>
+      <note>Variants (STC 10562) are dated 1610.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Fetherstone</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe in Pauls Church-yard, at the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

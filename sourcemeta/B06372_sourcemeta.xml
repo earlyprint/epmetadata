@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Upon sight of Londons stately new buildings, anno Domini, MDCLXXII.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed by William Godbid, for the author.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "O Thrice Illustrious Famous City LONDON ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Upon sight of Londons stately new buildings, anno Domini, MDCLXXII.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Godbid</persName>, for <persName type="publisher">the author.</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "O Thrice Illustrious Famous City LONDON ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author.</persName>
+    </person>
+    <person type="printer">
+      <persName>William Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

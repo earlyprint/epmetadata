@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to an honourable member of Parliament concerning the great growth of popery, and the treasonable practices of the Romish bishops and priests at this time in England</title>
-         <author>R. W.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>For Brabazon Aylmer in Cornhil, on very good paper, and sold for 2d.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed at end: R.W.</note>
-         <note>Imprint from colophon; place of publication suggested by Wing.</note>
-         <note>Reproductions of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to an honourable member of Parliament concerning the great growth of popery, and the treasonable practices of the Romish bishops and priests at this time in England</title>
+      <author>R. W.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Brabazon Aylmer</persName> in <placeName>Cornhil, on very good paper</placeName>, and sold for <persName type="publisher">2d.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed at end: R.W.</note>
+      <note>Imprint from colophon; place of publication suggested by Wing.</note>
+      <note>Reproductions of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>2d.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil, on very good paper</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

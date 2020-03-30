@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the House of Lords, on November 5, 1680 by ... William Lord Bishop of St. Asaph.</title>
-         <author>Lloyd, William, 1627-1717.</author>
-      </titleStmt>
-      <extent>[7], 39 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.C. for Henry Brome ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes bibliographical references.</note>
-         <note>Attacking Roman Catholics.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the House of Lords, on November 5, 1680 by ... William Lord Bishop of St. Asaph.</title>
+      <author>Lloyd, William, 1627-1717.</author>
+    </titleStmt>
+    <extent>[7], 39 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.C.</persName> for <persName type="publisher">Henry Brome</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes bibliographical references.</note>
+      <note>Attacking Roman Catholics.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Brome</persName>
+    </person>
+    <person type="printer">
+      <persName>M.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

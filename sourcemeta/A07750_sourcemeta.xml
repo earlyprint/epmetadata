@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first booke of consort lessons made by diuers exquisite authors, for six instruments to play together, the treble lute, the pandora, the cittern, the base-violl, the flute &amp; treble-violl / newly set forth at the coast &amp; charges of a gentle-man, for his priuate pleasure, and for diuers others his frendes which delight in musicke.</title>
-         <title>Consort lessons</title>
-         <author>Morley, Thomas, 1557-1603?</author>
-      </titleStmt>
-      <extent>6 parts.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London in Little Saint Helens by VVilliam Barley, the assigne of Thomas Morely, and are to be solde at his shop in Gratious-streete,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Morley.</note>
-         <note>"Cum priuilegio ad imprimendum solum."</note>
-         <note>Title within illustrated border.</note>
-         <note>Imperfect: includes base violl, flute and pandora parts only.</note>
-         <note>Reproduction of originals in the British Library and Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first booke of consort lessons made by diuers exquisite authors, for six instruments to play together, the treble lute, the pandora, the cittern, the base-violl, the flute &amp; treble-violl / newly set forth at the coast &amp; charges of a gentle-man, for his priuate pleasure, and for diuers others his frendes which delight in musicke.</title>
+      <title>Consort lessons</title>
+      <author>Morley, Thomas, 1557-1603?</author>
+    </titleStmt>
+    <extent>6 parts.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London in Little Saint Helens</placeName> by <persName type="printer">VVilliam Barley</persName>, the assigne of <persName type="assigns">Thomas Morely</persName>, and are to be solde at <placeName>his shop in Gratious-streete</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Morley.</note>
+      <note>"Cum priuilegio ad imprimendum solum."</note>
+      <note>Title within illustrated border.</note>
+      <note>Imperfect: includes base violl, flute and pandora parts only.</note>
+      <note>Reproduction of originals in the British Library and Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>VVilliam Barley</persName>
+    </person>
+    <person type="assigns">
+      <persName>Thomas Morely</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Little Saint Helens</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Gratious-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

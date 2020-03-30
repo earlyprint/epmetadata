@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A posie of gilloflowers eche differing from other in colour and odour, yet all sweete. By Humfrey Gifford gent.</title>
-         <author>Gifford, Humphrey.</author>
-         <author>Tolomei, Claudio, 1492-1555. aut</author>
-      </titleStmt>
-      <extent>[4], 78 leaves   </extent>
-      <publicationStmt>
-         <publisher>[By Thomas Dawson] for Iohn Perin, and are to be solde at his shop in Paules Churchyard, at the signe of the Angell,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1580">1580.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>In two parts.</note>
-         <note>Part 1 consists of translations (from Italian and French) of the works of other writers, including two letters of Claudio Tolomei.</note>
-         <note>Part 2 in verse, with separate title page, reading: A comfortable recreation. Containing in it matter, both of pleasure and profit. Hereunto is added a posie of gilloflowers .. .</note>
-         <note>Leaves cropped at head, affecting some running titles.</note>
-         <note>Imperfect; Leaf H4 (Part 2 title page) lacking.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A posie of gilloflowers eche differing from other in colour and odour, yet all sweete. By Humfrey Gifford gent.</title>
+      <author>Gifford, Humphrey.</author>
+      <author>Tolomei, Claudio, 1492-1555. aut</author>
+    </titleStmt>
+    <extent>[4], 78 leaves   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">Thomas Dawson]</persName> for <persName type="publisher">Iohn Perin</persName>, and are to be solde at <placeName>his shop in Paules Churchyard, at the signe of the Angell</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1580">1580.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>In two parts.</note>
+      <note>Part 1 consists of translations (from Italian and French) of the works of other writers, including two letters of Claudio Tolomei.</note>
+      <note>Part 2 in verse, with separate title page, reading: A comfortable recreation. Containing in it matter, both of pleasure and profit. Hereunto is added a posie of gilloflowers .. .</note>
+      <note>Leaves cropped at head, affecting some running titles.</note>
+      <note>Imperfect; Leaf H4 (Part 2 title page) lacking.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Perin</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Churchyard, at the signe of the Angell</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The hvmble and ivst remonstrance of the knights, citizens and burgesses in Parliament assembled in Jreland</title>
-         <author>Ireland. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Hugh Perry,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing (2nd ed.).</note>
-         <note>At head of text: To the Right Honovrable, the Lord Deputie [Robert, Earl of Leicester].</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The hvmble and ivst remonstrance of the knights, citizens and burgesses in Parliament assembled in Jreland</title>
+      <author>Ireland. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Hugh Perry</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing (2nd ed.).</note>
+      <note>At head of text: To the Right Honovrable, the Lord Deputie [Robert, Earl of Leicester].</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hugh Perry</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

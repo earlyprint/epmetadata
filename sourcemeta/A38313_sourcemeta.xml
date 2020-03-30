@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Mercurii 23 Aprilis 1679. It is this day ordered by the Lords spiritual and temporal in Parliament assembled, that all such persons who have obtained leave, either from His Majesties Privy Council, or from this House, to come to, and stay in the Cities of London and Westminster, ...</title>
-         <title>Proceedings. 1679-04-23.</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill, Thomas Newcomb, and Henry Hills, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Mercurii 23 Aprilis 1679. It is this day ordered by the Lords spiritual and temporal in Parliament assembled, that all such persons who have obtained leave, either from His Majesties Privy Council, or from this House, to come to, and stay in the Cities of London and Westminster, ...</title>
+      <title>Proceedings. 1679-04-23.</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName>, <persName type="printer">Thomas Newcomb</persName>, and <persName type="printer">Henry Hills</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

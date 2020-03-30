@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The divine Epicurus, or, The empire of pleasure over the vertues compos'd by A. LeGrand ; and rendred into English by Edward Cooke.</title>
-         <author>Le Grand, Antoine, d. 1699.</author>
-         <author>Cooke, Edward, fl. 1678.</author>
-      </titleStmt>
-      <extent>[6], 128 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Bruges for M. Widdows,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The divine Epicurus, or, The empire of pleasure over the vertues compos'd by A. LeGrand ; and rendred into English by Edward Cooke.</title>
+      <author>Le Grand, Antoine, d. 1699.</author>
+      <author>Cooke, Edward, fl. 1678.</author>
+    </titleStmt>
+    <extent>[6], 128 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Bruges</persName> for <persName type="publisher">M. Widdows</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M. Widdows</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Bruges</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

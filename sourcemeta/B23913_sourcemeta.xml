@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short treatise shewing the Sabbatharians confuted by the new Covenant, 1. That the ten commandments are not the morall law, but with their ordinances, statutes and judgements, the old Covenant. 2. That the old Covenant was as signes and shadows of things that were then to come. 3. Shewing the substance of the signe of the Sabbath. 4.Severall objections of the Sabbatharians answered. 5. That the new, which some do call the Covenant of Grace, is not really in the old Testament. 6. What the new Covenant is. 7. Of pure church-ordinances, which some doe call the discipline of the Church. 8. Of singing of Psalmes. 9. A proscript. By Iohn Hanson of the burrough of Abingdon, in the county of Berks</title>
-         <author>Hanson, John, of Abingdon, Berkshire.</author>
-      </titleStmt>
-      <extent>86 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R.D. and are to be sold by Livewell Chapman, in Popes head Alley, the coppies being left at Captain Hansons at the Peter and Paul's head at the west end of Paul's,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short treatise shewing the Sabbatharians confuted by the new Covenant, 1. That the ten commandments are not the morall law, but with their ordinances, statutes and judgements, the old Covenant. 2. That the old Covenant was as signes and shadows of things that were then to come. 3. Shewing the substance of the signe of the Sabbath. 4.Severall objections of the Sabbatharians answered. 5. That the new, which some do call the Covenant of Grace, is not really in the old Testament. 6. What the new Covenant is. 7. Of pure church-ordinances, which some doe call the discipline of the Church. 8. Of singing of Psalmes. 9. A proscript. By Iohn Hanson of the burrough of Abingdon, in the county of Berks</title>
+      <author>Hanson, John, of Abingdon, Berkshire.</author>
+    </titleStmt>
+    <extent>86 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.D.</persName> and are to be sold by <persName type="bookseller">Livewell Chapman</persName>, in <placeName>Popes head Alley, the coppies being left at Captain Hansons at the Peter</placeName> and Paul's head at <placeName>the west end of Paul's</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R.D.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Livewell Chapman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Alley, the coppies being left at Captain Hansons at the Peter</placeName>
+    </place>
+    <place type="location">
+      <placeName>the west end of Paul's</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

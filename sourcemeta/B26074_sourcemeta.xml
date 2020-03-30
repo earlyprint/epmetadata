@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the ships belonging to His Majesties Navy-Royal; with the number of men and guns; and the dividing of them into three squadrons.</title>
-         <author>England and Wales. Royal Navy.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for G. Horton,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the ships belonging to His Majesties Navy-Royal; with the number of men and guns; and the dividing of them into three squadrons.</title>
+      <author>England and Wales. Royal Navy.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">G. Horton</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G. Horton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

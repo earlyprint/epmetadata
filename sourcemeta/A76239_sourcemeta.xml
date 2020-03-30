@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An antidote against immoderate sorrow for the death of our friends: taken from an assured hope of our resurrection to life and glory. Delivered in a sermon preached in the parish-church of North-Wraxall in Wiltshire, the 12th. of Aprill 1660. at the funeral of Sr William Button Baronet. By Francis Bayly his houshold chaplain.</title>
-         <author>[Bayly, Francis, fl. 1660].</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W. Godbid for Richard Thrale at the Cross Keys at St. Paul's Gate entring into Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: An antidote against immoderate sorrow.</note>
-         <note>Annotation on Thomason copy: "May 31".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An antidote against immoderate sorrow for the death of our friends: taken from an assured hope of our resurrection to life and glory. Delivered in a sermon preached in the parish-church of North-Wraxall in Wiltshire, the 12th. of Aprill 1660. at the funeral of Sr William Button Baronet. By Francis Bayly his houshold chaplain.</title>
+      <author>[Bayly, Francis, fl. 1660].</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Godbid</persName> for <persName type="publisher">Richard Thrale</persName> at <placeName>the Cross Keys at St. Paul's Gate entring into Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: An antidote against immoderate sorrow.</note>
+      <note>Annotation on Thomason copy: "May 31".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Thrale</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Godbid</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Cross Keys at St. Paul's Gate entring into Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Collection of discourses lately written by some divines of the Church of England against the errours and corruptions of the church of Rome to which is prefix'd a catalogue of the several discourses.</title>
-      </titleStmt>
-      <extent>[8], 486 p.   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by John Reid, for Thomas Brown, Gideon Schaw, Alexander Ogston, and George Mosman ...,</publisher>
-         <pubPlace>Edinbvrgh :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Each piece, except those written by Tenison and Williams, has a special t.p. dated 1686 ; many have been previously published separately.</note>
-         <note>Several pages are stained or are tightly bound or have print faded.  Beginning-page 33,190-215, 360-85, and 420-end photographed from Union Theological Seminary Library, New York copy and inserted at end.</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Collection of discourses lately written by some divines of the Church of England against the errours and corruptions of the church of Rome to which is prefix'd a catalogue of the several discourses.</title>
+    </titleStmt>
+    <extent>[8], 486 p.   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">John Reid</persName>, for <persName type="publisher">Thomas Brown</persName>, <persName type="publisher">Gideon Schaw</persName>, <persName type="publisher">Alexander Ogston</persName>, and <persName type="publisher">George Mosman</persName> ...,</publisher>
+      <pubPlace>Edinbvrgh :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Each piece, except those written by Tenison and Williams, has a special t.p. dated 1686 ; many have been previously published separately.</note>
+      <note>Several pages are stained or are tightly bound or have print faded.  Beginning-page 33,190-215, 360-85, and 420-end photographed from Union Theological Seminary Library, New York copy and inserted at end.</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Alexander Ogston</persName>
+    </person>
+    <person type="publisher">
+      <persName>George Mosman</persName>
+    </person>
+    <person type="publisher">
+      <persName>Gideon Schaw</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Brown</persName>
+    </person>
+    <person type="printer">
+      <persName>John Reid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

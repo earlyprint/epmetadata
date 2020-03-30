@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A disswasive from contention being a sermon preached and designed for the last itineration of the King's preachers in the county Palatine of Lancaster / by Zachary Taylor ...</title>
-         <author>Taylor, Zachary, 1653-1705.</author>
-      </titleStmt>
-      <extent>[4], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Gain for William Cadman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A disswasive from contention being a sermon preached and designed for the last itineration of the King's preachers in the county Palatine of Lancaster / by Zachary Taylor ...</title>
+      <author>Taylor, Zachary, 1653-1705.</author>
+    </titleStmt>
+    <extent>[4], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Gain</persName> for <persName type="publisher">William Cadman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Cadman</persName>
+    </person>
+    <person type="printer">
+      <persName>John Gain</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Major. Whereas by an act of Parliament, entituled, An act against unlicensed and scandalous bookes and pamphlets, and for better regulating of printing; ...</title>
-         <author>City of London (England). Lord Mayor.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, Printer to the Honourable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "Octob: 9 1649".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Major. Whereas by an act of Parliament, entituled, An act against unlicensed and scandalous bookes and pamphlets, and for better regulating of printing; ...</title>
+      <author>City of London (England). Lord Mayor.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, Printer to <persName type="patron">the Honourable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "Octob: 9 1649".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honourable City of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

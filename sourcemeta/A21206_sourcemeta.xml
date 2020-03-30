@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new ballad, declaring the great treason conspired against the young king of Scots and how one Andrew Browne, an Englishman, which was the kings chamberlaine, preuented the same : to the tune of Milfield, or els to Greenesleeues / [by] VV. Elderton.</title>
-         <author>Elderton, William, d. 1592?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London for Yarathe Iames, dwelling in Newgate Market ouer against Christes Church,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1581">[1581]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by STC (2nd ed.)</note>
-         <note>Reproduction of original in the Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new ballad, declaring the great treason conspired against the young king of Scots and how one Andrew Browne, an Englishman, which was the kings chamberlaine, preuented the same : to the tune of Milfield, or els to Greenesleeues / [by] VV. Elderton.</title>
+      <author>Elderton, William, d. 1592?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London</placeName> for <persName type="publisher">Yarathe Iames</persName>, dwelling in <placeName>Newgate Market ouer against Christes Church</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1581">[1581]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by STC (2nd ed.)</note>
+      <note>Reproduction of original in the Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Yarathe Iames</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Newgate Market ouer against Christes Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

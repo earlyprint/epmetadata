@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Elegie on the universaly [sic] lamented death of the right honourable Lady Ann Elcho</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by George Jaffrey,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1700">Anno 1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Mourning border.</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Elegie on the universaly [sic] lamented death of the right honourable Lady Ann Elcho</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Jaffrey</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1700">Anno 1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Mourning border.</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Jaffrey</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

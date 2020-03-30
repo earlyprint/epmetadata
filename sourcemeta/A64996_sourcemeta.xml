@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of Francis of Lorrain, Duke of Guise</title>
-         <author>Valincour, Jean-Baptiste-Henri Du Trousset de, 1653-1730.</author>
-         <author>F. S.</author>
-      </titleStmt>
-      <extent>[8], 136 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for R. Bentley, and M. Magnes, in Russel-street, in Covent-Garden,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Jean-Baptise Valincour.</note>
-         <note>Dedication signed: F.S.</note>
-         <note>Includes errata (A4v).</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of Francis of Lorrain, Duke of Guise</title>
+      <author>Valincour, Jean-Baptiste-Henri Du Trousset de, 1653-1730.</author>
+      <author>F. S.</author>
+    </titleStmt>
+    <extent>[8], 136 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">R. Bentley</persName>, and <persName type="publisher">M. Magnes</persName>, in <placeName>Russel-street, in Covent-Garden</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Jean-Baptise Valincour.</note>
+      <note>Dedication signed: F.S.</note>
+      <note>Includes errata (A4v).</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M. Magnes</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Russel-street, in Covent-Garden</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

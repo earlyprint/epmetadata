@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A civil correction of a sawcy impudent pamphlet, lately published, entituled, A brief account of the designs which the papists have had against the Earl of Shaftsbury, &amp;c.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>re-printed by the heirs of Andrew Anderson, printer to his most sacred Majesty,</publisher>
-         <pubPlace>[Edinburgh :</pubPlace>
-         <date when="1681">1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A civil correction of a sawcy impudent pamphlet, lately published, entituled, A brief account of the designs which the papists have had against the Earl of Shaftsbury, &amp;c.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>re-printed by <persName type="printer">the heirs of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>[Edinburgh :</pubPlace>
+      <date when="1681">1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

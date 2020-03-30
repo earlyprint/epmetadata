@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The great eater of Grayes-Inne, or The life of Mr. Marriot the cormorant. VVherein is set forth, all the exploits and actions by him performed; with many pleasant stories of his travells into Kent and other places. Also, a rare physicall dispensatory, being the manner how he makes his cordiall broaths, pills, purgations, julips, and vomits, to keep his body in temper, and free from surfeits. / By G.F. Gent.</title>
-         <author>Fidge, George.</author>
-      </titleStmt>
-      <extent>[6], 41, [1] p. : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and are sold by William Reybould at the Unicorne in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>G.F. = George Fidge.</note>
-         <note>Annotation on Thomason copy: "June 11".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The great eater of Grayes-Inne, or The life of Mr. Marriot the cormorant. VVherein is set forth, all the exploits and actions by him performed; with many pleasant stories of his travells into Kent and other places. Also, a rare physicall dispensatory, being the manner how he makes his cordiall broaths, pills, purgations, julips, and vomits, to keep his body in temper, and free from surfeits. / By G.F. Gent.</title>
+      <author>Fidge, George.</author>
+    </titleStmt>
+    <extent>[6], 41, [1] p. : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and are sold by <persName type="bookseller">William Reybould</persName> at <placeName>the Unicorne in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>G.F. = George Fidge.</note>
+      <note>Annotation on Thomason copy: "June 11".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Reybould</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Unicorne in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

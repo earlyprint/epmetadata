@@ -1,18 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd at the funeral of George Payne, jun Son of George Payne, an apothecary. March 6. 1699/700. At Midhurst in Sussex. And publish'd at the request of his friends. By Richard Oliver, curate of Midhurst.</title>
-         <author>Oliver, Richard, b. 1651.</author>
-      </titleStmt>
-      <extent>[2], 19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Arthur Bettesworth, at the Red Lion on London Bridge: and sold by John Colebrook in Midhurst, and William Webb in Chichester, booksellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd at the funeral of George Payne, jun Son of George Payne, an apothecary. March 6. 1699/700. At Midhurst in Sussex. And publish'd at the request of his friends. By Richard Oliver, curate of Midhurst.</title>
+      <author>Oliver, Richard, b. 1651.</author>
+    </titleStmt>
+    <extent>[2], 19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Arthur Bettesworth</persName>, at <placeName>the Red Lion on London Bridge:</placeName> and sold by <persName type="bookseller">John Colebrook</persName> in <placeName>Midhurst</placeName>, and <persName type="publisher">William Webb</persName> in <placeName>Chichester, booksellers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Arthur Bettesworth</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Webb</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Colebrook</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Chichester, booksellers</placeName>
+    </place>
+    <place type="location">
+      <placeName>Midhurst</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Red Lion on London Bridge:</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

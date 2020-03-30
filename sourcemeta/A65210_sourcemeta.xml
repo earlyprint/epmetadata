@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter sent from the right honourable Robert, Earl of Warwick, Admirall of the sea to M. John Pym, Esq., and presented to both houses of Parliament, July 6, 1642.</title>
-         <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
-         <author>Pym, John, 1584-1643.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Ios. Hunscott, and Io. Wright,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642" cert="low">[1642?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter sent from the right honourable Robert, Earl of Warwick, Admirall of the sea to M. John Pym, Esq., and presented to both houses of Parliament, July 6, 1642.</title>
+      <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
+      <author>Pym, John, 1584-1643.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ios. Hunscott</persName>, and <persName type="publisher">Io. Wright</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642" cert="low">[1642?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Io. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>Ios. Hunscott</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

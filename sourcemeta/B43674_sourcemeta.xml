@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem on the convention assembled at Westminster, Jan. 22, 1688/9</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Jones,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1689">MDCLXXXIX [1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Place of publication suggested by Wing (2nd ed.).</note>
-         <note>"Licensed, January 21, 1688/9."</note>
-         <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem on the convention assembled at Westminster, Jan. 22, 1688/9</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Jones</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1689">MDCLXXXIX [1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Place of publication suggested by Wing (2nd ed.).</note>
+      <note>"Licensed, January 21, 1688/9."</note>
+      <note>Reproduction of original in: Beinecke Rare Book and Manuscript Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edw. Jones</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

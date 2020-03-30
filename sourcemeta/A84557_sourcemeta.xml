@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act appointing commissioners for the government of the Army.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Streater, by vertue of especial command,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Passed October the 12th. 1659. Thomas St. Nicholas clerk of the Parliament.</note>
-         <note>Annotation on Thomason copy: "8ber [i.e. October]. 13."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act appointing commissioners for the government of the Army.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Streater</persName>, by <persName type="printer">vertue of especial command</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Passed October the 12th. 1659. Thomas St. Nicholas clerk of the Parliament.</note>
+      <note>Annotation on Thomason copy: "8ber [i.e. October]. 13."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Streater</persName>
+    </person>
+    <person type="printer">
+      <persName>vertue of especial command</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

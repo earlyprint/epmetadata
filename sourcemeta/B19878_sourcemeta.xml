@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for the discovery and apprehension of several trayterous conspirators herein named.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1663">1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at the court at Whitehal, the tenth day of November, in the fifteenth year of His Majesties reign.</note>
-         <note>Steele notation: and Insurrection 2) England other; Arms 73.</note>
-         <note>Reproduction of original in the British Library.</note>
-         <note>Two copies are filmed consecutively at reel C18:1[175]-[176].</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for the discovery and apprehension of several trayterous conspirators herein named.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1663">1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at the court at Whitehal, the tenth day of November, in the fifteenth year of His Majesties reign.</note>
+      <note>Steele notation: and Insurrection 2) England other; Arms 73.</note>
+      <note>Reproduction of original in the British Library.</note>
+      <note>Two copies are filmed consecutively at reel C18:1[175]-[176].</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

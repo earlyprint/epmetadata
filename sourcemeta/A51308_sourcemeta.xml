@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations upon Anthroposophia theomagica, and Anima magica abscondita by Alazonomastix Philalethes.</title>
-         <author>More, Henry, 1614-1687.</author>
-      </titleStmt>
-      <extent>[6], 94, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Parrhesia, but are to be sold, by O. Pullen ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First edition.</note>
-         <note>Attributed to Henry More, the platonist. Cf. Halkett &amp; Laing (2nd ed.)</note>
-         <note>Anthroposophia theomagica and Anima magica abscondita were written by Thomas Vaughan under the pseudonym of Eugenius Philalethes.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations upon Anthroposophia theomagica, and Anima magica abscondita by Alazonomastix Philalethes.</title>
+      <author>More, Henry, 1614-1687.</author>
+    </titleStmt>
+    <extent>[6], 94, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Parrhesia, but are to be sold</placeName>, by <persName type="printer">O. Pullen</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First edition.</note>
+      <note>Attributed to Henry More, the platonist. Cf. Halkett &amp; Laing (2nd ed.)</note>
+      <note>Anthroposophia theomagica and Anima magica abscondita were written by Thomas Vaughan under the pseudonym of Eugenius Philalethes.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>O. Pullen</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Parrhesia, but are to be sold</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

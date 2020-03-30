@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Papers of three several conferences, between the Kings most Excellent Majestie, and the Commissioners of Both Kingdomes. Concerning His Majesties comming to the Parliament; and concerning the church and peace of the kingdome: and severall propositions made by His Majestie; and the Commissioners answer. And how the Kings Majestie is come from Newcastle, and lay Wednesday night at Durham, and Thursday night at Bishops Alton: from whence, His Majestie marched Fryday last, on his way towards Holmbie. Perused, and (being ex[a]mined) is appointed to be printed and published, according to Order of Parliament, Feb. 8. 1646.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Coe, neer Cripplegate,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1647">anno Dom. 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "1646"; the 7 in imprint date crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Papers of three several conferences, between the Kings most Excellent Majestie, and the Commissioners of Both Kingdomes. Concerning His Majesties comming to the Parliament; and concerning the church and peace of the kingdome: and severall propositions made by His Majestie; and the Commissioners answer. And how the Kings Majestie is come from Newcastle, and lay Wednesday night at Durham, and Thursday night at Bishops Alton: from whence, His Majestie marched Fryday last, on his way towards Holmbie. Perused, and (being ex[a]mined) is appointed to be printed and published, according to Order of Parliament, Feb. 8. 1646.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Coe</persName>, neer <placeName>Cripplegate</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1647">anno Dom. 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "1646"; the 7 in imprint date crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>A. Coe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cripplegate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

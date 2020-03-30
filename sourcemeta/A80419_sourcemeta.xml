@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Religion and reason united. By A lover of his country.</title>
-         <author>Coole, Benjamin, d. 1717.</author>
-      </titleStmt>
-      <extent>62 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A lover of his country is a pseudonym for Benjamin Coole.</note>
-         <note>Reproduction of original in: Friends' Library (London, England).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Religion and reason united. By A lover of his country.</title>
+      <author>Coole, Benjamin, d. 1717.</author>
+    </titleStmt>
+    <extent>62 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A lover of his country is a pseudonym for Benjamin Coole.</note>
+      <note>Reproduction of original in: Friends' Library (London, England).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

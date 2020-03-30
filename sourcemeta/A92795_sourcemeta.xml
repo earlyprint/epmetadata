@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Seasonable queries proposed to the consideration of the electors to a new Parliament</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for the author,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1695">1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Cropped at top affecting title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Seasonable queries proposed to the consideration of the electors to a new Parliament</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1695">1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Cropped at top affecting title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

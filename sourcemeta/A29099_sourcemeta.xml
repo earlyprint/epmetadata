@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The description and the benefits of a regular education a sermon preach'd in the Cathedral Church of St. Paul, at the anniversary meeting of the gentlemen educated at St. Paul's School, January 25th 1699/1700 / by Samuel Bradford.</title>
-         <author>Bradford, Samuel, 1652-1731.</author>
-      </titleStmt>
-      <extent>[1], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Redmayne and to be sold by John Nutt,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published at the request of the stewards."</note>
-         <note>Running title: A sermon preached to the gentlemen educated at St. Paul's School.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The description and the benefits of a regular education a sermon preach'd in the Cathedral Church of St. Paul, at the anniversary meeting of the gentlemen educated at St. Paul's School, January 25th 1699/1700 / by Samuel Bradford.</title>
+      <author>Bradford, Samuel, 1652-1731.</author>
+    </titleStmt>
+    <extent>[1], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Redmayne and to be</persName> sold by <persName type="bookseller">John Nutt</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published at the request of the stewards."</note>
+      <note>Running title: A sermon preached to the gentlemen educated at St. Paul's School.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Redmayne and to be</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

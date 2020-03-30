@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The malcontent. Augmented by Marston. With the additions played by the Kings Maiesties servants. Written by Ihon Webster. 1604</title>
-         <author>Marston, John, 1575?-1634.</author>
-         <author>Webster, John, 1580?-1625?</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by V[alentine] S[immes] for William Aspley, and are to be sold at his shop in Paules Church-yard,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1604">[1604]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>The first word of the title is xylographic.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-I&#8308;.</note>
-         <note>Running title reads: Malecontent.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The malcontent. Augmented by Marston. With the additions played by the Kings Maiesties servants. Written by Ihon Webster. 1604</title>
+      <author>Marston, John, 1575?-1634.</author>
+      <author>Webster, John, 1580?-1625?</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">V[alentine] S[immes]</persName> for <persName type="publisher">William Aspley</persName>, and are to be sold at <placeName>his shop in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1604">[1604]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>The first word of the title is xylographic.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-I&#8308;.</note>
+      <note>Running title reads: Malecontent.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Aspley</persName>
+    </person>
+    <person type="printer">
+      <persName>V[alentine] S[immes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

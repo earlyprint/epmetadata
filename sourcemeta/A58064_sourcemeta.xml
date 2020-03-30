@@ -1,24 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of gardens four books first written in Latine verse by Renatus Rapinus ; and now made English by J.E.</title>
-         <title>Hortorum libri IV. English</title>
-         <author>Rapin, Ren&#233;, 1621-1687.</author>
-         <author>Evelyn, John, 1655-1699.</author>
-      </titleStmt>
-      <extent>[24], 237, [18] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. &amp; N.T. for Thomas Collins and John Ford...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First edition in English?</note>
-         <note>Translation of Hortorum libri IV.</note>
-         <note>"The table" [i.e. index]: p. [2]-[17].</note>
-         <note>"The epistle dedicatory" signed: J. Evelyn [the younger]</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of gardens four books first written in Latine verse by Renatus Rapinus ; and now made English by J.E.</title>
+      <title>Hortorum libri IV. English</title>
+      <author>Rapin, Ren&#233;, 1621-1687.</author>
+      <author>Evelyn, John, 1655-1699.</author>
+    </titleStmt>
+    <extent>[24], 237, [18] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> &amp; <persName type="printer">N.T.</persName> for <persName type="publisher">Thomas Collins</persName> and <persName type="publisher">John Ford</persName>...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First edition in English?</note>
+      <note>Translation of Hortorum libri IV.</note>
+      <note>"The table" [i.e. index]: p. [2]-[17].</note>
+      <note>"The epistle dedicatory" signed: J. Evelyn [the younger]</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Ford</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>N.T.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

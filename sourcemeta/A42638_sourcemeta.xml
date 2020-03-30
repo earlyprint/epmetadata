@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first and second part of counsel and advice to all builders: for the choice of their surveyors, clerks of their works, bricklayers, masons, carpenters, and other workmen therein concerned. As also in respect of their works, materials, and rates thereof. Written by Sr. Balthazar Gerbier, knight.</title>
-         <title>Counsel and advice to all builders. Parts 1-2.</title>
-         <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
-      </titleStmt>
-      <extent>[110], 44, [12], 110, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Tho. Mabb, for Tho. Heath at the Globe within Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes 39 dedicatory epistles.</note>
-         <note>With final errata leaf.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first and second part of counsel and advice to all builders: for the choice of their surveyors, clerks of their works, bricklayers, masons, carpenters, and other workmen therein concerned. As also in respect of their works, materials, and rates thereof. Written by Sr. Balthazar Gerbier, knight.</title>
+      <title>Counsel and advice to all builders. Parts 1-2.</title>
+      <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
+    </titleStmt>
+    <extent>[110], 44, [12], 110, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Tho. Mabb</persName>, for <persName type="publisher">Tho. Heath</persName> at <placeName>the Globe within Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes 39 dedicatory epistles.</note>
+      <note>With final errata leaf.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Heath</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Mabb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Globe within Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

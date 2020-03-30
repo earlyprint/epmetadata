@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The liberty of prayer asserted, and garded [sic] from licentiousness by a minister of the Church of England.</title>
-         <author>Jenks, Benjamin, 1646-1724.</author>
-      </titleStmt>
-      <extent>[16], 204, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Roberts, and are to be sold by the Booksellers in London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">MDCXCVI [1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Benjamin Jenks. cf. NUC pre-1956.</note>
-         <note>"The liberty of prayer, guarded from licentiousness" has special t.p.</note>
-         <note>Table of contents: p. [13]-[16]</note>
-         <note>Advertisement: p. [1]-[2] at end.</note>
-         <note>Reproduction of original in: Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The liberty of prayer asserted, and garded [sic] from licentiousness by a minister of the Church of England.</title>
+      <author>Jenks, Benjamin, 1646-1724.</author>
+    </titleStmt>
+    <extent>[16], 204, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Roberts</persName>, and are to be sold by <persName type="bookseller">the Booksellers</persName> in <placeName>London</placeName> and Westminster,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">MDCXCVI [1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Benjamin Jenks. cf. NUC pre-1956.</note>
+      <note>"The liberty of prayer, guarded from licentiousness" has special t.p.</note>
+      <note>Table of contents: p. [13]-[16]</note>
+      <note>Advertisement: p. [1]-[2] at end.</note>
+      <note>Reproduction of original in: Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. Roberts</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the Booksellers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prince Charles his gracious resolution concerning the present affaires of this Kingdome, presented to His Sacred Maiesty by Doctor Duppa, Bishop of Salisbury, in a speech delivered in the Princes behalfe, for a sudden accomodation of peace between His Majesty, and his high court of Parliament. As also, His Highnesse humble request to His Maiesty, in behalfe of sundry commanders taken prisoners by the Kings army.</title>
-         <author>Duppa, Brian, 1588-1662.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>First printed at Oxford by Leonard Lichfield, and now reprinted at London for John Rivers,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1642">[1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Rare.  This is an interesting and apparently genuine speech embodying the Prince's desire to see an accomodation of peace .. The speech of Duppa refers to Lilburne's trial .. The original Oxford ed. probably never existed." -- cf. Madan.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "Decemb: 30th 1642".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prince Charles his gracious resolution concerning the present affaires of this Kingdome, presented to His Sacred Maiesty by Doctor Duppa, Bishop of Salisbury, in a speech delivered in the Princes behalfe, for a sudden accomodation of peace between His Majesty, and his high court of Parliament. As also, His Highnesse humble request to His Maiesty, in behalfe of sundry commanders taken prisoners by the Kings army.</title>
+      <author>Duppa, Brian, 1588-1662.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>First printed at <placeName>Oxford</placeName> by <persName type="printer">Leonard Lichfield, and now</persName> reprinted at <placeName>London</placeName> for <persName type="publisher">John Rivers</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1642">[1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Rare.  This is an interesting and apparently genuine speech embodying the Prince's desire to see an accomodation of peace .. The speech of Duppa refers to Lilburne's trial .. The original Oxford ed. probably never existed." -- cf. Madan.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "Decemb: 30th 1642".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Rivers</persName>
+    </person>
+    <person type="printer">
+      <persName>Leonard Lichfield, and now</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Oxford</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

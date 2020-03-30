@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious letter to the Parliament. [sic] of Scotland</title>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 sheet ([1 p.])   </extent>
-      <publicationStmt>
-         <publisher>printed by the heirs and successors of Andrew Anderson, printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>[Edinburgh :</pubPlace>
-         <date when="1696">1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Given at our court at Loo the 28 August 1696. and of our reign the eighth year.</note>
-         <note>Appointing John, Earl of Tullibardine, Commissioner for the session of Parliament.</note>
-         <note>Imprint from Wing.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious letter to the Parliament. [sic] of Scotland</title>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 sheet ([1 p.])   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>[Edinburgh :</pubPlace>
+      <date when="1696">1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Given at our court at Loo the 28 August 1696. and of our reign the eighth year.</note>
+      <note>Appointing John, Earl of Tullibardine, Commissioner for the session of Parliament.</note>
+      <note>Imprint from Wing.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

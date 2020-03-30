@@ -1,17 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The King and the Bishop, or, Unlearned men hard matters out can find when learned Bishops Princes eyes do blind to the tune of Chevy-Chase.</title>
-      </titleStmt>
-      <extent>1 broadside : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. Vere and J. Wright,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672" cert="low">[1672?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The King and the Bishop, or, Unlearned men hard matters out can find when learned Bishops Princes eyes do blind to the tune of Chevy-Chase.</title>
+    </titleStmt>
+    <extent>1 broadside : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Vere</persName> and <persName type="publisher">J. Wright</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672" cert="low">[1672?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Vere</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

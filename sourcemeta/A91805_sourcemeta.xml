@@ -1,20 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funeral elegy upon the most honored upon Earth, and now glorious in Heaven His Excellency Robert Devereux Earl of Essex and Ewe, Viscount Hereford, Lord Ferrers of Chartly Courchier and Lovaine, late Generall of England. / Written by him who doth with much grief here speak of brave Essex, Englands Phenix Peere. Josiah Ricraft of London merchant.</title>
-         <author>Ricraft, Josiah, fl. 1645-1679.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (port.)  </extent>
-      <publicationStmt>
-         <publisher>Printed in the year one thousand six hundred forty and six in which, Septembers fourteenth day deceased brave Essex. Are to be sold by John Hancock, in Popes head Ally neer the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1646">[1646]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With engraved portrait of the Earl of Essex.</note>
-         <note>In verse : "Is Valiant Essex dead? 'tis sure a story!"</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funeral elegy upon the most honored upon Earth, and now glorious in Heaven His Excellency Robert Devereux Earl of Essex and Ewe, Viscount Hereford, Lord Ferrers of Chartly Courchier and Lovaine, late Generall of England. / Written by him who doth with much grief here speak of brave Essex, Englands Phenix Peere. Josiah Ricraft of London merchant.</title>
+      <author>Ricraft, Josiah, fl. 1645-1679.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (port.)  </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>the year one thousand six hundred forty</placeName> and six in <placeName>which</placeName>, <placeName>Septembers fourteenth day deceased brave Essex. Are to be sold</placeName> by <persName type="printer">John Hancock</persName>, in <placeName>Popes head Ally neer the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1646">[1646]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With engraved portrait of the Earl of Essex.</note>
+      <note>In verse : "Is Valiant Essex dead? 'tis sure a story!"</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Hancock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes head Ally neer the Royall Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>Septembers fourteenth day deceased brave Essex. Are to be sold</placeName>
+    </place>
+    <place type="location">
+      <placeName>the year one thousand six hundred forty</placeName>
+    </place>
+    <place type="location">
+      <placeName>which</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

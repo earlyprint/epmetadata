@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Romane conclaue VVherein, by way of history, exemplified vpon the liues of the Romane emperours, from Charles the Great, to Rodulph now reigning; the forcible entries, and vsurpations of the Iesuited statists, successiuely practised against the sacred maiestie of the said empire: and so by application, against the residue of the Christian kings, and free-states are liuely acted, and truely reported. By Io. Vrsinus ante-Iesuite.</title>
-         <title>Speculum Jesuiticum. English</title>
-         <author>Beringer, Joachim.</author>
-         <author>Gentillet, Innocent, ca. 1535-ca. 1595, attributed name.</author>
-      </titleStmt>
-      <extent>[4], 167, 176-243, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Windet] for Iohn Iagger, and are to be sold at his shop in Fleetestreete within Temple Barre,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Io. Vrsinus = Joachim Beringer.</note>
-         <note>A translation of: Speculum Jesuiticum.</note>
-         <note>Sometimes attributed to Innocent Gentillet.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Romane conclaue VVherein, by way of history, exemplified vpon the liues of the Romane emperours, from Charles the Great, to Rodulph now reigning; the forcible entries, and vsurpations of the Iesuited statists, successiuely practised against the sacred maiestie of the said empire: and so by application, against the residue of the Christian kings, and free-states are liuely acted, and truely reported. By Io. Vrsinus ante-Iesuite.</title>
+      <title>Speculum Jesuiticum. English</title>
+      <author>Beringer, Joachim.</author>
+      <author>Gentillet, Innocent, ca. 1535-ca. 1595, attributed name.</author>
+    </titleStmt>
+    <extent>[4], 167, 176-243, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Windet]</persName> for <persName type="publisher">Iohn Iagger</persName>, and are to be sold at <placeName>his shop in Fleetestreete within Temple Barre</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Io. Vrsinus = Joachim Beringer.</note>
+      <note>A translation of: Speculum Jesuiticum.</note>
+      <note>Sometimes attributed to Innocent Gentillet.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Iagger</persName>
+    </person>
+    <person type="printer">
+      <persName>John Windet]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleetestreete within Temple Barre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

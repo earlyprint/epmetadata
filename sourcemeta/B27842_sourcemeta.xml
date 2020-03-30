@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The figure of five Under which figure is exprest, many a pretty, witty jest: and sollid reason therewith blended, to please all sorts, it is intended. By M.P. Being the volume is very small. Reade it quite through, or else leave it all.</title>
-         <author>M. P. (Martin Parker), d. 1656?</author>
-      </titleStmt>
-      <extent>[20] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, at the vpper end of the Old-Baily, neare ..,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1645" cert="low">[1645?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>M.P. = Martin Parker.</note>
-         <note>Place of publication from and date conjectured by Wing.</note>
-         <note>Signatures: A B&#8308; (-A1 and B4, blank?).</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The figure of five Under which figure is exprest, many a pretty, witty jest: and sollid reason therewith blended, to please all sorts, it is intended. By M.P. Being the volume is very small. Reade it quite through, or else leave it all.</title>
+      <author>M. P. (Martin Parker), d. 1656?</author>
+    </titleStmt>
+    <extent>[20] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, at <placeName>the vpper end of the Old-Baily, neare ..</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1645" cert="low">[1645?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>M.P. = Martin Parker.</note>
+      <note>Place of publication from and date conjectured by Wing.</note>
+      <note>Signatures: A B&#8308; (-A1 and B4, blank?).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the vpper end of the Old-Baily, neare ..</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Discourses upon Cornelius Tacitus written in Italian by the learned Marquesse Virgilio Malvezzi ; dedicated to the Serenissimo Ferdinand the Second, Great Duke of Thuscany ; and translated into English by Sir Richard Baker, Knight.</title>
-         <title>Discorsi sopra Cornelio Tacito. English</title>
-         <author>Malvezzi, Virgilio, marchese, 1595-1653.</author>
-         <author>Baker, Richard, Sir, 1568-1645.</author>
-      </titleStmt>
-      <extent>[23], 504 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.G. for R. Whitaker and Tho. Whitaker ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Discorsi sopra Cornelio Tacito.</note>
-         <note>Title within ornamental border.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Discourses upon Cornelius Tacitus written in Italian by the learned Marquesse Virgilio Malvezzi ; dedicated to the Serenissimo Ferdinand the Second, Great Duke of Thuscany ; and translated into English by Sir Richard Baker, Knight.</title>
+      <title>Discorsi sopra Cornelio Tacito. English</title>
+      <author>Malvezzi, Virgilio, marchese, 1595-1653.</author>
+      <author>Baker, Richard, Sir, 1568-1645.</author>
+    </titleStmt>
+    <extent>[23], 504 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.G.</persName> for <persName type="publisher">R. Whitaker</persName> and <persName type="publisher">Tho. Whitaker</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Discorsi sopra Cornelio Tacito.</note>
+      <note>Title within ornamental border.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Whitaker</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Whitaker</persName>
+    </person>
+    <person type="printer">
+      <persName>E.G.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

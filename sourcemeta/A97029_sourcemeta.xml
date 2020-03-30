@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem on St. James's Park as lately improved by His Majesty. Written by Edmund Waller, Esq;</title>
-         <author>Waller, Edmund, 1606-1687.</author>
-      </titleStmt>
-      <extent>15 p.   </extent>
-      <publicationStmt>
-         <publisher>printed [by Thomas Ratcliffe and Edward Mottershead] for Gabriel Bedel and Thomas Collins at the Middle-Temple-Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printers' names from Pforzheimer catalogue.</note>
-         <note>An earlier, unauthorized edition was published with title "On the park at St. Jamese's" (Wing W504).</note>
-         <note>Separate poem begins p. 11 with caption title "Of our late war with Spaine..."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem on St. James's Park as lately improved by His Majesty. Written by Edmund Waller, Esq;</title>
+      <author>Waller, Edmund, 1606-1687.</author>
+    </titleStmt>
+    <extent>15 p.   </extent>
+    <publicationStmt>
+      <publisher>printed [by <persName type="printer">Thomas Ratcliffe</persName> and <persName type="printer">Edward Mottershead]</persName> for <persName type="publisher">Gabriel Bedel</persName> and <persName type="publisher">Thomas Collins</persName> at <placeName>the Middle-Temple-Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printers' names from Pforzheimer catalogue.</note>
+      <note>An earlier, unauthorized edition was published with title "On the park at St. Jamese's" (Wing W504).</note>
+      <note>Separate poem begins p. 11 with caption title "Of our late war with Spaine..."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Gabriel Bedel</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Mottershead]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Ratcliffe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Middle-Temple-Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

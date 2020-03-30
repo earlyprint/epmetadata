@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The womens conquest a tragi-comedy : as it was acted by His Highness the Duke of York's servants / written by the Honourable E.H.</title>
-         <author>Howard, Edward, fl. 1669.</author>
-      </titleStmt>
-      <extent>[33], 87, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for H. Herringman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1671">1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by Edward Howard. Cf. BM.</note>
-         <note>First ed. Cf. DNB.</note>
-         <note>Reproduction of original in University of Michigan Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The womens conquest a tragi-comedy : as it was acted by His Highness the Duke of York's servants / written by the Honourable E.H.</title>
+      <author>Howard, Edward, fl. 1669.</author>
+    </titleStmt>
+    <extent>[33], 87, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">H. Herringman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1671">1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by Edward Howard. Cf. BM.</note>
+      <note>First ed. Cf. DNB.</note>
+      <note>Reproduction of original in University of Michigan Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Herringman</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

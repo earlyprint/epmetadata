@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vindication of certaine citizens that lately went to the leaguer, then before Oxford, or, Their answer to some prevaricating passages, inserted in an epistle, lately published by William Dell, minister of the Gospel. Occasioned, by their attesting his delivering of certain positions, in a sermon at the leaguer, here set down, they being thereunto called by the House of Lords. Published by authoritie.</title>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Eliz. Purslow for Thomas Vere at the upper end of the Old-baily.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Dell, William. The building and glory of the truely Christian and spiritual church (Wing D918).</note>
-         <note>Annotation on Thomason copy: "July 14".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vindication of certaine citizens that lately went to the leaguer, then before Oxford, or, Their answer to some prevaricating passages, inserted in an epistle, lately published by William Dell, minister of the Gospel. Occasioned, by their attesting his delivering of certain positions, in a sermon at the leaguer, here set down, they being thereunto called by the House of Lords. Published by authoritie.</title>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Eliz. Purslow</persName> for <persName type="publisher">Thomas Vere</persName> at <placeName>the upper end of the Old-baily.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Dell, William. The building and glory of the truely Christian and spiritual church (Wing D918).</note>
+      <note>Annotation on Thomason copy: "July 14".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Vere</persName>
+    </person>
+    <person type="printer">
+      <persName>Eliz. Purslow</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the upper end of the Old-baily.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

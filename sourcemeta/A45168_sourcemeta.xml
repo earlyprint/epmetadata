@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the House of Lords, at the abbey-church of St. Peter's Westminster, on Thursday, the 30th of January, 1695/6 being the martyrdom of K. Charles I / by the right reverend Father in God, Humphrey, Lord Bishop of Bangor.</title>
-         <author>Humphreys, Humphrey, 1648-1712.</author>
-      </titleStmt>
-      <extent>[2], 30 [i.e. 26] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Everingham ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title page enclosed in mourning border.</note>
-         <note>Error in paging: p. 13-16 lacking in numbering only.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the House of Lords, at the abbey-church of St. Peter's Westminster, on Thursday, the 30th of January, 1695/6 being the martyrdom of K. Charles I / by the right reverend Father in God, Humphrey, Lord Bishop of Bangor.</title>
+      <author>Humphreys, Humphrey, 1648-1712.</author>
+    </titleStmt>
+    <extent>[2], 30 [i.e. 26] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Everingham</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title page enclosed in mourning border.</note>
+      <note>Error in paging: p. 13-16 lacking in numbering only.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Everingham</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

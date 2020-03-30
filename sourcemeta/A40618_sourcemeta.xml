@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir Thomas Fairfax knight generall of the forces raised by the Parliament. Suffer the bearer hereof [blank] who was in the city and garrison of Oxford, at the the surrender thereof, and is to have the full benefit of the articles agreed unto upon the surrender  ...</title>
-         <author>Fairfax, Thomas Fairfax, Baron, 1612-1671.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by L. Lichfield,</publisher>
-         <pubPlace>[Oxford :</pubPlace>
-         <date when="1646">1646]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from heading and first lines of text.</note>
-         <note>Place of publication and printer's name from Wing.</note>
-         <note>Format from Madan.</note>
-         <note>Dated at end: Given under my hand and seale the [blank] day of [blank] 1646.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sir Thomas Fairfax knight generall of the forces raised by the Parliament. Suffer the bearer hereof [blank] who was in the city and garrison of Oxford, at the the surrender thereof, and is to have the full benefit of the articles agreed unto upon the surrender  ...</title>
+      <author>Fairfax, Thomas Fairfax, Baron, 1612-1671.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">L. Lichfield</persName>,</publisher>
+      <pubPlace>[Oxford :</pubPlace>
+      <date when="1646">1646]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from heading and first lines of text.</note>
+      <note>Place of publication and printer's name from Wing.</note>
+      <note>Format from Madan.</note>
+      <note>Dated at end: Given under my hand and seale the [blank] day of [blank] 1646.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>L. Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

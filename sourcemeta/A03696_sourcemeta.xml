@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of the rich man and Lazarus Certaine sermons, by Robert Horne.</title>
-         <author>Horne, Robert, 1565-1640.</author>
-      </titleStmt>
-      <extent>[4], 140 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Ber: Alsop for Iohn Hodgets,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1619">1619.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A variant of the edition with title "Certaine sermons, of the rich man and Lazarus".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of the rich man and Lazarus Certaine sermons, by Robert Horne.</title>
+      <author>Horne, Robert, 1565-1640.</author>
+    </titleStmt>
+    <extent>[4], 140 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Ber: Alsop</persName> for <persName type="publisher">Iohn Hodgets</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1619">1619.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A variant of the edition with title "Certaine sermons, of the rich man and Lazarus".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Hodgets</persName>
+    </person>
+    <person type="printer">
+      <persName>Ber: Alsop</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

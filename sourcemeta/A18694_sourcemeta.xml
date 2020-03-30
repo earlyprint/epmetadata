@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true discourse vvherin is set downe the wonderfull mercy of God, shewed towardes the Christians, on the two and twenty of Iune. 1593 against the Turke, before Syssek in Croatia. Truly translated out of the high Dutch coppie. Printed at Vienna.</title>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [J. Windet for] Iohn Wolfe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1593">1593.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Formerly STC 6912.</note>
-         <note>Signatures: A&#8308;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true discourse vvherin is set downe the wonderfull mercy of God, shewed towardes the Christians, on the two and twenty of Iune. 1593 against the Turke, before Syssek in Croatia. Truly translated out of the high Dutch coppie. Printed at Vienna.</title>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[J. Windet</persName> for<persName type="publisher">] Iohn Wolfe</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1593">1593.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Formerly STC 6912.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Wolfe</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

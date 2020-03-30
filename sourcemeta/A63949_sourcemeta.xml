@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of Sr Edw: Turnor Kt. speaker of the honourable House of Commons, to the Kings most excellent Majesty, and both Houses of Parliament delivered at Oxford, on Tuesday the one and thirtieth day of October, 1665. at the prorogation of the Parliament.</title>
-         <author>Turnor, Edward, Sir, 1617-1676.</author>
-      </titleStmt>
-      <extent>10 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill and Christopher Barker, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At foot of title page: Cum Privilegio.</note>
-         <note>With additional imprint at end of text.</note>
-         <note>Copy has print show-through.</note>
-         <note>Reproduction of the original in the Lincoln's Inn Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of Sr Edw: Turnor Kt. speaker of the honourable House of Commons, to the Kings most excellent Majesty, and both Houses of Parliament delivered at Oxford, on Tuesday the one and thirtieth day of October, 1665. at the prorogation of the Parliament.</title>
+      <author>Turnor, Edward, Sir, 1617-1676.</author>
+    </titleStmt>
+    <extent>10 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At foot of title page: Cum Privilegio.</note>
+      <note>With additional imprint at end of text.</note>
+      <note>Copy has print show-through.</note>
+      <note>Reproduction of the original in the Lincoln's Inn Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

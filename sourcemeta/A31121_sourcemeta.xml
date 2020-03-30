@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The conformists charity to dissenters and concurrence with the favour granted them in the Act for Toleration proved from the works of the most eminent divines of the Church of England.</title>
-         <author>R. C.</author>
-      </titleStmt>
-      <extent>[10], 68 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.R. for John Salusbury,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: R.C.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The conformists charity to dissenters and concurrence with the favour granted them in the Act for Toleration proved from the works of the most eminent divines of the Church of England.</title>
+      <author>R. C.</author>
+    </titleStmt>
+    <extent>[10], 68 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R.</persName> for <persName type="publisher">John Salusbury</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: R.C.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Salusbury</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

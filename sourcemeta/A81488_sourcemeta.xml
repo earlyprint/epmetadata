@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An oration of Agrippa to Octavius C&#230;sar Augustus, against monarchy. Taken out of the LII. book of Dion the philosopher, C&#230;lius, S.C. being the interpreter. Printed at Basil after the end of Nichol. Machiavels Prince, anno M.D.XXC. / And now put into English by A.R.</title>
-         <author>Cassius Dio Cocceianus.</author>
-         <author>A. R.</author>
-         <author>Agrippa, Marcus Vipsanius.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Livewell Chapman at the Crown in Popes-head-Ally,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1657. [i.e. 1658]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "march 3d March. 3"; the 7 in the imprint date has been altered to read "8".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An oration of Agrippa to Octavius C&#230;sar Augustus, against monarchy. Taken out of the LII. book of Dion the philosopher, C&#230;lius, S.C. being the interpreter. Printed at Basil after the end of Nichol. Machiavels Prince, anno M.D.XXC. / And now put into English by A.R.</title>
+      <author>Cassius Dio Cocceianus.</author>
+      <author>A. R.</author>
+      <author>Agrippa, Marcus Vipsanius.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Livewell Chapman</persName> at <placeName>the Crown in Popes-head-Ally</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1657. [i.e. 1658]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "march 3d March. 3"; the 7 in the imprint date has been altered to read "8".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Livewell Chapman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crown in Popes-head-Ally</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

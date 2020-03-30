@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tvvo sermons: preached at tvvo severall visitations, at Boston, in the diocesse and country of Lincolne. By Robert Sanderson, Bachelour of Diuinitie, and late fellow of Lincolne Colledge in Oxford</title>
-         <author>Sanderson, Robert, 1587-1663.</author>
-      </titleStmt>
-      <extent>[8], 97 [i.e. 95], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. P[urslowe] for Iohn Budge: and are to be sold at his shop in Pauls Churchyard at the Signe of the Greene Dragon,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>On Rom. xiv.3 and Rom. iii.3.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tvvo sermons: preached at tvvo severall visitations, at Boston, in the diocesse and country of Lincolne. By Robert Sanderson, Bachelour of Diuinitie, and late fellow of Lincolne Colledge in Oxford</title>
+      <author>Sanderson, Robert, 1587-1663.</author>
+    </titleStmt>
+    <extent>[8], 97 [i.e. 95], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. P[urslowe]</persName> for <persName type="publisher">Iohn Budge:</persName> and are to be sold at <placeName>his shop in Pauls Churchyard at the Signe of the Greene Dragon</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>On Rom. xiv.3 and Rom. iii.3.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Budge:</persName>
+    </person>
+    <person type="printer">
+      <persName>G. P[urslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Churchyard at the Signe of the Greene Dragon</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

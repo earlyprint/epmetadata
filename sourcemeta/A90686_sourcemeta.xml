@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A scripture-rale to the Lords Table; or, Observations upon M. Humphreys his treatise, intituled, An humble vindication of free admission to the Lords Supper. Tending to discover the loose and prophane principles therein suggested. Published for the undeceiving the weak, and removing offences occasioned by it in the practice of reformation. Being the result of the discourses of some preachers in the county of Gloucester near Stow on the Wold, at their weekly meetings. / Digested by Anthony Palmer pastor of the Church of Christ at Bourton on the Water.</title>
-         <author>Palmer, Anthony, 1618?-1679.</author>
-      </titleStmt>
-      <extent>[10], 182, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for E. Brewster and G. Sawbridge, and are to be sold at the signe of the Bible on Ludgate-Hill,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June. 3.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A scripture-rale to the Lords Table; or, Observations upon M. Humphreys his treatise, intituled, An humble vindication of free admission to the Lords Supper. Tending to discover the loose and prophane principles therein suggested. Published for the undeceiving the weak, and removing offences occasioned by it in the practice of reformation. Being the result of the discourses of some preachers in the county of Gloucester near Stow on the Wold, at their weekly meetings. / Digested by Anthony Palmer pastor of the Church of Christ at Bourton on the Water.</title>
+      <author>Palmer, Anthony, 1618?-1679.</author>
+    </titleStmt>
+    <extent>[10], 182, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">E. Brewster</persName> and <persName type="publisher">G. Sawbridge</persName>, and are to be sold at <placeName>the signe of the Bible on Ludgate-Hill</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June. 3.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Brewster</persName>
+    </person>
+    <person type="publisher">
+      <persName>G. Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible on Ludgate-Hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

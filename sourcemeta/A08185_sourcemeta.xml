@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Monodia or Walthams complaint vpon the death of that most vertuous and noble ladie, late deceased, the Lady Honor Hay, sole daughter and heire to the Right Honorable Edward, Lord Dennie, Baron of Waltham, and wife to the Right Honourable Iames Lord Hay. By R.N. Oxon.</title>
-         <author>Niccols, Richard, 1584-1616.</author>
-      </titleStmt>
-      <extent>[32] p. : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed by W[illiam] S[tansby] for Richard Meighen and Thomas Iones, and are to be sold at their shop without Temple-barre vnder S. Clements Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1615">1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Rich. Niccols.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-B.</note>
-         <note>A1v contains a woodcut which is repeated on A4v.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Monodia or Walthams complaint vpon the death of that most vertuous and noble ladie, late deceased, the Lady Honor Hay, sole daughter and heire to the Right Honorable Edward, Lord Dennie, Baron of Waltham, and wife to the Right Honourable Iames Lord Hay. By R.N. Oxon.</title>
+      <author>Niccols, Richard, 1584-1616.</author>
+    </titleStmt>
+    <extent>[32] p. : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W[illiam] S[tansby]</persName> for <persName type="publisher">Richard Meighen</persName> and <persName type="publisher">Thomas Iones</persName>, and are to be sold at <placeName>their shop without Temple-barre vnder S. Clements Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1615">1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Rich. Niccols.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-B.</note>
+      <note>A1v contains a woodcut which is repeated on A4v.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Meighen</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>W[illiam] S[tansby]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop without Temple-barre vnder S. Clements Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

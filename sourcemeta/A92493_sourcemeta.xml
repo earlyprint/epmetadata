@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act for taking the oath of alledgeance and the assurance. Edinburgh, the twentie third day of May, 1693</title>
-         <author>Scotland. Convention of Estates.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to their most excellent Majesties,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1693">Anno 1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Drop-head title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act for taking the oath of alledgeance and the assurance. Edinburgh, the twentie third day of May, 1693</title>
+      <author>Scotland. Convention of Estates.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">their most excellent Majesties</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1693">Anno 1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Drop-head title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>their most excellent Majesties</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

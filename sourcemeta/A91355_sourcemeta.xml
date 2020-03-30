@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Severall poysonous and sedicious papers of Mr. David Jenkins ansvvered. By H.P. barrester of Lincolnes Inne.</title>
-         <author>Parker, Henry, 1604-1652.</author>
-         <author>Jenkins, David, 1582-1663. Vindication of Judge Jenkins prisoner in the Tower, the 29. of Aprill, 1647.</author>
-         <author>Jenkins, David, 1582-1663. Cordiall of Judge Jenkins, for the good people of London.</author>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Bostock dwelling in Pauls Church yard, at the signe of the Kings Head.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>H.P. = Henry Parker.</note>
-         <note>Includes "The vindication of Judge Jenkins prisoner in the Tower, the 29. of Aprill, 1647" (Wing J613), and "The reply of Judge Jenkins to Mr. H.P.", a reprinting of "The cordiall of Judge Jenkins, for the good people of London" (Wing J586).</note>
-         <note>Annotation on Thomason copy: "arker" inserted after H.P.; "June 19".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Severall poysonous and sedicious papers of Mr. David Jenkins ansvvered. By H.P. barrester of Lincolnes Inne.</title>
+      <author>Parker, Henry, 1604-1652.</author>
+      <author>Jenkins, David, 1582-1663. Vindication of Judge Jenkins prisoner in the Tower, the 29. of Aprill, 1647.</author>
+      <author>Jenkins, David, 1582-1663. Cordiall of Judge Jenkins, for the good people of London.</author>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Bostock</persName> dwelling in <placeName>Pauls Church yard, at the signe of the Kings Head.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>H.P. = Henry Parker.</note>
+      <note>Includes "The vindication of Judge Jenkins prisoner in the Tower, the 29. of Aprill, 1647" (Wing J613), and "The reply of Judge Jenkins to Mr. H.P.", a reprinting of "The cordiall of Judge Jenkins, for the good people of London" (Wing J586).</note>
+      <note>Annotation on Thomason copy: "arker" inserted after H.P.; "June 19".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church yard, at the signe of the Kings Head.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

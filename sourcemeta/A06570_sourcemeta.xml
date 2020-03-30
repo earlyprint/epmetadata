@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Here begynneth the temple of glas</title>
-         <author>Lydgate, John, 1370?-1451?</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>Enprynted in London in Flete Strete in the sygne of the Conne by Wynkyn de Worde,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1506" cert="low">[1506?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Attributed to Lydgate by STC (2nd ed.).</note>
-         <note>Publisher statement taken from colophon; date of imprint suggested by STC (2nd ed.).</note>
-         <note>Signatures: A-B&#8312; C&#8310; D&#8308;.</note>
-         <note>T.p. contains illustration.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Here begynneth the temple of glas</title>
+      <author>Lydgate, John, 1370?-1451?</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Enprynted in <placeName>London in Flete Strete in the sygne of the Conne</placeName> by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1506" cert="low">[1506?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Attributed to Lydgate by STC (2nd ed.).</note>
+      <note>Publisher statement taken from colophon; date of imprint suggested by STC (2nd ed.).</note>
+      <note>Signatures: A-B&#8312; C&#8310; D&#8308;.</note>
+      <note>T.p. contains illustration.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de Worde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Flete Strete in the sygne of the Conne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

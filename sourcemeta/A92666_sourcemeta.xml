@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation anent the rendezvouses of the militia, for the year 1683</title>
-         <title>Proclamations. 1683-03-23</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heir of Andrew Anderson, printer to his most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1683">Anno Dom. 1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given under our signet, at Edinburgh, the twenty third day of March, one thousand six hundred eighty and three: and of Our Reign, the thirtieth fifth year.</note>
-         <note>Steele notation: Arms 232  Faith; giment Pre-.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation anent the rendezvouses of the militia, for the year 1683</title>
+      <title>Proclamations. 1683-03-23</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1683">Anno Dom. 1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given under our signet, at Edinburgh, the twenty third day of March, one thousand six hundred eighty and three: and of Our Reign, the thirtieth fifth year.</note>
+      <note>Steele notation: Arms 232  Faith; giment Pre-.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

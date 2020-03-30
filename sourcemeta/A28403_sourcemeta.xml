@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The comparison of Pindar and Horace written in French by Monsieur Blondel ... ; English'd by Sir Edward Sherburn.</title>
-         <title>Comparaison de Pindar et d'Horace. English</title>
-         <author>Blondel, Fran&#231;ois, 1618-1686.</author>
-         <author>Sherburne, Edward, Sir, 1618-1702.</author>
-      </titleStmt>
-      <extent>[6], 92 [i.e. 112] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho. Bennet ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [103]-[112].</note>
-         <note>First edition of this translation.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The comparison of Pindar and Horace written in French by Monsieur Blondel ... ; English'd by Sir Edward Sherburn.</title>
+      <title>Comparaison de Pindar et d'Horace. English</title>
+      <author>Blondel, Fran&#231;ois, 1618-1686.</author>
+      <author>Sherburne, Edward, Sir, 1618-1702.</author>
+    </titleStmt>
+    <extent>[6], 92 [i.e. 112] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho. Bennet</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [103]-[112].</note>
+      <note>First edition of this translation.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Bennet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

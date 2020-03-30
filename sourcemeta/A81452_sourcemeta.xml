@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A speech delivered to His Maiesty by the recorder of Lincolne: at his reception into the city, July 15, 1642 .</title>
-         <author>Dallison, Charles, d. 1669.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>First Printed at Yorke, and now re-printed at London for T. J.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1642">Agust [sic] 3, 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A speech delivered to His Maiesty by the recorder of Lincolne: at his reception into the city, July 15, 1642 .</title>
+      <author>Dallison, Charles, d. 1669.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>First Printed at <placeName>Yorke</placeName>, and now re-printed at <placeName>London</placeName> for <persName type="publisher">T. J.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1642">Agust [sic] 3, 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. J.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Yorke</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true gaine more in worth then all the goods in the world.</title>
-         <author>Perkins, William, 1558-1602.</author>
-      </titleStmt>
-      <extent>[6], 104 [i.e. 122], [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Legat, printer to the Vniuersitie of Cambridge,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1601">1601.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: W. Perkins.</note>
-         <note>Printer's device (McKerrow 325) on title page.</note>
-         <note>Running title reads: Christ the true and perfect gaine.</note>
-         <note>Page 122 misnumbered 104.</note>
-         <note>Errata on recto of H5, final leaf.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The true gaine more in worth then all the goods in the world.</title>
+      <author>Perkins, William, 1558-1602.</author>
+    </titleStmt>
+    <extent>[6], 104 [i.e. 122], [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Legat</persName>, printer to <persName type="patron">the Vniuersitie of Cambridge</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1601">1601.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: W. Perkins.</note>
+      <note>Printer's device (McKerrow 325) on title page.</note>
+      <note>Running title reads: Christ the true and perfect gaine.</note>
+      <note>Page 122 misnumbered 104.</note>
+      <note>Errata on recto of H5, final leaf.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Legat</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniuersitie of Cambridge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

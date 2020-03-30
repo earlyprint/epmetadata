@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter written to a gentleman in the country, touching the dissolution of the late Parliament, and the reasons therof.</title>
-         <author>Hall, John, 1627-1656.</author>
-         <author>Milton, John, 1608-1674,</author>
-      </titleStmt>
-      <extent>[2], 20, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Leach, for Richard Baddleley at his shop within the Middle Temple Gate,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1653">1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 20: N. LL., i.e. John Hall.</note>
-         <note>Sometimes attributed to John Milton.</note>
-         <note>The final leaf is blank.</note>
-         <note>Annotation on Thomason copy: "By Mr. John Milton"; "May 26".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter written to a gentleman in the country, touching the dissolution of the late Parliament, and the reasons therof.</title>
+      <author>Hall, John, 1627-1656.</author>
+      <author>Milton, John, 1608-1674,</author>
+    </titleStmt>
+    <extent>[2], 20, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Leach</persName>, for <persName type="publisher">Richard Baddleley</persName> at <placeName>his shop within the Middle Temple Gate</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1653">1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 20: N. LL., i.e. John Hall.</note>
+      <note>Sometimes attributed to John Milton.</note>
+      <note>The final leaf is blank.</note>
+      <note>Annotation on Thomason copy: "By Mr. John Milton"; "May 26".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baddleley</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Leach</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop within the Middle Temple Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

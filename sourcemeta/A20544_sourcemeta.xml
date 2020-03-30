@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plaine and familiar exposition of the ninth and tenth chapters of the Prouerbs of Salomon</title>
-         <author>Dod, John, 1549?-1645.</author>
-         <author>Cleaver, Robert, 1561 or 2-ca. 1625. aut</author>
-      </titleStmt>
-      <extent>[8], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] E[ast] for Thomas Man, dwelling in Paternoster-Row at the signe of the Talbot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iohn Dod, Robert Cleauer.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank except for signature-mark "A".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plaine and familiar exposition of the ninth and tenth chapters of the Prouerbs of Salomon</title>
+      <author>Dod, John, 1549?-1645.</author>
+      <author>Cleaver, Robert, 1561 or 2-ca. 1625. aut</author>
+    </titleStmt>
+    <extent>[8], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] E[ast]</persName> for <persName type="publisher">Thomas Man</persName>, dwelling in <placeName>Paternoster-Row at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iohn Dod, Robert Cleauer.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank except for signature-mark "A".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] E[ast]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paternoster-Row at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

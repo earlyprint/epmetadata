@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of advice to all the members of the Church of England, to come to the divine service, morning and evening, every day</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Keble ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of advice to all the members of the Church of England, to come to the divine service, morning and evening, every day</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Keble</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Keble</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

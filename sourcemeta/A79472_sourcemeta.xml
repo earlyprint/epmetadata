@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The beacon flameing with a non obstante: or A justification of the firing of the beacon, by way of animadversion upon the book entituled the beacon's quenched, subscribed by Col. Pride, &amp;c.</title>
-         <author>Cheynell, Francis, 1608-1665.</author>
-      </titleStmt>
-      <extent>[4], 22, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Abraham Miller, and published by the Subscribers of the Beacon set on fire,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Francis Cheynell.</note>
-         <note>A reply to: Pride Thomas  The beacons quenched: or The humble information of divers officers of the Army, and other wel-affected persons, to the Parliament and Common-wealth of England; concerning the Machivilian design of the Presbyterians, now carrying on by the Stationers of London.</note>
-         <note>The last leaf is blank.</note>
-         <note>Annotations on Thomason copy: "by Dr Chenell of Portsmouth."; "Decemb. 15th.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The beacon flameing with a non obstante: or A justification of the firing of the beacon, by way of animadversion upon the book entituled the beacon's quenched, subscribed by Col. Pride, &amp;c.</title>
+      <author>Cheynell, Francis, 1608-1665.</author>
+    </titleStmt>
+    <extent>[4], 22, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Abraham Miller, and published</persName> by <persName type="printer">the Subscribers of the Beacon set</persName> on <placeName>fire</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Francis Cheynell.</note>
+      <note>A reply to: Pride Thomas  The beacons quenched: or The humble information of divers officers of the Army, and other wel-affected persons, to the Parliament and Common-wealth of England; concerning the Machivilian design of the Presbyterians, now carrying on by the Stationers of London.</note>
+      <note>The last leaf is blank.</note>
+      <note>Annotations on Thomason copy: "by Dr Chenell of Portsmouth."; "Decemb. 15th.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Abraham Miller, and published</persName>
+    </person>
+    <person type="printer">
+      <persName>the Subscribers of the Beacon set</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>fire</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

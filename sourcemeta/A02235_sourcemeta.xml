@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bethel, or, A forme for families in which all sorts of both sexes, are soe squarde and framde [sic] by the word, as they may best serue in theire seuerall places, for usefull peices in Gods buildinge / by Mathew Griffith.</title>
-         <author>Griffith, Matthew, 1599?-1665.</author>
-      </titleStmt>
-      <extent>[1+] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Ro. Allott and Hen. Taunton, and are to be sold at their shops at ye Black Beare in Paules Churchyard &amp; in St. Dunstons Churchyard Fleetstreete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1634">1634.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: lacks all but engraved t.p.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bethel, or, A forme for families in which all sorts of both sexes, are soe squarde and framde [sic] by the word, as they may best serue in theire seuerall places, for usefull peices in Gods buildinge / by Mathew Griffith.</title>
+      <author>Griffith, Matthew, 1599?-1665.</author>
+    </titleStmt>
+    <extent>[1+] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ro. Allott</persName> and <persName type="publisher">Hen. Taunton</persName>, and are to be sold at <placeName>their shops at ye Black Beare in Paules Churchyard &amp; in St. Dunstons Churchyard Fleetstreete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1634">1634.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: lacks all but engraved t.p.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Taunton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Ro. Allott</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops at ye Black Beare in Paules Churchyard &amp; in St. Dunstons Churchyard Fleetstreete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

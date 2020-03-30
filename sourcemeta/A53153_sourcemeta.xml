@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>News from Pannier-alley, or, A True relation of some pranks the devil hath play'd with a plaster-pot there</title>
-      </titleStmt>
-      <extent>7, [1], p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and publish'd by Randal Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">MDCLXXXVII [1687]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"This may be printed, R.P. Decemb. 12, 1687."</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>News from Pannier-alley, or, A True relation of some pranks the devil hath play'd with a plaster-pot there</title>
+    </titleStmt>
+    <extent>7, [1], p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and publish'd by <persName type="printer">Randal Taylor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">MDCLXXXVII [1687]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"This may be printed, R.P. Decemb. 12, 1687."</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

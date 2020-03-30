@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The right way of seeking God a sermon preach'd at Great Yarmouth on the 11th of May, 1692, being the day of the monthly fast / by James Hannott ...</title>
-         <author>Hannott, James.</author>
-      </titleStmt>
-      <extent>[4], 35 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Snowden for Edward Giles ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: cropped.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The right way of seeking God a sermon preach'd at Great Yarmouth on the 11th of May, 1692, being the day of the monthly fast / by James Hannott ...</title>
+      <author>Hannott, James.</author>
+    </titleStmt>
+    <extent>[4], 35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Snowden</persName> for <persName type="publisher">Edward Giles</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: cropped.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Giles</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Snowden</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pandora a comedy.</title>
-         <author>Killigrew, William, Sir, 1606-1695.</author>
-      </titleStmt>
-      <extent>[6], 96 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Mabb for John Playfere ... and Thomas Hors-man ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by William Killigrew.  Cf. DNB.</note>
-         <note>First edition.  Cf. Wing.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pandora a comedy.</title>
+      <author>Killigrew, William, Sir, 1606-1695.</author>
+    </titleStmt>
+    <extent>[6], 96 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Mabb</persName> for <persName type="publisher">John Playfere</persName> ... and <persName type="publisher">Thomas Hors-man</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by William Killigrew.  Cf. DNB.</note>
+      <note>First edition.  Cf. Wing.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playfere</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Hors-man</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Mabb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

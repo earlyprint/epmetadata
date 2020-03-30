@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>1588. A sermon preached on the queenes day. Beeing the 17. of Nouember. 1587. at the towne of Lidd in Kent, by Isaac Colfe, preacher of the word of God</title>
-         <author>Colfe, Isaac, 1558 or 9-1597.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Wolfe, for Harry Carre, and are to bee sold at his shop in Pauls Church yard.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1588">[1588]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from STC.</note>
-         <note>Signatures: A-D (D8 blank).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>1588. A sermon preached on the queenes day. Beeing the 17. of Nouember. 1587. at the towne of Lidd in Kent, by Isaac Colfe, preacher of the word of God</title>
+      <author>Colfe, Isaac, 1558 or 9-1597.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Wolfe</persName>, for <persName type="publisher">Harry Carre</persName>, and are to bee sold at <placeName>his shop in Pauls Church yard.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1588">[1588]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from STC.</note>
+      <note>Signatures: A-D (D8 blank).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Harry Carre</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Wolfe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

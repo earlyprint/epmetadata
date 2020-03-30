@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation for re-establishing the staple-port at Camphire.</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, Printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1699">Anno Dom, 1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Initial letter.</note>
-         <note>Intentional blank spaces in text.</note>
-         <note>Dated: Given under Our Signet at Edinburgh the 30th day of March, and of Our Reign the tenth year, 1699.</note>
-         <note>Signed: Gilb. Eliot.</note>
-         <note>With a list of staple commodities below imprint.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation for re-establishing the staple-port at Camphire.</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, Printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1699">Anno Dom, 1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Initial letter.</note>
+      <note>Intentional blank spaces in text.</note>
+      <note>Dated: Given under Our Signet at Edinburgh the 30th day of March, and of Our Reign the tenth year, 1699.</note>
+      <note>Signed: Gilb. Eliot.</note>
+      <note>With a list of staple commodities below imprint.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

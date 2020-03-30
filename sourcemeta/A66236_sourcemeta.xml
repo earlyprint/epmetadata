@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Their Majesties declaration for encouragement of officers, seamen, and mariners employed in the present service</title>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-         <author>William III, King of England, 1650-1702.</author>
-         <author>Mary II, Queen of England, 1662-1694.</author>
-         <author>Halifax, Charles Montagu, Earl of, 1661-1715.</author>
-      </titleStmt>
-      <extent>3, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Charles Bill and Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>"Given at our court at Hampton-Court this 23d. day of May, 1689"--P. 3.</note>
-         <note>Signed at end: Cha. Montague.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Their Majesties declaration for encouragement of officers, seamen, and mariners employed in the present service</title>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+      <author>William III, King of England, 1650-1702.</author>
+      <author>Mary II, Queen of England, 1662-1694.</author>
+      <author>Halifax, Charles Montagu, Earl of, 1661-1715.</author>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Charles Bill</persName> and <persName type="printer">Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>"Given at our court at Hampton-Court this 23d. day of May, 1689"--P. 3.</note>
+      <note>Signed at end: Cha. Montague.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

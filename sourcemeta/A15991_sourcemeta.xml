@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Three partes of Salomon his Song of Songs, expounded The first part printed before: but now re-printed and enlarged. The second and third partes neuer printed before. All which parts are here expounded and applied for the readers good. By Henoch Clapham.</title>
-         <title>Bible. O.T. Song of Solomon. English. Clapham.</title>
-         <author>Clapham, Henoch.</author>
-      </titleStmt>
-      <extent>[16], 89, [8], 92-138, [11], 142-298, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>By Valentine Sims for Edmund Mutton dwelling in Pater-noster-Row at the signe of the Huntes-man,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Parts 2 and 3 each have separate dated title page, pagination and register are continuous.</note>
-         <note>T1 is cancel with duplicate setting; T1r begins with "is" and last line ends either "ther-" or "there". Original T1 begins: "maister".</note>
-         <note>The first leaf is blank?.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Three partes of Salomon his Song of Songs, expounded The first part printed before: but now re-printed and enlarged. The second and third partes neuer printed before. All which parts are here expounded and applied for the readers good. By Henoch Clapham.</title>
+      <title>Bible. O.T. Song of Solomon. English. Clapham.</title>
+      <author>Clapham, Henoch.</author>
+    </titleStmt>
+    <extent>[16], 89, [8], 92-138, [11], 142-298, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Valentine Sims</persName> for <persName type="publisher">Edmund Mutton</persName> dwelling in <placeName>Pater-noster-Row at the signe of the Huntes-man</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Parts 2 and 3 each have separate dated title page, pagination and register are continuous.</note>
+      <note>T1 is cancel with duplicate setting; T1r begins with "is" and last line ends either "ther-" or "there". Original T1 begins: "maister".</note>
+      <note>The first leaf is blank?.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Mutton</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Sims</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pater-noster-Row at the signe of the Huntes-man</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

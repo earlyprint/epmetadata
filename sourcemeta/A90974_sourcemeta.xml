@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Unity our duty. In twelve considerations humbly presented to the godly, reverend, and learned brethren of the Presbyterian judgement; and the dissenting godly, reverend, and learned brethren, commonly called independant; contending together about church governement. Which tends earnestly to dissvvade them from bitter speaking, and writing one against another. By I. P. Licensed and published according to order.</title>
-         <author>Price, John, Citizen of London.</author>
-      </titleStmt>
-      <extent>[2], 9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Pinted [sic] by T. Paine, for John Hancock, and are to be sold at his shop at the entrance into Popes-Head Ally out of Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Price.  Cf. NUC pre-1956.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Annotation on Thomason copy reads: the 5 in the imprint date is crossed out and altered to 1644; "Janu: 31st".</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Unity our duty. In twelve considerations humbly presented to the godly, reverend, and learned brethren of the Presbyterian judgement; and the dissenting godly, reverend, and learned brethren, commonly called independant; contending together about church governement. Which tends earnestly to dissvvade them from bitter speaking, and writing one against another. By I. P. Licensed and published according to order.</title>
+      <author>Price, John, Citizen of London.</author>
+    </titleStmt>
+    <extent>[2], 9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Pinted [sic] by <persName type="printer">T. Paine</persName>, for <persName type="publisher">John Hancock</persName>, and are to be sold at <placeName>his shop at the entrance into Popes-Head Ally out of Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Price.  Cf. NUC pre-1956.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Annotation on Thomason copy reads: the 5 in the imprint date is crossed out and altered to 1644; "Janu: 31st".</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Hancock</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the entrance into Popes-Head Ally out of Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

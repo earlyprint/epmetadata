@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The merchants daily companion</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Malthus, and are to be sold at his shop, at the Sun in the Poultry,,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1684">1684..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A prospectus.</note>
-         <note>Place of publication from Wing CD-ROM, 1996.</note>
-         <note>"Price bound two shilling six pence."</note>
-         <note>Reel position E4:2[48f] filmed twice.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The merchants daily companion</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Malthus</persName>, and are to be sold at <placeName>his shop, at the Sun in the Poultry</placeName>,,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1684">1684..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A prospectus.</note>
+      <note>Place of publication from Wing CD-ROM, 1996.</note>
+      <note>"Price bound two shilling six pence."</note>
+      <note>Reel position E4:2[48f] filmed twice.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Malthus</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the Sun in the Poultry</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

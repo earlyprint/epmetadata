@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An information, concerning the present state of the Jewish nation in Europe and Judea. Wherein the footsteps of Providence preparing a way for their conversion to Christ, and for their deliverance from captivity, are discovered.</title>
-         <author>Jessey, Henry, 1603-1663.</author>
-      </titleStmt>
-      <extent>[4], 19, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R[obert]. W[hite]. for Thomas Brewster, at the three Bibles near the west end of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Henry Jessey by Wing.</note>
-         <note>Printer's name from Wing CD-ROM.</note>
-         <note>Appendix, unnumbered pages at end.</note>
-         <note>Identified as Wing D2863, reel 1258, of the UMI microfilm set "Early English books, 1641-1700".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An information, concerning the present state of the Jewish nation in Europe and Judea. Wherein the footsteps of Providence preparing a way for their conversion to Christ, and for their deliverance from captivity, are discovered.</title>
+      <author>Jessey, Henry, 1603-1663.</author>
+    </titleStmt>
+    <extent>[4], 19, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R[obert]. W[hite].</persName> for <persName type="publisher">Thomas Brewster</persName>, at <placeName>the three Bibles near the west end of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Henry Jessey by Wing.</note>
+      <note>Printer's name from Wing CD-ROM.</note>
+      <note>Appendix, unnumbered pages at end.</note>
+      <note>Identified as Wing D2863, reel 1258, of the UMI microfilm set "Early English books, 1641-1700".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Brewster</persName>
+    </person>
+    <person type="printer">
+      <persName>R[obert]. W[hite].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Bibles near the west end of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

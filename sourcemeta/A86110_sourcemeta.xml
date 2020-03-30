@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fevv collections for Irelands souldiers.</title>
-         <author>Haward, Lazarus.</author>
-      </titleStmt>
-      <extent>[4], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Wright at the Kings Head in the Old Bayley.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">1646. [i.e. 1647]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Lazarus Haward, who has signed the dedication.</note>
-         <note>Wing has publication year 1646[7].</note>
-         <note>Annotation on Thomason copy: "feb: 12th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fevv collections for Irelands souldiers.</title>
+      <author>Haward, Lazarus.</author>
+    </titleStmt>
+    <extent>[4], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the Old Bayley.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">1646. [i.e. 1647]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Lazarus Haward, who has signed the dedication.</note>
+      <note>Wing has publication year 1646[7].</note>
+      <note>Annotation on Thomason copy: "feb: 12th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old Bayley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

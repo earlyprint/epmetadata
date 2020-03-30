@@ -1,20 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The third part of the reports of severall excellent cases of law, argued and adjudged in the courts of law at Westminster in the time of the late Queen Elizabeth, from the first, to the five and thirtieth year of her reign collected by a learned professor of the law, William Leonard ... ; with alphabetical tables of the names of the cases, and of the matters contained in the book.</title>
-         <title>Reports and cases of law argued and adjudged in the courts at Westminster. Part 3</title>
-         <author>Leonard, William.</author>
-      </titleStmt>
-      <extent>[12], 279 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of Richard and Edward Atkins ... for Henry Twyford, Thomas Basset, William Rawlins and John Place,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Not before imprinted; and now published by William Hughes of Grays-Inn, Esq."</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The third part of the reports of severall excellent cases of law, argued and adjudged in the courts of law at Westminster in the time of the late Queen Elizabeth, from the first, to the five and thirtieth year of her reign collected by a learned professor of the law, William Leonard ... ; with alphabetical tables of the names of the cases, and of the matters contained in the book.</title>
+      <title>Reports and cases of law argued and adjudged in the courts at Westminster. Part 3</title>
+      <author>Leonard, William.</author>
+    </titleStmt>
+    <extent>[12], 279 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">Richard</persName> and <persName type="assigns">Edward Atkins</persName> ... for <persName type="publisher">Henry Twyford</persName>, <persName type="publisher">Thomas Basset</persName>, <persName type="publisher">William Rawlins</persName> and <persName type="publisher">John Place</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Not before imprinted; and now published by William Hughes of Grays-Inn, Esq."</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Twyford</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Place</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Basset</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Rawlins</persName>
+    </person>
+    <person type="assigns">
+      <persName>Edward Atkins</persName>
+    </person>
+    <person type="assigns">
+      <persName>Richard</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

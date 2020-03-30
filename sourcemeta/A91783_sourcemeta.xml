@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The logicians school-master: or, A comment upon Ramus logick. By Mr. Alexander Richardson, sometime of Queenes Colledge in Cambridge. Whereunto are added, his prelections on Ramus his grammer; Taleus his rhetorick; also his notes on physicks, ethicks, astronomy, medicine, and opticks. Never before published.</title>
-         <author>Richardson, Alexander, of Queen's College, Cambridge.</author>
-         <author>Thomson, Samuel, fl. 1657-1666.</author>
-      </titleStmt>
-      <extent>[8], 96, 95-349, [1]; 157, 138-139, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Gartrude Dawson, and are to be sold by Sam. Thomson at the White-Horse in Paul's Church-yard.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Sam. Thomson.</note>
-         <note>The first leaf is blank.</note>
-         <note>"Grammatical notes" (caption title) begins new pagination on &#178; B1r.</note>
-         <note>Annotation on Thomason copy: "May. 25".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The logicians school-master: or, A comment upon Ramus logick. By Mr. Alexander Richardson, sometime of Queenes Colledge in Cambridge. Whereunto are added, his prelections on Ramus his grammer; Taleus his rhetorick; also his notes on physicks, ethicks, astronomy, medicine, and opticks. Never before published.</title>
+      <author>Richardson, Alexander, of Queen's College, Cambridge.</author>
+      <author>Thomson, Samuel, fl. 1657-1666.</author>
+    </titleStmt>
+    <extent>[8], 96, 95-349, [1]; 157, 138-139, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Gartrude Dawson</persName>, and are to be sold by <persName type="bookseller">Sam. Thomson</persName> at <placeName>the White-Horse in Paul's Church-yard.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Sam. Thomson.</note>
+      <note>The first leaf is blank.</note>
+      <note>"Grammatical notes" (caption title) begins new pagination on &#178; B1r.</note>
+      <note>Annotation on Thomason copy: "May. 25".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Gartrude Dawson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Sam. Thomson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White-Horse in Paul's Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

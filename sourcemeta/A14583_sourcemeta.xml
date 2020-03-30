@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epistle sent by Monsievr de Vrillac, advocate in the Parliament of Paris; to Monsievr de Vrillac his father, vpon the occasion of his conuersion. Faithfully translated into English, accoriding to the French copie; By C.C.</title>
-         <author>Vrillac, Monsieur de.</author>
-         <author>C. C., fl. 1621.</author>
-      </titleStmt>
-      <extent>20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. D[awson] for William Sheffard, and are to be sold at the signe of the starre vnder St Peters-Church in Corne-hill, and in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>A translation, by C.C., of a letter written by Monsier de Vrillac.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epistle sent by Monsievr de Vrillac, advocate in the Parliament of Paris; to Monsievr de Vrillac his father, vpon the occasion of his conuersion. Faithfully translated into English, accoriding to the French copie; By C.C.</title>
+      <author>Vrillac, Monsieur de.</author>
+      <author>C. C., fl. 1621.</author>
+    </titleStmt>
+    <extent>20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. D[awson]</persName> for <persName type="publisher">William Sheffard</persName>, and are to be sold at <placeName>the signe of the starre vnder St Peters-Church in Corne-hill</placeName>, and in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>A translation, by C.C., of a letter written by Monsier de Vrillac.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheffard</persName>
+    </person>
+    <person type="printer">
+      <persName>J. D[awson]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the starre vnder St Peters-Church in Corne-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

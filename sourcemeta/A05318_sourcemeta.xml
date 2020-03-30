@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exhortatory instruction to a speedy resolution of repentance and contempt of the vanities of this transitory life. By Samson Lennard</title>
-         <author>Lennard, Samson, d. 1633.</author>
-      </titleStmt>
-      <extent>[12], 534 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. B[radwood] for Edw. Blount and W. Barret,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exhortatory instruction to a speedy resolution of repentance and contempt of the vanities of this transitory life. By Samson Lennard</title>
+      <author>Lennard, Samson, d. 1633.</author>
+    </titleStmt>
+    <extent>[12], 534 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. B[radwood]</persName> for <persName type="publisher">Edw. Blount</persName> and <persName type="publisher">W. Barret</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edw. Blount</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Barret</persName>
+    </person>
+    <person type="printer">
+      <persName>M. B[radwood]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

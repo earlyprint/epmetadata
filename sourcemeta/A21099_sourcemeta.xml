@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The third set of bookes vvherein are pastorals, anthemes, neopolitanes, fancies, and madrigales, to 5. and 6. parts: apt both for viols and voyces. Newly composed by Michaell Easte, Batchelar of Musicke. 1610.</title>
-         <title>Bookes, 3rd set</title>
-         <author>East, Michael, ca. 1580-1648.</author>
-      </titleStmt>
-      <extent>[132] p. : music  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Snodham [, and are to be sold by Matthew Lownes, dwelling in Paules Churchyard, at the signe of the Bishops head,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1610">1610]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Six partbooks. At head of title, part 1: "Cantus."; part 2: "Altus."; part 3: "Tenor."; part 4: "Bassus."; part 5: "Quintus."; part 6: "Sextus.".</note>
-         <note>All parts but the first have Matthew Lownes' name in the imprint.</note>
-         <note>Signatures: A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;; A&#178;  B&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The third set of bookes vvherein are pastorals, anthemes, neopolitanes, fancies, and madrigales, to 5. and 6. parts: apt both for viols and voyces. Newly composed by Michaell Easte, Batchelar of Musicke. 1610.</title>
+      <title>Bookes, 3rd set</title>
+      <author>East, Michael, ca. 1580-1648.</author>
+    </titleStmt>
+    <extent>[132] p. : music  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Snodham [</persName>, and are to be sold by <persName type="bookseller">Matthew Lownes</persName>, dwelling in <placeName>Paules Churchyard, at the signe of the Bishops head</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1610">1610]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Six partbooks. At head of title, part 1: "Cantus."; part 2: "Altus."; part 3: "Tenor."; part 4: "Bassus."; part 5: "Quintus."; part 6: "Sextus.".</note>
+      <note>All parts but the first have Matthew Lownes' name in the imprint.</note>
+      <note>Signatures: A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;; A-C&#8308;; A&#178;  B&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Snodham [</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Matthew Lownes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Churchyard, at the signe of the Bishops head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

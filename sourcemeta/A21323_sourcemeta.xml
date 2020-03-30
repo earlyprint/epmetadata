@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe of the art of rhetorique Containing in substance all that Aristotle hath written in his three bookes of that subject, except onely what is not applicable to the Engligh tongue.</title>
-         <title>Rhetoric. English. Abridgements</title>
-         <author>Aristotle.</author>
-         <author>Hobbes, Thomas, 1588-1679.</author>
-      </titleStmt>
-      <extent>[2], 202, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes, for Andrew Crook, and are to be sold at the black Bare in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1637" cert="low">[1637?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated and abridged by Thomas Hobbes.</note>
-         <note>Publication date conjectured by STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe of the art of rhetorique Containing in substance all that Aristotle hath written in his three bookes of that subject, except onely what is not applicable to the Engligh tongue.</title>
+      <title>Rhetoric. English. Abridgements</title>
+      <author>Aristotle.</author>
+      <author>Hobbes, Thomas, 1588-1679.</author>
+    </titleStmt>
+    <extent>[2], 202, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName>, for <persName type="publisher">Andrew Crook</persName>, and are to be sold at <placeName>the black Bare in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1637" cert="low">[1637?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated and abridged by Thomas Hobbes.</note>
+      <note>Publication date conjectured by STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the black Bare in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

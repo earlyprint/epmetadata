@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A waying and considering of the Interim by the honourworthy and highly learned Phillip Melancthon. Tra[n]slated into Englyshe by Iohn Rogers</title>
-         <title>Bedencken suffs Interim. English</title>
-         <author>Melanchthon, Philipp, 1497-1560.</author>
-         <author>Rogers, John, 1500?-1555.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>in Fletestrete at the signe of the Sunne ouer against the conduite by Edwarde Whitchurche,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1548">the vi. daie of Auguste, the yere of our lorde. M.D.XLVIII.] [1548]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by John Rogers, of: Melanchthon, Philipp. Bedencken suffs Interim.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signatures: A-C D&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A waying and considering of the Interim by the honourworthy and highly learned Phillip Melancthon. Tra[n]slated into Englyshe by Iohn Rogers</title>
+      <title>Bedencken suffs Interim. English</title>
+      <author>Melanchthon, Philipp, 1497-1560.</author>
+      <author>Rogers, John, 1500?-1555.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>in <placeName>Fletestrete at the signe of the Sunne ouer against the conduite</placeName> by <persName type="printer">Edwarde Whitchurche</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1548">the vi. daie of Auguste, the yere of our lorde. M.D.XLVIII.] [1548]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by John Rogers, of: Melanchthon, Philipp. Bedencken suffs Interim.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signatures: A-C D&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edwarde Whitchurche</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fletestrete at the signe of the Sunne ouer against the conduite</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

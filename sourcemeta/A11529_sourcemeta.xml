@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true discription and breefe discourse, of a most lamentable voiage, made latelie to Tripolie in Barbarie, in a ship named the Iesus vvherin is not onely shevved the great miserie, that then happened the aucthor hereof and his whole companie, aswell the marchants as the marriners in that voiage, according to the curssed custome of those barbarous and cruell tyrants, in their terrible vsage of Christian captiues: but also, the great vnfaithfulnesse of those heathnish infidels, in not regarding their promise. Together, with the most wonderfull iudgement of God, vpon the king of Tripolie and his sonne, and a great number of his people, being all the tormentors of those English captiues. Set foorth by Thomas Saunders, one of those captiues there at the same time.</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iones, for Edward White, dwelling at the signe of the Gun, by the little North doore of Paules,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1587">the 15. of Aprill. 1587.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-C&#8308;.</note>
-         <note>Running title reads: The voiage of the Iesus into Tripolie in Barbarie.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true discription and breefe discourse, of a most lamentable voiage, made latelie to Tripolie in Barbarie, in a ship named the Iesus vvherin is not onely shevved the great miserie, that then happened the aucthor hereof and his whole companie, aswell the marchants as the marriners in that voiage, according to the curssed custome of those barbarous and cruell tyrants, in their terrible vsage of Christian captiues: but also, the great vnfaithfulnesse of those heathnish infidels, in not regarding their promise. Together, with the most wonderfull iudgement of God, vpon the king of Tripolie and his sonne, and a great number of his people, being all the tormentors of those English captiues. Set foorth by Thomas Saunders, one of those captiues there at the same time.</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iones</persName>, for <persName type="publisher">Edward White</persName>, dwelling at <placeName>the signe of the Gun</placeName>, by <persName type="printer">the little North doore of Paules</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1587">the 15. of Aprill. 1587.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Running title reads: The voiage of the Iesus into Tripolie in Barbarie.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward White</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>the little North doore of Paules</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

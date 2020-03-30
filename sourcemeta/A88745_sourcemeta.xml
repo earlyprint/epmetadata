@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The last will and testament of Carolus Gustavus, king of Sweden &amp;c. Translated out of the Swedish originall by Thomas Scot, Esq.</title>
-         <author>Scott, Thomas, d. 1660.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Leadsom,</publisher>
-         <pubPlace>[S.l.] :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Political satire.</note>
-         <note>Reproduction of original in: Sutro Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The last will and testament of Carolus Gustavus, king of Sweden &amp;c. Translated out of the Swedish originall by Thomas Scot, Esq.</title>
+      <author>Scott, Thomas, d. 1660.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Leadsom</persName>,</publisher>
+      <pubPlace>[S.l.] :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Political satire.</note>
+      <note>Reproduction of original in: Sutro Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Leadsom</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

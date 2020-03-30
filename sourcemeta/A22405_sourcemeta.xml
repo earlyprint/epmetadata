@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King a proclamation for the better furnishing of the nauy, and increase of shipping.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2] leaves.   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton and Iohn Bill, Printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1626">M.DC.XXVI [1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Giuen at His Maiesties Court at White-Hall, the foure and twentieth day of Aprill, in the second yeere of His Reigne."</note>
-         <note>Reproduction of original in: Sociery of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King a proclamation for the better furnishing of the nauy, and increase of shipping.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2] leaves.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1626">M.DC.XXVI [1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Giuen at His Maiesties Court at White-Hall, the foure and twentieth day of Aprill, in the second yeere of His Reigne."</note>
+      <note>Reproduction of original in: Sociery of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

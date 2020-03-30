@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem humbly presented to His Most Excellent Majesty King William the Third upon his most miraculuous and happy preservation from that barbarous Jacobitish conspiracy to assassinate His Royal Person, February anno 1695 / by R.B.</title>
-         <author>Bovet, Richard, b. ca. 1641.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Dover for Richard Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A poem upon the King's preservation.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem humbly presented to His Most Excellent Majesty King William the Third upon his most miraculuous and happy preservation from that barbarous Jacobitish conspiracy to assassinate His Royal Person, February anno 1695 / by R.B.</title>
+      <author>Bovet, Richard, b. ca. 1641.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Dover</persName> for <persName type="publisher">Richard Baldwin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A poem upon the King's preservation.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Dover</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

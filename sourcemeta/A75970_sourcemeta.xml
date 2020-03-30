@@ -1,18 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Agreement of divers ministers of Christ in the county of Worcester, and some adjacent parts, for catechizing or personal instructing all in their parishes, that will consent thereunto. Containing I. The articles of our agreement. II. An exhortation to the people to submit to this necessary work. III. The profession of faith, and catechism, which we desire them first to learn.</title>
-      </titleStmt>
-      <extent>[2], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.W. for Nevil Simmons bookseller at Kidderminster, and are to be sold there by him, and at London by William Roybould, at the Vnicorn in Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "June 20.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Agreement of divers ministers of Christ in the county of Worcester, and some adjacent parts, for catechizing or personal instructing all in their parishes, that will consent thereunto. Containing I. The articles of our agreement. II. An exhortation to the people to submit to this necessary work. III. The profession of faith, and catechism, which we desire them first to learn.</title>
+    </titleStmt>
+    <extent>[2], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.W.</persName> for <persName type="publisher">Nevil Simmons</persName> bookseller at <placeName>Kidderminster</placeName>, and are to be sold there by <persName type="printer">him, and</persName> at <placeName>London</placeName> by <persName type="printer">William Roybould</persName>, at <placeName>the Vnicorn in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "June 20.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nevil Simmons</persName>
+    </person>
+    <person type="printer">
+      <persName>R.W.</persName>
+    </person>
+    <person type="printer">
+      <persName>William Roybould</persName>
+    </person>
+    <person type="printer">
+      <persName>him, and</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Kidderminster</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Vnicorn in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

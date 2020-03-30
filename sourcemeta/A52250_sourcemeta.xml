@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of Mr. Joseph Aleine by George Newton ...</title>
-         <author>Newton, George, 1602-1681.</author>
-      </titleStmt>
-      <extent>38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Neil Simmons ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of Mr. Joseph Aleine by George Newton ...</title>
+      <author>Newton, George, 1602-1681.</author>
+    </titleStmt>
+    <extent>38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Neil Simmons</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Neil Simmons</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Neil Simmons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

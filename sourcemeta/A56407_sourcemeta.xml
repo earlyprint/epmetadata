@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The redeemer's friend, or, A sermon on John II, part of the 11th verse ... preached at the funeral of ... Mr. Samuel Fairclough, who departed this life, December 31, 1691 by Nath. Parkhurst ...</title>
-         <author>Parkhurst, Nathaniel, 1643-1707.</author>
-      </titleStmt>
-      <extent>[8], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Nathanael Ranew ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The redeemer's friend, or, A sermon on John II, part of the 11th verse ... preached at the funeral of ... Mr. Samuel Fairclough, who departed this life, December 31, 1691 by Nath. Parkhurst ...</title>
+      <author>Parkhurst, Nathaniel, 1643-1707.</author>
+    </titleStmt>
+    <extent>[8], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Nathanael Ranew</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Ranew</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

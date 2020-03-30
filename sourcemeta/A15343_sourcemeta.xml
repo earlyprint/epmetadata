@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short, yet sound commentarie; written on that woorthie worke called; the Prouerbes of Salomon and now published for the profite of Gods people.</title>
-         <author>T. W. (Thomas Wilcox), 1549?-1608.</author>
-      </titleStmt>
-      <extent>[4], 105, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Orwin, for Thomas Man,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1589">1589.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: T.W., i.e. Thomas Wilcox.</note>
-         <note>Running title reads: An exposition vpon the Prouerbes.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short, yet sound commentarie; written on that woorthie worke called; the Prouerbes of Salomon and now published for the profite of Gods people.</title>
+      <author>T. W. (Thomas Wilcox), 1549?-1608.</author>
+    </titleStmt>
+    <extent>[4], 105, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Orwin</persName>, for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1589">1589.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: T.W., i.e. Thomas Wilcox.</note>
+      <note>Running title reads: An exposition vpon the Prouerbes.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Orwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

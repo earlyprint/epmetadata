@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The noble English worthies</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Milbourn, and are to be sold at his house in Jewen-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">59. [i.e. 1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Tis not Saint George we sing of here,".</note>
-         <note>A ballad in praise of General Monck.</note>
-         <note>Annotation on Thomason copy: "xber 28"; "16" has been written in before the imprint date.</note>
-         <note>Reproduction of the originals in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The noble English worthies</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Milbourn</persName>, and are to be sold at <placeName>his house in Jewen-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">59. [i.e. 1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Tis not Saint George we sing of here,".</note>
+      <note>A ballad in praise of General Monck.</note>
+      <note>Annotation on Thomason copy: "xber 28"; "16" has been written in before the imprint date.</note>
+      <note>Reproduction of the originals in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Milbourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Jewen-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

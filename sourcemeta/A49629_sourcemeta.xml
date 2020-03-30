@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The last, best, and truest nevves from Ireland, that came since the rebellion sent from a Gentleman in Dublin to his friend, a divine, in London.</title>
-         <author>Gentleman in Dublin.</author>
-      </titleStmt>
-      <extent>[7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">March 18, 1641 [i.e. 1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Year of publication from Thomason Coll.</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The last, best, and truest nevves from Ireland, that came since the rebellion sent from a Gentleman in Dublin to his friend, a divine, in London.</title>
+      <author>Gentleman in Dublin.</author>
+    </titleStmt>
+    <extent>[7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">March 18, 1641 [i.e. 1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Year of publication from Thomason Coll.</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

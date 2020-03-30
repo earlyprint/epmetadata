@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sophy.</title>
-         <author>Denham, John, Sir, 1615-1669.</author>
-      </titleStmt>
-      <extent>[4], 53 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Hearne for Thomas Walkley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by Sir John Denham. Cf. DNB.</note>
-         <note>"As it was acted at the Private House in Black Friars by His Majesties servants."</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sophy.</title>
+      <author>Denham, John, Sir, 1615-1669.</author>
+    </titleStmt>
+    <extent>[4], 53 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Hearne</persName> for <persName type="publisher">Thomas Walkley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by Sir John Denham. Cf. DNB.</note>
+      <note>"As it was acted at the Private House in Black Friars by His Majesties servants."</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Hearne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

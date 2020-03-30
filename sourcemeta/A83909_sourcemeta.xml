@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An order of the Lords Spiritual and Temporal, assembled at Westminster, in the House of Lords, December 22. 1688.</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Awnsham and William Churchill,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1688">M DC LXXXVIII [i.e. 1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Orders all papists to leave the city of London.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An order of the Lords Spiritual and Temporal, assembled at Westminster, in the House of Lords, December 22. 1688.</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Awnsham</persName> and <persName type="publisher">William Churchill</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1688">M DC LXXXVIII [i.e. 1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Orders all papists to leave the city of London.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

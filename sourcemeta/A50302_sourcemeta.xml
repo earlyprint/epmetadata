@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A warning piece to afflicted England, or, The Church of God under a state of desertion laid out in VII maximes with application to the present times / by John Maudit ; together with the testimonies of several reverend divines concerning the danger the Church of God is in.</title>
-         <author>Maudit, John.</author>
-      </titleStmt>
-      <extent>42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Maxwell for Sa. Gellbrand ... ,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A warning piece to afflicted England, or, The Church of God under a state of desertion laid out in VII maximes with application to the present times / by John Maudit ; together with the testimonies of several reverend divines concerning the danger the Church of God is in.</title>
+      <author>Maudit, John.</author>
+    </titleStmt>
+    <extent>42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Maxwell</persName> for <persName type="publisher">Sa. Gellbrand</persName> ... ,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sa. Gellbrand</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Maxwell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

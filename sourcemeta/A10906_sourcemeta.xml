@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A visitation sermon preached at the Lord Archbishops trienniall and ordinary visitation, in St. Margarets in Canterbury, vpon Aprill the fift, 1630. By Francis Rogers, Doctor in Diuinity, and minister of that parish.</title>
-         <author>Rogers, Francis, d. 1638.</author>
-      </titleStmt>
-      <extent>[28] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Norton, for William Adderton, and are to bee sold at his shop in Bethlem without Bishops-gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1633">1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A&#178;  B-D&#8308;.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A visitation sermon preached at the Lord Archbishops trienniall and ordinary visitation, in St. Margarets in Canterbury, vpon Aprill the fift, 1630. By Francis Rogers, Doctor in Diuinity, and minister of that parish.</title>
+      <author>Rogers, Francis, d. 1638.</author>
+    </titleStmt>
+    <extent>[28] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Norton</persName>, for <persName type="publisher">William Adderton</persName>, and are to bee sold at <placeName>his shop in Bethlem without Bishops-gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1633">1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#178;  B-D&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Adderton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Bethlem without Bishops-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

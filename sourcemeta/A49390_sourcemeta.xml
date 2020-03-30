@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from on board Their Majesties fleet near Ushant, July the twentieth, 1689 giving an account of the good condition of it, and of the taking of some French ships with letters from Ireland.</title>
-         <author>J. L.</author>
-      </titleStmt>
-      <extent>2 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for James Partridge ...,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1689">1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: J.L.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from on board Their Majesties fleet near Ushant, July the twentieth, 1689 giving an account of the good condition of it, and of the taking of some French ships with letters from Ireland.</title>
+      <author>J. L.</author>
+    </titleStmt>
+    <extent>2 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">James Partridge</persName> ...,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1689">1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: J.L.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Partridge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

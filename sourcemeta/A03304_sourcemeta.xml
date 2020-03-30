@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The preachers plea: or, A treatise in forme of a plain dialogue making known the worth and necessary vse of preaching: shewing also how a man may profit by it, both for the informing of his iudgement, and the reforming of his life. By Samuel Hieron minister of the gospell at Modbury in the countie of Deuon.</title>
-         <author>Hieron, Samuel, 1576?-1617.</author>
-      </titleStmt>
-      <extent>[10], 260 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Field] for Simon Waterson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Some print faded.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The preachers plea: or, A treatise in forme of a plain dialogue making known the worth and necessary vse of preaching: shewing also how a man may profit by it, both for the informing of his iudgement, and the reforming of his life. By Samuel Hieron minister of the gospell at Modbury in the countie of Deuon.</title>
+      <author>Hieron, Samuel, 1576?-1617.</author>
+    </titleStmt>
+    <extent>[10], 260 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Field]</persName> for <persName type="publisher">Simon Waterson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Some print faded.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Simon Waterson</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

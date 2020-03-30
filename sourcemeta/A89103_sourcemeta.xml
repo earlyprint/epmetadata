@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A message brought to the Parliament, concerning the treaty, between the King and the commissioners brought by Sir Peter Killeygrew on Tuesday 17 Octob. 1648. With the commissioners propositions, and His Majesties answer, Newport the 12 of October. 1648.</title>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2], 3 [i.e. 5], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Smithurst, neer Pye-corner,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page numbers 4 and 5 misnumbered 6 and 3, respectively.</note>
-         <note>Annotation on Thomason copy: "8ber [i.e. October] ye 19th".</note>
-         <note>Imprint place from Wing.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A message brought to the Parliament, concerning the treaty, between the King and the commissioners brought by Sir Peter Killeygrew on Tuesday 17 Octob. 1648. With the commissioners propositions, and His Majesties answer, Newport the 12 of October. 1648.</title>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2], 3 [i.e. 5], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Smithurst</persName>, neer <placeName>Pye-corner</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page numbers 4 and 5 misnumbered 6 and 3, respectively.</note>
+      <note>Annotation on Thomason copy: "8ber [i.e. October] ye 19th".</note>
+      <note>Imprint place from Wing.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Smithurst</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pye-corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Balm in Gilead, or, A spur to repentance as it was lately delivered in a sermon by James Strong ...</title>
-         <author>Strong, James, 1618 or 19-1694.</author>
-      </titleStmt>
-      <extent>[8], 37 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Maxwell for Edward Brewster ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Balm in Gilead, or, A spur to repentance as it was lately delivered in a sermon by James Strong ...</title>
+      <author>Strong, James, 1618 or 19-1694.</author>
+    </titleStmt>
+    <extent>[8], 37 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Maxwell</persName> for <persName type="publisher">Edward Brewster</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Brewster</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Maxwell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

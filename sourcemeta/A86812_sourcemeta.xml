@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of the Lord Major, aldermen, and commons of the city of London, in Common-Councell assembled to the Right Honourable the Lords and Commons assembled in High Court of Parliament. Whereunto is annexed, two petitions; the one entituled, The humble petition of divers well-affected citizens of the city of London. The other entituled, The humble petition of divers young-men, citizens, and other apprentices of this honourable city.</title>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, printer to the honourable city of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "July 24".</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of the Lord Major, aldermen, and commons of the city of London, in Common-Councell assembled to the Right Honourable the Lords and Commons assembled in High Court of Parliament. Whereunto is annexed, two petitions; the one entituled, The humble petition of divers well-affected citizens of the city of London. The other entituled, The humble petition of divers young-men, citizens, and other apprentices of this honourable city.</title>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, printer to <persName type="patron">the honourable city of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "July 24".</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+    <person type="patron">
+      <persName>the honourable city of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

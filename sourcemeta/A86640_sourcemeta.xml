@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vote, or A poeme royall, presented to His Maiestie for a new-yeares-gift. By way of discourse 'twixt the poet, and his muse. Calendis Ianuariis 1642.</title>
-         <author>Howell, James, 1594?-1666.</author>
-      </titleStmt>
-      <extent>[2], 11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Badger,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 11: Iames Howell.</note>
-         <note>An imprint variant of the edition with Humphrey Mosley given as publisher in imprint.</note>
-         <note>Annotation on Thomason copy: "By James Howell".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vote, or A poeme royall, presented to His Maiestie for a new-yeares-gift. By way of discourse 'twixt the poet, and his muse. Calendis Ianuariis 1642.</title>
+      <author>Howell, James, 1594?-1666.</author>
+    </titleStmt>
+    <extent>[2], 11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Badger</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 11: Iames Howell.</note>
+      <note>An imprint variant of the edition with Humphrey Mosley given as publisher in imprint.</note>
+      <note>Annotation on Thomason copy: "By James Howell".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Badger</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

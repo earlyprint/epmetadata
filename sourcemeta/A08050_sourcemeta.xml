@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of the sacrami[n]t of the aulter made by a famouse doctoure called Fryderyke Nausea in Almayne and lately out of latyn translate into englysh by Iohn More</title>
-         <author>Nausea, Friedrich, d. 1552.</author>
-         <author>More, John, fl. 1533.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Prynted by W. Rastell,</publisher>
-         <pubPlace>[London? :</pubPlace>
-         <date when="1533">1533. Cum priuilegio]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>A translation, by John More, from the original Latin of Friedrich Nausea.</note>
-         <note>Signatures: a-f&#8308;.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of the sacrami[n]t of the aulter made by a famouse doctoure called Fryderyke Nausea in Almayne and lately out of latyn translate into englysh by Iohn More</title>
+      <author>Nausea, Friedrich, d. 1552.</author>
+      <author>More, John, fl. 1533.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Prynted by <persName type="printer">W. Rastell</persName>,</publisher>
+      <pubPlace>[London? :</pubPlace>
+      <date when="1533">1533. Cum priuilegio]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>A translation, by John More, from the original Latin of Friedrich Nausea.</note>
+      <note>Signatures: a-f&#8308;.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W. Rastell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

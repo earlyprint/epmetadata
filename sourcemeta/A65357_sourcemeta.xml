@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The godly mans delight or A family guide to pietie containing directions to a holy life with certain Christian dialogues also prayers &amp; meditations upon severall occasions.</title>
-         <author>T. W.</author>
-      </titleStmt>
-      <extent>[16], 200 p., [3] leaves of plate   </extent>
-      <publicationStmt>
-         <publisher>printed by Tho. James for Richard Jones at the White Horse in Little Brittain,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1679">1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: T.W.</note>
-         <note>The title page is engraved.</note>
-         <note>Imprint taken from colophon at foot of p. [4].</note>
-         <note>With an imprimatur leaf dated Sept. 14. 1678.</note>
-         <note>Caption title on leaf A4: The Christians warfare.; Caption title on p. 1: A direction to an holy life.</note>
-         <note>Caption.</note>
-         <note>Imperfect: leaves A5r and B1v stained with loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The godly mans delight or A family guide to pietie containing directions to a holy life with certain Christian dialogues also prayers &amp; meditations upon severall occasions.</title>
+      <author>T. W.</author>
+    </titleStmt>
+    <extent>[16], 200 p., [3] leaves of plate   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Tho. James</persName> for <persName type="publisher">Richard Jones</persName> at <placeName>the White Horse in Little Brittain</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1679">1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: T.W.</note>
+      <note>The title page is engraved.</note>
+      <note>Imprint taken from colophon at foot of p. [4].</note>
+      <note>With an imprimatur leaf dated Sept. 14. 1678.</note>
+      <note>Caption title on leaf A4: The Christians warfare.; Caption title on p. 1: A direction to an holy life.</note>
+      <note>Caption.</note>
+      <note>Imperfect: leaves A5r and B1v stained with loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. James</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Horse in Little Brittain</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

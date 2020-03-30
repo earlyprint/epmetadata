@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Remarks on The life of Mr. Milton, as publish'd by J.T. with a character of the author and his party : in a letter to a member of Parliament.</title>
-         <author>R. E.</author>
-      </titleStmt>
-      <extent>[8], 79 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by J. Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: R.E.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Remarks on The life of Mr. Milton, as publish'd by J.T. with a character of the author and his party : in a letter to a member of Parliament.</title>
+      <author>R. E.</author>
+    </titleStmt>
+    <extent>[8], 79 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">J. Nutt</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: R.E.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Nutt</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

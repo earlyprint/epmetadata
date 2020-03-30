@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A light to the longitude, or, The use of an instrument called the seaman's director speedily resolving all astronomical cases and questions concerning the sun, moon, and stars : with several propositions whereby sea-men may find at what meridian and longitude they are at in all parts of the world : published for the advance of navigation / by Robert Theaker.</title>
-         <author>Theaker, Robert.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Godbid for William Fisher ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed, June 28, 1665. Roger L'Estrange"</note>
-         <note>The table of contents and the epistle ([4] p.) are bound and photographed between pages 30 and 31.</note>
-         <note>Errata: p. 32.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A light to the longitude, or, The use of an instrument called the seaman's director speedily resolving all astronomical cases and questions concerning the sun, moon, and stars : with several propositions whereby sea-men may find at what meridian and longitude they are at in all parts of the world : published for the advance of navigation / by Robert Theaker.</title>
+      <author>Theaker, Robert.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Godbid</persName> for <persName type="publisher">William Fisher</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed, June 28, 1665. Roger L'Estrange"</note>
+      <note>The table of contents and the epistle ([4] p.) are bound and photographed between pages 30 and 31.</note>
+      <note>Errata: p. 32.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Fisher</persName>
+    </person>
+    <person type="printer">
+      <persName>William Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

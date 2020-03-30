@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Epicurus's morals collected partly out of his owne Greek text, in Diogenes Laertius, and partly out of the rhapsodies of Marcus Antoninus, Plutarch, Cicero, &amp; Seneca ; and faithfully Englished.</title>
-         <title>Selections. English</title>
-         <author>Epicurus.</author>
-         <author>Charleton, Walter, 1619-1707.</author>
-      </titleStmt>
-      <extent>[43], 184 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilson for Henry Herringman, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"An apology for Epicurus" (p. [4]-[40]) is written by Walter Charleton who was also the translator.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Epicurus's morals collected partly out of his owne Greek text, in Diogenes Laertius, and partly out of the rhapsodies of Marcus Antoninus, Plutarch, Cicero, &amp; Seneca ; and faithfully Englished.</title>
+      <title>Selections. English</title>
+      <author>Epicurus.</author>
+      <author>Charleton, Walter, 1619-1707.</author>
+    </titleStmt>
+    <extent>[43], 184 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilson</persName> for <persName type="publisher">Henry Herringman</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"An apology for Epicurus" (p. [4]-[40]) is written by Walter Charleton who was also the translator.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

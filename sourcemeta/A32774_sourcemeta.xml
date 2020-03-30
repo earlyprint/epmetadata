@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The gallant hermaphrodite an amorous novel / translated from the French of the sieur de Chavigny.</title>
-         <title>Galante hermaphrodite. English</title>
-         <author>Chavigny de La Bretonni&#232;re, Fran&#231;ois de.</author>
-      </titleStmt>
-      <extent>[4], 123 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F.C. for N.C. ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Galante hermaphrodite.</note>
-         <note>"Licensed June 7, 1687. R.P."</note>
-         <note>Reproduction of original in Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The gallant hermaphrodite an amorous novel / translated from the French of the sieur de Chavigny.</title>
+      <title>Galante hermaphrodite. English</title>
+      <author>Chavigny de La Bretonni&#232;re, Fran&#231;ois de.</author>
+    </titleStmt>
+    <extent>[4], 123 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F.C.</persName> for <persName type="publisher">N.C.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Galante hermaphrodite.</note>
+      <note>"Licensed June 7, 1687. R.P."</note>
+      <note>Reproduction of original in Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>F.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

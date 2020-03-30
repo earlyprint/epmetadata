@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true proceedings of both armies; from the twelfe of November, to the twenty foure. With many remarkeable passages which has happened since the battaile at Branford. Also a relation made by Captaine Rogers, concerning the death of Prince Robert, Prince Maurice, and many other of the Kings chiefe commanders, wich the maner how they were kild, the said captaine being an eye witnesse of the same.</title>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. F. for R. C.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">Nov. 24 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The true proceedings of both armies; from the twelfe of November, to the twenty foure. With many remarkeable passages which has happened since the battaile at Branford. Also a relation made by Captaine Rogers, concerning the death of Prince Robert, Prince Maurice, and many other of the Kings chiefe commanders, wich the maner how they were kild, the said captaine being an eye witnesse of the same.</title>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. F.</persName> for <persName type="publisher">R. C.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">Nov. 24 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. C.</persName>
+    </person>
+    <person type="printer">
+      <persName>T. F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

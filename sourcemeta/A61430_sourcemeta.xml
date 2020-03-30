@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A kind invitation to the people called Quakers, to the due consideration of some important truths in a letter and twenty questions, sent long since to their second-days meeting, and now to them all. To both which, an answer from their present yearly meeting, 1697. is desired.</title>
-         <author>Stephens, Edward, d. 1706.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, for the benefit of a religious society. And are to be sold at Mr. Holder's house in Little-Trinity-Lane,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1697">1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Caption title.</note>
-         <note>By Edward Stephens.</note>
-         <note>Page 4 signed: E.S.</note>
-         <note>With an advertisement at the bottom of page 8.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A kind invitation to the people called Quakers, to the due consideration of some important truths in a letter and twenty questions, sent long since to their second-days meeting, and now to them all. To both which, an answer from their present yearly meeting, 1697. is desired.</title>
+      <author>Stephens, Edward, d. 1706.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, for <persName type="publisher">the benefit of a religious society. And</persName> are to be sold at <placeName>Mr. Holder's house in Little-Trinity-Lane</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1697">1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Caption title.</note>
+      <note>By Edward Stephens.</note>
+      <note>Page 4 signed: E.S.</note>
+      <note>With an advertisement at the bottom of page 8.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="publisher">
+      <persName>the benefit of a religious society. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Mr. Holder's house in Little-Trinity-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

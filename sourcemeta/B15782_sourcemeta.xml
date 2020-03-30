@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVitts nevv dyall: or, A schollers prize</title>
-         <author>Sherley, Anthony, poet.</author>
-      </titleStmt>
-      <extent>[100] p.   </extent>
-      <publicationStmt>
-         <publisher>By W. W[hite] for Iohn Browne,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Anthony Sherly.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-M&#8308; N&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVitts nevv dyall: or, A schollers prize</title>
+      <author>Sherley, Anthony, poet.</author>
+    </titleStmt>
+    <extent>[100] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">W. W[hite]</persName> for <persName type="publisher">Iohn Browne</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Anthony Sherly.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-M&#8308; N&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Browne</persName>
+    </person>
+    <person type="printer">
+      <persName>W. W[hite]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

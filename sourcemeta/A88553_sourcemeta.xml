@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of Adam. Written in Italian by Giovanno Francesco Loredano, a Venetian noble-man. And renderd into English by J.S.</title>
-         <title>L'Adamo. English</title>
-         <author>Loredano, Giovanni Francesco, 1607-1661.</author>
-         <author>J. S.</author>
-      </titleStmt>
-      <extent>[8], 86 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley, and are to be sold at his shop, at the Prince's Armes in S. Paul's Churchyard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "May".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of Adam. Written in Italian by Giovanno Francesco Loredano, a Venetian noble-man. And renderd into English by J.S.</title>
+      <title>L'Adamo. English</title>
+      <author>Loredano, Giovanni Francesco, 1607-1661.</author>
+      <author>J. S.</author>
+    </titleStmt>
+    <extent>[8], 86 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName>, and are to be sold at <placeName>his shop, at the Prince's Armes in S. Paul's Churchyard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "May".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the Prince's Armes in S. Paul's Churchyard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

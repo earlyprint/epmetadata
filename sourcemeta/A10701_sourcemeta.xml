@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Faultes faults, and nothing else but faultes</title>
-         <author>Rich, Barnabe, 1540?-1617.</author>
-      </titleStmt>
-      <extent>[3], 63, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Valentine Simmes] for Ieffrey Chorleton, and are to be sold at the great north doore of Paules Church,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Barnabie Rich.</note>
-         <note>First word of title is xylographic.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: Faults, and nothing but faults.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Faultes faults, and nothing else but faultes</title>
+      <author>Rich, Barnabe, 1540?-1617.</author>
+    </titleStmt>
+    <extent>[3], 63, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Valentine Simmes]</persName> for <persName type="publisher">Ieffrey Chorleton</persName>, and are to be sold at <placeName>the great north doore of Paules Church</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Barnabie Rich.</note>
+      <note>First word of title is xylographic.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: Faults, and nothing but faults.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ieffrey Chorleton</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Simmes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the great north doore of Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

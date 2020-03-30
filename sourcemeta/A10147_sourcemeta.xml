@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A gorgious gallery, of gallant inuentions Garnished and decked with diuers dayntie deuises, right delicate and delightfull, to recreate eche modest minde withall. First framed and fashioned in sundrie formes, by diuers worthy workemen of late dayes: and now, ioyned together and builded vp: By T.P.</title>
-         <author>Proctor, Thomas, poet.</author>
-      </titleStmt>
-      <extent>[120] p.   </extent>
-      <publicationStmt>
-         <publisher>[By W. How] for Richard Iones,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1578">1578.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.P. = Thomas Procter.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-P&#8308;.</note>
-         <note>In verse.</note>
-         <note>Title page marked and stained; print faded on last page.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A gorgious gallery, of gallant inuentions Garnished and decked with diuers dayntie deuises, right delicate and delightfull, to recreate eche modest minde withall. First framed and fashioned in sundrie formes, by diuers worthy workemen of late dayes: and now, ioyned together and builded vp: By T.P.</title>
+      <author>Proctor, Thomas, poet.</author>
+    </titleStmt>
+    <extent>[120] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">W. How]</persName> for <persName type="publisher">Richard Iones</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1578">1578.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.P. = Thomas Procter.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-P&#8308;.</note>
+      <note>In verse.</note>
+      <note>Title page marked and stained; print faded on last page.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>W. How]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Songs of mourning bevvailing the vntimely death of Prince Henry. VVorded by Tho. Campion. And set forth to bee sung with one voyce to the lute, or violl: by Iohn Coprario.</title>
-         <author>Coperario, John, 1570 (ca.)-1626.</author>
-         <author>Campion, Thomas, 1567-1620. aut</author>
-      </titleStmt>
-      <extent>[20] p. : music  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Snodham] for Iohn Browne, and are to be sould in S. dunstons Churchyard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1613">1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: [A]&#178;  B-E&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Songs of mourning bevvailing the vntimely death of Prince Henry. VVorded by Tho. Campion. And set forth to bee sung with one voyce to the lute, or violl: by Iohn Coprario.</title>
+      <author>Coperario, John, 1570 (ca.)-1626.</author>
+      <author>Campion, Thomas, 1567-1620. aut</author>
+    </titleStmt>
+    <extent>[20] p. : music  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">Iohn Browne</persName>, and are to be sould in <placeName>S. dunstons Churchyard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1613">1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: [A]&#178;  B-E&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Browne</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>S. dunstons Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

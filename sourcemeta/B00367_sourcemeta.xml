@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The othe of euerie free man, of the city of London.</title>
-         <title>Oath of a free-man.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Hugh Singleton,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1590" cert="low">[1590?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publicatioin suggested by STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The othe of euerie free man, of the city of London.</title>
+      <title>Oath of a free-man.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Hugh Singleton</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1590" cert="low">[1590?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publicatioin suggested by STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Hugh Singleton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

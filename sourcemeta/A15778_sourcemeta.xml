@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth. VVritten by T:VV</title>
-         <author>Wright, Thomas, d. 1624.</author>
-      </titleStmt>
-      <extent>[4], 17, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Valentine Sims] for Thomas Thorpe, and are to be sold in Paules Church-yard at the signe of the Crane, by Walter Burre,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T:VV: = Thomas Wright.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank except for signature-mark "A"; the last leaf is blank.</note>
-         <note>Also issued as part 2 of his: The passions of the minde: London, 1604.</note>
-         <note>Reproduction of the original formerly in the Henry E. Huntington Library and Art Gallery (since deaccessioned).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A succinct philosophicall declaration of the nature of clymactericall yeeres, occasioned by the death of Queene Elizabeth. VVritten by T:VV</title>
+      <author>Wright, Thomas, d. 1624.</author>
+    </titleStmt>
+    <extent>[4], 17, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Valentine Sims]</persName> for <persName type="publisher">Thomas Thorpe</persName>, and are to be sold in <placeName>Paules Church-yard at the signe of the Crane</placeName>, by <persName type="printer">Walter Burre</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T:VV: = Thomas Wright.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank except for signature-mark "A"; the last leaf is blank.</note>
+      <note>Also issued as part 2 of his: The passions of the minde: London, 1604.</note>
+      <note>Reproduction of the original formerly in the Henry E. Huntington Library and Art Gallery (since deaccessioned).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Thorpe</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Sims]</persName>
+    </person>
+    <person type="printer">
+      <persName>Walter Burre</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard at the signe of the Crane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

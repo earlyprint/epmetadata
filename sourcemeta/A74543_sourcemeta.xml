@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ordinance for continuing the committee for the Army, and treasurers at warr.</title>
-         <title>Orders in Council. 1654-06-29.</title>
-         <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
-         <author>England and Wales. Council of State. aut</author>
-      </titleStmt>
-      <extent>453-456 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by William du-Gard and Henry Hills, printers to his Highness the Lord Protector,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1654">MDCLIV [1654]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>The final leaf bears the order to print dated: Iune 29. 1654.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ordinance for continuing the committee for the Army, and treasurers at warr.</title>
+      <title>Orders in Council. 1654-06-29.</title>
+      <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
+      <author>England and Wales. Council of State. aut</author>
+    </titleStmt>
+    <extent>453-456 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">William du-Gard</persName> and <persName type="printer">Henry Hills</persName>, printers to <persName type="patron">his Highness the Lord Protector</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1654">MDCLIV [1654]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>The final leaf bears the order to print dated: Iune 29. 1654.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>William du-Gard</persName>
+    </person>
+    <person type="patron">
+      <persName>his Highness the Lord Protector</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

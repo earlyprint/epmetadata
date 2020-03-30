@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Maiesties poeticall exercises at vacant houres</title>
-         <author>James I, King of England, 1566-1625.</author>
-         <author>Du Bartas, Guillaume de Salluste, seigneur, 1544-1590.</author>
-      </titleStmt>
-      <extent>[124] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Walde-graue printer to the Kings Maiestie. Cum priuilegio regali,</publisher>
-         <pubPlace>At Edinburgh :</pubPlace>
-         <date when="1591">[1591]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>His Majesty = James I.</note>
-         <note>In verse.</note>
-         <note>The first work, "The furies", is translated from Guillaume de Salluste, seigneur Du Bartas.</note>
-         <note>Publication date from STC.</note>
-         <note>Signatures: pi&#8308; [A]&#8308; B-L&#8308; (L4 + "M"1 (=P2)) M-O&#8308; P&#178;  (-P2).</note>
-         <note>"The Lepanto of Iames the sixt, King of Scotland" and "La Lepanthe de Iaques VI&#183; Roy d'Escosse, faicte francoise par le Sieur Du Bartas" each has separate title page; register is continuous.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Maiesties poeticall exercises at vacant houres</title>
+      <author>James I, King of England, 1566-1625.</author>
+      <author>Du Bartas, Guillaume de Salluste, seigneur, 1544-1590.</author>
+    </titleStmt>
+    <extent>[124] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Walde-graue</persName> printer to <persName type="patron">the Kings Maiestie.</persName> Cum priuilegio regali,</publisher>
+      <pubPlace>At Edinburgh :</pubPlace>
+      <date when="1591">[1591]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>His Majesty = James I.</note>
+      <note>In verse.</note>
+      <note>The first work, "The furies", is translated from Guillaume de Salluste, seigneur Du Bartas.</note>
+      <note>Publication date from STC.</note>
+      <note>Signatures: pi&#8308; [A]&#8308; B-L&#8308; (L4 + "M"1 (=P2)) M-O&#8308; P&#178;  (-P2).</note>
+      <note>"The Lepanto of Iames the sixt, King of Scotland" and "La Lepanthe de Iaques VI&#183; Roy d'Escosse, faicte francoise par le Sieur Du Bartas" each has separate title page; register is continuous.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Walde-graue</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Maiestie.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

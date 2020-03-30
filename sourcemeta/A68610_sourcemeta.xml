@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A booke of Christian questions and answers Wherein are set foorth the cheef points of the Christian religion ... A worke right necessary and profitable for all such as shal haue to deale vvith the capious quarelinges of the vvrangling aduersaries of Gods truthe. Written in Latin by the lerned clerke Theodore Beza Vezelius, and newly translated into English by Arthur Golding.</title>
-         <title>Quaestionum et responsionum Christianarum libellus. English</title>
-         <author>B&#232;ze, Th&#233;odore de, 1519-1605.</author>
-         <author>Golding, Arthur, 1536-1606.</author>
-      </titleStmt>
-      <extent>[4], 90 leaves   </extent>
-      <publicationStmt>
-         <publisher>By William How, for Abraham Veale, dwellyng in Paules Church yarde at the signe of the Lambe,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1574">Ano. 1574.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An English translation, by Arthur Golding, of: B&#233;ze, Th&#233;odore de.  Quaestionum et responsionum christianarum libellus.</note>
-         <note>Running title reads: Of christen questions and aunsweres.</note>
-         <note>Title page stained, obliterating some print.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Appears at reels 487 and 1537 (same copy filmed twice).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A booke of Christian questions and answers Wherein are set foorth the cheef points of the Christian religion ... A worke right necessary and profitable for all such as shal haue to deale vvith the capious quarelinges of the vvrangling aduersaries of Gods truthe. Written in Latin by the lerned clerke Theodore Beza Vezelius, and newly translated into English by Arthur Golding.</title>
+      <title>Quaestionum et responsionum Christianarum libellus. English</title>
+      <author>B&#232;ze, Th&#233;odore de, 1519-1605.</author>
+      <author>Golding, Arthur, 1536-1606.</author>
+    </titleStmt>
+    <extent>[4], 90 leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">William How</persName>, for <persName type="publisher">Abraham Veale</persName>, dwellyng in <placeName>Paules Church yarde at the signe of the Lambe</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1574">Ano. 1574.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An English translation, by Arthur Golding, of: B&#233;ze, Th&#233;odore de.  Quaestionum et responsionum christianarum libellus.</note>
+      <note>Running title reads: Of christen questions and aunsweres.</note>
+      <note>Title page stained, obliterating some print.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Appears at reels 487 and 1537 (same copy filmed twice).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Abraham Veale</persName>
+    </person>
+    <person type="printer">
+      <persName>William How</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yarde at the signe of the Lambe</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

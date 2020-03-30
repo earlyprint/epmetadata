@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation declaring His maiesties grace to his subiects, touching matters complained of, as publique greeuances.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>[4] sheets (versos blank).   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton, and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1621">M. D C.XXI. [1621].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title; imprint from colophon.</note>
-         <note>"Reforming abuses in writs and legal fees, announcing surrender of 8 patents, revoking 10 commissions, allowing common-law proceedings against 19 other grants, etc." -- STC.</note>
-         <note>At end of text: Giuen at Our court at Whitehall, the tenth day of Iuly, in the nineteenth yeere of Our reigne of Great Britaine, France and Ireland.</note>
-         <note>Arms 14; Steele notation: Princely  might  2) blemished 3) ships:  4) such  hu-.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation declaring His maiesties grace to his subiects, touching matters complained of, as publique greeuances.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>[4] sheets (versos blank).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1621">M. D C.XXI. [1621].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title; imprint from colophon.</note>
+      <note>"Reforming abuses in writs and legal fees, announcing surrender of 8 patents, revoking 10 commissions, allowing common-law proceedings against 19 other grants, etc." -- STC.</note>
+      <note>At end of text: Giuen at Our court at Whitehall, the tenth day of Iuly, in the nineteenth yeere of Our reigne of Great Britaine, France and Ireland.</note>
+      <note>Arms 14; Steele notation: Princely  might  2) blemished 3) ships:  4) such  hu-.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

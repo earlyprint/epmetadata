@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>VVheresoeuer you see mee, trust vnto your selfe. Or, The mysterie of lending and borrowing Seria iocis: or, the tickling torture. By Thomas Povvel, London-Cambrian.</title>
-         <author>Powell, Thomas, 1572?-1635?</author>
-      </titleStmt>
-      <extent>[8], 55, 58-60, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [at Eliot's Court Press] for Beniamin Fisher, and are to be sold at his shop in Pater-noster-row, at the signe of the Talbot,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1623">1623.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Identification of printer from STC.</note>
-         <note>Running title reads: Wheresoeuer you see me, trust to your selfe.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>VVheresoeuer you see mee, trust vnto your selfe. Or, The mysterie of lending and borrowing Seria iocis: or, the tickling torture. By Thomas Povvel, London-Cambrian.</title>
+      <author>Powell, Thomas, 1572?-1635?</author>
+    </titleStmt>
+    <extent>[8], 55, 58-60, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [at <placeName>Eliot's Court Press]</placeName> for <persName type="publisher">Beniamin Fisher</persName>, and are to be sold at <placeName>his shop in Pater-noster-row, at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1623">1623.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Identification of printer from STC.</note>
+      <note>Running title reads: Wheresoeuer you see me, trust to your selfe.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Beniamin Fisher</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Eliot's Court Press]</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Pater-noster-row, at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

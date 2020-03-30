@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Oeconomia animalis novis in medicina hypothesibus superstructa, &amp; mechanice explicata / autore Gualtero Charleton, &amp; Caroli Magnae Britanniae Regis. olian medico.</title>
-         <author>Charleton, Walter, 1619-1707.</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>[31], 291, [2] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Typis R. Danielis, &amp; J. Redmanni,</publisher>
-         <pubPlace>Londini :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [31] (1st grouping)</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Oeconomia animalis novis in medicina hypothesibus superstructa, &amp; mechanice explicata / autore Gualtero Charleton, &amp; Caroli Magnae Britanniae Regis. olian medico.</title>
+      <author>Charleton, Walter, 1619-1707.</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>[31], 291, [2] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Typis <persName type="printer">R. Danielis</persName>, <persName type="printer">&amp; J. Redmanni</persName>,</publisher>
+      <pubPlace>Londini :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [31] (1st grouping)</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>&amp; J. Redmanni</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Danielis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

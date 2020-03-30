@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Short answer to His Grace the D. of Buckingham's paper concerning religion, toleration, and liberty of conscience</title>
-      </titleStmt>
-      <extent>[4], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for S.G. and are to be sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Short answer to His Grace the D. of Buckingham's paper concerning religion, toleration, and liberty of conscience</title>
+    </titleStmt>
+    <extent>[4], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">S.G.</persName> and are to be sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S.G.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

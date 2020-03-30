@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Catalogus medicamentorum cymicorum] or, The treasury of chymical medicaments being a catalogue of medicines carefully and exactly prepared / by John Casimir, German chymist &amp; physitian.</title>
-         <author>Casimir, John.</author>
-      </titleStmt>
-      <extent>[2], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bringhurst, for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: title page cropped, with some loss of text; title supplied by Wing.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Catalogus medicamentorum cymicorum] or, The treasury of chymical medicaments being a catalogue of medicines carefully and exactly prepared / by John Casimir, German chymist &amp; physitian.</title>
+      <author>Casimir, John.</author>
+    </titleStmt>
+    <extent>[2], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bringhurst</persName>, for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: title page cropped, with some loss of text; title supplied by Wing.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bringhurst</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

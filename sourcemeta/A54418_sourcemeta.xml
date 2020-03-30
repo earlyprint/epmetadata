@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Honourable House of Commons, at St. Margarets Westminster, Nov. 7 being the fast-day appointed for the plague of pestilence / by Richard Perrinchief.</title>
-         <author>Perrinchief, Richard, 1623?-1673.</author>
-      </titleStmt>
-      <extent>[3], 59 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.T. for Richard Royston ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Honourable House of Commons, at St. Margarets Westminster, Nov. 7 being the fast-day appointed for the plague of pestilence / by Richard Perrinchief.</title>
+      <author>Perrinchief, Richard, 1623?-1673.</author>
+    </titleStmt>
+    <extent>[3], 59 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.T.</persName> for <persName type="publisher">Richard Royston</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>E.T.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

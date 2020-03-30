@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegy on the death of the Lord Russel, who was beheaded in Lincolns-Inn-Fields, on Saturday the 21st. of July, 1683</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for P. Brooksby, at the Golden Ball, near the Hospital-Gate, in West Smithfield,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "What powr's, what saints, or who shall I invoke".</note>
-         <note>L Copy has annotation: An abusive thing on him.; stained at head.</note>
-         <note>Reproduction of originals in: British Library, Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegy on the death of the Lord Russel, who was beheaded in Lincolns-Inn-Fields, on Saturday the 21st. of July, 1683</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">P. Brooksby</persName>, at <placeName>the Golden Ball, near the Hospital-Gate, in West Smithfield</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "What powr's, what saints, or who shall I invoke".</note>
+      <note>L Copy has annotation: An abusive thing on him.; stained at head.</note>
+      <note>Reproduction of originals in: British Library, Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden Ball, near the Hospital-Gate, in West Smithfield</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

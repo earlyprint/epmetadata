@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Kings Excellent Majesty, the humble address of the magistrats and council of His Majesties city of Edinburgh, for themselves, and in name of the whole inhabitants thereof</title>
-         <author>Edinburgh (Scotland). Town Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed at London and re-printed at Edinburgh by the heir of Andrew Anderson ...,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the Kings Excellent Majesty, the humble address of the magistrats and council of His Majesties city of Edinburgh, for themselves, and in name of the whole inhabitants thereof</title>
+      <author>Edinburgh (Scotland). Town Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName> and re-printed at <placeName>Edinburgh</placeName> by <persName type="printer">the heir of Andrew Anderson</persName> ...,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The certaine and true newes, from all the parts of Germany and Poland to this present 29. of October, 1621. Published by authoritie.</title>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F. K[ingston] for B. D[ownes] and are to bee sold by William Lee, at his shop in Fleetstreet, at the golden Bucke, neere Serieants Inne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publisher's names from STC.</note>
-         <note>Formerly STC 11788.</note>
-         <note>Identified as STC 11788 on UMI microfilm.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The certaine and true newes, from all the parts of Germany and Poland to this present 29. of October, 1621. Published by authoritie.</title>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. K[ingston]</persName> for <persName type="publisher">B. D[ownes]</persName> and are to bee sold by <persName type="bookseller">William Lee</persName>, at <placeName>his shop in Fleetstreet, at the golden Bucke, neere Serieants Inne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publisher's names from STC.</note>
+      <note>Formerly STC 11788.</note>
+      <note>Identified as STC 11788 on UMI microfilm.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. D[ownes]</persName>
+    </person>
+    <person type="printer">
+      <persName>F. K[ingston]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Lee</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleetstreet, at the golden Bucke, neere Serieants Inne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

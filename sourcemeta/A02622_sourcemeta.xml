@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Time is a turne-coate. Or Englands three-fold metamorphosis VVherin is acted the pensiue mans epilogomena, to Londons late lamentable heroicall comi-tragedie. Also a panegyricall pageant-speech or idylion pronounced to the citie of London, vpon the entrance of her long expected comfort. Written by Iohn Hanson.</title>
-         <author>Hanson, John, fl. 1604.</author>
-      </titleStmt>
-      <extent>[16], 71, [11] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Field] for I. H[anson?] and are to be sold [by G. Potter?] at the signe of the Bible in Paules Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's, publisher's and bookseller's names suggested by STC.</note>
-         <note>With perpendicular chainlines--STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Time is a turne-coate. Or Englands three-fold metamorphosis VVherin is acted the pensiue mans epilogomena, to Londons late lamentable heroicall comi-tragedie. Also a panegyricall pageant-speech or idylion pronounced to the citie of London, vpon the entrance of her long expected comfort. Written by Iohn Hanson.</title>
+      <author>Hanson, John, fl. 1604.</author>
+    </titleStmt>
+    <extent>[16], 71, [11] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Field]</persName> for <persName type="publisher">I. H[anson?]</persName> and are to be sold [by <persName type="bookseller">G. Potter?]</persName> at <placeName>the signe of the Bible in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's, publisher's and bookseller's names suggested by STC.</note>
+      <note>With perpendicular chainlines--STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. H[anson?]</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>G. Potter?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

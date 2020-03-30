@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Characters and essayes, by Alexander Garden</title>
-         <title>Characters upon essaies morall, and divine</title>
-         <author>Breton, Nicholas, 1545?-1626?</author>
-         <author>Garden, Alexander, 1585?-1634?</author>
-      </titleStmt>
-      <extent>61, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Raban, printer to the citie and both colledges,</publisher>
-         <pubPlace>Aberdene :</pubPlace>
-         <date when="1625">1625.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A verse version of: Breton, Nicholas.  Characters upon essaies morall, and divine.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Characters and essayes, by Alexander Garden</title>
+      <title>Characters upon essaies morall, and divine</title>
+      <author>Breton, Nicholas, 1545?-1626?</author>
+      <author>Garden, Alexander, 1585?-1634?</author>
+    </titleStmt>
+    <extent>61, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Raban</persName>, printer to <persName type="patron">the citie and both colledges</persName>,</publisher>
+      <pubPlace>Aberdene :</pubPlace>
+      <date when="1625">1625.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A verse version of: Breton, Nicholas.  Characters upon essaies morall, and divine.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Raban</persName>
+    </person>
+    <person type="patron">
+      <persName>the citie and both colledges</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious speech to both Houses of Parliament, on Tuesday the seventh day of November, 1693</title>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by the successors of Andrew Anderson, printers to Their Most Excellent Majesties,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A speech calling for an increase in the armed forces.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious speech to both Houses of Parliament, on Tuesday the seventh day of November, 1693</title>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">the successors of Andrew Anderson</persName>, printers to <persName type="patron">Their Most Excellent Majesties</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A speech calling for an increase in the armed forces.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>Their Most Excellent Majesties</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

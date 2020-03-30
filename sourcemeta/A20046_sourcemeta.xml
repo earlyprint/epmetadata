@@ -1,27 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lanthorne and candle-light. Or, The bell-mans second nights-walke In which he brings to light, a brood of more strange villanies than ener [sic] were till this yeare discouered.</title>
-         <author>Dekker, Thomas, ca. 1572-1632.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition,</edition>
-      </editionStmt>
-      <extent>[88] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Edward Allde] for Iohn Busby, and are to be solde at his shop in Fleete-streete, in Saint Dunstanes Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Thomas Dekker.</note>
-         <note>A continuation of: The belman of London.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-L&#8308;.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lanthorne and candle-light. Or, The bell-mans second nights-walke In which he brings to light, a brood of more strange villanies than ener [sic] were till this yeare discouered.</title>
+      <author>Dekker, Thomas, ca. 1572-1632.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition,</edition>
+    </editionStmt>
+    <extent>[88] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Edward Allde]</persName> for <persName type="publisher">Iohn Busby</persName>, and are to be solde at <placeName>his shop in Fleete-streete, in Saint Dunstanes Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Thomas Dekker.</note>
+      <note>A continuation of: The belman of London.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-L&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Busby</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Allde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleete-streete, in Saint Dunstanes Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>&#198;sop in select fables ... with A dialogue between Bow-steeple dragon and the Exchange grashoper.</title>
-         <author>Aesop.</author>
-      </titleStmt>
-      <extent>[5], 13, [5], 14, [4], 14, [4], 14, [6], 18, [4], 14, [2], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by most booksellers in London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The six pieces were also published separately in 1698. Cf. NUC pre-1956.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>(from t.p.) I. At Tunbridge -- II. At Bathe -- III. At Epsom -- IV. At Whitehall -- V. From Tunbridge -- VI. At Amsterdam.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>&#198;sop in select fables ... with A dialogue between Bow-steeple dragon and the Exchange grashoper.</title>
+      <author>Aesop.</author>
+    </titleStmt>
+    <extent>[5], 13, [5], 14, [4], 14, [4], 14, [6], 18, [4], 14, [2], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller">most booksellers</persName> in <placeName>London</placeName> and Westminster,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The six pieces were also published separately in 1698. Cf. NUC pre-1956.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>(from t.p.) I. At Tunbridge -- II. At Bathe -- III. At Epsom -- IV. At Whitehall -- V. From Tunbridge -- VI. At Amsterdam.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>most booksellers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

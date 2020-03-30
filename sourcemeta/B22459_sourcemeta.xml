@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Lun&#230; 22&#8364; Novembris 1680. Ordered by the Lords spiritual and temporal in Parliament assembled, that all persons who shall have any petitions of appeal from any court of equity ... do present the same before the thirtieth day of this instant November ...</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by the Assigns of John Bill, Thomas Newcomb, and Henry Hills, Printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1680">1680..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title taken from caption title and first lines of text.</note>
-         <note>Signed at end: Jo. Browne Cleric' Parliamentor'.</note>
-         <note>Initial; Steele notation: Arms 87  in Session accord-.</note>
-         <note>Reproductions of originals in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Lun&#230; 22&#8364; Novembris 1680. Ordered by the Lords spiritual and temporal in Parliament assembled, that all persons who shall have any petitions of appeal from any court of equity ... do present the same before the thirtieth day of this instant November ...</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the Assigns of John Bill</persName>, <persName type="printer">Thomas Newcomb</persName>, and <persName type="printer">Henry Hills</persName>, Printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1680">1680..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title taken from caption title and first lines of text.</note>
+      <note>Signed at end: Jo. Browne Cleric' Parliamentor'.</note>
+      <note>Initial; Steele notation: Arms 87  in Session accord-.</note>
+      <note>Reproductions of originals in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="printer">
+      <persName>the Assigns of John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

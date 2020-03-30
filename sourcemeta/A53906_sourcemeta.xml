@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Providence bringing good out of evil in a sermon, preached on the ninth of September, being the day of thanksgiving for the discovery of the late treasonable conspiracy against His Majesties person and government / by Richard Pearson ...</title>
-         <author>Pearson, Richard, d. 1734.</author>
-      </titleStmt>
-      <extent>[2], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. and J.A. for Henry Bonwicke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. 42.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Providence bringing good out of evil in a sermon, preached on the ninth of September, being the day of thanksgiving for the discovery of the late treasonable conspiracy against His Majesties person and government / by Richard Pearson ...</title>
+      <author>Pearson, Richard, d. 1734.</author>
+    </titleStmt>
+    <extent>[2], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> and <persName type="printer">J.A.</persName> for <persName type="publisher">Henry Bonwicke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. 42.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Bonwicke</persName>
+    </person>
+    <person type="printer">
+      <persName>J.A.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

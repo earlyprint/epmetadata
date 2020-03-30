@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The causes for vvhich the most high and mighty prince and lo: Lord Gustavus Adolphus of the Swedes, Gothes, and Vandals King great Prince of Finland, Duke of Esthonia and Carelia, and Lord of Ingria, is at length constrained to move with an armie into Germany. Translated out of the Latine copy.</title>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by G. Purslowe] for Nath. Butter, and Nicholas Bourne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>For another translation see STC 12535.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The causes for vvhich the most high and mighty prince and lo: Lord Gustavus Adolphus of the Swedes, Gothes, and Vandals King great Prince of Finland, Duke of Esthonia and Carelia, and Lord of Ingria, is at length constrained to move with an armie into Germany. Translated out of the Latine copy.</title>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">G. Purslowe]</persName> for <persName type="publisher">Nath. Butter</persName>, and <persName type="publisher">Nicholas Bourne</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>For another translation see STC 12535.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nath. Butter</persName>
+    </person>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Purslowe]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

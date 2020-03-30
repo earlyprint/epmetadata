@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pleasaunt historie of Lazarillo de Tormes a Spaniarde wherein is conteined his marueilous deedes and life. With the straunge aduentures happened to him in the seruice of sundrie masters. Drawen out of Spanish by Dauid Rouland of Anglesey.</title>
-         <title>Lazarillo de Tormes. English</title>
-         <author>Hurtado de Mendoza, Diego, 1503-1575.</author>
-         <author>Rowland, David, fl. 1569-1586.</author>
-      </titleStmt>
-      <extent>[128] p.   </extent>
-      <publicationStmt>
-         <publisher>By Abell Ieffes, dwelling in the fore streete without Crepell gate nere Groube streete at the signe of the Bell,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1586">1586.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of "Lazarillo de Tormes", a fictitious biography attributed to Diego Hurtado de Mendoza.</note>
-         <note>Signatures: A-H.</note>
-         <note>Running title reads: The Spaniardes life.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pleasaunt historie of Lazarillo de Tormes a Spaniarde wherein is conteined his marueilous deedes and life. With the straunge aduentures happened to him in the seruice of sundrie masters. Drawen out of Spanish by Dauid Rouland of Anglesey.</title>
+      <title>Lazarillo de Tormes. English</title>
+      <author>Hurtado de Mendoza, Diego, 1503-1575.</author>
+      <author>Rowland, David, fl. 1569-1586.</author>
+    </titleStmt>
+    <extent>[128] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Abell Ieffes</persName>, dwelling in <placeName>the fore streete without Crepell gate nere Groube streete at the signe of the Bell</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1586">1586.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of "Lazarillo de Tormes", a fictitious biography attributed to Diego Hurtado de Mendoza.</note>
+      <note>Signatures: A-H.</note>
+      <note>Running title reads: The Spaniardes life.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Abell Ieffes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the fore streete without Crepell gate nere Groube streete at the signe of the Bell</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

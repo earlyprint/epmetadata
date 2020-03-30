@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Propositions agreed upon by both Houses of Parliament to be sent to the Kings Majestie for peace and for setling of the church and kingdome, that His Majesty may come to London, and sit with his Parliament. With the copy of a letter from his Majesties court at Hampton Court.</title>
-         <author>England and Wales. Parliament.</author>
-         <author>Corbet, William.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for V,V and are to be sold at the Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">Anno Dom. MDCXLVII. [1647]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The copy of a letter from his Majesties court at Hampton Court" is dated and signed at end: Newmarket 26 of August 1647. Will. Corbet.</note>
-         <note>Annotation on Thomason copy: "August 28".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Propositions agreed upon by both Houses of Parliament to be sent to the Kings Majestie for peace and for setling of the church and kingdome, that His Majesty may come to London, and sit with his Parliament. With the copy of a letter from his Majesties court at Hampton Court.</title>
+      <author>England and Wales. Parliament.</author>
+      <author>Corbet, William.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">V,V</persName> and are to be sold at <placeName>the Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">Anno Dom. MDCXLVII. [1647]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The copy of a letter from his Majesties court at Hampton Court" is dated and signed at end: Newmarket 26 of August 1647. Will. Corbet.</note>
+      <note>Annotation on Thomason copy: "August 28".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>V,V</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

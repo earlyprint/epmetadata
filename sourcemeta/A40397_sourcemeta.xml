@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The annals of King James and King Charles the First ... containing a faithful history and impartial account of the great affairs of state, and transactions of parliaments in England from the tenth of King James MDCXII to the eighteenth of King Charles MDCXLII : wherein several material passages relating to the late civil wars (omitted in former histories) are made known.</title>
-         <author>Frankland, Thomas, 1633-1690.</author>
-      </titleStmt>
-      <extent>[10], 913, [14] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Braddyll, for Robert Clavel ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Yale University Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The annals of King James and King Charles the First ... containing a faithful history and impartial account of the great affairs of state, and transactions of parliaments in England from the tenth of King James MDCXII to the eighteenth of King Charles MDCXLII : wherein several material passages relating to the late civil wars (omitted in former histories) are made known.</title>
+      <author>Frankland, Thomas, 1633-1690.</author>
+    </titleStmt>
+    <extent>[10], 913, [14] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Braddyll</persName>, for <persName type="publisher">Robert Clavel</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Yale University Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Clavel</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Braddyll</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

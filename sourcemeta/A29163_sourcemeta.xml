@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at St. Catherine Cree Church, upon Sunday the 29th of June, 1696 by Nicholas Brady ... ; published at the desire of the parishioners.</title>
-         <author>Brady, Nicholas, 1659-1726.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Rich. Parker ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. 28.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at St. Catherine Cree Church, upon Sunday the 29th of June, 1696 by Nicholas Brady ... ; published at the desire of the parishioners.</title>
+      <author>Brady, Nicholas, 1659-1726.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Rich. Parker</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. 28.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rich. Parker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A godly sermon preached in the court at Greenwich the firste Sonday after the Epiphanie, Anno Domini. 1552. And in the sixt yere of ye raigne of king Edward the sixt, the right godly and vertuous king of famous and blessed memory. By. B.G.</title>
-         <author>Gilpin, Bernard, 1517-1583.</author>
-      </titleStmt>
-      <extent>76 p.   </extent>
-      <publicationStmt>
-         <publisher>by Henrie Middleton, for Thomas Man,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1581">1581.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reprinted in STC 4648.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A godly sermon preached in the court at Greenwich the firste Sonday after the Epiphanie, Anno Domini. 1552. And in the sixt yere of ye raigne of king Edward the sixt, the right godly and vertuous king of famous and blessed memory. By. B.G.</title>
+      <author>Gilpin, Bernard, 1517-1583.</author>
+    </titleStmt>
+    <extent>76 p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Henrie Middleton</persName>, for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1581">1581.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reprinted in STC 4648.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Henrie Middleton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

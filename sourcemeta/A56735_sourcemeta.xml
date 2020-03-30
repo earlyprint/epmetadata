@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to a printed letter to Dr. W.P. concerning non-resistance and other reasons for not taking the Oathes with some queries to the non-swearers in a postscript.</title>
-         <author>Payne, William, 1650-1696.</author>
-      </titleStmt>
-      <extent>[2], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.R. for Brabazon Aylmer,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to William Payne.  Cf. Halkett &amp; Laing (2nd ed.)</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to a printed letter to Dr. W.P. concerning non-resistance and other reasons for not taking the Oathes with some queries to the non-swearers in a postscript.</title>
+      <author>Payne, William, 1650-1696.</author>
+    </titleStmt>
+    <extent>[2], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R.</persName> for <persName type="publisher">Brabazon Aylmer</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to William Payne.  Cf. Halkett &amp; Laing (2nd ed.)</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

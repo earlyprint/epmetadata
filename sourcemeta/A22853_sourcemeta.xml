@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An introduction to the loue of God. Accompted among the workes of S. Augustine, and set forth in his name, very profitable to moue all men to loue God for his benefits receaued</title>
-         <author>Simard, Marie Ange, attributed name.</author>
-         <author>Freake, Edmund, ca. 1516-1591.</author>
-      </titleStmt>
-      <extent>[86] p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Purfoote, dwelling in Paules Church yarde at the signe of the Lucres,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1574">1574]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Probably not, in fact, by Saint Augustine.</note>
-         <note>Imprint from colophon.</note>
-         <note>Dedication signed: Edmund Roffen (i.e. Edmund Freake, Bp. of Rochester).</note>
-         <note>Signatures: A-L&#8308;(-L4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An introduction to the loue of God. Accompted among the workes of S. Augustine, and set forth in his name, very profitable to moue all men to loue God for his benefits receaued</title>
+      <author>Simard, Marie Ange, attributed name.</author>
+      <author>Freake, Edmund, ca. 1516-1591.</author>
+    </titleStmt>
+    <extent>[86] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Purfoote</persName>, dwelling in <placeName>Paules Church yarde at the signe of the Lucres</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1574">1574]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Probably not, in fact, by Saint Augustine.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dedication signed: Edmund Roffen (i.e. Edmund Freake, Bp. of Rochester).</note>
+      <note>Signatures: A-L&#8308;(-L4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Purfoote</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yarde at the signe of the Lucres</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

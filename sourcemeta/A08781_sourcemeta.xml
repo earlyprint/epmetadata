@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A godlie and zealous prayer to bee vsed of euery Christian and duetifull [sic] subiecte for the preseruation of our most soueraigne Lady Elizabeth, by the grace of God, of England, Fraunce, and Irelande Queene, and in all causes as well ecclesiasticall as temporall, next vnder God of the Church of Englande and Irelande supreame gouernesse I.P.</title>
-         <author>I. P.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Hugh Singleton, dwelling in Smithfielde at the signe of the Golden Tunne, printer to the right honorable citie of London,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1586" cert="low">[1586?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Variations from STC (2nd ed.) 19070.7: in heading, "Subiecte", "Irelande", " Church of Englande"; in imprint, "printer", "honorable".</note>
-         <note>Date of publication suggested by STC (2nd ed.) and NUC pre-1956 imprints.</note>
-         <note>Reproduction of original in the Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A godlie and zealous prayer to bee vsed of euery Christian and duetifull [sic] subiecte for the preseruation of our most soueraigne Lady Elizabeth, by the grace of God, of England, Fraunce, and Irelande Queene, and in all causes as well ecclesiasticall as temporall, next vnder God of the Church of Englande and Irelande supreame gouernesse I.P.</title>
+      <author>I. P.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Hugh Singleton</persName>, dwelling in <placeName>Smithfielde at the signe of the Golden Tunne, printer to the right honorable citie of London</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1586" cert="low">[1586?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Variations from STC (2nd ed.) 19070.7: in heading, "Subiecte", "Irelande", " Church of Englande"; in imprint, "printer", "honorable".</note>
+      <note>Date of publication suggested by STC (2nd ed.) and NUC pre-1956 imprints.</note>
+      <note>Reproduction of original in the Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Hugh Singleton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfielde at the signe of the Golden Tunne, printer to the right honorable citie of London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

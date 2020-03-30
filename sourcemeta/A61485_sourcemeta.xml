@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Florus Britannicus, or, An exact epitome of the history of England, from William the Conquerour to the twelfth year of the reign of His Sacred Majesty Charls the Second, now flourishing illustrated with their perfect portraictures in exact copper plates ... / by Mathew Stevenson, Gent.</title>
-         <author>Stevenson, Matthew, fl. 1654-1685.</author>
-      </titleStmt>
-      <extent>[4], 53, [1] p. : ill., ports.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.S. and are to be sold by Thomas Jenner ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Added engraved t.p. with title: An history of the civill warres of England betweene the two houses of Lancaster and Yorke.</note>
-         <note>Wing title reads "Brittanicus" in error.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Florus Britannicus, or, An exact epitome of the history of England, from William the Conquerour to the twelfth year of the reign of His Sacred Majesty Charls the Second, now flourishing illustrated with their perfect portraictures in exact copper plates ... / by Mathew Stevenson, Gent.</title>
+      <author>Stevenson, Matthew, fl. 1654-1685.</author>
+    </titleStmt>
+    <extent>[4], 53, [1] p. : ill., ports.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.S.</persName> and are to be sold by <persName type="bookseller">Thomas Jenner</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Added engraved t.p. with title: An history of the civill warres of England betweene the two houses of Lancaster and Yorke.</note>
+      <note>Wing title reads "Brittanicus" in error.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Jenner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

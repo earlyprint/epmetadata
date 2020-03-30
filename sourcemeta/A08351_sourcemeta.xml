@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of the art of great artillery, viz. The explanation of the most excellent and necessary definitions, and questions, pronounced and propounded, by that rare souldier and mathematician, Thomas Digges Esquire and by him published, in his Stratiaticos, and Pantometria, concerning great ordinance, and his theorems thereupon. Together, vvith certaine expositions, and answers thereunto adioyned: written by Robert Norton gunner. And by him dedicated, to the worshipfull Iohn Reinolds Esquire, master gunner of England.</title>
-         <author>Norton, Robert, d. 1635.</author>
-      </titleStmt>
-      <extent>[6], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw. Allde, for Iohn Tap, and are to bee sold at his shop, at the corner of Saint Magnus Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of the art of great artillery, viz. The explanation of the most excellent and necessary definitions, and questions, pronounced and propounded, by that rare souldier and mathematician, Thomas Digges Esquire and by him published, in his Stratiaticos, and Pantometria, concerning great ordinance, and his theorems thereupon. Together, vvith certaine expositions, and answers thereunto adioyned: written by Robert Norton gunner. And by him dedicated, to the worshipfull Iohn Reinolds Esquire, master gunner of England.</title>
+      <author>Norton, Robert, d. 1635.</author>
+    </titleStmt>
+    <extent>[6], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw. Allde</persName>, for <persName type="publisher">Iohn Tap</persName>, and are to bee sold at <placeName>his shop, at the corner of Saint Magnus Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Tap</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw. Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the corner of Saint Magnus Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

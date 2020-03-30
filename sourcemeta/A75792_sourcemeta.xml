@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of S. Augustine. The first part Written by himself in the first ten books of his Confessions faithfully translated.</title>
-         <title>Confessiones. Liber 1-10. English</title>
-         <author>Augustine, Saint, Bishop of Hippo.</author>
-         <author>R. H., 1609-1678.</author>
-      </titleStmt>
-      <extent>[16], 08 [i.e. 208] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for John Crook, and are to be sold at the sign of the Ship in St. Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated by R.H., i.e. Abraham Woodhead.</note>
-         <note>Running title reads: The life of St. Augustine. Confess. Lib. ..</note>
-         <note>P. 208 misnumbered 08.</note>
-         <note>Annotation on Thomason copy: "Octob".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of S. Augustine. The first part Written by himself in the first ten books of his Confessions faithfully translated.</title>
+      <title>Confessiones. Liber 1-10. English</title>
+      <author>Augustine, Saint, Bishop of Hippo.</author>
+      <author>R. H., 1609-1678.</author>
+    </titleStmt>
+    <extent>[16], 08 [i.e. 208] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">John Crook</persName>, and are to be sold at <placeName>the sign of the Ship in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated by R.H., i.e. Abraham Woodhead.</note>
+      <note>Running title reads: The life of St. Augustine. Confess. Lib. ..</note>
+      <note>P. 208 misnumbered 08.</note>
+      <note>Annotation on Thomason copy: "Octob".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Ship in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

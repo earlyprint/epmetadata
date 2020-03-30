@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A bill of fare for, a Saturday nights supper, a Sunday morning breakfast, and a Munday dinner, described in a pleasant new merry ditie. To the tune of Cooke Laurell, or, Michaelmas terme.</title>
-         <author>M. P. (Martin Parker), d. 1656?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by M. P[arsons] for Fr: Grove, neere the Sarazens head without Newgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1637">[1637]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: M.P., i.e. Martin Parker.</note>
-         <note>Verse - "Ile tell you a iest, which you'l hardly beleeue:".</note>
-         <note>Printer's name and publication date from STC.</note>
-         <note>In two parts; woodcut illustrations at head of part 1.</note>
-         <note>Reproductions of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A bill of fare for, a Saturday nights supper, a Sunday morning breakfast, and a Munday dinner, described in a pleasant new merry ditie. To the tune of Cooke Laurell, or, Michaelmas terme.</title>
+      <author>M. P. (Martin Parker), d. 1656?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M. P[arsons]</persName> for <persName type="publisher">Fr: Grove</persName>, neere <placeName>the Sarazens head without Newgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1637">[1637]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: M.P., i.e. Martin Parker.</note>
+      <note>Verse - "Ile tell you a iest, which you'l hardly beleeue:".</note>
+      <note>Printer's name and publication date from STC.</note>
+      <note>In two parts; woodcut illustrations at head of part 1.</note>
+      <note>Reproductions of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fr: Grove</persName>
+    </person>
+    <person type="printer">
+      <persName>M. P[arsons]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sarazens head without Newgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

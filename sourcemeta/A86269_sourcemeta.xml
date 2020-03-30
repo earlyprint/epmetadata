@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nine select sermons preached upon special occasions in the Parish Church of St. Gregories by St. Pauls. By the late reverend John Hewytt D.D. Together with his publick prayers before and after sermon.</title>
-         <author>Hewit, John, 1614-1658.</author>
-      </titleStmt>
-      <extent>[38], 217, [15] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Henry Eversden at the Greyhound in St. Pauls Church-yard, and Tho. Rooks at the Holy Lamb, at the East end of St. Pauls near the school,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">[1658]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With three final advertisement leaves.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nine select sermons preached upon special occasions in the Parish Church of St. Gregories by St. Pauls. By the late reverend John Hewytt D.D. Together with his publick prayers before and after sermon.</title>
+      <author>Hewit, John, 1614-1658.</author>
+    </titleStmt>
+    <extent>[38], 217, [15] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Henry Eversden</persName> at <placeName>the Greyhound in St. Pauls Church-yard</placeName>, and <persName type="publisher">Tho. Rooks</persName> at <placeName>the Holy Lamb, at the East end of St. Pauls near the school</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">[1658]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With three final advertisement leaves.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Eversden</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Rooks</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Greyhound in St. Pauls Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Holy Lamb, at the East end of St. Pauls near the school</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

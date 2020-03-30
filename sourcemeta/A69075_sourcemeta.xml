@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christian religion: substantially, methodicalli[e,] [pla]inlie, and profitablie treatised</title>
-         <author>Cartwright, Thomas, 1535-1603.</author>
-      </titleStmt>
-      <extent>[2], 315 [i.e. 295], [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Felix Kingston for Thomas Man,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas Cartwright.</note>
-         <note>Signatures: A-Z&#8308; 2A-2O&#8308; 2P&#178; .</note>
-         <note>Formerly STC 5186.</note>
-         <note>Identified as STC 5186 on UMI microfilm.</note>
-         <note>Imperfect; title page torn affecting title.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christian religion: substantially, methodicalli[e,] [pla]inlie, and profitablie treatised</title>
+      <author>Cartwright, Thomas, 1535-1603.</author>
+    </titleStmt>
+    <extent>[2], 315 [i.e. 295], [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Felix Kingston</persName> for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Cartwright.</note>
+      <note>Signatures: A-Z&#8308; 2A-2O&#8308; 2P&#178; .</note>
+      <note>Formerly STC 5186.</note>
+      <note>Identified as STC 5186 on UMI microfilm.</note>
+      <note>Imperfect; title page torn affecting title.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

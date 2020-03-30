@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The interest of the spirit in prayer. By H. Lukin</title>
-         <author>Lukin, H. (Henry), 1628-1719.</author>
-      </titleStmt>
-      <extent>[12], 116, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.D. for Brabazon Aylmer, at the three Pigeons in Cornhil,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1674">1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With errata and advertisement page.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The interest of the spirit in prayer. By H. Lukin</title>
+      <author>Lukin, H. (Henry), 1628-1719.</author>
+    </titleStmt>
+    <extent>[12], 116, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Brabazon Aylmer</persName>, at <placeName>the three Pigeons in Cornhil</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1674">1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With errata and advertisement page.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Pigeons in Cornhil</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

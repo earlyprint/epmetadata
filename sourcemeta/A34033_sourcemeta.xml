@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The grand impostor discovered, or, An historical dispute of the papacy and popish religion ... divided in four parts : 1. of bishops, 2. of arch-bishops, 3. of an &#339;cumenick bishop, 4. of Antichrist : Part I, divided in two books ... / by S.C.</title>
-         <author>Colvil, Samuel.</author>
-      </titleStmt>
-      <extent>[64], 226, 92, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by His Majesties printer for the author,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Samuel Colvill.</note>
-         <note>No more published.</note>
-         <note>Errata on p. [1] at end.</note>
-         <note>Reproduction of original in Edinburgh University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The grand impostor discovered, or, An historical dispute of the papacy and popish religion ... divided in four parts : 1. of bishops, 2. of arch-bishops, 3. of an &#339;cumenick bishop, 4. of Antichrist : Part I, divided in two books ... / by S.C.</title>
+      <author>Colvil, Samuel.</author>
+    </titleStmt>
+    <extent>[64], 226, 92, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">His Majesties printer</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Samuel Colvill.</note>
+      <note>No more published.</note>
+      <note>Errata on p. [1] at end.</note>
+      <note>Reproduction of original in Edinburgh University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>His Majesties printer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

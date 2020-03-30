@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation for reforming the abuses in making of gold and siluer threed within this realme and for the inhibiting the importation thereof, from the parts beyond the seas.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>3, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton and Iohn Bill, deputies and assignes of Robert Barker ...,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1617">M. DC. XVII [1617]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>"Giuen at White-hall the two and twentieth day of March, in the fifteenth yeere of our reigne ..."--P. [4].</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation for reforming the abuses in making of gold and siluer threed within this realme and for the inhibiting the importation thereof, from the parts beyond the seas.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>3, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill, deputies and</persName> assignes of <persName type="assigns">Robert Barker</persName> ...,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1617">M. DC. XVII [1617]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>"Giuen at White-hall the two and twentieth day of March, in the fifteenth yeere of our reigne ..."--P. [4].</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill, deputies and</persName>
+    </person>
+    <person type="assigns">
+      <persName>Robert Barker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

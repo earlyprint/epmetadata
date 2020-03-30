@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>We are informed that there hath bene of late (through neglect of the lawes of our realme, and such good orders as haue bene taken) so great a transportation of horses into forraine parts, ...</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By the deputies of Robert Baker, printer to the Kings most excellent Maiestie.,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1608">Anno 1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated at end: Holdenby the xiiij. day of August, in the sixt yeere of our reigne ...</note>
-         <note>Forbidding export of horses except by royal licence. Cf. STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>We are informed that there hath bene of late (through neglect of the lawes of our realme, and such good orders as haue bene taken) so great a transportation of horses into forraine parts, ...</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the deputies of Robert Baker</persName>, printer to <persName type="patron">the Kings most excellent Maiestie.</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1608">Anno 1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated at end: Holdenby the xiiij. day of August, in the sixt yeere of our reigne ...</note>
+      <note>Forbidding export of horses except by royal licence. Cf. STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the deputies of Robert Baker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

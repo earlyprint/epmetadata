@@ -1,17 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mankind displayed: or, The history of the little vvorld being a curious collection out of the best authors of the most wonderful and remarkable things that have been performed by men and women in the several ages of the world; together with select observations, philosophical precepts, maxims of state, &amp;c.</title>
-      </titleStmt>
-      <extent>[8], 136 p.   </extent>
-      <publicationStmt>
-         <publisher>printed, by H.C. for Thomas Northcott, in George-Yard, in Lumbard-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mankind displayed: or, The history of the little vvorld being a curious collection out of the best authors of the most wonderful and remarkable things that have been performed by men and women in the several ages of the world; together with select observations, philosophical precepts, maxims of state, &amp;c.</title>
+    </titleStmt>
+    <extent>[8], 136 p.   </extent>
+    <publicationStmt>
+      <publisher>printed, by <persName type="printer">H.C.</persName> for <persName type="publisher">Thomas Northcott</persName>, in <placeName>George-Yard, in Lumbard-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Northcott</persName>
+    </person>
+    <person type="printer">
+      <persName>H.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>George-Yard, in Lumbard-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation. William R. Whereas in and by one Act made and passed in the last session of Parliament (intituled, An Act for granting an aid to His Majesty, as well by a land tax, as by several subsidies and other duties payable for one year) ...</title>
-         <author>England and Wales. Sovereign (1694-1702 : William III)</author>
-         <author>William III, King of England, 1650-1702.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, and the executrix of Thomas Newcomb, deceas'd; printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Recites the provisions of acts of the last session of Parliament by which the issue of Exchequer Bills for &#163;1,500,000, bearing interest 5d. per &#163;100 per diem, is regulated.</note>
-         <note>At end: Given at Our Court at Kensington the three and twentieth day of April, 1697. In the ninth year of Our Reign.</note>
-         <note>In this edition, the imprint ends: "Printers".</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation. William R. Whereas in and by one Act made and passed in the last session of Parliament (intituled, An Act for granting an aid to His Majesty, as well by a land tax, as by several subsidies and other duties payable for one year) ...</title>
+      <author>England and Wales. Sovereign (1694-1702 : William III)</author>
+      <author>William III, King of England, 1650-1702.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill, and the executrix of Thomas Newcomb, deceas'd;</persName> printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Recites the provisions of acts of the last session of Parliament by which the issue of Exchequer Bills for &#163;1,500,000, bearing interest 5d. per &#163;100 per diem, is regulated.</note>
+      <note>At end: Given at Our Court at Kensington the three and twentieth day of April, 1697. In the ninth year of Our Reign.</note>
+      <note>In this edition, the imprint ends: "Printers".</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the executrix of Thomas Newcomb, deceas'd;</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

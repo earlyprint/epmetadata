@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new dialogue between Dick of Kent, and Wat the Welch-man. Filled up with many pretty conceits, written and printed on purpose to make folks merry in time of sadnesse. / By Laurence Price. This new conceited book will move delights, and serve to passe away some dolesome dayes, also the tedious melancholy nights, for in the same is many a pretty phrase. No harm at all is in't but mirth and joy, then buy it first, then bear't with you away.</title>
-         <author>L. P. (Laurence Price), fl. 1625-1680?</author>
-      </titleStmt>
-      <extent>[4], 10, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Andrews at the White Lyon in the Old-Baily.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verso of first leaf bears woodcut illustration.</note>
-         <note>Annotation on Thomason copy: "July. 2".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new dialogue between Dick of Kent, and Wat the Welch-man. Filled up with many pretty conceits, written and printed on purpose to make folks merry in time of sadnesse. / By Laurence Price. This new conceited book will move delights, and serve to passe away some dolesome dayes, also the tedious melancholy nights, for in the same is many a pretty phrase. No harm at all is in't but mirth and joy, then buy it first, then bear't with you away.</title>
+      <author>L. P. (Laurence Price), fl. 1625-1680?</author>
+    </titleStmt>
+    <extent>[4], 10, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Andrews</persName> at <placeName>the White Lyon in the Old-Baily.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verso of first leaf bears woodcut illustration.</note>
+      <note>Annotation on Thomason copy: "July. 2".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Andrews</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Lyon in the Old-Baily.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

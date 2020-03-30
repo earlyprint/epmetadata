@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The historye of the damnable life and deserued death of Doctor Iohn Faustus Newly imprinted, and in conuenient places, imperfect matter amended: according to the true coppy printed at Franckfort, and translated into English by P.F. Gent.</title>
-         <author>P. F., Gent.</author>
-      </titleStmt>
-      <extent>[80] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw: All-de for Edward White, and are to be solde at his shop neare the little North doore of St. Pauls Church, at the Signe of the Gun,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-K&#8308;.</note>
-         <note>Running title reads: The famous history of Doctor Faustus.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The historye of the damnable life and deserued death of Doctor Iohn Faustus Newly imprinted, and in conuenient places, imperfect matter amended: according to the true coppy printed at Franckfort, and translated into English by P.F. Gent.</title>
+      <author>P. F., Gent.</author>
+    </titleStmt>
+    <extent>[80] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw: All-de</persName> for <persName type="publisher">Edward White</persName>, and are to be solde at <placeName>his shop neare the little North doore of St. Pauls Church, at the Signe of the Gun</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-K&#8308;.</note>
+      <note>Running title reads: The famous history of Doctor Faustus.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward White</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw: All-de</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neare the little North doore of St. Pauls Church, at the Signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

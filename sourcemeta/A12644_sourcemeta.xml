@@ -1,28 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>St Peters complainte Mary Magdal&#183; teares. Wth other workes of the author R:S</title>
-         <title>Poems. Selected Poems</title>
-         <author>Southwell, Robert, Saint, 1561?-1595.</author>
-         <author>Barret, William.</author>
-      </titleStmt>
-      <extent>[576] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Richard Field] for W: Barrett,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1620">1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R:S: = Robert Southwell.</note>
-         <note>Editor's dedication signed: W. Barret.</note>
-         <note>Mostly in verse.</note>
-         <note>The title page is engraved; the "te" in "complainte" is a monogram.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-2A12.</note>
-         <note>"M&#339;oni&#230;", "Marie Magdalens funerall teares", "The triumphs ouer death", and "Short rules of good life" each have separate title page; register is continuous.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Some print faded and show-thorough; pages stained and tightly bound. C12v-D11r, N12V-O12r, and V12v-end from the Bodleian Library copy spliced at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>St Peters complainte Mary Magdal&#183; teares. Wth other workes of the author R:S</title>
+      <title>Poems. Selected Poems</title>
+      <author>Southwell, Robert, Saint, 1561?-1595.</author>
+      <author>Barret, William.</author>
+    </titleStmt>
+    <extent>[576] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Richard Field]</persName> for <persName type="publisher">W: Barrett</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1620">1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R:S: = Robert Southwell.</note>
+      <note>Editor's dedication signed: W. Barret.</note>
+      <note>Mostly in verse.</note>
+      <note>The title page is engraved; the "te" in "complainte" is a monogram.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-2A12.</note>
+      <note>"M&#339;oni&#230;", "Marie Magdalens funerall teares", "The triumphs ouer death", and "Short rules of good life" each have separate title page; register is continuous.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Some print faded and show-thorough; pages stained and tightly bound. C12v-D11r, N12V-O12r, and V12v-end from the Bodleian Library copy spliced at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W: Barrett</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

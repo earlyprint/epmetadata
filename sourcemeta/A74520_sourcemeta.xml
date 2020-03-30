@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Protector. A proclamation of his Highness concerning a cessation of all acts of hostility between the Commonwealth of England, and that of the United Provinces, and their respective people, and the restitution of all things taken and seized upon by either party after the fourth of this instant May.</title>
-         <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
-         <author>England and Wales. Council of State.</author>
-      </titleStmt>
-      <extent>285-288 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Will. du-Gard and Hen. Hills, Printers to His Highness the Lord Protector,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1654">1654]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Dated at end: Given at Whitehall this first of May, in the year 1654.</note>
-         <note>Annotation on Thomason copy: "May ye 1st: 1654:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Protector. A proclamation of his Highness concerning a cessation of all acts of hostility between the Commonwealth of England, and that of the United Provinces, and their respective people, and the restitution of all things taken and seized upon by either party after the fourth of this instant May.</title>
+      <author>England and Wales. Lord Protector (1653-1658 : O. Cromwell)</author>
+      <author>England and Wales. Council of State.</author>
+    </titleStmt>
+    <extent>285-288 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Will. du-Gard</persName> and <persName type="printer">Hen. Hills</persName>, Printers to <persName type="patron">His Highness the Lord Protector</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1654">1654]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dated at end: Given at Whitehall this first of May, in the year 1654.</note>
+      <note>Annotation on Thomason copy: "May ye 1st: 1654:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Hen. Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Will. du-Gard</persName>
+    </person>
+    <person type="patron">
+      <persName>His Highness the Lord Protector</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

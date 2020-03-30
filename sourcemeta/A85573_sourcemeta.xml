@@ -1,17 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Great and bloody plot discovered against His Royal Majesty, Charles, by the grace of God king of Great Britain, France, and Ireland. And the names of the chief actors and conspirators, who desperately threatened to wash their wicked hands in his royal blood. : With the beheading of one of the grand traytors.</title>
-      </titleStmt>
-      <extent>8 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Chamberlain, living near the White Swan at Holborn-bridge,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Great and bloody plot discovered against His Royal Majesty, Charles, by the grace of God king of Great Britain, France, and Ireland. And the names of the chief actors and conspirators, who desperately threatened to wash their wicked hands in his royal blood. : With the beheading of one of the grand traytors.</title>
+    </titleStmt>
+    <extent>8 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Chamberlain</persName>, living near <placeName>the White Swan at Holborn-bridge</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Chamberlain</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Swan at Holborn-bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

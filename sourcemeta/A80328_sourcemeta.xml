@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A confession of faith of seven congregations or churches of Christ in London, which are commonly (but uniustly) called Anabaptists. Published for the vindication of the truth, and information of the ignorant; likewise for the taking off of those aspersions which are frequently both in pulpit and print unjustly cast upon them. The second impression corrected and enlarged. Published according to order.</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Math. Simmons, and are to be sold by John Hancock in Popes-head Alley.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: between 'of' and 'faith' in title: "the 16 Anabtists [sic]"; "Jan: 28th".</note>
-         <note>Signatures: A-C&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A confession of faith of seven congregations or churches of Christ in London, which are commonly (but uniustly) called Anabaptists. Published for the vindication of the truth, and information of the ignorant; likewise for the taking off of those aspersions which are frequently both in pulpit and print unjustly cast upon them. The second impression corrected and enlarged. Published according to order.</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Math. Simmons</persName>, and are to be sold by <persName type="bookseller">John Hancock</persName> in <placeName>Popes-head Alley.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: between 'of' and 'faith' in title: "the 16 Anabtists [sic]"; "Jan: 28th".</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Math. Simmons</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Hancock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

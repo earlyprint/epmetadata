@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the natural condition of being in the flesh. A sermon / preached by Nicholas Smyth ... And published at the request of some private friends for the publique good.</title>
-         <author>Smith, Nicholas, d. 1680.</author>
-      </titleStmt>
-      <extent>[8], 51 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Owsley, for Rich. Knowls,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the natural condition of being in the flesh. A sermon / preached by Nicholas Smyth ... And published at the request of some private friends for the publique good.</title>
+      <author>Smith, Nicholas, d. 1680.</author>
+    </titleStmt>
+    <extent>[8], 51 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Owsley</persName>, for <persName type="publisher">Rich. Knowls</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rich. Knowls</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Owsley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

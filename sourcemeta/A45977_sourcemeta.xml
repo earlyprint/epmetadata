@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the better observation of the Lords-day commonly called Sunday.</title>
-         <title>Public General Acts. 1695. 7 Wil.III.c.17.</title>
-         <author>Ireland.</author>
-      </titleStmt>
-      <extent>9, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Andrew Crook, printer to the Kings Most Excellent Majesty, on Ormonde-Key,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Enacted: Public General Acts, 1695. 7 Wil.III.c.17.</note>
-         <note>Running title reads: Anno regni septimo Gulielmi Tertii.</note>
-         <note>Reproduction of the original in the National Library of Ireland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the better observation of the Lords-day commonly called Sunday.</title>
+      <title>Public General Acts. 1695. 7 Wil.III.c.17.</title>
+      <author>Ireland.</author>
+    </titleStmt>
+    <extent>9, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Andrew Crook</persName>, printer to <persName type="patron">the Kings Most Excellent Majesty</persName>, on <placeName>Ormonde-Key</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Enacted: Public General Acts, 1695. 7 Wil.III.c.17.</note>
+      <note>Running title reads: Anno regni septimo Gulielmi Tertii.</note>
+      <note>Reproduction of the original in the National Library of Ireland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

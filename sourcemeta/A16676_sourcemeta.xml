@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The schollers medley, or, an intermixt discourse vpon historicall and poeticall relations A subiect of it selfe well meriting the approbation of the iudicious, who best know how to confirme their knowledge, by this briefe suruey, or generall table of mixed discourses. ... By Richard Brathvvayte Oxon.</title>
-         <author>Brathwaite, Richard, 1588?-1673.</author>
-      </titleStmt>
-      <extent>[8], 118, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by N[icholas] O[kes] for George Norton, and are to bee sold at his shop neere Temple-barre,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1614">1614.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Running title reads: A suruey of histories.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The schollers medley, or, an intermixt discourse vpon historicall and poeticall relations A subiect of it selfe well meriting the approbation of the iudicious, who best know how to confirme their knowledge, by this briefe suruey, or generall table of mixed discourses. ... By Richard Brathvvayte Oxon.</title>
+      <author>Brathwaite, Richard, 1588?-1673.</author>
+    </titleStmt>
+    <extent>[8], 118, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">N[icholas] O[kes]</persName> for <persName type="publisher">George Norton</persName>, and are to bee sold at <placeName>his shop neere Temple-barre</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1614">1614.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Running title reads: A suruey of histories.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>N[icholas] O[kes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Temple-barre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

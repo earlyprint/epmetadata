@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A warning for worldlings, or, A comfort to the godly, and a terror to the wicked set forth dialogue wise, betweene a scholler and a trauailer / by Ieremie Corderoy, student in Oxford.</title>
-         <author>Corderoy, Jeremy, b. 1562 or 3.</author>
-      </titleStmt>
-      <extent>[22], 341 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Purfoot, for Lawrence Lyle, and are to be sold at the Tygars head in Paules Church-yard,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Error in paging: 140, 141 repeated, and 142, 143 lacking, in number only.</note>
-         <note>Signatures: A-P&#185;&#178;, Q&#179;.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A warning for worldlings, or, A comfort to the godly, and a terror to the wicked set forth dialogue wise, betweene a scholler and a trauailer / by Ieremie Corderoy, student in Oxford.</title>
+      <author>Corderoy, Jeremy, b. 1562 or 3.</author>
+    </titleStmt>
+    <extent>[22], 341 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Purfoot</persName>, for <persName type="publisher">Lawrence Lyle</persName>, and are to be sold at <placeName>the Tygars head in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Error in paging: 140, 141 repeated, and 142, 143 lacking, in number only.</note>
+      <note>Signatures: A-P&#185;&#178;, Q&#179;.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Lawrence Lyle</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoot</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Tygars head in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

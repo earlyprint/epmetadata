@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>All mistaken, or, The mad couple a comedy : acted by His Majestyes servants, at the Theatre Royal / written by the Honorable James Howard, Esq.</title>
-         <author>Howard, James, fl. 1672-1674.</author>
-      </titleStmt>
-      <extent>[5], 69 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Brugis for James Magnes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>All mistaken, or, The mad couple a comedy : acted by His Majestyes servants, at the Theatre Royal / written by the Honorable James Howard, Esq.</title>
+      <author>Howard, James, fl. 1672-1674.</author>
+    </titleStmt>
+    <extent>[5], 69 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Brugis</persName> for <persName type="publisher">James Magnes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Magnes</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Brugis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

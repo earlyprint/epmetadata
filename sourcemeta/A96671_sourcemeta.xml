@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true account from on board the good ship C&#230;sar, in her voyage to the East Indies&#183; Captain - Wright commander.</title>
-         <author>Walford, William, fl. 1687.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by H. Hills, Jun. and are to be sold by Randal Taylor, near Stationers Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: William Walford.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true account from on board the good ship C&#230;sar, in her voyage to the East Indies&#183; Captain - Wright commander.</title>
+      <author>Walford, William, fl. 1687.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">H. Hills</persName>, <persName type="printer">Jun.</persName> and are to be sold by <persName type="bookseller">Randal Taylor</persName>, near <placeName>Stationers Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: William Walford.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>H. Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Jun.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

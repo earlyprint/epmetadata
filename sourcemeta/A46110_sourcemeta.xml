@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Whereas by occasion of the backwardness of many of His Majesties tenants farmers and debtors in payment of the rents and other debts due and payable by them ... by the Lord Lieutenant and Council, Ormonde.</title>
-         <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
-         <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
-      </titleStmt>
-      <extent>[2] leaves.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Crooke ... and are to be sold by Samuel Dancer ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1667">1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Title from first lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>Statement of responsibility transposed from head of title.</note>
-         <note>"Given at the castle of Kilkenny, the 11th day of September, 1667.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Whereas by occasion of the backwardness of many of His Majesties tenants farmers and debtors in payment of the rents and other debts due and payable by them ... by the Lord Lieutenant and Council, Ormonde.</title>
+      <author>Ireland. Lord Lieutenant (1661-1669 : Ormonde)</author>
+      <author>Ormonde, James Butler, Duke of, 1610-1688.</author>
+    </titleStmt>
+    <extent>[2] leaves.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Crooke</persName> ... and are to be sold by <persName type="bookseller">Samuel Dancer</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1667">1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Title from first lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>Statement of responsibility transposed from head of title.</note>
+      <note>"Given at the castle of Kilkenny, the 11th day of September, 1667.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Crooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

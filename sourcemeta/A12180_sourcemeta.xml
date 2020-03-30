@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christs exaltation purchast by humiliation Wherein you may see mercy and misery meete together. Very vsefull I. For instructing the ignorant. II. For comforting the weake. III. For confirming the strong. By R. Sibbs D.D. and preacher of Grayes-Inne, London. Published by T.G. and P.N.</title>
-         <author>Sibbes, Richard, 1577-1635.</author>
-         <author>Goodwin, Thomas, 1600-1680.</author>
-         <author>Nye, Philip, 1596?-1672.</author>
-      </titleStmt>
-      <extent>[8], 196 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes, and are to be sold by Iohn Bartlet at his shop, at the signe of the guilt Cup, neere S. Austins gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.G. and P.N. = Thomas Goodwin and Philip Nye.</note>
-         <note>Three sermons on Romans XIV, 9.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christs exaltation purchast by humiliation Wherein you may see mercy and misery meete together. Very vsefull I. For instructing the ignorant. II. For comforting the weake. III. For confirming the strong. By R. Sibbs D.D. and preacher of Grayes-Inne, London. Published by T.G. and P.N.</title>
+      <author>Sibbes, Richard, 1577-1635.</author>
+      <author>Goodwin, Thomas, 1600-1680.</author>
+      <author>Nye, Philip, 1596?-1672.</author>
+    </titleStmt>
+    <extent>[8], 196 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName>, and are to be sold by <persName type="bookseller">Iohn Bartlet</persName> at <placeName>his shop, at the signe of the guilt Cup, neere S. Austins gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.G. and P.N. = Thomas Goodwin and Philip Nye.</note>
+      <note>Three sermons on Romans XIV, 9.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Bartlet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the signe of the guilt Cup, neere S. Austins gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

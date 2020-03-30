@@ -1,24 +1,52 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The manuall of prayers, or the prymer in Englyshe set out at lengthe, whose contentes the reader by the prologe next after the kalendar, shal sone perceaue and there in shal se brefly the order of the whole boke. Set forth by Ihon late bysshope of Rochester at the co[m]aundement the ryght honorable Lorde Thomas Cro[m]wel, Lorde Priuie seale Uicegerent to the Kynges hyghnes.</title>
-         <title>Book of hours (Salisbury). English</title>
-         <author>Church of England.</author>
-         <author>Hilsey, John, d. 1539. aut</author>
-      </titleStmt>
-      <extent>[240] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Imprynted at bottoll lane, at the sygne of the whyt beare by me Ihon Mayler for Ihon Waylande, and be to sell in powles churchyarde, by Andrewe Hester at the whyt horse, and also by Mychel Lobley, at the sygne of saynt Mychell. Cum priuilegio ad imprimendum solum,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1539">1539]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>At foot of title page: Cum priuilegio ad imprimendum solum.</note>
-         <note>Signatures: A-Z&#8308; 2A-2G&#8308;.</note>
-         <note>Reproduction of the original in the Boston Public Library, Boston, Mass.</note>
-         <note>Imperfect: the title page is a facsimile.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The manuall of prayers, or the prymer in Englyshe set out at lengthe, whose contentes the reader by the prologe next after the kalendar, shal sone perceaue and there in shal se brefly the order of the whole boke. Set forth by Ihon late bysshope of Rochester at the co[m]aundement the ryght honorable Lorde Thomas Cro[m]wel, Lorde Priuie seale Uicegerent to the Kynges hyghnes.</title>
+      <title>Book of hours (Salisbury). English</title>
+      <author>Church of England.</author>
+      <author>Hilsey, John, d. 1539. aut</author>
+    </titleStmt>
+    <extent>[240] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Imprynted at <placeName>bottoll lane, at the sygne of the whyt beare</placeName> by <persName type="printer">me Ihon Mayler</persName> for <persName type="publisher">Ihon Waylande, and be to sell</persName> in <placeName>powles churchyarde</placeName>, by <persName type="printer">Andrewe Hester</persName> at <placeName>the whyt horse</placeName>, and also by <persName type="printer">Mychel Lobley</persName>, at <placeName>the sygne of saynt Mychell. Cum priuilegio ad imprimendum solum</placeName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1539">1539]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>At foot of title page: Cum priuilegio ad imprimendum solum.</note>
+      <note>Signatures: A-Z&#8308; 2A-2G&#8308;.</note>
+      <note>Reproduction of the original in the Boston Public Library, Boston, Mass.</note>
+      <note>Imperfect: the title page is a facsimile.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ihon Waylande, and be to sell</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrewe Hester</persName>
+    </person>
+    <person type="printer">
+      <persName>Mychel Lobley</persName>
+    </person>
+    <person type="printer">
+      <persName>me Ihon Mayler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>bottoll lane, at the sygne of the whyt beare</placeName>
+    </place>
+    <place type="location">
+      <placeName>powles churchyarde</placeName>
+    </place>
+    <place type="location">
+      <placeName>the sygne of saynt Mychell. Cum priuilegio ad imprimendum solum</placeName>
+    </place>
+    <place type="location">
+      <placeName>the whyt horse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

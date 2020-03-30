@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the honourable Citie of London. The humble petition of Philip Skippon, Esq;</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for William Waterson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">[1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A satire, not in fact by Philip Skippon. -- Cf. Wing.</note>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "March. 8. 1659".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the honourable Citie of London. The humble petition of Philip Skippon, Esq;</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">William Waterson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">[1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A satire, not in fact by Philip Skippon. -- Cf. Wing.</note>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "March. 8. 1659".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Waterson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

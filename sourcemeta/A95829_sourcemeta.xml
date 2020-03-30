@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Certain proposals humbly presented to the Parliament, in relation to the common good of the people of this nation. By R.V. Esq;</title>
-         <author>Vaughan, Rice.</author>
-      </titleStmt>
-      <extent>11, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Tyton, and are to be sold at his shop at sign of the three Daggers in Fleetstreet, near the Inner-Temple-gate.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1652">1653. [i.e. 1652]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R.V. = Rice Vaughan.</note>
-         <note>Thomason received his copy 3 December 1652.</note>
-         <note>Annotations on Thomason copy: "Deb: 3d. 1652"; the '3' in the imprint has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Certain proposals humbly presented to the Parliament, in relation to the common good of the people of this nation. By R.V. Esq;</title>
+      <author>Vaughan, Rice.</author>
+    </titleStmt>
+    <extent>11, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Tyton</persName>, and are to be sold at <placeName>his shop at sign of the three Daggers in Fleetstreet, near the Inner-Temple-gate.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1652">1653. [i.e. 1652]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R.V. = Rice Vaughan.</note>
+      <note>Thomason received his copy 3 December 1652.</note>
+      <note>Annotations on Thomason copy: "Deb: 3d. 1652"; the '3' in the imprint has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at sign of the three Daggers in Fleetstreet, near the Inner-Temple-gate.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

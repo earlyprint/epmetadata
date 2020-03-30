@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The journal or diary of a thankful Christian presented in some meditations upon Numb. 33:2 / by J.B., Master of Arts, and Minister of the Gospel at Barnstone in Essex.</title>
-         <author>Beadle, John, d. 1667.</author>
-         <author>Fuller, John, b. 1640 or 41.</author>
-      </titleStmt>
-      <extent>[47], 184, [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Cotes for Tho. Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The epistle dedicatory" signed: John Beadle.</note>
-         <note>"To the reader" signed: John Fuller.</note>
-         <note>Advertisements on p. [46].</note>
-         <note>Errata: p. [47].</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The journal or diary of a thankful Christian presented in some meditations upon Numb. 33:2 / by J.B., Master of Arts, and Minister of the Gospel at Barnstone in Essex.</title>
+      <author>Beadle, John, d. 1667.</author>
+      <author>Fuller, John, b. 1640 or 41.</author>
+    </titleStmt>
+    <extent>[47], 184, [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Cotes</persName> for <persName type="publisher">Tho. Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The epistle dedicatory" signed: John Beadle.</note>
+      <note>"To the reader" signed: John Fuller.</note>
+      <note>Advertisements on p. [46].</note>
+      <note>Errata: p. [47].</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

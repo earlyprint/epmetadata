@@ -1,21 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sermons vvith some religious and diuine meditations. By the Right Reuerend Father in God, Arthure Lake, late Lord Bishop of Bath and Wells. Whereunto is prefixed by way of preface, a short view of the life and vertues of the author</title>
-         <author>Lake, Arthur, 1569-1626.</author>
-      </titleStmt>
-      <extent>[36], 547, [3], 322, 187 [1]; [52] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Stansby [and R. Young, Thomas and Richard Cotes] for Nathaniel Butter,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1629">1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank.</note>
-         <note>"Nine sermons on the two and twentith chapter of the Gospell according to S. Mathew", "Ten sermons deliuered on the nineteenth chapter of Exodus", "Fiue sermons preached in Saint Maries in Oxford", and "A sermon preached at Pauls Crosse" each have separate dated title page; pagination is continuous. "Sundrie sermons de tempore" has separate pagination beginning on 3A2r, and dated title page with "printed by R. Young" in imprint. "A sermon preached at St Andrewes in VVelles" (caption title) begins new pagination on 4A1r; within this series, "Sundrie sermons preached at court" has separate dated title page with "printed by T[homas]. C[otes]. and R[ichard]. C[otes]." in imprint.</note>
-         <note>"Meditations" has separate dated title page, pagination, and register.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sermons vvith some religious and diuine meditations. By the Right Reuerend Father in God, Arthure Lake, late Lord Bishop of Bath and Wells. Whereunto is prefixed by way of preface, a short view of the life and vertues of the author</title>
+      <author>Lake, Arthur, 1569-1626.</author>
+    </titleStmt>
+    <extent>[36], 547, [3], 322, 187 [1]; [52] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Stansby</persName> [and <persName type="printer">R. Young</persName>, <persName type="printer">Thomas</persName> and <persName type="printer">Richard Cotes]</persName> for <persName type="publisher">Nathaniel Butter</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1629">1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>"Nine sermons on the two and twentith chapter of the Gospell according to S. Mathew", "Ten sermons deliuered on the nineteenth chapter of Exodus", "Fiue sermons preached in Saint Maries in Oxford", and "A sermon preached at Pauls Crosse" each have separate dated title page; pagination is continuous. "Sundrie sermons de tempore" has separate pagination beginning on 3A2r, and dated title page with "printed by R. Young" in imprint. "A sermon preached at St Andrewes in VVelles" (caption title) begins new pagination on 4A1r; within this series, "Sundrie sermons preached at court" has separate dated title page with "printed by T[homas]. C[otes]. and R[ichard]. C[otes]." in imprint.</note>
+      <note>"Meditations" has separate dated title page, pagination, and register.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Young</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

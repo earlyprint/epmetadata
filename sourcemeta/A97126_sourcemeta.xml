@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The good-vvill of Him that dwelt in the bush: or, The extraordinary happinesse of living under an extraordinary providence. A sermon preached before the Right Honourable, the House of Lords, in the Abbey Church at Westminster, on Tuesday, Iuly 22. 1645. At their publike thanksgiving for the good successe given to the Parliaments forces, under the command of Sir Thomas Fairfax in the west. /</title>
-         <author>Ward, John, d. 1665.</author>
-      </titleStmt>
-      <extent>[6], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Christopher Meredith, at the signe of the Crane in Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print on verso of first leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The good-vvill of Him that dwelt in the bush: or, The extraordinary happinesse of living under an extraordinary providence. A sermon preached before the Right Honourable, the House of Lords, in the Abbey Church at Westminster, on Tuesday, Iuly 22. 1645. At their publike thanksgiving for the good successe given to the Parliaments forces, under the command of Sir Thomas Fairfax in the west. /</title>
+      <author>Ward, John, d. 1665.</author>
+    </titleStmt>
+    <extent>[6], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Christopher Meredith</persName>, at <placeName>the signe of the Crane in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print on verso of first leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crane in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>
