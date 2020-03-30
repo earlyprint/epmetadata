@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The argument of the Letter concerning toleration, briefly consider'd and answer'd</title>
-         <author>Proast, Jonas.</author>
-      </titleStmt>
-      <extent>[5], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at the Theatre for George West and Henry Clements...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement on prelim. p. [5].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The argument of the Letter concerning toleration, briefly consider'd and answer'd</title>
+      <author>Proast, Jonas.</author>
+    </titleStmt>
+    <extent>[5], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the Theatre</placeName> for <persName type="publisher">George West</persName> and <persName type="publisher">Henry Clements</persName>...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement on prelim. p. [5].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George West</persName>
+    </person>
+    <person type="publisher">
+      <persName>Henry Clements</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Theatre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

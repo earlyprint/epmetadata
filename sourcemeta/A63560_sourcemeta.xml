@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True narrative of the bloody murther of the Earl of Essex upon himself being now prisoner in the Tower.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Scott,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True narrative of the bloody murther of the Earl of Essex upon himself being now prisoner in the Tower.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Scott</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Scott</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

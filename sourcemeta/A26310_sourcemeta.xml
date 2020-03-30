@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new journal of Italy containing what is most remarkable of the antiquities of Rome, Savoy and Naples : with observations made upon the strength, beauty and scituation [sic] of some other towns and forts in by William Acton.</title>
-         <author>Acton, William.</author>
-      </titleStmt>
-      <extent>[5], 78 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new journal of Italy containing what is most remarkable of the antiquities of Rome, Savoy and Naples : with observations made upon the strength, beauty and scituation [sic] of some other towns and forts in by William Acton.</title>
+      <author>Acton, William.</author>
+    </titleStmt>
+    <extent>[5], 78 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Baldwin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

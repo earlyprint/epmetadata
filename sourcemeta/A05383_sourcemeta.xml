@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The holy pilgrime, leading the way to heaven. Or, a diuine direction in the way of life, containing a familiar exposition of such secrets in diuinity, as may direct the simple in the way of their Christian pilgrimage In two books. The first declaring what man is in the mistery of himselfe. The second, what man is in the happines of Christ. Written by C.L.</title>
-         <title>Holy pilgrime, leading the way to new Jerusalem</title>
-         <author>Lever, Christopher, fl. 1627.</author>
-      </titleStmt>
-      <extent>[14], 271, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted for Bar: Alsop for William Barringer, and are to be sold at his shop at the great north dore of S. Paules Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An edition of: Lever, Christopher.  The holy pilgrim, leading the way to new Jerusalem.</note>
-         <note>Part 2, "The second part of the holy pilgrime, leading the way to new Jerusalem", 1617, has its own separately dated title page (London, 1617); pagination and register are continuous.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The holy pilgrime, leading the way to heaven. Or, a diuine direction in the way of life, containing a familiar exposition of such secrets in diuinity, as may direct the simple in the way of their Christian pilgrimage In two books. The first declaring what man is in the mistery of himselfe. The second, what man is in the happines of Christ. Written by C.L.</title>
+      <title>Holy pilgrime, leading the way to new Jerusalem</title>
+      <author>Lever, Christopher, fl. 1627.</author>
+    </titleStmt>
+    <extent>[14], 271, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted for <persName type="publisher">Bar: Alsop</persName> for <persName type="publisher">William Barringer</persName>, and are to be sold at <placeName>his shop at the great north dore of S. Paules Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An edition of: Lever, Christopher.  The holy pilgrim, leading the way to new Jerusalem.</note>
+      <note>Part 2, "The second part of the holy pilgrime, leading the way to new Jerusalem", 1617, has its own separately dated title page (London, 1617); pagination and register are continuous.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Bar: Alsop</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Barringer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the great north dore of S. Paules Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

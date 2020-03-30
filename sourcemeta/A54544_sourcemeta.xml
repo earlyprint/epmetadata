@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The peti[tion] of the [inhabi]tants of Cy[rencester,] whose names ar[e hereunto] subscribed Presented to His M[ajesty] at Oxford. With His Maiest[yes] answer thereunto.</title>
-         <author>Sollace, Andrew.</author>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I) aut</author>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>February 28. By Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>Printed, by His Majesties command, at Oxford [i.e. London] :</pubPlace>
-         <date when="1643">1642 [i.e. 1643]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 3 by Andrew Sollace and 45 others.</note>
-         <note>Imprint is false, a London counterfeit -- Madan.</note>
-         <note>Publication year given according to Lady Day dating.</note>
-         <note>Imperfect: title page lacking upper corner affecting transcription.</note>
-         <note>Reproduction of the original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The peti[tion] of the [inhabi]tants of Cy[rencester,] whose names ar[e hereunto] subscribed Presented to His M[ajesty] at Oxford. With His Maiest[yes] answer thereunto.</title>
+      <author>Sollace, Andrew.</author>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I) aut</author>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>February 28. By <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Printed, by His Majesties command, at Oxford [i.e. London] :</pubPlace>
+      <date when="1643">1642 [i.e. 1643]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 3 by Andrew Sollace and 45 others.</note>
+      <note>Imprint is false, a London counterfeit -- Madan.</note>
+      <note>Publication year given according to Lady Day dating.</note>
+      <note>Imperfect: title page lacking upper corner affecting transcription.</note>
+      <note>Reproduction of the original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

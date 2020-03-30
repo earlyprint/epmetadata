@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>This is the ordinaunce for the conseruation and keping of the Quenes Maiesties swannes and sygnettes, and of the Lordes spirituall and temporall, and of her Commons within the counties of Lincolne, Northampton, Rutland, Huntyngton, and Cambridge, and the liberties &amp; fraunchyse of the same and for the conseruacion of fyshe and fowle, with the assissing of all maner of nettes within the sayde counties and liberties of the same.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London in Powles Churchyarde by Rycharde Jugge and John Cawood ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1564" cert="low">[1564?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by STC (2nd ed.).</note>
-         <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
-         <note>Formerly STC 7980--Cf. STC (2nd ed.).</note>
-         <note>Reproduction of original in the Queen's College (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>This is the ordinaunce for the conseruation and keping of the Quenes Maiesties swannes and sygnettes, and of the Lordes spirituall and temporall, and of her Commons within the counties of Lincolne, Northampton, Rutland, Huntyngton, and Cambridge, and the liberties &amp; fraunchyse of the same and for the conseruacion of fyshe and fowle, with the assissing of all maner of nettes within the sayde counties and liberties of the same.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London in Powles Churchyarde</placeName> by <persName type="printer">Rycharde Jugge</persName> and <persName type="printer">John Cawood</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1564" cert="low">[1564?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by STC (2nd ed.).</note>
+      <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
+      <note>Formerly STC 7980--Cf. STC (2nd ed.).</note>
+      <note>Reproduction of original in the Queen's College (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Rycharde Jugge</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Powles Churchyarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

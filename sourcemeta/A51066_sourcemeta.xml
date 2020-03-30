@@ -1,17 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The modern conveyancer, or, Conveyancing improv'd being a choice collection of presidents [sic] on most occasions : drawn after the manner of conveyancing now in use, by the greatest hands of the present age, of which some are still living : consisting of settlements of estates upon marriages, &amp;c. : with an introduction concerning conveyancing in general.</title>
-      </titleStmt>
-      <extent>[4], 52, 465, [22] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of Richard and Ed. Atkyns, Esquires, for John Walthoe ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The modern conveyancer, or, Conveyancing improv'd being a choice collection of presidents [sic] on most occasions : drawn after the manner of conveyancing now in use, by the greatest hands of the present age, of which some are still living : consisting of settlements of estates upon marriages, &amp;c. : with an introduction concerning conveyancing in general.</title>
+    </titleStmt>
+    <extent>[4], 52, 465, [22] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">Richard</persName> and <persName type="assigns">Ed. Atkyns</persName>, <persName type="assigns">Esquires</persName>, for <persName type="publisher">John Walthoe</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Walthoe</persName>
+    </person>
+    <person type="assigns">
+      <persName>Ed. Atkyns</persName>
+    </person>
+    <person type="assigns">
+      <persName>Esquires</persName>
+    </person>
+    <person type="assigns">
+      <persName>Richard</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

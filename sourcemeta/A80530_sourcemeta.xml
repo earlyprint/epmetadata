@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Experience, historie, and divinitie Divided into five books. Written by Richard Carpenter, vicar of Poling, a small and obscure village by the sea-side, neere to Arundel in Sussex. Who being, first a scholar of Eaton Colledge, and afterwards, a student in Cambridge, forsooke the Vniversity, and immediatly travelled, in his raw, green, and ignorant yeares, beyond the seas; ... and is now at last, by the speciall favour of God, reconciled to the faire Church of Christ in England? Printed by order from the House of Commons.</title>
-         <author>Carpenter, Richard, d. 1670?</author>
-      </titleStmt>
-      <extent>[18], 246, 335, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by I.N. for John Stafford, and are to be sold at his shop in Chancery lane, over against the Rolls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In five books. Book 3 begins new pagination on 2A1r.</note>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Experience, historie, and divinitie Divided into five books. Written by Richard Carpenter, vicar of Poling, a small and obscure village by the sea-side, neere to Arundel in Sussex. Who being, first a scholar of Eaton Colledge, and afterwards, a student in Cambridge, forsooke the Vniversity, and immediatly travelled, in his raw, green, and ignorant yeares, beyond the seas; ... and is now at last, by the speciall favour of God, reconciled to the faire Church of Christ in England? Printed by order from the House of Commons.</title>
+      <author>Carpenter, Richard, d. 1670?</author>
+    </titleStmt>
+    <extent>[18], 246, 335, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">I.N.</persName> for <persName type="publisher">John Stafford</persName>, and are to be sold at <placeName>his shop in Chancery lane, over against the Rolls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In five books. Book 3 begins new pagination on 2A1r.</note>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Stafford</persName>
+    </person>
+    <person type="printer">
+      <persName>I.N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Chancery lane, over against the Rolls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

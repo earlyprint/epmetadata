@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The principles of faith, presented by Mr. Tho. Goodwin, Mr. Nye, Mr. Sydrach Simson, and other ministers, to the committee of Parliament for religion, by way of explanation to the proposals for propagating of the gospel.</title>
-         <author>Goodwin, Thomas, 1600-1680.</author>
-         <author>Nye, Philip, 1596?-1672.</author>
-         <author>Simpson, Sidrach, 1600?-1655.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London for Robert Ibbitson.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Annotation on Thomason copy: "Nou: 1654".</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>With: The younger brothers advocate: or A line or two for younger brothers / by Champianus Northtonus. London : Printed by  W.W., in the yeare 1655.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The principles of faith, presented by Mr. Tho. Goodwin, Mr. Nye, Mr. Sydrach Simson, and other ministers, to the committee of Parliament for religion, by way of explanation to the proposals for propagating of the gospel.</title>
+      <author>Goodwin, Thomas, 1600-1680.</author>
+      <author>Nye, Philip, 1596?-1672.</author>
+      <author>Simpson, Sidrach, 1600?-1655.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName> for <persName type="publisher">Robert Ibbitson.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Annotation on Thomason copy: "Nou: 1654".</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>With: The younger brothers advocate: or A line or two for younger brothers / by Champianus Northtonus. London : Printed by  W.W., in the yeare 1655.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Ibbitson.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A philosophical discourse of earthquakes occasioned by the late earthquake, September the 8th, 1692 / by C.H.</title>
-         <author>C. H.</author>
-      </titleStmt>
-      <extent>31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Walter Kettilby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A philosophical discourse of earthquakes occasioned by the late earthquake, September the 8th, 1692 / by C.H.</title>
+      <author>C. H.</author>
+    </titleStmt>
+    <extent>31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Walter Kettilby</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

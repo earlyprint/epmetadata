@@ -1,17 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Extract of letters, wherein is related, certaine remarkable passages from Yorke &amp; Hull.</title>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. O. &amp; G. D. for Benjamin Allen in Popes-head Ally [sic],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">August 9. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Extract of letters, wherein is related, certaine remarkable passages from Yorke &amp; Hull.</title>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. O.</persName> &amp; <persName type="printer">G. D.</persName> for <persName type="publisher">Benjamin Allen</persName> in <placeName>Popes-head Ally [sic]</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">August 9. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Allen</persName>
+    </person>
+    <person type="printer">
+      <persName>G. D.</persName>
+    </person>
+    <person type="printer">
+      <persName>R. O.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Ally [sic]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

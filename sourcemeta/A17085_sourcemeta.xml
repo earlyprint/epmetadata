@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mynd and exposition of that excellente learned man Martyn Bucer, vppon these wordes of S. Mathew: Woo be to the wordle [sic] bycause of offences. Math. xviij. Faythfully translated in to Englishe, by a faythfull brother, with certayne obiections [and] answeres to the same</title>
-         <author>Bucer, Martin, 1491-1551.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>[By E. van der Erve],</publisher>
-         <pubPlace>Printed at Emden :</pubPlace>
-         <date when="1566">1566.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D&#8308;, A-C&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mynd and exposition of that excellente learned man Martyn Bucer, vppon these wordes of S. Mathew: Woo be to the wordle [sic] bycause of offences. Math. xviij. Faythfully translated in to Englishe, by a faythfull brother, with certayne obiections [and] answeres to the same</title>
+      <author>Bucer, Martin, 1491-1551.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">E. van der Erve]</persName>,</publisher>
+      <pubPlace>Printed at Emden :</pubPlace>
+      <date when="1566">1566.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D&#8308;, A-C&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. van der Erve]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cordial tincture, prepared by Charles Peter chyrurgeon, at his bathing-house in St. Martins-lane near Long Acre: June 12. 1686. THis may be printed</title>
-         <author>Peter, Charles.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">MDCLXXXVI. [1686]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Wellcome Institute for the History of Medicine, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cordial tincture, prepared by Charles Peter chyrurgeon, at his bathing-house in St. Martins-lane near Long Acre: June 12. 1686. THis may be printed</title>
+      <author>Peter, Charles.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">MDCLXXXVI. [1686]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Wellcome Institute for the History of Medicine, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

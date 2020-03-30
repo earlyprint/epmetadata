@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A character of the province of Mary-land ... also a small treatise on the wilde and naked Indians (or Susquehanokes) of Mary-land, their customs, manners, absurdities, &amp; religion : together with a collection of historical letters / by George Alsop.</title>
-         <author>Alsop, George, b. 1638.</author>
-      </titleStmt>
-      <extent>[25], 118, [3] p. : map, port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by T.J. for Peter Dring ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>(from t.p.) I. The scituation and plenty of the province -- II. The laws, customs and natural demeanor of the inhabitant -- III. The worst and best usage of a Mary-land servant opened in view -- IV. The traffique and vendable commodities of the countrey.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A character of the province of Mary-land ... also a small treatise on the wilde and naked Indians (or Susquehanokes) of Mary-land, their customs, manners, absurdities, &amp; religion : together with a collection of historical letters / by George Alsop.</title>
+      <author>Alsop, George, b. 1638.</author>
+    </titleStmt>
+    <extent>[25], 118, [3] p. : map, port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.J.</persName> for <persName type="publisher">Peter Dring</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>(from t.p.) I. The scituation and plenty of the province -- II. The laws, customs and natural demeanor of the inhabitant -- III. The worst and best usage of a Mary-land servant opened in view -- IV. The traffique and vendable commodities of the countrey.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Peter Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>T.J.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

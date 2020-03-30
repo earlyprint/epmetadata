@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer to the sugar-bakers or sugar-refiners paper.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by E. Whitlock,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer to the sugar-bakers or sugar-refiners paper.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">E. Whitlock</persName></persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. Whitlock</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Whitlock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

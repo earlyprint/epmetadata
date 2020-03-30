@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ioyfull and happie newes from the west of Ireland sent in three letters from persons of note ...</title>
-         <author>Saintliger, W. (William), Sir, d. 1642.</author>
-         <author>Ford, Edward, 17th cent.</author>
-         <author>Whetcombe, Tristram.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Cowles and Thomas Bates,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At head of title: April 30.</note>
-         <note>The first letter is signed (p. [3]) W. St. Lieger, the second is signed (p. [8]) Tristram Whitcombe, the third is signed (p. [8]) Edw. Ford.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ioyfull and happie newes from the west of Ireland sent in three letters from persons of note ...</title>
+      <author>Saintliger, W. (William), Sir, d. 1642.</author>
+      <author>Ford, Edward, 17th cent.</author>
+      <author>Whetcombe, Tristram.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Cowles</persName> and <persName type="publisher">Thomas Bates</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At head of title: April 30.</note>
+      <note>The first letter is signed (p. [3]) W. St. Lieger, the second is signed (p. [8]) Tristram Whitcombe, the third is signed (p. [8]) Edw. Ford.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Cowles</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Bates</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

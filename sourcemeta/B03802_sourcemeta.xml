@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An enquiry, whether it be the interest of the city to insure houses from fire and whether the insured may expect any advantage thereby, more than from the Insurance-Office already setled.</title>
-      </titleStmt>
-      <extent>4, 4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the Gentlemen of the Insurance Office on the Back-side of the Royal-Exchange, where the papers are to be had gratis,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imperfect: creased with some loss of text.</note>
-         <note>Reproduction of the original in the Columbia University Library.</note>
-         <note>With: Observations on the proposals of the city, to insure houses in case of fire.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An enquiry, whether it be the interest of the city to insure houses from fire and whether the insured may expect any advantage thereby, more than from the Insurance-Office already setled.</title>
+    </titleStmt>
+    <extent>4, 4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the Gentlemen of the Insurance Office</persName> on <placeName>the Back-side of the Royal-Exchange, where the papers are to be had gratis</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imperfect: creased with some loss of text.</note>
+      <note>Reproduction of the original in the Columbia University Library.</note>
+      <note>With: Observations on the proposals of the city, to insure houses in case of fire.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Gentlemen of the Insurance Office</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Back-side of the Royal-Exchange, where the papers are to be had gratis</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

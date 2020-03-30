@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A most heauenly and plentifull treasure, or, A rich minerall full of sweetest comforts the contents the next page will shewe.</title>
-         <author>Du Vair, Guillaume, 1556-1621.</author>
-         <author>Stocker, Thomas, fl. 1569-1592.</author>
-      </titleStmt>
-      <extent>[20], 452 p.   </extent>
-      <publicationStmt>
-         <publisher>By H.L. for Henrie Fetherstone, at the signe of the Rose in Paules Church-yard,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1609">1609.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Also published with title: The holy loue of heauenly wisdome, with many other godly treatises.</note>
-         <note>"Meditation of the Psalmes of Dauid his repentance", "Meditation vpon the seaven Psalmes of the consolation of Dauid", "Meditations of the Lords Prayer", and "Meditations vpon the lamentations of Ieremiah" each has special t.p. with 1594 imprint.</note>
-         <note>Attributed to Du Vair by STC (2nd ed.) and NUC pre-1956 imrpints.</note>
-         <note>Translated out of the French by Thomas Stocker--Cf. STC (2nd ed.) and NUC pre-1956 imprints.</note>
-         <note>Signatures: *&#185;&#178;(-*&#185;,*&#185;&#178;) B-T&#185;&#178; V&#185;&#8304;.</note>
-         <note>Numerous errors in paging.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A most heauenly and plentifull treasure, or, A rich minerall full of sweetest comforts the contents the next page will shewe.</title>
+      <author>Du Vair, Guillaume, 1556-1621.</author>
+      <author>Stocker, Thomas, fl. 1569-1592.</author>
+    </titleStmt>
+    <extent>[20], 452 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">H.L.</persName> for <persName type="publisher">Henrie Fetherstone</persName>, at <placeName>the signe of the Rose in Paules Church-yard</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1609">1609.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Also published with title: The holy loue of heauenly wisdome, with many other godly treatises.</note>
+      <note>"Meditation of the Psalmes of Dauid his repentance", "Meditation vpon the seaven Psalmes of the consolation of Dauid", "Meditations of the Lords Prayer", and "Meditations vpon the lamentations of Ieremiah" each has special t.p. with 1594 imprint.</note>
+      <note>Attributed to Du Vair by STC (2nd ed.) and NUC pre-1956 imrpints.</note>
+      <note>Translated out of the French by Thomas Stocker--Cf. STC (2nd ed.) and NUC pre-1956 imprints.</note>
+      <note>Signatures: *&#185;&#178;(-*&#185;,*&#185;&#178;) B-T&#185;&#178; V&#185;&#8304;.</note>
+      <note>Numerous errors in paging.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henrie Fetherstone</persName>
+    </person>
+    <person type="printer">
+      <persName>H.L.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Rose in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

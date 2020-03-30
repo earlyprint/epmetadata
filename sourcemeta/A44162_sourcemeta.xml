@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Globe notes. By R. Holland.</title>
-         <author>Holland, R. (Richard), 1596-1677.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by L. Lichfield, printer to the University, and are to be sold by Ric. Davis,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>R. Holland = Richard Holland.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Globe notes. By R. Holland.</title>
+      <author>Holland, R. (Richard), 1596-1677.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">L. Lichfield</persName>, printer to <persName type="patron">the University</persName>, and are to be sold by <persName type="bookseller">Ric. Davis</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>R. Holland = Richard Holland.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>L. Lichfield</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Ric. Davis</persName>
+    </person>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

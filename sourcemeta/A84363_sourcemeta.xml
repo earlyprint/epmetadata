@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden speech of Queen Elizabeth to her last Parliament, 30 November, anno Domini, 1601</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Milbourn, and are to be sold at his house in Jewen-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "xber [i.e. December]. 27. 1659".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden speech of Queen Elizabeth to her last Parliament, 30 November, anno Domini, 1601</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Milbourn</persName>, and are to be sold at <placeName>his house in Jewen-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "xber [i.e. December]. 27. 1659".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Tho. Milbourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Jewen-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

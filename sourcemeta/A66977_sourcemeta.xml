@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of sins highly useful to self-acquaintance, experimental prayer; and above all to a suitable preparation, for a worthy partaking of the supper of the Lord. With a preface exciting to an examination of our selves, and shewing the use and benefit of all these. By John Woodhouse.</title>
-         <author>Woodhouse, John, d. 1700.</author>
-      </titleStmt>
-      <extent>[16], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Astwood, and are to be sold by John Lawrence, at the Angel in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Copy cropped at head and tightly bound.</note>
-         <note>Reproduction of the original in the Dr. Williams' Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of sins highly useful to self-acquaintance, experimental prayer; and above all to a suitable preparation, for a worthy partaking of the supper of the Lord. With a preface exciting to an examination of our selves, and shewing the use and benefit of all these. By John Woodhouse.</title>
+      <author>Woodhouse, John, d. 1700.</author>
+    </titleStmt>
+    <extent>[16], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Astwood</persName>, and are to be sold by <persName type="bookseller">John Lawrence</persName>, at <placeName>the Angel in the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Copy cropped at head and tightly bound.</note>
+      <note>Reproduction of the original in the Dr. Williams' Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Astwood</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Lawrence</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in the Poultrey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

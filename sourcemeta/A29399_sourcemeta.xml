@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Brief account of Charleroy besieged by the French army under the command of the Duke of Luxemburgh.</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by J. Wallis,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Brief account of Charleroy besieged by the French army under the command of the Duke of Luxemburgh.</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">J. Wallis</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Wallis</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Wallis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

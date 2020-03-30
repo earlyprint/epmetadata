@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A second parallel together with a vvrit of error sued against the appealer.</title>
-         <author>Featley, Daniel, 1582-1645.</author>
-      </titleStmt>
-      <extent>[16], 95, [1], 97, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by J. Haviland] for Robert Milbourne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1626">M.DC.XXVI. [1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Daniel Featley.</note>
-         <note>A reply to: Montagu, Richard.  Appello Caesarem.</note>
-         <note>A continuation of: Parallelismus nov-antiqui erroris Pelagiarminiani.</note>
-         <note>Printer's name from STC.</note>
-         <note>"A second tablet" begins new pagination and signature Aa..</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A second parallel together with a vvrit of error sued against the appealer.</title>
+      <author>Featley, Daniel, 1582-1645.</author>
+    </titleStmt>
+    <extent>[16], 95, [1], 97, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">J. Haviland]</persName> for <persName type="publisher">Robert Milbourne</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1626">M.DC.XXVI. [1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Daniel Featley.</note>
+      <note>A reply to: Montagu, Richard.  Appello Caesarem.</note>
+      <note>A continuation of: Parallelismus nov-antiqui erroris Pelagiarminiani.</note>
+      <note>Printer's name from STC.</note>
+      <note>"A second tablet" begins new pagination and signature Aa..</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Milbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Haviland]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

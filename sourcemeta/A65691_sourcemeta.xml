@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The blood of the grape republished and enlarged by the author To. Whitaker.</title>
-         <author>Whitaker, Tobias, d. 1666.</author>
-      </titleStmt>
-      <extent>[12], 132 p.   </extent>
-      <publicationStmt>
-         <publisher>For Samuel Brown,</publisher>
-         <pubPlace>[S.l.] :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The blood of the grape republished and enlarged by the author To. Whitaker.</title>
+      <author>Whitaker, Tobias, d. 1666.</author>
+    </titleStmt>
+    <extent>[12], 132 p.   </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">Samuel Brown</persName>,</publisher>
+      <pubPlace>[S.l.] :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Brown</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

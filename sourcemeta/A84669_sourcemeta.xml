@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>For the Right Honourable the Lords and Commons assembled in the Parliament of England.</title>
-         <author>Scotland. Parliament.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Wright, at the Kings Head in the Old-Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>As they were thankful for the coming of the army under Lieut.-Gen. Cromwell and Maj.-Gen. Lambert so now that they are retiring the Committee of Estates bear testimony to their excellent carriage, strengthening and confirming the amity of both kingdoms -- Cf. Steele.</note>
-         <note>Dated at end: Edenburgh 7. Novemb. 1648.</note>
-         <note>Order to print dated: Die Veneris 17 Novemb. 1648. Signed: Joh. Brown Cler. Parliamentorum. Hen. Elsyng Cler. Parl. D. Com.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>For the Right Honourable the Lords and Commons assembled in the Parliament of England.</title>
+      <author>Scotland. Parliament.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Wright</persName>, at <placeName>the Kings Head in the Old-Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>As they were thankful for the coming of the army under Lieut.-Gen. Cromwell and Maj.-Gen. Lambert so now that they are retiring the Committee of Estates bear testimony to their excellent carriage, strengthening and confirming the amity of both kingdoms -- Cf. Steele.</note>
+      <note>Dated at end: Edenburgh 7. Novemb. 1648.</note>
+      <note>Order to print dated: Die Veneris 17 Novemb. 1648. Signed: Joh. Brown Cler. Parliamentorum. Hen. Elsyng Cler. Parl. D. Com.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old-Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

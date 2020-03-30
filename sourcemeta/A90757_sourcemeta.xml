@@ -1,23 +1,48 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Delici&#230; music&#230; being, a collection of the newest and best songs, with the dialogues in the last new play call'd (Love's a jest) sett by Mr. John Eccles. Sung at His Majesties theatres. Most of the songs within the compass of the flute. With a thorow-bass, for the theorbo-lute, bass-viol, harpsichord, or organ. Composed by several of the best masters. The second book of the second volume.</title>
-         <author>Playford, Henry, b. 1657.</author>
-         <author>Eccles, John, d. 1735.</author>
-         <author>Hove, Frederick Hendrick van, 1628?-1698, engraver.</author>
-      </titleStmt>
-      <extent>[2], 26 p. : music  </extent>
-      <publicationStmt>
-         <publisher>printed by J. Heptinstall, for Henry Playford at his shop in the Temple-Change, Fleetstreet, where the first volume is to be had; also a new book for the flute, being the best and easiest instructions yet publish'd. And sold at Oxford by Francis Dollife book-binder, who sells all other musick-books,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Below imprint on title page: Price one shilling six pence.</note>
-         <note>With title page vignettes, signed: F.H. Van. Hove. Sculp:.</note>
-         <note>Includes printed music.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Delici&#230; music&#230; being, a collection of the newest and best songs, with the dialogues in the last new play call'd (Love's a jest) sett by Mr. John Eccles. Sung at His Majesties theatres. Most of the songs within the compass of the flute. With a thorow-bass, for the theorbo-lute, bass-viol, harpsichord, or organ. Composed by several of the best masters. The second book of the second volume.</title>
+      <author>Playford, Henry, b. 1657.</author>
+      <author>Eccles, John, d. 1735.</author>
+      <author>Hove, Frederick Hendrick van, 1628?-1698, engraver.</author>
+    </titleStmt>
+    <extent>[2], 26 p. : music  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. Heptinstall</persName>, for <persName type="publisher">Henry Playford</persName> at <placeName>his shop in the Temple-Change</placeName>, <placeName>Fleetstreet, where the first volume is to be had; also a new book</placeName> for <persName type="publisher">the flute, being the best and easiest instructions yet publish'd. And</persName> sold at <placeName>Oxford</placeName> by <persName type="bookseller">Francis Dollife book-binder, who sells all other musick-books</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Below imprint on title page: Price one shilling six pence.</note>
+      <note>With title page vignettes, signed: F.H. Van. Hove. Sculp:.</note>
+      <note>Includes printed music.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Playford</persName>
+    </person>
+    <person type="publisher">
+      <persName>the flute, being the best and easiest instructions yet publish'd. And</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Heptinstall</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Francis Dollife book-binder, who sells all other musick-books</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet, where the first volume is to be had; also a new book</placeName>
+    </place>
+    <place type="location">
+      <placeName>Oxford</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in the Temple-Change</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

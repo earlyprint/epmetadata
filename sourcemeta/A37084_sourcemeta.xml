@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The reformed school by John Dury.</title>
-         <author>Dury, John, 1596-1680.</author>
-         <author>Hartlib, Samuel, d. 1662.</author>
-      </titleStmt>
-      <extent>[12], 89, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.D. for Richard Wodnothe ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649" cert="low">[1649?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The publisher to the reader" (p. [3-11]) is signed: Samuel Hartlib.</note>
-         <note>Date of publication from Wing.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>"A copy of Mr. John Dury's letter to Samuel Hartlib": [3] p. at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The reformed school by John Dury.</title>
+      <author>Dury, John, 1596-1680.</author>
+      <author>Hartlib, Samuel, d. 1662.</author>
+    </titleStmt>
+    <extent>[12], 89, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.D.</persName> for <persName type="publisher">Richard Wodnothe</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649" cert="low">[1649?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The publisher to the reader" (p. [3-11]) is signed: Samuel Hartlib.</note>
+      <note>Date of publication from Wing.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>"A copy of Mr. John Dury's letter to Samuel Hartlib": [3] p. at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Wodnothe</persName>
+    </person>
+    <person type="printer">
+      <persName>R.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

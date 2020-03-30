@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Advice to a son. The second part. By Francis Osborn.</title>
-         <title>Advice to a son. Part 2</title>
-         <author>Osborne, Francis, 1593-1659.</author>
-      </titleStmt>
-      <extent>[12], 189, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho. Robinson in Oxford,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an index.</note>
-         <note>Annotation on Thomason copy: "June".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Advice to a son. The second part. By Francis Osborn.</title>
+      <title>Advice to a son. Part 2</title>
+      <author>Osborne, Francis, 1593-1659.</author>
+    </titleStmt>
+    <extent>[12], 189, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho. Robinson</persName> in <placeName>Oxford</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an index.</note>
+      <note>Annotation on Thomason copy: "June".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Robinson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Oxford</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mr. Pym, his speech. On Tuesday the 8th of February, to the Lords, at a conferrence of both Houses, concerning the petition of the knights and gentry of the county of Kent. Delivered to the Lords, February the ninth, Anno Domini, 1642.</title>
-         <author>Pym, John, 1584-1643.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Hammond,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1641. [i.e. 1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mr. Pym, his speech. On Tuesday the 8th of February, to the Lords, at a conferrence of both Houses, concerning the petition of the knights and gentry of the county of Kent. Delivered to the Lords, February the ninth, Anno Domini, 1642.</title>
+      <author>Pym, John, 1584-1643.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Hammond</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1641. [i.e. 1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Hammond</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

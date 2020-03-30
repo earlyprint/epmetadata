@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nissena, an excellent new romance: / written originally in Italian by Francesco Carmeni; and now Englished by an honorable anti-socordist.</title>
-         <author>Carmeni, Francesco.</author>
-      </titleStmt>
-      <extent>[2], 159, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley, and are to be sold at his Shop at the sign of the Princes-Arms in St Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1653. [i.e. 1652]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "1st Decemb 1652."; the 3 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nissena, an excellent new romance: / written originally in Italian by Francesco Carmeni; and now Englished by an honorable anti-socordist.</title>
+      <author>Carmeni, Francesco.</author>
+    </titleStmt>
+    <extent>[2], 159, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName>, and are to be sold at <placeName>his Shop at the sign of the Princes-Arms in St Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1653. [i.e. 1652]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "1st Decemb 1652."; the 3 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Shop at the sign of the Princes-Arms in St Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

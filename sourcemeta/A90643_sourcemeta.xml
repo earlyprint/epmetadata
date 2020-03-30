@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The articles and conditions of the perpetuall peace concluded between the most potent King of Spaine, &amp;c. on the one partie, and the high and mightie Lords, the States Generall of the Vnited Netherlands, on the other partie, subscribed and sealed the 13th. of Ianuary, 1648. At Munster.</title>
-         <author>Philip IV, King of Spain, 1605-1665. aut</author>
-         <author>United Provinces of the Netherlands. Staten Generaal. aut</author>
-      </titleStmt>
-      <extent>[2], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at Rotterdam by Haest van Voortganck, printer of the Articles of the Peace, 1648. And reprinted at London by Robert White,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: The Earl of Peneranda [and 8 others].</note>
-         <note>Annotation on Thomason copy: "March. 31".</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The articles and conditions of the perpetuall peace concluded between the most potent King of Spaine, &amp;c. on the one partie, and the high and mightie Lords, the States Generall of the Vnited Netherlands, on the other partie, subscribed and sealed the 13th. of Ianuary, 1648. At Munster.</title>
+      <author>Philip IV, King of Spain, 1605-1665. aut</author>
+      <author>United Provinces of the Netherlands. Staten Generaal. aut</author>
+    </titleStmt>
+    <extent>[2], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Rotterdam</placeName> by <persName type="printer">Haest van Voortganck, printer of the Articles of the Peace</persName>, <persName type="printer">1648. And</persName> reprinted at <placeName>London</placeName> by <persName type="printer">Robert White</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: The Earl of Peneranda [and 8 others].</note>
+      <note>Annotation on Thomason copy: "March. 31".</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>1648. And</persName>
+    </person>
+    <person type="printer">
+      <persName>Haest van Voortganck, printer of the Articles of the Peace</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert White</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Rotterdam</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

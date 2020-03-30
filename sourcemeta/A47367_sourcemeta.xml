@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the king the first Sunday of Advent, 1666 by Henry Killigrew ...</title>
-         <author>Killigrew, Henry, 1613-1700.</author>
-      </titleStmt>
-      <extent>[2], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Roycroft for Thomas Hacker,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Printed by His Majesties special command."</note>
-         <note>Errata on p. 34.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the king the first Sunday of Advent, 1666 by Henry Killigrew ...</title>
+      <author>Killigrew, Henry, 1613-1700.</author>
+    </titleStmt>
+    <extent>[2], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Roycroft</persName> for <persName type="publisher">Thomas Hacker</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Printed by His Majesties special command."</note>
+      <note>Errata on p. 34.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Hacker</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Roycroft</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

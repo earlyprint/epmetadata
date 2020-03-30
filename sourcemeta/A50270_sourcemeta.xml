@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catechism being an enlargement of the church-catechism, the method altered and the doctrine proved by scripture : intended first for the sake of those that were not baptized in their infancy, or had no godfathers and godmothers, and since published for their and others benefit / by N.M.</title>
-         <author>Mathew, Nathaniel, 1622 or 3-1680.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Jonathan Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to N. Mathew by Wing.</note>
-         <note>Imperfect: cropped, with loss of print.</note>
-         <note>"Imprimatur, G. Jane."</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catechism being an enlargement of the church-catechism, the method altered and the doctrine proved by scripture : intended first for the sake of those that were not baptized in their infancy, or had no godfathers and godmothers, and since published for their and others benefit / by N.M.</title>
+      <author>Mathew, Nathaniel, 1622 or 3-1680.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Jonathan Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to N. Mathew by Wing.</note>
+      <note>Imperfect: cropped, with loss of print.</note>
+      <note>"Imprimatur, G. Jane."</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The information of Stephen Dugdale, gent. delivered at the Bar of the House of Commons, Munday the first day of November, in the year of our Lord 1680.</title>
-         <author>Dugdale, Stephen, 1640?-1683.</author>
-      </titleStmt>
-      <extent>[4], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the Assigns of John Bill, Thomas Newcomb, and Henry Hills,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The information of Stephen Dugdale, gent. delivered at the Bar of the House of Commons, Munday the first day of November, in the year of our Lord 1680.</title>
+      <author>Dugdale, Stephen, 1640?-1683.</author>
+    </titleStmt>
+    <extent>[4], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the Assigns of John Bill</persName>, <persName type="printer">Thomas Newcomb</persName>, and <persName type="printer">Henry Hills</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="printer">
+      <persName>the Assigns of John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

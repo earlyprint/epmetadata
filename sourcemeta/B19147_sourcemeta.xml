@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation of grace and pardon to all such as shall returne to their obedience, and submit to, and seek His Majesties mercy before the end of May next.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>by Leonard Lichfield, printer to the Vniversity,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at our court at Oxford, the 19th day of April, in the one and twentieth yeare of our raigne. 1645.</note>
-         <note>Steele notation: maintai- rice Twentieth; Arms 41.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation of grace and pardon to all such as shall returne to their obedience, and submit to, and seek His Majesties mercy before the end of May next.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Leonard Lichfield</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at our court at Oxford, the 19th day of April, in the one and twentieth yeare of our raigne. 1645.</note>
+      <note>Steele notation: maintai- rice Twentieth; Arms 41.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

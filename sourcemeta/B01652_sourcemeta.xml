@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A present for children. Being a brief, but faithful account of many remarkable and excellent things utter'd by three young children, to the wonder of all that heard them. To which is added a seasonable exhortaion to parents, for the education of their children. / By a person of quality. Published by William Bidbanck, M.A.</title>
-         <author>Bidbanck, William.</author>
-      </titleStmt>
-      <extent>82 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.D. for Jonathan Robinson ...,</publisher>
-         <pubPlace>London;</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written and published by William Bidbanck. Cf. Wing (2nd ed.).</note>
-         <note>Imperfect: tight binding with some loss of text.</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A present for children. Being a brief, but faithful account of many remarkable and excellent things utter'd by three young children, to the wonder of all that heard them. To which is added a seasonable exhortaion to parents, for the education of their children. / By a person of quality. Published by William Bidbanck, M.A.</title>
+      <author>Bidbanck, William.</author>
+    </titleStmt>
+    <extent>82 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.D.</persName> for <persName type="publisher">Jonathan Robinson</persName> ...,</publisher>
+      <pubPlace>London;</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written and published by William Bidbanck. Cf. Wing (2nd ed.).</note>
+      <note>Imperfect: tight binding with some loss of text.</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

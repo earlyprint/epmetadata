@@ -1,26 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true discourse, vpon the matter of Martha Brossier of Romorantin pretended to be possessed by a deuill. Translated out of French into English, by Abraham Hartvvel.</title>
-         <title>Discours veritable sur le faicte de Marthe Brossier. English.</title>
-         <author>Marescot, Michel, 1539-1605, attributed name. aut</author>
-         <author>Pietre, Simon, ca. 1525-1584, attributed name. aut</author>
-         <author>Le Bouthillier, attributed name. aut</author>
-         <author>Hartwell, Abraham, b. 1553.</author>
-      </titleStmt>
-      <extent>[8], 39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by [F. Kingston for] Iohn Wolfe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Variously attributed to Michel Marescot, Simon Pietre and Le Bouthillier--MIU.</note>
-         <note>A translation by Abraham Hartwell of: Discours veritable sur le faicte de Marthe Brossier.</note>
-         <note>French dedication signed: Phisitians of Paris--STC.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true discourse, vpon the matter of Martha Brossier of Romorantin pretended to be possessed by a deuill. Translated out of French into English, by Abraham Hartvvel.</title>
+      <title>Discours veritable sur le faicte de Marthe Brossier. English.</title>
+      <author>Marescot, Michel, 1539-1605, attributed name. aut</author>
+      <author>Pietre, Simon, ca. 1525-1584, attributed name. aut</author>
+      <author>Le Bouthillier, attributed name. aut</author>
+      <author>Hartwell, Abraham, b. 1553.</author>
+    </titleStmt>
+    <extent>[8], 39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">[F. Kingston</persName> for<persName type="publisher">] Iohn Wolfe</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Variously attributed to Michel Marescot, Simon Pietre and Le Bouthillier--MIU.</note>
+      <note>A translation by Abraham Hartwell of: Discours veritable sur le faicte de Marthe Brossier.</note>
+      <note>French dedication signed: Phisitians of Paris--STC.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Wolfe</persName>
+    </person>
+    <person type="printer">
+      <persName>[F. Kingston</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first lecture touching navigation read publiquely at Sr. Balthazar Gerbiers accademy. Imprimatur, Hen: Scobell, Cleric: Parliamenti.</title>
-         <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
-      </titleStmt>
-      <extent>22 p., [1] leaf of plates : port.  </extent>
-      <publicationStmt>
-         <publisher>for Robert Ibbitson dwelling in Smithfield neer Hosier Lane,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nou: 30".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first lecture touching navigation read publiquely at Sr. Balthazar Gerbiers accademy. Imprimatur, Hen: Scobell, Cleric: Parliamenti.</title>
+      <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
+    </titleStmt>
+    <extent>22 p., [1] leaf of plates : port.  </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">Robert Ibbitson</persName> dwelling in <placeName>Smithfield neer Hosier Lane</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nou: 30".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfield neer Hosier Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The scornfull Quakers answered and their railing reply refuted by the meanest of the Lord's servants Magnus Byne.</title>
-         <author>Byne, Magnus.</author>
-      </titleStmt>
-      <extent>[6], 123 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Bentley for Andrew Crook ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to Thomas Lawson's writings.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The scornfull Quakers answered and their railing reply refuted by the meanest of the Lord's servants Magnus Byne.</title>
+      <author>Byne, Magnus.</author>
+    </titleStmt>
+    <extent>[6], 123 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Bentley</persName> for <persName type="publisher">Andrew Crook</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to Thomas Lawson's writings.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bentley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

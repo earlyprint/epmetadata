@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from a member of the parliament of Scotland to his friend at London, concerning their late act, for establishing a company of that kingdom, tradeing to Africa and the Indies</title>
-         <author>Verax, Philanax.</author>
-      </titleStmt>
-      <extent>19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London, and re-printed at Edinburgh, by the heirs and successors of Andrew Anderson, printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>[[Edinburgh] :</pubPlace>
-         <date when="1696">1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Philonax Verax.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from a member of the parliament of Scotland to his friend at London, concerning their late act, for establishing a company of that kingdom, tradeing to Africa and the Indies</title>
+      <author>Verax, Philanax.</author>
+    </titleStmt>
+    <extent>19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName>, and re-printed at <placeName>Edinburgh</placeName>, by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>[[Edinburgh] :</pubPlace>
+      <date when="1696">1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Philonax Verax.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration. The Commons assembled in Parliament, do declare, that these acts following, that is to say, an act for securing the Protestant religion, ...</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Husbands and Thomas Newcomb, Printers to the Commons House of Parliament,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">[1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Annotation on Thomason copy: "May 9".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration. The Commons assembled in Parliament, do declare, that these acts following, that is to say, an act for securing the Protestant religion, ...</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Husbands</persName> and <persName type="printer">Thomas Newcomb</persName>, Printers to <persName type="patron">the Commons House of Parliament</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">[1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Annotation on Thomason copy: "May 9".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="patron">
+      <persName>the Commons House of Parliament</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

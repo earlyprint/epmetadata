@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Diotrephes detected, corrected, and rejected, and Archippus admonished: by a soft answer to an angry sermon and book lately published, intituled, A true account of what was done, at the casting of two members out of Mr. Stucleys congregation in Exon</title>
-         <author>E. T.</author>
-      </titleStmt>
-      <extent>[2], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by M.S. for Henry Cripps and are to be sold at his shop in Popes Head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 18: E.T.</note>
-         <note>A reply to: Mall, Thomas. A true account of what was done by a Church of Christ in Exon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Diotrephes detected, corrected, and rejected, and Archippus admonished: by a soft answer to an angry sermon and book lately published, intituled, A true account of what was done, at the casting of two members out of Mr. Stucleys congregation in Exon</title>
+      <author>E. T.</author>
+    </titleStmt>
+    <extent>[2], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M.S.</persName> for <persName type="publisher">Henry Cripps</persName> and are to be sold at <placeName>his shop in Popes Head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 18: E.T.</note>
+      <note>A reply to: Mall, Thomas. A true account of what was done by a Church of Christ in Exon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Cripps</persName>
+    </person>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes Head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

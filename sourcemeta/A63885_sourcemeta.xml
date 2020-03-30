@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the anniversary meeting of the Sons of clergy-men, in the church of St. Mary-le-Bow, December 4, 1684 by Francis Lord Bishop of Ely, and president of the society.</title>
-         <author>Turner, Francis, 1638?-1700.</author>
-      </titleStmt>
-      <extent>[4], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Playford, for Henry Bonwick ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the anniversary meeting of the Sons of clergy-men, in the church of St. Mary-le-Bow, December 4, 1684 by Francis Lord Bishop of Ely, and president of the society.</title>
+      <author>Turner, Francis, 1638?-1700.</author>
+    </titleStmt>
+    <extent>[4], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Playford</persName>, for <persName type="publisher">Henry Bonwick</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Bonwick</persName>
+    </person>
+    <person type="printer">
+      <persName>John Playford</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the lords spiritual and temporal in the Abey-Church at Westminster, the 30th of January, 1691/2 by ... Richard Lord Bishop of Bath and Wells.</title>
-         <author>Kidder, Richard, 1633-1703.</author>
-      </titleStmt>
-      <extent>[2], 27, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.H. for B. Aylmer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-         <note>Advertisement: p. [1] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the lords spiritual and temporal in the Abey-Church at Westminster, the 30th of January, 1691/2 by ... Richard Lord Bishop of Bath and Wells.</title>
+      <author>Kidder, Richard, 1633-1703.</author>
+    </titleStmt>
+    <extent>[2], 27, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.H.</persName> for <persName type="publisher">B. Aylmer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+      <note>Advertisement: p. [1] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>J.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

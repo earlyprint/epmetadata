@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dying fathers living legacy, to his loving son or, lively rules from the rule of life, to bee lived by every mothers childe. / By F.S. Gent.</title>
-         <author>F. S.</author>
-      </titleStmt>
-      <extent>[10], 137, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the authour, and are to bee sold by Elisha Wallis at the gilded Horse-shooe in the Old Bayley,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>The final leaf has "The dying fathers living legacy" printed vertically.</note>
-         <note>Annotation on Thomason copy: "1659 Jan:".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dying fathers living legacy, to his loving son or, lively rules from the rule of life, to bee lived by every mothers childe. / By F.S. Gent.</title>
+      <author>F. S.</author>
+    </titleStmt>
+    <extent>[10], 137, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the authour</persName>, and are to bee sold by <persName type="bookseller">Elisha Wallis</persName> at <placeName>the gilded Horse-shooe in the Old Bayley</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>The final leaf has "The dying fathers living legacy" printed vertically.</note>
+      <note>Annotation on Thomason copy: "1659 Jan:".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the authour</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Elisha Wallis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the gilded Horse-shooe in the Old Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

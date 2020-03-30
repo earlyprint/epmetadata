@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christians care for the soules safety, or, The wofull losse of the soule compared with the vaine gaine of the world in a sermon lately preached by Iohn Denison ...</title>
-         <author>Denison, John, d. 1629.</author>
-      </titleStmt>
-      <extent>[6], 61 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Aug. Math. for Iohn Budge and are to be sold at his shop at the Greene Dragon in Paules Church-yarde,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A&#8312;(-A1) B-D&#8312; E&#179;.</note>
-         <note>Reproduction of original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christians care for the soules safety, or, The wofull losse of the soule compared with the vaine gaine of the world in a sermon lately preached by Iohn Denison ...</title>
+      <author>Denison, John, d. 1629.</author>
+    </titleStmt>
+    <extent>[6], 61 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Aug. Math.</persName> for <persName type="publisher">Iohn Budge</persName> and are to be sold at <placeName>his shop at the Greene Dragon in Paules Church-yarde</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A&#8312;(-A1) B-D&#8312; E&#179;.</note>
+      <note>Reproduction of original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Budge</persName>
+    </person>
+    <person type="printer">
+      <persName>Aug. Math.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Greene Dragon in Paules Church-yarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

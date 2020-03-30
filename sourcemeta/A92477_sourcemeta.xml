@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An atc [sic] approving of the good services done by the town of Glascow [sic], shire of Argyle and other western shires, in this conjuncture, with a return of the thanks of the estates to them.</title>
-         <title>Laws, etc. 1689-03-28</title>
-         <author>Scotland. Convention of Estates.</author>
-         <author>Scotland. Convention of Estates. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : 2#20.  </extent>
-      <publicationStmt>
-         <publisher>Printed at Edinburgh, re-printed at London, by George Croom, at the Blue-Ball in Thames-street, near Baynard's-Castle,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: Ja. Dalrymple, Cls.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An atc [sic] approving of the good services done by the town of Glascow [sic], shire of Argyle and other western shires, in this conjuncture, with a return of the thanks of the estates to them.</title>
+      <title>Laws, etc. 1689-03-28</title>
+      <author>Scotland. Convention of Estates.</author>
+      <author>Scotland. Convention of Estates. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : 2#20.  </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>Edinburgh, re-printed at London</placeName>, by <persName type="printer">George Croom</persName>, at <placeName>the Blue-Ball in Thames-street, near Baynard's-Castle</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: Ja. Dalrymple, Cls.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Croom</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh, re-printed at London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Blue-Ball in Thames-street, near Baynard's-Castle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

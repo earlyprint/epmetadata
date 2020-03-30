@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Practical meditations upon the four last things viz. I. Death, II. Judgment, III. Hell, IV. Heaven / by R. Sherlock ...</title>
-         <author>Sherlock, R. (Richard), 1612-1689.</author>
-      </titleStmt>
-      <extent>[2], 124, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.H. for L. Meredith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Table of contents: p. [1]-[2] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Practical meditations upon the four last things viz. I. Death, II. Judgment, III. Hell, IV. Heaven / by R. Sherlock ...</title>
+      <author>Sherlock, R. (Richard), 1612-1689.</author>
+    </titleStmt>
+    <extent>[2], 124, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.H.</persName> for <persName type="publisher">L. Meredith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Table of contents: p. [1]-[2] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L. Meredith</persName>
+    </person>
+    <person type="printer">
+      <persName>J.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

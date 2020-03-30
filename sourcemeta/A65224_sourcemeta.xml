@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine poems written by Thomas Washbourne ...</title>
-         <title>Poems. Selections</title>
-         <author>Washbourne, Thomas, 1606-1687.</author>
-         <author>Phillips, Edward, 1630-1696?</author>
-      </titleStmt>
-      <extent>[23], 141 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Humphrey Moseley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Among the prefatory verses to the poet are some by Edward Phillips.</note>
-         <note>First ed. Cf. Wing.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine poems written by Thomas Washbourne ...</title>
+      <title>Poems. Selections</title>
+      <author>Washbourne, Thomas, 1606-1687.</author>
+      <author>Phillips, Edward, 1630-1696?</author>
+    </titleStmt>
+    <extent>[23], 141 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Humphrey Moseley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Among the prefatory verses to the poet are some by Edward Phillips.</note>
+      <note>First ed. Cf. Wing.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Moseley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

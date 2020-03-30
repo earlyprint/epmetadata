@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A novelty: or, a government of vvomen distinct from men, erected amoungst some of the people, call'd Quakers. Detected in an epistle, occasionally written to a man-judge, upon a young man's refusing (for good conscience sake) to submit to their authority in marriage, seeing that relations and friends were already satisfied. To which is added, a lamentation for the fall of so many of that people. Published for no other end, but to deter all honest hearts of the said people, from erecting the like unscriptural government. Tho' this may not so far prevail with such women as has a secret command of their husbands purses; together with those preachers that reap profit by such a female government, as to consent to the disanulling the same. Written by William Mather, a dear lover of the said people, who has for several years been much troubled, that some of them should fall from there primitive institution, as to set up women's and men's meetings, as guides in government, ... .</title>
-         <author>Mather, W. (William), fl. 1695.</author>
-      </titleStmt>
-      <extent>23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Sarah Howkins, in George-yard, Lumbard-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694" cert="low">[1694?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing.</note>
-         <note>With marginal notes.</note>
-         <note>Reproduction of the original in the Friends' House Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A novelty: or, a government of vvomen distinct from men, erected amoungst some of the people, call'd Quakers. Detected in an epistle, occasionally written to a man-judge, upon a young man's refusing (for good conscience sake) to submit to their authority in marriage, seeing that relations and friends were already satisfied. To which is added, a lamentation for the fall of so many of that people. Published for no other end, but to deter all honest hearts of the said people, from erecting the like unscriptural government. Tho' this may not so far prevail with such women as has a secret command of their husbands purses; together with those preachers that reap profit by such a female government, as to consent to the disanulling the same. Written by William Mather, a dear lover of the said people, who has for several years been much troubled, that some of them should fall from there primitive institution, as to set up women's and men's meetings, as guides in government, ... .</title>
+      <author>Mather, W. (William), fl. 1695.</author>
+    </titleStmt>
+    <extent>23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Sarah Howkins</persName>, in <placeName>George-yard</placeName>, <placeName>Lumbard-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694" cert="low">[1694?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing.</note>
+      <note>With marginal notes.</note>
+      <note>Reproduction of the original in the Friends' House Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sarah Howkins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>George-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>Lumbard-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The taming of a shrew: or, The onely way to make a bad wife good at least, keep her quiet, be she bad or good.</title>
-         <author>J. R. aut</author>
-         <author>H. C. aut</author>
-         <author>Crouch, Humphrey, fl. 1635-1671, attributed name. aut</author>
-      </titleStmt>
-      <extent>1 sheet ([1]) p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed for F. Coles, in Wine-street, neer Hatten-Garden,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1670" cert="low">[1670?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from Wing (CD-ROM edition)</note>
-         <note>The first part is signed at end: J.R.</note>
-         <note>The second part, "The counsel of a father to his son newly married" is signed H.C., i.e. Humphrey Crouch?.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The taming of a shrew: or, The onely way to make a bad wife good at least, keep her quiet, be she bad or good.</title>
+      <author>J. R. aut</author>
+      <author>H. C. aut</author>
+      <author>Crouch, Humphrey, fl. 1635-1671, attributed name. aut</author>
+    </titleStmt>
+    <extent>1 sheet ([1]) p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">F. Coles</persName>, in <placeName>Wine-street, neer Hatten-Garden</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1670" cert="low">[1670?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from Wing (CD-ROM edition)</note>
+      <note>The first part is signed at end: J.R.</note>
+      <note>The second part, "The counsel of a father to his son newly married" is signed H.C., i.e. Humphrey Crouch?.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Wine-street, neer Hatten-Garden</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Council of State. A Proclamation. Whereas the Parliament assembled at Westminster the third of November, one thousand six hundred and forty, is now dissolved, and the care and preservation of the publick in this interval, is in a special manner, committed by authority of Parliament, to the Council of State, ...</title>
-         <author>England and Wales. Council of State.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Abel Roper, and Tho: Collins, Printers to the Council of State,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1660">[1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening lines of text.</note>
-         <note>Date and place of publication from Wing.</note>
-         <note>Order to print dated: Saturday March 17. 1659. At the Council of State at VVhitehal. Signed: W. Jessop, Clerk of the Council.</note>
-         <note>Annotation on Thomason copy: "March 19".</note>
-         <note>Reproductions of the originals in the British Library and the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Council of State. A Proclamation. Whereas the Parliament assembled at Westminster the third of November, one thousand six hundred and forty, is now dissolved, and the care and preservation of the publick in this interval, is in a special manner, committed by authority of Parliament, to the Council of State, ...</title>
+      <author>England and Wales. Council of State.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Abel Roper</persName>, and <persName type="printer">Tho: Collins</persName>, Printers to <persName type="patron">the Council of State</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1660">[1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening lines of text.</note>
+      <note>Date and place of publication from Wing.</note>
+      <note>Order to print dated: Saturday March 17. 1659. At the Council of State at VVhitehal. Signed: W. Jessop, Clerk of the Council.</note>
+      <note>Annotation on Thomason copy: "March 19".</note>
+      <note>Reproductions of the originals in the British Library and the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Abel Roper</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho: Collins</persName>
+    </person>
+    <person type="patron">
+      <persName>the Council of State</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

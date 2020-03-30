@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Urania A funeral elegy, on the death of our gracious Queen of ever blessed memory.</title>
-      </titleStmt>
-      <extent>[2], 7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Graves, over against Will's Coffee-house in Covent-Garden: and sold by John Whitlock near Stationers-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Gathered in 2's.</note>
-         <note>Copy has print show-through affecting text.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Urania A funeral elegy, on the death of our gracious Queen of ever blessed memory.</title>
+    </titleStmt>
+    <extent>[2], 7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Graves, over against Will's Coffee-house</persName> in <placeName>Covent-Garden:</placeName> and sold by <persName type="bookseller">John Whitlock</persName> near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Gathered in 2's.</note>
+      <note>Copy has print show-through affecting text.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Graves, over against Will's Coffee-house</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Covent-Garden:</placeName>
+    </place>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

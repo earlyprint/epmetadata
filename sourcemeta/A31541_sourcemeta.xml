@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Select novels the first six written in Spanish by Miguel Cervantes Sayavedra author of that famous history Don Quixote de la Mancha ; the other by Francis Petrarch an eminent Italian poet and one of the first restorers of learning ; all translated from the originals by Dr. Walter Pope.</title>
-         <author>Cervantes Saavedra, Miguel de, 1547-1616.</author>
-         <author>Petrarca, Francesco, 1304-1374. Historia Griseldis.</author>
-      </titleStmt>
-      <extent>[6], 358 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Brome ... and Thomas Horne ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-         <note>The Spanish-English lady -- The liberal lover -- The force of blood -- Cornelia -- The rival ladies -- The Salamanca doctor, or, The man of glass -- Patient Grissel.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Select novels the first six written in Spanish by Miguel Cervantes Sayavedra author of that famous history Don Quixote de la Mancha ; the other by Francis Petrarch an eminent Italian poet and one of the first restorers of learning ; all translated from the originals by Dr. Walter Pope.</title>
+      <author>Cervantes Saavedra, Miguel de, 1547-1616.</author>
+      <author>Petrarca, Francesco, 1304-1374. Historia Griseldis.</author>
+    </titleStmt>
+    <extent>[6], 358 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Brome</persName> ... and <persName type="publisher">Thomas Horne</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+      <note>The Spanish-English lady -- The liberal lover -- The force of blood -- Cornelia -- The rival ladies -- The Salamanca doctor, or, The man of glass -- Patient Grissel.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Brome</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Horne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

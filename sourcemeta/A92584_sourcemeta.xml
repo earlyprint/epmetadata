@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A manifesto of the Commissioners of Scotland: delivered in to the Honourable Houses of Parliament the 24. of May, 1645. Published by authority.</title>
-         <author>Scotland. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field for Ralph Smith,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1645">Iune 4. 1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A manifesto of the Commissioners of Scotland: delivered in to the Honourable Houses of Parliament the 24. of May, 1645. Published by authority.</title>
+      <author>Scotland. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName> for <persName type="publisher">Ralph Smith</persName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1645">Iune 4. 1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd at Colchester, June 2. 1697. Before the Right Honourable and Reverend Father in God Henry Lord Bishop of London, at a conference with his clergy upon His Majesty's late injunctions. / By H. De Luzancy ... ; Printed by his Lordship's special command. ; To which are prefixed some remarks on the Socinians late answer to the four letters written against them by the same author.</title>
-         <author>De Luzancy, H. C. (Hippolyte du Chastelet), d. 1713.</author>
-      </titleStmt>
-      <extent>[10], 22 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. Holt for Tho. Bennet, at the Half Moon in St. Paul's Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd at Colchester, June 2. 1697. Before the Right Honourable and Reverend Father in God Henry Lord Bishop of London, at a conference with his clergy upon His Majesty's late injunctions. / By H. De Luzancy ... ; Printed by his Lordship's special command. ; To which are prefixed some remarks on the Socinians late answer to the four letters written against them by the same author.</title>
+      <author>De Luzancy, H. C. (Hippolyte du Chastelet), d. 1713.</author>
+    </titleStmt>
+    <extent>[10], 22 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. Holt</persName> for <persName type="publisher">Tho. Bennet</persName>, at <placeName>the Half Moon in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Holt</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Half Moon in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

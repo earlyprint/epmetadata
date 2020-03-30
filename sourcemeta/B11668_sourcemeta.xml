@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>John Bon and Mast Person</title>
-         <author>Shepherd, Luke, fl. 1548.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by J. Daye and W. Seres,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1548" cert="low">1548?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A satirical dialogue in verse.</note>
-         <note>Attributed to Shepherd by NUC pre-1956 imprints.</note>
-         <note>Illustrated t.p.</note>
-         <note>Imprint suggested by NUC pre-1956 imprints and STC (2nd ed.).</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>John Bon and Mast Person</title>
+      <author>Shepherd, Luke, fl. 1548.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">J. Daye</persName> and <persName type="printer">W. Seres</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1548" cert="low">1548?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A satirical dialogue in verse.</note>
+      <note>Attributed to Shepherd by NUC pre-1956 imprints.</note>
+      <note>Illustrated t.p.</note>
+      <note>Imprint suggested by NUC pre-1956 imprints and STC (2nd ed.).</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Daye</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Seres</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

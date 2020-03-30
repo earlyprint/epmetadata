@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Protestants demonstrations, for Catholiks recusance All taken from such English Protestant bishops, doctors, ministers, parlaments, lawes, decrees, and proceedings, as haue beene printed, published, or allowed among them in England; since the cominge of our king Iames into this kingdome: and for the most parte within the first six or seuen yeares thereof. And euidentlie prouinge by their owne writings, that english Catholiks may not vnder damnable syn, co[m]municate with English Protestants, in their seruice, sermons, or matters of religion: and soe conuincinge by the[m]selues, their religio[n] to be most damnable, &amp; among other things, their ministery to bee voide, false &amp; vsurped.</title>
-         <author>Broughton, Richard, attributed name.</author>
-      </titleStmt>
-      <extent>[22], 126 p.   </extent>
-      <publicationStmt>
-         <publisher>By [P. Aurori for] Iohn Heigham at Douay. VVith licence.,</publisher>
-         <pubPlace>[Douay] :</pubPlace>
-         <date when="1615">Anno 1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Broughton?--STC.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Protestants demonstrations, for Catholiks recusance All taken from such English Protestant bishops, doctors, ministers, parlaments, lawes, decrees, and proceedings, as haue beene printed, published, or allowed among them in England; since the cominge of our king Iames into this kingdome: and for the most parte within the first six or seuen yeares thereof. And euidentlie prouinge by their owne writings, that english Catholiks may not vnder damnable syn, co[m]municate with English Protestants, in their seruice, sermons, or matters of religion: and soe conuincinge by the[m]selues, their religio[n] to be most damnable, &amp; among other things, their ministery to bee voide, false &amp; vsurped.</title>
+      <author>Broughton, Richard, attributed name.</author>
+    </titleStmt>
+    <extent>[22], 126 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[P. Aurori</persName> for<persName type="publisher">] Iohn Heigham</persName> at <placeName>Douay. VVith licence.</placeName>,</publisher>
+      <pubPlace>[Douay] :</pubPlace>
+      <date when="1615">Anno 1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Broughton?--STC.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Heigham</persName>
+    </person>
+    <person type="printer">
+      <persName>[P. Aurori</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Douay. VVith licence.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

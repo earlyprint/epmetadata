@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A counterbane against earthly carefulnes In a sermon preached at Cranebrooke in Kent. 1617. By Mr. Paul Baine ...</title>
-         <author>Baynes, Paul, d. 1617.</author>
-      </titleStmt>
-      <extent>[8], 25, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. L[ownes] for Nathanaell Newbery, and are to be solde at his shop vnder St. Peters church in Cornehill and in Popes-head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures A-D&#8308; E&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A counterbane against earthly carefulnes In a sermon preached at Cranebrooke in Kent. 1617. By Mr. Paul Baine ...</title>
+      <author>Baynes, Paul, d. 1617.</author>
+    </titleStmt>
+    <extent>[8], 25, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. L[ownes]</persName> for <persName type="publisher">Nathanaell Newbery</persName>, and are to be solde at <placeName>his shop vnder St. Peters church in Cornehill</placeName> and in <placeName>Popes-head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures A-D&#8308; E&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanaell Newbery</persName>
+    </person>
+    <person type="printer">
+      <persName>H. L[ownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop vnder St. Peters church in Cornehill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

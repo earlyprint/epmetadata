@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech of His highness the Lord Protector, made to both Houses of Parliament at their first meeting, on Thursday the 27th of January 1658. As also the speech of the right Honourable Nathaniel Lord Fiennes, one of the Lords Keepers of the Great Seal of England, made at the same time.</title>
-         <author>England and Wales. Lord Protector (1658-1660 : R. Cromwell)</author>
-         <author>Fiennes, Nathaniel, 1607 or 8-1669. Speech of the Right Honourable Nathaniel Lord Fiennes.</author>
-         <author>Cromwell, Richard, 1626-1712.</author>
-      </titleStmt>
-      <extent>[2], 9, [1]; 30, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Henry Hills and John Field, printers to His Highness the Lord Protector: and are to be sold at the sign of the seven Stars in Fleetstreet over against Dunstan's Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">[1659]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Lord Fiennes' speech (E.968[2]) has separate pagination and separate title page, with imprint: London, printed for Henry Twyford, in Vine Court, Middle Temple, 1659; also published separately as Wing F882.</note>
-         <note>Annotation on Thomason copy E.968[1]: "Feb: 2. 1658".</note>
-         <note>On t.p.: "Published by His Highness special command."</note>
-         <note>With a final blank leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech of His highness the Lord Protector, made to both Houses of Parliament at their first meeting, on Thursday the 27th of January 1658. As also the speech of the right Honourable Nathaniel Lord Fiennes, one of the Lords Keepers of the Great Seal of England, made at the same time.</title>
+      <author>England and Wales. Lord Protector (1658-1660 : R. Cromwell)</author>
+      <author>Fiennes, Nathaniel, 1607 or 8-1669. Speech of the Right Honourable Nathaniel Lord Fiennes.</author>
+      <author>Cromwell, Richard, 1626-1712.</author>
+    </titleStmt>
+    <extent>[2], 9, [1]; 30, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName>, printers to <persName type="patron">His Highness the Lord Protector:</persName> and are to be sold at <placeName>the sign of the seven Stars in Fleetstreet over against Dunstan's Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">[1659]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Lord Fiennes' speech (E.968[2]) has separate pagination and separate title page, with imprint: London, printed for Henry Twyford, in Vine Court, Middle Temple, 1659; also published separately as Wing F882.</note>
+      <note>Annotation on Thomason copy E.968[1]: "Feb: 2. 1658".</note>
+      <note>On t.p.: "Published by His Highness special command."</note>
+      <note>With a final blank leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>His Highness the Lord Protector:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the seven Stars in Fleetstreet over against Dunstan's Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Antichristian Presbyter: or, Antichrist transformed; Assuming the nevv shape of a Reformed Presbyter, as his last and subtlest disguise to deceive the nations. / By Richard Laurence, Marshal-Generall.</title>
-         <author>Lawrence, Richard, d. 1684.</author>
-      </titleStmt>
-      <extent>[4], 19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the timly information of the people,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>A variant has page 19 misnumbered 18.</note>
-         <note>Annotation on Thomason copy: "Jan: 9th 1646"; the 7 in imprint date crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Antichristian Presbyter: or, Antichrist transformed; Assuming the nevv shape of a Reformed Presbyter, as his last and subtlest disguise to deceive the nations. / By Richard Laurence, Marshal-Generall.</title>
+      <author>Lawrence, Richard, d. 1684.</author>
+    </titleStmt>
+    <extent>[4], 19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the timly information of the people</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>A variant has page 19 misnumbered 18.</note>
+      <note>Annotation on Thomason copy: "Jan: 9th 1646"; the 7 in imprint date crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the timly information of the people</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

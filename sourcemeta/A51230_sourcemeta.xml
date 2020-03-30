@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the House of Lords in the abby-church at Westminster, upon Monday January 31, 1697 / by John Lord Bishop of Norwich.</title>
-         <author>Moore, John, 1646-1714.</author>
-      </titleStmt>
-      <extent>35 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.R. for W. Rogers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the House of Lords in the abby-church at Westminster, upon Monday January 31, 1697 / by John Lord Bishop of Norwich.</title>
+      <author>Moore, John, 1646-1714.</author>
+    </titleStmt>
+    <extent>35 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.R.</persName> for <persName type="publisher">W. Rogers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Rogers</persName>
+    </person>
+    <person type="printer">
+      <persName>R.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

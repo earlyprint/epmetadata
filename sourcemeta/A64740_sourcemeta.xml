@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anekdota etero&#363;iaka, or, The secret history of the house of Medicis written originally by that fam'd historian, the Sieur de Varillas ; made English by Ferrand Spence.</title>
-         <title>Anecdotes de Florence. English</title>
-         <author>Varillas, Monsieur (Antoine), 1624-1696.</author>
-         <author>Spence, Ferrand.</author>
-      </titleStmt>
-      <extent>[78], 470 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.E. for R. Bentley and S. Magnes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of Anecdotes de Florence.</note>
-         <note>First edition in English.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anekdota etero&#363;iaka, or, The secret history of the house of Medicis written originally by that fam'd historian, the Sieur de Varillas ; made English by Ferrand Spence.</title>
+      <title>Anecdotes de Florence. English</title>
+      <author>Varillas, Monsieur (Antoine), 1624-1696.</author>
+      <author>Spence, Ferrand.</author>
+    </titleStmt>
+    <extent>[78], 470 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.E.</persName> for <persName type="publisher">R. Bentley</persName> and <persName type="publisher">S. Magnes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of Anecdotes de Florence.</note>
+      <note>First edition in English.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Magnes</persName>
+    </person>
+    <person type="printer">
+      <persName>R.E.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

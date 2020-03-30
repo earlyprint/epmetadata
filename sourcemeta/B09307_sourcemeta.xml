@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Quakers no Christians:, or, A sober request to the Quakers, published by Jer. Ives.</title>
-         <author>Ives, Jeremiah, fl. 1653-1674.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Smith at the Elephant and Castle in Cornhil near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1674">1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Quakers no Christians:, or, A sober request to the Quakers, published by Jer. Ives.</title>
+      <author>Ives, Jeremiah, fl. 1653-1674.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Smith</persName> at <placeName>the Elephant</placeName> and Castle in <placeName>Cornhil near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1674">1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cornhil near the Royal Exchange</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

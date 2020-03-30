@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to the Deists</title>
-         <author>Prideaux, Humphrey, 1648-1724.</author>
-      </titleStmt>
-      <extent>[2], 154 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Edward Castle, next Scotland-yard, by Whitehall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Humphrey Prideaux.</note>
-         <note>With errata at end of text.</note>
-         <note>With footnotes.</note>
-         <note>Reproduction of the original at the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to the Deists</title>
+      <author>Prideaux, Humphrey, 1648-1724.</author>
+    </titleStmt>
+    <extent>[2], 154 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Edward Castle, next Scotland-yard</persName>, by <persName type="printer">Whitehall</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Humphrey Prideaux.</note>
+      <note>With errata at end of text.</note>
+      <note>With footnotes.</note>
+      <note>Reproduction of the original at the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Castle, next Scotland-yard</persName>
+    </person>
+    <person type="printer">
+      <persName>Whitehall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of contentment, patience and resignation to the will of God several sermons / by Isaac Barrow.</title>
-         <author>Barrow, Isaac, 1630-1677.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Never before printed.</edition>
-      </editionStmt>
-      <extent>[4], 269 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Brabazon Aylmer,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of contentment, patience and resignation to the will of God several sermons / by Isaac Barrow.</title>
+      <author>Barrow, Isaac, 1630-1677.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Never before printed.</edition>
+    </editionStmt>
+    <extent>[4], 269 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Brabazon Aylmer</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

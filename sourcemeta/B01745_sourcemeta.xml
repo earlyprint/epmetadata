@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The two faithful lovers. To the tune of, Franklin is fled away, etc.</title>
-         <author>Bowne, Tobias.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for A.M. W.O. and  T. Thackery,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695" cert="low">[1695?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Author and date of publication suggested by Wing (2nd ed.).</note>
-         <note>Includes 3 engraved illustrations.</note>
-         <note>Reproduction of original in: University of Glasgow Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The two faithful lovers. To the tune of, Franklin is fled away, etc.</title>
+      <author>Bowne, Tobias.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A.M. W.O.</persName> and <persName type="publisher"> T. Thackery</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695" cert="low">[1695?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Author and date of publication suggested by Wing (2nd ed.).</note>
+      <note>Includes 3 engraved illustrations.</note>
+      <note>Reproduction of original in: University of Glasgow Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName> T. Thackery</persName>
+    </person>
+    <person type="publisher">
+      <persName>A.M. W.O.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

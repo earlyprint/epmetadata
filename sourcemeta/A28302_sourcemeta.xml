@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short history of the last Parliament</title>
-         <author>Blackmore, Richard, Sir, d. 1729.</author>
-         <author>Drake, James, 1667-1707.</author>
-      </titleStmt>
-      <extent>64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Jacob Tonson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by Richard Blackmore. Cf. NUC pre-1956.</note>
-         <note>Wrongly ascribed to James Drake, M.D. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short history of the last Parliament</title>
+      <author>Blackmore, Richard, Sir, d. 1729.</author>
+      <author>Drake, James, 1667-1707.</author>
+    </titleStmt>
+    <extent>64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Jacob Tonson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by Richard Blackmore. Cf. NUC pre-1956.</note>
+      <note>Wrongly ascribed to James Drake, M.D. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jacob Tonson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

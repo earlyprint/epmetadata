@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh's true almanack,  or A new prognostication for the year of our Lord, 1690. Being the second year after bissextile or leap-year, and from the creation of the world, 5639. Exactly calculated according to art, for the meridian of the most famous city of Edinburgh, whose latitude is 55 d. 54 m.&#185;/&#8322;. and longitude is 11 d. 37 m. from Pico Taniriff, according to the newest tables. / By James Paterson mathematician.</title>
-         <author>Paterson, James, mathematician, fl. 1685-1692.</author>
-      </titleStmt>
-      <extent>[16]  p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by the Heir of Andrew Anderson, printer to the City and Colledge,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1690">for the year, 1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: tightly bound with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh's true almanack,  or A new prognostication for the year of our Lord, 1690. Being the second year after bissextile or leap-year, and from the creation of the world, 5639. Exactly calculated according to art, for the meridian of the most famous city of Edinburgh, whose latitude is 55 d. 54 m.&#185;/&#8322;. and longitude is 11 d. 37 m. from Pico Taniriff, according to the newest tables. / By James Paterson mathematician.</title>
+      <author>Paterson, James, mathematician, fl. 1685-1692.</author>
+    </titleStmt>
+    <extent>[16]  p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the Heir of Andrew Anderson</persName>, printer to <persName type="patron">the City</persName> and <persName type="patron">Colledge</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1690">for the year, 1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: tightly bound with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the Heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>Colledge</persName>
+    </person>
+    <person type="patron">
+      <persName>the City</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

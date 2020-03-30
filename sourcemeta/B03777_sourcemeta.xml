@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The indifferent lover, or, The roving batchelor. To a pleasant new tune, sung in the last new comedy, called Amphytrion, or, Fond boy&#183;</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Ch[arles]. Bates, at the White-Hart in West-Smith-Field.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690">[1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publisher's name, place and date of publication from Wing.</note>
-         <note>Verse: "For Iris I sigh and hourly dye ..."</note>
-         <note>Printed in two columns.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The indifferent lover, or, The roving batchelor. To a pleasant new tune, sung in the last new comedy, called Amphytrion, or, Fond boy&#183;</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ch[arles]. Bates</persName>, at <placeName>the White-Hart in West-Smith-Field.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690">[1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publisher's name, place and date of publication from Wing.</note>
+      <note>Verse: "For Iris I sigh and hourly dye ..."</note>
+      <note>Printed in two columns.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ch[arles]. Bates</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White-Hart in West-Smith-Field.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

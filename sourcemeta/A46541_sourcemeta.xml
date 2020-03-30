@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation containing His Majesties gracious and ample indemnity.</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh, Printed by the heir of Andrew Anderson ..., and reprinted at London by John Wallis ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1688">1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at Our Court at White-Hall the Twenty fifth dayof September, 1688. And of Our Reign the fourth Year. By His Majesties Command, Melfort."</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation containing His Majesties gracious and ample indemnity.</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh, Printed by <persName type="printer">the heir of Andrew Anderson</persName> ..., and reprinted at <placeName>London</placeName> by <persName type="printer">John Wallis</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1688">1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at Our Court at White-Hall the Twenty fifth dayof September, 1688. And of Our Reign the fourth Year. By His Majesties Command, Melfort."</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Wallis</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

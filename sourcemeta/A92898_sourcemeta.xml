@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christian man: or, The reparation of nature by grace. VVritten in French by John Francis Senault; and now Englished.</title>
-         <title>Homme chrestien. English</title>
-         <author>Senault, Jean-Fran&#231;ois, 1601-1672.</author>
-      </titleStmt>
-      <extent>[16], 400 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for M.M. G. Bedell, and T.C. and are to be sold at their shop at the Middle-Temple-gate in Fleetstreet,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: L'homme chrestien.</note>
-         <note>Title page in red and black.</note>
-         <note>Annotation on Thomason copy: "May. 10".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christian man: or, The reparation of nature by grace. VVritten in French by John Francis Senault; and now Englished.</title>
+      <title>Homme chrestien. English</title>
+      <author>Senault, Jean-Fran&#231;ois, 1601-1672.</author>
+    </titleStmt>
+    <extent>[16], 400 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">M.M. G. Bedell</persName>, and <persName type="publisher">T.C.</persName> and are to be sold at <placeName>their shop at the Middle-Temple-gate in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: L'homme chrestien.</note>
+      <note>Title page in red and black.</note>
+      <note>Annotation on Thomason copy: "May. 10".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M.M. G. Bedell</persName>
+    </person>
+    <person type="publisher">
+      <persName>T.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop at the Middle-Temple-gate in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

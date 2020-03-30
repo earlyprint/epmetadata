@@ -1,20 +1,48 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The foundation of the Vniversitie of Cambridge with a catalogue of the principall founders and speciall benefactors of all the colledges and the totall number of students, magistrates and officers therein being, anno 1622 / the right honorable and his singular good lord, Thomas, now Lord Windsor of Bradenham, Ioh. Scot wisheth all increase of felicitie.</title>
-         <author>Scot, John.</author>
-      </titleStmt>
-      <extent>2 leaves : ill., coats of arms.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Cantrell Legg for Iohn Scot, by the licence of the Right Honorable, Thomas, Earle of Arundell and surrey, Earle Marshall of England, &amp;c. and are to be sold in Popes-head Alley and the signe of the white Horse,</publisher>
-         <pubPlace>[S.l.] :</pubPlace>
-         <date when="1622">Anno 1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Contains depiction of the armorial device of each of the Cambridge colleges.</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The foundation of the Vniversitie of Cambridge with a catalogue of the principall founders and speciall benefactors of all the colledges and the totall number of students, magistrates and officers therein being, anno 1622 / the right honorable and his singular good lord, Thomas, now Lord Windsor of Bradenham, Ioh. Scot wisheth all increase of felicitie.</title>
+      <author>Scot, John.</author>
+    </titleStmt>
+    <extent>2 leaves : ill., coats of arms.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Cantrell Legg</persName> for <persName type="publisher">Iohn Scot</persName>, by <persName type="printer">the licence of the Right Honorable</persName>, <persName type="printer">Thomas</persName>, <persName type="printer">Earle of Arundell and surrey</persName>, <persName type="printer">Earle Marshall of England</persName>, <persName type="printer">&amp;c.</persName> and are to be sold in <placeName>Popes-head Alley</placeName> and the signe of the white Horse,</publisher>
+      <pubPlace>[S.l.] :</pubPlace>
+      <date when="1622">Anno 1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Contains depiction of the armorial device of each of the Cambridge colleges.</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Scot</persName>
+    </person>
+    <person type="printer">
+      <persName>&amp;c.</persName>
+    </person>
+    <person type="printer">
+      <persName>Cantrell Legg</persName>
+    </person>
+    <person type="printer">
+      <persName>Earle Marshall of England</persName>
+    </person>
+    <person type="printer">
+      <persName>Earle of Arundell and surrey</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas</persName>
+    </person>
+    <person type="printer">
+      <persName>the licence of the Right Honorable</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

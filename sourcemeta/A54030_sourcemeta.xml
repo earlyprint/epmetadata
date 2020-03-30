@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem on the fall of the southside of S. Paul's Cathedrall to which is added a satyre against the fanatick boutefeus of these times, and a memoriall offer'd up at the tomb of the incomparable Mr. John Cleaveland : never before exactly printed.</title>
-         <author>T. P.</author>
-      </titleStmt>
-      <extent>[2], 4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Roger Vaughan ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: T.P.</note>
-         <note>"Licensed and published according to order"</note>
-         <note>Imperfect: Satyre lacking on film.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem on the fall of the southside of S. Paul's Cathedrall to which is added a satyre against the fanatick boutefeus of these times, and a memoriall offer'd up at the tomb of the incomparable Mr. John Cleaveland : never before exactly printed.</title>
+      <author>T. P.</author>
+    </titleStmt>
+    <extent>[2], 4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Roger Vaughan</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: T.P.</note>
+      <note>"Licensed and published according to order"</note>
+      <note>Imperfect: Satyre lacking on film.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Roger Vaughan</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Roger Vaughan</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

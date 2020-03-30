@@ -1,21 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short instruction for to arme all good Christian people agaynst the pestiferous errours of the common secte of Anabaptistes. Compiled by mayster Iohn Caluine</title>
-         <author>Calvin, Jean, 1509-1564.</author>
-      </titleStmt>
-      <extent>[168] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ihon Daye, dwellinge at Aldersgate, and William Seres, dwellinge in Peter Colledge These bokes are too be sold at the new shop by the litle conduite in Chepeside,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1549">[1549]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon; publication date suggested by STC.</note>
-         <note>Running title reads: Agaynst the articles of the Anabaptistes.</note>
-         <note>Signatures: A-K L&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short instruction for to arme all good Christian people agaynst the pestiferous errours of the common secte of Anabaptistes. Compiled by mayster Iohn Caluine</title>
+      <author>Calvin, Jean, 1509-1564.</author>
+    </titleStmt>
+    <extent>[168] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ihon Daye</persName>, dwellinge at <placeName>Aldersgate</placeName>, and William Seres, dwellinge in <placeName>Peter Colledge These bokes are too be sold at the new shop</placeName> by <persName type="printer">the litle conduite</persName> in <placeName>Chepeside</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1549">[1549]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon; publication date suggested by STC.</note>
+      <note>Running title reads: Agaynst the articles of the Anabaptistes.</note>
+      <note>Signatures: A-K L&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ihon Daye</persName>
+    </person>
+    <person type="printer">
+      <persName>the litle conduite</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Aldersgate</placeName>
+    </place>
+    <place type="location">
+      <placeName>Chepeside</placeName>
+    </place>
+    <place type="location">
+      <placeName>Peter Colledge These bokes are too be sold at the new shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

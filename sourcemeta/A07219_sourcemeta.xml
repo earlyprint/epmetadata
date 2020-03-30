@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reasons academie. Set foorth by Robert Mason of Lincolnes Inne, Gent</title>
-         <author>Mason, Robert, 1571-1635.</author>
-         <author>Davies, John, Sir, 1569-1626.</author>
-      </titleStmt>
-      <extent>[8], 104, [8] p., folded table   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Th. Creede, for Iohn Browne, and are to be solde at his shop in S. Dunstons Church-yard in Fleet-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1605">1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Formerly attributed to Sir John Davies, who apparently wrote the poem "Reasons moane" at end.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>In this state "To the reader" occupies A4 only; B1r line 1 of text ends: to dis-.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reasons academie. Set foorth by Robert Mason of Lincolnes Inne, Gent</title>
+      <author>Mason, Robert, 1571-1635.</author>
+      <author>Davies, John, Sir, 1569-1626.</author>
+    </titleStmt>
+    <extent>[8], 104, [8] p., folded table   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Th. Creede</persName>, for <persName type="publisher">Iohn Browne</persName>, and are to be solde at <placeName>his shop in S. Dunstons Church-yard in Fleet-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1605">1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Formerly attributed to Sir John Davies, who apparently wrote the poem "Reasons moane" at end.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>In this state "To the reader" occupies A4 only; B1r line 1 of text ends: to dis-.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Browne</persName>
+    </person>
+    <person type="printer">
+      <persName>Th. Creede</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in S. Dunstons Church-yard in Fleet-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

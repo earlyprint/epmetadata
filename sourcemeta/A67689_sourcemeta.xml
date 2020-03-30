@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An impartial description of Surinam upon the continent of Guiana in America with a history of several strange beasts, birds, fishes, serpents, insects and customs of that colony, etc. / worthy the perusal of all, from experience of George Warren ...</title>
-         <author>Warren, George, 17th cent.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Godbid for Nathaniel Brooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1667">1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An impartial description of Surinam upon the continent of Guiana in America with a history of several strange beasts, birds, fishes, serpents, insects and customs of that colony, etc. / worthy the perusal of all, from experience of George Warren ...</title>
+      <author>Warren, George, 17th cent.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Godbid</persName> for <persName type="publisher">Nathaniel Brooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1667">1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Brooke</persName>
+    </person>
+    <person type="printer">
+      <persName>William Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

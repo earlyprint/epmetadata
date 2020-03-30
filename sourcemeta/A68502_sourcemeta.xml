@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon, called Gods new yeeres-guift sent vnto England. Conteined in these wordes. So God loued the worlde, that he hath giuen his onely begotten sonne, that whosoeuer beleeueth in him, should not perish but should haue life euerlasting. Ioh. 3. 16.</title>
-         <author>Nicholson, Samuel, fl. 1600-1602.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. White, and are to be sold by Y. James at his shop without Criple-gate,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1602">1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Samuel Nicholson.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-B C&#8308;.</note>
-         <note>Some print faded; some pages tightly bound.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon, called Gods new yeeres-guift sent vnto England. Conteined in these wordes. So God loued the worlde, that he hath giuen his onely begotten sonne, that whosoeuer beleeueth in him, should not perish but should haue life euerlasting. Ioh. 3. 16.</title>
+      <author>Nicholson, Samuel, fl. 1600-1602.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. White</persName>, and are to be sold by <persName type="bookseller">Y. James</persName> at <placeName>his shop without Criple-gate</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1602">1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Samuel Nicholson.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-B C&#8308;.</note>
+      <note>Some print faded; some pages tightly bound.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W. White</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Y. James</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop without Criple-gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

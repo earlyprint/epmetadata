@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vnmasking of all popish monks, friers, and Iesuits. Or, A treatise of their genealogie, beginnings, proceedings, and present state Together with some briefe obseruations of their treasons, murders, fornications, impostures, blasphemies, and sundry other abominable impieties. Written as a caueat or forewarning for Great Britaine to take heed in time of these romish locusts. By Lewis Owen.</title>
-         <author>Owen, Lewis, 1572-1633.</author>
-      </titleStmt>
-      <extent>[8], 160, 159-164, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] H[aviland] for George Gibs, and are to be sold a [sic] his shop at the signe of the Flower-de-Luce in Popes head Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1628">1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: A genealogie of monks, friers, Iesuites, &amp;c.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vnmasking of all popish monks, friers, and Iesuits. Or, A treatise of their genealogie, beginnings, proceedings, and present state Together with some briefe obseruations of their treasons, murders, fornications, impostures, blasphemies, and sundry other abominable impieties. Written as a caueat or forewarning for Great Britaine to take heed in time of these romish locusts. By Lewis Owen.</title>
+      <author>Owen, Lewis, 1572-1633.</author>
+    </titleStmt>
+    <extent>[8], 160, 159-164, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] H[aviland]</persName> for <persName type="publisher">George Gibs</persName>, and are to be sold a [sic] his shop at <placeName>the signe of the Flower-de-Luce in Popes head Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1628">1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: A genealogie of monks, friers, Iesuites, &amp;c.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Gibs</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] H[aviland]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Flower-de-Luce in Popes head Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

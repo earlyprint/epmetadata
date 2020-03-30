@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A herrings tayle contayning a poeticall fiction of diuers matters worthie the reading.</title>
-         <author>Carew, Richard, 1555-1620.</author>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Felix Kingston] for Matthew Lownes,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1598">1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Richard Carew.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-D&#8308; E&#178; .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A herrings tayle contayning a poeticall fiction of diuers matters worthie the reading.</title>
+      <author>Carew, Richard, 1555-1620.</author>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Felix Kingston]</persName> for <persName type="publisher">Matthew Lownes</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1598">1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Richard Carew.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-D&#8308; E&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

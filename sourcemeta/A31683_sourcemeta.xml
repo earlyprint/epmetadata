@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Character of a church papist</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Kidgell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Character of a church papist</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Kidgell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Kidgell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A censure of simonie, or a most important case of conscience concerning simonie briefly discussed not altogether perhaps vnparallell for the meridian of these times. By H. Burton rector of little Saint-Matthewes in Friday-street London.</title>
-         <author>Burton, Henry, 1578-1648.</author>
-      </titleStmt>
-      <extent>[16], 123, [31] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Stansby, for Edmund Weauer and Iohn Smethwicke,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A censure of simonie, or a most important case of conscience concerning simonie briefly discussed not altogether perhaps vnparallell for the meridian of these times. By H. Burton rector of little Saint-Matthewes in Friday-street London.</title>
+      <author>Burton, Henry, 1578-1648.</author>
+    </titleStmt>
+    <extent>[16], 123, [31] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Stansby</persName>, for <persName type="publisher">Edmund Weauer</persName> and <persName type="publisher">Iohn Smethwicke</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Weauer</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Smethwicke</persName>
+    </person>
+    <person type="printer">
+      <persName>William Stansby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

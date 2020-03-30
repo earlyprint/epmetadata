@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short history of the succession of the Kings and Queens of England, from William the Conqueror, to His present Majesty King William, the III. to the imperial crowns of these realms of England, Scotland, France, and Ireland; is briefly illustrated and declared.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by G. Croom, over against Bridewell near Fleet-bridge, and sold by R. Baldwin,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1694">[1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First line of text: William the Con-.</note>
-         <note>Year of publication from Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short history of the succession of the Kings and Queens of England, from William the Conqueror, to His present Majesty King William, the III. to the imperial crowns of these realms of England, Scotland, France, and Ireland; is briefly illustrated and declared.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Croom, over against Bridewell</persName> near <placeName>Fleet-bridge</placeName>, and sold by <persName type="bookseller">R. Baldwin</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1694">[1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First line of text: William the Con-.</note>
+      <note>Year of publication from Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>G. Croom, over against Bridewell</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

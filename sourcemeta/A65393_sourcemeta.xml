@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The court and character of King James whereunto is now added The court of King Charles : continued unto the beginning of these unhappy times : with some observations upon him instead of a character / collected and perfected by Sir A.W.</title>
-         <author>Weldon, Anthony, Sir, d. 1649?</author>
-      </titleStmt>
-      <extent>[1], 226, [6] p. : ill., port.  </extent>
-      <publicationStmt>
-         <publisher>Printed at London by R.I. and are to be sold by J. Collins ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by authority."</note>
-         <note>Imperfect: pages stained.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The court and character of King James whereunto is now added The court of King Charles : continued unto the beginning of these unhappy times : with some observations upon him instead of a character / collected and perfected by Sir A.W.</title>
+      <author>Weldon, Anthony, Sir, d. 1649?</author>
+    </titleStmt>
+    <extent>[1], 226, [6] p. : ill., port.  </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName> by <persName type="printer">R.I.</persName> and are to be sold by <persName type="bookseller">J. Collins</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by authority."</note>
+      <note>Imperfect: pages stained.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R.I.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Collins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene the Queenes Maiestie, hearing credibly by report, that in some partes of her realme, her people and subiectes are, and of late have ben vexed and molested, by certayne lewde persons vnder pretence of executing commissions for inquiries to be made for lands concealed ...</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Richarde Iugge and Iohn Cawood, Printers to the Queenes Maiestie,</publisher>
-         <pubPlace>Imprinted at London in Powles Churchyarde :</pubPlace>
-         <date when="1572">[1572]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Floriated initial.</note>
-         <note>Revoking commissions to inquire into concealments.</note>
-         <note>"Yeuen at her hyghnesse pallace at Westminster, the thirteenth day of February, in the fourteenth yere of her Maiesties raigne."</note>
-         <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene the Queenes Maiestie, hearing credibly by report, that in some partes of her realme, her people and subiectes are, and of late have ben vexed and molested, by certayne lewde persons vnder pretence of executing commissions for inquiries to be made for lands concealed ...</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richarde Iugge</persName> and <persName type="printer">Iohn Cawood</persName>, Printers to <persName type="patron">the Queenes Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London in Powles Churchyarde :</pubPlace>
+      <date when="1572">[1572]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Floriated initial.</note>
+      <note>Revoking commissions to inquire into concealments.</note>
+      <note>"Yeuen at her hyghnesse pallace at Westminster, the thirteenth day of February, in the fourteenth yere of her Maiesties raigne."</note>
+      <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Cawood</persName>
+    </person>
+    <person type="printer">
+      <persName>Richarde Iugge</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

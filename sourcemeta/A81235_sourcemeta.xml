@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Correction, instruction or, a treatise of afflictions: first conceived by way of private meditations: afterward digested into certain sermons, preach'd at Aldermanbury. And now published for the help and comfort of humble suffering Christians. By Tho. Case, M.A. sometimes student of Ch. Ch. Oxon. now preacher of the Gospel in London.</title>
-         <author>Case, Thomas, 1598-1682.</author>
-      </titleStmt>
-      <extent>[12], 287, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Luke Favvn, and are to be sold at his shop at the sign of the Parrat in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "July. 20".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Correction, instruction or, a treatise of afflictions: first conceived by way of private meditations: afterward digested into certain sermons, preach'd at Aldermanbury. And now published for the help and comfort of humble suffering Christians. By Tho. Case, M.A. sometimes student of Ch. Ch. Oxon. now preacher of the Gospel in London.</title>
+      <author>Case, Thomas, 1598-1682.</author>
+    </titleStmt>
+    <extent>[12], 287, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Luke Favvn</persName>, and are to be sold at <placeName>his shop at the sign of the Parrat in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "July. 20".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Luke Favvn</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the sign of the Parrat in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Teares on the death of Meliades</title>
-         <author>Drummond, William, 1585-1649.</author>
-      </titleStmt>
-      <extent>[12] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Andro Hart, and are to be sold at his shop on the north-side of the high streete, a litle beneath the Crosse,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1613">1613.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: W. Dr., i.e. William Drummond.</note>
-         <note>In verse.</note>
-         <note>On the death of Henry Frederick, Prince of Wales.</note>
-         <note>Signatures: [A]&#8308; B&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Teares on the death of Meliades</title>
+      <author>Drummond, William, 1585-1649.</author>
+    </titleStmt>
+    <extent>[12] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andro Hart</persName>, and are to be sold at <placeName>his shop on the north-side of the high streete, a litle beneath the Crosse</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1613">1613.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: W. Dr., i.e. William Drummond.</note>
+      <note>In verse.</note>
+      <note>On the death of Henry Frederick, Prince of Wales.</note>
+      <note>Signatures: [A]&#8308; B&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andro Hart</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop on the north-side of the high streete, a litle beneath the Crosse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

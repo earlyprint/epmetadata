@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the reverend clergy of the Diocese of York</title>
-         <author>Sharp, John, 1645-1714.</author>
-      </titleStmt>
-      <extent>3 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Charles Bill, and the Executrix of Thomas Newcomb, deceas'd ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Signed on p. 3: March 14th 1699. J. Ebor.</note>
-         <note>Reproduction of original in: Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the reverend clergy of the Diocese of York</title>
+      <author>Sharp, John, 1645-1714.</author>
+    </titleStmt>
+    <extent>3 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Charles Bill, and the Executrix of Thomas Newcomb, deceas'd</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Signed on p. 3: March 14th 1699. J. Ebor.</note>
+      <note>Reproduction of original in: Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the Executrix of Thomas Newcomb, deceas'd</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

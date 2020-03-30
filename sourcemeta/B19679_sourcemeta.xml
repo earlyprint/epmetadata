@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for prohibiting the transportation of horns unwrought, and bunns of horns unwrought</title>
-         <title>Proclamations. 1668-12-18.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>In the Savoy, printed by the assigns of John Bill and Christopher Barker, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1668">1668]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our court at Whitehall the eighteenth day of December, in the twentieth year of our reign. 1668.".</note>
-         <note>Concerns privileges of the Horners' Company.</note>
-         <note>Arms 75; Steele notation: prevent Reign, 2) And of.</note>
-         <note>Reproduction of the original in the Guildhall Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for prohibiting the transportation of horns unwrought, and bunns of horns unwrought</title>
+      <title>Proclamations. 1668-12-18.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>In the Savoy, printed by the assigns of <persName type="assigns">John Bill</persName> and <persName type="assigns">Christopher Barker</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1668">1668]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our court at Whitehall the eighteenth day of December, in the twentieth year of our reign. 1668.".</note>
+      <note>Concerns privileges of the Horners' Company.</note>
+      <note>Arms 75; Steele notation: prevent Reign, 2) And of.</note>
+      <note>Reproduction of the original in the Guildhall Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods lift-up hand for Lancashire, presented in a sermon preached before the honorable committee of the county at Lancashire. Upon the 18th of December 1645. Being a solemne day of thankesgiving to God for clearing of the country, in subduing the enemies thereof. / By Nehemiah Barnet, minister at Lancaster.</title>
-         <author>Barnett, Nehemiah, b. 1614 or 15.</author>
-      </titleStmt>
-      <extent>[14], 47, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilson, for John Williams, and are to be sold at the Crown in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods lift-up hand for Lancashire, presented in a sermon preached before the honorable committee of the county at Lancashire. Upon the 18th of December 1645. Being a solemne day of thankesgiving to God for clearing of the country, in subduing the enemies thereof. / By Nehemiah Barnet, minister at Lancaster.</title>
+      <author>Barnett, Nehemiah, b. 1614 or 15.</author>
+    </titleStmt>
+    <extent>[14], 47, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilson</persName>, for <persName type="publisher">John Williams</persName>, and are to be sold at <placeName>the Crown in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Williams</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crown in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

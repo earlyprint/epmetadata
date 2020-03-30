@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation to prevent the exacting of excessive prices of victuals, and other necessaries within the verge of His Majesties houshold.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>2 sheets (versos blank)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill and Christopher Barker, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1674">1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end of text: Given at our court at Whitehall, the nineteenth day of May, 1674. in the six and twentieth year of our reign.</note>
-         <note>Steele notation: Arms 89  Our have 2) bring- or.</note>
-         <note>Two copies filmed consecutively at UMI Tracts Supplement reel C18; filmed copies consist of one contiguous sheet.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation to prevent the exacting of excessive prices of victuals, and other necessaries within the verge of His Majesties houshold.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>2 sheets (versos blank)   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill</persName> and <persName type="assigns">Christopher Barker</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1674">1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end of text: Given at our court at Whitehall, the nineteenth day of May, 1674. in the six and twentieth year of our reign.</note>
+      <note>Steele notation: Arms 89  Our have 2) bring- or.</note>
+      <note>Two copies filmed consecutively at UMI Tracts Supplement reel C18; filmed copies consist of one contiguous sheet.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

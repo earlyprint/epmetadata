@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of His Majesties loyall subjects in the county of Lincoln.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printer to the Kings most Excellent Majestie: and by the assignes of John Bill.,</publisher>
-         <pubPlace>Imprinted at York by Robert Barker, :</pubPlace>
-         <date when="1642">1642..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Thanks the King for the present Parliament ... Regrets misunderstandings fostered ... by the Popish Party. Prays for reunion ... -- Steele.</note>
-         <note>Steele notation: Type headline  Ma- enacted of.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of His Majesties loyall subjects in the county of Lincoln.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printer to <persName type="patron">the Kings most Excellent Majestie: and</persName> by the assignes of <persName type="assigns">John Bill.</persName>,</publisher>
+      <pubPlace>Imprinted at York by Robert Barker, :</pubPlace>
+      <date when="1642">1642..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Thanks the King for the present Parliament ... Regrets misunderstandings fostered ... by the Popish Party. Prays for reunion ... -- Steele.</note>
+      <note>Steele notation: Type headline  Ma- enacted of.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>John Bill.</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majestie: and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

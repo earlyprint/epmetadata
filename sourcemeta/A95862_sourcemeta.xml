@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Versatile ingenium, The Wittie companion, or Jests of all sorts. From citie and countrie, court and universitie. : With an account of the life of the laughing philosopher Democritus of Abder&#768;a. / By Democritus Junior.</title>
-         <author>Burton, Robert, 1577-1640.</author>
-      </titleStmt>
-      <extent>[8], 232 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Stephen Swart, at the crowned Bible, near the Exchange.,</publisher>
-         <pubPlace>Amsterdam, :</pubPlace>
-         <date when="1679">Anno 1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 198 incorrectly numbered 196.</note>
-         <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles, California.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Versatile ingenium, The Wittie companion, or Jests of all sorts. From citie and countrie, court and universitie. : With an account of the life of the laughing philosopher Democritus of Abder&#768;a. / By Democritus Junior.</title>
+      <author>Burton, Robert, 1577-1640.</author>
+    </titleStmt>
+    <extent>[8], 232 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Stephen Swart</persName>, at <placeName>the crowned Bible, near the Exchange.</placeName>,</publisher>
+      <pubPlace>Amsterdam, :</pubPlace>
+      <date when="1679">Anno 1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 198 incorrectly numbered 196.</note>
+      <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles, California.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Stephen Swart</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the crowned Bible, near the Exchange.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

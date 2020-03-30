@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Animadversions upon Sr. Richard Baker's Chronicle, and its continuation wherein many errors are discover'd, and some truths advanced / by T.B., Esq.</title>
-         <author>Blount, Thomas, 1618-1679.</author>
-      </titleStmt>
-      <extent>[9], 111 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H.H. for Ric. Davis,</publisher>
-         <pubPlace>Oxon :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by T. Blount. Cf. Wing.</note>
-         <note>Errata: p. [9].</note>
-         <note>Reproduction of original in University of Chicago Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Animadversions upon Sr. Richard Baker's Chronicle, and its continuation wherein many errors are discover'd, and some truths advanced / by T.B., Esq.</title>
+      <author>Blount, Thomas, 1618-1679.</author>
+    </titleStmt>
+    <extent>[9], 111 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H.H.</persName> for <persName type="publisher">Ric. Davis</persName>,</publisher>
+      <pubPlace>Oxon :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by T. Blount. Cf. Wing.</note>
+      <note>Errata: p. [9].</note>
+      <note>Reproduction of original in University of Chicago Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>H.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

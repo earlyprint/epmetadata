@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems, by that most famous wit, William Drummond of Hawthornden</title>
-         <title>Poems. Selections</title>
-         <author>Drummond, William, 1585-1649.</author>
-         <author>Phillips, Edward, 1630-1696?</author>
-      </titleStmt>
-      <extent>[16], 208 p., [1] leaf of plates : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Tomlins ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Teares on the death of Moeliades", "The wandring muses, or, The river of Forth feasting", and "Speeches to the High and Excellent Prince Charles ..." have special title pages.</note>
-         <note>"To the reader" signed: E.P.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems, by that most famous wit, William Drummond of Hawthornden</title>
+      <title>Poems. Selections</title>
+      <author>Drummond, William, 1585-1649.</author>
+      <author>Phillips, Edward, 1630-1696?</author>
+    </titleStmt>
+    <extent>[16], 208 p., [1] leaf of plates : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Tomlins</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Teares on the death of Moeliades", "The wandring muses, or, The river of Forth feasting", and "Speeches to the High and Excellent Prince Charles ..." have special title pages.</note>
+      <note>"To the reader" signed: E.P.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Tomlins</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

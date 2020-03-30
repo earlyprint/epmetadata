@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A tour in France &amp; Italy, made by an English Gentleman, 1675</title>
-         <author>Clenche, John.</author>
-      </titleStmt>
-      <extent>[2], 123, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Clenche--Wing.</note>
-         <note>Title page is A2.</note>
-         <note>With marginal notes.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A tour in France &amp; Italy, made by an English Gentleman, 1675</title>
+      <author>Clenche, John.</author>
+    </titleStmt>
+    <extent>[2], 123, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Clenche--Wing.</note>
+      <note>Title page is A2.</note>
+      <note>With marginal notes.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

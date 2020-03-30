@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The dystruccyon of Iherusalem by Vaspazian and Tytus</title>
-      </titleStmt>
-      <extent>[68] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>In flete strete at the sygne of the sonne by Wynkyn de Worde],</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date when="1510">[1510]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon. Date of publication suggested by STC.</note>
-         <note>Probably preceeds STC 14517--Cf. STC.</note>
-         <note>Signatures: A4 B8 C4 D8 E4 F8 G4.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The dystruccyon of Iherusalem by Vaspazian and Tytus</title>
+    </titleStmt>
+    <extent>[68] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>In flete strete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">Wynkyn de Worde]</persName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date when="1510">[1510]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon. Date of publication suggested by STC.</note>
+      <note>Probably preceeds STC 14517--Cf. STC.</note>
+      <note>Signatures: A4 B8 C4 D8 E4 F8 G4.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de Worde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

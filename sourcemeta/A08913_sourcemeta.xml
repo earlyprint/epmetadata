@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the plague contayning the causes, signes, symptomes, prognosticks, and cure thereof. Together with sundry other remarkable passages (for the prevention of, and preservation from the pestilence) never yet published by anie man. Collected out of the workes of the no lesse learned than experimented and renowned chirurgian Ambrose Parey.</title>
-         <author>Par&#233;, Ambroise, 1510?-1590. aut</author>
-         <author>Johnson, Thomas, d. 1644.</author>
-      </titleStmt>
-      <extent>[4], 69, 80-93, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Y[oung] and R. C[otes] and are sold by Mich. Sparke, in the green Arbor Court in little Old Bailey, at the blew Bible,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printers' names from STC.</note>
-         <note>Translated by Thomas Johnson.</note>
-         <note>Identified as STC 19192a on UMI microfilm.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the plague contayning the causes, signes, symptomes, prognosticks, and cure thereof. Together with sundry other remarkable passages (for the prevention of, and preservation from the pestilence) never yet published by anie man. Collected out of the workes of the no lesse learned than experimented and renowned chirurgian Ambrose Parey.</title>
+      <author>Par&#233;, Ambroise, 1510?-1590. aut</author>
+      <author>Johnson, Thomas, d. 1644.</author>
+    </titleStmt>
+    <extent>[4], 69, 80-93, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Y[oung]</persName> and <persName type="printer">R. C[otes]</persName> and are sold by <persName type="bookseller">Mich. Sparke</persName>, in <placeName>the green Arbor Court in little Old Bailey, at the blew Bible</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printers' names from STC.</note>
+      <note>Translated by Thomas Johnson.</note>
+      <note>Identified as STC 19192a on UMI microfilm.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. C[otes]</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Y[oung]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mich. Sparke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the green Arbor Court in little Old Bailey, at the blew Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

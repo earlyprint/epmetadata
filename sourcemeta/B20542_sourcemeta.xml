@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Believers-baptism from heaven, and of divine institution Infants-baptism from earth, and human invention. Proved from the commission of Christ, the great law-giver to the gospel-church. With a brief, yet sufficient answer to Thomas Wall's book, called, Baptism anatomized. Together with a brief answer to a part of Mr. Daniel William's catechism, in his book unto youth. By Hercules Collins, a servant of the servants of Christ.</title>
-         <author>Collins, Hercules, d. 1702.</author>
-      </titleStmt>
-      <extent>[2], 139, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and sold by J. Hancock, in Castle-Alley near the Royal-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With errata on final page of text.</note>
-         <note>Reproduction of the original in the Congregational Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Believers-baptism from heaven, and of divine institution Infants-baptism from earth, and human invention. Proved from the commission of Christ, the great law-giver to the gospel-church. With a brief, yet sufficient answer to Thomas Wall's book, called, Baptism anatomized. Together with a brief answer to a part of Mr. Daniel William's catechism, in his book unto youth. By Hercules Collins, a servant of the servants of Christ.</title>
+      <author>Collins, Hercules, d. 1702.</author>
+    </titleStmt>
+    <extent>[2], 139, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and sold by <persName type="bookseller">J. Hancock</persName>, in <placeName>Castle-Alley near the Royal-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With errata on final page of text.</note>
+      <note>Reproduction of the original in the Congregational Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Hancock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-Alley near the Royal-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

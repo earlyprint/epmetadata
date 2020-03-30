@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Prayer meete to be sayd of all true subiectes for our Queene Elizabeth, and for the present stare [sic] Priere propre a dire pour chacun vray, &amp; fidele subiet, pour nostre Roine Elizabeth, &amp; pour l'estat present / mise en Fran&#231;ois par Iaques Bellot ...</title>
-         <author>Bellot, Jaques.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iones, [d]welling neere vnto Holberne bridge,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1586">[1586]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>English text and French translation in opposite columns.</note>
-         <note>Date of imprint suggested by STC (2nd ed.).</note>
-         <note>Imperfect: creased with some loss of print.</note>
-         <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Prayer meete to be sayd of all true subiectes for our Queene Elizabeth, and for the present stare [sic] Priere propre a dire pour chacun vray, &amp; fidele subiet, pour nostre Roine Elizabeth, &amp; pour l'estat present / mise en Fran&#231;ois par Iaques Bellot ...</title>
+      <author>Bellot, Jaques.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iones</persName>, <persName type="printer">[d]welling</persName> neere <placeName>vnto Holberne bridge</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1586">[1586]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>English text and French translation in opposite columns.</note>
+      <note>Date of imprint suggested by STC (2nd ed.).</note>
+      <note>Imperfect: creased with some loss of print.</note>
+      <note>Reproduction of original in the Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>[d]welling</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>vnto Holberne bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

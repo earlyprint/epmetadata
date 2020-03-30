@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The svmme and svbstance of the conference which, it pleased his excellent Maiestie to haue with the lords, bishops, and other of his clergie, (at vvhich the most of the lordes of the councell were present) in his Maiesties priuy-chamber, at Hampton Court. Ianuary 14. 1603. / Contracted by VVilliam Barlovv, Doctor of Diuinity, and Deane of Chester. Whereunto are added, some copies, (scattered abroad,) vnsauory, and vntrue.</title>
-         <author>Barlow, William, d. 1613.</author>
-      </titleStmt>
-      <extent>[8], 103, [9] p.   </extent>
-      <publicationStmt>
-         <publisher>imprinted by Iohn Windet [and T. Creede] for Mathew Law, and are to be sold at his shop in Paules Churchyeard, neare S. Austens Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T. Creede's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Variant: title page has "whereat" for "at vvhich".</note>
-         <note>Item at reel 575:12 identified as STC 1456a.</note>
-         <note>Burney collection copy has some print show-through.</note>
-         <note>Reproductions of the originals in the Folger Shakespeare Library and the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The svmme and svbstance of the conference which, it pleased his excellent Maiestie to haue with the lords, bishops, and other of his clergie, (at vvhich the most of the lordes of the councell were present) in his Maiesties priuy-chamber, at Hampton Court. Ianuary 14. 1603. / Contracted by VVilliam Barlovv, Doctor of Diuinity, and Deane of Chester. Whereunto are added, some copies, (scattered abroad,) vnsauory, and vntrue.</title>
+      <author>Barlow, William, d. 1613.</author>
+    </titleStmt>
+    <extent>[8], 103, [9] p.   </extent>
+    <publicationStmt>
+      <publisher>imprinted by <persName type="printer">Iohn Windet</persName> [and <persName type="printer">T. Creede]</persName> for <persName type="publisher">Mathew Law</persName>, and are to be sold at <placeName>his shop in Paules Churchyeard, neare S. Austens Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T. Creede's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Variant: title page has "whereat" for "at vvhich".</note>
+      <note>Item at reel 575:12 identified as STC 1456a.</note>
+      <note>Burney collection copy has some print show-through.</note>
+      <note>Reproductions of the originals in the Folger Shakespeare Library and the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mathew Law</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Windet</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Creede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Churchyeard, neare S. Austens Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

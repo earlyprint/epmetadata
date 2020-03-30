@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Funerals made cordials: in a sermon prepared and (in part) preached at the solemn interment of the corps of the Right Honorable Robert Rich, heire apparent to the Earldom of Warwick. (Who aged 23. died Febr. 16. at Whitehall, and was honorably buried March 5. 1657. at Felsted in Essex.) By John Gauden, D.D. of Bocking in Essex.</title>
-         <author>Gauden, John, 1605-1662.</author>
-      </titleStmt>
-      <extent>[12], 124 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.C. for Andrew Crook, and are to be sold at the Green Dragon in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "May 17th."; "May. 17.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Funerals made cordials: in a sermon prepared and (in part) preached at the solemn interment of the corps of the Right Honorable Robert Rich, heire apparent to the Earldom of Warwick. (Who aged 23. died Febr. 16. at Whitehall, and was honorably buried March 5. 1657. at Felsted in Essex.) By John Gauden, D.D. of Bocking in Essex.</title>
+      <author>Gauden, John, 1605-1662.</author>
+    </titleStmt>
+    <extent>[12], 124 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.C.</persName> for <persName type="publisher">Andrew Crook</persName>, and are to be sold at <placeName>the Green Dragon in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "May 17th."; "May. 17.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>T.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Green Dragon in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

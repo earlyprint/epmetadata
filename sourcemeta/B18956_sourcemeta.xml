@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of His Maiesties royall pleasvre expressed in certaine ordinances by Him commanded to be put in practice concerning the security of divers parts of this kingdome, especially the city and county of Oxford with the adjacent parts, from the violence of His souldiers.</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>For John Rivers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647" cert="low">[1647?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published Oxford: Leonard Lichfield ... 1647?</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of His Maiesties royall pleasvre expressed in certaine ordinances by Him commanded to be put in practice concerning the security of divers parts of this kingdome, especially the city and county of Oxford with the adjacent parts, from the violence of His souldiers.</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>For <persName type="publisher">John Rivers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647" cert="low">[1647?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published Oxford: Leonard Lichfield ... 1647?</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Rivers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

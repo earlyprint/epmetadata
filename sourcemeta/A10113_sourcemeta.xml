@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon briefly comparing the estate of King Salomon and his subiectes togither with the condition of Queene Elizabeth and her people preached in Sainct Maries in Oxford the 17. of Nouember, and now printed with some small alteration, by Iohn Prime, 1585</title>
-         <author>Prime, John, 1550-1596.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>By Ioseph Barnes printer to the Vniuersitie,</publisher>
-         <pubPlace>Imprinted at Oxford :</pubPlace>
-         <date when="1585">1585.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-B.</note>
-         <note>In another edition (STC 20371.5) line 3 of title has: subiects.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon briefly comparing the estate of King Salomon and his subiectes togither with the condition of Queene Elizabeth and her people preached in Sainct Maries in Oxford the 17. of Nouember, and now printed with some small alteration, by Iohn Prime, 1585</title>
+      <author>Prime, John, 1550-1596.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Ioseph Barnes</persName> printer to <persName type="patron">the Vniuersitie</persName>,</publisher>
+      <pubPlace>Imprinted at Oxford :</pubPlace>
+      <date when="1585">1585.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-B.</note>
+      <note>In another edition (STC 20371.5) line 3 of title has: subiects.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniuersitie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

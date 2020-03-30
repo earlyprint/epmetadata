@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Diseases of the soule a discourse diuine, morall, and physicall. By Tho. Adams.</title>
-         <author>Adams, Thomas, fl. 1612-1653.</author>
-      </titleStmt>
-      <extent>[8], 74 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by George Purslowe for Iohn Budge, and are to be sold at the great south-dore of Paules, and at Brittaines Bursse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1616">1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Diseases of the soule a discourse diuine, morall, and physicall. By Tho. Adams.</title>
+      <author>Adams, Thomas, fl. 1612-1653.</author>
+    </titleStmt>
+    <extent>[8], 74 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Purslowe</persName> for <persName type="publisher">Iohn Budge</persName>, and are to be sold at <placeName>the great south-dore of Paules</placeName>, and at <placeName>Brittaines Bursse</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1616">1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Budge</persName>
+    </person>
+    <person type="printer">
+      <persName>George Purslowe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Brittaines Bursse</placeName>
+    </place>
+    <place type="location">
+      <placeName>the great south-dore of Paules</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

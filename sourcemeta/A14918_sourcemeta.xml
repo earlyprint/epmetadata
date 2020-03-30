@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mirror of martyrs, or The life and death of that thrice valiant capitaine, and most godly martyre Sir Iohn Old-castle knight Lord Cobham</title>
-         <author>Weever, John, 1576-1632.</author>
-      </titleStmt>
-      <extent>[86] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by V[alentine] S[immes] for William Wood,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1601">1601.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Io: Weeuer.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-E F&#8308; (-F4).</note>
-         <note>Running title reads: The life and death of Sir Iohn Oldcastle knight.</note>
-         <note>Quires B, D, and F have vertical chainlines.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mirror of martyrs, or The life and death of that thrice valiant capitaine, and most godly martyre Sir Iohn Old-castle knight Lord Cobham</title>
+      <author>Weever, John, 1576-1632.</author>
+    </titleStmt>
+    <extent>[86] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">V[alentine] S[immes]</persName> for <persName type="publisher">William Wood</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1601">1601.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Io: Weeuer.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-E F&#8308; (-F4).</note>
+      <note>Running title reads: The life and death of Sir Iohn Oldcastle knight.</note>
+      <note>Quires B, D, and F have vertical chainlines.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Wood</persName>
+    </person>
+    <person type="printer">
+      <persName>V[alentine] S[immes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

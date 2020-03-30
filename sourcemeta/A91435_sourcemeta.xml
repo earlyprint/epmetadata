@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The true copy of a letter: written by Mr. Thomas Parker, a learned and godly minister, in New-England, unto a member of the assembly of divines now at Westminster. Declaring his judgement touching the government practised in the churches of New-England. Imprimatur. Ja. Cranford.</title>
-         <author>Parker, Thomas, 1595-1677.</author>
-      </titleStmt>
-      <extent>[2], 4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, for Ralph Smith, and are to bee sold at his shop, at the sign of the Bible in Cornhill, neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: the 4 in the imprint date is crossed out;"Feb: 19 1643".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The true copy of a letter: written by Mr. Thomas Parker, a learned and godly minister, in New-England, unto a member of the assembly of divines now at Westminster. Declaring his judgement touching the government practised in the churches of New-England. Imprimatur. Ja. Cranford.</title>
+      <author>Parker, Thomas, 1595-1677.</author>
+    </titleStmt>
+    <extent>[2], 4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, for <persName type="publisher">Ralph Smith</persName>, and are to bee sold at <placeName>his shop, at the sign of the Bible in Cornhill, neere the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: the 4 in the imprint date is crossed out;"Feb: 19 1643".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the sign of the Bible in Cornhill, neere the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

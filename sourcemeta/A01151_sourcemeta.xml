@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Credible reportes from France, and Flanders In the moneth of May. 1590.</title>
-      </titleStmt>
-      <extent>[3], 4-7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Wolfe, and are to be solde by William Wright,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1590">1590.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Credible reportes from France, and Flanders In the moneth of May. 1590.</title>
+    </titleStmt>
+    <extent>[3], 4-7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Wolfe</persName>, and are to be solde by <persName type="bookseller">William Wright</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1590">1590.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Wolfe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Wright</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

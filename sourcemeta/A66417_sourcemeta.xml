@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Right Honourable the Lord Mayor, and aldermen of the city of London, at the Guild-hall chappel, October 12. 1679 by John Williams ...</title>
-         <author>Williams, John, 1636?-1709.</author>
-      </titleStmt>
-      <extent>[4], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Clark, for R. Chiswel, and W. Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Right Honourable the Lord Mayor, and aldermen of the city of London, at the Guild-hall chappel, October 12. 1679 by John Williams ...</title>
+      <author>Williams, John, 1636?-1709.</author>
+    </titleStmt>
+    <extent>[4], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Clark</persName>, for <persName type="publisher">R. Chiswel</persName>, and <persName type="publisher">W. Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Chiswel</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

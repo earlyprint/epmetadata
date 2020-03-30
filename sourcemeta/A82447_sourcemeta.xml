@@ -1,27 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the encouraging &amp; increasing of shipping and navigation</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker, Printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1660">1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from general title page.</note>
-         <note>At head of caption: Anno XII. Caroli II. Regis.</note>
-         <note>Signatures: A-F&#178; .</note>
-         <note>Last word of first line of text: 'shipping'; first word of line below initial: 'strength'; last word of last full line of text of first page: 'or'.</note>
-         <note>Also includes: An act to prevent frauds and concealments of His Majesties customs and subsidies.</note>
-         <note>Issued separately with a general title page: 'Anno Regni Caroli II. Regis Angli&#230;, Scoti&#230;, Franci&#230;, &amp; Hiberni&#230;, duodecimo. At the Parliament begun at VVestminster, the five and twentieth day of April, an. Dom. 1660.'.</note>
-         <note>Annotation on Thomason copy: "Sept 18".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the encouraging &amp; increasing of shipping and navigation</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, Printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1660">1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from general title page.</note>
+      <note>At head of caption: Anno XII. Caroli II. Regis.</note>
+      <note>Signatures: A-F&#178; .</note>
+      <note>Last word of first line of text: 'shipping'; first word of line below initial: 'strength'; last word of last full line of text of first page: 'or'.</note>
+      <note>Also includes: An act to prevent frauds and concealments of His Majesties customs and subsidies.</note>
+      <note>Issued separately with a general title page: 'Anno Regni Caroli II. Regis Angli&#230;, Scoti&#230;, Franci&#230;, &amp; Hiberni&#230;, duodecimo. At the Parliament begun at VVestminster, the five and twentieth day of April, an. Dom. 1660.'.</note>
+      <note>Annotation on Thomason copy: "Sept 18".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

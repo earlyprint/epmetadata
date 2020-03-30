@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Collections of notes taken at the Kings Tryall, at Westminster Hall, on Tuesday last, Janua. 23. 1648. Also a paper of instructions intercepted, comming from Scotland, to the Scots Commissioners, concerning the King.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Ibbitson in Smithfield near the Queens Head Tavern,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1648. [i.e. 1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Collections of notes taken at the Kings Tryall, at Westminster Hall, on Tuesday last, Janua. 23. 1648. Also a paper of instructions intercepted, comming from Scotland, to the Scots Commissioners, concerning the King.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Ibbitson</persName> in <placeName>Smithfield near the Queens Head Tavern</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1648. [i.e. 1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Ibbitson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfield near the Queens Head Tavern</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

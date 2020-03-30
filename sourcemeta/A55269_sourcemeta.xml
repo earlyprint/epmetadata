@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Poem upon His Majeyst's [sic] happy return from Ireland</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Poem upon His Majeyst's [sic] happy return from Ireland</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

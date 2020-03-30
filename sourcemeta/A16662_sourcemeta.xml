@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden fleece VVhereto bee annexed two elegies, entitled Narcissus change. And &#198;sons dotage. By Richard Brathvvayte Gentleman.</title>
-         <author>Brathwaite, Richard, 1588?-1673.</author>
-      </titleStmt>
-      <extent>[110] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W[illiam] S[tansby] for Christopher Pursett dwelling in Holborne, neere Staple Inn,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>"Sonnets or madrigals" has separate dated title page; register is continuous.</note>
-         <note>Signatures: A-G (-A1).</note>
-         <note>The verso of the final leaf has catchword: THE.</note>
-         <note>Variant: title page has "elogies".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden fleece VVhereto bee annexed two elegies, entitled Narcissus change. And &#198;sons dotage. By Richard Brathvvayte Gentleman.</title>
+      <author>Brathwaite, Richard, 1588?-1673.</author>
+    </titleStmt>
+    <extent>[110] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W[illiam] S[tansby]</persName> for <persName type="publisher">Christopher Pursett</persName> dwelling in <placeName>Holborne, neere Staple Inn</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>"Sonnets or madrigals" has separate dated title page; register is continuous.</note>
+      <note>Signatures: A-G (-A1).</note>
+      <note>The verso of the final leaf has catchword: THE.</note>
+      <note>Variant: title page has "elogies".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Pursett</persName>
+    </person>
+    <person type="printer">
+      <persName>W[illiam] S[tansby]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holborne, neere Staple Inn</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

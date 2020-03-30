@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The method of turning the militia of Scotland into a standing army as it is ordered by His Majesties Privy Council there.</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Reprinted at London according to the copy printed at Edinburgh for John Gay ... and William English ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The method of turning the militia of Scotland into a standing army as it is ordered by His Majesties Privy Council there.</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Reprinted at <placeName>London according to the copy printed at Edinburgh</placeName> for <persName type="publisher">John Gay</persName> ... and <persName type="publisher">William English</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Gay</persName>
+    </person>
+    <person type="publisher">
+      <persName>William English</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London according to the copy printed at Edinburgh</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

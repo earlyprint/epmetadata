@@ -1,17 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A True list of the lords spiritual and temporal, together with the knights, citizens and burgesses of the Parliament, which met at Westminster the 6th of February, 1700, and was prorogued to the 10th of the same month, as they are returned into the office of the Clerk of the Crown in Chancery</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Jones in the Savoy, and sold by Jacob Tonson at Grays-Inn-Gate next Grays-Inn-Lane,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A True list of the lords spiritual and temporal, together with the knights, citizens and burgesses of the Parliament, which met at Westminster the 6th of February, 1700, and was prorogued to the 10th of the same month, as they are returned into the office of the Clerk of the Crown in Chancery</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Jones</persName> in <placeName>the Savoy</placeName>, and sold by <persName type="bookseller">Jacob Tonson</persName> at <placeName>Grays-Inn-Gate next Grays-Inn-Lane</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Jones</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Jacob Tonson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Grays-Inn-Gate next Grays-Inn-Lane</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Savoy</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

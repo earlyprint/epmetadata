@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christophagia, The mystery of eating the flesh and drinking the blood of Christ and the modus or manner thereof discovered / by Edm. Porter ...</title>
-         <author>Porter, Edmund, 1595-1670.</author>
-      </titleStmt>
-      <extent>[24], 155, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb for Tho. Collins ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christophagia, The mystery of eating the flesh and drinking the blood of Christ and the modus or manner thereof discovered / by Edm. Porter ...</title>
+      <author>Porter, Edmund, 1595-1670.</author>
+    </titleStmt>
+    <extent>[24], 155, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName> for <persName type="publisher">Tho. Collins</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Collins</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

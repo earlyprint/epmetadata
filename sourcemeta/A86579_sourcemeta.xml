@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sinne's discovery and revenge. As it was delivered in a sermom [sic] to the Right Honorable House of Peers in the Abbey Church at Westminster, on Wednsday [sic], December 30. 1646. Being the day of the monethly publick fast. / By Thomas Horton B. D. Reader of Divinity in Gresham Colledge, and Pastor of Colechurch in London. Published by the order of the said House.</title>
-         <author>Horton, Thomas, d. 1673.</author>
-      </titleStmt>
-      <extent>[4], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by F: Neile for Samuel Gellibrand, and are to be sold at his shop at the Brasen Serpent in Pauls Church-yard.,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The names of the preachers before the Parliament, anno 1646": p. 40.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sinne's discovery and revenge. As it was delivered in a sermom [sic] to the Right Honorable House of Peers in the Abbey Church at Westminster, on Wednsday [sic], December 30. 1646. Being the day of the monethly publick fast. / By Thomas Horton B. D. Reader of Divinity in Gresham Colledge, and Pastor of Colechurch in London. Published by the order of the said House.</title>
+      <author>Horton, Thomas, d. 1673.</author>
+    </titleStmt>
+    <extent>[4], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F: Neile</persName> for <persName type="publisher">Samuel Gellibrand</persName>, and are to be sold at <placeName>his shop at the Brasen Serpent in Pauls Church-yard.</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The names of the preachers before the Parliament, anno 1646": p. 40.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Gellibrand</persName>
+    </person>
+    <person type="printer">
+      <persName>F: Neile</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Brasen Serpent in Pauls Church-yard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

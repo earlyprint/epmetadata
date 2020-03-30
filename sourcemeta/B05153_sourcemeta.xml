@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Act against false musters and free quarters, and anent due paying of their Majesties forces. At Edinburgh, the ninth of May 1693.</title>
-         <author>Scotland. Parliament. Committee of Estates.</author>
-      </titleStmt>
-      <extent>6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, Printer to their most excellent Majesties,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1693">Anno 1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>With royal seal at head of text.</note>
-         <note>Signed at end: Extracted forth of the records of Parliament, by Tarbat. Cls. Registri.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Act against false musters and free quarters, and anent due paying of their Majesties forces. At Edinburgh, the ninth of May 1693.</title>
+      <author>Scotland. Parliament. Committee of Estates.</author>
+    </titleStmt>
+    <extent>6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, Printer to <persName type="patron">their most excellent Majesties</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1693">Anno 1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>With royal seal at head of text.</note>
+      <note>Signed at end: Extracted forth of the records of Parliament, by Tarbat. Cls. Registri.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>their most excellent Majesties</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

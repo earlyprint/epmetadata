@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the King, May 9, 1675 by John Sudbury ...</title>
-         <author>Sudbury, John, 1604-1684.</author>
-      </titleStmt>
-      <extent>[2], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Rob. White for Hen. Mortlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Printed by His Majesties special command"</note>
-         <note>Errata: p. 31.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the King, May 9, 1675 by John Sudbury ...</title>
+      <author>Sudbury, John, 1604-1684.</author>
+    </titleStmt>
+    <extent>[2], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Rob. White</persName> for <persName type="publisher">Hen. Mortlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Printed by His Majesties special command"</note>
+      <note>Errata: p. 31.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Mortlock</persName>
+    </person>
+    <person type="printer">
+      <persName>Rob. White</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

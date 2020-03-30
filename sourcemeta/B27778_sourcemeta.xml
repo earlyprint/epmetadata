@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A reply to that malicious letter, pretended to be sent from Brussels, by a near attendant on his Majesties person, &amp;c.</title>
-         <author>N. P.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Maxwell,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end of text: From My house this 26. March, 1660. ... N.P.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A reply to that malicious letter, pretended to be sent from Brussels, by a near attendant on his Majesties person, &amp;c.</title>
+      <author>N. P.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Maxwell</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end of text: From My house this 26. March, 1660. ... N.P.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>D. Maxwell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

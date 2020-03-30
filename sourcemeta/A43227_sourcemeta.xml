@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A plain account of certain Christian experiences, labours, services and sufferings, of that ancient servant and minister of Christ, Roger Hebden, deceased containing both warning, consolation, and instruction in righteousness.</title>
-         <author>Hebden, Roger, 1620 or 21-1695.</author>
-      </titleStmt>
-      <extent>136 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A plain account of certain Christian experiences, labours, services and sufferings, of that ancient servant and minister of Christ, Roger Hebden, deceased containing both warning, consolation, and instruction in righteousness.</title>
+      <author>Hebden, Roger, 1620 or 21-1695.</author>
+    </titleStmt>
+    <extent>136 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

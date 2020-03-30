@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mensa lubrica Mongom. illustrissimo domino dno. Edwardo Baroni de Cherbury [by] T.M.</title>
-         <author>T. M.</author>
-         <author>Master, Thomas, 1603-1643.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Excudebat Leon. Lichfield academi&#230; typographus,</publisher>
-         <pubPlace>Oxoni&#230; :</pubPlace>
-         <date when="1651" cert="low">A.D. 1[651?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Thomas Master by Wing (2nd ed.)</note>
-         <note>Date of publication suggested by Wing (2nd ed.)</note>
-         <note>Imperfect: stained and torn with loss of text.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mensa lubrica Mongom. illustrissimo domino dno. Edwardo Baroni de Cherbury [by] T.M.</title>
+      <author>T. M.</author>
+      <author>Master, Thomas, 1603-1643.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Excudebat <persName type="printer">Leon. Lichfield academi&#230; typographus</persName>,</publisher>
+      <pubPlace>Oxoni&#230; :</pubPlace>
+      <date when="1651" cert="low">A.D. 1[651?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Thomas Master by Wing (2nd ed.)</note>
+      <note>Date of publication suggested by Wing (2nd ed.)</note>
+      <note>Imperfect: stained and torn with loss of text.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leon. Lichfield academi&#230; typographus</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,27 +1,43 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short survey or history of the kingdome of Sueden Containing a briefe description of all the provinces of his whole dominion: as also the riches of his kingdome, the antiquity, nature, and manners of that nation; with the government of his realme, might, and power of this great King, as well by sea as by land; his great officers, his customes and revenves of the Crowne. With a genealogy and pedegree of the kings of Sueden, of those especially who have reigned these last five hundred yeers, with some of their most memorable acts and deeds, with their alliance and issue or off-spring. Something also more particularly concerning that illustrious invincible great Gustavus Adolphus the II. and of his wars with the Russian, Denmarke and Poland: as also of his most memorable acts since his comming to the crowne, as well before, as since his entring into Germany, untill this present yeere 1632.</title>
-         <title>Suecia, sive de Suecorum Regis dominiis. English. Abridgments</title>
-         <author>Bure, Anders, 1571-1646.</author>
-         <author>Hildebrandt, Andreas, d. 1637. Genealogia regum Sueciae. English.</author>
-         <author>L. S., Sir, fl. 1632.</author>
-         <author>Story, John, fl. 1632.</author>
-      </titleStmt>
-      <extent>[6], 103, [1]; [44] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by John Beale] for Michael Sparke, and are to be sold by Iames Boler at the Marigold in Pavls-Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reissue, with cancel title page and part 2 added, of "A short survey of the kingdome of Sweden", an abridged translation, by John Story, of: Bure, Anders.  Suecia, sive de Suecorum Regis dominiis.</note>
-         <note>Printer's name from STC.</note>
-         <note>"The genealogie and pedigree of the most illustrious and most mighty kings in Sueden. .. By Andrevv Hildebrandt .. translated into English, by Sr. S.L. Knight", also issued separately as STC 13458, has separate dated title page and register.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-         <note>Part 2 not filmed.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short survey or history of the kingdome of Sueden Containing a briefe description of all the provinces of his whole dominion: as also the riches of his kingdome, the antiquity, nature, and manners of that nation; with the government of his realme, might, and power of this great King, as well by sea as by land; his great officers, his customes and revenves of the Crowne. With a genealogy and pedegree of the kings of Sueden, of those especially who have reigned these last five hundred yeers, with some of their most memorable acts and deeds, with their alliance and issue or off-spring. Something also more particularly concerning that illustrious invincible great Gustavus Adolphus the II. and of his wars with the Russian, Denmarke and Poland: as also of his most memorable acts since his comming to the crowne, as well before, as since his entring into Germany, untill this present yeere 1632.</title>
+      <title>Suecia, sive de Suecorum Regis dominiis. English. Abridgments</title>
+      <author>Bure, Anders, 1571-1646.</author>
+      <author>Hildebrandt, Andreas, d. 1637. Genealogia regum Sueciae. English.</author>
+      <author>L. S., Sir, fl. 1632.</author>
+      <author>Story, John, fl. 1632.</author>
+    </titleStmt>
+    <extent>[6], 103, [1]; [44] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">John Beale]</persName> for <persName type="publisher">Michael Sparke</persName>, and are to be sold by <persName type="bookseller">Iames Boler</persName> at <placeName>the Marigold in Pavls-Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reissue, with cancel title page and part 2 added, of "A short survey of the kingdome of Sweden", an abridged translation, by John Story, of: Bure, Anders.  Suecia, sive de Suecorum Regis dominiis.</note>
+      <note>Printer's name from STC.</note>
+      <note>"The genealogie and pedigree of the most illustrious and most mighty kings in Sueden. .. By Andrevv Hildebrandt .. translated into English, by Sr. S.L. Knight", also issued separately as STC 13458, has separate dated title page and register.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+      <note>Part 2 not filmed.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Michael Sparke</persName>
+    </person>
+    <person type="printer">
+      <persName>John Beale]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iames Boler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Marigold in Pavls-Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

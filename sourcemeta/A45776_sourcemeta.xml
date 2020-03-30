@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Levamen infirmi: or, cordial counsel to the sick and diseased Containing I. Advice concerning physick, and what a physician ought to be; with an account of the author's remedies, and how to take them. II. Concerning melancholy, frensie, and madness; in which, amongst other things, is shew'd, how far they differ from a conscience opprest with the sense of sin, and likewise how they differ among themselves. III. A miscellany of pious discourses, concerning the attributes of God; with ejaculations and prayers, according to scripture rule. Likewise an account of many things which have happen'd since the creation. To which are added several predictions of what may happen to the end of the world. The whole being enrich'd with physical, pious, moral &amp; historical observations, delightful to read, &amp; necessary to know. By D. Irish, practitioner in physick and surgery, now dwelling at Stoke, near Guilford in Surry, where he is ready to serve any person, to the utmost of his skill.</title>
-         <author>Irish, David.</author>
-      </titleStmt>
-      <extent>[8], 127, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author: and are to be sold by Isaac Walker, bookseller in Guilford,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Copy has print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Levamen infirmi: or, cordial counsel to the sick and diseased Containing I. Advice concerning physick, and what a physician ought to be; with an account of the author's remedies, and how to take them. II. Concerning melancholy, frensie, and madness; in which, amongst other things, is shew'd, how far they differ from a conscience opprest with the sense of sin, and likewise how they differ among themselves. III. A miscellany of pious discourses, concerning the attributes of God; with ejaculations and prayers, according to scripture rule. Likewise an account of many things which have happen'd since the creation. To which are added several predictions of what may happen to the end of the world. The whole being enrich'd with physical, pious, moral &amp; historical observations, delightful to read, &amp; necessary to know. By D. Irish, practitioner in physick and surgery, now dwelling at Stoke, near Guilford in Surry, where he is ready to serve any person, to the utmost of his skill.</title>
+      <author>Irish, David.</author>
+    </titleStmt>
+    <extent>[8], 127, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author:</persName> and are to be sold by <persName type="bookseller">Isaac Walker</persName>, bookseller in <placeName>Guilford</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Copy has print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author:</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Isaac Walker</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Guilford</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

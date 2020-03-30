@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties gracious speech to both Houses of Parliament, at their prorogation, November 4. 1673</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill and Christopher Barker ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"By His Majesties special command."</note>
-         <note>"Cum privilegio."</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties gracious speech to both Houses of Parliament, at their prorogation, November 4. 1673</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill</persName> and <persName type="assigns">Christopher Barker</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"By His Majesties special command."</note>
+      <note>"Cum privilegio."</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

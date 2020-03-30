@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A speech lately made by a noble peer of the realm</title>
-         <author>Shaftesbury, Anthony Ashley Cooper, Earl of, 1621-1683.</author>
-      </titleStmt>
-      <extent>[2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for F.S. at the Elephant and Castle near the Royal Exchange in Cornhil,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681" cert="low">168[1].</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to remarks offered by several lords to a speech previously made by Lord Shaftesbury in debate on the King's speech.</note>
-         <note>Caption title.</note>
-         <note>Attributed to the Earl of Shaftesbury. Cf. NUC pre-1956.</note>
-         <note>Imprint from colophon; complete date of publication from other copy.</note>
-         <note>Imperfect: cropped, with loss of text and part of imprint date.</note>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A speech lately made by a noble peer of the realm</title>
+      <author>Shaftesbury, Anthony Ashley Cooper, Earl of, 1621-1683.</author>
+    </titleStmt>
+    <extent>[2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F.S.</persName> at <placeName>the Elephant</placeName> and Castle near <placeName>the Royal Exchange in Cornhil</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681" cert="low">168[1].</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to remarks offered by several lords to a speech previously made by Lord Shaftesbury in debate on the King's speech.</note>
+      <note>Caption title.</note>
+      <note>Attributed to the Earl of Shaftesbury. Cf. NUC pre-1956.</note>
+      <note>Imprint from colophon; complete date of publication from other copy.</note>
+      <note>Imperfect: cropped, with loss of text and part of imprint date.</note>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royal Exchange in Cornhil</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

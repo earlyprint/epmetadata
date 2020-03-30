@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Natures cruell step-dames: or, Matchlesse monsters of the female sex; Elizabeth Barnes, and Anne Willis Who were executed the 26. day of April, 1637. at Tyburne, for the unnaturall murthering of their owne children. Also, herein is contained their severall confessions, and the courts just proceedings against other notorious malefactors, with their severall offences this sessions. Further, a relation of the wicked life and impenitent death of Iohn Flood, who raped his owne childe.</title>
-         <author>Goodcole, Henry, 1586-1641.</author>
-      </titleStmt>
-      <extent>[2], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>[By E. Purslowe] for Francis Coules, dwelling in the Old-Baily,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1637">1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Henry Goodcole.</note>
-         <note>Printer's name from STC.</note>
-         <note>With woodcut title vignette.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Natures cruell step-dames: or, Matchlesse monsters of the female sex; Elizabeth Barnes, and Anne Willis Who were executed the 26. day of April, 1637. at Tyburne, for the unnaturall murthering of their owne children. Also, herein is contained their severall confessions, and the courts just proceedings against other notorious malefactors, with their severall offences this sessions. Further, a relation of the wicked life and impenitent death of Iohn Flood, who raped his owne childe.</title>
+      <author>Goodcole, Henry, 1586-1641.</author>
+    </titleStmt>
+    <extent>[2], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">E. Purslowe]</persName> for <persName type="publisher">Francis Coules</persName>, dwelling in <placeName>the Old-Baily</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1637">1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Henry Goodcole.</note>
+      <note>Printer's name from STC.</note>
+      <note>With woodcut title vignette.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Coules</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Purslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

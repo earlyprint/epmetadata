@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ABC to the christen congregacion or a pathe way to the heauenly habitacion</title>
-         <author>Knell, Thomas.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By [Nicholas Hill for] Rycharde Kele, dwellynge in Lombardes strete nexte vnto the stockes market at the sygne of the Egle,</publisher>
-         <pubPlace>Imprynted at London :</pubPlace>
-         <date when="1550" cert="low">[1550?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Quod Thomas Knell.</note>
-         <note>Verse - "Abstayne from pryde, abstaine from fornication".</note>
-         <note>Actual printer's name from STC addendum; publication date conjectured by STC.</note>
-         <note>Only known copy is printed on verso of a page of STC 7819.4.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ABC to the christen congregacion or a pathe way to the heauenly habitacion</title>
+      <author>Knell, Thomas.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">[Nicholas Hill</persName> for<persName type="publisher">] Rycharde Kele</persName>, dwellynge in <placeName>Lombardes strete nexte vnto the stockes market at the sygne of the Egle</placeName>,</publisher>
+      <pubPlace>Imprynted at London :</pubPlace>
+      <date when="1550" cert="low">[1550?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Quod Thomas Knell.</note>
+      <note>Verse - "Abstayne from pryde, abstaine from fornication".</note>
+      <note>Actual printer's name from STC addendum; publication date conjectured by STC.</note>
+      <note>Only known copy is printed on verso of a page of STC 7819.4.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Rycharde Kele</persName>
+    </person>
+    <person type="printer">
+      <persName>[Nicholas Hill</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Lombardes strete nexte vnto the stockes market at the sygne of the Egle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

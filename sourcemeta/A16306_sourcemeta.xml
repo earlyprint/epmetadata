@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cities aduocate in this case or question of honor and armes; whether apprentiship extinguisheth gentry? Containing a cleare refutation of the pernicious common errour affirming it, swallowed by Erasmus of Roterdam, Sir Thomas Smith in his common-weale, Sir Iohn Fern in his blazon, Raphe Broke Yorke Herald, and others. With the copies of transcripts of three letters which gaue occasion of this worke.</title>
-         <author>Bolton, Edmund, 1575?-1633?</author>
-         <author>Philipot, John, 1589?-1645, attributed name.</author>
-      </titleStmt>
-      <extent>[18], 61, [1] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Miles Flesher] for William Lee, at the signe of the Turkes Head next to the Miter and Ph&#339;nix in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1629">1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Edmund Bolton.</note>
-         <note>Sometimes attributed to John Philipot.</note>
-         <note>Printer's name from STC.</note>
-         <note>The title page is a cancel. Variant: t.p. uncancelled, with original reading "Honor or Armes".</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cities aduocate in this case or question of honor and armes; whether apprentiship extinguisheth gentry? Containing a cleare refutation of the pernicious common errour affirming it, swallowed by Erasmus of Roterdam, Sir Thomas Smith in his common-weale, Sir Iohn Fern in his blazon, Raphe Broke Yorke Herald, and others. With the copies of transcripts of three letters which gaue occasion of this worke.</title>
+      <author>Bolton, Edmund, 1575?-1633?</author>
+      <author>Philipot, John, 1589?-1645, attributed name.</author>
+    </titleStmt>
+    <extent>[18], 61, [1] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Miles Flesher]</persName> for <persName type="publisher">William Lee</persName>, at <placeName>the signe of the Turkes Head next to the Miter</placeName> and Ph&#339;nix in <placeName>Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1629">1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Edmund Bolton.</note>
+      <note>Sometimes attributed to John Philipot.</note>
+      <note>Printer's name from STC.</note>
+      <note>The title page is a cancel. Variant: t.p. uncancelled, with original reading "Honor or Armes".</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+    <person type="printer">
+      <persName>Miles Flesher]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Turkes Head next to the Miter</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

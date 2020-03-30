@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memorial representing the present state of religion, on the continent of North-America by Thomas Bray.</title>
-         <author>Bray, Thomas, 1658-1730.</author>
-      </titleStmt>
-      <extent>[6], 5-12 [i.e. 15] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Downing for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errors in paging.</note>
-         <note>Caption title: A memorial humbly laid before the right reverend the lord bishops of this kingdom, and other right noble, and worthy patrons of religion, representing the present state thereof, in the several provinces on the continent of North America, in order to the providing a sufficient number of proper missionaries, so absolutely necessary to be sent at this juncture into those parts.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memorial representing the present state of religion, on the continent of North-America by Thomas Bray.</title>
+      <author>Bray, Thomas, 1658-1730.</author>
+    </titleStmt>
+    <extent>[6], 5-12 [i.e. 15] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Downing</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errors in paging.</note>
+      <note>Caption title: A memorial humbly laid before the right reverend the lord bishops of this kingdom, and other right noble, and worthy patrons of religion, representing the present state thereof, in the several provinces on the continent of North America, in order to the providing a sufficient number of proper missionaries, so absolutely necessary to be sent at this juncture into those parts.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>William Downing</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

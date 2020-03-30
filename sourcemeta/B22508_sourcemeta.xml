@@ -1,17 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>England's happiness in a lineal succession and the deplorable miseries which ever attended doubtful titles to the crown, historically demonstrated, by the bloody wars between the two houses of York &amp; Lancaster</title>
-      </titleStmt>
-      <extent>[13], 228 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Clark for John Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>England's happiness in a lineal succession and the deplorable miseries which ever attended doubtful titles to the crown, historically demonstrated, by the bloody wars between the two houses of York &amp; Lancaster</title>
+    </titleStmt>
+    <extent>[13], 228 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Clark</persName> for <persName type="publisher">John Taylor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The compleat doctoress: or, A choice treatise of all diseases insident to women. With experimentall remedies against the same. Being safe in the composition. Pleasant in the use. Effectuall in the operation. Faithfully translated out of Latine into English for a common good</title>
-      </titleStmt>
-      <extent>[12], 250 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Edward Farnham and are to sold [sic] at his shop at the entrance into Popes-head-alley out of Cornhill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Latin original not traced.</note>
-         <note>The words "safe in ... operation" are bracketed together on title page.</note>
-         <note>Running title reads: Womens diseases.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The compleat doctoress: or, A choice treatise of all diseases insident to women. With experimentall remedies against the same. Being safe in the composition. Pleasant in the use. Effectuall in the operation. Faithfully translated out of Latine into English for a common good</title>
+    </titleStmt>
+    <extent>[12], 250 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Edward Farnham</persName> and are to sold [sic] at <placeName>his shop at the entrance into Popes-head-alley out of Cornhill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Latin original not traced.</note>
+      <note>The words "safe in ... operation" are bracketed together on title page.</note>
+      <note>Running title reads: Womens diseases.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Farnham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the entrance into Popes-head-alley out of Cornhill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

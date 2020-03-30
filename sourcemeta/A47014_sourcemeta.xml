@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Morbus satanicus. = The devils disease: or, The sin of pride arraigned and condemned The tenth edition, with many additions. By Andrew Jones, student in Divinity.</title>
-         <author>Jones, Andrew, M.A.</author>
-      </titleStmt>
-      <extent>[24] p. : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>printed for Elizabeith Andrews, at the White Lion near Pye Corner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Woodcut portrait on title page.</note>
-         <note>Signatures: A B&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Morbus satanicus. = The devils disease: or, The sin of pride arraigned and condemned The tenth edition, with many additions. By Andrew Jones, student in Divinity.</title>
+      <author>Jones, Andrew, M.A.</author>
+    </titleStmt>
+    <extent>[24] p. : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Elizabeith Andrews</persName>, at <placeName>the White Lion near Pye Corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Woodcut portrait on title page.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Elizabeith Andrews</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the White Lion near Pye Corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

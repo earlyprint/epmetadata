@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Natural history of nutrition, life, and voluntary motion containing all the new discoveries of anatomist's and most probable opinions of physicians, concerning the oeconomie of human nature : methodically delivered in exercitations physico-anatomical / by Walt. Charlton ...</title>
-         <author>Charleton, Walter, 1619-1707.</author>
-      </titleStmt>
-      <extent>[18], 210 [i.e. 208], [13] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Herringman, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Oeconomia animalis, novis in medicina hypothesibus superstructa et mechanicae explicata.</note>
-         <note>Errata: p. [18] at beginning.</note>
-         <note>Reproduction of original in Cushing Collection, Yale University Medical School Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Natural history of nutrition, life, and voluntary motion containing all the new discoveries of anatomist's and most probable opinions of physicians, concerning the oeconomie of human nature : methodically delivered in exercitations physico-anatomical / by Walt. Charlton ...</title>
+      <author>Charleton, Walter, 1619-1707.</author>
+    </titleStmt>
+    <extent>[18], 210 [i.e. 208], [13] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Herringman</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Oeconomia animalis, novis in medicina hypothesibus superstructa et mechanicae explicata.</note>
+      <note>Errata: p. [18] at beginning.</note>
+      <note>Reproduction of original in Cushing Collection, Yale University Medical School Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

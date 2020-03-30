@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The proceedings to execution of the sentence awarded against Capt. Thomas Walcot, William Hone, &amp; John Rouse; for high-treason Who were on Friday the 20th. of this instant July drawn, hanged and quartered at Tyburn, for conspiring against the life of the King, and to raise war and rebellion, in order to subvert the government, &amp;c. Containing a relation of what happened during their imprisonment, and at the place of execution&#183; With their confessions at Tyburn.</title>
-         <author>Walcot, Thomas, d. 1683.</author>
-         <author>Hone, William, d. 1683, defendant. aut</author>
-         <author>Rouse, John, d. 1683, defendant. aut</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Langley Curtis, at the sign of Sir Edmund-bury Godfrey's Head, near Fleet-Bridge,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1683">[1683]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Printer's name from colophon; place and date of publication from Wing.</note>
-         <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The proceedings to execution of the sentence awarded against Capt. Thomas Walcot, William Hone, &amp; John Rouse; for high-treason Who were on Friday the 20th. of this instant July drawn, hanged and quartered at Tyburn, for conspiring against the life of the King, and to raise war and rebellion, in order to subvert the government, &amp;c. Containing a relation of what happened during their imprisonment, and at the place of execution&#183; With their confessions at Tyburn.</title>
+      <author>Walcot, Thomas, d. 1683.</author>
+      <author>Hone, William, d. 1683, defendant. aut</author>
+      <author>Rouse, John, d. 1683, defendant. aut</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Langley Curtis</persName>, at <placeName>the sign of Sir Edmund-bury Godfrey's Head, near Fleet-Bridge</placeName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1683">[1683]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Printer's name from colophon; place and date of publication from Wing.</note>
+      <note>Reproduction of the original in the Bodleian Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Langley Curtis</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of Sir Edmund-bury Godfrey's Head, near Fleet-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

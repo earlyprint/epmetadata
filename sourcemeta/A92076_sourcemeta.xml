@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before His Grace the Kings Commissioner, at the three estates of Parliament, May the 25th, 1690 By Gilbert Rule minister of the Gospel at Edinburgh.</title>
-         <author>Rule, Gilbert, 1629?-1701.</author>
-      </titleStmt>
-      <extent>[4], 15 [i.e. 16] p.   </extent>
-      <publicationStmt>
-         <publisher>printed at the Society of Stationers printing-house in Harts-Close, over-against the Trone-Church, for George Mosman bookseller at his shop on the south-side of the Parliament-Close,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 16 misnumbered "15".</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before His Grace the Kings Commissioner, at the three estates of Parliament, May the 25th, 1690 By Gilbert Rule minister of the Gospel at Edinburgh.</title>
+      <author>Rule, Gilbert, 1629?-1701.</author>
+    </titleStmt>
+    <extent>[4], 15 [i.e. 16] p.   </extent>
+    <publicationStmt>
+      <publisher>printed at <placeName>the Society of Stationers printing-house in Harts-Close, over-against the Trone-Church</placeName>, for <persName type="publisher">George Mosman</persName> bookseller at <placeName>his shop on the south-side of the Parliament-Close</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 16 misnumbered "15".</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Mosman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop on the south-side of the Parliament-Close</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Society of Stationers printing-house in Harts-Close, over-against the Trone-Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

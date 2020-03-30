@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The discovery of the accursed thing in the Foxonian Quakers camp, englarged [sic]</title>
-         <author>Crisp, Thomas, 17th cent.</author>
-      </titleStmt>
-      <extent>40 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by John Gwillam,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Signed: Thomas Crispe.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The discovery of the accursed thing in the Foxonian Quakers camp, englarged [sic]</title>
+      <author>Crisp, Thomas, 17th cent.</author>
+    </titleStmt>
+    <extent>40 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">John Gwillam</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Signed: Thomas Crispe.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Gwillam</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Gwillam</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

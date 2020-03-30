@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Academia scientiarum, or, The academy of sciences being a short and easie introduction to the knowledge of the liberal arts and sciences, with the names of those famous authors that have written on every particular science : in English and Latine / by D. Abercromby ...</title>
-         <author>Abercromby, David, d. 1701 or 2.</author>
-      </titleStmt>
-      <extent>[24], 179, [12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H.C. for J. Taylor, L. Meredith, T. Bennet, R. Wilde ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>English and Latin on opposite pages.</note>
-         <note>First ed. Cf. Wing.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Academia scientiarum, or, The academy of sciences being a short and easie introduction to the knowledge of the liberal arts and sciences, with the names of those famous authors that have written on every particular science : in English and Latine / by D. Abercromby ...</title>
+      <author>Abercromby, David, d. 1701 or 2.</author>
+    </titleStmt>
+    <extent>[24], 179, [12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H.C.</persName> for <persName type="publisher">J. Taylor</persName>, <persName type="publisher">L. Meredith</persName>, <persName type="publisher">T. Bennet</persName>, <persName type="publisher">R. Wilde</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>English and Latin on opposite pages.</note>
+      <note>First ed. Cf. Wing.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Taylor</persName>
+    </person>
+    <person type="publisher">
+      <persName>L. Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Wilde</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>H.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

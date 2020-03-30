@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Particular account of the late and present great sufferings and oppressions of the people called Quakers upon prosecutions against them in the Bishops courts humbly presented to the serious consideration of the King, Lords and Commons in Parliament assembled.</title>
-         <author>Mead, William, 1628-1713.</author>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>[9], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Sowle, and sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed and dated: William Mead, George Whitehead, William Gibson ... [and 18 others including William Penn] London, the 15th of the 9th moneth, 1680.</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Particular account of the late and present great sufferings and oppressions of the people called Quakers upon prosecutions against them in the Bishops courts humbly presented to the serious consideration of the King, Lords and Commons in Parliament assembled.</title>
+      <author>Mead, William, 1628-1713.</author>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>[9], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Sowle</persName>, and sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed and dated: William Mead, George Whitehead, William Gibson ... [and 18 others including William Penn] London, the 15th of the 9th moneth, 1680.</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

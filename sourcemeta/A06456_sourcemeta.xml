@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pursuit of the historie of Lazarillo de Tormez Gathered out of the ancient chronicles of Toledo. By Iean de luna, a Castilian. And now done into English, and set forth by the same author.</title>
-         <title>Segunda parte de La vida de Lazarillo de Tormes. English</title>
-         <author>Luna, Juan de, b. ca. 1585.</author>
-         <author>Walkley, Thomas, d. 1658?</author>
-      </titleStmt>
-      <extent>[14], 192 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Bernard Alsop for Thomas Walkley and are to be sold at his shop at the Eagle and Child in Britaines Burse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by Thomas Walkley, of: Luna, Juan de. La segunda parte de La vida de Lazarillo de Tormes.</note>
-         <note>A sequel to: La vida de Lazarillo de Tormes.</note>
-         <note>A different text from "The most pleasant and delectable history of Lazarillo de Tormes. The second part" (STC 15340).</note>
-         <note>Considerable print show through.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pursuit of the historie of Lazarillo de Tormez Gathered out of the ancient chronicles of Toledo. By Iean de luna, a Castilian. And now done into English, and set forth by the same author.</title>
+      <title>Segunda parte de La vida de Lazarillo de Tormes. English</title>
+      <author>Luna, Juan de, b. ca. 1585.</author>
+      <author>Walkley, Thomas, d. 1658?</author>
+    </titleStmt>
+    <extent>[14], 192 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Bernard Alsop</persName> for <persName type="publisher">Thomas Walkley</persName> and are to be sold at <placeName>his shop at the Eagle</placeName> and Child in <placeName>Britaines Burse</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by Thomas Walkley, of: Luna, Juan de. La segunda parte de La vida de Lazarillo de Tormes.</note>
+      <note>A sequel to: La vida de Lazarillo de Tormes.</note>
+      <note>A different text from "The most pleasant and delectable history of Lazarillo de Tormes. The second part" (STC 15340).</note>
+      <note>Considerable print show through.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>Bernard Alsop</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Britaines Burse</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop at the Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

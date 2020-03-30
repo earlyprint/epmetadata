@@ -1,18 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Rich. Baxter's admonition to Mr. William Eyre of Salisbury; concerning his miscarriages in a book lately written for the justification of infidels, against M. Benj. Woodbridge, M. James Cranford and the author.</title>
-         <author>Baxter, Richard, 1615-1691.</author>
-      </titleStmt>
-      <extent>[14], 40, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for Thomas Underhill, at the Anchor and Bible ... and Francis Tyton, at the three Daggers ...,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Rich. Baxter's admonition to Mr. William Eyre of Salisbury; concerning his miscarriages in a book lately written for the justification of infidels, against M. Benj. Woodbridge, M. James Cranford and the author.</title>
+      <author>Baxter, Richard, 1615-1691.</author>
+    </titleStmt>
+    <extent>[14], 40, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">Thomas Underhill</persName>, at <placeName>the Anchor</placeName> and Bible ... and <persName type="publisher">Francis Tyton</persName>, at <placeName>the three Daggers</placeName> ...,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Tyton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Underhill</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Anchor</placeName>
+    </place>
+    <place type="location">
+      <placeName>the three Daggers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

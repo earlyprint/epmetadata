@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Queen at White-Hall, April 2, 1690 being the fifth Wednesday in Lent / by William Wake.</title>
-         <author>Wake, William, 1657-1737.</author>
-      </titleStmt>
-      <extent>36 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Ric. Chiswell and W. Rogers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Publish'd by Her Majesties special command."</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Queen at White-Hall, April 2, 1690 being the fifth Wednesday in Lent / by William Wake.</title>
+      <author>Wake, William, 1657-1737.</author>
+    </titleStmt>
+    <extent>36 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ric. Chiswell</persName> and <persName type="publisher">W. Rogers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Publish'd by Her Majesties special command."</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Chiswell</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Rogers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

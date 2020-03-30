@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Collections out of S. Augustine and some few other Latine writers upon the first part of the Apostles Creed. By John Crompe, Master of Arts of C.C.C. in Cambridge, and vicar of Thornham in Kent. First preached in his Parish Church; and now inlarged (as here followes) for more publike use.</title>
-         <author>Crompe, John.</author>
-      </titleStmt>
-      <extent>[4], 50 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Haviland for William Lee, and are to be sold at his shop, neere the Miter Taverne in Fleet-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1638">1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Last leaf blank?.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Collections out of S. Augustine and some few other Latine writers upon the first part of the Apostles Creed. By John Crompe, Master of Arts of C.C.C. in Cambridge, and vicar of Thornham in Kent. First preached in his Parish Church; and now inlarged (as here followes) for more publike use.</title>
+      <author>Crompe, John.</author>
+    </titleStmt>
+    <extent>[4], 50 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Haviland</persName> for <persName type="publisher">William Lee</persName>, and are to be sold at <placeName>his shop, neere the Miter Taverne in Fleet-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1638">1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Last leaf blank?.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+    <person type="printer">
+      <persName>John Haviland</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, neere the Miter Taverne in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

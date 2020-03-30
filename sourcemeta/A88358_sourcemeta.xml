@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the prisoners of vvar, vvho are officers in commission, in custody of the Marshal-General. Tuesday the ninth of September, 1651. Ordered by the Parliament, that this list be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>England and Wales. Parliament. aut</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the prisoners of vvar, vvho are officers in commission, in custody of the Marshal-General. Tuesday the ninth of September, 1651. Ordered by the Parliament, that this list be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>England and Wales. Parliament. aut</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

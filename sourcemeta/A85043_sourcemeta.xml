@@ -1,24 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The churches and ministery of England, true churches and true ministery. Cleared, and proved, in a sermon / preach'd the 4th of May at Wiviliscombe; before a numerous congregation assembled together to hear the opposition, which had been long threatned to be made that day, by Mr Collier and others of his party, who, with the greatest strength the West would afford them, were present at the sermon. Wherein were these five things undeniably proved: 1. That a mixture of prophane and scandalous persons with reall saints, is not inconsistent with the Church of God or a true church. ... 5. And then, they also must needs be guilty, who forsake true churches and a lawfull ministry, to follow and hear unsent preachers. By Francis Fullwood minister of the Gospel at Staple Fitzpane in the county of Somerset. Before it there is an epistle and preface, shewing the manner, and a narrative subjoyned shewing the substance of the dispute after the sermon, (both which lasted nine hours.) Set forth by the ministers that were at the dispute, and attested under their hands.</title>
-         <author>Fullwood, Francis, d. 1693.</author>
-         <author>Darby, Charls.</author>
-         <author>Collier, Thomas, fl. 1691.</author>
-      </titleStmt>
-      <extent>[26], 73, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for George Treagle at Taunton, and are to be sold at London by William Roybould at the Unicorn in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: Charls Darby.</note>
-         <note>The word "subjoyned" is enclosed in square brackets on title page.</note>
-         <note>"A brief narration of the heads of that long (yet happy) discourse, betwixt M. Fullwood (assisted sometimes with M. Wood, M. Howe, &amp;c.) and M. Collier ..", p. 57-end.</note>
-         <note>Annotation on Thomason copy: "July 18".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The churches and ministery of England, true churches and true ministery. Cleared, and proved, in a sermon / preach'd the 4th of May at Wiviliscombe; before a numerous congregation assembled together to hear the opposition, which had been long threatned to be made that day, by Mr Collier and others of his party, who, with the greatest strength the West would afford them, were present at the sermon. Wherein were these five things undeniably proved: 1. That a mixture of prophane and scandalous persons with reall saints, is not inconsistent with the Church of God or a true church. ... 5. And then, they also must needs be guilty, who forsake true churches and a lawfull ministry, to follow and hear unsent preachers. By Francis Fullwood minister of the Gospel at Staple Fitzpane in the county of Somerset. Before it there is an epistle and preface, shewing the manner, and a narrative subjoyned shewing the substance of the dispute after the sermon, (both which lasted nine hours.) Set forth by the ministers that were at the dispute, and attested under their hands.</title>
+      <author>Fullwood, Francis, d. 1693.</author>
+      <author>Darby, Charls.</author>
+      <author>Collier, Thomas, fl. 1691.</author>
+    </titleStmt>
+    <extent>[26], 73, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">George Treagle</persName> at <placeName>Taunton</placeName>, and are to be sold at <placeName>London</placeName> by <persName type="bookseller">William Roybould</persName> at <placeName>the Unicorn in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: Charls Darby.</note>
+      <note>The word "subjoyned" is enclosed in square brackets on title page.</note>
+      <note>"A brief narration of the heads of that long (yet happy) discourse, betwixt M. Fullwood (assisted sometimes with M. Wood, M. Howe, &amp;c.) and M. Collier ..", p. 57-end.</note>
+      <note>Annotation on Thomason copy: "July 18".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Treagle</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Roybould</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>Taunton</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Unicorn in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

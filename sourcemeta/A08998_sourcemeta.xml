@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An admonition to all such as shall intend hereafter to enter the state of matrimony, godlily and agreeably to lawes set forth by the most reverend father in God, Matthew Arch-bishop of Canterbury ...</title>
-         <author>Church of England. Province of Canterbury. Archbishop (1559-1575 : Parker)</author>
-         <author>Parker, Matthew, 1504-1575.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>By I. Okes, for Iohn Harrison, and are to be sold at the signe of the Unicorne in Pater-noster-row,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained.</note>
-         <note>Reproduction of original in All Soul's College (University of Oxford). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An admonition to all such as shall intend hereafter to enter the state of matrimony, godlily and agreeably to lawes set forth by the most reverend father in God, Matthew Arch-bishop of Canterbury ...</title>
+      <author>Church of England. Province of Canterbury. Archbishop (1559-1575 : Parker)</author>
+      <author>Parker, Matthew, 1504-1575.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">I. Okes</persName>, for <persName type="publisher">Iohn Harrison</persName>, and are to be sold at <placeName>the signe of the Unicorne in Pater-noster-row</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained.</note>
+      <note>Reproduction of original in All Soul's College (University of Oxford). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Harrison</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Unicorne in Pater-noster-row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

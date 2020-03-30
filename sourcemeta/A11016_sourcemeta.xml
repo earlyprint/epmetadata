@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Here after folows the hystorye of Gesta Romanorum</title>
-         <title>Gesta Romanorum. English.</title>
-      </titleStmt>
-      <extent>[166] p.   </extent>
-      <publicationStmt>
-         <publisher>[Printed by [J.] Kynge,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1557">M.D.L.VII. [1557]]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name and publication date from colophon.</note>
-         <note>Signatures: a-x&#8308; (-x4, blank?).</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Here after folows the hystorye of Gesta Romanorum</title>
+      <title>Gesta Romanorum. English.</title>
+    </titleStmt>
+    <extent>[166] p.   </extent>
+    <publicationStmt>
+      <publisher>[Printed by <persName type="printer">[J.] Kynge</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1557">M.D.L.VII. [1557]]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name and publication date from colophon.</note>
+      <note>Signatures: a-x&#8308; (-x4, blank?).</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>[J.] Kynge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

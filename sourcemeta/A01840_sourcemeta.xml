@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Orestes, vvritten by Thomas Goffe Master of Arts, and student of Christs Church in Oxford: and acted by the students of the same house</title>
-         <author>Goffe, Thomas, 1591-1629.</author>
-      </titleStmt>
-      <extent>[68] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] B[eale] for Richard Meighen, and are to be sold at his shop at the middle Temple-gate, neere Temple-barre in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1633">1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#178;  B-I&#8308;.</note>
-         <note>Reproduction of the original in the Yale University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Orestes, vvritten by Thomas Goffe Master of Arts, and student of Christs Church in Oxford: and acted by the students of the same house</title>
+      <author>Goffe, Thomas, 1591-1629.</author>
+    </titleStmt>
+    <extent>[68] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] B[eale]</persName> for <persName type="publisher">Richard Meighen</persName>, and are to be sold at <placeName>his shop at the middle Temple-gate, neere Temple-barre in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1633">1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#178;  B-I&#8308;.</note>
+      <note>Reproduction of the original in the Yale University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Meighen</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] B[eale]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the middle Temple-gate, neere Temple-barre in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

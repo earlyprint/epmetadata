@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Four sermons, preach'd by the right reverend father in God, John Towers, D.D. L. Bishop of Peterburgh. 1. At the funerall of the right honorable, William Earl of Northampton. 2. At the baptism of the right honorable, James Earl of Northampton. 3. Before K. Charles at White-Hall in time of Lent.</title>
-         <author>Towers, John, d. 1649.</author>
-      </titleStmt>
-      <extent>[8], 214, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Rooks, and are to be sold at the sign of the Lamb, at the East end of S. Pauls, near the School.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a final leaf of advertisement.</note>
-         <note>Annotation on Thomason copy: "Febr. 1659"; also the last two numbers of the imprint date have been marked through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Four sermons, preach'd by the right reverend father in God, John Towers, D.D. L. Bishop of Peterburgh. 1. At the funerall of the right honorable, William Earl of Northampton. 2. At the baptism of the right honorable, James Earl of Northampton. 3. Before K. Charles at White-Hall in time of Lent.</title>
+      <author>Towers, John, d. 1649.</author>
+    </titleStmt>
+    <extent>[8], 214, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Rooks</persName>, and are to be sold at <placeName>the sign of the Lamb, at the East end of S. Pauls, near the School.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a final leaf of advertisement.</note>
+      <note>Annotation on Thomason copy: "Febr. 1659"; also the last two numbers of the imprint date have been marked through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Rooks</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Lamb, at the East end of S. Pauls, near the School.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

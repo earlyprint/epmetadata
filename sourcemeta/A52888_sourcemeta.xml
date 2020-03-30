@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new ballad to the praise of James D. of Monmouth He once was great, and to this land did bring triumphant bays and lautel [sic] to his King.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p., 2 columns)   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by J. Grantham ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Broadside.</note>
-         <note>Caption title.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new ballad to the praise of James D. of Monmouth He once was great, and to this land did bring triumphant bays and lautel [sic] to his King.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p., 2 columns)   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">J. Grantham</persName></persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Broadside.</note>
+      <note>Caption title.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Grantham</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Grantham</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

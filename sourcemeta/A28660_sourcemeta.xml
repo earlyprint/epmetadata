@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of the fearful estate of Francis Spira, in the year 1548 compiled by Natth. Bacon, Esq.</title>
-         <author>Bacon, Nathaniel, 1593-1660.</author>
-      </titleStmt>
-      <extent>[2], 80 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I.L. for Christoph. Meredith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of the fearful estate of Francis Spira, in the year 1548 compiled by Natth. Bacon, Esq.</title>
+      <author>Bacon, Nathaniel, 1593-1660.</author>
+    </titleStmt>
+    <extent>[2], 80 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I.L.</persName> for <persName type="publisher">Christoph. Meredith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christoph. Meredith</persName>
+    </person>
+    <person type="printer">
+      <persName>I.L.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

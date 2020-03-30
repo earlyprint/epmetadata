@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The foundation of Christian religion: comprehended in three godlie and learned treatises. 1. Faith. 2. Hope. 3. Charitie</title>
-         <author>L'Espine, Jean de, ca. 1506-1597. Trait&#233; de la foy. English.</author>
-         <author>Veghelman, S.</author>
-      </titleStmt>
-      <extent>[6], 359, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho: Purfoot, for Iohn Royston, and William Bladon, and are to be sold at their shop at the great North dore of Paules, at the signe of the Bible,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1612">An. Dom. 1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's dedication signed: S. Veghelman.</note>
-         <note>The first part is a translation of: L'Espine, Jean de. Trait&#233; de la foy.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The foundation of Christian religion: comprehended in three godlie and learned treatises. 1. Faith. 2. Hope. 3. Charitie</title>
+      <author>L'Espine, Jean de, ca. 1506-1597. Trait&#233; de la foy. English.</author>
+      <author>Veghelman, S.</author>
+    </titleStmt>
+    <extent>[6], 359, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho: Purfoot</persName>, for <persName type="publisher">Iohn Royston</persName>, and <persName type="publisher">William Bladon</persName>, and are to be sold at <placeName>their shop at the great North dore of Paules, at the signe of the Bible</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1612">An. Dom. 1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's dedication signed: S. Veghelman.</note>
+      <note>The first part is a translation of: L'Espine, Jean de. Trait&#233; de la foy.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Royston</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Bladon</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho: Purfoot</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop at the great North dore of Paules, at the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

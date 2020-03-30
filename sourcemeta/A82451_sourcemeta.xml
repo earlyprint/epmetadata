@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The eating of blood vindicated: in a briefe answer to a late pamphlet, intiutled, A bloody tenent confuted.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Shepheard, at the Bible in Tower-Street, and W. Ley, at Pauls Chaine, near Doctors Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "march: 9th"; the 6 in imprint date crossed out and date altered to 1645.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The eating of blood vindicated: in a briefe answer to a late pamphlet, intiutled, A bloody tenent confuted.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Shepheard</persName>, at <placeName>the Bible in Tower-Street</placeName>, and <persName type="publisher">W. Ley</persName>, at <placeName>Pauls Chaine, near Doctors Commons</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "march: 9th"; the 6 in imprint date crossed out and date altered to 1645.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Shepheard</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Ley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Chaine, near Doctors Commons</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible in Tower-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

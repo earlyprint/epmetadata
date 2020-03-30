@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ground of Christianitie composed in maner of a dialogue between Paule and Titus, contayning all the principall poyntes of our saluation in Christ.</title>
-         <author>Gee, Alexander.</author>
-      </titleStmt>
-      <extent>[6], 103, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert walde-graue, and are to be sold at the signe of the Beare in Paules Church-yard, by Thomas VVoodcocke,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1584">Anno Dom. 1584.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Alexander Gee.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ground of Christianitie composed in maner of a dialogue between Paule and Titus, contayning all the principall poyntes of our saluation in Christ.</title>
+      <author>Gee, Alexander.</author>
+    </titleStmt>
+    <extent>[6], 103, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert walde-graue</persName>, and are to be sold at <placeName>the signe of the Beare in Paules Church-yard</placeName>, by <persName type="bookseller">Thomas VVoodcocke</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1584">Anno Dom. 1584.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Alexander Gee.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert walde-graue</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas VVoodcocke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Beare in Paules Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

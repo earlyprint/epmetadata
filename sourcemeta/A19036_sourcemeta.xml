@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mundanum speculum, or, The worldlings looking glasse Wherein hee may clearly see what a woefull bargaine he makes if he lose his soule for the game of the vvorld. A worke needfull and necessarie for this carelesse age, wherein many neglect the meanes of their saluation. Preached and now published by Edmund Cobbes, master of the Word of God.</title>
-         <author>Cobbes, Edmund, b. 1592 or 3.</author>
-      </titleStmt>
-      <extent>[52], 373, [19] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by M. Flesher?] for Phillip Waterhouse, and are to be sold at his shop at the signe of St. Pauls Head in Canon street neare London Stone,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name suggested by STC.</note>
-         <note>Running title reads: The worldlings looking-glasse.</note>
-         <note>Errata on 2E4v, final leaf.</note>
-         <note>Some pages marked.</note>
-         <note>Reproduction of the original in the Princeton Theological Seminary, Princeton, N.J.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mundanum speculum, or, The worldlings looking glasse Wherein hee may clearly see what a woefull bargaine he makes if he lose his soule for the game of the vvorld. A worke needfull and necessarie for this carelesse age, wherein many neglect the meanes of their saluation. Preached and now published by Edmund Cobbes, master of the Word of God.</title>
+      <author>Cobbes, Edmund, b. 1592 or 3.</author>
+    </titleStmt>
+    <extent>[52], 373, [19] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">M. Flesher?]</persName> for <persName type="publisher">Phillip Waterhouse</persName>, and are to be sold at <placeName>his shop at the signe of St. Pauls Head in Canon street neare London Stone</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name suggested by STC.</note>
+      <note>Running title reads: The worldlings looking-glasse.</note>
+      <note>Errata on 2E4v, final leaf.</note>
+      <note>Some pages marked.</note>
+      <note>Reproduction of the original in the Princeton Theological Seminary, Princeton, N.J.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Phillip Waterhouse</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of St. Pauls Head in Canon street neare London Stone</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

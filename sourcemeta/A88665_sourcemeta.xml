@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sepher Milaytzath HaShemoth or, The true interpretation and etymologie of Christian names, By Edward Lyford, philo[he]br&#230;us. composed in two books; the first, of mens names; the second, of womens names; with so plain derivations of each name, whether Hebrew, Chaldee, Syriack, Greek, or Latin, &amp;c. that any ordinary capacity may understand them. Together with two alphabetical tables, containing all their interpretations. /</title>
-         <author>Lyford, Edward.</author>
-      </titleStmt>
-      <extent>[24], 237, [61] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.W. for George Sawbridge, at the sign of the Bible on Ludgate-hill:,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First line of title in Hebrew characters.</note>
-         <note>Annotation on Thomason copy: "Aprill 29".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sepher Milaytzath HaShemoth or, The true interpretation and etymologie of Christian names, By Edward Lyford, philo[he]br&#230;us. composed in two books; the first, of mens names; the second, of womens names; with so plain derivations of each name, whether Hebrew, Chaldee, Syriack, Greek, or Latin, &amp;c. that any ordinary capacity may understand them. Together with two alphabetical tables, containing all their interpretations. /</title>
+      <author>Lyford, Edward.</author>
+    </titleStmt>
+    <extent>[24], 237, [61] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.W.</persName> for <persName type="publisher">George Sawbridge</persName>, at <placeName>the sign of the Bible on Ludgate-hill</placeName>:,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First line of title in Hebrew characters.</note>
+      <note>Annotation on Thomason copy: "Aprill 29".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Sawbridge</persName>
+    </person>
+    <person type="printer">
+      <persName>T.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Bible on Ludgate-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

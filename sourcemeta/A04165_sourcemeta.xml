@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sinnelesse sorrow for the dead a comfortable sermon, preached at the funerall of Mr. Iohn Moyle, of Buckwell, in the countie of Kent, Esquire, the sixt of Ianuarie, 1614 / by Thomas Iackson, Batchelor in Diuinitie, and preacher of Gods word, at Wye in Kent.</title>
-         <author>Jackson, Thomas, d. 1646.</author>
-      </titleStmt>
-      <extent>[4], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.S. for Roger Jackson, and are to be solde at his shop in Fleetstreet neere to the Conduit,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1614">1614.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Published by Authoritie."</note>
-         <note>Signatures: A-B&#8312; (last leaf blank).</note>
-         <note>Imperfect: faded.</note>
-         <note>Reproduction of original in the Magdalene College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sinnelesse sorrow for the dead a comfortable sermon, preached at the funerall of Mr. Iohn Moyle, of Buckwell, in the countie of Kent, Esquire, the sixt of Ianuarie, 1614 / by Thomas Iackson, Batchelor in Diuinitie, and preacher of Gods word, at Wye in Kent.</title>
+      <author>Jackson, Thomas, d. 1646.</author>
+    </titleStmt>
+    <extent>[4], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.S.</persName> for <persName type="publisher">Roger Jackson</persName>, and are to be solde at <placeName>his shop in Fleetstreet neere to the Conduit</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1614">1614.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Published by Authoritie."</note>
+      <note>Signatures: A-B&#8312; (last leaf blank).</note>
+      <note>Imperfect: faded.</note>
+      <note>Reproduction of original in the Magdalene College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Jackson</persName>
+    </person>
+    <person type="printer">
+      <persName>T.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleetstreet neere to the Conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

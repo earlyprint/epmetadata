@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A thanksgiving sermon preach'd upon the fifth of November, 1689 by Ben. Jenks.</title>
-         <author>Jenks, Benjamin, 1646-1724.</author>
-      </titleStmt>
-      <extent>[4], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Benj. Tooke and are to be sold by R. Taylor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A thanksgiving sermon preach'd upon the fifth of November, 1689 by Ben. Jenks.</title>
+      <author>Jenks, Benjamin, 1646-1724.</author>
+    </titleStmt>
+    <extent>[4], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Benj. Tooke</persName> and are to be sold by <persName type="bookseller">R. Taylor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

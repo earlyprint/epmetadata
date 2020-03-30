@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Passion and discretion, in youth and age ...</title>
-         <author>Calver, Edward, fl. 1649.</author>
-      </titleStmt>
-      <extent>[8], 112 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. &amp; R. Cotes, for Francis Grove ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>In verse.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Passion and discretion, in youth and age ...</title>
+      <author>Calver, Edward, fl. 1649.</author>
+    </titleStmt>
+    <extent>[8], 112 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.</persName> &amp; <persName type="printer">R. Cotes</persName>, for <persName type="publisher">Francis Grove</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>In verse.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Grove</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Cotes</persName>
+    </person>
+    <person type="printer">
+      <persName>T.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

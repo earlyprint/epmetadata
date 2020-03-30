@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bury-fair a comedy ... / written by Tho. Shadwell ...</title>
-         <author>Shadwell, Thomas, 1642?-1692.</author>
-      </titleStmt>
-      <extent>[9], 60, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for James Knapton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [3] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bury-fair a comedy ... / written by Tho. Shadwell ...</title>
+      <author>Shadwell, Thomas, 1642?-1692.</author>
+    </titleStmt>
+    <extent>[9], 60, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">James Knapton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [3] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Knapton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh, the seventeenth of November, one thousand six hundred and sixty four. Forasmuch as it is notour, that divers ministers, who have gone off their charges, or are outed by law, do ordinarily repair to Edinburgh, and other burghs and places, expressly forbidden by acts of Council, ....</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, Printer to his most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Text in black letter.</note>
-         <note>Signed: Pet. Wedderburne, Cl. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh, the seventeenth of November, one thousand six hundred and sixty four. Forasmuch as it is notour, that divers ministers, who have gone off their charges, or are outed by law, do ordinarily repair to Edinburgh, and other burghs and places, expressly forbidden by acts of Council, ....</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">his most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Text in black letter.</note>
+      <note>Signed: Pet. Wedderburne, Cl. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>his most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

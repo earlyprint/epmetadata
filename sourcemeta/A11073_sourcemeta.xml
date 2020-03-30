@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mysticall marriage Experimentall discoveries of the heavenly marriage betweene a soule and her saviour. By F. Rous.</title>
-         <author>Rous, Francis, 1579-1659.</author>
-      </titleStmt>
-      <extent>[14], 370 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Iones, dwelling in Red-crosse-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Identified as STC 21343a on UMI microfilm.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mysticall marriage Experimentall discoveries of the heavenly marriage betweene a soule and her saviour. By F. Rous.</title>
+      <author>Rous, Francis, 1579-1659.</author>
+    </titleStmt>
+    <extent>[14], 370 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Iones</persName>, dwelling in <placeName>Red-crosse-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Identified as STC 21343a on UMI microfilm.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Iones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Red-crosse-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

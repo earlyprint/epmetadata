@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The papers which passed at Nevv-Castle betwixt His sacred Majestie and Mr Alex: Henderson concerning the change of church-government. Anno Dom. 1646.</title>
-         <author>Charles I, King of England, 1600-1649.</author>
-         <author>Henderson, Alexander, 1583?-1646. aut</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-      </titleStmt>
-      <extent>[4], 58, [2] p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>printed [by John Grismond] for R. Royston, at the Angel in Ivie-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">M. DC. XL. IX. [1649]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from Madan.</note>
-         <note>The frontispiece is signed: Guil: Marshall sculp:.</note>
-         <note>Probably issued with the "Eikon basilike".</note>
-         <note>Last leaf is blank.</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The papers which passed at Nevv-Castle betwixt His sacred Majestie and Mr Alex: Henderson concerning the change of church-government. Anno Dom. 1646.</title>
+      <author>Charles I, King of England, 1600-1649.</author>
+      <author>Henderson, Alexander, 1583?-1646. aut</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+    </titleStmt>
+    <extent>[4], 58, [2] p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>printed [by <persName type="printer">John Grismond]</persName> for <persName type="publisher">R. Royston</persName>, at <placeName>the Angel in Ivie-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">M. DC. XL. IX. [1649]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from Madan.</note>
+      <note>The frontispiece is signed: Guil: Marshall sculp:.</note>
+      <note>Probably issued with the "Eikon basilike".</note>
+      <note>Last leaf is blank.</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>John Grismond]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Ivie-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

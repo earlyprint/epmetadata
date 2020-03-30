@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Directions left by a gentleman to his sonns for the improvement of barren and healthy land in England and Wales.</title>
-         <author>Reeve, Gabriel.</author>
-      </titleStmt>
-      <extent>[12], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.T. and R.H. for R. Royston ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1670">MDCLXX [1670]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages cropped, stained and creased with some loss of print. Copy (tightly bound) from Union Theological Seminary Library spliced at end.</note>
-         <note>"The Epistle dedicatory" signed: Gabriel Reeve.</note>
-         <note>Running title reads: Directions for improvement of barren and healthy land.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Directions left by a gentleman to his sonns for the improvement of barren and healthy land in England and Wales.</title>
+      <author>Reeve, Gabriel.</author>
+    </titleStmt>
+    <extent>[12], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.T.</persName> and <persName type="printer">R.H.</persName> for <persName type="publisher">R. Royston</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1670">MDCLXX [1670]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages cropped, stained and creased with some loss of print. Copy (tightly bound) from Union Theological Seminary Library spliced at end.</note>
+      <note>"The Epistle dedicatory" signed: Gabriel Reeve.</note>
+      <note>Running title reads: Directions for improvement of barren and healthy land.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>E.T.</persName>
+    </person>
+    <person type="printer">
+      <persName>R.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Quakers elegy on the death of Charles late King of England written by W.P., a sincere lover of Charles and James.</title>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.P. for Henry Playford ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Quakers elegy on the death of Charles late King of England written by W.P., a sincere lover of Charles and James.</title>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.P.</persName> for <persName type="publisher">Henry Playford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>J.P.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

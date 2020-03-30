@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise concerning the heat of the blood and also of the use of the lungs / by Richard Boulton.</title>
-         <author>Boulton, Richard, b. 1676 or 7.</author>
-      </titleStmt>
-      <extent>[23], 204 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for A. and J. Churchill ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise concerning the heat of the blood and also of the use of the lungs / by Richard Boulton.</title>
+      <author>Boulton, Richard, b. 1676 or 7.</author>
+    </titleStmt>
+    <extent>[23], 204 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A.</persName> and <persName type="publisher">J. Churchill</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A.</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

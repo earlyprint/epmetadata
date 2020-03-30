@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The declaration of Sir Charls Coot Knight and baronet, Lord President of the province of Connaught: and the rest of the council of officers of the Army in Ireland present at Dublin, concerning the re-admission of the secluded members.</title>
-         <author>Mountrath, Charles Coote, Earl of, ca. 1610-1661.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Dublin, printed by William Bladen, by special order, and reprinted at London by J. Macock,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1660">1659 [i.e. 1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Sir Charls Coote [and 54 others].</note>
-         <note>Annotation on Thomason copy: "Feb: 25.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The declaration of Sir Charls Coot Knight and baronet, Lord President of the province of Connaught: and the rest of the council of officers of the Army in Ireland present at Dublin, concerning the re-admission of the secluded members.</title>
+      <author>Mountrath, Charles Coote, Earl of, ca. 1610-1661.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Dublin, printed by <persName type="printer">William Bladen</persName>, by <persName type="printer">special order</persName>, and reprinted at <placeName>London</placeName> by <persName type="printer">J. Macock</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1660">1659 [i.e. 1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Sir Charls Coote [and 54 others].</note>
+      <note>Annotation on Thomason copy: "Feb: 25.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Macock</persName>
+    </person>
+    <person type="printer">
+      <persName>William Bladen</persName>
+    </person>
+    <person type="printer">
+      <persName>special order</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

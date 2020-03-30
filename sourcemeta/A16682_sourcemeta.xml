@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A strappado for the Diuell Epigrams and satyres alluding to the time, with diuers measures of no lesse delight. By Misosukos, to his friend Philokrates.</title>
-         <author>Brathwaite, Richard, 1588?-1673.</author>
-      </titleStmt>
-      <extent>[16], 234, [8], 104, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. B[eale] for Richard Redmer and are to be sold at the west dore of Pauls at the Starre,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1615">1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Misosukos = Richard Brathwait, who is named on the leaf following the title page.</note>
-         <note>In verse.</note>
-         <note>"Misosukos" and "Philokrates" are in Greek characters.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>"Loues labyrinth: or the true-louers knot" has separate pagination, and dated title page naming Richard Brathwait as author; register is continuous.</note>
-         <note>A note at the foot of leaf Z4 (signed "[par.]") directs it and Z5 to be bound after part 1; the pagination above reflects this arrangement.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A strappado for the Diuell Epigrams and satyres alluding to the time, with diuers measures of no lesse delight. By Misosukos, to his friend Philokrates.</title>
+      <author>Brathwaite, Richard, 1588?-1673.</author>
+    </titleStmt>
+    <extent>[16], 234, [8], 104, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. B[eale]</persName> for <persName type="publisher">Richard Redmer</persName> and are to be sold at <placeName>the west dore of Pauls at the Starre</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1615">1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Misosukos = Richard Brathwait, who is named on the leaf following the title page.</note>
+      <note>In verse.</note>
+      <note>"Misosukos" and "Philokrates" are in Greek characters.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>"Loues labyrinth: or the true-louers knot" has separate pagination, and dated title page naming Richard Brathwait as author; register is continuous.</note>
+      <note>A note at the foot of leaf Z4 (signed "[par.]") directs it and Z5 to be bound after part 1; the pagination above reflects this arrangement.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Redmer</persName>
+    </person>
+    <person type="printer">
+      <persName>I. B[eale]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the west dore of Pauls at the Starre</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

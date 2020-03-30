@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflections upon Mr. Johnson's notes on the pastoral letter by William Gallaway ...</title>
-         <author>Gallaway, William, b. 1659 or 60.</author>
-      </titleStmt>
-      <extent>[9], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and are to be sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1614 [i.e. 1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflections upon Mr. Johnson's notes on the pastoral letter by William Gallaway ...</title>
+      <author>Gallaway, William, b. 1659 or 60.</author>
+    </titleStmt>
+    <extent>[9], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1614 [i.e. 1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

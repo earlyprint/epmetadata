@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A most worthy and famous vvorke, bothe pleasant and profitable, conteyning the longe and cruell warres between the Gothes and the valyant Romayne emperours, for the possession of Italy. VVith the vvounderful chances that hapned to both nations: / written in the Italian tongue, and nevvly translated into English by A.G.</title>
-         <title>De bello Italico adversus Gothos gesto. English</title>
-         <author>Bruni, Leonardo, 1369-1444.</author>
-         <author>Procopius.</author>
-      </titleStmt>
-      <extent>[32], 180 [i.e. 369] p.   </extent>
-      <publicationStmt>
-         <publisher>by VVyllyam Hovv, for George Bucke.,</publisher>
-         <pubPlace>Imprinted at London, :</pubPlace>
-         <date when="1565" cert="low">[ca. 1565]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from STC (2nd ed.).</note>
-         <note>Pages numbered on recto only.</note>
-         <note>Numerous errors in foliation.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in: Columbia University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A most worthy and famous vvorke, bothe pleasant and profitable, conteyning the longe and cruell warres between the Gothes and the valyant Romayne emperours, for the possession of Italy. VVith the vvounderful chances that hapned to both nations: / written in the Italian tongue, and nevvly translated into English by A.G.</title>
+      <title>De bello Italico adversus Gothos gesto. English</title>
+      <author>Bruni, Leonardo, 1369-1444.</author>
+      <author>Procopius.</author>
+    </titleStmt>
+    <extent>[32], 180 [i.e. 369] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">VVyllyam Hovv</persName>, for <persName type="publisher">George Bucke.</persName>,</publisher>
+      <pubPlace>Imprinted at London, :</pubPlace>
+      <date when="1565" cert="low">[ca. 1565]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from STC (2nd ed.).</note>
+      <note>Pages numbered on recto only.</note>
+      <note>Numerous errors in foliation.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in: Columbia University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Bucke.</persName>
+    </person>
+    <person type="printer">
+      <persName>VVyllyam Hovv</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

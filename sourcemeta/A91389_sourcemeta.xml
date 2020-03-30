@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A speech delivered at a conference with the Lords. January, XXV. MDCXLI. By occasion of the petitions from the Citie of London, and the counties of Middlesex, Essex, and Hertford. By Iohn Pym, Esquire. Published by order of the House of Commons. Whereto are annexed two orders of the said House. The one, containing the thankes of the House, given to those of Hertfordshire. The other, for punishing of those who printed a false copie of that petition, and other libellous pamphlets.</title>
-         <author>Pym, John, 1584-1643.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>by R. Oulton. and G. Dexter, for John Rothwell, and are to be sold at the Signe of the Sun in Pauls Church-yard,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1642">1641. [i.e. 1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Thomason E.200[22] contains: "The humble petition of knights, gentlemen, and other inhabitants of the county of Essex."; Thomason E.200[23] contains: "The humble petition of knights, gentlemen, and others, inhabitants of the county of Hertford.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A speech delivered at a conference with the Lords. January, XXV. MDCXLI. By occasion of the petitions from the Citie of London, and the counties of Middlesex, Essex, and Hertford. By Iohn Pym, Esquire. Published by order of the House of Commons. Whereto are annexed two orders of the said House. The one, containing the thankes of the House, given to those of Hertfordshire. The other, for punishing of those who printed a false copie of that petition, and other libellous pamphlets.</title>
+      <author>Pym, John, 1584-1643.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">R. Oulton.</persName> and <persName type="printer">G. Dexter</persName>, for <persName type="publisher">John Rothwell</persName>, and are to be sold at <placeName>the Signe of the Sun in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1642">1641. [i.e. 1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Thomason E.200[22] contains: "The humble petition of knights, gentlemen, and other inhabitants of the county of Essex."; Thomason E.200[23] contains: "The humble petition of knights, gentlemen, and others, inhabitants of the county of Hertford.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Rothwell</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Dexter</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Oulton.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Signe of the Sun in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

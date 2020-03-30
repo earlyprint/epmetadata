@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Apollo staticus. Or, The art of curing fevers by the staticks invented by Dr. Pitcairn, and publish'd by him in Latine: now made English by a well-wisher to the mathematicks.</title>
-         <author>Pitcairn, Archibald, 1652-1713.</author>
-      </titleStmt>
-      <extent>[8], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J[ames]. W[atson]. and sold at James Wardlaw's shop, opposite to the Locken-buiths,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from Wing CD.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Apollo staticus. Or, The art of curing fevers by the staticks invented by Dr. Pitcairn, and publish'd by him in Latine: now made English by a well-wisher to the mathematicks.</title>
+      <author>Pitcairn, Archibald, 1652-1713.</author>
+    </titleStmt>
+    <extent>[8], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J[ames]. W[atson].</persName> and sold at <placeName>James Wardlaw's shop, opposite to the Locken-buiths</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from Wing CD.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J[ames]. W[atson].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>James Wardlaw's shop, opposite to the Locken-buiths</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

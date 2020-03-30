@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A defence of a book intituled, The snake in the grass in reply to several answers put out to it by George Whithead, Joseph Wyeth, &amp;c.</title>
-         <author>Leslie, Charles, 1650-1722.</author>
-      </titleStmt>
-      <extent>3 pts. ([16], 184, 209 [i.e. 241], 93 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Bennet for C. Brome ... W. Keblewhite ... and Geo. Strahan ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Charles Leslie. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>"A collection of several papers which relate to the fore-going discourse" (93 p. at end) has special t.p. dated 1695.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A defence of a book intituled, The snake in the grass in reply to several answers put out to it by George Whithead, Joseph Wyeth, &amp;c.</title>
+      <author>Leslie, Charles, 1650-1722.</author>
+    </titleStmt>
+    <extent>3 pts. ([16], 184, 209 [i.e. 241], 93 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Bennet</persName> for <persName type="publisher">C. Brome</persName> ... <persName type="publisher">W. Keblewhite</persName> ... and <persName type="publisher">Geo. Strahan</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Charles Leslie. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>"A collection of several papers which relate to the fore-going discourse" (93 p. at end) has special t.p. dated 1695.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. Brome</persName>
+    </person>
+    <person type="publisher">
+      <persName>Geo. Strahan</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Keblewhite</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Bennet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

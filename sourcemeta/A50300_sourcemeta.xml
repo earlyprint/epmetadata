@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Antiprobal-e, or A defence of the minister of Pensherst in a case between him and the Earl of Leycester in Michaelmas term, 1657.</title>
-         <author>Maudit, John.</author>
-      </titleStmt>
-      <extent>[4], 51, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.R. for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank.</note>
-         <note>By John Maudit.</note>
-         <note>The first word in the title is in Greek characters.</note>
-         <note>Earl of Leycester = Robert Sidney, Earl of Leicester. The minister of Pensherst = John Maudit.</note>
-         <note>Imperfect; text has print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Antiprobal-e, or A defence of the minister of Pensherst in a case between him and the Earl of Leycester in Michaelmas term, 1657.</title>
+      <author>Maudit, John.</author>
+    </titleStmt>
+    <extent>[4], 51, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.R.</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>By John Maudit.</note>
+      <note>The first word in the title is in Greek characters.</note>
+      <note>Earl of Leycester = Robert Sidney, Earl of Leicester. The minister of Pensherst = John Maudit.</note>
+      <note>Imperfect; text has print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Damon a pastoral lamenting the death of that incomparable master of musick, Mr. Henry Purcell, late organist of His Majesty's Chapel and St. Peter's Westminster / by J.G.</title>
-         <author>J. G.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Heptinstall, for Henry Playford,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Damon a pastoral lamenting the death of that incomparable master of musick, Mr. Henry Purcell, late organist of His Majesty's Chapel and St. Peter's Westminster / by J.G.</title>
+      <author>J. G.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Heptinstall</persName>, for <persName type="publisher">Henry Playford</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Heptinstall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

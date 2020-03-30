@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Divine rules for Christian unity opened and urged a sermon / preach'd in the Cathedral Church of Norwich, October 16, 1692 by Erasmus Warren, rector of Worlington in Suffolk.</title>
-         <author>Warren, Erasmus.</author>
-      </titleStmt>
-      <extent>[4], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Oliver, and are to be sold by J. Robinson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Divine rules for Christian unity opened and urged a sermon / preach'd in the Cathedral Church of Norwich, October 16, 1692 by Erasmus Warren, rector of Worlington in Suffolk.</title>
+      <author>Warren, Erasmus.</author>
+    </titleStmt>
+    <extent>[4], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Oliver</persName>, and are to be sold by <persName type="bookseller">J. Robinson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Oliver</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Robinson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

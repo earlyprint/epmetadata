@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ouids Walnut-tree transplanted</title>
-         <title>Nux. English</title>
-         <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
-         <author>Hatton, Richard.</author>
-      </titleStmt>
-      <extent>[9], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by W. Stansby] for Robert Milbourne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1627">1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by Richard Hatton, of: Nux.</note>
-         <note>Translator's dedication signed: Richard Hatton.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ouids Walnut-tree transplanted</title>
+      <title>Nux. English</title>
+      <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+      <author>Hatton, Richard.</author>
+    </titleStmt>
+    <extent>[9], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">W. Stansby]</persName> for <persName type="publisher">Robert Milbourne</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1627">1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by Richard Hatton, of: Nux.</note>
+      <note>Translator's dedication signed: Richard Hatton.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Milbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Stansby]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

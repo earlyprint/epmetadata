@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of friendship. By E.G. gent.</title>
-         <author>E. G., gent.</author>
-      </titleStmt>
-      <extent>[5], 172 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.B. for the author, and are to be sold by Thomas Fabian ...,</publisher>
-         <pubPlace>London,</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: tightly bound, print show-through with slight loss of text.</note>
-         <note>Reproduction of original in: University of Chicago Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of friendship. By E.G. gent.</title>
+      <author>E. G., gent.</author>
+    </titleStmt>
+    <extent>[5], 172 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.B.</persName> for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Thomas Fabian</persName> ...,</publisher>
+      <pubPlace>London,</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: tightly bound, print show-through with slight loss of text.</note>
+      <note>Reproduction of original in: University of Chicago Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Fabian</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

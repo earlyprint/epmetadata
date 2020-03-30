@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Londons remembrancer: for the staying of the contagious sicknes of the plague by Dauids memoriall. As it vvas follovved in a sermon preached in Christs-church in London, the 22. of Ianuarie. 1626. Vpon occasion of the publique thanksgiuing, enioyned by his maiesties proclamation. By Samson Price, Doctor of Diuinitie, one of his Majesties chapleins in ordinarie.</title>
-         <author>Price, Sampson, 1585 or 6-1630.</author>
-      </titleStmt>
-      <extent>[4], 42 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward All-de, for Thomas Harper,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date has been changed in ink to read "the 29. of Januarie". British Museum Catalogue gives this date also.--DFo.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Londons remembrancer: for the staying of the contagious sicknes of the plague by Dauids memoriall. As it vvas follovved in a sermon preached in Christs-church in London, the 22. of Ianuarie. 1626. Vpon occasion of the publique thanksgiuing, enioyned by his maiesties proclamation. By Samson Price, Doctor of Diuinitie, one of his Majesties chapleins in ordinarie.</title>
+      <author>Price, Sampson, 1585 or 6-1630.</author>
+    </titleStmt>
+    <extent>[4], 42 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward All-de</persName>, for <persName type="publisher">Thomas Harper</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date has been changed in ink to read "the 29. of Januarie". British Museum Catalogue gives this date also.--DFo.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Harper</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward All-de</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

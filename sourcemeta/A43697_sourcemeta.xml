@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the Lord Mayor and Court of Aldermen, June 27, 1680 by Charles Hickman ...</title>
-         <author>Hickman, Charles, 1648-1713.</author>
-      </titleStmt>
-      <extent>[6], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Brome ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the Lord Mayor and Court of Aldermen, June 27, 1680 by Charles Hickman ...</title>
+      <author>Hickman, Charles, 1648-1713.</author>
+    </titleStmt>
+    <extent>[6], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Brome</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Brome</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

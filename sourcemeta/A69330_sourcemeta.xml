@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Queene, a proclamation for restraint of transportation of grayne beyonde the seas</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London in Powles Churche yarde, by Richard Iugge ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1618" cert="low">[ca. 1618]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Geuen at Woodstocke, the xvi day of September 1572 the fourteenth yere of her Maiesties raigne."</note>
-         <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
-         <note>Date of publication suggested by STC (2nd ed.).</note>
-         <note>Formerly STC 8051--Cf. STC (2nd ed.).</note>
-         <note>Item at reel 456:1 identified as STC 8051.</note>
-         <note>Reproductions of originals in the Bodleian Library and Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Queene, a proclamation for restraint of transportation of grayne beyonde the seas</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London in Powles Churche yarde</placeName>, by <persName type="printer">Richard Iugge</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1618" cert="low">[ca. 1618]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Geuen at Woodstocke, the xvi day of September 1572 the fourteenth yere of her Maiesties raigne."</note>
+      <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
+      <note>Date of publication suggested by STC (2nd ed.).</note>
+      <note>Formerly STC 8051--Cf. STC (2nd ed.).</note>
+      <note>Item at reel 456:1 identified as STC 8051.</note>
+      <note>Reproductions of originals in the Bodleian Library and Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Iugge</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Powles Churche yarde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

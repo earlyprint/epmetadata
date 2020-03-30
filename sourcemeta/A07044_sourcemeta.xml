@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pomaunder of prayer, newly made by Thomas Becon</title>
-         <author>Becon, Thomas, 1512-1567.</author>
-      </titleStmt>
-      <extent>[1], 134, [8] leaves : port. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>Ouer Aldersgate benethe .S. Martins, by Iohn Day,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1561">1561]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pomaunder of prayer, newly made by Thomas Becon</title>
+      <author>Becon, Thomas, 1512-1567.</author>
+    </titleStmt>
+    <extent>[1], 134, [8] leaves : port. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>Ouer Aldersgate benethe .S. Martins, by <persName type="printer">Iohn Day</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1561">1561]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Day</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true copie of the list, or roll, of the Kings Majesties most royall proceedings from the Tower through London to White-Hall, as it will be marshalled by the Lords deputed for the office of Earld. Marshall.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Williams, in Jewen Street near Cripple-Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "April 11".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true copie of the list, or roll, of the Kings Majesties most royall proceedings from the Tower through London to White-Hall, as it will be marshalled by the Lords deputed for the office of Earld. Marshall.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Williams</persName>, in <placeName>Jewen Street near Cripple-Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "April 11".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Williams</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Jewen Street near Cripple-Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

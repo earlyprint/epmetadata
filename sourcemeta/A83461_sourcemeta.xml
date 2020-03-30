@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tuesday the 27th of May, 1651. Resolved upon the question by the Parliament, that all recognizances for the peace, good behavior or appearances returned into the Exchequer, or forfeited, ... be absolutely discharged, ...</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>Order to print signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>With Parliamentary seal at head of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tuesday the 27th of May, 1651. Resolved upon the question by the Parliament, that all recognizances for the peace, good behavior or appearances returned into the Exchequer, or forfeited, ... be absolutely discharged, ...</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>Order to print signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>With Parliamentary seal at head of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

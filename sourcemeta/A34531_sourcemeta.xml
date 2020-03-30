@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An historicall relation of the military government of Gloucester, from the beginning of the Civill Warre betweene King and Parliament, to the removall of Colonell Massie from that government to the command of the westerne forces by John Corbet ...</title>
-         <author>Corbet, John, 1620-1680.</author>
-      </titleStmt>
-      <extent>[6], 140 [i.e. 138] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.B. for Robert Bostock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Wrongly ascribed in the Wing catalogue to John Corbet, 1603-1641.</note>
-         <note>"Published by authority"</note>
-         <note>Errata: p. [6].</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An historicall relation of the military government of Gloucester, from the beginning of the Civill Warre betweene King and Parliament, to the removall of Colonell Massie from that government to the command of the westerne forces by John Corbet ...</title>
+      <author>Corbet, John, 1620-1680.</author>
+    </titleStmt>
+    <extent>[6], 140 [i.e. 138] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.B.</persName> for <persName type="publisher">Robert Bostock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Wrongly ascribed in the Wing catalogue to John Corbet, 1603-1641.</note>
+      <note>"Published by authority"</note>
+      <note>Errata: p. [6].</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Bostock</persName>
+    </person>
+    <person type="printer">
+      <persName>M.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

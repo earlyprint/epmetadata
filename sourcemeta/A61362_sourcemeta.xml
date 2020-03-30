@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The statutes of George Heriot's Hospital</title>
-         <title>Statutes.</title>
-         <author>George Heriot's Hospital.</author>
-      </titleStmt>
-      <extent>56 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by order of the Magistrates, Ministers, and Council of George Heriot's Hospital,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1696">Anno Dom. 1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The statutes of George Heriot's Hospital</title>
+      <title>Statutes.</title>
+      <author>George Heriot's Hospital.</author>
+    </titleStmt>
+    <extent>56 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">order of the Magistrates</persName>, <persName type="printer">Ministers</persName>, and <persName type="printer">Council of George Heriot's Hospital</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1696">Anno Dom. 1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Council of George Heriot's Hospital</persName>
+    </person>
+    <person type="printer">
+      <persName>Ministers</persName>
+    </person>
+    <person type="printer">
+      <persName>order of the Magistrates</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

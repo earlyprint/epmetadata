@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first part of Dr. Faustus abreviated and brought into verse. Shewing the wickedness of his life, and the tyranny of the devil; who after he had insnared him by delusions and large promises of 24 years prosperiry [sic], threatened to pull and tear him in pieces when he seemed to repent. With many other things worthy to be minded.</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. M[iller] for J. Deacon, and C: Dennisson, and are to be sold at their shops, at the Angel in Guilt-spur-street and at the Stationers-Arms within Aldgate,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690" cert="low">[ca. 1690]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title page and final page woodcuts.</note>
-         <note>Place of publication and printer's name from, and date conjectured by, Wing.</note>
-         <note>Running title reads: The first part of Doctor Faustus.</note>
-         <note>In verse.</note>
-         <note>Signatures: A B&#8308;.</note>
-         <note>Reproduction of the original in the Magdalene College Library, Cambridge.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first part of Dr. Faustus abreviated and brought into verse. Shewing the wickedness of his life, and the tyranny of the devil; who after he had insnared him by delusions and large promises of 24 years prosperiry [sic], threatened to pull and tear him in pieces when he seemed to repent. With many other things worthy to be minded.</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. M[iller]</persName> for <persName type="publisher">J. Deacon</persName>, and <persName type="publisher">C: Dennisson</persName>, and are to be sold at <placeName>their shops, at the Angel in Guilt-spur-street</placeName> and at <placeName>the Stationers-Arms within Aldgate</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690" cert="low">[ca. 1690]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title page and final page woodcuts.</note>
+      <note>Place of publication and printer's name from, and date conjectured by, Wing.</note>
+      <note>Running title reads: The first part of Doctor Faustus.</note>
+      <note>In verse.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Reproduction of the original in the Magdalene College Library, Cambridge.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C: Dennisson</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Deacon</persName>
+    </person>
+    <person type="printer">
+      <persName>I. M[iller]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Stationers-Arms within Aldgate</placeName>
+    </place>
+    <place type="location">
+      <placeName>their shops, at the Angel in Guilt-spur-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

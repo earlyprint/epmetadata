@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The discouerer of France to the Parisians, and all other the French nation. Faithfullie translated out of the French: by E.A.</title>
-         <title>Le manifeste de la France. English.</title>
-         <author>Aggas, Edward.</author>
-      </titleStmt>
-      <extent>13 [i.e. 15], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by Thomas East? for Edward Aggas],</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1590">1590.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>E.A. = Edward Aggas.</note>
-         <note>A translation of: Le manifeste de la France.</note>
-         <note>Printer's name conjectured and publisher's name supplied by STC.</note>
-         <note>P. 15 misnumbered 13.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The discouerer of France to the Parisians, and all other the French nation. Faithfullie translated out of the French: by E.A.</title>
+      <title>Le manifeste de la France. English.</title>
+      <author>Aggas, Edward.</author>
+    </titleStmt>
+    <extent>13 [i.e. 15], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">Thomas East?</persName> for <persName type="publisher">Edward Aggas]</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1590">1590.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>E.A. = Edward Aggas.</note>
+      <note>A translation of: Le manifeste de la France.</note>
+      <note>Printer's name conjectured and publisher's name supplied by STC.</note>
+      <note>P. 15 misnumbered 13.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Aggas]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas East?</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

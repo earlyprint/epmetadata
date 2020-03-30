@@ -1,24 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Ye dyaloge called Funus]</title>
-         <title>Colloquia. Selections</title>
-         <author>Erasmus, Desiderius, d. 1536.</author>
-      </titleStmt>
-      <extent>[56]p.   </extent>
-      <publicationStmt>
-         <publisher>By Robert copland, [sic] for Iohan Byddell, otherwyse Salysbury. the .v. daye of Ianuary, and be for to sell lat ye sygne of our lady of pyte nexte to flete brydge,</publisher>
-         <pubPlace>[At London :</pubPlace>
-         <date when="1534">[1534]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from D2 recto. Imprint from colophon. Publication date from STC.</note>
-         <note>A selection from Erasmus. Desiderius.  Colloquia.</note>
-         <note>Signatures: A-C D&#8308;.</note>
-         <note>Includes, with caption title: "A good and a godly admonicion or warnynge, very behouefull for euery chrysten man to loke upon". Register is continuous.</note>
-         <note>Imperfect; lacking leaf A1 (title page) and tightly bound affecting text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Ye dyaloge called Funus]</title>
+      <title>Colloquia. Selections</title>
+      <author>Erasmus, Desiderius, d. 1536.</author>
+    </titleStmt>
+    <extent>[56]p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert copland</persName>, <persName type="printer">[sic]</persName> for <persName type="publisher">Iohan Byddell, otherwyse Salysbury. the .v. daye of Ianuary, and be</persName> for <persName type="publisher">to sell lat ye sygne of our lady of pyte nexte to flete brydge</persName>,</publisher>
+      <pubPlace>[At London :</pubPlace>
+      <date when="1534">[1534]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from D2 recto. Imprint from colophon. Publication date from STC.</note>
+      <note>A selection from Erasmus. Desiderius.  Colloquia.</note>
+      <note>Signatures: A-C D&#8308;.</note>
+      <note>Includes, with caption title: "A good and a godly admonicion or warnynge, very behouefull for euery chrysten man to loke upon". Register is continuous.</note>
+      <note>Imperfect; lacking leaf A1 (title page) and tightly bound affecting text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohan Byddell, otherwyse Salysbury. the .v. daye of Ianuary, and be</persName>
+    </person>
+    <person type="publisher">
+      <persName>to sell lat ye sygne of our lady of pyte nexte to flete brydge</persName>
+    </person>
+    <person type="printer">
+      <persName>Robert copland</persName>
+    </person>
+    <person type="printer">
+      <persName>[sic]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

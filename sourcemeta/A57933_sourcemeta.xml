@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the assizes at Norwich upon the fifth day of August, 1693 by J.R., M.A., Rector of Brundal.</title>
-         <author>Russell, John, 17th cent.</author>
-      </titleStmt>
-      <extent>[2], 30, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Hayes ... for Samuel Oliver ...,</publisher>
-         <pubPlace>Cambridge :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Russell. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>Advertisement on p. [1] at beginning and on p. [1] at end.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the assizes at Norwich upon the fifth day of August, 1693 by J.R., M.A., Rector of Brundal.</title>
+      <author>Russell, John, 17th cent.</author>
+    </titleStmt>
+    <extent>[2], 30, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Hayes</persName> ... for <persName type="publisher">Samuel Oliver</persName> ...,</publisher>
+      <pubPlace>Cambridge :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Russell. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>Advertisement on p. [1] at beginning and on p. [1] at end.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Oliver</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hayes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The innocent usurper, or, The death of the Lady Jane Gray a tragedy / written by J.B.</title>
-         <author>Banks, John, d. 1706.</author>
-      </titleStmt>
-      <extent>[8], 60 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bentley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: J. Banks.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The innocent usurper, or, The death of the Lady Jane Gray a tragedy / written by J.B.</title>
+      <author>Banks, John, d. 1706.</author>
+    </titleStmt>
+    <extent>[8], 60 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bentley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: J. Banks.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

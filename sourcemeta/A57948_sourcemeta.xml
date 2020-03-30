@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The present state of the Morea, called anciently, Peloponnesus which hath been near two hundred years under the dominion of the Turks, and is now very much depopulated : together with a description of the city of Athens, islands of Zant, Strafades, and Serigo / faithfully described by Bernard Randolph, who resided in those parts from 1671 to 1679.</title>
-         <author>Randolph, Bernard, b. 1643.</author>
-      </titleStmt>
-      <extent>[2], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and are to be sold by Tho. Basset ... John Penn ... and John Hill ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"By His Majesties special licence"</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The present state of the Morea, called anciently, Peloponnesus which hath been near two hundred years under the dominion of the Turks, and is now very much depopulated : together with a description of the city of Athens, islands of Zant, Strafades, and Serigo / faithfully described by Bernard Randolph, who resided in those parts from 1671 to 1679.</title>
+      <author>Randolph, Bernard, b. 1643.</author>
+    </titleStmt>
+    <extent>[2], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and are to be sold by <persName type="bookseller">Tho. Basset</persName> ... <persName type="bookseller">John Penn</persName> ... and <persName type="publisher">John Hill</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"By His Majesties special licence"</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Hill</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Penn</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Tho. Basset</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

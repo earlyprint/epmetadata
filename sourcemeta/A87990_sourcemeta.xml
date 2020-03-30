@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of addresse from the officers of the army in Scotland, directed to the Honourable, the Speaker of the Parliament of the commonwealth of England sitting at Westminster. Wednesday the 18th of May 1659. Ordered by the Parliament that this letter be forthwith printed and published. Tho. St Nicholas clerk of the Parliament.</title>
-         <author>Albemarle, George Monck, Duke of, 1608-1670.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Field, printer to the Parliament. And are to be sold at the seven Stars in Fleetstreet, over against Dunstans Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: George Monck, Thomas Reade, Ralph Cobbet .. [and 23 others].</note>
-         <note>Annotation on Thomason copy: "May 19th"; "May. 19".</note>
-         <note>Reproductions of originals in Henry E. Huntington Library and Art Gallery and the British Library (Thomason Tracts).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of addresse from the officers of the army in Scotland, directed to the Honourable, the Speaker of the Parliament of the commonwealth of England sitting at Westminster. Wednesday the 18th of May 1659. Ordered by the Parliament that this letter be forthwith printed and published. Tho. St Nicholas clerk of the Parliament.</title>
+      <author>Albemarle, George Monck, Duke of, 1608-1670.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament. And</persName> are to be sold at <placeName>the seven Stars in Fleetstreet, over against Dunstans Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: George Monck, Thomas Reade, Ralph Cobbet .. [and 23 others].</note>
+      <note>Annotation on Thomason copy: "May 19th"; "May. 19".</note>
+      <note>Reproductions of originals in Henry E. Huntington Library and Art Gallery and the British Library (Thomason Tracts).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the seven Stars in Fleetstreet, over against Dunstans Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

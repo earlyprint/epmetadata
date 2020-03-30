@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Letters of publication, in favours of Thomas Weir chyrurgeon in Edinburgh</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the heirs and successors of Andrew Anderson, printers to their most excellent Majesties,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1694">Anno Dom. 1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Wellcome Institute for the History of Medicine, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Letters of publication, in favours of Thomas Weir chyrurgeon in Edinburgh</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, printers to <persName type="patron">their most excellent Majesties</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1694">Anno Dom. 1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Wellcome Institute for the History of Medicine, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>their most excellent Majesties</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

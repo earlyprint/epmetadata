@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A seasonable expostulation with the Netherlands. Declaring their ingratitude to, and the necessity of their agreement with the Common-wealth of England.</title>
-         <author>Osborne, Francis, 1593-1659.</author>
-      </titleStmt>
-      <extent>[4], 16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by L. Lichfield] for Thomas Robinson,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1652">Anno Dom. 1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Francis Osborne.</note>
-         <note>Printer's name from Madan.</note>
-         <note>".. written for home consumption: no Dutchman could read it without gnashing his teeth." -- Madan.</note>
-         <note>Annotation on Thomason copy: "June 12".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A seasonable expostulation with the Netherlands. Declaring their ingratitude to, and the necessity of their agreement with the Common-wealth of England.</title>
+      <author>Osborne, Francis, 1593-1659.</author>
+    </titleStmt>
+    <extent>[4], 16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">L. Lichfield]</persName> for <persName type="publisher">Thomas Robinson</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1652">Anno Dom. 1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Francis Osborne.</note>
+      <note>Printer's name from Madan.</note>
+      <note>".. written for home consumption: no Dutchman could read it without gnashing his teeth." -- Madan.</note>
+      <note>Annotation on Thomason copy: "June 12".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Lichfield]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

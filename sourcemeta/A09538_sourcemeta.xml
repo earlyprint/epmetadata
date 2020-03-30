@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Times iourney to seeke his daughter Truth and Truths letter to Fame of Englands excellencie.</title>
-         <author>Pett, Peter, fl. 1599.</author>
-      </titleStmt>
-      <extent>[52] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by F[elix] K[ingston] for Humfrey Lownes,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Peter Pett.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F&#8308; G&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Times iourney to seeke his daughter Truth and Truths letter to Fame of Englands excellencie.</title>
+      <author>Pett, Peter, fl. 1599.</author>
+    </titleStmt>
+    <extent>[52] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">F[elix] K[ingston]</persName> for <persName type="publisher">Humfrey Lownes</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Peter Pett.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#8308; G&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humfrey Lownes</persName>
+    </person>
+    <person type="printer">
+      <persName>F[elix] K[ingston]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

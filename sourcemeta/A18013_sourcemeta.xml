@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Contemplations for the institution of children in the Christian religion. Collected and published by Iohn Carpenter</title>
-         <author>Carpenter, John, d. 1621.</author>
-      </titleStmt>
-      <extent>[100] p.   </extent>
-      <publicationStmt>
-         <publisher>By R. R[ead] dwelling in Fleete Lane,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1601">1601.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>With an errata leaf following F8 verso.</note>
-         <note>Signatures: A-F pi&#178; .</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Contemplations for the institution of children in the Christian religion. Collected and published by Iohn Carpenter</title>
+      <author>Carpenter, John, d. 1621.</author>
+    </titleStmt>
+    <extent>[100] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">R. R[ead]</persName> dwelling in <placeName>Fleete Lane</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1601">1601.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>With an errata leaf following F8 verso.</note>
+      <note>Signatures: A-F pi&#178; .</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. R[ead]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleete Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King the Kings most excellent Maiestie by the aduice of his priuie counsell ... doeth publish and declare ... that all coynes of gold and siluer ... shall bee ... currant ... at such weight, finenesse, and value, as the same were currant the first day of August last past ...</title>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton and Iohn Bill, Printers  to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1626">M.DC.XXVI [1626]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Giuen at Our Palace of Westminster, the fourth day of September,  in the second yeere of Our Reigne of England, Scotland, France and Ireland."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King the Kings most excellent Maiestie by the aduice of his priuie counsell ... doeth publish and declare ... that all coynes of gold and siluer ... shall bee ... currant ... at such weight, finenesse, and value, as the same were currant the first day of August last past ...</title>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I)</author>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, <persName type="printer">Printers  to the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1626">M.DC.XXVI [1626]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Giuen at Our Palace of Westminster, the fourth day of September,  in the second yeere of Our Reigne of England, Scotland, France and Ireland."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Printers  to the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

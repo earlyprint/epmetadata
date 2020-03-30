@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An elegy on the much-to-be-deplored death of that never-to-be-forgotten person, the Reverend Mr. Nathanael Collins who after he had been many years a faithful pastor to the Church at Middletown of Connecticut in New-England, about the forty third year of his age expired on 28th 10 moneth 1684.</title>
-         <author>Mather, Cotton, 1663-1728.</author>
-      </titleStmt>
-      <extent>[4], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Pierce for Obadiah Gill,</publisher>
-         <pubPlace>Boston in New-England :</pubPlace>
-         <date when="1685">anno Christi 1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: "C.M."</note>
-         <note>Errors in paging.</note>
-         <note>Reproduction of original in: New York Public Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An elegy on the much-to-be-deplored death of that never-to-be-forgotten person, the Reverend Mr. Nathanael Collins who after he had been many years a faithful pastor to the Church at Middletown of Connecticut in New-England, about the forty third year of his age expired on 28th 10 moneth 1684.</title>
+      <author>Mather, Cotton, 1663-1728.</author>
+    </titleStmt>
+    <extent>[4], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Pierce</persName> for <persName type="publisher">Obadiah Gill</persName>,</publisher>
+      <pubPlace>Boston in New-England :</pubPlace>
+      <date when="1685">anno Christi 1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: "C.M."</note>
+      <note>Errors in paging.</note>
+      <note>Reproduction of original in: New York Public Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Obadiah Gill</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Pierce</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A wonderful and lamentable accident lately happned in the Low Countries, of a maiden through her extreme pride personally deceiued by the deuill, who afterwards ended her life most miserably. And likewise what vntimely end both her parents and her spouse, who was but newly maried, came to.  No lesse admirable then certaine and remarkable, especially that this kingdome of England may hereby take example of this hainous sinne..</title>
-      </titleStmt>
-      <extent>6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Eliot's Court Press?] for Thomas Archer, and are to be sold at his shop in Popes-Head alley, ouer against the signe of the Horse-shooe.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer suggested by STC (2nd ed.).</note>
-         <note>May have been issued separately or as part of: "October 11. Number 2. Two wonderfvl and lamentable accidents herein related ..."</note>
-         <note>Signatures: C&#8308;.</note>
-         <note>Reproduction of original in: Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A wonderful and lamentable accident lately happned in the Low Countries, of a maiden through her extreme pride personally deceiued by the deuill, who afterwards ended her life most miserably. And likewise what vntimely end both her parents and her spouse, who was but newly maried, came to.  No lesse admirable then certaine and remarkable, especially that this kingdome of England may hereby take example of this hainous sinne..</title>
+    </titleStmt>
+    <extent>6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Eliot's Court Press?]</persName> for <persName type="publisher">Thomas Archer</persName>, and are to be sold at <placeName>his shop in Popes-Head alley, ouer against the signe of the Horse-shooe.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer suggested by STC (2nd ed.).</note>
+      <note>May have been issued separately or as part of: "October 11. Number 2. Two wonderfvl and lamentable accidents herein related ..."</note>
+      <note>Signatures: C&#8308;.</note>
+      <note>Reproduction of original in: Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Archer</persName>
+    </person>
+    <person type="printer">
+      <persName>Eliot's Court Press?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes-Head alley, ouer against the signe of the Horse-shooe.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

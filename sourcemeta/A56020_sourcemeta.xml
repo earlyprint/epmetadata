@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Proposal of the poets to raise Their Majesties a sum of money humbly recommended to the consideration of the Honourable House.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the assigns of Mr. Jordan and Tubman deceased,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">[1693]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Proposal of the poets to raise Their Majesties a sum of money humbly recommended to the consideration of the Honourable House.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for the assigns of <persName type="assigns">Mr. Jordan</persName> and <persName type="assigns">Tubman deceased</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">[1693]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Mr. Jordan</persName>
+    </person>
+    <person type="assigns">
+      <persName>Tubman deceased</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

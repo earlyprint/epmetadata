@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Foure sermons whereof two, preached at two assizes, this present yeare, 1638. at Maidestone in Kent, the other two, in his own charge. By Robert Abbot ...</title>
-         <author>Abbot, Robert, 1588?-1662?</author>
-      </titleStmt>
-      <extent>[16], 96, 64 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Paine, for P. Stephens, and C Meredith, and are to be sold at their shop, at the signe of the Golden Lyon, in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The SR record is for 5 sermons; the 5th is 59.5, which, although its collation fills a gap in 58, is not found included in any of the copies except C5 and was app[arently]. issued separately by the publishers' change of plan"--STC.</note>
-         <note>"The Christians thrift in keeping: or two sermons preached on 1 Tim.i.19" has separate pagination and caption title.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Foure sermons whereof two, preached at two assizes, this present yeare, 1638. at Maidestone in Kent, the other two, in his own charge. By Robert Abbot ...</title>
+      <author>Abbot, Robert, 1588?-1662?</author>
+    </titleStmt>
+    <extent>[16], 96, 64 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Paine</persName>, for <persName type="publisher">P. Stephens</persName>, and <persName type="publisher">C Meredith</persName>, and are to be sold at <placeName>their shop, at the signe of the Golden Lyon, in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The SR record is for 5 sermons; the 5th is 59.5, which, although its collation fills a gap in 58, is not found included in any of the copies except C5 and was app[arently]. issued separately by the publishers' change of plan"--STC.</note>
+      <note>"The Christians thrift in keeping: or two sermons preached on 1 Tim.i.19" has separate pagination and caption title.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>P. Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop, at the signe of the Golden Lyon, in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first lecture, of geographie, (vvhich is a description of the terestriall globe) / read publickly at Sr. Balthazar Gerbier his accademy, at Bednall-Greene.</title>
-         <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
-      </titleStmt>
-      <extent>[2], 12, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Gartrude Dawson, and are to be sold by Hanna Allen at the Crown in Popes-head-Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The final leaf is blank.</note>
-         <note>Annotation on Thomason copy: "Sept: 11".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first lecture, of geographie, (vvhich is a description of the terestriall globe) / read publickly at Sr. Balthazar Gerbier his accademy, at Bednall-Greene.</title>
+      <author>Gerbier, Balthazar, Sir, 1592?-1667.</author>
+    </titleStmt>
+    <extent>[2], 12, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Gartrude Dawson</persName>, and are to be sold by <persName type="bookseller">Hanna Allen</persName> at <placeName>the Crown in Popes-head-Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The final leaf is blank.</note>
+      <note>Annotation on Thomason copy: "Sept: 11".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Gartrude Dawson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Hanna Allen</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crown in Popes-head-Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

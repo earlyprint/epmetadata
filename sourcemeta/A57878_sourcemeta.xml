@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Rules for conversation, or A collection of moral maxims and reflections. By a Roman Catholick</title>
-         <author>Roman Catholick.</author>
-      </titleStmt>
-      <extent>[8], 103, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for J. Eaglesfield, at the Marigold over against the Globe-Tavern in Fleet-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on pg. 1: A collection of moral maxims and reflections.</note>
-         <note>Title page preceeded by an advertisment page.</note>
-         <note>Reproduction of the original at the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Rules for conversation, or A collection of moral maxims and reflections. By a Roman Catholick</title>
+      <author>Roman Catholick.</author>
+    </titleStmt>
+    <extent>[8], 103, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">J. Eaglesfield</persName>, at <placeName>the Marigold over against the Globe-Tavern in Fleet-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on pg. 1: A collection of moral maxims and reflections.</note>
+      <note>Title page preceeded by an advertisment page.</note>
+      <note>Reproduction of the original at the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Eaglesfield</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Marigold over against the Globe-Tavern in Fleet-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

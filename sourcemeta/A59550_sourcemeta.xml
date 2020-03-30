@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The government of the thoughts a sermon preach'd before the King and Queen at White-Hall, the 4th of March, being the 2d Sunday in Lent, 1693/4 / by ... John, Lord Arch-bishop of York.</title>
-         <author>Sharp, John, 1645-1714.</author>
-      </titleStmt>
-      <extent>15, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Hen. Hills ..., for the benefit of the poor,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">[1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1] at end.</note>
-         <note>Reproduction of original in Duke University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The government of the thoughts a sermon preach'd before the King and Queen at White-Hall, the 4th of March, being the 2d Sunday in Lent, 1693/4 / by ... John, Lord Arch-bishop of York.</title>
+      <author>Sharp, John, 1645-1714.</author>
+    </titleStmt>
+    <extent>15, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Hen. Hills</persName></persName> ..., for <persName type="publisher">the benefit of the poor</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">[1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1] at end.</note>
+      <note>Reproduction of original in Duke University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the benefit of the poor</persName>
+    </person>
+    <person type="printer">
+      <persName>Hen. Hills</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Hen. Hills</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

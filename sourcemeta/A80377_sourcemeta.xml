@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from the King of Spain written to the Pope of Rome Licens'd, September 29. 1690.</title>
-         <author>Spain. Sovereign (1665-1700 : Charles II)</author>
-         <author>Catholic Church. Pope (1689-1691 : Alexander VIII)</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin near the Oxford-Arms in Warwick-Lane,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The King of Spain = Charles II; the Pope of Rome = Alexander VIII.</note>
-         <note>At end: Printed after the copy of Jacob Scheltus. 1690.</note>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from the King of Spain written to the Pope of Rome Licens'd, September 29. 1690.</title>
+      <author>Spain. Sovereign (1665-1700 : Charles II)</author>
+      <author>Catholic Church. Pope (1689-1691 : Alexander VIII)</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName> near <placeName>the Oxford-Arms in Warwick-Lane</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The King of Spain = Charles II; the Pope of Rome = Alexander VIII.</note>
+      <note>At end: Printed after the copy of Jacob Scheltus. 1690.</note>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Oxford-Arms in Warwick-Lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

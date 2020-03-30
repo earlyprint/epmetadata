@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A catalogue of the Lords spirituall and temporall of the higher house of Parliament. 1640</title>
-         <author>Walkley, Thomas, d. 1658?</author>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for I.D. for Tho. Walkley, and are to be sold at his Shop between Brittains Bursse, and Yorke House,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1640. [i.e. 1641]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Compiled by Thomas Walkley.</note>
-         <note>Publication date from Wing.</note>
-         <note>Annotation on Thomason copy: "13 Aprill".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A catalogue of the Lords spirituall and temporall of the higher house of Parliament. 1640</title>
+      <author>Walkley, Thomas, d. 1658?</author>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">I.D.</persName> for <persName type="publisher">Tho. Walkley</persName>, and are to be sold at <placeName>his Shop between Brittains Bursse</placeName>, and <persName type="publisher">Yorke House</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1640. [i.e. 1641]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Compiled by Thomas Walkley.</note>
+      <note>Publication date from Wing.</note>
+      <note>Annotation on Thomason copy: "13 Aprill".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I.D.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Walkley</persName>
+    </person>
+    <person type="publisher">
+      <persName>Yorke House</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his Shop between Brittains Bursse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

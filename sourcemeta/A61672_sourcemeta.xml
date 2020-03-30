@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Verus Christianus, or, Directions for private devotions and retirements dedicated to ... Gilbert Ld. Arch Bishop of Canterbury ... by David Stokes.</title>
-         <author>Stokes, David, 1591?-1669.</author>
-         <author>Andrewes, Lancelot, 1555-1626.</author>
-      </titleStmt>
-      <extent>309 p. in various pagings.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. &amp; L. Lichfield for R. Davis,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1668">1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To which is added by the same author an appendix containing in it some private devotions of the late learned Bishop Andrewes never before extant."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Verus Christianus, or, Directions for private devotions and retirements dedicated to ... Gilbert Ld. Arch Bishop of Canterbury ... by David Stokes.</title>
+      <author>Stokes, David, 1591?-1669.</author>
+      <author>Andrewes, Lancelot, 1555-1626.</author>
+    </titleStmt>
+    <extent>309 p. in various pagings.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.</persName> &amp; <persName type="printer">L. Lichfield</persName> for <persName type="publisher">R. Davis</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1668">1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To which is added by the same author an appendix containing in it some private devotions of the late learned Bishop Andrewes never before extant."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>A.</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

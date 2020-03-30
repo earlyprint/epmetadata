@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Looke to it: for, Ile stabbe ye</title>
-         <author>Rowlands, Samuel, 1570?-1630?</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>By E. Allde for W. Ferbrand, and George Loftes, and are to be solde in Popes-head Allie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: S.R., i.e. Samuel Rowlands.</note>
-         <note>In verse.</note>
-         <note>Signatures: A-F&#8308;.</note>
-         <note>Vertical chain lines.</note>
-         <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Looke to it: for, Ile stabbe ye</title>
+      <author>Rowlands, Samuel, 1570?-1630?</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">E. Allde</persName> for <persName type="publisher">W. Ferbrand</persName>, and <persName type="publisher">George Loftes</persName>, and are to be solde in <placeName>Popes-head Allie</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: S.R., i.e. Samuel Rowlands.</note>
+      <note>In verse.</note>
+      <note>Signatures: A-F&#8308;.</note>
+      <note>Vertical chain lines.</note>
+      <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Loftes</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Ferbrand</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Allie</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

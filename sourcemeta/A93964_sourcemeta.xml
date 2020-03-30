@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A strange and lamentable account of a bloody barbarous murther, committed by William Close,.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Butcher,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Reproduction of original in: Newberry Library, Chicago, Illinois.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A strange and lamentable account of a bloody barbarous murther, committed by William Close,.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Butcher</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Reproduction of original in: Newberry Library, Chicago, Illinois.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Butcher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

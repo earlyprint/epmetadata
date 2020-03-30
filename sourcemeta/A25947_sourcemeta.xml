@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Articles of the charge of the Wardmote inquest</title>
-         <author>City of London (England).</author>
-      </titleStmt>
-      <extent>1 sheet ([3] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Samuel Roycroft ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1689">[1689]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Imperfect: pages cropped and torn with slight loss of print.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Articles of the charge of the Wardmote inquest</title>
+      <author>City of London (England).</author>
+    </titleStmt>
+    <extent>1 sheet ([3] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Samuel Roycroft</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1689">[1689]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Imperfect: pages cropped and torn with slight loss of print.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Samuel Roycroft</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

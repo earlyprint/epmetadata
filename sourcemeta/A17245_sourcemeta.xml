@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ansvvere to a popish libell intituled A petition to the bishops, preachers, and gospellers, lately spread abroad in the north partes. By Francis Bunny Prebendary of Durham; sometimes fellow of Magdalen Colledge in Oxford</title>
-         <author>Bunny, Francis, 1543-1617.</author>
-      </titleStmt>
-      <extent>[12], 159, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Ioseph Barnes, printer to the Vniversity,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1607">1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With the text of the petition.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ansvvere to a popish libell intituled A petition to the bishops, preachers, and gospellers, lately spread abroad in the north partes. By Francis Bunny Prebendary of Durham; sometimes fellow of Magdalen Colledge in Oxford</title>
+      <author>Bunny, Francis, 1543-1617.</author>
+    </titleStmt>
+    <extent>[12], 159, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Ioseph Barnes</persName>, printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1607">1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With the text of the petition.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

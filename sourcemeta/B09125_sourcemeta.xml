@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epitaph.  On the worst and most wicked of all mankind, C. I. who dyed on the 6th of June 1681</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. L. for the Author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>In verse.</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epitaph.  On the worst and most wicked of all mankind, C. I. who dyed on the 6th of June 1681</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. L.</persName> for <persName type="publisher">the Author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>In verse.</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Author</persName>
+    </person>
+    <person type="printer">
+      <persName>G. L.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

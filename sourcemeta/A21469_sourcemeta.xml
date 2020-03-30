@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Here is a newe boke, called the defence of age, and recouery of youth, translated out of the famous clarke and ryght experte medycyne Arnold de Noua Uilla, very profytable for all men to knowe</title>
-         <title>De conservatione juventutis et retardatione senectutis. English</title>
-         <author>Arnaldus, de Villanova, d. 1311.</author>
-         <author>Drummond, Jonas.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprynted by me Robert wyer, dwellynge in saynt Martyns parysshe, at the sygne of saynt Ioh[a]n Euangelyst, besyde Charynge Crosse,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1540">[ca.1540]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: De conservatione juventutis et retardatione senectutis.</note>
-         <note>Translator's preface on A1v signed: Ionas Druumde.</note>
-         <note>Imprint from colophon; publication date suggested by STC.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Here is a newe boke, called the defence of age, and recouery of youth, translated out of the famous clarke and ryght experte medycyne Arnold de Noua Uilla, very profytable for all men to knowe</title>
+      <title>De conservatione juventutis et retardatione senectutis. English</title>
+      <author>Arnaldus, de Villanova, d. 1311.</author>
+      <author>Drummond, Jonas.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted by <persName type="printer">me Robert wyer</persName>, dwellynge in <placeName>saynt Martyns parysshe, at the sygne of saynt Ioh[a]n Euangelyst, besyde Charynge Crosse</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1540">[ca.1540]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: De conservatione juventutis et retardatione senectutis.</note>
+      <note>Translator's preface on A1v signed: Ionas Druumde.</note>
+      <note>Imprint from colophon; publication date suggested by STC.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Robert wyer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>saynt Martyns parysshe, at the sygne of saynt Ioh[a]n Euangelyst, besyde Charynge Crosse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

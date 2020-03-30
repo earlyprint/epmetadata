@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act of the Commons assembled in Parliament, establishing the present Commissioners for the Customes</title>
-         <title>Proceedings. 1650</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Laurence Blaiklock, and are to be sold at his shop near Temple-Bar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Act of the Commons assembled in Parliament, establishing the present Commissioners for the Customes</title>
+      <title>Proceedings. 1650</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Laurence Blaiklock</persName>, and are to be sold at <placeName>his shop near Temple-Bar</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Laurence Blaiklock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop near Temple-Bar</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

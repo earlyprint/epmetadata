@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>All the ordinances of the Lors [sic] and Commons assembled in Parliament: for the true payment of tythes, and other such duties according to the lawes and customes of this realme Ordered by the Lords in Parliament assembled, that these ordinances for the due payment of all tythes and such other duties, be forthwith printed and published. Joh. Brown Cler. Parliamentorum.</title>
-         <title>Proceedings</title>
-         <author>England and Wales. Parliament.</author>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for John Wright at the Kings Head in the Old-Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">[1652]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication from Wing (CD-ROM edition).</note>
-         <note>Reproduction of original in the Lincoln's Inn Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>All the ordinances of the Lors [sic] and Commons assembled in Parliament: for the true payment of tythes, and other such duties according to the lawes and customes of this realme Ordered by the Lords in Parliament assembled, that these ordinances for the due payment of all tythes and such other duties, be forthwith printed and published. Joh. Brown Cler. Parliamentorum.</title>
+      <title>Proceedings</title>
+      <author>England and Wales. Parliament.</author>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the Old-Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">[1652]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication from Wing (CD-ROM edition).</note>
+      <note>Reproduction of original in the Lincoln's Inn Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old-Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the King, upon His Majesties happy return. By a person of honour.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Henry Herringman, and are to be sold at his shop at the Blue-Anchor in the lower walk of the New-Exchange,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Another poem by the same name was written by Edmund Waller. Cf. Wing (2nd ed.).</note>
-         <note>Reproduction of original in the Henry E. Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the King, upon His Majesties happy return. By a person of honour.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Henry Herringman</persName>, and are to be sold at <placeName>his shop at the Blue-Anchor in the lower walk of the New-Exchange</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Another poem by the same name was written by Edmund Waller. Cf. Wing (2nd ed.).</note>
+      <note>Reproduction of original in the Henry E. Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Blue-Anchor in the lower walk of the New-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

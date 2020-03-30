@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To the Maiestie of King James A gratulatorie poem by Michaell Drayton.</title>
-         <author>Drayton, Michael, 1563-1631.</author>
-      </titleStmt>
-      <extent>[14] p., plate   </extent>
-      <publicationStmt>
-         <publisher>printed by Iames Roberts, for T.M. and H.L.,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1603">1603.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Published by T. Man and H. Lownes. Cf. STC.</note>
-         <note>Signatures: A-B&#8308; (-A1).</note>
-         <note>The last leaf is blank.</note>
-         <note>In this second state "To the reader" on B3r begins "For the more apt .." and refers to "this speedy, and second impression"; the first roundel of the corrected genealogical table (plate) has 'Soueray&#7713;e' [i.e. Souerayg[n]e].</note>
-         <note>Item at reel 591:16 identified as STC 7231a.</note>
-         <note>Reproductions of originals in the Folger Shakespeare Library and Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To the Maiestie of King James A gratulatorie poem by Michaell Drayton.</title>
+      <author>Drayton, Michael, 1563-1631.</author>
+    </titleStmt>
+    <extent>[14] p., plate   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Iames Roberts</persName>, for <persName type="publisher">T.M.</persName> and <persName type="publisher">H.L.</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1603">1603.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Published by T. Man and H. Lownes. Cf. STC.</note>
+      <note>Signatures: A-B&#8308; (-A1).</note>
+      <note>The last leaf is blank.</note>
+      <note>In this second state "To the reader" on B3r begins "For the more apt .." and refers to "this speedy, and second impression"; the first roundel of the corrected genealogical table (plate) has 'Soueray&#7713;e' [i.e. Souerayg[n]e].</note>
+      <note>Item at reel 591:16 identified as STC 7231a.</note>
+      <note>Reproductions of originals in the Folger Shakespeare Library and Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H.L.</persName>
+    </person>
+    <person type="publisher">
+      <persName>T.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>Iames Roberts</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

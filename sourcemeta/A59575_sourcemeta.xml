@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Right Honourable the Lord Mayor, and Aldermen of London, at Bow-church by John Sharpe ...</title>
-         <author>Sharp, John, 1645-1714.</author>
-      </titleStmt>
-      <extent>[2], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Clark, for Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Right Honourable the Lord Mayor, and Aldermen of London, at Bow-church by John Sharpe ...</title>
+      <author>Sharp, John, 1645-1714.</author>
+    </titleStmt>
+    <extent>[2], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName>, for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

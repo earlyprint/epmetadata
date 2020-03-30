@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Rhemes against Rome: or, The remoouing of the gagg of the new Gospell, and rightly placing it in the mouthes of the Romists, by the Rhemists in their English translation of the Scriptures. Which counter-gagg is heere fitted by the industrious hand of Richard Bernard ...</title>
-         <author>Bernard, Richard, 1568-1641.</author>
-      </titleStmt>
-      <extent>[16], 326 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kingston, for Ed. Blackmore, and are to be sold at his shop at the great south doore of Pauls,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Heigham, John or Roger.  The gagge of the new Gospel.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Rhemes against Rome: or, The remoouing of the gagg of the new Gospell, and rightly placing it in the mouthes of the Romists, by the Rhemists in their English translation of the Scriptures. Which counter-gagg is heere fitted by the industrious hand of Richard Bernard ...</title>
+      <author>Bernard, Richard, 1568-1641.</author>
+    </titleStmt>
+    <extent>[16], 326 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kingston</persName>, for <persName type="publisher">Ed. Blackmore</persName>, and are to be sold at <placeName>his shop at the great south doore of Pauls</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Heigham, John or Roger.  The gagge of the new Gospel.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ed. Blackmore</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the great south doore of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

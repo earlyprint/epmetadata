@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A congratulatory poem upon the noble feast made by the ancient and renouned families of the Smiths</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill  </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Smith at the Elephant and Cattle near the Royal Exchange in Cornhil[,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">c. 1680]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With engraved illustrations.</note>
-         <note>In verse.</note>
-         <note>Not an STC item.--STC.</note>
-         <note>Erroneously included in the STC on the basis of a doubtful imprint date. Now established as about 1680.--British Library Catalogue.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A congratulatory poem upon the noble feast made by the ancient and renouned families of the Smiths</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Smith</persName> at <placeName>the Elephant</placeName> and Cattle near <placeName>the Royal Exchange in Cornhil[</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">c. 1680]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With engraved illustrations.</note>
+      <note>In verse.</note>
+      <note>Not an STC item.--STC.</note>
+      <note>Erroneously included in the STC on the basis of a doubtful imprint date. Now established as about 1680.--British Library Catalogue.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Elephant</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Royal Exchange in Cornhil[</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

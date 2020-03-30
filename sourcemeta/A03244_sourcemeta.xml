@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rape of Lucrece a true Roman tragedie. With the seuerall songes in their apt places, by Valerius, the merrie lord amongst the Roman peeres. Acted by her Majesties Seruants at the Red-Bull, neere Clarken-well. Written by Thomas Heywood.</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-      </titleStmt>
-      <extent>[78] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde] for I. B[usby] and are to be solde [by Nathaniel Butter] in Paules-Church-yard at the signe of the Pide-Bull,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Partly in verse.</note>
-         <note>Printer's, publisher's and bookseller's names from STC.</note>
-         <note>Signatures: A-K&#8308; (-K4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rape of Lucrece a true Roman tragedie. With the seuerall songes in their apt places, by Valerius, the merrie lord amongst the Roman peeres. Acted by her Majesties Seruants at the Red-Bull, neere Clarken-well. Written by Thomas Heywood.</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+    </titleStmt>
+    <extent>[78] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">I. B[usby]</persName> and are to be solde [by <persName type="bookseller">Nathaniel Butter]</persName> in <placeName>Paules-Church-yard at the signe of the Pide-Bull</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Partly in verse.</note>
+      <note>Printer's, publisher's and bookseller's names from STC.</note>
+      <note>Signatures: A-K&#8308; (-K4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. B[usby]</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Nathaniel Butter]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules-Church-yard at the signe of the Pide-Bull</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Appendix to Mercurius reformatus, or, The new observator by the same author.</title>
-      </titleStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">MDCXCII [i.e. 1692]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Appendix to Mercurius reformatus, or, The new observator by the same author.</title>
+    </titleStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">MDCXCII [i.e. 1692]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

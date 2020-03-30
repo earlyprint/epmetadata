@@ -1,22 +1,44 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sir Beniamin Rudierd his speech in behalfe of the clergie and of parishes miserably destitute of instruction, through want of maintenance. Confirmed by the testimonies of Bishop Iewel, Master Perkins, and Sir Henry Spelman.</title>
-         <author>Rudyerd, Benjamin, Sir, 1572-1658.</author>
-         <author>England and Wales. Parliament. House of Commons. Proceedings. 1628.</author>
-      </titleStmt>
-      <extent>[2], 14, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>[By John Lichfield], 1628. And are to be sold by Ph. Stephens and Ch. Meredith at the Golden Lyon in Pauls Church-yard [, London,</publisher>
-         <pubPlace>Printed at Oxford :</pubPlace>
-         <date when="1628">1628]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Given in the House of Commons.</note>
-         <note>Cf. Folger catalogue, which gives signatures: pi&#185; A-B&#8308;.</note>
-         <note>A reissue, with added title page possibly printed in London (STC), of: "Sir Benjamin Ruddierd's speach in behalfe of the cleargy", [Oxford : printed by John Lichfield, 1628].</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sir Beniamin Rudierd his speech in behalfe of the clergie and of parishes miserably destitute of instruction, through want of maintenance. Confirmed by the testimonies of Bishop Iewel, Master Perkins, and Sir Henry Spelman.</title>
+      <author>Rudyerd, Benjamin, Sir, 1572-1658.</author>
+      <author>England and Wales. Parliament. House of Commons. Proceedings. 1628.</author>
+    </titleStmt>
+    <extent>[2], 14, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>[By <persName type="printer">John Lichfield]</persName>, <persName type="printer">1628. And</persName> are to be sold by <persName type="bookseller">Ph. Stephens</persName> and <persName type="bookseller">Ch. Meredith</persName> at <placeName>the Golden Lyon in Pauls Church-yard [</placeName>, <placeName>London</placeName>,</publisher>
+      <pubPlace>Printed at Oxford :</pubPlace>
+      <date when="1628">1628]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Given in the House of Commons.</note>
+      <note>Cf. Folger catalogue, which gives signatures: pi&#185; A-B&#8308;.</note>
+      <note>A reissue, with added title page possibly printed in London (STC), of: "Sir Benjamin Ruddierd's speach in behalfe of the cleargy", [Oxford : printed by John Lichfield, 1628].</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>1628. And</persName>
+    </person>
+    <person type="printer">
+      <persName>John Lichfield]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Ch. Meredith</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Ph. Stephens</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Golden Lyon in Pauls Church-yard [</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

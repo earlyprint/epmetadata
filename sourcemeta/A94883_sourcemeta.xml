@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true account of the proceedings against John Ayloff, and Richard Nelthorp Esquires at the King's-[B]ench-Bar,</title>
-         <author>Ayloffe, John, d. 1685.</author>
-         <author>Nelthorpe, Richard, d. 1685.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>By the heir of Andrew Anderson, printer to His most Sacred Majesty,</publisher>
-         <pubPlace>Printed at London, and re-printed at Edinburgh, :</pubPlace>
-         <date when="1685">Anno Dom, 1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles, California.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true account of the proceedings against John Ayloff, and Richard Nelthorp Esquires at the King's-[B]ench-Bar,</title>
+      <author>Ayloffe, John, d. 1685.</author>
+      <author>Nelthorpe, Richard, d. 1685.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the heir of Andrew Anderson</persName>, printer to <persName type="patron">His most Sacred Majesty</persName>,</publisher>
+      <pubPlace>Printed at London, and re-printed at Edinburgh, :</pubPlace>
+      <date when="1685">Anno Dom, 1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles, California.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>His most Sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

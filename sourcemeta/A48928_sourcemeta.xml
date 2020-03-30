@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memorial of Gods judgments, spiritual and temporal, or, Sermons to call to remembrance first preached and now published for publick benefit / by Nic. Lockier ...</title>
-         <author>Lockyer, Nicholas, 1611-1685.</author>
-      </titleStmt>
-      <extent>[10], 226 [i.e. 236], [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Dorman Newman, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1671">1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Half-title page: The remedie of natural corruption, being a sermon on Rom. vii. xxv.</note>
-         <note>Half-title page: The description of a friend, being a sermon on Prov. 17.17.</note>
-         <note>Errata: p. [7] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memorial of Gods judgments, spiritual and temporal, or, Sermons to call to remembrance first preached and now published for publick benefit / by Nic. Lockier ...</title>
+      <author>Lockyer, Nicholas, 1611-1685.</author>
+    </titleStmt>
+    <extent>[10], 226 [i.e. 236], [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Dorman Newman</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1671">1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Half-title page: The remedie of natural corruption, being a sermon on Rom. vii. xxv.</note>
+      <note>Half-title page: The description of a friend, being a sermon on Prov. 17.17.</note>
+      <note>Errata: p. [7] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Dorman Newman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

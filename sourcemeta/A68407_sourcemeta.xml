@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Orders appointed to be executed in the cittie of London, for setting roges and idle persons to worke, and for releefe of the poore</title>
-         <author>London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [J. Charlewood? for] Hugh Singleton, dvvelling in Smithfielde, at the signe of the golden Tunne,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1587" cert="low">[1587?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Probably not an official publication, but a list of suggestions.</note>
-         <note>Actual printer's name and publication date conjectured by STC.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>There is a mid 17th-century type facsimile in which the decorative initials are engraved.</note>
-         <note>Identified as STC 16709+ on UMI microfilm reel 287, and as 16709 on reel 476.</note>
-         <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery and the Bodleian Library.</note>
-         <note>Appears at reel 287 (Henry E. Huntington Library and Art Gallery copy), at reel 476 (Bodleian Library copy), and at reel 1633 (Huntington copy filmed again).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Orders appointed to be executed in the cittie of London, for setting roges and idle persons to worke, and for releefe of the poore</title>
+      <author>London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[J. Charlewood?</persName> for<persName type="publisher">] Hugh Singleton</persName>, dvvelling in <placeName>Smithfielde, at the signe of the golden Tunne</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1587" cert="low">[1587?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Probably not an official publication, but a list of suggestions.</note>
+      <note>Actual printer's name and publication date conjectured by STC.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>There is a mid 17th-century type facsimile in which the decorative initials are engraved.</note>
+      <note>Identified as STC 16709+ on UMI microfilm reel 287, and as 16709 on reel 476.</note>
+      <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery and the Bodleian Library.</note>
+      <note>Appears at reel 287 (Henry E. Huntington Library and Art Gallery copy), at reel 476 (Bodleian Library copy), and at reel 1633 (Huntington copy filmed again).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Hugh Singleton</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Charlewood?</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Smithfielde, at the signe of the golden Tunne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

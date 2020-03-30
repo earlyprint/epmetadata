@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Joshua applied to the case of King Charles II in a thanksgiving sermon / preached at St. Peters, Exon. on the 29th of May 1684, by Tho. Long, one of the prebendaries.</title>
-         <author>Long, Thomas, 1621-1707.</author>
-      </titleStmt>
-      <extent>[3], 24 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. and F.C. for Daniel Brown ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">MDCLXXXIV [1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisements bound at end.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Joshua applied to the case of King Charles II in a thanksgiving sermon / preached at St. Peters, Exon. on the 29th of May 1684, by Tho. Long, one of the prebendaries.</title>
+      <author>Long, Thomas, 1621-1707.</author>
+    </titleStmt>
+    <extent>[3], 24 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> and <persName type="printer">F.C.</persName> for <persName type="publisher">Daniel Brown</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">MDCLXXXIV [1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisements bound at end.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Daniel Brown</persName>
+    </person>
+    <person type="printer">
+      <persName>F.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

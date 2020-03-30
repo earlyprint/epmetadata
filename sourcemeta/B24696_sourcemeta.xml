@@ -1,22 +1,50 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant and Council. Clarendon. For the quieting of the minds of His Majesties subjects of this kingdom, and freeing them from any fears or apprehensions of their being hereafter questioned for any treasonable, seditions, or other words whatsoever, that have been spoken by any of them, before His Majesties access to the crown; ...</title>
-         <author>Ireland. Lord Lieutenant (1685-1687 : Clarendon)</author>
-      </titleStmt>
-      <extent>[2] sheets.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crooke and Samuel Helsham, the assigns of Benjamin Tooke, printer to the Kings Most Excellent Majesty, and are to be sold by Andrew Crook, at His majesties printing-house on Ormonde-Key, and Samuel Helsham, at the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1686">1686.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>"Given at the Council-Chamber in Dublin the 28th day of July, 1686.".</note>
-         <note>"No one is to be sued, vexed, or disquieted for any treasonable or seditious words spoken before the King's accession. Any such suits to be stayed"--Steele 966.</note>
-         <note>Arms 184.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant and Council. Clarendon. For the quieting of the minds of His Majesties subjects of this kingdom, and freeing them from any fears or apprehensions of their being hereafter questioned for any treasonable, seditions, or other words whatsoever, that have been spoken by any of them, before His Majesties access to the crown; ...</title>
+      <author>Ireland. Lord Lieutenant (1685-1687 : Clarendon)</author>
+    </titleStmt>
+    <extent>[2] sheets.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer"><persName type="bookseller">Andrew Crook</persName>e</persName> and <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName>, the assigns of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the Kings Most Excellent Majesty</persName>, and are to be sold by <persName type="bookseller">Andrew Crook</persName>, at <placeName>His majesties printing-house on Ormonde-Key</placeName>, and <persName type="printer"><persName type="bookseller">Samuel Helsham</persName></persName>, at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1686">1686.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>"Given at the Council-Chamber in Dublin the 28th day of July, 1686.".</note>
+      <note>"No one is to be sued, vexed, or disquieted for any treasonable or seditious words spoken before the King's accession. Any such suits to be stayed"--Steele 966.</note>
+      <note>Arms 184.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>His majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

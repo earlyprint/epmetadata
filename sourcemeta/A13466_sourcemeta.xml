@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of the most blessed among women, the Virgin Mary mother of our Lord Iesus VVith the murder of the infants in Bethlehem, Iudas his treason, and the confession of the good theife and the bad.</title>
-         <author>Taylor, John, 1580-1653.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>By G. E[ld] and are to be sold [by E. Wright?] at Christ-church gate,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1620">1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Taylor.</note>
-         <note>Printer's name from and bookseller's name conjectured by STC.</note>
-         <note>In verse.</note>
-         <note>Signatures: A-C (-A1,C8, blank?).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of the most blessed among women, the Virgin Mary mother of our Lord Iesus VVith the murder of the infants in Bethlehem, Iudas his treason, and the confession of the good theife and the bad.</title>
+      <author>Taylor, John, 1580-1653.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">G. E[ld]</persName> and are to be sold [by <persName type="bookseller">E. Wright?]</persName> at <placeName>Christ-church gate</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1620">1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Taylor.</note>
+      <note>Printer's name from and bookseller's name conjectured by STC.</note>
+      <note>In verse.</note>
+      <note>Signatures: A-C (-A1,C8, blank?).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>G. E[ld]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Wright?]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Christ-church gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

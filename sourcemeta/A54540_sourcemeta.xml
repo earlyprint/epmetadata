@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The petition of the committees for Ireland to His Majesty. With His Majesties answer of the 1. Decemb. 1642</title>
-         <author>Montgomery, James, Sir.</author>
-         <author>England and Wales. Sovereign (1625-1649 : Charles I).</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>by Leonard Lichfield printer to the Vniversity,</publisher>
-         <pubPlace>Printed by His Majesties command at Oxford [i.e. London] Decemb. 15. :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint is false; this is a London re-print. Cf. Madan.</note>
-         <note>The petition is signed on p. 3: [Sir James] Montgomerie. Hards Waller. Arthur Hill. Au. Mervine.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The petition of the committees for Ireland to His Majesty. With His Majesties answer of the 1. Decemb. 1642</title>
+      <author>Montgomery, James, Sir.</author>
+      <author>England and Wales. Sovereign (1625-1649 : Charles I).</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Leonard Lichfield</persName> printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Printed by His Majesties command at Oxford [i.e. London] Decemb. 15. :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint is false; this is a London re-print. Cf. Madan.</note>
+      <note>The petition is signed on p. 3: [Sir James] Montgomerie. Hards Waller. Arthur Hill. Au. Mervine.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

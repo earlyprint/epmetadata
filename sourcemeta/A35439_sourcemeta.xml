@@ -1,21 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exposition with practicall observations continued upon the eighth, ninth and tenth chapters of the book of Job being the summe of thirty two lectures, delivered at Magnus neer the bridge, London / by Joseph Caryl ...</title>
-         <author>Caryl, Joseph, 1602-1673.</author>
-      </titleStmt>
-      <extent>[4], 587, [17] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Miller, for Henry Overton ... and Luke Fawne ... and John Rothwell ... and Giles Calvert ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-         <note>Index: p. [2]-[12]</note>
-         <note>"A table of the Scriptures ..." p. [14-17]</note>
-         <note>Errata: p. 587.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exposition with practicall observations continued upon the eighth, ninth and tenth chapters of the book of Job being the summe of thirty two lectures, delivered at Magnus neer the bridge, London / by Joseph Caryl ...</title>
+      <author>Caryl, Joseph, 1602-1673.</author>
+    </titleStmt>
+    <extent>[4], 587, [17] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Miller</persName>, for <persName type="publisher">Henry Overton</persName> ... and <persName type="publisher">Luke Fawne</persName> ... and <persName type="publisher">John Rothwell</persName> ... and <persName type="publisher">Giles Calvert</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+      <note>Index: p. [2]-[12]</note>
+      <note>"A table of the Scriptures ..." p. [14-17]</note>
+      <note>Errata: p. 587.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Giles Calvert</persName>
+    </person>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Rothwell</persName>
+    </person>
+    <person type="publisher">
+      <persName>Luke Fawne</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Miller</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

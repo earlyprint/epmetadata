@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A meditation of mans mortalitie Containing an exposition of the ninetieth psalme. By that Reuerend and religious seruant of God Mr. William Bradshavv, sometime fellow of Sidney Colledge in Cambridge. Published since his decease by Thomas Gataker B. of D. and Pastor of Rotherhith.</title>
-         <author>Bradshaw, William, 1571-1618.</author>
-         <author>Gataker, Thomas, 1574-1654.</author>
-      </titleStmt>
-      <extent>[6], 73, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Dawson for Fulke Clifton, and are to be sold on New-fish streete hill vnder Saint Margrets Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A meditation of mans mortalitie Containing an exposition of the ninetieth psalme. By that Reuerend and religious seruant of God Mr. William Bradshavv, sometime fellow of Sidney Colledge in Cambridge. Published since his decease by Thomas Gataker B. of D. and Pastor of Rotherhith.</title>
+      <author>Bradshaw, William, 1571-1618.</author>
+      <author>Gataker, Thomas, 1574-1654.</author>
+    </titleStmt>
+    <extent>[6], 73, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Dawson</persName> for <persName type="publisher">Fulke Clifton</persName>, and are to be sold on <placeName>New-fish streete hill vnder Saint Margrets Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fulke Clifton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>New-fish streete hill vnder Saint Margrets Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

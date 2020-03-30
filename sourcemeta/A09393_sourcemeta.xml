@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An approued treatise of hawkes and hawking Diuided into three bookes. The first teacheth, how to make a short-winged hawke good, with good conditions. The second, how to reclaime a hawke from any ill condition. The third, teacheth cures for all knowne griefes and diseases. By Edmund Bert, Gentleman.</title>
-         <author>Bert, Edmund.</author>
-      </titleStmt>
-      <extent>[16], 109, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] S[nodham] for Richard Moore, and are to be sold at his shop in S. Dunstans Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1619">1619.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The contents of the books are bracketed together on the title page.</note>
-         <note>Printer's name from STC.</note>
-         <note>Cf. Folger catalogue, which gives signatures: [par.]&#8308; A-P&#8308;.</note>
-         <note>Running title reads: Bert's treatise of hawkes and hawking.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An approued treatise of hawkes and hawking Diuided into three bookes. The first teacheth, how to make a short-winged hawke good, with good conditions. The second, how to reclaime a hawke from any ill condition. The third, teacheth cures for all knowne griefes and diseases. By Edmund Bert, Gentleman.</title>
+      <author>Bert, Edmund.</author>
+    </titleStmt>
+    <extent>[16], 109, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] S[nodham]</persName> for <persName type="publisher">Richard Moore</persName>, and are to be sold at <placeName>his shop in S. Dunstans Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1619">1619.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The contents of the books are bracketed together on the title page.</note>
+      <note>Printer's name from STC.</note>
+      <note>Cf. Folger catalogue, which gives signatures: [par.]&#8308; A-P&#8308;.</note>
+      <note>Running title reads: Bert's treatise of hawkes and hawking.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Moore</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in S. Dunstans Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

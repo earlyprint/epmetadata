@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new booke of mapps being a ready guide or direction for any stranger, or other, who is to travel in any part of the Comon-wealth [sic] of England, Scotland, &amp; Ireland. By which he may know his way in any part thereof, though he knew it not before. Wherein are, I. Alphabeticall tables, shewing the longitude and latitude of all the towns named in the said maps; with easie and ready directions how to find any of them, though you know not in what parts they lie. II. Tables of the high-wayes in England, Wales, and Ireland, alphabetically methodized, which hath made them very plaine. III. Tables as easie as an almanack, which may supply the use thereof for 100 yeares, that is to say, from anno 1600- to 1700. And other usefull tables. By Thomas Porter. This book being necessary for all men, it is therefore made portable for every mans pocket. Licensed, and entred according to the late Act for printing.</title>
-         <author>Porter, Thomas, fl. 1654-1668.</author>
-      </titleStmt>
-      <extent>[12], 72, [2] leaves, [10] leaves of plate : maps  </extent>
-      <publicationStmt>
-         <publisher>To be sold by Robert Walton, at the Rose and Crown at the West end of S. Pauls,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new booke of mapps being a ready guide or direction for any stranger, or other, who is to travel in any part of the Comon-wealth [sic] of England, Scotland, &amp; Ireland. By which he may know his way in any part thereof, though he knew it not before. Wherein are, I. Alphabeticall tables, shewing the longitude and latitude of all the towns named in the said maps; with easie and ready directions how to find any of them, though you know not in what parts they lie. II. Tables of the high-wayes in England, Wales, and Ireland, alphabetically methodized, which hath made them very plaine. III. Tables as easie as an almanack, which may supply the use thereof for 100 yeares, that is to say, from anno 1600- to 1700. And other usefull tables. By Thomas Porter. This book being necessary for all men, it is therefore made portable for every mans pocket. Licensed, and entred according to the late Act for printing.</title>
+      <author>Porter, Thomas, fl. 1654-1668.</author>
+    </titleStmt>
+    <extent>[12], 72, [2] leaves, [10] leaves of plate : maps  </extent>
+    <publicationStmt>
+      <publisher>To be sold by <persName type="bookseller">Robert Walton</persName>, at <placeName>the Rose</placeName> and Crown at <placeName>the West end of S. Pauls</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>Robert Walton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Rose</placeName>
+    </place>
+    <place type="location">
+      <placeName>the West end of S. Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

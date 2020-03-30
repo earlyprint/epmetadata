@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christian divinitie, contained in the divine service of the Church of England summarily, and for the most part in order, according as point on point dependeth, composed; and with the holy Scriptures plainly and plentifully confirmed: written for the furtherance of the peoples understanding in the true religion established by publike authoritie, and for the increase of vnitie in that godly truth eternall. By Edmund Reeve Bachelour in Divinitie, and vicar of the parish of Hayes in Middlesex.</title>
-         <author>Reeve, Edmund, d. 1660.</author>
-      </titleStmt>
-      <extent>[24], 392 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Harper] for Nicolas Fussell and Humphrey Mosley, at the signe of the Ball in Pauls Church yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title page in red and black.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The Christian divinity, out of the divine service.</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christian divinitie, contained in the divine service of the Church of England summarily, and for the most part in order, according as point on point dependeth, composed; and with the holy Scriptures plainly and plentifully confirmed: written for the furtherance of the peoples understanding in the true religion established by publike authoritie, and for the increase of vnitie in that godly truth eternall. By Edmund Reeve Bachelour in Divinitie, and vicar of the parish of Hayes in Middlesex.</title>
+      <author>Reeve, Edmund, d. 1660.</author>
+    </titleStmt>
+    <extent>[24], 392 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Harper]</persName> for <persName type="publisher">Nicolas Fussell</persName> and <persName type="publisher">Humphrey Mosley</persName>, at <placeName>the signe of the Ball in Pauls Church yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title page in red and black.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The Christian divinity, out of the divine service.</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Mosley</persName>
+    </person>
+    <person type="publisher">
+      <persName>Nicolas Fussell</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Ball in Pauls Church yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

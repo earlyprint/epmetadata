@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The prophecy of Gnatus a Brittish prophet: introduced by a preface of Robert Ware, Esq; and set forth with a few notes by the introductor.</title>
-         <author>Gnatus.</author>
-         <author>Ware, Robert, d. 1696.</author>
-      </titleStmt>
-      <extent>[4], 3 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Joseph Ray at Colledge-Green, for Samuel Helsham bookseller, at the Colledge-Arms in Castle-street,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library (Dublin, Ireland).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The prophecy of Gnatus a Brittish prophet: introduced by a preface of Robert Ware, Esq; and set forth with a few notes by the introductor.</title>
+      <author>Gnatus.</author>
+      <author>Ware, Robert, d. 1696.</author>
+    </titleStmt>
+    <extent>[4], 3 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Joseph Ray</persName> at <placeName>Colledge-Green</placeName>, for <persName type="publisher">Samuel Helsham</persName> bookseller, at <placeName>the Colledge-Arms in Castle-street</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library (Dublin, Ireland).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="printer">
+      <persName>Joseph Ray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Colledge-Green</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

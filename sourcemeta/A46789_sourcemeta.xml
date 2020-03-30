@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prayers and offices of devotion for families, and for particular persons, upon most occasions. By Ben. Jenks, Rector of Harley, in Shropshire, and chaplain to the Right Honourable the Earl of Bradford.</title>
-         <author>Jenks, Benjamin, 1646-1724.</author>
-      </titleStmt>
-      <extent>[4], xiii, [7], 452, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Will. Rogers at the Sun against St. Dunstan's Church; and Benj. Tooke at the Middle-Temple-Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With two final advertisement leaves.</note>
-         <note>Reproduction of the original in the Lambeth Palace Library. London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prayers and offices of devotion for families, and for particular persons, upon most occasions. By Ben. Jenks, Rector of Harley, in Shropshire, and chaplain to the Right Honourable the Earl of Bradford.</title>
+      <author>Jenks, Benjamin, 1646-1724.</author>
+    </titleStmt>
+    <extent>[4], xiii, [7], 452, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Will. Rogers</persName> at <placeName>the Sun against St. Dunstan's Church;</placeName> and <persName type="publisher">Benj. Tooke</persName> at <placeName>the Middle-Temple-Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With two final advertisement leaves.</note>
+      <note>Reproduction of the original in the Lambeth Palace Library. London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>Will. Rogers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Middle-Temple-Gate</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sun against St. Dunstan's Church;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

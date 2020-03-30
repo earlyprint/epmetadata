@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A remonstrance of the fight in Legorn-Road between the English and the Dutch, vvith all the passages of the treaty held by the great Duke of Florence before the same. Also many other particulars, as they were presented to his Excellency the Lord General Cromwel, and the Right Honorable the Councel of State.</title>
-         <author>Appleton, Henry, fl. 1650-1654.</author>
-      </titleStmt>
-      <extent>[2], 29, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1653">1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing to Henry Appleton, whose name appears on p. 13.</note>
-         <note>Annotation on Thomason copy: "Sep ye 19th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A remonstrance of the fight in Legorn-Road between the English and the Dutch, vvith all the passages of the treaty held by the great Duke of Florence before the same. Also many other particulars, as they were presented to his Excellency the Lord General Cromwel, and the Right Honorable the Councel of State.</title>
+      <author>Appleton, Henry, fl. 1650-1654.</author>
+    </titleStmt>
+    <extent>[2], 29, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1653">1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing to Henry Appleton, whose name appears on p. 13.</note>
+      <note>Annotation on Thomason copy: "Sep ye 19th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

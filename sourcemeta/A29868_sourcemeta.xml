@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Religio Medici</title>
-         <author>Browne, Thomas, Sir, 1605-1682.</author>
-      </titleStmt>
-      <extent>[2], 159 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Andrew Crooke,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Engraved t.p.</note>
-         <note>Attributed to Sir Thomas Browne. Cf. BM.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Religio Medici</title>
+      <author>Browne, Thomas, Sir, 1605-1682.</author>
+    </titleStmt>
+    <extent>[2], 159 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Andrew Crooke</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Engraved t.p.</note>
+      <note>Attributed to Sir Thomas Browne. Cf. BM.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

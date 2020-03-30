@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from Colonell Harvie, to His Excellency Robert Earle of Essex. Novemb. 10. 1643. It is his Excellencies pleasure that this letter be forthwith printed. John Baldwyn, Secretary to his Excellency.</title>
-         <author>Harvey, Edmund, 1594-1673.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Wright in the Old-bailey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1643">Novemb. 11. 1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An account of Prince Rupert's attack on Newport 4 Nov., 1643.</note>
-         <note>Signed and dated at end: Oulny Novemb. 6. 1643. Edmond Harvey.</note>
-         <note>Signatures: A&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from Colonell Harvie, to His Excellency Robert Earle of Essex. Novemb. 10. 1643. It is his Excellencies pleasure that this letter be forthwith printed. John Baldwyn, Secretary to his Excellency.</title>
+      <author>Harvey, Edmund, 1594-1673.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Wright</persName> in <placeName>the Old-bailey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1643">Novemb. 11. 1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An account of Prince Rupert's attack on Newport 4 Nov., 1643.</note>
+      <note>Signed and dated at end: Oulny Novemb. 6. 1643. Edmond Harvey.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-bailey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

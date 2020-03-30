@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[Explicit the book of curtesye]</title>
-         <title>Book of curtesye.</title>
-      </titleStmt>
-      <extent>[13] leaves   </extent>
-      <publicationStmt>
-         <publisher>By William Caxton,</publisher>
-         <pubPlace>[Westminster :</pubPlace>
-         <date notBefore="1477" notAfter="1478">1477-1478]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from last line of text.</note>
-         <note>First line of text reads: Lytyl Iohn syth your tendre enfancye.</note>
-         <note>Place of publication and printer's name from and publication date conjectured by STC.</note>
-         <note>In verse.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[Explicit the book of curtesye]</title>
+      <title>Book of curtesye.</title>
+    </titleStmt>
+    <extent>[13] leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">William Caxton</persName>,</publisher>
+      <pubPlace>[Westminster :</pubPlace>
+      <date notBefore="1477" notAfter="1478">1477-1478]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from last line of text.</note>
+      <note>First line of text reads: Lytyl Iohn syth your tendre enfancye.</note>
+      <note>Place of publication and printer's name from and publication date conjectured by STC.</note>
+      <note>In verse.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Caxton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

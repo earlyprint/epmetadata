@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Nest of plots discovered, or, A Rod for the romish Iesuits set forth in the explanation of this following figure, and may serve as an antidote against popery and popish-churches.</title>
-      </titleStmt>
-      <extent>1 broadside : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed in the year 1679 for the General Assembly of Hawkers,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1679">[1679]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Contains allegorical engraving with explanation in verse.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Nest of plots discovered, or, A Rod for the romish Iesuits set forth in the explanation of this following figure, and may serve as an antidote against popery and popish-churches.</title>
+    </titleStmt>
+    <extent>1 broadside : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>the year 1679</placeName> for <persName type="publisher">the General Assembly of Hawkers</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1679">[1679]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Contains allegorical engraving with explanation in verse.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the General Assembly of Hawkers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the year 1679</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

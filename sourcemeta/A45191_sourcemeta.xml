@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A defence of the charter, and municipal rights of the city of London, and the rights of the other municipal cities and towns of England directed to the citizens of London. / By Thomas Hunt.</title>
-         <author>Hunt, Thomas, 1627?-1688.</author>
-      </titleStmt>
-      <extent>[2], 46 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Richard Baldwin, near the Black Bull in the Old-bailey.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">[1683]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproductions of originals in Union Theological Seminary Library, New York (985:12) and Sutro Library (3018:16).</note>
-         <note>In part an attack on John Dryden's play, The Duke of Guise. cf. Dict. Nat. Biog.</note>
-         <note>Errata: p. 46.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A defence of the charter, and municipal rights of the city of London, and the rights of the other municipal cities and towns of England directed to the citizens of London. / By Thomas Hunt.</title>
+      <author>Hunt, Thomas, 1627?-1688.</author>
+    </titleStmt>
+    <extent>[2], 46 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Richard Baldwin</persName></persName>, near <placeName>the Black Bull in the Old-bailey.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">[1683]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproductions of originals in Union Theological Seminary Library, New York (985:12) and Sutro Library (3018:16).</note>
+      <note>In part an attack on John Dryden's play, The Duke of Guise. cf. Dict. Nat. Biog.</note>
+      <note>Errata: p. 46.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Bull in the Old-bailey.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

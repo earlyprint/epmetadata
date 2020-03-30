@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The poore mans passions. And pouerties patience. VVriten by Arthur VVarren. Anno. Dom. 1605</title>
-         <author>[Warren, Arthur].</author>
-      </titleStmt>
-      <extent>[70] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. R[oberts] for R. B[ankworth] and are to be sold in Paules Church-yard, at the signe of the Sun,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1605">[1605]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's and publisher's names from STC.</note>
-         <note>Signatures: A&#178;  B-I&#8308; K&#178;  (-K2).</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The poore mans passions. And pouerties patience. VVriten by Arthur VVarren. Anno. Dom. 1605</title>
+      <author>[Warren, Arthur].</author>
+    </titleStmt>
+    <extent>[70] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. R[oberts]</persName> for <persName type="publisher">R. B[ankworth]</persName> and are to be sold in <placeName>Paules Church-yard, at the signe of the Sun</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1605">[1605]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's and publisher's names from STC.</note>
+      <note>Signatures: A&#178;  B-I&#8308; K&#178;  (-K2).</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. B[ankworth]</persName>
+    </person>
+    <person type="printer">
+      <persName>I. R[oberts]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard, at the signe of the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

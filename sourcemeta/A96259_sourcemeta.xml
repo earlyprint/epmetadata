@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of the Irish Protestants in relation to recognising, or swearing allegiance to, and praying for King William and Queen Mary, stated and resolved.</title>
-         <author>Wettenhall, Edward, 1636-1713.</author>
-      </titleStmt>
-      <extent>[4], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Robert Clavel, and are to be sold by John North, bookseller in Dublin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">M DC XCI. [1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Edward Wettenhall by Wing.</note>
-         <note>Reproduction of original in the Trinity College Library, Dublin, Ireland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of the Irish Protestants in relation to recognising, or swearing allegiance to, and praying for King William and Queen Mary, stated and resolved.</title>
+      <author>Wettenhall, Edward, 1636-1713.</author>
+    </titleStmt>
+    <extent>[4], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Robert Clavel</persName>, and are to be sold by <persName type="bookseller">John North</persName>, bookseller in <placeName>Dublin</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">M DC XCI. [1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Edward Wettenhall by Wing.</note>
+      <note>Reproduction of original in the Trinity College Library, Dublin, Ireland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Clavel</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John North</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Dublin</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

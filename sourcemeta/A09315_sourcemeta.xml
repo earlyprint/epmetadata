@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Orders, set dovvne by the Duke of Medina, Lord general of the Kings fleet, to be obserued in the voyage toward England. Translated out of Spanish into English by T.P.</title>
-         <title>Instrucci&#243;n general al armada. English</title>
-         <author>Medina Sidonia, Alonso P&#233;rez de Guzm&#225;n, duque de, 1550-1619.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>By Thomas Orwin for Thomas Gilbert, dwelling in Fleetstreete neere to the signe of the Castle,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1588">1588.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Instrucci&#243;n general al armada.</note>
-         <note>With a title-page woodcut.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>Running title reads: Orders appoynted for the Spanish fleet.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Orders, set dovvne by the Duke of Medina, Lord general of the Kings fleet, to be obserued in the voyage toward England. Translated out of Spanish into English by T.P.</title>
+      <title>Instrucci&#243;n general al armada. English</title>
+      <author>Medina Sidonia, Alonso P&#233;rez de Guzm&#225;n, duque de, 1550-1619.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Orwin</persName> for <persName type="publisher">Thomas Gilbert</persName>, dwelling in <placeName>Fleetstreete neere to the signe of the Castle</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1588">1588.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Instrucci&#243;n general al armada.</note>
+      <note>With a title-page woodcut.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>Running title reads: Orders appoynted for the Spanish fleet.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Gilbert</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Orwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreete neere to the signe of the Castle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

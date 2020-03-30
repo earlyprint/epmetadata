@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The new Atlantis a poem, in three books : with some reflections upon The hind and the panther.</title>
-         <author>Heyrick, Thomas, d. 1694.</author>
-      </titleStmt>
-      <extent>[4], 66 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Thomas Heyrick. Cf. Wing.</note>
-         <note>Place of publication from Wing.</note>
-         <note>Reproduction of original in Yale University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The new Atlantis a poem, in three books : with some reflections upon The hind and the panther.</title>
+      <author>Heyrick, Thomas, d. 1694.</author>
+    </titleStmt>
+    <extent>[4], 66 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Thomas Heyrick. Cf. Wing.</note>
+      <note>Place of publication from Wing.</note>
+      <note>Reproduction of original in Yale University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

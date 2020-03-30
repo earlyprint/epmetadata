@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An eglogue. gratulatorie. Entituled: To the right honorable, and renowmed shepheard of Albions Arcadia: Robert earle of Exxex and Ewe for his vvelcome into England from Portugall. Done by George Peele. Maister of arts in Oxon.</title>
-         <author>Peele, George, 1556-1596.</author>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [J. Windet for] Richard Jones, and are to be solde at the signe of the Rose and Crowne, ouer against the Faulcon,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1589">1589.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Actual printer from STC.</note>
-         <note>Print show-through; pages cropped.</note>
-         <note>Signatures: A&#8308; B&#178; .</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An eglogue. gratulatorie. Entituled: To the right honorable, and renowmed shepheard of Albions Arcadia: Robert earle of Exxex and Ewe for his vvelcome into England from Portugall. Done by George Peele. Maister of arts in Oxon.</title>
+      <author>Peele, George, 1556-1596.</author>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[J. Windet</persName> for<persName type="publisher">] Richard Jones</persName>, and are to be solde at <placeName>the signe of the Rose</placeName> and Crowne, ouer against the Faulcon,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1589">1589.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Actual printer from STC.</note>
+      <note>Print show-through; pages cropped.</note>
+      <note>Signatures: A&#8308; B&#178; .</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Richard Jones</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Windet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

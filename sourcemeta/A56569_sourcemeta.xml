@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pastoral upon the death of Her Grace the Dutchess of Ormond</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by N. Thompson ...,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1684">1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>In verse.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pastoral upon the death of Her Grace the Dutchess of Ormond</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">N. Thompson</persName></persName> ...,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1684">1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>In verse.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>N. Thompson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>N. Thompson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

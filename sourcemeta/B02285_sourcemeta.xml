@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The zea-atlas, or, The water-world shewing all the sea-coasts of y known parts of y earth, with a generall discription of the same. Verie usefull for all masters &amp; mates of shipps, &amp; likwise for merchants newly sett forth.</title>
-         <author>Colom, Jacob Aertsz, 1599-1673.</author>
-      </titleStmt>
-      <extent>[8] p. : 24 double maps.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Casparus Loots-man, Bookseller upon the Water, in the Loots-man,</publisher>
-         <pubPlace>At Amsterdam :</pubPlace>
-         <date when="1688">Anno 1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Colom by Wing.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-         <note>Text accompanying maps in Dutch.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The zea-atlas, or, The water-world shewing all the sea-coasts of y known parts of y earth, with a generall discription of the same. Verie usefull for all masters &amp; mates of shipps, &amp; likwise for merchants newly sett forth.</title>
+      <author>Colom, Jacob Aertsz, 1599-1673.</author>
+    </titleStmt>
+    <extent>[8] p. : 24 double maps.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Casparus Loots-man</persName>, Bookseller upon the Water, in <placeName>the Loots-man</placeName>,</publisher>
+      <pubPlace>At Amsterdam :</pubPlace>
+      <date when="1688">Anno 1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Colom by Wing.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+      <note>Text accompanying maps in Dutch.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Casparus Loots-man</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Loots-man</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

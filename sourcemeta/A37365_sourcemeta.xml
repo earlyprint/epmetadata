@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the army of England upon their march into Scotland as also a letter of His Excellency the Lord Generall Cromwell to the General Assembly of the Kirk of Scotland : together with a vindication of the aforesaid declaration from the uncharitable constructions, odious imputations, and scandalous aspersions of the General Assembly of the Kirk of Scotland, in their reply thereto : and an answer of the under-officers and souldiers of the army, to a paper directed to them from the people of Scotland.</title>
-         <author>England and Wales. Army.</author>
-         <author>Cromwell, Oliver, 1599-1658.</author>
-      </titleStmt>
-      <extent>41, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London, and reprinted at Edinburgh by Evan Tyler,</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained with loss of print.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the army of England upon their march into Scotland as also a letter of His Excellency the Lord Generall Cromwell to the General Assembly of the Kirk of Scotland : together with a vindication of the aforesaid declaration from the uncharitable constructions, odious imputations, and scandalous aspersions of the General Assembly of the Kirk of Scotland, in their reply thereto : and an answer of the under-officers and souldiers of the army, to a paper directed to them from the people of Scotland.</title>
+      <author>England and Wales. Army.</author>
+      <author>Cromwell, Oliver, 1599-1658.</author>
+    </titleStmt>
+    <extent>41, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName>, and reprinted at <placeName>Edinburgh</placeName> by <persName type="printer">Evan Tyler</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained with loss of print.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Edinburgh</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

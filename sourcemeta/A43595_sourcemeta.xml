@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fortune by land and sea a tragi-comedy, as it was acted with great applause by the Queens servants / written by Tho. Haywood and William Rowly.</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-         <author>Rowley, William, 1585?-1642?</author>
-      </titleStmt>
-      <extent>48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Sweeting ... and Robert Pollard ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fortune by land and sea a tragi-comedy, as it was acted with great applause by the Queens servants / written by Tho. Haywood and William Rowly.</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+      <author>Rowley, William, 1585?-1642?</author>
+    </titleStmt>
+    <extent>48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Sweeting</persName> ... and <persName type="publisher">Robert Pollard</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Sweeting</persName>
+    </person>
+    <person type="publisher">
+      <persName>Robert Pollard</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

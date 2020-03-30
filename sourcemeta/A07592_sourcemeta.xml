@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The mirrour of madnes, or a paradoxe maintayning madnes to be most excellent: done out of French into English, by Ia. San. gent</title>
-         <author>Sandford, James.</author>
-      </titleStmt>
-      <extent>[38] p.   </extent>
-      <publicationStmt>
-         <publisher>In Fleetestreate, neare to S. Dunstones Church by Thomas Marshe,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1576">Anno 1576.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation, by James Sandford, of the French original.</note>
-         <note>Running title reads: The mirroure of madnes.</note>
-         <note>Signatures: A-B D&#8308; (-D4).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The mirrour of madnes, or a paradoxe maintayning madnes to be most excellent: done out of French into English, by Ia. San. gent</title>
+      <author>Sandford, James.</author>
+    </titleStmt>
+    <extent>[38] p.   </extent>
+    <publicationStmt>
+      <publisher>In Fleetestreate, neare <placeName>to S. Dunstones Church</placeName> by <persName type="printer">Thomas Marshe</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1576">Anno 1576.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation, by James Sandford, of the French original.</note>
+      <note>Running title reads: The mirroure of madnes.</note>
+      <note>Signatures: A-B D&#8308; (-D4).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Marshe</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>to S. Dunstones Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

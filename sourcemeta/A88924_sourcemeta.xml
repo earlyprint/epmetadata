@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Decennium luctuosum An history of remarkable occurrences, in the long war, which New-England hath had with the Indian salvages, from the year, 1688. To the year 1698. Faithfully composed and improved. [One line of quotation in Latin]</title>
-         <author>Mather, Cotton, 1663-1728.</author>
-         <author>Mather, Cotton, 1663-1728. Observable things.</author>
-      </titleStmt>
-      <extent>254, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B. Green, and J. Allen, for Samuel Phillips, at the brick shop near the Old-Meeting-House.</publisher>
-         <pubPlace>Boston in New-England :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes a discussion of Quakerism and of Thomas Maule's Truth held forth and maintained.</note>
-         <note>Attributed to Cotton Mather by Holmes.</note>
-         <note>"Observable things. The history of the ten years ..."--p. [199]-254, with separate title page. Errata note, p. 254. Bookseller's advertisement, p. [255].</note>
-         <note>Reproduction of original in the Newberry Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Decennium luctuosum An history of remarkable occurrences, in the long war, which New-England hath had with the Indian salvages, from the year, 1688. To the year 1698. Faithfully composed and improved. [One line of quotation in Latin]</title>
+      <author>Mather, Cotton, 1663-1728.</author>
+      <author>Mather, Cotton, 1663-1728. Observable things.</author>
+    </titleStmt>
+    <extent>254, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B. Green</persName>, and <persName type="printer">J. Allen</persName>, for <persName type="publisher">Samuel Phillips</persName>, at <placeName>the brick shop near the Old-Meeting-House.</placeName></publisher>
+      <pubPlace>Boston in New-England :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes a discussion of Quakerism and of Thomas Maule's Truth held forth and maintained.</note>
+      <note>Attributed to Cotton Mather by Holmes.</note>
+      <note>"Observable things. The history of the ten years ..."--p. [199]-254, with separate title page. Errata note, p. 254. Bookseller's advertisement, p. [255].</note>
+      <note>Reproduction of original in the Newberry Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Phillips</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Green</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Allen</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the brick shop near the Old-Meeting-House.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

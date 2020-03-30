@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Several short, but seasonable discourses touching common and private prayer relating to the publick offices of the church. By R. Sherlock, D.D. Rector of Winwick, and author of The Practical Christian.</title>
-         <author>Sherlock, R. (Richard), 1612-1689.</author>
-      </titleStmt>
-      <extent>[4], 45, [5], 11, [3], 13, [3], 16, [2], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for R.S. and sold by Christopher Skegnes, at the Golden Ball in St. Paul's Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes: 'Dr Stevvard's judgment of a private prayer in publick', and 'A discourse of the difference betwixt long prayers prohibited', 'Meditations upon our going to church', 'A sermon. Preached upon the Archbishop of York's provincial visitation at Warrington', each with a separate dated title pages, continuous register and separate pagination.</note>
-         <note>Imperfect; with faded print and a slight loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Several short, but seasonable discourses touching common and private prayer relating to the publick offices of the church. By R. Sherlock, D.D. Rector of Winwick, and author of The Practical Christian.</title>
+      <author>Sherlock, R. (Richard), 1612-1689.</author>
+    </titleStmt>
+    <extent>[4], 45, [5], 11, [3], 13, [3], 16, [2], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">R.S.</persName> and sold by <persName type="bookseller">Christopher Skegnes</persName>, at <placeName>the Golden Ball in St. Paul's Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes: 'Dr Stevvard's judgment of a private prayer in publick', and 'A discourse of the difference betwixt long prayers prohibited', 'Meditations upon our going to church', 'A sermon. Preached upon the Archbishop of York's provincial visitation at Warrington', each with a separate dated title pages, continuous register and separate pagination.</note>
+      <note>Imperfect; with faded print and a slight loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R.S.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Christopher Skegnes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden Ball in St. Paul's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

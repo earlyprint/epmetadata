@@ -1,22 +1,50 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Country dances being a composition entirely new; and the whole cast different from all that have yet been publish'd; with bass and treble to each dance. Also, the newest French dances in use, entryes, genteel and grotesque, chacons, rigodoons, minuets, and other dancing tunes. By Thomas Bray.</title>
-         <author>Bray, Thomas, 1658-1730.</author>
-      </titleStmt>
-      <extent>[4], 1 p., 19 leaves, [1], 51 [i.e. 49] p., : music  </extent>
-      <publicationStmt>
-         <publisher>printed by William Pearson next door to the Hare and Feathers in Alders-gate-street, for the author; and sold by Mr. Playford, at the Temple-Change-Fleetstreet, Mr: Crouch in Princes-street near Convent-garden, Mr. Couthbutt in Russel-street near Convent-garden. And all other musick shops,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages 48 and 49 misnumbered 50 and 51.</note>
-         <note>In the 19 leaves section, verso of leaves are numbered separately; for example, the verso of leaf 1 is numbered 2; however, the recto of leaf 2 is also numbered 2, while the verso of leaf 2 is numbered 3.</note>
-         <note>Identified as Wing B4291B, reel 2525, of the UMI microfilm set "Early English books 1641-1700".</note>
-         <note>Cf. Wing B4291B which is dated 1700 and Wing B4291A which has in imprint: for, and sold by, James Young.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Country dances being a composition entirely new; and the whole cast different from all that have yet been publish'd; with bass and treble to each dance. Also, the newest French dances in use, entryes, genteel and grotesque, chacons, rigodoons, minuets, and other dancing tunes. By Thomas Bray.</title>
+      <author>Bray, Thomas, 1658-1730.</author>
+    </titleStmt>
+    <extent>[4], 1 p., 19 leaves, [1], 51 [i.e. 49] p., : music  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">William Pearson next door to the Hare</persName> and <persName type="printer">Feathers</persName> in <placeName>Alders-gate-street</placeName>, for <persName type="publisher">the author;</persName> and sold by <persName type="bookseller">Mr. Playford</persName>, at <placeName>the Temple-Change-Fleetstreet</placeName>, <placeName>Mr: Crouch in Princes-street near Convent-garden</placeName>, <placeName>Mr. Couthbutt in Russel-street near Convent-garden. And all other musick shops</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages 48 and 49 misnumbered 50 and 51.</note>
+      <note>In the 19 leaves section, verso of leaves are numbered separately; for example, the verso of leaf 1 is numbered 2; however, the recto of leaf 2 is also numbered 2, while the verso of leaf 2 is numbered 3.</note>
+      <note>Identified as Wing B4291B, reel 2525, of the UMI microfilm set "Early English books 1641-1700".</note>
+      <note>Cf. Wing B4291B which is dated 1700 and Wing B4291A which has in imprint: for, and sold by, James Young.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author;</persName>
+    </person>
+    <person type="printer">
+      <persName>Feathers</persName>
+    </person>
+    <person type="printer">
+      <persName>William Pearson next door to the Hare</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mr. Playford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Alders-gate-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mr. Couthbutt in Russel-street near Convent-garden. And all other musick shops</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mr: Crouch in Princes-street near Convent-garden</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Temple-Change-Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Clergy's late carriage to the King considered in a letter to a friend, allowed to be published this 2d day of July, 1688.</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for H.L. and I.K. and sold by most booksellers ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">[1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Clergy's late carriage to the King considered in a letter to a friend, allowed to be published this 2d day of July, 1688.</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H.L.</persName> and <persName type="publisher">I.K.</persName> and sold by <persName type="bookseller">most booksellers</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">[1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H.L.</persName>
+    </person>
+    <person type="publisher">
+      <persName>I.K.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>most booksellers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

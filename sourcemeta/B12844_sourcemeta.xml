@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation for reliefe of the subiect that might be otherwise damnified by the late burning of records in the Sixe Clarkes Office.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton, and Iohn Bill, printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1622">M. DC. XXI. [1621, i.e. 1622]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Offering re-enrolment gratis provided original documents or certified copies are furnished by 10 July--STC.</note>
-         <note>Dated at end: Westminster the seuenth day of Ianuary, in the nineteenth yeere of Our reigne ...</note>
-         <note>Arms  14; Steele notation: con-  and  2) ori-  the.</note>
-         <note>The date is given according to Lady Day dating.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation for reliefe of the subiect that might be otherwise damnified by the late burning of records in the Sixe Clarkes Office.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1622">M. DC. XXI. [1621, i.e. 1622]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Offering re-enrolment gratis provided original documents or certified copies are furnished by 10 July--STC.</note>
+      <note>Dated at end: Westminster the seuenth day of Ianuary, in the nineteenth yeere of Our reigne ...</note>
+      <note>Arms  14; Steele notation: con-  and  2) ori-  the.</note>
+      <note>The date is given according to Lady Day dating.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

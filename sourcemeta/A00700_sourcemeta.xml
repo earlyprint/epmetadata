@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A learned astronomical discourse, of the iudgement of natiuities Deuided into three bookes, and dedicated first to Katherin the French Queene, by Oger Ferrier her physition. Translated by Thomas Kelway Gentleman.</title>
-         <title>Jugemens astronomiques sur les nativit&#233;s. English</title>
-         <author>Ferrier, Auger, 1513-1588.</author>
-         <author>Kelway, Thomas.</author>
-      </titleStmt>
-      <extent>[4], 59, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed at the widdow Charlewoods house, for Richard Watkins,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1593">Anno. 1593.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation by Thomas Kelway of: Jugemens astronomiques sur les nativit&#233;s.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A learned astronomical discourse, of the iudgement of natiuities Deuided into three bookes, and dedicated first to Katherin the French Queene, by Oger Ferrier her physition. Translated by Thomas Kelway Gentleman.</title>
+      <title>Jugemens astronomiques sur les nativit&#233;s. English</title>
+      <author>Ferrier, Auger, 1513-1588.</author>
+      <author>Kelway, Thomas.</author>
+    </titleStmt>
+    <extent>[4], 59, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the widdow Charlewoods house</placeName>, for <persName type="publisher">Richard Watkins</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1593">Anno. 1593.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation by Thomas Kelway of: Jugemens astronomiques sur les nativit&#233;s.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Watkins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the widdow Charlewoods house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

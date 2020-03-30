@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An attempt towards an explanation of the theology and mythology of the antient pagans. The first part by John Turner.</title>
-         <author>Turner, John, b. 1649 or 50.</author>
-      </titleStmt>
-      <extent>[14], 284, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hills Jun. for Walter Kettleby,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [292]</note>
-         <note>Running title: Notes.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An attempt towards an explanation of the theology and mythology of the antient pagans. The first part by John Turner.</title>
+      <author>Turner, John, b. 1649 or 50.</author>
+    </titleStmt>
+    <extent>[14], 284, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hills Jun.</persName> for <persName type="publisher">Walter Kettleby</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [292]</note>
+      <note>Running title: Notes.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettleby</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hills Jun.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

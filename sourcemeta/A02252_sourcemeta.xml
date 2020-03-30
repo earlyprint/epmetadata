@@ -1,25 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pleasant and sweet history of patient Grissell Shewing how she from a poore mans daughter, came to be a great lady in France, being a petterne for all vertuous vvomen. Translated out of Italian.</title>
-         <title>Decameron. Day 10. Novel 10. English</title>
-         <author>Boccaccio, Giovanni, 1313-1375.</author>
-      </titleStmt>
-      <extent>[24] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by E. P[urslowe] for Iohn Wright, ..,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640" cert="low">[ca. 1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Based on day 10, novel 10 of: Boccaccio, Giovanni. Decamerone.</note>
-         <note>Printer's name from and publication date conjectured by STC.</note>
-         <note>A1r has half title reading: The history of the noble Marques.</note>
-         <note>In verse.</note>
-         <note>Signatures: A B&#8308;.</note>
-         <note>Imperfect: imprint shaved.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pleasant and sweet history of patient Grissell Shewing how she from a poore mans daughter, came to be a great lady in France, being a petterne for all vertuous vvomen. Translated out of Italian.</title>
+      <title>Decameron. Day 10. Novel 10. English</title>
+      <author>Boccaccio, Giovanni, 1313-1375.</author>
+    </titleStmt>
+    <extent>[24] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. P[urslowe]</persName> for <persName type="publisher">Iohn Wright</persName>, <persName type="publisher">..</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640" cert="low">[ca. 1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Based on day 10, novel 10 of: Boccaccio, Giovanni. Decamerone.</note>
+      <note>Printer's name from and publication date conjectured by STC.</note>
+      <note>A1r has half title reading: The history of the noble Marques.</note>
+      <note>In verse.</note>
+      <note>Signatures: A B&#8308;.</note>
+      <note>Imperfect: imprint shaved.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>..</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>E. P[urslowe]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

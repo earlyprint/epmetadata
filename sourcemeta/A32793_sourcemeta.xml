@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anthologia historica containing fourteen centuries of memorable passages and remarkable occurrents, collected out of the English, Spanish, Imperial, and Jewish histories, and several other authors, and writers.</title>
-         <author>Chetwynd, John, 1623-1692.</author>
-      </titleStmt>
-      <extent>[12], 460 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.R. for P.C.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1674">1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Errata: p. [12]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anthologia historica containing fourteen centuries of memorable passages and remarkable occurrents, collected out of the English, Spanish, Imperial, and Jewish histories, and several other authors, and writers.</title>
+      <author>Chetwynd, John, 1623-1692.</author>
+    </titleStmt>
+    <extent>[12], 460 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R.</persName> for <persName type="publisher">P.C.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1674">1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Errata: p. [12]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

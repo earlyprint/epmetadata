@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Monsieur D'Oliue A comedie, as it vvas sundrie times acted by her Maiesties children at the Blacke-Friers. By George Chapman.</title>
-         <author>Chapman, George, 1559?-1634.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T[homas] C[reede] for William Holmes, and are to be sold at his shop in Saint Dun-stons Church-yard in Fleete-streete,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-H&#8308;.</note>
-         <note>With a final leaf listing the actors.</note>
-         <note>Some running titles read: Monseuer D'Oliue.</note>
-         <note>One of two variants (the other being STC 4984), this one with line 4 of title page: comedie, as it vvas.</note>
-         <note>Variant: title page has "Chapmon"; imprint has "Dun-Stons".</note>
-         <note>Reproductions of the originals in the University of Illinois (Urbana-Champaign Campus). Library. and the Henry Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Monsieur D'Oliue A comedie, as it vvas sundrie times acted by her Maiesties children at the Blacke-Friers. By George Chapman.</title>
+      <author>Chapman, George, 1559?-1634.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T[homas] C[reede]</persName> for <persName type="publisher">William Holmes</persName>, and are to be sold at <placeName>his shop in Saint Dun-stons Church-yard in Fleete-streete</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>With a final leaf listing the actors.</note>
+      <note>Some running titles read: Monseuer D'Oliue.</note>
+      <note>One of two variants (the other being STC 4984), this one with line 4 of title page: comedie, as it vvas.</note>
+      <note>Variant: title page has "Chapmon"; imprint has "Dun-Stons".</note>
+      <note>Reproductions of the originals in the University of Illinois (Urbana-Champaign Campus). Library. and the Henry Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Holmes</persName>
+    </person>
+    <person type="printer">
+      <persName>T[homas] C[reede]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Saint Dun-stons Church-yard in Fleete-streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

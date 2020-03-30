@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The description and use of the universall quadrat. By which is performed, with great expedition, the whole doctrine of triangles, both plain and sphericall, two severall wayes with ease and exactness. Also the resolution of such propositions as are most usefull in astronomie, navigation, and dialling. By which is also performed the proportioning of lines and superficies: the measuring of all manner of land, board, glasse; timber, stone. &amp;c. / By Thomas Stirrup, Philomathemat.</title>
-         <author>Stirrup, Thomas.</author>
-      </titleStmt>
-      <extent>[8], 212 p., plates   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. &amp; W. Leybourn, for Tho. Pierrpont, at the Sun in Pauls Church-yard,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotations on Thomason copy: "Jan. 12. 1654"; the final '5' in the imprint has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The description and use of the universall quadrat. By which is performed, with great expedition, the whole doctrine of triangles, both plain and sphericall, two severall wayes with ease and exactness. Also the resolution of such propositions as are most usefull in astronomie, navigation, and dialling. By which is also performed the proportioning of lines and superficies: the measuring of all manner of land, board, glasse; timber, stone. &amp;c. / By Thomas Stirrup, Philomathemat.</title>
+      <author>Stirrup, Thomas.</author>
+    </titleStmt>
+    <extent>[8], 212 p., plates   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.</persName> &amp; <persName type="printer">W. Leybourn</persName>, for <persName type="publisher">Tho. Pierrpont</persName>, at <placeName>the Sun in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotations on Thomason copy: "Jan. 12. 1654"; the final '5' in the imprint has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Pierrpont</persName>
+    </person>
+    <person type="printer">
+      <persName>R.</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Leybourn</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

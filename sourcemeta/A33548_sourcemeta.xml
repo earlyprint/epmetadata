@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Jacob's vow, or, Man's felicity and duty in two parts / by John Cockburn ...</title>
-         <author>Cockburn, John, 1652-1729.</author>
-      </titleStmt>
-      <extent>[10], 468, [7] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Alexander Ogston, and are to be sold by William Keblewhite ...,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-         <note>Errata: p. [6] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Jacob's vow, or, Man's felicity and duty in two parts / by John Cockburn ...</title>
+      <author>Cockburn, John, 1652-1729.</author>
+    </titleStmt>
+    <extent>[10], 468, [7] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Alexander Ogston</persName>, and are to be sold by <persName type="bookseller">William Keblewhite</persName> ...,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+      <note>Errata: p. [6] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Alexander Ogston</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Keblewhite</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

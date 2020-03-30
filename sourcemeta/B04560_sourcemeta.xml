@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new dialogue between Alice &amp; Betrice, as they met at the market one morning early. To the tune of Mopsaphil. This may be printed, R.P.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Blare, at the Looking-glass on London-bridge.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1685" notAfter="1688">[between 1685-1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from Wing.</note>
-         <note>Verse: "Alice. Good neighbour whyd'ye look awry? you're grown a wondrous stranger ..."</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new dialogue between Alice &amp; Betrice, as they met at the market one morning early. To the tune of Mopsaphil. This may be printed, R.P.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Blare</persName>, at <placeName>the Looking-glass on London-bridge.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1685" notAfter="1688">[between 1685-1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from Wing.</note>
+      <note>Verse: "Alice. Good neighbour whyd'ye look awry? you're grown a wondrous stranger ..."</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Blare</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Looking-glass on London-bridge.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

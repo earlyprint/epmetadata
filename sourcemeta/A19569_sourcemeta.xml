@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A triall of our church-forsakers. Or A meditation tending to still the passions of unquiet Brownists, upon Heb.10.25 Wherein is iustified, against them, that the blessed Church of England 1 Is a true Church. 2 Hath a true ministry. 3 Hath a true worship. By Robert Abbot ...</title>
-         <author>Abbot, Robert, 1588?-1662?</author>
-      </titleStmt>
-      <extent>[32], 223, 222-249, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Payne for Philemon Stephens and Christopher Meredith, and are to be sould at their shoppe at the signe of the Golden Lyon in Saint Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a final imprimatur leaf.</note>
-         <note>The first leaf and last leaf are blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A triall of our church-forsakers. Or A meditation tending to still the passions of unquiet Brownists, upon Heb.10.25 Wherein is iustified, against them, that the blessed Church of England 1 Is a true Church. 2 Hath a true ministry. 3 Hath a true worship. By Robert Abbot ...</title>
+      <author>Abbot, Robert, 1588?-1662?</author>
+    </titleStmt>
+    <extent>[32], 223, 222-249, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Payne</persName> for <persName type="publisher">Philemon Stephens</persName> and <persName type="publisher">Christopher Meredith</persName>, and are to be sould at <placeName>their shoppe at the signe of the Golden Lyon in Saint Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a final imprimatur leaf.</note>
+      <note>The first leaf and last leaf are blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Philemon Stephens</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Payne</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shoppe at the signe of the Golden Lyon in Saint Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

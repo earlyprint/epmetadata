@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Folly detected or, Some animadversions on a b[ook] called, A brief discourse [con-]cerning singing in the pub[lic] worship of God; put forth by one Mr. Isaac Marlow 1690, and an appendix printed 1691 Wherein the weakness of his arguments against singing God's praises, the dangerousness of his assertions, and his unaccountable confidence is laid open; and singing of Psalms, &amp;c. in God's worship proved a Gospel-ordinance. By Joseph Wright.</title>
-         <author>Wright, Joseph.</author>
-         <author>T. W. Appendix: or, A brief answer to Mr. Marlow's notion of the essence of singing.</author>
-      </titleStmt>
-      <extent>88 p.   </extent>
-      <publicationStmt>
-         <publisher>printed in the year 1691. And sold by John Harris at the Harrow in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">[1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"An appendix: or, A brief answer to Mr. Marlow's notion of the essence of singing. By T.W. a pastor of a baptized congregation" has caption title on p. 77; register and pagination are continuous.</note>
-         <note>Title page torn with some loss of print.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Folly detected or, Some animadversions on a b[ook] called, A brief discourse [con-]cerning singing in the pub[lic] worship of God; put forth by one Mr. Isaac Marlow 1690, and an appendix printed 1691 Wherein the weakness of his arguments against singing God's praises, the dangerousness of his assertions, and his unaccountable confidence is laid open; and singing of Psalms, &amp;c. in God's worship proved a Gospel-ordinance. By Joseph Wright.</title>
+      <author>Wright, Joseph.</author>
+      <author>T. W. Appendix: or, A brief answer to Mr. Marlow's notion of the essence of singing.</author>
+    </titleStmt>
+    <extent>88 p.   </extent>
+    <publicationStmt>
+      <publisher>printed in <placeName>the year 1691. And sold</placeName> by <persName type="printer">John Harris</persName> at <placeName>the Harrow in the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">[1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"An appendix: or, A brief answer to Mr. Marlow's notion of the essence of singing. By T.W. a pastor of a baptized congregation" has caption title on p. 77; register and pagination are continuous.</note>
+      <note>Title page torn with some loss of print.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Harris</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Harrow in the Poultrey</placeName>
+    </place>
+    <place type="location">
+      <placeName>the year 1691. And sold</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

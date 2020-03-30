@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Praiers of holi fathers, patryarches, prophetes, iudges, kynges, and renowmed men and wemen of eyther testamente</title>
-         <title>Bible. English. Selections.</title>
-         <author>Brunfels, Otto, 1488-1534. Precationes Biblicae.</author>
-      </titleStmt>
-      <extent>108, [8] leaves   </extent>
-      <publicationStmt>
-         <publisher>By Richard Grafton .. These bookes are to bee solde at the weste doore of P[aule]s in London. By Wyllyam Tylotson,</publisher>
-         <pubPlace>[Imprinted in London :</pubPlace>
-         <date when="1544" cert="low">[1544?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Extracts from the Bible, based on: Brunfels, Otto. Precationes Biblicae.</note>
-         <note>Caption title.</note>
-         <note>Printer's and bookseller's names from colophon; publication date conjectured by STC.</note>
-         <note>Running title reads: Prayers of the Bible.</note>
-         <note>With 17 final contents pages.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Praiers of holi fathers, patryarches, prophetes, iudges, kynges, and renowmed men and wemen of eyther testamente</title>
+      <title>Bible. English. Selections.</title>
+      <author>Brunfels, Otto, 1488-1534. Precationes Biblicae.</author>
+    </titleStmt>
+    <extent>108, [8] leaves   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Grafton .. These bookes</persName> are to bee solde at <placeName>the weste doore of P[aule]s in London. By Wyllyam Tylotson</placeName>,</publisher>
+      <pubPlace>[Imprinted in London :</pubPlace>
+      <date when="1544" cert="low">[1544?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Extracts from the Bible, based on: Brunfels, Otto. Precationes Biblicae.</note>
+      <note>Caption title.</note>
+      <note>Printer's and bookseller's names from colophon; publication date conjectured by STC.</note>
+      <note>Running title reads: Prayers of the Bible.</note>
+      <note>With 17 final contents pages.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Grafton .. These bookes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the weste doore of P[aule]s in London. By Wyllyam Tylotson</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

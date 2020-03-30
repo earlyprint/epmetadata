@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King a proclamation for the apprehension of Edward Ekins.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton, and Iohn Bill, Printers to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1624">Anno Dom. M.DC.XXIIII [1624]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>For apprehension of E. Ekins, for poaching the king's deer.</note>
-         <note>"Giuen at Our Court at Cambridge, the fourteenth day of December, in the tvvo and tvventieth yeere of Our Reigne of Great Britaine, France and Ireland."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King a proclamation for the apprehension of Edward Ekins.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, Printers to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1624">Anno Dom. M.DC.XXIIII [1624]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>For apprehension of E. Ekins, for poaching the king's deer.</note>
+      <note>"Giuen at Our Court at Cambridge, the fourteenth day of December, in the tvvo and tvventieth yeere of Our Reigne of Great Britaine, France and Ireland."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the Queen, at White-Hall March xxiii, 1693/4 / by John Tyler ...</title>
-         <author>Tyler, John, d. 1724.</author>
-      </titleStmt>
-      <extent>23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Warren, for Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Advertisement: p. [1] at end.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the Queen, at White-Hall March xxiii, 1693/4 / by John Tyler ...</title>
+      <author>Tyler, John, d. 1724.</author>
+    </titleStmt>
+    <extent>23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Warren</persName>, for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Advertisement: p. [1] at end.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Warren</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

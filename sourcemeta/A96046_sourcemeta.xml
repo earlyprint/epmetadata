@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from the Right Honourable Robert Earle of Warwick Lord High Admirall of England, fully relating the condition of the affaires at sea. With a list of the number of the Parliaments ships, and the names of the severall commanders in them, now riding in the Downes. Read in the House of Peeres upon Friday the 8 of September, 1648. And commanded to be printed and published.</title>
-         <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Wright at the Kings Head in the old Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Sept ye 9th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from the Right Honourable Robert Earle of Warwick Lord High Admirall of England, fully relating the condition of the affaires at sea. With a list of the number of the Parliaments ships, and the names of the severall commanders in them, now riding in the Downes. Read in the House of Peeres upon Friday the 8 of September, 1648. And commanded to be printed and published.</title>
+      <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Wright</persName> at <placeName>the Kings Head in the old Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Sept ye 9th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the old Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

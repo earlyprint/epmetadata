@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The love of truth and peace a sermon preached before the Honourable House of Commons, assembled in Parliament, Novemb. 29, 1640 / by Iohn Gauden ...</title>
-         <author>Gauden, John, 1605-1662.</author>
-      </titleStmt>
-      <extent>[6], 46 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G.M. for Andrew Crooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The love of truth and peace a sermon preached before the Honourable House of Commons, assembled in Parliament, Novemb. 29, 1640 / by Iohn Gauden ...</title>
+      <author>Gauden, John, 1605-1662.</author>
+    </titleStmt>
+    <extent>[6], 46 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G.M.</persName> for <persName type="publisher">Andrew Crooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>G.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

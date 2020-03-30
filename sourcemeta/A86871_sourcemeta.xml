@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble representation and petition of the justices of peace, the grand juries, and other well-affected persons to this Commonwealth, at the general-sessions and goal-delivery for the county palatine of Chester, in the name of the said county: presented to the supreme authority of this nation, the Parliament of England. Friday the 16th of May, 1651. Ordered by the Parliament, that this petition be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>Chester (England). Justices of the Peace.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "May 20th.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble representation and petition of the justices of peace, the grand juries, and other well-affected persons to this Commonwealth, at the general-sessions and goal-delivery for the county palatine of Chester, in the name of the said county: presented to the supreme authority of this nation, the Parliament of England. Friday the 16th of May, 1651. Ordered by the Parliament, that this petition be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>Chester (England). Justices of the Peace.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "May 20th.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

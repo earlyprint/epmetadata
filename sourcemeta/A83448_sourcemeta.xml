@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Thursday the 17th of July, 1651 Resolved by the Parliament, that the fair usually held and kept yearly at James's, within the liberty of the city of Westminster, on or about the twenty fifth day of July, be forborn this year; ...</title>
-         <title>Proceedings. 1651-07-17</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by John Field, printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">[1651]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening words of text.</note>
-         <note>Steele notation: kept Day Parlia-.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Thursday the 17th of July, 1651 Resolved by the Parliament, that the fair usually held and kept yearly at James's, within the liberty of the city of Westminster, on or about the twenty fifth day of July, be forborn this year; ...</title>
+      <title>Proceedings. 1651-07-17</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">[1651]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening words of text.</note>
+      <note>Steele notation: kept Day Parlia-.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

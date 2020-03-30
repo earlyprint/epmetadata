@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The excellencie of the Gospell above the law Wherein the liberty of the sonnes of God is shewed. With the image of their graces here, and glory hereafter. Which affords much comfort and great incouragement, to all such as begin timely, and continue constantly in the wayes of God. By R. Sibbs, D.D. Mr. of Katherin Hall Cambridge, and preacher of Grayes-Inne, London. Begun in his life time, and published by T.G. and P.N.</title>
-         <author>Sibbes, Richard, 1577-1635.</author>
-         <author>Goodwin, Thomas, 1600-1680.</author>
-         <author>Nye, Philip, 1596?-1672.</author>
-      </titleStmt>
-      <extent>[20], 650, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes [and John Dawson], and are to be sold by Iohn Bartlet, at his shop, at the signe of the guilt Cup, neere S. Austins gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>T.G. and P.N. = Thomas Goodwin and Philip Nye.</note>
-         <note>Dawson's name from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The excellencie of the Gospell above the law Wherein the liberty of the sonnes of God is shewed. With the image of their graces here, and glory hereafter. Which affords much comfort and great incouragement, to all such as begin timely, and continue constantly in the wayes of God. By R. Sibbs, D.D. Mr. of Katherin Hall Cambridge, and preacher of Grayes-Inne, London. Begun in his life time, and published by T.G. and P.N.</title>
+      <author>Sibbes, Richard, 1577-1635.</author>
+      <author>Goodwin, Thomas, 1600-1680.</author>
+      <author>Nye, Philip, 1596?-1672.</author>
+    </titleStmt>
+    <extent>[20], 650, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName> [and <persName type="printer">John Dawson]</persName>, and are to be sold by <persName type="bookseller">Iohn Bartlet</persName>, at <placeName>his shop, at the signe of the guilt Cup, neere S. Austins gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>T.G. and P.N. = Thomas Goodwin and Philip Nye.</note>
+      <note>Dawson's name from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Dawson]</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Iohn Bartlet</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the signe of the guilt Cup, neere S. Austins gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

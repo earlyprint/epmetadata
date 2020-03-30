@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A cabinet of choice jevvels, or, A box of precious ointment being a plain discovery of, or, what men are worth for eternity, and how 'tis like to go with them in another world ... / by Thomas Brooks ...</title>
-         <author>Brooks, Thomas, 1608-1680.</author>
-      </titleStmt>
-      <extent>[40], 390, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by John Hancock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1669">1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A box of precious ointment, or, A choice bed of spices.</note>
-         <note>Errata: p. [39].</note>
-         <note>Advertisements ([4] p.) at end.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A cabinet of choice jevvels, or, A box of precious ointment being a plain discovery of, or, what men are worth for eternity, and how 'tis like to go with them in another world ... / by Thomas Brooks ...</title>
+      <author>Brooks, Thomas, 1608-1680.</author>
+    </titleStmt>
+    <extent>[40], 390, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">John Hancock</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1669">1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A box of precious ointment, or, A choice bed of spices.</note>
+      <note>Errata: p. [39].</note>
+      <note>Advertisements ([4] p.) at end.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Hancock</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Hancock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The heire an excellent comedie. As it was lately acted by the Company of the Reuels. / Writren [sic] by T.M. Gent..</title>
-         <author>May, Thomas, 1595-1650.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B[ernard] A[lsop] for Thomas Iones, and are to bee sold at his shop in Chancery-lane, ouer-against the Roles, and in Westminster Hall.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1622">1622..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas May, whose name appears on A3r.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-I&#8308;.</note>
-         <note>Running title reads: An excellent comedy called the heire.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproductions of the originals in: Henry E. Huntington Library and Art Gallery (reel 966:5) and Folger Shakespeare Library (reel 2365:2).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The heire an excellent comedie. As it was lately acted by the Company of the Reuels. / Writren [sic] by T.M. Gent..</title>
+      <author>May, Thomas, 1595-1650.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B[ernard] A[lsop]</persName> for <persName type="publisher">Thomas Iones</persName>, and are to bee sold at <placeName>his shop in Chancery-lane, ouer-against the Roles</placeName>, and in <placeName>Westminster Hall.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1622">1622..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas May, whose name appears on A3r.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-I&#8308;.</note>
+      <note>Running title reads: An excellent comedy called the heire.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproductions of the originals in: Henry E. Huntington Library and Art Gallery (reel 966:5) and Folger Shakespeare Library (reel 2365:2).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Iones</persName>
+    </person>
+    <person type="printer">
+      <persName>B[ernard] A[lsop]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Westminster Hall.</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in Chancery-lane, ouer-against the Roles</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

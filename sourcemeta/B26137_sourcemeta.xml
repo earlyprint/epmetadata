@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act of Common-Council for the government of cars, carts, carrooms, carters and carmen; and for the prevention of frauds in the buying and selling of coals.</title>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Clark, printer to the honorable city of London,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print on A1v.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Act of Common-Council for the government of cars, carts, carrooms, carters and carmen; and for the prevention of frauds in the buying and selling of coals.</title>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName>, printer to <persName type="patron">the honorable city of London</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print on A1v.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+    <person type="patron">
+      <persName>the honorable city of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Wonderfull newes from the north. Or, A true relation of the sad and grievous torments, inflicted upon the bodies of three children of Mr. George Muschamp, late of the county of Northumberland, by witch-craft: and how miraculously it pleased God to strengthen them, and to deliver them: as also the prosecution of the sayd witches, as by oaths, and their own confessions will appear, and by the indictment found by the jury against one of them, at the sessions of the peace held at Alnwick, the 24. day of April, 1650. Novemb. 25. 1650. Imprimatur, John Dovvname.</title>
-         <author>Moore, Mary, fl. 1650.</author>
-      </titleStmt>
-      <extent>[4], 28 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.H. and are to be sold by Richard Harper, at his shop in Smithfield,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Preface signed: Mary Moore.</note>
-         <note>Annotation on Thomason copy: "Decemb. 2.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Wonderfull newes from the north. Or, A true relation of the sad and grievous torments, inflicted upon the bodies of three children of Mr. George Muschamp, late of the county of Northumberland, by witch-craft: and how miraculously it pleased God to strengthen them, and to deliver them: as also the prosecution of the sayd witches, as by oaths, and their own confessions will appear, and by the indictment found by the jury against one of them, at the sessions of the peace held at Alnwick, the 24. day of April, 1650. Novemb. 25. 1650. Imprimatur, John Dovvname.</title>
+      <author>Moore, Mary, fl. 1650.</author>
+    </titleStmt>
+    <extent>[4], 28 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.H.</persName> and are to be sold by <persName type="bookseller">Richard Harper</persName>, at <placeName>his shop in Smithfield</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Preface signed: Mary Moore.</note>
+      <note>Annotation on Thomason copy: "Decemb. 2.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T.H.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Smithfield</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

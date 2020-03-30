@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The oaths of allegiance &amp; supremacy.</title>
-         <title>Oaths of allegiance and supremacy.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by the assignes of John Bill and Christopher Barker, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An edition of: The oaths of allegiance and supremacy.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The oaths of allegiance &amp; supremacy.</title>
+      <title>Oaths of allegiance and supremacy.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by the assignes of <persName type="assigns">John Bill</persName> and <persName type="assigns">Christopher Barker</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An edition of: The oaths of allegiance and supremacy.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

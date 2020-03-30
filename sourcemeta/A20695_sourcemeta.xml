@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pilgrimes solace VVherein is contained musicall harmonie of 3. 4. and 5. parts, to be sung and plaid with the lute and viols. By Iohn Douland, Batchelor of Musicke in both the vniuersities: and lutenist to the Right Honourable the Lord Walden.</title>
-         <author>Dowland, John, 1563?-1626.</author>
-      </titleStmt>
-      <extent>[48] p. : music  </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Snodham] for M[atthew] L[ownes] I[ohn] B[rome] and T[homas] S[nodham] by the assignment of William Barley,</publisher>
-         <pubPlace>1612. London :</pubPlace>
-         <date when="1612">[1612]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publishers' names from STC.</note>
-         <note>Signatures: [A]&#178;  B-M&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pilgrimes solace VVherein is contained musicall harmonie of 3. 4. and 5. parts, to be sung and plaid with the lute and viols. By Iohn Douland, Batchelor of Musicke in both the vniuersities: and lutenist to the Right Honourable the Lord Walden.</title>
+      <author>Dowland, John, 1563?-1626.</author>
+    </titleStmt>
+    <extent>[48] p. : music  </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Snodham]</persName> for <persName type="publisher">M[atthew] L[ownes] I[ohn] B[rome]</persName> and <persName type="publisher">T[homas] S[nodham]</persName> by the assignment of <persName type="assigns">William Barley</persName>,</publisher>
+      <pubPlace>1612. London :</pubPlace>
+      <date when="1612">[1612]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publishers' names from STC.</note>
+      <note>Signatures: [A]&#178;  B-M&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>M[atthew] L[ownes] I[ohn] B[rome]</persName>
+    </person>
+    <person type="publisher">
+      <persName>T[homas] S[nodham]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Snodham]</persName>
+    </person>
+    <person type="assigns">
+      <persName>William Barley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The bloody diurnall from Ireland being papers of propositions, orders, an oath, and severall bloody acts, and proceedings of the confederate Catholiques assembled at Kilkenny. Ex: per Phillip: Kearnie Gen: Com. Hiberni&#230; Cleric</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the originall papers from the Irish Commissioners, which wee [sic] first printed at Kilkenny, and now reprinted at London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1647">anno Dom. 1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "May 12th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The bloody diurnall from Ireland being papers of propositions, orders, an oath, and severall bloody acts, and proceedings of the confederate Catholiques assembled at Kilkenny. Ex: per Phillip: Kearnie Gen: Com. Hiberni&#230; Cleric</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the originall papers from the Irish Commissioners, which wee [sic] first printed</persName> at <placeName>Kilkenny</placeName>, and now reprinted at <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1647">anno Dom. 1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "May 12th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the originall papers from the Irish Commissioners, which wee [sic] first printed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Kilkenny</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

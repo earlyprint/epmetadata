@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords &amp; Commons in Parliament concerning a printed paper intitled A letter sent from the Kings Majesty to the lords of the Privy Counsell of the kingdome of Scotland : as also, another paper in forme of a petition directed to the lords of His Majesty [sic] Privy Counsell.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 5 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Franke and Edward Husbands,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard Law School Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords &amp; Commons in Parliament concerning a printed paper intitled A letter sent from the Kings Majesty to the lords of the Privy Counsell of the kingdome of Scotland : as also, another paper in forme of a petition directed to the lords of His Majesty [sic] Privy Counsell.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 5 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Franke</persName> and <persName type="publisher">Edward Husbands</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard Law School Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Franke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

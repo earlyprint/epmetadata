@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At Edinburgh, the thirtieth day of July, one thousand six hundred and sixty four. Forasmuch as it hath pleased the King's Majesty, by a letter dated the twenty sixth of this instant July ... gave order, that such of the fined persons, who should be charged before Lambmass .. should pay in the first moyety of their fines ...</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, Printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Text in black letter.</note>
-         <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At Edinburgh, the thirtieth day of July, one thousand six hundred and sixty four. Forasmuch as it hath pleased the King's Majesty, by a letter dated the twenty sixth of this instant July ... gave order, that such of the fined persons, who should be charged before Lambmass .. should pay in the first moyety of their fines ...</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Text in black letter.</note>
+      <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

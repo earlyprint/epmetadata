@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The magistrates obligation to punish vice a sermon preach'd before the right worshipful the mayor, aldermen, sheriff, &amp;c. of the town and county of Newcastle upon Tyne, at the parish Church of St. Nicholas, October 8, 1699, upon the election of the mayor / by Nathanael Ellison ...</title>
-         <author>Ellison, Nathanael, 1656 or 7-1721.</author>
-      </titleStmt>
-      <extent>[6], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.B. for Richard Randell, bookseller in Newcastle upon Tyne, and sold by Luke Meredith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata attached to prelim. p. [6].</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The magistrates obligation to punish vice a sermon preach'd before the right worshipful the mayor, aldermen, sheriff, &amp;c. of the town and county of Newcastle upon Tyne, at the parish Church of St. Nicholas, October 8, 1699, upon the election of the mayor / by Nathanael Ellison ...</title>
+      <author>Ellison, Nathanael, 1656 or 7-1721.</author>
+    </titleStmt>
+    <extent>[6], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.B.</persName> for <persName type="publisher">Richard Randell</persName>, bookseller in <placeName>Newcastle upon Tyne</placeName>, and sold by <persName type="bookseller">Luke Meredith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata attached to prelim. p. [6].</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Randell</persName>
+    </person>
+    <person type="printer">
+      <persName>W.B.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Luke Meredith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Newcastle upon Tyne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

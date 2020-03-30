@@ -1,25 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of the conference between William Laud, late Lord Arch-bishop of Canterbury, and Mr. Fisher the Jesuite by the command of King James, of ever-blessed memory : with an answer to such exceptions as A.C. takes against it.</title>
-         <author>Laud, William, 1573-1645.</author>
-         <author>Fisher, John, 1569-1641.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The third edition revised, with a table annexed.</edition>
-      </editionStmt>
-      <extent>[24], 253, [14] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.C. for Tho. Basset, T. Dring, and J. Leigh ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A.C. [A Catholic] may be John Sweet.  Cf. BM, v. 31, col. 377.</note>
-         <note>"A table ..." [i.e. index]: p. [1]-[14]</note>
-         <note>Includes bibliographical references.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of the conference between William Laud, late Lord Arch-bishop of Canterbury, and Mr. Fisher the Jesuite by the command of King James, of ever-blessed memory : with an answer to such exceptions as A.C. takes against it.</title>
+      <author>Laud, William, 1573-1645.</author>
+      <author>Fisher, John, 1569-1641.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The third edition revised, with a table annexed.</edition>
+    </editionStmt>
+    <extent>[24], 253, [14] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.C.</persName> for <persName type="publisher">Tho. Basset</persName>, <persName type="publisher">T. Dring</persName>, and <persName type="publisher">J. Leigh</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A.C. [A Catholic] may be John Sweet.  Cf. BM, v. 31, col. 377.</note>
+      <note>"A table ..." [i.e. index]: p. [1]-[14]</note>
+      <note>Includes bibliographical references.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Leigh</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Dring</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Basset</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

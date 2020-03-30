@@ -1,17 +1,22 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fidelis Achates, or, An Historical account of the most remarkable actions in the late reigns and the present revolution in heroick verse.</title>
-      </titleStmt>
-      <extent>169 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Sprint ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fidelis Achates, or, An Historical account of the most remarkable actions in the late reigns and the present revolution in heroick verse.</title>
+    </titleStmt>
+    <extent>169 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Sprint</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Sprint</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

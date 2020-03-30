@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods call, for mans heart in 1 Knowledge, 2 Loue, 3 Feare, 4 Confidence, 5 Singing of Psalmes, 6 Prayer, 7 Hearing the word. 8 Receiuing the Sacraments. Deliuered in a sermon, by Abraham Iackson, Master of Arts, and preacher of Gods word at Chelsey, neere London.</title>
-         <author>Jackson, Abraham, 1589-1646?</author>
-      </titleStmt>
-      <extent>[4], 49, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. S[nodham] for Roger Iackson, and are to be sould at his shop neere Fleetstreete Conduit,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The words "1 Knowledge .. the Sacraments" are bracketed together on the title page.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods call, for mans heart in 1 Knowledge, 2 Loue, 3 Feare, 4 Confidence, 5 Singing of Psalmes, 6 Prayer, 7 Hearing the word. 8 Receiuing the Sacraments. Deliuered in a sermon, by Abraham Iackson, Master of Arts, and preacher of Gods word at Chelsey, neere London.</title>
+      <author>Jackson, Abraham, 1589-1646?</author>
+    </titleStmt>
+    <extent>[4], 49, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. S[nodham]</persName> for <persName type="publisher">Roger Iackson</persName>, and are to be sould at <placeName>his shop neere Fleetstreete Conduit</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The words "1 Knowledge .. the Sacraments" are bracketed together on the title page.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>T. S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Fleetstreete Conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

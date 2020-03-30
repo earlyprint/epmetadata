@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The apparition, or the genius of Ireland complaining of her present misery and imploring speedy relief from England : dedicated to Duke Schomberg / written by Edm. Arwaker.</title>
-         <author>Arwaker, Edmund, d. 1730.</author>
-      </titleStmt>
-      <extent>[4], 15 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bentley, and are to be sold by R. Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The apparition, or the genius of Ireland complaining of her present misery and imploring speedy relief from England : dedicated to Duke Schomberg / written by Edm. Arwaker.</title>
+      <author>Arwaker, Edmund, d. 1730.</author>
+    </titleStmt>
+    <extent>[4], 15 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bentley</persName>, and are to be sold by <persName type="bookseller">R. Baldwin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

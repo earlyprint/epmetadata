@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Act for providing maintenance for preaching-ministers, and other pious uses. Die Veneris, 8 Junii, 1649. Ordered by the Commons assembled in Parliament, that this act be forthwith printed and published. Hen: Scobell, Cleric. Parliament'.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>[2], 287-298, [1] [i.e. 15] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Edward Husband, printer to the Parliament of England, and are to be sold at his shop in Fleetstreet, at the sign of the Golden-Dragon, near the Inner-Temple,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On 3D2r: the last word of first line of text: 'been'; first word of line below initial: 'ing' last word of last full line of text: 'Tythes'.</note>
-         <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
-         <note>Ornament on t.p.; initial letter; text in black letter.</note>
-         <note>Signatures: 3D-3E&#8308;.</note>
-         <note>The final leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Act for providing maintenance for preaching-ministers, and other pious uses. Die Veneris, 8 Junii, 1649. Ordered by the Commons assembled in Parliament, that this act be forthwith printed and published. Hen: Scobell, Cleric. Parliament'.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>[2], 287-298, [1] [i.e. 15] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Parliament of England</persName>, and are to be sold at <placeName>his shop in Fleetstreet, at the sign of the Golden-Dragon, near the Inner-Temple</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On 3D2r: the last word of first line of text: 'been'; first word of line below initial: 'ing' last word of last full line of text: 'Tythes'.</note>
+      <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
+      <note>Ornament on t.p.; initial letter; text in black letter.</note>
+      <note>Signatures: 3D-3E&#8308;.</note>
+      <note>The final leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Fleetstreet, at the sign of the Golden-Dragon, near the Inner-Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

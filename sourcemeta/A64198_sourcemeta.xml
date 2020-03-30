@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The opinion of witchcraft vindicated in an answer to a book intituled The question of witchcraft debated : being a letter to a friend / by R.T.</title>
-         <author>R. T.</author>
-      </titleStmt>
-      <extent>[2], 63 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.O. for Francis Haley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1670">1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed November 20, 1669. Roger L'Estrange."</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The opinion of witchcraft vindicated in an answer to a book intituled The question of witchcraft debated : being a letter to a friend / by R.T.</title>
+      <author>R. T.</author>
+    </titleStmt>
+    <extent>[2], 63 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.O.</persName> for <persName type="publisher">Francis Haley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1670">1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed November 20, 1669. Roger L'Estrange."</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Haley</persName>
+    </person>
+    <person type="printer">
+      <persName>E.O.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

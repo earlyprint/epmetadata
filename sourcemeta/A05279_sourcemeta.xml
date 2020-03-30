@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Christians vvatch: or, An heauenly instruction to all Christians, to expect with patience the happy day of their change by death or doome Preached at Prestbury Church in Cheshire, at the funerals of the right worshipfull Thomas Leigh of Adlington Esquire, the 16. of February anno 1601. By William Leigh Bacheler of Diuinitye, and pastor of Standish in the countie of Lancaster.</title>
-         <author>Leigh, William, 1550-1639.</author>
-      </titleStmt>
-      <extent>[96] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde] for E. White dwelling neer the little north doore of S. Pauls Church, at the signe of the Gunne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1605">1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Christians vvatch: or, An heauenly instruction to all Christians, to expect with patience the happy day of their change by death or doome Preached at Prestbury Church in Cheshire, at the funerals of the right worshipfull Thomas Leigh of Adlington Esquire, the 16. of February anno 1601. By William Leigh Bacheler of Diuinitye, and pastor of Standish in the countie of Lancaster.</title>
+      <author>Leigh, William, 1550-1639.</author>
+    </titleStmt>
+    <extent>[96] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">E. White</persName> dwelling neer <placeName>the little north doore of S. Pauls Church, at the signe of the Gunne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1605">1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. White</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the little north doore of S. Pauls Church, at the signe of the Gunne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

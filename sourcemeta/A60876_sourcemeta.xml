@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some weighty considerations humbly proposed to the honourable members of the ensuing assembly of the states of Scotland. By a lover of his countreys liberty.</title>
-         <author>Lover of his countrey's liberty.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Re-printed [by the heir of A. Anderson?],</publisher>
-         <pubPlace>[Edinburgh] :</pubPlace>
-         <date when="1689">in the year, 1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication and suggested printer from Wing.</note>
-         <note>Title page is cropped at head, slightly affecting title.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some weighty considerations humbly proposed to the honourable members of the ensuing assembly of the states of Scotland. By a lover of his countreys liberty.</title>
+      <author>Lover of his countrey's liberty.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Re-printed [by <persName type="printer">the heir of A. Anderson?]</persName>,</publisher>
+      <pubPlace>[Edinburgh] :</pubPlace>
+      <date when="1689">in the year, 1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication and suggested printer from Wing.</note>
+      <note>Title page is cropped at head, slightly affecting title.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of A. Anderson?]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

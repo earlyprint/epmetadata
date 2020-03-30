@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Apocalypsis Apocalypseos, or, The revelation of St. John the Divine unveiled containing a brief but perspicuous and continued exposition from chapter to chapter, and from verse to verse, of the whole book of the Apocalypse / by Henry More ...</title>
-         <author>More, Henry, 1614-1687.</author>
-      </titleStmt>
-      <extent>xxxii, [1], 358, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for J. Martyn and W. Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [1] at beginning.</note>
-         <note>Pages 147-150 are missing in the filmed copy. Pages 140-165 photographed from Bodleian Library copy and inserted at the end.</note>
-         <note>Advertisements: [2] p. at end.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Apocalypsis Apocalypseos, or, The revelation of St. John the Divine unveiled containing a brief but perspicuous and continued exposition from chapter to chapter, and from verse to verse, of the whole book of the Apocalypse / by Henry More ...</title>
+      <author>More, Henry, 1614-1687.</author>
+    </titleStmt>
+    <extent>xxxii, [1], 358, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">J. Martyn</persName> and <persName type="publisher">W. Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [1] at beginning.</note>
+      <note>Pages 147-150 are missing in the filmed copy. Pages 140-165 photographed from Bodleian Library copy and inserted at the end.</note>
+      <note>Advertisements: [2] p. at end.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Martyn</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Kettilby</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

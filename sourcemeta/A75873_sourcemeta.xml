@@ -1,28 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life and death of Dr Martin Luther the passages whereof haue bin taken out of his owne and other godly and most learned, mens writings, who liued in his time.</title>
-         <title>Martinus Lutherus. English</title>
-         <author>Adam, Melchior, d. 1622.</author>
-         <author>Hayne, Thomas, 1582-1645.</author>
-         <author>Quarles, Francis, 1592-1644.</author>
-         <author>Holtman, The., engraver.</author>
-      </titleStmt>
-      <extent>[20], 142, [2] p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by: I:L: for Iohn Stafford, and are to be sould at his shop in Chancery lane, ouer against the Rolles,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Adam, Melchior.  Martinus Lutherus.</note>
-         <note>Translator's dedication signed: Thomas Hayne.</note>
-         <note>The portrait of Luther is signed: The: Holtman fe.</note>
-         <note>The title page is engraved.</note>
-         <note>"To the pretious memory of Dr. Mart. Luther", a sonnet, is signed: Francis Quarles.</note>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life and death of Dr Martin Luther the passages whereof haue bin taken out of his owne and other godly and most learned, mens writings, who liued in his time.</title>
+      <title>Martinus Lutherus. English</title>
+      <author>Adam, Melchior, d. 1622.</author>
+      <author>Hayne, Thomas, 1582-1645.</author>
+      <author>Quarles, Francis, 1592-1644.</author>
+      <author>Holtman, The., engraver.</author>
+    </titleStmt>
+    <extent>[20], 142, [2] p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by<persName type="printer">: I:L:</persName> for <persName type="publisher">Iohn Stafford</persName>, and are to be sould at <placeName>his shop in Chancery lane, ouer against the Rolles</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Adam, Melchior.  Martinus Lutherus.</note>
+      <note>Translator's dedication signed: Thomas Hayne.</note>
+      <note>The portrait of Luther is signed: The: Holtman fe.</note>
+      <note>The title page is engraved.</note>
+      <note>"To the pretious memory of Dr. Mart. Luther", a sonnet, is signed: Francis Quarles.</note>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Stafford</persName>
+    </person>
+    <person type="printer">
+      <persName>: I:L:</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Chancery lane, ouer against the Rolles</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

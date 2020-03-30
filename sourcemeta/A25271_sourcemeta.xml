@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lawyerus bootatus &amp; spurratus, or, The long vacation a poem / by a student of Lincolns-Inn.</title>
-         <author>Ames, Richard, d. 1693.</author>
-      </titleStmt>
-      <extent>[2], 20 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E. Richardson,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lawyerus bootatus &amp; spurratus, or, The long vacation a poem / by a student of Lincolns-Inn.</title>
+      <author>Ames, Richard, d. 1693.</author>
+    </titleStmt>
+    <extent>[2], 20 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E. Richardson</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Richardson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

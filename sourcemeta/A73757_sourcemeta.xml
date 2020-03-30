@@ -1,25 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The poesie of floured prayers Containing sundrie meditations and prayers gathered out of the sacred letters and vertuous writers: disposed in forme of the alphabet, of the most vertuous Lady, the Lady Elizabeths name. Set forth by Sir Iohn Convvay.</title>
-         <title>Meditations and praiers gathered out of the sacred letters and vertuous writers</title>
-         <author>Conway, John, Sir, d. 1603.</author>
-      </titleStmt>
-      <extent>[432] p.   </extent>
-      <publicationStmt>
-         <publisher>printed [by T. Purfoot] for Va. Sims, and are to be sold by Ed: White,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1611">An. 1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first and last leaves are blank.</note>
-         <note>Running title: The poesie of flowred prayers.</note>
-         <note>Printer's name from Stc (2nd ed.).</note>
-         <note>Signatures: A&#8310; B-T&#185;&#178;  (missing H-H).</note>
-         <note>Caption title on sig. R1v: Sententi&#230; diuin&#230;. This section is in Latin.</note>
-         <note>Omits the REGINA prayers and inserts new ones beginning LADT or LADIE    before those on ELIZABETH. Also adds the Litany and suffrages.--STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The poesie of floured prayers Containing sundrie meditations and prayers gathered out of the sacred letters and vertuous writers: disposed in forme of the alphabet, of the most vertuous Lady, the Lady Elizabeths name. Set forth by Sir Iohn Convvay.</title>
+      <title>Meditations and praiers gathered out of the sacred letters and vertuous writers</title>
+      <author>Conway, John, Sir, d. 1603.</author>
+    </titleStmt>
+    <extent>[432] p.   </extent>
+    <publicationStmt>
+      <publisher>printed [by <persName type="printer">T. Purfoot]</persName> for <persName type="publisher">Va. Sims</persName>, and are to be sold by <persName type="bookseller">Ed: White</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1611">An. 1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first and last leaves are blank.</note>
+      <note>Running title: The poesie of flowred prayers.</note>
+      <note>Printer's name from Stc (2nd ed.).</note>
+      <note>Signatures: A&#8310; B-T&#185;&#178;  (missing H-H).</note>
+      <note>Caption title on sig. R1v: Sententi&#230; diuin&#230;. This section is in Latin.</note>
+      <note>Omits the REGINA prayers and inserts new ones beginning LADT or LADIE    before those on ELIZABETH. Also adds the Litany and suffrages.--STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Va. Sims</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Purfoot]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Ed: White</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

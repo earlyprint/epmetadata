@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The whole art of the stage containing not only the rules of the drammatick art, but many curious observations about it, which may be of great use to the authors, actors, and spectators of plays : together with much critical learning about the stage and plays of the antients / written in French by the command of Cardinal Richelieu by Monsieur Hedelin, Abbot of Aubignac, and now made English.</title>
-         <title>Pratique du th&#233;&#226;tre. English. 1684.</title>
-         <author>Aubignac, Fran&#231;ois-H&#233;delin, abb&#233; d', 1604-1676.</author>
-      </titleStmt>
-      <extent>[8], 135, 176 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author, and sold by William Cadman ... Rich. Bentley ... Sam. Smith ... &amp; T. Fox ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: La pratique du th&#233;atre.</note>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The whole art of the stage containing not only the rules of the drammatick art, but many curious observations about it, which may be of great use to the authors, actors, and spectators of plays : together with much critical learning about the stage and plays of the antients / written in French by the command of Cardinal Richelieu by Monsieur Hedelin, Abbot of Aubignac, and now made English.</title>
+      <title>Pratique du th&#233;&#226;tre. English. 1684.</title>
+      <author>Aubignac, Fran&#231;ois-H&#233;delin, abb&#233; d', 1604-1676.</author>
+    </titleStmt>
+    <extent>[8], 135, 176 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>, and sold by <persName type="bookseller">William Cadman</persName> ... <persName type="bookseller">Rich. Bentley</persName> ... <persName type="bookseller">Sam. Smith</persName> ... <persName type="bookseller">&amp; T. Fox</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: La pratique du th&#233;atre.</note>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>&amp; T. Fox</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Rich. Bentley</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Sam. Smith</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Cadman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The darknes of atheism dispelled by the light of nature a physico-theologicall treatise / written by Walter Charleton ...</title>
-         <author>Charleton, Walter, 1619-1707.</author>
-      </titleStmt>
-      <extent>[52], 355 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.F. for William Lee ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library and Bodleian Library.</note>
-         <note>Includes contents p. [40]-[52]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The darknes of atheism dispelled by the light of nature a physico-theologicall treatise / written by Walter Charleton ...</title>
+      <author>Charleton, Walter, 1619-1707.</author>
+    </titleStmt>
+    <extent>[52], 355 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.F.</persName> for <persName type="publisher">William Lee</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library and Bodleian Library.</note>
+      <note>Includes contents p. [40]-[52]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+    <person type="printer">
+      <persName>J.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

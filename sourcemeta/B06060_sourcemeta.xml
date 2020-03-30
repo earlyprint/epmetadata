@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Scotch vvooing of Willy and Nanny to a pleasant new tune: or, Nanny O. This may be printed, R.P.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for P. Brooksby at the Golden Ball in Pye-corner.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1685" notAfter="1688">[between 1685-1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Verse: "As I went forth one morning fair ..."</note>
-         <note>Trimmed.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Scotch vvooing of Willy and Nanny to a pleasant new tune: or, Nanny O. This may be printed, R.P.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">P. Brooksby</persName> at <placeName>the Golden Ball in Pye-corner.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1685" notAfter="1688">[between 1685-1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Verse: "As I went forth one morning fair ..."</note>
+      <note>Trimmed.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Brooksby</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Golden Ball in Pye-corner.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

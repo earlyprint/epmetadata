@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Queen, at White-Hall, on Sunday, Octob. 2, 1692 by Charles Hickman ...</title>
-         <author>Hickman, Charles, 1648-1713.</author>
-      </titleStmt>
-      <extent>[4], 25, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">1692.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1]-[2] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Queen, at White-Hall, on Sunday, Octob. 2, 1692 by Charles Hickman ...</title>
+      <author>Hickman, Charles, 1648-1713.</author>
+    </titleStmt>
+    <extent>[4], 25, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">1692.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1]-[2] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

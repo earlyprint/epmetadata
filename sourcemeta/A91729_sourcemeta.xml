@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Precepts for Christian practice; or The rule of the new creature, containing duties to bee daily observed by every beleever.</title>
-         <author>Reyner, Edward, 1600-1668.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition, corrected, inlarged, and now published according to order.</edition>
-      </editionStmt>
-      <extent>[2], 14 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Rich. Cotes for John Bellamie, and are to be sold at his shop at the three Golden Lyons in Cornehill, neere the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Anonymous. By Edward Reyner.</note>
-         <note>Annotation on Thomason copy: "Jan. 31 1644"; the 5 in the imprint date has been crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Precepts for Christian practice; or The rule of the new creature, containing duties to bee daily observed by every beleever.</title>
+      <author>Reyner, Edward, 1600-1668.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition, corrected, inlarged, and now published according to order.</edition>
+    </editionStmt>
+    <extent>[2], 14 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Rich. Cotes</persName> for <persName type="publisher">John Bellamie</persName>, and are to be sold at <placeName>his shop at the three Golden Lyons in Cornehill, neere the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Anonymous. By Edward Reyner.</note>
+      <note>Annotation on Thomason copy: "Jan. 31 1644"; the 5 in the imprint date has been crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Bellamie</persName>
+    </person>
+    <person type="printer">
+      <persName>Rich. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the three Golden Lyons in Cornehill, neere the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

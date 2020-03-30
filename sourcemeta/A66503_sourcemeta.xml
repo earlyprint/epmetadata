@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A medical-philosophical discourse of fermentation, or, Of the intestine motion of particles in every body by Dr. Thomas Willis ... ; translated into English by S.P.</title>
-         <author>Willis, Thomas, 1621-1675.</author>
-      </titleStmt>
-      <extent>[8], 178 p., [2] leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for T. Dring, C. Harper, J. Leigh, and S. Martin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">MDCLXXXI [1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A medical-philosophical discourse of fermentation, or, Of the intestine motion of particles in every body by Dr. Thomas Willis ... ; translated into English by S.P.</title>
+      <author>Willis, Thomas, 1621-1675.</author>
+    </titleStmt>
+    <extent>[8], 178 p., [2] leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">T. Dring</persName>, <persName type="publisher">C. Harper</persName>, <persName type="publisher">J. Leigh</persName>, and <persName type="publisher">S. Martin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">MDCLXXXI [1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. Harper</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Leigh</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Martin</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Dring</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

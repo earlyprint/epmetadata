@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An answer, or confutation of divers errors broached, and maintained by the seven churches of Anabaptists contained in those articles of their confession of faith propounded to the Parliament, and other grosse opinions held by them against the cleare light of the gospell. By Thomas Bakewell. Imprimatur John Downham.</title>
-         <author>Bakewell, Thomas, b. 1618 or 19.</author>
-      </titleStmt>
-      <extent>[4], 20, 25-46, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Shepheard and William Ley, and are to be sold at the signe of the Bible in Tower-Streete, and at Pauls-Chaine neare Doctors Commons.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The final leaf is blank.</note>
-         <note>Text is continuous despite pagination.</note>
-         <note>Annotation on Thomason copy: "May: 7th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An answer, or confutation of divers errors broached, and maintained by the seven churches of Anabaptists contained in those articles of their confession of faith propounded to the Parliament, and other grosse opinions held by them against the cleare light of the gospell. By Thomas Bakewell. Imprimatur John Downham.</title>
+      <author>Bakewell, Thomas, b. 1618 or 19.</author>
+    </titleStmt>
+    <extent>[4], 20, 25-46, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Shepheard</persName> and <persName type="publisher">William Ley</persName>, and are to be sold at <placeName>the signe of the Bible in Tower-Streete</placeName>, and at <placeName>Pauls-Chaine neare Doctors Commons.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The final leaf is blank.</note>
+      <note>Text is continuous despite pagination.</note>
+      <note>Annotation on Thomason copy: "May: 7th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Shepheard</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Ley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls-Chaine neare Doctors Commons.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Bible in Tower-Streete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

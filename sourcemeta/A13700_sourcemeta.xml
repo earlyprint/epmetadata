@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Soliloquium anim&#230;. The sole-talke of the soule. Or, a spirituall and heauenlie dialogue betwixt the soule of man and God. Which, for the great affinitie it hath with other bookes of the auctor published heeretofore in our natiue tongue, is now entituled The fourth booke of the Imitation of Christ. Translated and corrected by Thomas Rogers. Neuer before published.</title>
-         <title>Soliloquium anim&#230;. English</title>
-         <author>Thomas, &#224; Kempis, 1380-1471.</author>
-         <author>Rogers, Thomas.</author>
-      </titleStmt>
-      <extent>[10], 223, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by R. Yardley and P. Short] And are to be solde in the Royall Exchange at the shop of Andrew Maunsell,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1592">1592.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas &#224; Kempis. The traditional attribution of the "Imitatio" to Thomas is disputed.</note>
-         <note>Running title reads: The fourth booke of the Imitation of Christ.</note>
-         <note>Includes index.</note>
-         <note>Printer's names from STC.</note>
-         <note>Imperfect; lacks pages 131-4.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Soliloquium anim&#230;. The sole-talke of the soule. Or, a spirituall and heauenlie dialogue betwixt the soule of man and God. Which, for the great affinitie it hath with other bookes of the auctor published heeretofore in our natiue tongue, is now entituled The fourth booke of the Imitation of Christ. Translated and corrected by Thomas Rogers. Neuer before published.</title>
+      <title>Soliloquium anim&#230;. English</title>
+      <author>Thomas, &#224; Kempis, 1380-1471.</author>
+      <author>Rogers, Thomas.</author>
+    </titleStmt>
+    <extent>[10], 223, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">R. Yardley</persName> and <persName type="printer">P. Short] And</persName> are to be solde in <placeName>the Royall Exchange at the shop of Andrew Maunsell</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1592">1592.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas &#224; Kempis. The traditional attribution of the "Imitatio" to Thomas is disputed.</note>
+      <note>Running title reads: The fourth booke of the Imitation of Christ.</note>
+      <note>Includes index.</note>
+      <note>Printer's names from STC.</note>
+      <note>Imperfect; lacks pages 131-4.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>P. Short] And</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Yardley</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royall Exchange at the shop of Andrew Maunsell</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

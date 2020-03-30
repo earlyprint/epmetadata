@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, discharging merchants and other traffickers to sell or exchange any prohibite [sic] commodities, with themselves, or amongst others.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, Printer to his most sacred Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Intentional blank spaces in text.</note>
-         <note>Dated at end:Given under Our Signet at Edinburgh, the sixteenth day of August, one thousand six hundred eighty and three. And of Our Reign the thirtieth and fifth year.</note>
-         <note>Signed: Will. Paterson, Cls. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, discharging merchants and other traffickers to sell or exchange any prohibite [sic] commodities, with themselves, or amongst others.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1649-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, Printer to <persName type="patron">his most sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Intentional blank spaces in text.</note>
+      <note>Dated at end:Given under Our Signet at Edinburgh, the sixteenth day of August, one thousand six hundred eighty and three. And of Our Reign the thirtieth and fifth year.</note>
+      <note>Signed: Will. Paterson, Cls. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

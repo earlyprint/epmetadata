@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act anent those who are or shall be fugitives or runawayes from their companies and colours</title>
-         <author>Scotland. Parliament. Committee of Estates.</author>
-         <author>Primrose, Archibald, Sir, 1616-1679.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By Evan Tyler, Printer to the Kings most excellent Majestie,</publisher>
-         <pubPlace>Printed at Edinburgh :</pubPlace>
-         <date when="1644">1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Dated at head of text: At Edinburgh the 22 of January 1644.</note>
-         <note>Signed at foot of text: Arch. Primerose.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act anent those who are or shall be fugitives or runawayes from their companies and colours</title>
+      <author>Scotland. Parliament. Committee of Estates.</author>
+      <author>Primrose, Archibald, Sir, 1616-1679.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">the Kings most excellent Majestie</persName>,</publisher>
+      <pubPlace>Printed at Edinburgh :</pubPlace>
+      <date when="1644">1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Dated at head of text: At Edinburgh the 22 of January 1644.</note>
+      <note>Signed at foot of text: Arch. Primerose.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

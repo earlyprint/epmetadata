@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of Dr. William Croun on the 23d of October, 1684, at St. Mildred Church in the Poultrey by John Scott ...</title>
-         <author>Scott, John, 1639-1695.</author>
-      </titleStmt>
-      <extent>[4], 30, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Horne ..., and Walter Kettilby ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [1] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of Dr. William Croun on the 23d of October, 1684, at St. Mildred Church in the Poultrey by John Scott ...</title>
+      <author>Scott, John, 1639-1695.</author>
+    </titleStmt>
+    <extent>[4], 30, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Horne</persName> ..., and <persName type="publisher">Walter Kettilby</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [1] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Horne</persName>
+    </person>
+    <person type="publisher">
+      <persName>Walter Kettilby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords and Commons assembled in Parliament. Die Veneris, 15. Decemb. 1648.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Wright, at the Kings-Head in the Old-Bayley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Taking into consideration a printed paper, 'A solemne protestation of the imprisoned and secluded members, &amp;c.' wherein amongst other things is declared that all acts, ordinances, etc. made since the first of this instant December, and made during their restraint, are no way obligatory, the Lords and Commons declare that the said printed paper is false, scandalous, and seditious, and tending to destroy the visible and fundamental government of this kingdome; and do order the said paper to be suppressed -- Cf. Steele.</note>
-         <note>Order to print signed: Joh. Brown Cler. Parliamentorum.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords and Commons assembled in Parliament. Die Veneris, 15. Decemb. 1648.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Wright</persName>, at <placeName>the Kings-Head in the Old-Bayley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Taking into consideration a printed paper, 'A solemne protestation of the imprisoned and secluded members, &amp;c.' wherein amongst other things is declared that all acts, ordinances, etc. made since the first of this instant December, and made during their restraint, are no way obligatory, the Lords and Commons declare that the said printed paper is false, scandalous, and seditious, and tending to destroy the visible and fundamental government of this kingdome; and do order the said paper to be suppressed -- Cf. Steele.</note>
+      <note>Order to print signed: Joh. Brown Cler. Parliamentorum.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings-Head in the Old-Bayley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At the court at Whitehall this seventh day of November 1683 present the Kings Most Excellent Majesty ... : whereas complaint was this day made to His Majesty in council, that His Excellency the Sieur Citters, ambassadour residing here from the States General of the United Provinces of the Netherlands, was on the fifth day of this instant November, riotously assaulted in his coach, several squibs, stones, and firebrands being thrown, whereby his lady who was with him was dangerously wounded ...</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill deceas'd, and by Henry Hills and Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and first 7 lines of text.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At the court at Whitehall this seventh day of November 1683 present the Kings Most Excellent Majesty ... : whereas complaint was this day made to His Majesty in council, that His Excellency the Sieur Citters, ambassadour residing here from the States General of the United Provinces of the Netherlands, was on the fifth day of this instant November, riotously assaulted in his coach, several squibs, stones, and firebrands being thrown, whereby his lady who was with him was dangerously wounded ...</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill deceas'd, and</persName> by <persName type="printer">Henry Hills</persName> and <persName type="printer">Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and first 7 lines of text.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill deceas'd, and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

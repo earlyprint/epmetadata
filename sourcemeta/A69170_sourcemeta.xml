@@ -1,26 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Salomons pest-house, or tovvre-royall Nevvly re-edified and prepared to preserue Londoners with their families, and others, from the doubted deluge of the plague. Item, a laudable exercise for those that are departed, or shall depart out of the city into the country, to spend their time till they returne. A handfull of holy meditations vsefull and requisite for Gods people ... By the reuerend, learned, and godly diuine I.D. preacher of Gods word. Whereunto is added Mr Hollands admonition, and Mr Phaers prescription for bodily physicke. Also, London looke-backe: a description or representation of the great and memorable mortality an. 1625. in heroicke matchlesse lines, by A.H. of Tr. Colledge in Cambridge.</title>
-         <author>I. D., preacher of Gods word.</author>
-         <author>Holland, Henry, 1583-1650? Spirituall preservatives against the pestilence.</author>
-         <author>Houssemaine, Nicolas de, d. 1523. R&#233;gime contre la peste.</author>
-         <author>Holland, Abraham, d. 1626. London looke-backe.</author>
-         <author>Phayer, Thomas, 1510?-1560.</author>
-      </titleStmt>
-      <extent>[10], 69, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper and are to be sold in Green Harbour by [Mic]hael Sparke, at the signe of the Bible,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A.H. = Abraham Holland.</note>
-         <note>The admonition of Henry Holland and the prescriptions of Thomas Phayer are reprinted from Holland's "Spirituall preservatives against the pestilence"; Phayer's prescriptions were originally translations from Nicholas Houssemaine's "R&#233;gime contre la peste".</note>
-         <note>A variant of the 1630 edition with H. Holland's name in the imprint.</note>
-         <note>Title page too dark as filmed; affecting readability.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Salomons pest-house, or tovvre-royall Nevvly re-edified and prepared to preserue Londoners with their families, and others, from the doubted deluge of the plague. Item, a laudable exercise for those that are departed, or shall depart out of the city into the country, to spend their time till they returne. A handfull of holy meditations vsefull and requisite for Gods people ... By the reuerend, learned, and godly diuine I.D. preacher of Gods word. Whereunto is added Mr Hollands admonition, and Mr Phaers prescription for bodily physicke. Also, London looke-backe: a description or representation of the great and memorable mortality an. 1625. in heroicke matchlesse lines, by A.H. of Tr. Colledge in Cambridge.</title>
+      <author>I. D., preacher of Gods word.</author>
+      <author>Holland, Henry, 1583-1650? Spirituall preservatives against the pestilence.</author>
+      <author>Houssemaine, Nicolas de, d. 1523. R&#233;gime contre la peste.</author>
+      <author>Holland, Abraham, d. 1626. London looke-backe.</author>
+      <author>Phayer, Thomas, 1510?-1560.</author>
+    </titleStmt>
+    <extent>[10], 69, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName> and are to be sold in <placeName>Green Harbour</placeName> by <persName type="printer">[Mic]hael Sparke</persName>, at <placeName>the signe of the Bible</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A.H. = Abraham Holland.</note>
+      <note>The admonition of Henry Holland and the prescriptions of Thomas Phayer are reprinted from Holland's "Spirituall preservatives against the pestilence"; Phayer's prescriptions were originally translations from Nicholas Houssemaine's "R&#233;gime contre la peste".</note>
+      <note>A variant of the 1630 edition with H. Holland's name in the imprint.</note>
+      <note>Title page too dark as filmed; affecting readability.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+    <person type="printer">
+      <persName>[Mic]hael Sparke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Green Harbour</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

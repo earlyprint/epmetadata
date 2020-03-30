@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act against the raising of moneys upon the people, without their consent in Parliament&#183; Tuesday, Octob. 11. 1659. Ordered by the Parliament, that this Act be forthwith printed and published. Tho. St Nicholas, Clerk of the Parliament.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>2, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Field, printer to the Parliament. And are to be sold at the seven Stars in Fleetstreet, over against Dunstans Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Oct. 12".</note>
-         <note>Imperfect: print show-through with some text obscured.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act against the raising of moneys upon the people, without their consent in Parliament&#183; Tuesday, Octob. 11. 1659. Ordered by the Parliament, that this Act be forthwith printed and published. Tho. St Nicholas, Clerk of the Parliament.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>2, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Field</persName>, printer to <persName type="patron">the Parliament. And</persName> are to be sold at <placeName>the seven Stars in Fleetstreet, over against Dunstans Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Oct. 12".</note>
+      <note>Imperfect: print show-through with some text obscured.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the seven Stars in Fleetstreet, over against Dunstans Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

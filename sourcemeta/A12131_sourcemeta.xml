@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A contention for honour and riches. By I.S.</title>
-         <author>Shirley, James, 1596-1666.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E[lizabeth] A[llde] for William Cooke, and are to be sold at his shop neere Furnivals Inne gate in Holborne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1633">1633.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Iames Shirley.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-E&#8308;.</note>
-         <note>The first leaf is blank.</note>
-         <note>Running title reads: A contention for honor and riches.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A contention for honour and riches. By I.S.</title>
+      <author>Shirley, James, 1596-1666.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E[lizabeth] A[llde]</persName> for <persName type="publisher">William Cooke</persName>, and are to be sold at <placeName>his shop neere Furnivals Inne gate in Holborne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1633">1633.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Iames Shirley.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-E&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>Running title reads: A contention for honor and riches.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Cooke</persName>
+    </person>
+    <person type="printer">
+      <persName>E[lizabeth] A[llde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop neere Furnivals Inne gate in Holborne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

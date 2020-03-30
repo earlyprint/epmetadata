@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of the plurality of worlds written in French by the most ingenious author of the Dialogues of the dead ; and translated into English by Sir W.D., Knight.</title>
-         <title>Entretiens sur la pluralit&#233; des mondes. English</title>
-         <author>Fontenelle, M. de (Bernard Le Bovier), 1657-1757.</author>
-         <author>W. D., Sir.</author>
-      </titleStmt>
-      <extent>[16], 86 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andr. Crook and Sam. Helsham, for William Norman ...,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Entretiens sur la pluralit&#233; des mondes.</note>
-         <note>Errata: p. [16].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of the plurality of worlds written in French by the most ingenious author of the Dialogues of the dead ; and translated into English by Sir W.D., Knight.</title>
+      <title>Entretiens sur la pluralit&#233; des mondes. English</title>
+      <author>Fontenelle, M. de (Bernard Le Bovier), 1657-1757.</author>
+      <author>W. D., Sir.</author>
+    </titleStmt>
+    <extent>[16], 86 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andr. Crook</persName> and <persName type="printer">Sam. Helsham</persName>, for <persName type="publisher">William Norman</persName> ...,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Entretiens sur la pluralit&#233; des mondes.</note>
+      <note>Errata: p. [16].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Norman</persName>
+    </person>
+    <person type="printer">
+      <persName>Andr. Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Sam. Helsham</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

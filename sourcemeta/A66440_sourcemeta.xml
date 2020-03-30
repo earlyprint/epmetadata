@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The pattern of ecclesiastical ordination, or, Apostolick separation being a discourse upon Acts the 13. 4,5 ... / by Edward Wakeman ...</title>
-         <author>Wakeman, Edward.</author>
-      </titleStmt>
-      <extent>[4], 39 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.G. for Richard Royston ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The pattern of ecclesiastical ordination, or, Apostolick separation being a discourse upon Acts the 13. 4,5 ... / by Edward Wakeman ...</title>
+      <author>Wakeman, Edward.</author>
+    </titleStmt>
+    <extent>[4], 39 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Richard Royston</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

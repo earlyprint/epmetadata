@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Doctor John Faustus compiled in verse, very pleasant and delightfull.</title>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by E. Cotes, and are to be sold by Charles Tyus at the Three Bibles on London-Bridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A B&#8308;.</note>
-         <note>With a title page woodcut.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Doctor John Faustus compiled in verse, very pleasant and delightfull.</title>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">E. Cotes</persName>, and are to be sold by <persName type="bookseller">Charles Tyus</persName> at <placeName>the Three Bibles on London-Bridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A B&#8308;.</note>
+      <note>With a title page woodcut.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Charles Tyus</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Bibles on London-Bridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Lewis in the diocess of Chichester by the Lord Bp. of Chichester, at his visitation held there, Octob. 8, 1662.</title>
-         <author>King, Henry, 1592-1669.</author>
-      </titleStmt>
-      <extent>[2], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Henry Herringman, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1663">1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Henry King" handprinted on t.p.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Lewis in the diocess of Chichester by the Lord Bp. of Chichester, at his visitation held there, Octob. 8, 1662.</title>
+      <author>King, Henry, 1592-1669.</author>
+    </titleStmt>
+    <extent>[2], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Henry Herringman</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1663">1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Henry King" handprinted on t.p.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

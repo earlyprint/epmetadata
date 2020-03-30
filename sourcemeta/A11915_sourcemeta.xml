@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sixt tragedie of the most graue and prudent author Lucius, Anneus, Seneca, entituled Troas with diuers and sundrye addicions to the same. Newly set forth in Englishe by Jasper Heywood student in Oxonforde. Anno domini. 1559. Cum priuilegio ad imprimendum solum.</title>
-         <title>Troades. English</title>
-         <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
-         <author>Heywood, Jasper, 1535-1598.</author>
-      </titleStmt>
-      <extent>[86] p.   </extent>
-      <publicationStmt>
-         <publisher>In Fletestrete within Temple barre, at the signe of the hand and starre, by Richard Tottyll,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1559">[1559]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Signatures: [A]-E F&#179;.</note>
-         <note>Quires E and F and inner form of D partly from same setting as STC 22227--STC.</note>
-         <note>Identified as STC 22227b on UMI microfilm.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sixt tragedie of the most graue and prudent author Lucius, Anneus, Seneca, entituled Troas with diuers and sundrye addicions to the same. Newly set forth in Englishe by Jasper Heywood student in Oxonforde. Anno domini. 1559. Cum priuilegio ad imprimendum solum.</title>
+      <title>Troades. English</title>
+      <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
+      <author>Heywood, Jasper, 1535-1598.</author>
+    </titleStmt>
+    <extent>[86] p.   </extent>
+    <publicationStmt>
+      <publisher>In Fletestrete within <placeName>Temple barre, at the signe of the hand</placeName> and starre, by <persName type="printer">Richard Tottyll</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1559">[1559]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Signatures: [A]-E F&#179;.</note>
+      <note>Quires E and F and inner form of D partly from same setting as STC 22227--STC.</note>
+      <note>Identified as STC 22227b on UMI microfilm.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Tottyll</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Temple barre, at the signe of the hand</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

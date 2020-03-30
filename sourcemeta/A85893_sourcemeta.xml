@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Noah's flood returning: or, a sermon preached August the 7th. 1655. before the right honourable Christopher Pack, Lord Major of the honourable citie of London, and the right worshipfull, the company of Drapers. By R. Gell, D.D. and rector of the parish of Mary Alder-Mary, London.</title>
-         <author>Gell, Robert, 1595-1665.</author>
-      </titleStmt>
-      <extent>[8], 23, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.L. and are to be sold by Giles Calvert ay the Black-spread Eagle, at the West end of Pauls,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "August. 24".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Noah's flood returning: or, a sermon preached August the 7th. 1655. before the right honourable Christopher Pack, Lord Major of the honourable citie of London, and the right worshipfull, the company of Drapers. By R. Gell, D.D. and rector of the parish of Mary Alder-Mary, London.</title>
+      <author>Gell, Robert, 1595-1665.</author>
+    </titleStmt>
+    <extent>[8], 23, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.L.</persName> and are to be sold by <persName type="bookseller">Giles Calvert ay the Black-spread Eagle</persName>, at <placeName>the West end of Pauls</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "August. 24".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J.L.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Giles Calvert ay the Black-spread Eagle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the West end of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

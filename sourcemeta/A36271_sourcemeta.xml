@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the king on Tuesday, June 20th. 1665 being the day of solemn thanksgiving for the late victory at sea / by J. Dolben ...</title>
-         <author>Dolben, John, 1625-1686.</author>
-      </titleStmt>
-      <extent>[2], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A. Maxwell for Timothy Garthwait,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: A thanksgiving sermon.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the king on Tuesday, June 20th. 1665 being the day of solemn thanksgiving for the late victory at sea / by J. Dolben ...</title>
+      <author>Dolben, John, 1625-1686.</author>
+    </titleStmt>
+    <extent>[2], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A. Maxwell</persName> for <persName type="publisher">Timothy Garthwait</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: A thanksgiving sermon.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Timothy Garthwait</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Maxwell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

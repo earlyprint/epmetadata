@@ -1,26 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, prorogating the dyets of giving in lists of poleable persons, and payment of their pole-money, and prescribing methods for the exactness and perfecting of the same.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Scotland. Sovereign (1694-1702 : William II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, Printer to his most excellent Majesty,</publisher>
-         <pubPlace>[Edinburgh :</pubPlace>
-         <date when="1695">Anno Dom 1695]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from Wing.</note>
-         <note>Royal arms in ornamental border at head of text; initial letter.</note>
-         <note>Intentional blank spaces in text.</note>
-         <note>Dated at end: Edinburgh, the nineteenth day of December, and of our reign the seventh year, 1695.</note>
-         <note>Signed: Gilb. Eliot Cls. Sti. Concilii.</note>
-         <note>Imperfect: cropped at foot; imprint lost.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, prorogating the dyets of giving in lists of poleable persons, and payment of their pole-money, and prescribing methods for the exactness and perfecting of the same.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Scotland. Sovereign (1694-1702 : William II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, Printer to <persName type="patron">his most excellent Majesty</persName>,</publisher>
+      <pubPlace>[Edinburgh :</pubPlace>
+      <date when="1695">Anno Dom 1695]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from Wing.</note>
+      <note>Royal arms in ornamental border at head of text; initial letter.</note>
+      <note>Intentional blank spaces in text.</note>
+      <note>Dated at end: Edinburgh, the nineteenth day of December, and of our reign the seventh year, 1695.</note>
+      <note>Signed: Gilb. Eliot Cls. Sti. Concilii.</note>
+      <note>Imperfect: cropped at foot; imprint lost.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>his most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

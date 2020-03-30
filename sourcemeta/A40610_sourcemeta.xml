@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A full discovery of the late fanatical plot in Scotland, or, The Deposition of Mr. William Carstares when he was examined before the Lords of Secret Committee given by him and renewed upon oath, upon the the 22 of December, 1684, in presence of the Lords of His Majesties Privy Council.</title>
-         <author>Carstares, William, 1649-1715.</author>
-      </titleStmt>
-      <extent>1 sheet ([2] p.).   </extent>
-      <publicationStmt>
-         <publisher>Edinburgh printed by the heir of Andrew Anderson ... reprinted at London for Walter Davis ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A full discovery of the late fanatical plot in Scotland, or, The Deposition of Mr. William Carstares when he was examined before the Lords of Secret Committee given by him and renewed upon oath, upon the the 22 of December, 1684, in presence of the Lords of His Majesties Privy Council.</title>
+      <author>Carstares, William, 1649-1715.</author>
+    </titleStmt>
+    <extent>1 sheet ([2] p.).   </extent>
+    <publicationStmt>
+      <publisher>Edinburgh printed by <persName type="printer">the heir of Andrew Anderson</persName> ... reprinted at <placeName>London</placeName> for <persName type="publisher">Walter Davis</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

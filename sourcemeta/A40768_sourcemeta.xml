@@ -1,14 +1,19 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Faithful and impartial account of the proceedings in the case of James, Duke of Monmouth</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Hayther,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Faithful and impartial account of the proceedings in the case of James, Duke of Monmouth</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Hayther</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Hayther</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

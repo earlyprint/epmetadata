@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A congratulatory poem written by J. S. And occasionally published on the 23d. of April, 1685: being the Coronation-Day of their Most Sacred Majesties, &amp;c.</title>
-         <author>I. S.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed for D.W.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "When mournful Britain droop'd her conquering head,".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A congratulatory poem written by J. S. And occasionally published on the 23d. of April, 1685: being the Coronation-Day of their Most Sacred Majesties, &amp;c.</title>
+      <author>I. S.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">D.W.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "When mournful Britain droop'd her conquering head,".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>D.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

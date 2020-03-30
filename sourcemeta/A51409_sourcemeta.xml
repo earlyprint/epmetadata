@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse concerning a lumber-office being a true remedy for the scarcity of money.</title>
-         <author>Morton, Charles, 1659 or 60-1731.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Sam. Darker, for J. Lawrence, at the Angel in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Anonymous. Attributed to Charles Morton, M.D. (MS. note, GK).</note>
-         <note>Copy cataloged signed on title page in MS.: "By Charles Morton M.D.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse concerning a lumber-office being a true remedy for the scarcity of money.</title>
+      <author>Morton, Charles, 1659 or 60-1731.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Sam. Darker</persName>, for <persName type="publisher">J. Lawrence</persName>, at <placeName>the Angel in the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Anonymous. Attributed to Charles Morton, M.D. (MS. note, GK).</note>
+      <note>Copy cataloged signed on title page in MS.: "By Charles Morton M.D.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Lawrence</persName>
+    </person>
+    <person type="printer">
+      <persName>Sam. Darker</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in the Poultrey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

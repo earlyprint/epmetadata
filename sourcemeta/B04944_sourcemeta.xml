@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An abstract, of a letter from a person of eminency and worth in Caledonia, to a friend at Boston in New-England.</title>
-         <author>Paterson, William, 1658-1719.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Reid,</publisher>
-         <pubPlace>Edinburgh, :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Letter attributed to Paterson by Wing (2nd ed.).</note>
-         <note>Reproduction of original in: National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An abstract, of a letter from a person of eminency and worth in Caledonia, to a friend at Boston in New-England.</title>
+      <author>Paterson, William, 1658-1719.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Reid</persName>,</publisher>
+      <pubPlace>Edinburgh, :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Letter attributed to Paterson by Wing (2nd ed.).</note>
+      <note>Reproduction of original in: National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Reid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

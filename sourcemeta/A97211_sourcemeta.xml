@@ -1,22 +1,47 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Jevvs Sabbath antiquated, and the Lords Day instituted by divine authority. Or, The change of the Sabbath from the last to the first day of the week, asserted and maintained by Scripture-arguments, and testimonies of the best antiquity; with a refutation of sundry objections raised against it. The sum of all comprized in seven positions. By Edm. Warren minister of the Gospel in Colchester. Imprimatur, Edm. Calamy.</title>
-         <author>Warren, Edmund, minister of the Gospel in Colchester.</author>
-      </titleStmt>
-      <extent>[12], 263, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by David Maxwel, for W. Weekly of Ipswich, and are to be sold by John Rothwel, at the Fountain in Cheapside, and also by Nath. Web, and Will. Grantham, at the Black Bear in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to: Tillam, Thomas.  The seventh-day Sabbath sought out and celebrated.</note>
-         <note>Edm. Warren = Edmund Warren. Cf. Wing.</note>
-         <note>With a final advertisement leaf.</note>
-         <note>Annotation on Thomason copy: "June 17. 17"; first "17" written over "15" and second "17" added, probably for clarity.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Jevvs Sabbath antiquated, and the Lords Day instituted by divine authority. Or, The change of the Sabbath from the last to the first day of the week, asserted and maintained by Scripture-arguments, and testimonies of the best antiquity; with a refutation of sundry objections raised against it. The sum of all comprized in seven positions. By Edm. Warren minister of the Gospel in Colchester. Imprimatur, Edm. Calamy.</title>
+      <author>Warren, Edmund, minister of the Gospel in Colchester.</author>
+    </titleStmt>
+    <extent>[12], 263, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">David Maxwel</persName>, for <persName type="publisher">W. Weekly of Ipswich</persName>, and are to be sold by <persName type="bookseller">John Rothwel</persName>, at <placeName>the Fountain in Cheapside</placeName>, and also by <persName type="printer">Nath. Web</persName>, and <persName type="publisher">Will. Grantham</persName>, at <placeName>the Black Bear in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to: Tillam, Thomas.  The seventh-day Sabbath sought out and celebrated.</note>
+      <note>Edm. Warren = Edmund Warren. Cf. Wing.</note>
+      <note>With a final advertisement leaf.</note>
+      <note>Annotation on Thomason copy: "June 17. 17"; first "17" written over "15" and second "17" added, probably for clarity.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Weekly of Ipswich</persName>
+    </person>
+    <person type="publisher">
+      <persName>Will. Grantham</persName>
+    </person>
+    <person type="printer">
+      <persName>David Maxwel</persName>
+    </person>
+    <person type="printer">
+      <persName>Nath. Web</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Rothwel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black Bear in Pauls Church-yard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Fountain in Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

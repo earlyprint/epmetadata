@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Reflections on the papers deliver'd by Mr. Charnock, Mr. King, and Mr. Key, to the sheriffs, on the day of their execution</title>
-         <author>King, Edward, d. 1696.</author>
-         <author>Keyes, Thomas, d. 1696.</author>
-         <author>Charnock, Robert, 1663?-1696.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for William Rogers at the Sun against St. Dunstans-Church in Fleetstreet,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1696">1696]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Reflections on the papers deliver'd by Mr. Charnock, Mr. King, and Mr. Key, to the sheriffs, on the day of their execution</title>
+      <author>King, Edward, d. 1696.</author>
+      <author>Keyes, Thomas, d. 1696.</author>
+      <author>Charnock, Robert, 1663?-1696.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">William Rogers</persName> at <placeName>the Sun against St. Dunstans-Church in Fleetstreet</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1696">1696]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Lambeth Palace Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Rogers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Sun against St. Dunstans-Church in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dialogue between the D. of C. and the D. of P. at their meeting in Paris, with the ghost of Jane Shore</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J. Smith,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1682" cert="low">1682?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>In verse.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dialogue between the D. of C. and the D. of P. at their meeting in Paris, with the ghost of Jane Shore</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J. Smith</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1682" cert="low">1682?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>In verse.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

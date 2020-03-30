@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A grant of the benevolence or contribution to His most excellent Majestie, by the clergie of the Province of Canterburie. In the Convocation or sacred synode holden at London. Anno Domini 1640.</title>
-         <author>Church of England. Province of Canterbury. Convocation.</author>
-      </titleStmt>
-      <extent>[2], 26, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Barker, Printer to the Kings most excellent Majestie: and by the Assignes of John Bill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In Latin.</note>
-         <note>The first leaf is blank except for signature-mark "A" in a mortised ornament; the last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A grant of the benevolence or contribution to His most excellent Majestie, by the clergie of the Province of Canterburie. In the Convocation or sacred synode holden at London. Anno Domini 1640.</title>
+      <author>Church of England. Province of Canterbury. Convocation.</author>
+    </titleStmt>
+    <extent>[2], 26, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Barker</persName>, Printer to <persName type="patron">the Kings most excellent Majestie: and</persName> by <persName type="printer">the Assignes of John Bill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In Latin.</note>
+      <note>The first leaf is blank except for signature-mark "A" in a mortised ornament; the last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>the Assignes of John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie: and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

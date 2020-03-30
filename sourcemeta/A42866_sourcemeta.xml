@@ -1,17 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gloucester's triumph at the solemn proclamation of King Charles the Second; on Tuesday the 15th. day of May 1660.</title>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.C. for H. Fletcher, at the three gilt Cups in S. Pauls Churchyard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gloucester's triumph at the solemn proclamation of King Charles the Second; on Tuesday the 15th. day of May 1660.</title>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.C.</persName> for <persName type="publisher">H. Fletcher</persName>, at <placeName>the three gilt Cups in S. Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Fletcher</persName>
+    </person>
+    <person type="printer">
+      <persName>J.C.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three gilt Cups in S. Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

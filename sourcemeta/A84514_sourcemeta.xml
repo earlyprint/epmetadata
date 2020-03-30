@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An abstract of all such acts of Parliament, now in force, as relate to the admiralty and navy of England</title>
-         <title>Public General Acts. Selections: Royal Navy</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>[16], 94, [98] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by S. Bridge in Austin Friers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">MDCXCVII. [1697]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Leaves A1, A8, N6-8, and every even-numbered leaf from sig. B onwards are blank. Odd numbered leaves are paginated: 1-2, 3-4, ... .</note>
-         <note>Register is continuous despite pagination.</note>
-         <note>Reproduction of original in the John Carter Brown Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An abstract of all such acts of Parliament, now in force, as relate to the admiralty and navy of England</title>
+      <title>Public General Acts. Selections: Royal Navy</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>[16], 94, [98] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">S. Bridge</persName> in <placeName>Austin Friers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">MDCXCVII. [1697]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Leaves A1, A8, N6-8, and every even-numbered leaf from sig. B onwards are blank. Odd numbered leaves are paginated: 1-2, 3-4, ... .</note>
+      <note>Register is continuous despite pagination.</note>
+      <note>Reproduction of original in the John Carter Brown Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>S. Bridge</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Austin Friers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

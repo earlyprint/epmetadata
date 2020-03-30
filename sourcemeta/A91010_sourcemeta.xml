@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A bundle of myrrhe. Or Several sweet truths spiritually unfolded under these following heads. 1. Mercy magnified. 2. Practical graces. 3. Christs humiliation. 4. Certainty of salvation. Published by H.P. minister of the Gospel.</title>
-         <author>Prime, H.</author>
-      </titleStmt>
-      <extent>60 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R.I. for Livewell Chapman, and are to be sold at his shop at the Crown in Popes-head-alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1653">1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>H.P. = Henry Prime.</note>
-         <note>Annotation on Thomason copy: "Sept: 10th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A bundle of myrrhe. Or Several sweet truths spiritually unfolded under these following heads. 1. Mercy magnified. 2. Practical graces. 3. Christs humiliation. 4. Certainty of salvation. Published by H.P. minister of the Gospel.</title>
+      <author>Prime, H.</author>
+    </titleStmt>
+    <extent>60 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R.I.</persName> for <persName type="publisher">Livewell Chapman</persName>, and are to be sold at <placeName>his shop at the Crown in Popes-head-alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1653">1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>H.P. = Henry Prime.</note>
+      <note>Annotation on Thomason copy: "Sept: 10th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Livewell Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>R.I.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the Crown in Popes-head-alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

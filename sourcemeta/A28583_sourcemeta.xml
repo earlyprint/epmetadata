@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Christ's importunity with sinners to accept of him by S. Bold.</title>
-         <author>Bold, S. (Samuel), 1649-1737.</author>
-      </titleStmt>
-      <extent>[20], 139 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Awnsham Churchill and are to be sold by William Churchill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Christ's importunity with sinners to accept of him by S. Bold.</title>
+      <author>Bold, S. (Samuel), 1649-1737.</author>
+    </titleStmt>
+    <extent>[20], 139 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Awnsham Churchill</persName> and are to be sold by <persName type="bookseller">William Churchill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham Churchill</persName>
+    </person>
+    <person type="bookseller">
+      <persName>William Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

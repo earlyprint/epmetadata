@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The speech which the Speaker of the House of Commons made unto the King in the House of Lords, at his passing of the bills therein mentioned, the 29. of August in the year of our Lord 1660.</title>
-         <author>Grimston, Harbottle, Sir, 1603-1685.</author>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Edward Husband and Tho. Newcomb, printers to the House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">anno 1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The Speaker of the House of Commons = Sir Harbottle Grimston.</note>
-         <note>Annotation on Thomason copy: "Sept 1st".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The speech which the Speaker of the House of Commons made unto the King in the House of Lords, at his passing of the bills therein mentioned, the 29. of August in the year of our Lord 1660.</title>
+      <author>Grimston, Harbottle, Sir, 1603-1685.</author>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">Tho. Newcomb</persName>, printers to <persName type="patron">the House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">anno 1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The Speaker of the House of Commons = Sir Harbottle Grimston.</note>
+      <note>Annotation on Thomason copy: "Sept 1st".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+    <person type="patron">
+      <persName>the House of Commons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

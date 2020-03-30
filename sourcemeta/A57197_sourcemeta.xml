@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The vanitie of man, in his best estate a sermon preached at St. Maries in Nottingham, March 18. 1657. at the funeral of the honourable Francis Pierepont, Esq; third son to the right honourable Robert late Earl of Kingston. By William Reynolds, M.A. minister of the Gospel at St. Maries in Nottingham.</title>
-         <author>Reynolds, William, 1625-1698.</author>
-         <author>Whitlock, John, 1625-1709.</author>
-      </titleStmt>
-      <extent>[8], 24, p.   </extent>
-      <publicationStmt>
-         <publisher>printed for J. Rothwel, at the Fountain in Goldsmiths-row in Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: John Whitlock. William Reynolds.</note>
-         <note>Includes errata.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The vanitie of man, in his best estate a sermon preached at St. Maries in Nottingham, March 18. 1657. at the funeral of the honourable Francis Pierepont, Esq; third son to the right honourable Robert late Earl of Kingston. By William Reynolds, M.A. minister of the Gospel at St. Maries in Nottingham.</title>
+      <author>Reynolds, William, 1625-1698.</author>
+      <author>Whitlock, John, 1625-1709.</author>
+    </titleStmt>
+    <extent>[8], 24, p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">J. Rothwel</persName>, at <placeName>the Fountain in Goldsmiths-row in Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: John Whitlock. William Reynolds.</note>
+      <note>Includes errata.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Rothwel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Fountain in Goldsmiths-row in Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

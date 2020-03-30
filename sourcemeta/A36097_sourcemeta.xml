@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of local motion undertaking to demonstrate the laws of motion, and withall to prove that of the seven rules delivered by M. Des-Cartes on this subject, he hath mistaken six / by A.M.</title>
-         <author>A. M., 17th cent.</author>
-      </titleStmt>
-      <extent>[14], 73 p., [1] leaf of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W.G. and are to be sold by Moses Pitt,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1670">1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Englished out of French."</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of local motion undertaking to demonstrate the laws of motion, and withall to prove that of the seven rules delivered by M. Des-Cartes on this subject, he hath mistaken six / by A.M.</title>
+      <author>A. M., 17th cent.</author>
+    </titleStmt>
+    <extent>[14], 73 p., [1] leaf of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.G.</persName> and are to be sold by <persName type="bookseller">Moses Pitt</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1670">1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Englished out of French."</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W.G.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Moses Pitt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tryal of Philip Standsfield, son to Sir James Standsfield, of New-Milns; for the murder of his father, and other crimes libel'd against him. / Published by authority.</title>
-         <author>Standsfield, Philip, d. 1688, defendant.</author>
-      </titleStmt>
-      <extent>[2], 3-44 p. : coat of arms.  </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, Printer to the King's most Sacred Majesty,</publisher>
-         <pubPlace>Edinburgh, :</pubPlace>
-         <date when="1688">Anno Dom. 1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On title, Stuart royal arms of James II as James VII of Scotland.</note>
-         <note>Reproduction of original in: Marsh's Library, St. Patrick's, Dublin, Ireland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tryal of Philip Standsfield, son to Sir James Standsfield, of New-Milns; for the murder of his father, and other crimes libel'd against him. / Published by authority.</title>
+      <author>Standsfield, Philip, d. 1688, defendant.</author>
+    </titleStmt>
+    <extent>[2], 3-44 p. : coat of arms.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, Printer to <persName type="patron">the King's most Sacred Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh, :</pubPlace>
+      <date when="1688">Anno Dom. 1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On title, Stuart royal arms of James II as James VII of Scotland.</note>
+      <note>Reproduction of original in: Marsh's Library, St. Patrick's, Dublin, Ireland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most Sacred Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

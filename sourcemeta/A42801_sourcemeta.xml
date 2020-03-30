@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem dedicated to the memory, and lamenting the death of Her late Sacred Majesty of the small-pox by Mr. Glanvill.</title>
-         <author>Glanvill, John, 1664?-1735.</author>
-      </titleStmt>
-      <extent>[4], 7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Newton,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem dedicated to the memory, and lamenting the death of Her late Sacred Majesty of the small-pox by Mr. Glanvill.</title>
+      <author>Glanvill, John, 1664?-1735.</author>
+    </titleStmt>
+    <extent>[4], 7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Newton</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Newton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

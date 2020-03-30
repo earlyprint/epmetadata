@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and full account of a conference held about religion, between Dr. Tenison and A. Pulton one of the masters in the Savoy Published by authority.</title>
-         <title>True and full account of a conference held about religion, between Dr. Tho. Tenison and A. Pulton one of the masters in the Savoy.</title>
-         <author>Pulton, A. (Andrew), 1654-1710.</author>
-         <author>Tenison, Thomas, 1636-1715. aut</author>
-      </titleStmt>
-      <extent>[6], 18, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Nathaniel Thompson at the entrance into Old-Spring-Garden near Charing-Cross,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The version as given by Pulton.</note>
-         <note>Caption title on p. 1 reads: A true and full relation of the late conference between Dr. T. &amp; A.P. one of the masters of the Savoy.</note>
-         <note>With a final imprimatur leaf.</note>
-         <note>A reissue, with cancel title page, of the edition with "Dr. Tho. Tenison" in title.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true and full account of a conference held about religion, between Dr. Tenison and A. Pulton one of the masters in the Savoy Published by authority.</title>
+      <title>True and full account of a conference held about religion, between Dr. Tho. Tenison and A. Pulton one of the masters in the Savoy.</title>
+      <author>Pulton, A. (Andrew), 1654-1710.</author>
+      <author>Tenison, Thomas, 1636-1715. aut</author>
+    </titleStmt>
+    <extent>[6], 18, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Nathaniel Thompson</persName> at <placeName>the entrance into Old-Spring-Garden near Charing-Cross</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The version as given by Pulton.</note>
+      <note>Caption title on p. 1 reads: A true and full relation of the late conference between Dr. T. &amp; A.P. one of the masters of the Savoy.</note>
+      <note>With a final imprimatur leaf.</note>
+      <note>A reissue, with cancel title page, of the edition with "Dr. Tho. Tenison" in title.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Nathaniel Thompson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the entrance into Old-Spring-Garden near Charing-Cross</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

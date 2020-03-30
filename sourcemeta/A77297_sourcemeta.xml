@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Breach of covenant, a ruinating sinne. as it was preached at Clare in Suff. Novemb. 3. And now published for the good of adjoyning parts, especially those of Hinkford Hundred in Essex. / By a Country Minister.</title>
-         <author>Country minister.</author>
-      </titleStmt>
-      <extent>[2], 22 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho. Paine, for Edward Blackmore, in Pauls Church Yard, at the signe of the Angell.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Imprimatur Edmond Calamy."</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Breach of covenant, a ruinating sinne. as it was preached at Clare in Suff. Novemb. 3. And now published for the good of adjoyning parts, especially those of Hinkford Hundred in Essex. / By a Country Minister.</title>
+      <author>Country minister.</author>
+    </titleStmt>
+    <extent>[2], 22 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho. Paine</persName>, for <persName type="publisher">Edward Blackmore</persName>, in <placeName>Pauls Church Yard, at the signe of the Angell.</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Imprimatur Edmond Calamy."</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Blackmore</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church Yard, at the signe of the Angell.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

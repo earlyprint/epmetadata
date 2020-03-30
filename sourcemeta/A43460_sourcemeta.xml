@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Right Honourable the Lord Mayor and Aldermen of London at the Church of St. Mary le Bow, on September the 9th being the day of thanksgiving for the discovery of the late treasonable conspiracy against His Majesties person and government / by H. Hesketh ...</title>
-         <author>Hesketh, Henry, 1637?-1710.</author>
-      </titleStmt>
-      <extent>[5], 33 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. and J.A. for Henry Bonwicke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Right Honourable the Lord Mayor and Aldermen of London at the Church of St. Mary le Bow, on September the 9th being the day of thanksgiving for the discovery of the late treasonable conspiracy against His Majesties person and government / by H. Hesketh ...</title>
+      <author>Hesketh, Henry, 1637?-1710.</author>
+    </titleStmt>
+    <extent>[5], 33 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> and <persName type="printer">J.A.</persName> for <persName type="publisher">Henry Bonwicke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Bonwicke</persName>
+    </person>
+    <person type="printer">
+      <persName>J.A.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Pro Vere, autumni lachrym&#230;. Inscribed to the immortal memorie of the most pious and incomparable souldier, Sir Horatio Vere, Knight: besieged, and distrest in Mainhem. By Geo: Chapman.</title>
-         <author>Chapman, George, 1559?-1634.</author>
-      </titleStmt>
-      <extent>[18] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by B. Alsop for Th. Walkley, and are to be sold at his shop at the signe of the Eagle and Child in Britaines Burse,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-B&#8308; C&#178;  (-C2).</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Pro Vere, autumni lachrym&#230;. Inscribed to the immortal memorie of the most pious and incomparable souldier, Sir Horatio Vere, Knight: besieged, and distrest in Mainhem. By Geo: Chapman.</title>
+      <author>Chapman, George, 1559?-1634.</author>
+    </titleStmt>
+    <extent>[18] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">B. Alsop</persName> for <persName type="publisher">Th. Walkley</persName>, and are to be sold at <placeName>his shop at the signe of the Eagle</placeName> and Child in <placeName>Britaines Burse</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-B&#8308; C&#178;  (-C2).</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Th. Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>B. Alsop</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Britaines Burse</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop at the signe of the Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

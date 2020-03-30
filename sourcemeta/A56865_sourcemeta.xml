@@ -1,29 +1,42 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A spiritual treasure containing our obligations to God, and the vertues necessary to a perfect Christian. Written in French by John Quarre, Englished by Sir Thomas Stanley, Kt.</title>
-         <title>Thr&#233;sor spirituel. English.</title>
-         <author>Quarr&#233;, Jean-Hugues, 1580-1656.</author>
-         <author>Stanley, Thomas, 1625-1678.</author>
-         <author>Stanley, Thomas, Sir, of Cumberlow Green, Herts.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[22], 530, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.R. for Thomas Dring, at the George in Fleet-street, near Saint Dunstans Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Thr&#233;sor spirituel.</note>
-         <note>Dedication signed: Thomas Stanley [son of the translator].</note>
-         <note>A reissue of the 1660 edition, with cancel title page, added dedication, and table of contents.</note>
-         <note>Running title reads: Spirituall treasure.</note>
-         <note>With three final advertisement leaves.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A spiritual treasure containing our obligations to God, and the vertues necessary to a perfect Christian. Written in French by John Quarre, Englished by Sir Thomas Stanley, Kt.</title>
+      <title>Thr&#233;sor spirituel. English.</title>
+      <author>Quarr&#233;, Jean-Hugues, 1580-1656.</author>
+      <author>Stanley, Thomas, 1625-1678.</author>
+      <author>Stanley, Thomas, Sir, of Cumberlow Green, Herts.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[22], 530, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.R.</persName> for <persName type="publisher">Thomas Dring</persName>, at <placeName>the George in Fleet-street, near Saint Dunstans Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Thr&#233;sor spirituel.</note>
+      <note>Dedication signed: Thomas Stanley [son of the translator].</note>
+      <note>A reissue of the 1660 edition, with cancel title page, added dedication, and table of contents.</note>
+      <note>Running title reads: Spirituall treasure.</note>
+      <note>With three final advertisement leaves.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Dring</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the George in Fleet-street, near Saint Dunstans Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

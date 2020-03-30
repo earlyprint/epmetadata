@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Nevvport-Paignell in the Countie of Buckingham. By R.H.</title>
-         <author>Hacket, Roger, 1559-1621.</author>
-      </titleStmt>
-      <extent>[56] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Wilson, and are to be sold at his shop at Grayes-Inne new Gate in Holborne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1628">1628.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Author's name from STC.</note>
-         <note>"A reissue with cancel title page, almost certainly of the edition listed in Maunsell (17669), pt. 1, p. 100, with imprint: T. Dawson, 1593"--STC.</note>
-         <note>On 2 Corinthians V. 20-1.</note>
-         <note>Signatures: A-C D&#8308;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Nevvport-Paignell in the Countie of Buckingham. By R.H.</title>
+      <author>Hacket, Roger, 1559-1621.</author>
+    </titleStmt>
+    <extent>[56] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Wilson</persName>, and are to be sold at <placeName>his shop at Grayes-Inne new Gate in Holborne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1628">1628.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Author's name from STC.</note>
+      <note>"A reissue with cancel title page, almost certainly of the edition listed in Maunsell (17669), pt. 1, p. 100, with imprint: T. Dawson, 1593"--STC.</note>
+      <note>On 2 Corinthians V. 20-1.</note>
+      <note>Signatures: A-C D&#8308;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Wilson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at Grayes-Inne new Gate in Holborne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

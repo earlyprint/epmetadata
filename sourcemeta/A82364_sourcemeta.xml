@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for continuation of the Act for redemption of captives.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print dated: Tuesday the One and twentieth of December, 1652. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>With Parliamentary seal at head of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for continuation of the Act for redemption of captives.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print dated: Tuesday the One and twentieth of December, 1652. Signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>With Parliamentary seal at head of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

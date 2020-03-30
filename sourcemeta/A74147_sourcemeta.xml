@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Mayor. Whereas by neglect of executing the good lawes and statutes against rogues, vagabonds, and sturdy beggers, that vermine of this Common-wealth doth now swarme in and about this city and liberties, ...</title>
-         <author>City of London (England). Lord Mayor.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher Printer to honourable city of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Signed and dated: the twenty third day of January 1655. Sadler.</note>
-         <note>Annotation on Thomason copy: "Decemb. 1655".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Mayor. Whereas by neglect of executing the good lawes and statutes against rogues, vagabonds, and sturdy beggers, that vermine of this Common-wealth doth now swarme in and about this city and liberties, ...</title>
+      <author>City of London (England). Lord Mayor.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName> Printer to <persName type="patron">honourable city of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Signed and dated: the twenty third day of January 1655. Sadler.</note>
+      <note>Annotation on Thomason copy: "Decemb. 1655".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+    <person type="patron">
+      <persName>honourable city of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

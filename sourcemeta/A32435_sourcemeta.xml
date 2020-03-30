@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation for dissolving this present Parliament and declaring the speedy calling of a new one</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill, Thomas Newcomb, and Henry Hills ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1680 [i.e. 1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our court at Whitehall the eighteenth day of January in the two and thirtieth year of our reign."</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation for dissolving this present Parliament and declaring the speedy calling of a new one</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill</persName>, <persName type="assigns">Thomas Newcomb</persName>, and <persName type="assigns">Henry Hills</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1680 [i.e. 1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our court at Whitehall the eighteenth day of January in the two and thirtieth year of our reign."</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="assigns">
+      <persName>Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

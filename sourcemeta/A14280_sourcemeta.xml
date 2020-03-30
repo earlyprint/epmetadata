@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A divine discoverie of death directing all people to a triumphant resurrection, and euer-lasting saluation.</title>
-         <author>Vaughan, Edward, preacher at St. Mary Woolnoth.</author>
-      </titleStmt>
-      <extent>[16], 197 [i.e. 199], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted [by R. Field] for William Iones [3] and Richard Boyle, dwelling in the Blackfriers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1612">1612.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Edward Vaughan.</note>
-         <note>Printer's name from STC.</note>
-         <note>Pages 94 and 179 repeated in number only.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A divine discoverie of death directing all people to a triumphant resurrection, and euer-lasting saluation.</title>
+      <author>Vaughan, Edward, preacher at St. Mary Woolnoth.</author>
+    </titleStmt>
+    <extent>[16], 197 [i.e. 199], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted [by <persName type="printer">R. Field]</persName> for <persName type="publisher">William Iones [3]</persName> and <persName type="publisher">Richard Boyle</persName>, dwelling in <placeName>the Blackfriers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1612">1612.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Edward Vaughan.</note>
+      <note>Printer's name from STC.</note>
+      <note>Pages 94 and 179 repeated in number only.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Boyle</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Iones [3]</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Field]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blackfriers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

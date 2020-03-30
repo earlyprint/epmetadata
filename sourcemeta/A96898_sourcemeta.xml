@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Lords table. Whether it is to be spread like a table in an inne for all comers? That it ought not so be done is here maintained.</title>
-         <author>Woodward, Ezekias, 1590-1675.</author>
-      </titleStmt>
-      <extent>[2], 73, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M.S. for Henry Cripps in Popes-head Alley.,</publisher>
-         <pubPlace>London; :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Ezekias Woodward.</note>
-         <note>Annotation on Thomason copy: "May. 26".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Lords table. Whether it is to be spread like a table in an inne for all comers? That it ought not so be done is here maintained.</title>
+      <author>Woodward, Ezekias, 1590-1675.</author>
+    </titleStmt>
+    <extent>[2], 73, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.S.</persName> for <persName type="publisher">Henry Cripps</persName> in <placeName>Popes-head Alley.</placeName>,</publisher>
+      <pubPlace>London; :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Ezekias Woodward.</note>
+      <note>Annotation on Thomason copy: "May. 26".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Cripps</persName>
+    </person>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Popes-head Alley.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

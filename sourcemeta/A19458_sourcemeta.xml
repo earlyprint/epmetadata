@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Andrewes caueat to win sinners A true and perfect way to win carelesse sinners (if there be but the least sparke of grace in them) vnto speedy repentance, that in the end they may obtaine eternall life. Directed vnto all the elect children of God, which truly repent. Newly published by Iohn Andrewes preacher of Gods Word. Being first seene and allowed.</title>
-         <author>Andrewes, John, fl. 1615.</author>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Eliot's Court Press] for Iohn Wright, and are to be sold at his shop without Newgate at the signe of the Bible,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer from STC.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Andrewes caueat to win sinners A true and perfect way to win carelesse sinners (if there be but the least sparke of grace in them) vnto speedy repentance, that in the end they may obtaine eternall life. Directed vnto all the elect children of God, which truly repent. Newly published by Iohn Andrewes preacher of Gods Word. Being first seene and allowed.</title>
+      <author>Andrewes, John, fl. 1615.</author>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Eliot's Court Press]</persName> for <persName type="publisher">Iohn Wright</persName>, and are to be sold at <placeName>his shop without Newgate at the signe of the Bible</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer from STC.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>Eliot's Court Press]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop without Newgate at the signe of the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

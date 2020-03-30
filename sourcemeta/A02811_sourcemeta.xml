@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The co[n]uercyon of swerers</title>
-         <author>Hawes, Stephen, d. 1523?</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>In flete strete at the sygne of the sonne by Wynkyn de Worde. prynter vnto ye moost excellent pryncesse my lady the kynges grau[n]dame,</publisher>
-         <pubPlace>[Enprynted at London :</pubPlace>
-         <date when="1509">The yere of our lorde a. M.CCCCC. and .ix.] [1509]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Stephen Hawes, whose name appears on A8r.</note>
-         <note>Imprint from colophon.</note>
-         <note>In verse.</note>
-         <note>A2r line 7: promocyon.</note>
-         <note>Signatures: A.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The co[n]uercyon of swerers</title>
+      <author>Hawes, Stephen, d. 1523?</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>In flete strete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">Wynkyn de Worde.</persName> prynter vnto <placeName>ye moost excellent pryncesse my lady the kynges grau[n]dame</placeName>,</publisher>
+      <pubPlace>[Enprynted at London :</pubPlace>
+      <date when="1509">The yere of our lorde a. M.CCCCC. and .ix.] [1509]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Stephen Hawes, whose name appears on A8r.</note>
+      <note>Imprint from colophon.</note>
+      <note>In verse.</note>
+      <note>A2r line 7: promocyon.</note>
+      <note>Signatures: A.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wynkyn de Worde.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of the sonne</placeName>
+    </place>
+    <place type="location">
+      <placeName>ye moost excellent pryncesse my lady the kynges grau[n]dame</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The semicircle on a sector in two books. Containing the description of a general and portable instrument; whereby most problems (reducible to instrumental practice) in astronomy, trigonometry, arithmetick, geometry, geography, topography, navigation, dyalling, &amp;c. are speedily and exactly resolved. By J. T.</title>
-         <author>Taylor, John, 1666 or 7-1687.</author>
-      </titleStmt>
-      <extent>[8], 144 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for William Tompson, bookseller at Harborough in Leicestershire,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1667">1667.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>J.T. = John Taylor.</note>
-         <note>In two books; Book II has caption title (the first word of which is in Greek characters); register and pagination are continuous.</note>
-         <note>Pages stained with some loss of print.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The semicircle on a sector in two books. Containing the description of a general and portable instrument; whereby most problems (reducible to instrumental practice) in astronomy, trigonometry, arithmetick, geometry, geography, topography, navigation, dyalling, &amp;c. are speedily and exactly resolved. By J. T.</title>
+      <author>Taylor, John, 1666 or 7-1687.</author>
+    </titleStmt>
+    <extent>[8], 144 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">William Tompson</persName>, bookseller at <placeName>Harborough in Leicestershire</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1667">1667.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>J.T. = John Taylor.</note>
+      <note>In two books; Book II has caption title (the first word of which is in Greek characters); register and pagination are continuous.</note>
+      <note>Pages stained with some loss of print.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Tompson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Harborough in Leicestershire</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

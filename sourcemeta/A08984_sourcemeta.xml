@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true subiects wish For the happy successe of our Royall Army preparing to resist the factious rebellion of those insolent covenanters (against the sacred Maiesty, of our gracious and loving king Charles) in Scotland. To the tune of, O How now Mars, &amp;c.</title>
-         <author>M. P. (Martin Parker), d. 1656?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>By E. G[riffin] and are to be sold [by T. Lambert] at the Horse-shoe in Smithfield,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1640">[1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: M.P., i.e. Martin Parker.</note>
-         <note>A ballad.</note>
-         <note>In two parts.</note>
-         <note>Printer's and bookseller's names and publication date from STC.</note>
-         <note>Verse - "If ever England had occasion,".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true subiects wish For the happy successe of our Royall Army preparing to resist the factious rebellion of those insolent covenanters (against the sacred Maiesty, of our gracious and loving king Charles) in Scotland. To the tune of, O How now Mars, &amp;c.</title>
+      <author>M. P. (Martin Parker), d. 1656?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">E. G[riffin]</persName> and are to be sold [by <persName type="bookseller">T. Lambert]</persName> at <placeName>the Horse-shoe in Smithfield</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1640">[1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: M.P., i.e. Martin Parker.</note>
+      <note>A ballad.</note>
+      <note>In two parts.</note>
+      <note>Printer's and bookseller's names and publication date from STC.</note>
+      <note>Verse - "If ever England had occasion,".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. G[riffin]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Lambert]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Horse-shoe in Smithfield</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

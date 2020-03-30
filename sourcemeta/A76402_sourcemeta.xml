@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A message from the Lord General Crumwel to the communalty of the kingdom of Scotland. With the advance of Col. Hackers regiment to the borders. And a fight between a party of the Parliaments horse, and some of the Scots forces, on the borders of Scotland also the Lord Generals alarm to the Scots and a proclamation made at the cross of Edenburgh touching the coronation of their King.</title>
-         <author>T. B.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.J. and are to be sold at the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on p. 6: T.B.</note>
-         <note>Annotation on Thomason copy: "July 23".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A message from the Lord General Crumwel to the communalty of the kingdom of Scotland. With the advance of Col. Hackers regiment to the borders. And a fight between a party of the Parliaments horse, and some of the Scots forces, on the borders of Scotland also the Lord Generals alarm to the Scots and a proclamation made at the cross of Edenburgh touching the coronation of their King.</title>
+      <author>T. B.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.J.</persName> and are to be sold at <placeName>the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on p. 6: T.B.</note>
+      <note>Annotation on Thomason copy: "July 23".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J.J.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

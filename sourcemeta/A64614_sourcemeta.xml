@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter to a member of the convocation of the University of Oxford containing the case of a late fellow elect of University-College in that University.</title>
-         <author>C. U. (Charles Usher), b. 1674 or 5.</author>
-      </titleStmt>
-      <extent>[2], 31 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed, and to be sold by John Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Signed: C.U.</note>
-         <note>Attributed to Charles Usher by Halket and Laing.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter to a member of the convocation of the University of Oxford containing the case of a late fellow elect of University-College in that University.</title>
+      <author>C. U. (Charles Usher), b. 1674 or 5.</author>
+    </titleStmt>
+    <extent>[2], 31 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed, and to be sold by <persName type="bookseller">John Nutt</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Signed: C.U.</note>
+      <note>Attributed to Charles Usher by Halket and Laing.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>John Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse on the woollen manufactury of Ireland and the consequences of prohibiting its exportation</title>
-         <author>Hovell, John.</author>
-      </titleStmt>
-      <extent>15 p.   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by J.B. and S.P. and are to be sold by Jacob Milner,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cashel Cathedral, Ireland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse on the woollen manufactury of Ireland and the consequences of prohibiting its exportation</title>
+      <author>Hovell, John.</author>
+    </titleStmt>
+    <extent>15 p.   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">J.B.</persName> and <persName type="printer">S.P.</persName> and are to be sold by <persName type="bookseller">Jacob Milner</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cashel Cathedral, Ireland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+    <person type="printer">
+      <persName>S.P.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Jacob Milner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

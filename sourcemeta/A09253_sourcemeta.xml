@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of the prouidence of God Preached at Paules Crosse, the 25. of October. 1607. By Iohn Pelling Bacchalaur of Diuinitie.</title>
-         <author>Pelling, John, 1561 or 2-1621.</author>
-      </titleStmt>
-      <extent>[8], 46, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes for Nathaniell Butter, dwelling at the signe of the Pide Bull neere S. Austins gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1607">1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of the prouidence of God Preached at Paules Crosse, the 25. of October. 1607. By Iohn Pelling Bacchalaur of Diuinitie.</title>
+      <author>Pelling, John, 1561 or 2-1621.</author>
+    </titleStmt>
+    <extent>[8], 46, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName> for <persName type="publisher">Nathaniell Butter</persName>, dwelling at <placeName>the signe of the Pide Bull neere S. Austins gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1607">1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniell Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Pide Bull neere S. Austins gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise of the nobilitie of the realme collected out of the body of the common law, with mention of such statutes as are incident hereunto, upon a debate of the Barony of Aburgavenny : with a table of the heads contained in this treatise.</title>
-         <title>Magazine of honour</title>
-         <author>Bird, William, 17th cent.</author>
-      </titleStmt>
-      <extent>[4], 157 p. : ill., geneal. tables.  </extent>
-      <publicationStmt>
-         <publisher>Printed by A.N. for Mathew Walbanke and Richard Best, and are to be sold at their shops ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Also published in the same year, with additions, as: The magazine of honour, or, A treatise of the severall degrees of the nobility of this kingdome; another edition appeared in 1658 as: Judge Dodaridge, his law of nobility and peerage, wherein the antiquities, titles, degrees, and distinctions concerning the peeres and the nobility of this nation are set forth ... according to the lawes and customes of England.</note>
-         <note>Attributed to W. Bird. Cf. BM.</note>
-         <note>Reproduction of original in British Library.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise of the nobilitie of the realme collected out of the body of the common law, with mention of such statutes as are incident hereunto, upon a debate of the Barony of Aburgavenny : with a table of the heads contained in this treatise.</title>
+      <title>Magazine of honour</title>
+      <author>Bird, William, 17th cent.</author>
+    </titleStmt>
+    <extent>[4], 157 p. : ill., geneal. tables.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.N.</persName> for <persName type="publisher">Mathew Walbanke</persName> and <persName type="publisher">Richard Best</persName>, and are to be sold at <placeName>their shops</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Also published in the same year, with additions, as: The magazine of honour, or, A treatise of the severall degrees of the nobility of this kingdome; another edition appeared in 1658 as: Judge Dodaridge, his law of nobility and peerage, wherein the antiquities, titles, degrees, and distinctions concerning the peeres and the nobility of this nation are set forth ... according to the lawes and customes of England.</note>
+      <note>Attributed to W. Bird. Cf. BM.</note>
+      <note>Reproduction of original in British Library.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mathew Walbanke</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Best</persName>
+    </person>
+    <person type="printer">
+      <persName>A.N.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shops</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

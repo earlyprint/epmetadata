@@ -1,26 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tabula</title>
-         <title>Chronicles of England.</title>
-         <author>Higden, Ranulf, d. 1364. Polycronicon. English. Selections.</author>
-         <author>Trevisa, Johncd. 1402.</author>
-      </titleStmt>
-      <extent>[194] leaves   </extent>
-      <publicationStmt>
-         <publisher>[Enprynted by one some tyme scole mayster of saynt Albons, vppon whoos soule god haue mercy. Amen. And newely in the yere of our lorde god. M.CCCCC.ii. Enprynted in fleete strete in [the] sygne of the sone. By me Wynkyn de Worde,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1502">[1502]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name and publication date from colophon.</note>
-         <note>Heading, 2a2r: Here begynneth a short [and] a breue table on these Cronycles, .. .</note>
-         <note>Also known as "Brut".</note>
-         <note>In two parts, each with separate register; part 2 reprints STC 13440b: Higden, Ranulf.  "The descrypcyon of Englonde" (selections, translated by John Trevisa, from "Polycronicon").</note>
-         <note>Signatures: 2A&#8310;, a-z&#8310;, [par.]&#8310; 2a-2b&#8310; 2c A-C&#8310; D&#8308;.</note>
-         <note>Leaves 2A1, 2C8 and D4 are blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tabula</title>
+      <title>Chronicles of England.</title>
+      <author>Higden, Ranulf, d. 1364. Polycronicon. English. Selections.</author>
+      <author>Trevisa, Johncd. 1402.</author>
+    </titleStmt>
+    <extent>[194] leaves   </extent>
+    <publicationStmt>
+      <publisher>[Enprynted by <persName type="printer">one some tyme scole mayster of saynt Albons, vppon whoos soule god haue mercy. Amen. And newely</persName> in <placeName>the yere of our lorde god. M.CCCCC.ii. Enprynted in fleete strete in [the] sygne of the sone. By me Wynkyn de Worde</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1502">[1502]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name and publication date from colophon.</note>
+      <note>Heading, 2a2r: Here begynneth a short [and] a breue table on these Cronycles, .. .</note>
+      <note>Also known as "Brut".</note>
+      <note>In two parts, each with separate register; part 2 reprints STC 13440b: Higden, Ranulf.  "The descrypcyon of Englonde" (selections, translated by John Trevisa, from "Polycronicon").</note>
+      <note>Signatures: 2A&#8310;, a-z&#8310;, [par.]&#8310; 2a-2b&#8310; 2c A-C&#8310; D&#8308;.</note>
+      <note>Leaves 2A1, 2C8 and D4 are blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>one some tyme scole mayster of saynt Albons, vppon whoos soule god haue mercy. Amen. And newely</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the yere of our lorde god. M.CCCCC.ii. Enprynted in fleete strete in [the] sygne of the sone. By me Wynkyn de Worde</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A most strange and wonderfull herring taken on the 26. day of Nouember 1597, neere vnto Drenton sometime the old and chiefe cittie of the kingdome of Norway. Hauing on the one side the picture of two armed men fighting, and on the other most strange characters, as in the picture is here expressed. First printed in Dutch at Roterdam by Ian van Doetecam. And now translated into English.</title>
-         <author>Doetecam, Jan van.</author>
-      </titleStmt>
-      <extent>[8] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Imprinted by [J. Windet for] Iohn Wolfe,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1598">1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Actual printer's name from STC.</note>
-         <note>With woodcut on last leaf.</note>
-         <note>Signatures: A&#8308;.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A most strange and wonderfull herring taken on the 26. day of Nouember 1597, neere vnto Drenton sometime the old and chiefe cittie of the kingdome of Norway. Hauing on the one side the picture of two armed men fighting, and on the other most strange characters, as in the picture is here expressed. First printed in Dutch at Roterdam by Ian van Doetecam. And now translated into English.</title>
+      <author>Doetecam, Jan van.</author>
+    </titleStmt>
+    <extent>[8] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">[J. Windet</persName> for<persName type="publisher">] Iohn Wolfe</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1598">1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Actual printer's name from STC.</note>
+      <note>With woodcut on last leaf.</note>
+      <note>Signatures: A&#8308;.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Wolfe</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Windet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

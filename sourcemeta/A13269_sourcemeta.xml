@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rich mans vvarning-peece A sermon, vpon occasion, formerly preached, and now published, by the author, Humfrey Sydenham, late fellow of Wadham Colledge in Oxford.</title>
-         <author>Sydenham, Humphrey, 1591-1650?</author>
-      </titleStmt>
-      <extent>[8], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kyngston [and William Stansby] for Nathanael Butter,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Stansby printed quires C-F (STC).</note>
-         <note>The first leaf is blank.</note>
-         <note>Also issued as part of "Sermons by Humph. Sydenham" (STC 23572); the general title page for the latter was printed as F4 of this item.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rich mans vvarning-peece A sermon, vpon occasion, formerly preached, and now published, by the author, Humfrey Sydenham, late fellow of Wadham Colledge in Oxford.</title>
+      <author>Sydenham, Humphrey, 1591-1650?</author>
+    </titleStmt>
+    <extent>[8], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kyngston</persName> [and <persName type="printer">William Stansby]</persName> for <persName type="publisher">Nathanael Butter</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Stansby printed quires C-F (STC).</note>
+      <note>The first leaf is blank.</note>
+      <note>Also issued as part of "Sermons by Humph. Sydenham" (STC 23572); the general title page for the latter was printed as F4 of this item.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathanael Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kyngston</persName>
+    </person>
+    <person type="printer">
+      <persName>William Stansby]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

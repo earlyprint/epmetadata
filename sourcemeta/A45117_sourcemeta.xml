@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem dedicated to the immortal memory of Her Late Majesty the Most Incomparable Q. Mary by Mr. Hume.</title>
-         <author>Hume, Patrick, fl. 1695.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Jacob Tonson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem dedicated to the immortal memory of Her Late Majesty the Most Incomparable Q. Mary by Mr. Hume.</title>
+      <author>Hume, Patrick, fl. 1695.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Jacob Tonson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jacob Tonson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

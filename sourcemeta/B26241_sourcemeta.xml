@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A memorial from His Most Christian Majesty presented by the Count de Briord, his Ambassador Extraordinary to the States General of the United Provinces at the Hague, December 4, 1700 containing his reasons for accepting the late King of Spain's will in favour of the Duke of Anjou.</title>
-         <author>France. Sovereign (1643-1715 : Louis XIV)</author>
-         <author>Louis XIV, King of France, 1638-1715.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by J. Nutt ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Price 4d."</note>
-         <note>Reproductions of originals in the Bodleian Library (reel 1152) and Henry E. Huntington Library and Art Gallery (reel 1835).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A memorial from His Most Christian Majesty presented by the Count de Briord, his Ambassador Extraordinary to the States General of the United Provinces at the Hague, December 4, 1700 containing his reasons for accepting the late King of Spain's will in favour of the Duke of Anjou.</title>
+      <author>France. Sovereign (1643-1715 : Louis XIV)</author>
+      <author>Louis XIV, King of France, 1638-1715.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">J. Nutt</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Price 4d."</note>
+      <note>Reproductions of originals in the Bodleian Library (reel 1152) and Henry E. Huntington Library and Art Gallery (reel 1835).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J. Nutt</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Nutt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

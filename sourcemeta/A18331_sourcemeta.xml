@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Spanish bavvd, represented in Celestina: or, The tragicke-comedy of Calisto and Melibea Wherein is contained, besides the pleasantnesse and sweetnesse of the stile, many philosophicall sentences, and profitable instructions necessary for the younger sort: shewing the deceits and subtilties housed in the bosomes of false seruants, and cunny-catching bawds.</title>
-         <title>Celestina. English</title>
-         <author>Rojas, Fernando de, d. 1541.</author>
-         <author>Mabbe, James, 1572-1642?</author>
-      </titleStmt>
-      <extent>[16], 202, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] B[eale] and are to be sold by Robert Allot at the signe of the Beare in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of "Celestina", attributed to Fernando de Rojas.</note>
-         <note>Translator's dedication signed: Don diego Puede-ser, i.e. James Mabbe.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>A variant of the edition with "sold by Ralph Mabbe" in the imprint.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Spanish bavvd, represented in Celestina: or, The tragicke-comedy of Calisto and Melibea Wherein is contained, besides the pleasantnesse and sweetnesse of the stile, many philosophicall sentences, and profitable instructions necessary for the younger sort: shewing the deceits and subtilties housed in the bosomes of false seruants, and cunny-catching bawds.</title>
+      <title>Celestina. English</title>
+      <author>Rojas, Fernando de, d. 1541.</author>
+      <author>Mabbe, James, 1572-1642?</author>
+    </titleStmt>
+    <extent>[16], 202, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] B[eale]</persName> and are to be sold by <persName type="bookseller">Robert Allot</persName> at <placeName>the signe of the Beare in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of "Celestina", attributed to Fernando de Rojas.</note>
+      <note>Translator's dedication signed: Don diego Puede-ser, i.e. James Mabbe.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>A variant of the edition with "sold by Ralph Mabbe" in the imprint.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>I[ohn] B[eale]</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Robert Allot</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Beare in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

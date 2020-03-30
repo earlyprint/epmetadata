@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The divine cosmographer; or, A brief survey of the whole world delineated in a tractate on the VIII Psalme: by W.H. sometimes of S. Peters Colledge in Cambridge.</title>
-         <author>Hodson, William, fl. 1625-1640.</author>
-         <author>Marshall, William, fl. 1617-1650, engraver.</author>
-      </titleStmt>
-      <extent>[16], 154 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Roger Daniel, printer to the Universitie of Cambridge,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>W.H. = William Hodson, whose name appears in full in the preliminary verses.</note>
-         <note>With an additional title page, engraved and signed "W.M. sculpsit" (i.e. William Marshall), with imprint: Printed for Andrew Crooke [London]. 1640.</note>
-         <note>The first five preliminary leaves include the engraved title page and a conjugate explanation, two leaves of verses, and an imprimatur leaf. Copies lacking some or all of these may represent early states.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The divine cosmographer; or, A brief survey of the whole world delineated in a tractate on the VIII Psalme: by W.H. sometimes of S. Peters Colledge in Cambridge.</title>
+      <author>Hodson, William, fl. 1625-1640.</author>
+      <author>Marshall, William, fl. 1617-1650, engraver.</author>
+    </titleStmt>
+    <extent>[16], 154 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Roger Daniel</persName>, printer to <persName type="patron">the Universitie of Cambridge</persName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>W.H. = William Hodson, whose name appears in full in the preliminary verses.</note>
+      <note>With an additional title page, engraved and signed "W.M. sculpsit" (i.e. William Marshall), with imprint: Printed for Andrew Crooke [London]. 1640.</note>
+      <note>The first five preliminary leaves include the engraved title page and a conjugate explanation, two leaves of verses, and an imprimatur leaf. Copies lacking some or all of these may represent early states.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Roger Daniel</persName>
+    </person>
+    <person type="patron">
+      <persName>the Universitie of Cambridge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

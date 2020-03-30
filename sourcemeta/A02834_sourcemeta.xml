@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vision of Balaams asse VVherein hee did perfectly see the present estate of the Church of Rome. Written by Peter Hay Gentleman of North-Britaine, for the reformation of his countrymen. Specially of that truly noble and sincere lord, Francis Earle of Errol, Lord Hay, and great Constable of Scotland.</title>
-         <author>Hay, Peter, gentleman of North-Britaine.</author>
-      </titleStmt>
-      <extent>[24], 286, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Eliot's Court Press] for Iohn Bill. Cum priuilegio,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1616">1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Identification of printer from STC.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vision of Balaams asse VVherein hee did perfectly see the present estate of the Church of Rome. Written by Peter Hay Gentleman of North-Britaine, for the reformation of his countrymen. Specially of that truly noble and sincere lord, Francis Earle of Errol, Lord Hay, and great Constable of Scotland.</title>
+      <author>Hay, Peter, gentleman of North-Britaine.</author>
+    </titleStmt>
+    <extent>[24], 286, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Eliot's Court Press]</persName> for <persName type="publisher">Iohn Bill.</persName> Cum priuilegio,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1616">1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Identification of printer from STC.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bill.</persName>
+    </person>
+    <person type="printer">
+      <persName>Eliot's Court Press]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

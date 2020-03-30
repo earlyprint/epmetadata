@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A mustre of scismatyke bysshopes of Rome otherwyse naming them selues popes, moche necessarye to be redde of al the kynges true subiectes. Cum priuilegio.</title>
-         <author>Swinnerton, Thomas, d. 1554.</author>
-         <author>Robertes, Johan, pseud.</author>
-      </titleStmt>
-      <extent>[88] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprynted by wynkyn de worde, for] Johan Byddell [otherwyse Salisbury,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1534">[1534]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Johan Robertes [i.e. Thomas Swinnerton].</note>
-         <note>Although leaf A1v describes contents as "First a prologue. .. After that a goodly hystory .. of pope Gregory the seuenth, written in the latyn tongue, by .. Beno, cardynall .. Last .. the lyfe of ye fourth Henry, emperour of Rome .." [also by Cardinal Benno], contents actually consist of prologue only.</note>
-         <note>Imprint from colophon; Byddell's name from title page; publication date from STC.</note>
-         <note>Running title reads: The prologue of the translatour.</note>
-         <note>Signatures: A-E F&#8308;.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A mustre of scismatyke bysshopes of Rome otherwyse naming them selues popes, moche necessarye to be redde of al the kynges true subiectes. Cum priuilegio.</title>
+      <author>Swinnerton, Thomas, d. 1554.</author>
+      <author>Robertes, Johan, pseud.</author>
+    </titleStmt>
+    <extent>[88] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprynted by <persName type="printer">wynkyn de worde</persName>, for<persName type="publisher">] Johan Byddell [otherwyse Salisbury</persName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1534">[1534]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Johan Robertes [i.e. Thomas Swinnerton].</note>
+      <note>Although leaf A1v describes contents as "First a prologue. .. After that a goodly hystory .. of pope Gregory the seuenth, written in the latyn tongue, by .. Beno, cardynall .. Last .. the lyfe of ye fourth Henry, emperour of Rome .." [also by Cardinal Benno], contents actually consist of prologue only.</note>
+      <note>Imprint from colophon; Byddell's name from title page; publication date from STC.</note>
+      <note>Running title reads: The prologue of the translatour.</note>
+      <note>Signatures: A-E F&#8308;.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Johan Byddell [otherwyse Salisbury</persName>
+    </person>
+    <person type="printer">
+      <persName>wynkyn de worde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Miranda, stupenda. Or, The wonderfull and astonishing mercies which the Lord hath wrought for England, in subduing and captivating the pride, power and policy of his enemies. Presented in a sermon preached July 21. 1646. before the honorable House of Commons in Margarets Church Westm. being the day appointed for thanksgiving for the surrender of Oxford. / By Henry Wilkinson, B.D. pastor of Dunstans in the East, London, and one of the Assembly of Divines.</title>
-         <author>Wilkinson, Henry, 1610-1675.</author>
-      </titleStmt>
-      <extent>[8], 38, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.B. for Christopher Meredith and Samuel Gellibrand in Pauls Church-yard,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank.</note>
-         <note>Order to print on recto of final leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Miranda, stupenda. Or, The wonderfull and astonishing mercies which the Lord hath wrought for England, in subduing and captivating the pride, power and policy of his enemies. Presented in a sermon preached July 21. 1646. before the honorable House of Commons in Margarets Church Westm. being the day appointed for thanksgiving for the surrender of Oxford. / By Henry Wilkinson, B.D. pastor of Dunstans in the East, London, and one of the Assembly of Divines.</title>
+      <author>Wilkinson, Henry, 1610-1675.</author>
+    </titleStmt>
+    <extent>[8], 38, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.B.</persName> for <persName type="publisher">Christopher Meredith</persName> and <persName type="publisher">Samuel Gellibrand</persName> in <placeName>Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>Order to print on recto of final leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Samuel Gellibrand</persName>
+    </person>
+    <person type="printer">
+      <persName>T.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

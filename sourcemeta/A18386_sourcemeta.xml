@@ -1,22 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Palestina Written by Mr. R.C.P. and Bachelor of Diuinitie</title>
-         <author>Chambers, Robert, 1571-1624?</author>
-      </titleStmt>
-      <extent>[4], 200, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Bartelmew Sermartelli [i.e. J. Windet],</publisher>
-         <pubPlace>Florence [i.e. London] :</pubPlace>
-         <date when="1600">1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A romance founded on the gospels.</note>
-         <note>R.C.P. = Robert Chambers Priest.</note>
-         <note>Author's name and actual place of publication and printer from STC.</note>
-         <note>A1, 2, cancelled in British Library, Cambridge University Library, Bodleian Library, Folger Shakespeare Library, Harvard University Library, and perhaps all copies, possibly contained a different title and first leaf of text--STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Palestina Written by Mr. R.C.P. and Bachelor of Diuinitie</title>
+      <author>Chambers, Robert, 1571-1624?</author>
+    </titleStmt>
+    <extent>[4], 200, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Bartelmew Sermartelli [i.e. J. Windet]</persName>,</publisher>
+      <pubPlace>Florence [i.e. London] :</pubPlace>
+      <date when="1600">1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A romance founded on the gospels.</note>
+      <note>R.C.P. = Robert Chambers Priest.</note>
+      <note>Author's name and actual place of publication and printer from STC.</note>
+      <note>A1, 2, cancelled in British Library, Cambridge University Library, Bodleian Library, Folger Shakespeare Library, Harvard University Library, and perhaps all copies, possibly contained a different title and first leaf of text--STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bartelmew Sermartelli [i.e. J. Windet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

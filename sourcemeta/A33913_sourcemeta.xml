@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Miscellanies upon moral subjects by Jeremy Collier ...</title>
-         <author>Collier, Jeremy, 1650-1726.</author>
-      </titleStmt>
-      <extent>[4], 188 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Sam. Keeble ... and Jo. Hindmarsh ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Published in parts. The first pt. was published as: Miscellanies, in five essays. 1694.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Miscellanies upon moral subjects by Jeremy Collier ...</title>
+      <author>Collier, Jeremy, 1650-1726.</author>
+    </titleStmt>
+    <extent>[4], 188 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Sam. Keeble</persName> ... and <persName type="publisher">Jo. Hindmarsh</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Published in parts. The first pt. was published as: Miscellanies, in five essays. 1694.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jo. Hindmarsh</persName>
+    </person>
+    <person type="publisher">
+      <persName>Sam. Keeble</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

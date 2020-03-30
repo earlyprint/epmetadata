@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and full relation of the manner of the taking of the towne and castle of Shrewsbury. With the conditions on which the castle, and fort at Frankvill, were surrendered. As also, a list of the names of the severall commanders, officers, knights, esquires, gentlemen, and others, that were taken prisoners. Printed according to order.</title>
-      </titleStmt>
-      <extent>8 [i.e. 10] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.R. for Christopher Meredith, at the signe of the Crane in Pauls-Churchyard.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 10 misnumbered 8.</note>
-         <note>Annotation on Thomason copy: "March 4th 1644"; the 5 in imprint date is crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true and full relation of the manner of the taking of the towne and castle of Shrewsbury. With the conditions on which the castle, and fort at Frankvill, were surrendered. As also, a list of the names of the severall commanders, officers, knights, esquires, gentlemen, and others, that were taken prisoners. Printed according to order.</title>
+    </titleStmt>
+    <extent>8 [i.e. 10] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R.</persName> for <persName type="publisher">Christopher Meredith</persName>, at <placeName>the signe of the Crane in Pauls-Churchyard.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 10 misnumbered 8.</note>
+      <note>Annotation on Thomason copy: "March 4th 1644"; the 5 in imprint date is crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Crane in Pauls-Churchyard.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A nevv vvonder, a woman never vext A pleasant conceited comedy: sundry times acted: never before printed. Written by VVilliam Rowley, one of his Maiesties servants.</title>
-         <author>Rowley, William, 1585?-1642?</author>
-      </titleStmt>
-      <extent>[2], 81, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by G[eorge] P[urslowe] for Francis Constable, and are to be sold at his shop at the signe of the Crane in Saint Pauls Churchyard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>With a tail-piece on L2r. Variant: lacking tail-piece.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A nevv vvonder, a woman never vext A pleasant conceited comedy: sundry times acted: never before printed. Written by VVilliam Rowley, one of his Maiesties servants.</title>
+      <author>Rowley, William, 1585?-1642?</author>
+    </titleStmt>
+    <extent>[2], 81, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">G[eorge] P[urslowe]</persName> for <persName type="publisher">Francis Constable</persName>, and are to be sold at <placeName>his shop at the signe of the Crane in Saint Pauls Churchyard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>With a tail-piece on L2r. Variant: lacking tail-piece.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>G[eorge] P[urslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop at the signe of the Crane in Saint Pauls Churchyard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

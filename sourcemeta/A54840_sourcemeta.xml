@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An effectual prescription against the anguish of all diseases and against all other afflictions to which the nature of man is subject. Penn'd, and publish'd, and approv'd, from the author's experience of it: but more especially from the experience of very many much greater and better men, the latchet of whose shoes he is not worthy to untie.</title>
-         <author>Pierce, Thomas, 1622-1691.</author>
-      </titleStmt>
-      <extent>27, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Leon. Lichfield, for Samuel Clark, bookseller,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1691">an. Dom. 1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing to Thomas Pierce.</note>
-         <note>Reproduction of the original at Dr. Williams' Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An effectual prescription against the anguish of all diseases and against all other afflictions to which the nature of man is subject. Penn'd, and publish'd, and approv'd, from the author's experience of it: but more especially from the experience of very many much greater and better men, the latchet of whose shoes he is not worthy to untie.</title>
+      <author>Pierce, Thomas, 1622-1691.</author>
+    </titleStmt>
+    <extent>27, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Leon. Lichfield</persName>, for <persName type="publisher">Samuel Clark</persName>, bookseller,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1691">an. Dom. 1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing to Thomas Pierce.</note>
+      <note>Reproduction of the original at Dr. Williams' Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Clark</persName>
+    </person>
+    <person type="printer">
+      <persName>Leon. Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

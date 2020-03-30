@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A hyue full of hunnye contayning the firste booke of Moses, called Genesis. Turned into English meetre, by VVilliam Hunnis, one of the Gent. of her Maiesties Chappel, and Maister to the Children of the same. Seene and allowed, accordinge to the order appointed.</title>
-         <author>Hunnis, William, d. 1597.</author>
-      </titleStmt>
-      <extent>[4], 132 leaves : genealogical tables  </extent>
-      <publicationStmt>
-         <publisher>In Fleetstreete, neere vnto Sainct Dunstanes Church, by Thomas Marsh,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1578">1578. Cum priuilegio.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Leaf pi3s had "Nevvton" in roman; 2K4v is blank. Variant 1: title page has "honye". Variant 2: leaf pi3v has "Newton" in italic. Variant 3: 2K4v has errata.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A hyue full of hunnye contayning the firste booke of Moses, called Genesis. Turned into English meetre, by VVilliam Hunnis, one of the Gent. of her Maiesties Chappel, and Maister to the Children of the same. Seene and allowed, accordinge to the order appointed.</title>
+      <author>Hunnis, William, d. 1597.</author>
+    </titleStmt>
+    <extent>[4], 132 leaves : genealogical tables  </extent>
+    <publicationStmt>
+      <publisher>In Fleetstreete, neere <placeName>vnto Sainct Dunstanes Church</placeName>, by <persName type="printer">Thomas Marsh</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1578">1578. Cum priuilegio.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Leaf pi3s had "Nevvton" in roman; 2K4v is blank. Variant 1: title page has "honye". Variant 2: leaf pi3v has "Newton" in italic. Variant 3: 2K4v has errata.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Marsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>vnto Sainct Dunstanes Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

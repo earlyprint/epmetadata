@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The spirituall favorite at the throne of grace. By the late learned, and reverend divine Richard Sibbs Doctor in Divinity. Published by the authors owne appointment, subscribed with his hand; to prevent unperfect copies</title>
-         <author>Sibbes, Richard, 1577-1635.</author>
-      </titleStmt>
-      <extent>[2], 101, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Paine, for Ralph Mabb,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Cmabridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The spirituall favorite at the throne of grace. By the late learned, and reverend divine Richard Sibbs Doctor in Divinity. Published by the authors owne appointment, subscribed with his hand; to prevent unperfect copies</title>
+      <author>Sibbes, Richard, 1577-1635.</author>
+    </titleStmt>
+    <extent>[2], 101, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Paine</persName>, for <persName type="publisher">Ralph Mabb</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Cmabridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Mabb</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Paine</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

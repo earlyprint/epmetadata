@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems, divine and humane by Thomas Beedome.</title>
-         <author>Beedome, Thomas, d. 1641?</author>
-         <author>Glapthorne, Henry.</author>
-      </titleStmt>
-      <extent>[127] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.P. for Iohn Sweeting, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The jealous lover, or, The constant maid" (p. [32]), has special t.p.</note>
-         <note>"To the reader" signed: Hen. Glopthorne.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems, divine and humane by Thomas Beedome.</title>
+      <author>Beedome, Thomas, d. 1641?</author>
+      <author>Glapthorne, Henry.</author>
+    </titleStmt>
+    <extent>[127] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.P.</persName> for <persName type="publisher">Iohn Sweeting</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The jealous lover, or, The constant maid" (p. [32]), has special t.p.</note>
+      <note>"To the reader" signed: Hen. Glopthorne.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Sweeting</persName>
+    </person>
+    <person type="printer">
+      <persName>E.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

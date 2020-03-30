@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The comforts of divine love Preach'd upon the occasion of the much lamented death of the reverend Mr. Timothy Manlove. With his character, done by another hand.</title>
-         <author>Gilpin, Richard, 1625-1700.</author>
-      </titleStmt>
-      <extent>[8], 46 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed for Tho. Parkhurst at the Bible and Three Crowns in Cheapside near Mercers-Chapel. And Sarah Button bookseller at New-Castle upon Tyne,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Richard Gilpin.</note>
-         <note>Ill. = engraved frontispiece.</note>
-         <note>Running title reads: A sermon upon the death of Mr. Timothy Manlove.</note>
-         <note>Reproduction of the original in Dr. Williams's Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The comforts of divine love Preach'd upon the occasion of the much lamented death of the reverend Mr. Timothy Manlove. With his character, done by another hand.</title>
+      <author>Gilpin, Richard, 1625-1700.</author>
+    </titleStmt>
+    <extent>[8], 46 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Tho. Parkhurst</persName> at <placeName>the Bible</placeName> and <persName type="publisher">Three Crowns</persName> in <placeName>Cheapside near Mercers-Chapel. And Sarah Button bookseller at New-Castle upon Tyne</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Richard Gilpin.</note>
+      <note>Ill. = engraved frontispiece.</note>
+      <note>Running title reads: A sermon upon the death of Mr. Timothy Manlove.</note>
+      <note>Reproduction of the original in Dr. Williams's Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+    <person type="publisher">
+      <persName>Three Crowns</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cheapside near Mercers-Chapel. And Sarah Button bookseller at New-Castle upon Tyne</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

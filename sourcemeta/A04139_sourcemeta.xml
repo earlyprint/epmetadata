@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hiren: or The faire Greeke: By William Barksted, one of the seruants of his Maiesties reuels</title>
-         <author>Barksted, William, fl. 1611.</author>
-      </titleStmt>
-      <extent>[44] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by N. Okes] for Roger Barnes, and are to be sold at his shop in Chancery lane, ouer against the Rolles,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-B C&#8310;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hiren: or The faire Greeke: By William Barksted, one of the seruants of his Maiesties reuels</title>
+      <author>Barksted, William, fl. 1611.</author>
+    </titleStmt>
+    <extent>[44] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">N. Okes]</persName> for <persName type="publisher">Roger Barnes</persName>, and are to be sold at <placeName>his shop in Chancery lane, ouer against the Rolles</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-B C&#8310;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Barnes</persName>
+    </person>
+    <person type="printer">
+      <persName>N. Okes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Chancery lane, ouer against the Rolles</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The case of Ware and Sherley as it was set forth in matter of fact and argued in several points of law in the consistory of Dublin, in Michaelmas term 1668. By Dudley Loftus, J.U.D.</title>
-         <author>Loftus, Dudley, 1619-1695.</author>
-      </titleStmt>
-      <extent>31, [3], 37-93, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Benjamin Tooke, printer to the Kings most Excellent Majesty, and are to be sold by Samuel Dancer, in Castle-street,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1669">1669.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The case of Mary Ware, and Iames Shirly; as it was argued," has seperate title page on pg. 35.</note>
-         <note>Quire A contains an extra leaf.</note>
-         <note>Imperfect: signature D4 lacking; signature D3 has catchword "WE".</note>
-         <note>Reproduction of the original at the Lambeth Palace Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The case of Ware and Sherley as it was set forth in matter of fact and argued in several points of law in the consistory of Dublin, in Michaelmas term 1668. By Dudley Loftus, J.U.D.</title>
+      <author>Loftus, Dudley, 1619-1695.</author>
+    </titleStmt>
+    <extent>31, [3], 37-93, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Benjamin Tooke</persName>, printer to <persName type="patron">the Kings most Excellent Majesty</persName>, and are to be sold by <persName type="bookseller">Samuel Dancer</persName>, in <placeName>Castle-street</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1669">1669.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The case of Mary Ware, and Iames Shirly; as it was argued," has seperate title page on pg. 35.</note>
+      <note>Quire A contains an extra leaf.</note>
+      <note>Imperfect: signature D4 lacking; signature D3 has catchword "WE".</note>
+      <note>Reproduction of the original at the Lambeth Palace Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Dancer</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

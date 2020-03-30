@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Yadidyah or, The beloved disciple A sermon preached at the funerall of the Honourable Sir Robert Harley, Knight of the Honourable Order of the Bath; at Brampton-Brian in Hereford-shire. December 10. 1656. By Thomas Froysell, minister of the Gospell at Clun in Shropshire.</title>
-         <author>Froysell, Thomas, d. ca. 1672.</author>
-      </titleStmt>
-      <extent>[24], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by M.S. for Thomas Parkhurst at the three Crowns over against the Great Conduit at the lower end of Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first word of title is in Hebrew characters.</note>
-         <note>With a preliminary imprimatur leaf.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Yadidyah or, The beloved disciple A sermon preached at the funerall of the Honourable Sir Robert Harley, Knight of the Honourable Order of the Bath; at Brampton-Brian in Hereford-shire. December 10. 1656. By Thomas Froysell, minister of the Gospell at Clun in Shropshire.</title>
+      <author>Froysell, Thomas, d. ca. 1672.</author>
+    </titleStmt>
+    <extent>[24], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M.S.</persName> for <persName type="publisher">Thomas Parkhurst</persName> at <placeName>the three Crowns over against the Great Conduit at the lower end of Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first word of title is in Hebrew characters.</note>
+      <note>With a preliminary imprimatur leaf.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the three Crowns over against the Great Conduit at the lower end of Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

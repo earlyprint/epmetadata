@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gods valuation of mans soule</title>
-         <author>Capell, Moses.</author>
-      </titleStmt>
-      <extent>[14], 38 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. I[ones] for Nicolas Bourne, and are to be solde at the south entrance of the Royall Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: M. Capell.</note>
-         <note>Two sermons on Mark viii. 36.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gods valuation of mans soule</title>
+      <author>Capell, Moses.</author>
+    </titleStmt>
+    <extent>[14], 38 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. I[ones]</persName> for <persName type="publisher">Nicolas Bourne</persName>, and are to be solde at <placeName>the south entrance of the Royall Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: M. Capell.</note>
+      <note>Two sermons on Mark viii. 36.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicolas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W. I[ones]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the south entrance of the Royall Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ansvver to Dr. Stillingfleet's Mischief of separation being a letter written out of the countrey to a person of quality in the city. Who took offence at the late sermon of Dr. Stillingfleet, Dean of S. Pauls; before the lord mayor.</title>
-         <author>Howe, John, 1630-1705.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 53, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by S.W. and sold by S. Tydmarsh, at the sign of the Kings Head in Cornhill, near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">1680.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By John Howe.</note>
-         <note>On p. [1] at end: London, printed for Samuel Walsall, at the Golden Frying-Pan in Leaden-Hall-Street, 1680.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ansvver to Dr. Stillingfleet's Mischief of separation being a letter written out of the countrey to a person of quality in the city. Who took offence at the late sermon of Dr. Stillingfleet, Dean of S. Pauls; before the lord mayor.</title>
+      <author>Howe, John, 1630-1705.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 53, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">S.W.</persName> and sold by <persName type="bookseller">S. Tydmarsh</persName>, at <placeName>the sign of the Kings Head in Cornhill, near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">1680.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By John Howe.</note>
+      <note>On p. [1] at end: London, printed for Samuel Walsall, at the Golden Frying-Pan in Leaden-Hall-Street, 1680.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>S.W.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>S. Tydmarsh</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Kings Head in Cornhill, near the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ouerthrovv of the gout written in Latin verse, by Doctor Christopher Balista</title>
-         <title>In podagram concertatio. English</title>
-         <author>Ballista, Christopher.</author>
-         <author>Googe, Barnabe, 1540-1594, attributed name.</author>
-      </titleStmt>
-      <extent>[36] p.   </extent>
-      <publicationStmt>
-         <publisher>by [J. Allde for] Abraham Veale dwelling in Paules Church yard at ye signe of ye Lamb,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1577">1577.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: "B.G." A translation by Barnabe Googe?.</note>
-         <note>In verse.</note>
-         <note>Printer's name from STC. Translator's name suggested by STC.</note>
-         <note>Signatures: A&#178;  B-C.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ouerthrovv of the gout written in Latin verse, by Doctor Christopher Balista</title>
+      <title>In podagram concertatio. English</title>
+      <author>Ballista, Christopher.</author>
+      <author>Googe, Barnabe, 1540-1594, attributed name.</author>
+    </titleStmt>
+    <extent>[36] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">[J. Allde</persName> for<persName type="publisher">] Abraham Veale</persName> dwelling in <placeName>Paules Church yard at ye signe of ye Lamb</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1577">1577.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: "B.G." A translation by Barnabe Googe?.</note>
+      <note>In verse.</note>
+      <note>Printer's name from STC. Translator's name suggested by STC.</note>
+      <note>Signatures: A&#178;  B-C.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Abraham Veale</persName>
+    </person>
+    <person type="printer">
+      <persName>[J. Allde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church yard at ye signe of ye Lamb</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble declaration, tender, and petition of divers cordiall and wel-affected marriners, whose names are subscribed, to the Right Honourable the Lords and Commons assembled in Parliament. VVith the several answers given to the said petition.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at London for Henry Overton,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Annotation on Thomason copy: "July 6".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble declaration, tender, and petition of divers cordiall and wel-affected marriners, whose names are subscribed, to the Right Honourable the Lords and Commons assembled in Parliament. VVith the several answers given to the said petition.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>London</placeName> for <persName type="publisher">Henry Overton</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Annotation on Thomason copy: "July 6".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Overton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

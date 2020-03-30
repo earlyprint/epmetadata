@@ -1,14 +1,19 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Account of the execution of Brigadier Rookwood, Major Lowick, and Mr. Cranburn, at Tyburn, April 29th, 1696</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Account of the execution of Brigadier Rookwood, Major Lowick, and Mr. Cranburn, at Tyburn, April 29th, 1696</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

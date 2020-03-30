@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The noble order, or The honour which God conferr's on them that honour His. Humbly presented to the Lords of Parliament, in a sermon preached before their Honours at the Abby Church at Westminster, January 28. 1645. The solemne day of their publick humiliation. / By Daniel Evance Master of Arts Sid. Suff. Coll. Camb. lesse than the least of them all that serve in the gospell. Clement Danes London.</title>
-         <author>Evance, Daniel.</author>
-      </titleStmt>
-      <extent>[8], 46, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.W. for Abel Roper, at the signe of the Sunne in Fleet-street, over against St. Dunstans church,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1646">1646.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print on recto of first leaf.</note>
-         <note>The final leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The noble order, or The honour which God conferr's on them that honour His. Humbly presented to the Lords of Parliament, in a sermon preached before their Honours at the Abby Church at Westminster, January 28. 1645. The solemne day of their publick humiliation. / By Daniel Evance Master of Arts Sid. Suff. Coll. Camb. lesse than the least of them all that serve in the gospell. Clement Danes London.</title>
+      <author>Evance, Daniel.</author>
+    </titleStmt>
+    <extent>[8], 46, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.W.</persName> for <persName type="publisher">Abel Roper</persName>, at <placeName>the signe of the Sunne in Fleet-street, over against St. Dunstans church</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1646">1646.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print on recto of first leaf.</note>
+      <note>The final leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Abel Roper</persName>
+    </person>
+    <person type="printer">
+      <persName>T.W.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Sunne in Fleet-street, over against St. Dunstans church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

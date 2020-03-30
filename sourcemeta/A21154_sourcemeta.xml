@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A boke of very Godly psalmes and prayers dedicated to the Lady Letice Vicountesse of Hereforde.</title>
-         <author>Edwardes, Roger.</author>
-      </titleStmt>
-      <extent>[4], 110, 109-118 p.   </extent>
-      <publicationStmt>
-         <publisher>In Fletestreate at the signe of the Faucon, by Wylliam Griffith,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1570">1570.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Pages 109, 110 repeated in number only.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A boke of very Godly psalmes and prayers dedicated to the Lady Letice Vicountesse of Hereforde.</title>
+      <author>Edwardes, Roger.</author>
+    </titleStmt>
+    <extent>[4], 110, 109-118 p.   </extent>
+    <publicationStmt>
+      <publisher>In Fletestreate at <placeName>the signe of the Faucon</placeName>, by <persName type="printer">Wylliam Griffith</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1570">1570.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Pages 109, 110 repeated in number only.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Wylliam Griffith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Faucon</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

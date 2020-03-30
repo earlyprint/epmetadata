@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new inuention of shooting fire-shafts in long-bowes VVherein, besides the maner of making them, there is contained a briefe discourse of the vsefulnesse of them in our moderne warres, by sea and land. Published by a true patriot for the common good of his native countrey of England.</title>
-      </titleStmt>
-      <extent>[4], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. L[ownes] for Iohn Bartlet, at the gilt Cup in Cheape-side,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1628">Anno Dom. M.D.c.xxviii. [1628]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>The imprint date is made with turned C's.</note>
-         <note>Cropped at head, affecting title and some page numbers.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new inuention of shooting fire-shafts in long-bowes VVherein, besides the maner of making them, there is contained a briefe discourse of the vsefulnesse of them in our moderne warres, by sea and land. Published by a true patriot for the common good of his native countrey of England.</title>
+    </titleStmt>
+    <extent>[4], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. L[ownes]</persName> for <persName type="publisher">Iohn Bartlet</persName>, at <placeName>the gilt Cup in Cheape-side</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1628">Anno Dom. M.D.c.xxviii. [1628]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>The imprint date is made with turned C's.</note>
+      <note>Cropped at head, affecting title and some page numbers.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Bartlet</persName>
+    </person>
+    <person type="printer">
+      <persName>H. L[ownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the gilt Cup in Cheape-side</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

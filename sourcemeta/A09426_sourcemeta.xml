@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The foundation of Christian religion gathered into sixe principles. And it is to be learned of ignorant people, that they may be fit to heare sermons with profit, and to receiue the Lords Supper with comfort.</title>
-         <author>Perkins, William, 1588-1602.</author>
-      </titleStmt>
-      <extent>[8], 40 p.   </extent>
-      <publicationStmt>
-         <publisher>By Iohn Legatt, printer to the Vniuersitie of Cambridge,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's device on title page and on verso of C8, final page.</note>
-         <note>Cropped and tightly bound affecting some text.</note>
-         <note>Signatures: A-C.</note>
-         <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The foundation of Christian religion gathered into sixe principles. And it is to be learned of ignorant people, that they may be fit to heare sermons with profit, and to receiue the Lords Supper with comfort.</title>
+      <author>Perkins, William, 1588-1602.</author>
+    </titleStmt>
+    <extent>[8], 40 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Iohn Legatt</persName>, printer to <persName type="patron">the Vniuersitie of Cambridge</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's device on title page and on verso of C8, final page.</note>
+      <note>Cropped and tightly bound affecting some text.</note>
+      <note>Signatures: A-C.</note>
+      <note>Reproduction of the original in Emmanuel College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Legatt</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniuersitie of Cambridge</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

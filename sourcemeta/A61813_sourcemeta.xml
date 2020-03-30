@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the King at White-Hall on Christmas-Day, 1682 by N. Stratford ...</title>
-         <author>Stratford, Nicholas, 1633-1707.</author>
-      </titleStmt>
-      <extent>[2], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.R. for Joseph Lawson ... and sold by Richard Chiswel ... and Tho. Guy ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the King at White-Hall on Christmas-Day, 1682 by N. Stratford ...</title>
+      <author>Stratford, Nicholas, 1633-1707.</author>
+    </titleStmt>
+    <extent>[2], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.R.</persName> for <persName type="publisher">Joseph Lawson</persName> ... and sold by <persName type="bookseller">Richard Chiswel</persName> ... and <persName type="publisher">Tho. Guy</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Lawson</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Guy</persName>
+    </person>
+    <person type="printer">
+      <persName>J.R.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Chiswel</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

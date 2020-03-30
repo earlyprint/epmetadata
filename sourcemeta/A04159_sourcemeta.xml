@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An helpe to the best bargaine a sermon on Mat. 13-16. Preached on Sunday, the 20. of Octob. 1623. in the Cathedrall Church of Christ, Canterbury. By Thomas Iackson, doctor of divinitie, and one of the prebends, and lecturer there.</title>
-         <author>Jackson, Thomas, d. 1646.</author>
-      </titleStmt>
-      <extent>[10], 62 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nich. Okes, for Mat. Walbanke, and are to be sold in Grais-Inne Gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title within architectural border.</note>
-         <note>Considerable print show-through; pages stained and torn; lower margins trimmed, affecting some signatures and catchwords.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An helpe to the best bargaine a sermon on Mat. 13-16. Preached on Sunday, the 20. of Octob. 1623. in the Cathedrall Church of Christ, Canterbury. By Thomas Iackson, doctor of divinitie, and one of the prebends, and lecturer there.</title>
+      <author>Jackson, Thomas, d. 1646.</author>
+    </titleStmt>
+    <extent>[10], 62 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nich. Okes</persName>, for <persName type="publisher">Mat. Walbanke</persName>, and are to be sold in <placeName>Grais-Inne Gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title within architectural border.</note>
+      <note>Considerable print show-through; pages stained and torn; lower margins trimmed, affecting some signatures and catchwords.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mat. Walbanke</persName>
+    </person>
+    <person type="printer">
+      <persName>Nich. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Grais-Inne Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

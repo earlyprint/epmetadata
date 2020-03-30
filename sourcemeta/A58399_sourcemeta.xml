@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The reformed papist, or high-church-man. Characterized in reflections on his principles and designs.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for J. Blackborne,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1681">1681]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The reformed papist, or high-church-man. Characterized in reflections on his principles and designs.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">J. Blackborne</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1681">1681]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Blackborne</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

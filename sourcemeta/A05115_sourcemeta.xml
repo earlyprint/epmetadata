@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Via regia ad geometriam. = The vvay to geometry Being necessary and usefull, for astronomers. Geographers. Land-meaters. Sea-men. Engineres. Architecks. Carpenters. Paynters. Carvers, &amp;c. Written in Latine by Peter Ramus, and now translated and much enlarged by the learned Mr. William Bedvvell.</title>
-         <title>Via regia ad geometriam. English</title>
-         <author>Ramus, Petrus, 1515-1572.</author>
-         <author>Bedwell, William, ca. 1561-1632.</author>
-         <author>Clarke, John, d. 1658.</author>
-      </titleStmt>
-      <extent>[20], 299, [1] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Cotes, and are to be sold by Michael Sparke; at the Blew Bible in Greene Arbour,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1636">1636.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Via regia ad geometriam.</note>
-         <note>Editor's dedication signed: Iohn Clerke.</note>
-         <note>The words "astronomers. .. Sea-men." and "Engineres. .. Paynters." are bracketed together on the title page.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Via regia ad geometriam. = The vvay to geometry Being necessary and usefull, for astronomers. Geographers. Land-meaters. Sea-men. Engineres. Architecks. Carpenters. Paynters. Carvers, &amp;c. Written in Latine by Peter Ramus, and now translated and much enlarged by the learned Mr. William Bedvvell.</title>
+      <title>Via regia ad geometriam. English</title>
+      <author>Ramus, Petrus, 1515-1572.</author>
+      <author>Bedwell, William, ca. 1561-1632.</author>
+      <author>Clarke, John, d. 1658.</author>
+    </titleStmt>
+    <extent>[20], 299, [1] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Cotes</persName>, and are to be sold by <persName type="bookseller">Michael Sparke;</persName> at <placeName>the Blew Bible in Greene Arbour</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1636">1636.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Via regia ad geometriam.</note>
+      <note>Editor's dedication signed: Iohn Clerke.</note>
+      <note>The words "astronomers. .. Sea-men." and "Engineres. .. Paynters." are bracketed together on the title page.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Cotes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Michael Sparke;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blew Bible in Greene Arbour</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

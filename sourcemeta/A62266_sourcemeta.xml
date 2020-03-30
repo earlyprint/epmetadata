@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the assizes in St. Maries Church in request of George Ashby Esq., High-Sheriff of the said county by Thomas Sawbridge, Vicar of Harstone, July the 25th, 1689.</title>
-         <author>Sawbridge, Thomas, Vicar of Harstone.</author>
-      </titleStmt>
-      <extent>[2], 34 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.B. for Francis Ward ... :</publisher>
-         <publisher>and are to be sold by R. Taylor in London,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the assizes in St. Maries Church in request of George Ashby Esq., High-Sheriff of the said county by Thomas Sawbridge, Vicar of Harstone, July the 25th, 1689.</title>
+      <author>Sawbridge, Thomas, Vicar of Harstone.</author>
+    </titleStmt>
+    <extent>[2], 34 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.B.</persName> for <persName type="publisher">Francis Ward</persName> ... :</publisher>
+      <publisher>and are to be sold by R. Taylor in London,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Ward</persName>
+    </person>
+    <person type="printer">
+      <persName>T.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

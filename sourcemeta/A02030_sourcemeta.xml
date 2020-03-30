@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The bread of life, or Foode of the regenerate A sermon preached at Botterwike in Holland, neere Boston, in Lincolnshire. By Thomas Granger, preacher of Gods word there.</title>
-         <author>Granger, Thomas, b. 1578.</author>
-      </titleStmt>
-      <extent>[4], 1-31, 34-35 [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. S[nodham] for Thomas Pauier, and are to be sold at his shop in Yuie lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1616">1616.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The bread of life, or Foode of the regenerate A sermon preached at Botterwike in Holland, neere Boston, in Lincolnshire. By Thomas Granger, preacher of Gods word there.</title>
+      <author>Granger, Thomas, b. 1578.</author>
+    </titleStmt>
+    <extent>[4], 1-31, 34-35 [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. S[nodham]</persName> for <persName type="publisher">Thomas Pauier</persName>, and are to be sold at <placeName>his shop in Yuie lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1616">1616.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Pauier</persName>
+    </person>
+    <person type="printer">
+      <persName>T. S[nodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Yuie lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

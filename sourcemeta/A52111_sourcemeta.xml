@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Huntsman's delight, or, The Forresetr's [sic] pleasant pastime to the tune of, Amongst the leaves so green a, etc.</title>
-         <author>Martin, Joseph, fl. 1685-1700.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for W.O. and sold by the booksellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700" cert="low">[1700?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing (2nd ed.) to Joseph Martin.</note>
-         <note>Date of publication suggested by Wing (2nd ed.)</note>
-         <note>Contains one illustration.</note>
-         <note>Imperfect: cropped and stained.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Huntsman's delight, or, The Forresetr's [sic] pleasant pastime to the tune of, Amongst the leaves so green a, etc.</title>
+      <author>Martin, Joseph, fl. 1685-1700.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W.O.</persName> and sold by <persName type="bookseller">the booksellers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700" cert="low">[1700?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing (2nd ed.) to Joseph Martin.</note>
+      <note>Date of publication suggested by Wing (2nd ed.)</note>
+      <note>Contains one illustration.</note>
+      <note>Imperfect: cropped and stained.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W.O.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

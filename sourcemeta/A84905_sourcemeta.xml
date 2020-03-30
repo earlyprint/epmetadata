@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation by his Excellency the Lord Generall, for the regulating of souldiers in their march to Ireland.</title>
-         <author>Fairfax, Thomas Fairfax, Baron, 1612-1671.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Playford, and are to be sold at his shop in the Inner Temple,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed and dated at end: T. Fairfax. 17 March 1648.</note>
-         <note>Annotation on Thomason copy: "March 28 1648".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation by his Excellency the Lord Generall, for the regulating of souldiers in their march to Ireland.</title>
+      <author>Fairfax, Thomas Fairfax, Baron, 1612-1671.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Playford</persName>, and are to be sold at <placeName>his shop in the Inner Temple</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed and dated at end: T. Fairfax. 17 March 1648.</note>
+      <note>Annotation on Thomason copy: "March 28 1648".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playford</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Inner Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

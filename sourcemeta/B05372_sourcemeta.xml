@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At Edinburgh, the twelfth day of July, one thousand six hundred and sixty five. Forasmuch as the sickness and plague in the City of London, suburbs thereof, and places near adjacent thereto, doth daily increase and break out in several towns and villages of the kingdom of England ...</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>[2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Evan Tyler, Printer to the King's most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Printed in black letter.</note>
-         <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
-         <note>In ms. under title: "Anent the pestilence."</note>
-         <note>Halts trade with London and other infected places in England until 1 Nov. 1665.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At Edinburgh, the twelfth day of July, one thousand six hundred and sixty five. Forasmuch as the sickness and plague in the City of London, suburbs thereof, and places near adjacent thereto, doth daily increase and break out in several towns and villages of the kingdom of England ...</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>[2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Evan Tyler</persName>, Printer to <persName type="patron">the King's most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Printed in black letter.</note>
+      <note>Signed at end: Pet. Wedderburne, Cl. Sti. Concilii.</note>
+      <note>In ms. under title: "Anent the pestilence."</note>
+      <note>Halts trade with London and other infected places in England until 1 Nov. 1665.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Spiritus est vicarius Christi in terra. The poore mans garden, wherein are flowers of the scriptures, and doctours, very necessarie and profitable for the simple and ignoraunt people to reade: / truely collected and diligently gathered together, by Iohn Northbrooke, minister and preacher of the worde of God. Seene and allowed, according to the order appointed in the Queenes iniunctions..</title>
-         <author>Northbrooke, John.</author>
-      </titleStmt>
-      <extent>[6], 129, [1] leaves.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Kingston for W. Williamson, dwelling in Powles Churchyarde, at the signe of the whyte Horse.,</publisher>
-         <pubPlace>At London. :</pubPlace>
-         <date when="1571">Anno. 1571..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With an index.</note>
-         <note>Identified as STC 18665a on film at reel 675:2.</note>
-         <note>Reproductions of the originals in the Folger Shakespeare Library (reel 675:2), and Eton College Library (reel 1578:8).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Spiritus est vicarius Christi in terra. The poore mans garden, wherein are flowers of the scriptures, and doctours, very necessarie and profitable for the simple and ignoraunt people to reade: / truely collected and diligently gathered together, by Iohn Northbrooke, minister and preacher of the worde of God. Seene and allowed, according to the order appointed in the Queenes iniunctions..</title>
+      <author>Northbrooke, John.</author>
+    </titleStmt>
+    <extent>[6], 129, [1] leaves.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Kingston</persName> for <persName type="publisher">W. Williamson</persName>, dwelling in <placeName>Powles Churchyarde, at the signe of the whyte Horse.</placeName>,</publisher>
+      <pubPlace>At London. :</pubPlace>
+      <date when="1571">Anno. 1571..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With an index.</note>
+      <note>Identified as STC 18665a on film at reel 675:2.</note>
+      <note>Reproductions of the originals in the Folger Shakespeare Library (reel 675:2), and Eton College Library (reel 1578:8).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Williamson</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Kingston</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Powles Churchyarde, at the signe of the whyte Horse.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

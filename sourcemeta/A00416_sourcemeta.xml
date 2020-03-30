@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A most sweete and comfortable exposition, vpon the tenne commaundements, and vpon the 51. psalme As they were deliuered in short notes by the reuerent and learned maister Estie, late Preacher at S. Edmonde Burie in Suffolke.</title>
-         <author>Estey, George, 1560 or 61-1601.</author>
-      </titleStmt>
-      <extent>[292] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I[ohn] R[oberts] for R[ichard] B[ankworth] and are to be solde in Paules Church-yard, at the signe of the Sun,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1602">1602.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publisher's names from STC.</note>
-         <note>Last leaf blank?.</note>
-         <note>Signatures: A-S T&#178; .</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-         <note>Imperfect; lacks leaf S7.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A most sweete and comfortable exposition, vpon the tenne commaundements, and vpon the 51. psalme As they were deliuered in short notes by the reuerent and learned maister Estie, late Preacher at S. Edmonde Burie in Suffolke.</title>
+      <author>Estey, George, 1560 or 61-1601.</author>
+    </titleStmt>
+    <extent>[292] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I[ohn] R[oberts]</persName> for <persName type="publisher">R[ichard] B[ankworth]</persName> and are to be solde in <placeName>Paules Church-yard, at the signe of the Sun</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1602">1602.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publisher's names from STC.</note>
+      <note>Last leaf blank?.</note>
+      <note>Signatures: A-S T&#178; .</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+      <note>Imperfect; lacks leaf S7.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R[ichard] B[ankworth]</persName>
+    </person>
+    <person type="printer">
+      <persName>I[ohn] R[oberts]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Paules Church-yard, at the signe of the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

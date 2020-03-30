@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Directions for the vvorthy receiuing of the Lords Supper with some few questions to the same purpose. By Robert Iension, Batchelor in Diuinity, and Minister of Gods Word, at New-Castle vpon Tine.</title>
-         <author>Jenison, Robert, 1584?-1652.</author>
-      </titleStmt>
-      <extent>[54] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by G. Purslowe] for Iohn Harrigat, and are to be sold at the Holy Lambe in Pater-noster Row,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1624">1624.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-C D&#8308; (-D4).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Directions for the vvorthy receiuing of the Lords Supper with some few questions to the same purpose. By Robert Iension, Batchelor in Diuinity, and Minister of Gods Word, at New-Castle vpon Tine.</title>
+      <author>Jenison, Robert, 1584?-1652.</author>
+    </titleStmt>
+    <extent>[54] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">G. Purslowe]</persName> for <persName type="publisher">Iohn Harrigat</persName>, and are to be sold at <placeName>the Holy Lambe in Pater-noster Row</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1624">1624.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-C D&#8308; (-D4).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Harrigat</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Purslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Holy Lambe in Pater-noster Row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

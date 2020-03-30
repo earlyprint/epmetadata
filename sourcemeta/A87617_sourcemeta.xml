@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter from Mr. Robert Iohnston, one of the Elders of Edenborough, directed to Master VVilliam Agard in Cambridge, with a petition of the English there inclosed, to the Kings most Excellent Majesty. Also Master Agards letter to his friend in London, conteyning matters of great moment, tending to the pacification of the miserable distractions of these present times.</title>
-         <author>Johnston, Robert, one of the elders of Edenborough.</author>
-         <author>Agard, William.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>for T. How,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Octo: 1:st.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter from Mr. Robert Iohnston, one of the Elders of Edenborough, directed to Master VVilliam Agard in Cambridge, with a petition of the English there inclosed, to the Kings most Excellent Majesty. Also Master Agards letter to his friend in London, conteyning matters of great moment, tending to the pacification of the miserable distractions of these present times.</title>
+      <author>Johnston, Robert, one of the elders of Edenborough.</author>
+      <author>Agard, William.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">T. How</persName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Octo: 1:st.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. How</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

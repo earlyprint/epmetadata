@@ -1,20 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An introduction to the art of logick composed for the use of English schools, and all such who having no opportunity of being instructed in the Latine tongue ... / by John Newton ...</title>
-         <author>Newton, John, 1622-1678.</author>
-      </titleStmt>
-      <extent>[15], 174 p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by E.T. and R.H. for Thomas Passenger ... and Ben. Hurlock ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1671">1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title: The art of logick.</note>
-         <note>Advertisement: p. [1]-[4] at end.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An introduction to the art of logick composed for the use of English schools, and all such who having no opportunity of being instructed in the Latine tongue ... / by John Newton ...</title>
+      <author>Newton, John, 1622-1678.</author>
+    </titleStmt>
+    <extent>[15], 174 p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.T.</persName> and <persName type="printer">R.H.</persName> for <persName type="publisher">Thomas Passenger</persName> ... and <persName type="publisher">Ben. Hurlock</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1671">1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title: The art of logick.</note>
+      <note>Advertisement: p. [1]-[4] at end.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ben. Hurlock</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Passenger</persName>
+    </person>
+    <person type="printer">
+      <persName>E.T.</persName>
+    </person>
+    <person type="printer">
+      <persName>R.H.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

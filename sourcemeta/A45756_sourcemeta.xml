@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Samuel Hartlib, his legacy of husbandry wherein are bequeathed to the common-wealth of England, not onely Braband and Flanders, but also many more outlandish and domestick experiments and secrets (of Gabriel Plats and others) never heretofore divulged in reference to universal husbandry : with  a table shewing the general contents or sections of the several augmentations and enriching enlargements in this third edition.</title>
-         <author>Hartlib, Samuel, d. 1662.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>[3rd ed.]</edition>
-      </editionStmt>
-      <extent>[16], 303 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.M. for Richard Wodnotche ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Samuel Hartlib, his legacy of husbandry wherein are bequeathed to the common-wealth of England, not onely Braband and Flanders, but also many more outlandish and domestick experiments and secrets (of Gabriel Plats and others) never heretofore divulged in reference to universal husbandry : with  a table shewing the general contents or sections of the several augmentations and enriching enlargements in this third edition.</title>
+      <author>Hartlib, Samuel, d. 1662.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>[3rd ed.]</edition>
+    </editionStmt>
+    <extent>[16], 303 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.M.</persName> for <persName type="publisher">Richard Wodnotche</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Wodnotche</persName>
+    </person>
+    <person type="printer">
+      <persName>J.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

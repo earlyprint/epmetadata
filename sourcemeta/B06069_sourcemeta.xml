@@ -1,24 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Edinburgh, the eighth day of November, 1655. Whereas his Highnesse council in Scotland by their ordinance of the 31 of October last, have ordained, that the prices for every common-bill shall be sixpence sterling ...</title>
-         <author>Scotland. Commissioners for Administration of Justice in Scotland.</author>
-         <author>Smith, George, 1602 or 3-1658.</author>
-      </titleStmt>
-      <extent>[2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Christopher Higgins, in Harts-Close, over against the Trone-Church,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and first lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>Initial letter.</note>
-         <note>Most of text in double columns.</note>
-         <note>Order to print signed: Geo. Smyth, President.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Edinburgh, the eighth day of November, 1655. Whereas his Highnesse council in Scotland by their ordinance of the 31 of October last, have ordained, that the prices for every common-bill shall be sixpence sterling ...</title>
+      <author>Scotland. Commissioners for Administration of Justice in Scotland.</author>
+      <author>Smith, George, 1602 or 3-1658.</author>
+    </titleStmt>
+    <extent>[2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Christopher Higgins</persName>, in <placeName>Harts-Close, over against the Trone-Church</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and first lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>Initial letter.</note>
+      <note>Most of text in double columns.</note>
+      <note>Order to print signed: Geo. Smyth, President.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Higgins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Harts-Close, over against the Trone-Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

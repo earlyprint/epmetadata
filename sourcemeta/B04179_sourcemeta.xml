@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lord Thomas and fair Ellinor, together with the downfal of the brown girl. To a pleasant tune, call'd, Lord Thomas, &amp;c.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for A[lexander]. M[ilbourn]. W[illiam]. O[nley]. and T[homas]. Thackeray, at the Angel in Duck-lane,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1694" cert="low">[1694?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication and publishers' names from Wing.</note>
-         <note>Verse: "Lord Thomas he was a bold forrester ..."</note>
-         <note>"This may be printed, Ro. L'Estrange."</note>
-         <note>Printed in two columns.</note>
-         <note>Reproduction of original in the British Library.</note>
-         <note>On verso: The cabal: or, A voice of the politicks. [London] : Printed for J.W., J.C., W.T. and T.P., [1680?]. Cf. Wing C182. Possibly a proofsheet?</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lord Thomas and fair Ellinor, together with the downfal of the brown girl. To a pleasant tune, call'd, Lord Thomas, &amp;c.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A[lexander]. M[ilbourn]. W[illiam]. O[nley].</persName> and <persName type="publisher">T[homas]. Thackeray</persName>, at <placeName>the Angel in Duck-lane</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1694" cert="low">[1694?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication and publishers' names from Wing.</note>
+      <note>Verse: "Lord Thomas he was a bold forrester ..."</note>
+      <note>"This may be printed, Ro. L'Estrange."</note>
+      <note>Printed in two columns.</note>
+      <note>Reproduction of original in the British Library.</note>
+      <note>On verso: The cabal: or, A voice of the politicks. [London] : Printed for J.W., J.C., W.T. and T.P., [1680?]. Cf. Wing C182. Possibly a proofsheet?</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A[lexander]. M[ilbourn]. W[illiam]. O[nley].</persName>
+    </person>
+    <person type="publisher">
+      <persName>T[homas]. Thackeray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel in Duck-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

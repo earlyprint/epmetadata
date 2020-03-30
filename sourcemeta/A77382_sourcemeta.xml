@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Folly and envy detected: in some brief observations on a late scandalous pamphlet, subscribed by D.S. intituled, An answer to several passages, citations and charges, in a book published by Fran. Bugg, styled, New Rome arraigned, &amp;c. / By R. Bridgman.</title>
-         <author>Bridgman, Robert.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle, near the meeting:house in White-Hart-Court in Grace-Church-Street, and at the Crooked-Billet in Holywell-Lane near Shoreditch,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Friends' Library, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Folly and envy detected: in some brief observations on a late scandalous pamphlet, subscribed by D.S. intituled, An answer to several passages, citations and charges, in a book published by Fran. Bugg, styled, New Rome arraigned, &amp;c. / By R. Bridgman.</title>
+      <author>Bridgman, Robert.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName>, near <placeName>the meeting:house in White-Hart-Court in Grace-Church-Street</placeName>, and at <placeName>the Crooked-Billet in Holywell-Lane near Shoreditch</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Friends' Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Crooked-Billet in Holywell-Lane near Shoreditch</placeName>
+    </place>
+    <place type="location">
+      <placeName>the meeting:house in White-Hart-Court in Grace-Church-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

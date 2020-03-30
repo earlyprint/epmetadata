@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon of repentaunce, made by Iohn Bradforde</title>
-         <author>Bradford, John, 1510?-1555.</author>
-      </titleStmt>
-      <extent>[120] p.   </extent>
-      <publicationStmt>
-         <publisher>In Paules Churche yearde, at the signe of the Rose, by [S. Mierdman for] Iohn Wight,</publisher>
-         <pubPlace>[Imprinted at Londo[n] :</pubPlace>
-         <date when="1553">[1553]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon; actual printer's name from STC.</note>
-         <note>"To the Christian reader" dated: The. xii. of Iulie. Anno M.D.LIII,.</note>
-         <note>Signatures: A&#8308; B-H.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon of repentaunce, made by Iohn Bradforde</title>
+      <author>Bradford, John, 1510?-1555.</author>
+    </titleStmt>
+    <extent>[120] p.   </extent>
+    <publicationStmt>
+      <publisher>In Paules Churche yearde, at <placeName>the signe of the Rose</placeName>, by <persName type="printer">[S. Mierdman</persName> for<persName type="publisher">] Iohn Wight</persName>,</publisher>
+      <pubPlace>[Imprinted at Londo[n] :</pubPlace>
+      <date when="1553">[1553]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon; actual printer's name from STC.</note>
+      <note>"To the Christian reader" dated: The. xii. of Iulie. Anno M.D.LIII,.</note>
+      <note>Signatures: A&#8308; B-H.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn Wight</persName>
+    </person>
+    <person type="printer">
+      <persName>[S. Mierdman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A practical treatise concerning evil thoughts wherein are some things more especially useful for melancholy persons / by William Chilcot.</title>
-         <author>Chilcot, William, 1663 or 4-1711.</author>
-      </titleStmt>
-      <extent>[7], 276, [9] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Samuel Darker for Charles Yeo, John Pearce, and Philip Bishop,</publisher>
-         <pubPlace>Exon :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. [8]-[9] at end.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A practical treatise concerning evil thoughts wherein are some things more especially useful for melancholy persons / by William Chilcot.</title>
+      <author>Chilcot, William, 1663 or 4-1711.</author>
+    </titleStmt>
+    <extent>[7], 276, [9] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Samuel Darker</persName> for <persName type="publisher">Charles Yeo</persName>, <persName type="publisher">John Pearce</persName>, and <persName type="publisher">Philip Bishop</persName>,</publisher>
+      <pubPlace>Exon :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. [8]-[9] at end.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Yeo</persName>
+    </person>
+    <person type="publisher">
+      <persName>John Pearce</persName>
+    </person>
+    <person type="publisher">
+      <persName>Philip Bishop</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Darker</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The coronation a comedy. As it vvas presented by her Majesties Servants at the private House in Drury Lane. Written by John Fletcher. Gent.</title>
-         <author>Shirley, James, 1596-1666.</author>
-         <author>Fletcher, John, 1579-1625, attributed name.</author>
-      </titleStmt>
-      <extent>[72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Cotes, for Andrew Crooke, and William Cooke. and are to be sold at the signe of the Greene Dragon, in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Not in fact by John Fletcher, but by James Shirley.</note>
-         <note>In verse.</note>
-         <note>Title page partly from the same setting of type as John Fletcher's "The night-walker" (STC 11072).</note>
-         <note>Signatures: A&#178;  B-I&#8308; K&#178; .</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The coronation a comedy. As it vvas presented by her Majesties Servants at the private House in Drury Lane. Written by John Fletcher. Gent.</title>
+      <author>Shirley, James, 1596-1666.</author>
+      <author>Fletcher, John, 1579-1625, attributed name.</author>
+    </titleStmt>
+    <extent>[72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Cotes</persName>, for <persName type="publisher">Andrew Crooke</persName>, and <persName type="publisher">William Cooke.</persName> and are to be sold at <placeName>the signe of the Greene Dragon, in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not in fact by John Fletcher, but by James Shirley.</note>
+      <note>In verse.</note>
+      <note>Title page partly from the same setting of type as John Fletcher's "The night-walker" (STC 11072).</note>
+      <note>Signatures: A&#178;  B-I&#8308; K&#178; .</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Cooke.</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Greene Dragon, in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

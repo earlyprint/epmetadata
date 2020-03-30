@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Thankes to the Parliament.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Underhill, at the signe of the Bible in Woodstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse - "Come let us cheere our hearts with lusty wine,".</note>
-         <note>With engraved border.</note>
-         <note>Reproduction of the originals in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Thankes to the Parliament.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Underhill</persName>, at <placeName>the signe of the Bible in Woodstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse - "Come let us cheere our hearts with lusty wine,".</note>
+      <note>With engraved border.</note>
+      <note>Reproduction of the originals in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Underhill</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bible in Woodstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

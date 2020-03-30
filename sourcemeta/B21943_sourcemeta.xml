@@ -1,19 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Lords and Commons assembled in Parliament for the preservation and safety of the Kingdom and the town of Hull with the assurance of both Houses to satisfie all losse sustained by any service done for the safety of the said town, by reason of the overflowing of the water upon any the grounds there to all persons that shall be found faithfull in their severall services : together wih an order of both Houses of Parliament to all lord lieutenants and deputy lieutenants of their severall counties, to raise forces to suppresse all disturbers of the peace.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Luke Norton and Iohn Field for Edward Husbands and Iohn Franck,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Ordered by the Lords and Commons that this be forthwith printed and published. H. Elsynge, Cler. Parl. D. Com."</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Lords and Commons assembled in Parliament for the preservation and safety of the Kingdom and the town of Hull with the assurance of both Houses to satisfie all losse sustained by any service done for the safety of the said town, by reason of the overflowing of the water upon any the grounds there to all persons that shall be found faithfull in their severall services : together wih an order of both Houses of Parliament to all lord lieutenants and deputy lieutenants of their severall counties, to raise forces to suppresse all disturbers of the peace.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Luke Norton</persName> and <persName type="printer">Iohn Field</persName> for <persName type="publisher">Edward Husbands</persName> and <persName type="publisher">Iohn Franck</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Ordered by the Lords and Commons that this be forthwith printed and published. H. Elsynge, Cler. Parl. D. Com."</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="publisher">
+      <persName>Iohn Franck</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+    <person type="printer">
+      <persName>Luke Norton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

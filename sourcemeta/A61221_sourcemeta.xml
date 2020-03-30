@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Of happiness wherein it is fully and particularly manifested that the great happiness of this life consisteth in the fear of God and keeping his commandments in opposition to the pleasures of sin or the pretended conveniency of disobdience / by Richard Stafford.</title>
-         <author>Stafford, Richard, 1663-1703.</author>
-      </titleStmt>
-      <extent>[3], 711, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by Andrew Sowle ... and by Abel Roper ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata sheet at end.</note>
-         <note>Imperfect: print show-through with loss of print.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Of happiness wherein it is fully and particularly manifested that the great happiness of this life consisteth in the fear of God and keeping his commandments in opposition to the pleasures of sin or the pretended conveniency of disobdience / by Richard Stafford.</title>
+      <author>Stafford, Richard, 1663-1703.</author>
+    </titleStmt>
+    <extent>[3], 711, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Andrew Sowle</persName></persName> ... and by <persName type="bookseller">Abel Roper</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata sheet at end.</note>
+      <note>Imperfect: print show-through with loss of print.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Abel Roper</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

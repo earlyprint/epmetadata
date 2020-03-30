@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A peaceable and friendly address to the non-conformists: written upon their desiring an act of toleration without the sacramental test.</title>
-         <author>Synge, Edward, 1659-1741.</author>
-      </titleStmt>
-      <extent>[6], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed at the Post-Office-Coffee-House in Fish-Shamble Street, for John Foster ...,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>P. 1 misnumbered 7.</note>
-         <note>Reproduction of original in the Trinity College (Dublin, Ireland) Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A peaceable and friendly address to the non-conformists: written upon their desiring an act of toleration without the sacramental test.</title>
+      <author>Synge, Edward, 1659-1741.</author>
+    </titleStmt>
+    <extent>[6], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed at <placeName>the Post-Office-Coffee-House in Fish-Shamble Street</placeName>, for <persName type="publisher">John Foster</persName> ...,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>P. 1 misnumbered 7.</note>
+      <note>Reproduction of original in the Trinity College (Dublin, Ireland) Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Foster</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Post-Office-Coffee-House in Fish-Shamble Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

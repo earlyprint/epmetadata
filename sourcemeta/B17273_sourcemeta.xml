@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached to the loving society at St. Dunstans in the west; on Wednesday the 1st. of July. 1685. And published at their desire. By Thomas Aston, M.A.</title>
-         <author>Aston, Thomas, b. 1649 or 50.</author>
-      </titleStmt>
-      <extent>35, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by W. Wilde for Dan. Brown. at the black Swan and Bible, without Temple-Bar, and Benjamin Crayle at the Lamb in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">[1685]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date from WIng.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached to the loving society at St. Dunstans in the west; on Wednesday the 1st. of July. 1685. And published at their desire. By Thomas Aston, M.A.</title>
+      <author>Aston, Thomas, b. 1649 or 50.</author>
+    </titleStmt>
+    <extent>35, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">W. Wilde</persName> for <persName type="publisher">Dan. Brown.</persName> at <placeName>the black Swan</placeName> and Bible, without Temple-Bar, and <persName type="publisher">Benjamin Crayle</persName> at <placeName>the Lamb in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">[1685]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date from WIng.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benjamin Crayle</persName>
+    </person>
+    <person type="publisher">
+      <persName>Dan. Brown.</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilde</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Lamb in Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>the black Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

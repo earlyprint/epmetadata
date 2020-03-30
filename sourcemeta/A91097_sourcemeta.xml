@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Propositions concerning the printing of the Bible in the original and other learned languages.</title>
-         <author>Walton, Brian, 1600-1661 Biblia Sacra polyglotta.</author>
-      </titleStmt>
-      <extent>2 sheets ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Norton for Timothy Garthwait stationer, at the lesser North-gate of S. Pauls Church, London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1653">1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Proposal for subscriptions to the Biblia sacra polyglotta [1657], edited by Brian Walton. According to the DNB article on Walton, this the first English-produced polyglot Bible and the first book printed by subscription in England.</note>
-         <note>Page two begins: VVe whose names are subscribed, do hereby promise to pay the several sums by us underwritten, upon the propositions for printing the Bible in the original and other learned languages, ..</note>
-         <note>Annotation on Thomason copy; Thomason tract microfilm copy difficult to read; Thomason has corrected and expanded the names of those involved in the production; "ffeb: 1652"; 3 in imprint date crossed through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Propositions concerning the printing of the Bible in the original and other learned languages.</title>
+      <author>Walton, Brian, 1600-1661 Biblia Sacra polyglotta.</author>
+    </titleStmt>
+    <extent>2 sheets ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Norton</persName> for <persName type="publisher">Timothy Garthwait stationer</persName>, at <placeName>the lesser North-gate of S. Pauls Church</placeName>, <placeName>London</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1653">1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Proposal for subscriptions to the Biblia sacra polyglotta [1657], edited by Brian Walton. According to the DNB article on Walton, this the first English-produced polyglot Bible and the first book printed by subscription in England.</note>
+      <note>Page two begins: VVe whose names are subscribed, do hereby promise to pay the several sums by us underwritten, upon the propositions for printing the Bible in the original and other learned languages, ..</note>
+      <note>Annotation on Thomason copy; Thomason tract microfilm copy difficult to read; Thomason has corrected and expanded the names of those involved in the production; "ffeb: 1652"; 3 in imprint date crossed through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Timothy Garthwait stationer</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Norton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+    <place type="location">
+      <placeName>the lesser North-gate of S. Pauls Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

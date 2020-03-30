@@ -1,25 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>If you knovv not me, you know no bodie: or, The troubles of Queene Elizabeth</title>
-         <title>If you know not me, you know no bodie. Part 1</title>
-         <author>Heywood, Thomas, d. 1641.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Thomas Purfoot] for Nathaniel Butter,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1605">1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Thomas Heywood.</note>
-         <note>Partly in verse.</note>
-         <note>With a title-page woodcut portrait.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-F&#8308;.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>If you knovv not me, you know no bodie: or, The troubles of Queene Elizabeth</title>
+      <title>If you know not me, you know no bodie. Part 1</title>
+      <author>Heywood, Thomas, d. 1641.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Thomas Purfoot]</persName> for <persName type="publisher">Nathaniel Butter</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1605">1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Thomas Heywood.</note>
+      <note>Partly in verse.</note>
+      <note>With a title-page woodcut portrait.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-F&#8308;.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoot]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

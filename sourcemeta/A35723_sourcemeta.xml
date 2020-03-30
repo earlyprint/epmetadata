@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true and exact copy of some passionate letters and verses as they were writ and sent by a person of quality to the Lady --.</title>
-         <author>C. D.</author>
-      </titleStmt>
-      <extent>[8], 91, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for N.R. ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1692">[1692]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Epistle dedicatory signed C.D.</note>
-         <note>Errata sheet bound at end.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true and exact copy of some passionate letters and verses as they were writ and sent by a person of quality to the Lady --.</title>
+      <author>C. D.</author>
+    </titleStmt>
+    <extent>[8], 91, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">N.R.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1692">[1692]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Epistle dedicatory signed C.D.</note>
+      <note>Errata sheet bound at end.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

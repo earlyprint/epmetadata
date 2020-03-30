@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Here be certayne questyons of kynge Bocthus of the maners, tokyns, and condycions of man, with the answeres made to the same by the phylosopher Sydrac</title>
-         <author>Boccus, King.</author>
-         <author>Sidrac, 13th cent.</author>
-      </titleStmt>
-      <extent>[24] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by me Robert Wyer, dwellynge at the sygne of S. Ioh[a]n Euangelysts in S. Martyns Parysshe besyde Charyngs Crosse,</publisher>
-         <pubPlace>[[London] :</pubPlace>
-         <date when="1550" cert="low">[ca. 1550]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A different text from STC 3188a.</note>
-         <note>Publication date suggested by STC.</note>
-         <note>Signatures: A-C&#8308;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Here be certayne questyons of kynge Bocthus of the maners, tokyns, and condycions of man, with the answeres made to the same by the phylosopher Sydrac</title>
+      <author>Boccus, King.</author>
+      <author>Sidrac, 13th cent.</author>
+    </titleStmt>
+    <extent>[24] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">me Robert Wyer</persName>, dwellynge at <placeName>the sygne of S. Ioh[a]n Euangelysts in S. Martyns Parysshe besyde Charyngs Crosse</placeName>,</publisher>
+      <pubPlace>[[London] :</pubPlace>
+      <date when="1550" cert="low">[ca. 1550]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A different text from STC 3188a.</note>
+      <note>Publication date suggested by STC.</note>
+      <note>Signatures: A-C&#8308;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>me Robert Wyer</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sygne of S. Ioh[a]n Euangelysts in S. Martyns Parysshe besyde Charyngs Crosse</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

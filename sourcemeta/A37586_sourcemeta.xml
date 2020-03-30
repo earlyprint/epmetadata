@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act for the setting of the postage of England, Scotland and Ireland at the Parliament begun at Westminster the 17th day of September, Anno Domini 1656.</title>
-         <title>Laws, etc.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>[2], 8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills and John Field ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act for the setting of the postage of England, Scotland and Ireland at the Parliament begun at Westminster the 17th day of September, Anno Domini 1656.</title>
+      <title>Laws, etc.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>[2], 8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> and <persName type="printer">John Field</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter written by the emperor to the late King James, setting forth the true occasion of his fall, and the treachery and cruelty of the French</title>
-         <author>Leopold I, Holy Roman Emperor, 1640-1705.</author>
-      </titleStmt>
-      <extent>[2], 9 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Ric. Chiswell ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dated the 9th of April, 1689.</note>
-         <note>Latin and English texts on opposite sides of page.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter written by the emperor to the late King James, setting forth the true occasion of his fall, and the treachery and cruelty of the French</title>
+      <author>Leopold I, Holy Roman Emperor, 1640-1705.</author>
+    </titleStmt>
+    <extent>[2], 9 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Ric. Chiswell</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dated the 9th of April, 1689.</note>
+      <note>Latin and English texts on opposite sides of page.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ric. Chiswell</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. Whereas wee for the continuance, and mainteining of the nauigation of this realme, and to the intent that skilfull mariners and seafaring men might be allwayes in readinesse to furnish, as well our owne Royall Nauie, as the shipping of our subiects ...</title>
-         <title>Proclamations. 1623-02-27</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>[2] sheets   </extent>
-      <publicationStmt>
-         <publisher>By Bonham Norton, and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1623">M.DC.XXII. [1622, i.e. 1623]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening words of text.</note>
-         <note>Dated at end: New-Market, the seuen and twentieth day of February, in the twentieth yere of our raigne ..</note>
-         <note>Imprint from colophon.</note>
-         <note>The year date is given according to Lady Day dating.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. Whereas wee for the continuance, and mainteining of the nauigation of this realme, and to the intent that skilfull mariners and seafaring men might be allwayes in readinesse to furnish, as well our owne Royall Nauie, as the shipping of our subiects ...</title>
+      <title>Proclamations. 1623-02-27</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>[2] sheets   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Bonham Norton</persName>, and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1623">M.DC.XXII. [1622, i.e. 1623]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening words of text.</note>
+      <note>Dated at end: New-Market, the seuen and twentieth day of February, in the twentieth yere of our raigne ..</note>
+      <note>Imprint from colophon.</note>
+      <note>The year date is given according to Lady Day dating.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

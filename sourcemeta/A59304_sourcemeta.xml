@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The conquest of China by the Tartars a tragedy, acted at the Duke's Theatre / written by Elkanah Settle ...</title>
-         <author>Settle, Elkanah, 1648-1724.</author>
-      </titleStmt>
-      <extent>[9], 67 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. for W. Cademan ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [8].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The conquest of China by the Tartars a tragedy, acted at the Duke's Theatre / written by Elkanah Settle ...</title>
+      <author>Settle, Elkanah, 1648-1724.</author>
+    </titleStmt>
+    <extent>[9], 67 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> for <persName type="publisher">W. Cademan</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [8].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Cademan</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

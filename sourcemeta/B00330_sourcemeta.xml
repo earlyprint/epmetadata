@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A fourme of prayer with thankes giuing, to be vsed of all the Queenes Maiesties louing subiects euery yeere, the 17. of Nouember, being the daye of the her Highnesse entry to her kingdome. Set forth by authoritie.</title>
-         <author>Church of England.</author>
-      </titleStmt>
-      <extent>[47] p.   </extent>
-      <publicationStmt>
-         <publisher>by Christopher Barker, printer to the Queenes Maiestie.</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1580" cert="low">[1580?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by STC (2nd ed.).</note>
-         <note>Signatures: A-B&#8312; (last verso blank).</note>
-         <note>Title within illustrated border (McK. &amp; Ferg. 165), initials.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
-         <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A fourme of prayer with thankes giuing, to be vsed of all the Queenes Maiesties louing subiects euery yeere, the 17. of Nouember, being the daye of the her Highnesse entry to her kingdome. Set forth by authoritie.</title>
+      <author>Church of England.</author>
+    </titleStmt>
+    <extent>[47] p.   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Christopher Barker</persName>, printer to <persName type="patron">the Queenes Maiestie.</persName></publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1580" cert="low">[1580?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by STC (2nd ed.).</note>
+      <note>Signatures: A-B&#8312; (last verso blank).</note>
+      <note>Title within illustrated border (McK. &amp; Ferg. 165), initials.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>"Cum priuilegio Regi&#230; Maiestatis."</note>
+      <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Queenes Maiestie.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

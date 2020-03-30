@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Monophylo, Drawne into English by Geffray Fenton. A philosophicall discourse, and diuision of loue</title>
-         <title>Monophile. English</title>
-         <author>Pasquier, Etienne, 1529-1615.</author>
-         <author>Fenton, Geoffrey, Sir, 1539?-1608.</author>
-      </titleStmt>
-      <extent>[4], 60, 29, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Denham for William Seres],</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1572">Anno. 1572.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Pasquier, Etienne.  Le Monophile.</note>
-         <note>Colophon reads "Imprinted at London by VVylliam Seres, dwelling at the west ende of Paules Church, at the signe of the Hedgehogge. Anno. 1572." Actual printer's name from STC.</note>
-         <note>The second book begins new foliation; register is continuous.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Monophylo, Drawne into English by Geffray Fenton. A philosophicall discourse, and diuision of loue</title>
+      <title>Monophile. English</title>
+      <author>Pasquier, Etienne, 1529-1615.</author>
+      <author>Fenton, Geoffrey, Sir, 1539?-1608.</author>
+    </titleStmt>
+    <extent>[4], 60, 29, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Denham</persName> for <persName type="publisher">William Seres]</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1572">Anno. 1572.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Pasquier, Etienne.  Le Monophile.</note>
+      <note>Colophon reads "Imprinted at London by VVylliam Seres, dwelling at the west ende of Paules Church, at the signe of the Hedgehogge. Anno. 1572." Actual printer's name from STC.</note>
+      <note>The second book begins new foliation; register is continuous.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Seres]</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Denham</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

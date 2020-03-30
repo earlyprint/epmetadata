@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Modern policy compleated, or, The publick actions and councels both civill and military of His Excellency the Lord Generall Monck under the generall revolutions since 1639, to 1660 / by David Lloyd.</title>
-         <author>Lloyd, David, 1635-1692.</author>
-      </titleStmt>
-      <extent>[7], 43, 61 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.B. for Henry Marsh,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title for both parts reads "The second part."</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Modern policy compleated, or, The publick actions and councels both civill and military of His Excellency the Lord Generall Monck under the generall revolutions since 1639, to 1660 / by David Lloyd.</title>
+      <author>Lloyd, David, 1635-1692.</author>
+    </titleStmt>
+    <extent>[7], 43, 61 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.B.</persName> for <persName type="publisher">Henry Marsh</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title for both parts reads "The second part."</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Marsh</persName>
+    </person>
+    <person type="printer">
+      <persName>J.B.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

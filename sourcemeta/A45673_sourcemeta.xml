@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A thanksgiving sermon for discovery of the late phanatick plot, September 9, 1683 by John Harrison ...</title>
-         <author>Harrison, John, d. 1698.</author>
-      </titleStmt>
-      <extent>[6], 23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for W. Crooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A thanksgiving sermon for discovery of the late phanatick plot, September 9, 1683 by John Harrison ...</title>
+      <author>Harrison, John, d. 1698.</author>
+    </titleStmt>
+    <extent>[6], 23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W. Crooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Crooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

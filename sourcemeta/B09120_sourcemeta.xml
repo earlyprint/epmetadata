@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands ioy, for the kings gratious proclamation for the banishing papists</title>
-      </titleStmt>
-      <extent>[2], 17 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Bernard Alsop and Thomas Fawcet],</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1640">Printed MDCXL. [1640]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication data suggested by Wing (2nd ed.).</note>
-         <note>Reproduction of original in: Peterborough Cathedral.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands ioy, for the kings gratious proclamation for the banishing papists</title>
+    </titleStmt>
+    <extent>[2], 17 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Bernard Alsop</persName> and <persName type="printer">Thomas Fawcet]</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1640">Printed MDCXL. [1640]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication data suggested by Wing (2nd ed.).</note>
+      <note>Reproduction of original in: Peterborough Cathedral.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bernard Alsop</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Fawcet]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

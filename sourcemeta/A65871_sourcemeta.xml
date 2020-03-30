@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A just enquiry into the libeller's abuse of the people called Quakers in his scandalous pamphlet, falsly stiled, Some of the Quakers principles, doctrines, laws and orders, &amp;c.</title>
-         <author>Whitehead, George, 1636?-1723.</author>
-      </titleStmt>
-      <extent>[2], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Whitehead by Wing.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A just enquiry into the libeller's abuse of the people called Quakers in his scandalous pamphlet, falsly stiled, Some of the Quakers principles, doctrines, laws and orders, &amp;c.</title>
+      <author>Whitehead, George, 1636?-1723.</author>
+    </titleStmt>
+    <extent>[2], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Whitehead by Wing.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

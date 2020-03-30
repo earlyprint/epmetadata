@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Dissenters address to His Majesty</title>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.D.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Dissenters address to His Majesty</title>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.D.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J.D.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

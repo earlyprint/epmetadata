@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Truth and innocency vindicated and the people called Quakers defended in principle and practice, against invidious attempts and calumnies, being a just examination of two books against the said people, entituled, I. examined by G. Whitehead ...</title>
-         <author>Whitehead, George, 1636?-1723.</author>
-      </titleStmt>
-      <extent>[8], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by T. Sowle ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Truth and innocency vindicated and the people called Quakers defended in principle and practice, against invidious attempts and calumnies, being a just examination of two books against the said people, entituled, I. examined by G. Whitehead ...</title>
+      <author>Whitehead, George, 1636?-1723.</author>
+    </titleStmt>
+    <extent>[8], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

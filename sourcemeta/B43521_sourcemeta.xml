@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>News from Jamaica in a letter from Port Royal written by the Germane princess to her  fellow collegiates and friends in New-Gate.</title>
-      </titleStmt>
-      <extent>[2], 4, [1] p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Peter Lillicrap for Philip Brigs ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1671">1671.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: M.C.</note>
-         <note>The later plate has date: 1793.</note>
-         <note>Title vignette, headpiece.</note>
-         <note>Reproduction of original in: New York Public Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>News from Jamaica in a letter from Port Royal written by the Germane princess to her  fellow collegiates and friends in New-Gate.</title>
+    </titleStmt>
+    <extent>[2], 4, [1] p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Peter Lillicrap</persName> for <persName type="publisher">Philip Brigs</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1671">1671.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: M.C.</note>
+      <note>The later plate has date: 1793.</note>
+      <note>Title vignette, headpiece.</note>
+      <note>Reproduction of original in: New York Public Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Philip Brigs</persName>
+    </person>
+    <person type="printer">
+      <persName>Peter Lillicrap</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Great Yarmouth, June 6th. By R.S., M.A. and rector of [illegible] in the county of Norfolk.</title>
-         <author>Scamler, Robert, b. 1653 or 4.</author>
-      </titleStmt>
-      <extent>[8], 68 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for and sold by George Rose, bookseller in Norwich,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Ms. notes throughout.</note>
-         <note>Imperfect: stained with some loss of text.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>With Biblical citations in marginal notes.</note>
-         <note>The state of the righteous -- Gods love to laps'd man.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Great Yarmouth, June 6th. By R.S., M.A. and rector of [illegible] in the county of Norfolk.</title>
+      <author>Scamler, Robert, b. 1653 or 4.</author>
+    </titleStmt>
+    <extent>[8], 68 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for and sold by <persName type="bookseller">George Rose</persName>, bookseller in <placeName>Norwich</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Ms. notes throughout.</note>
+      <note>Imperfect: stained with some loss of text.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>With Biblical citations in marginal notes.</note>
+      <note>The state of the righteous -- Gods love to laps'd man.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>George Rose</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Norwich</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

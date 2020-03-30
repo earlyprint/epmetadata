@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Hymns in commemoration of the sufferings of Our Blessed Saviour Jesus Christ compos'd for the celebration of His Holy Supper / by Joseph Stennett.</title>
-         <author>Stennett, Joseph, 1663-1713.</author>
-      </titleStmt>
-      <extent>[4], 51 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Darby for Andr. Bell...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Without the music.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Hymns in commemoration of the sufferings of Our Blessed Saviour Jesus Christ compos'd for the celebration of His Holy Supper / by Joseph Stennett.</title>
+      <author>Stennett, Joseph, 1663-1713.</author>
+    </titleStmt>
+    <extent>[4], 51 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Darby</persName> for <persName type="publisher">Andr. Bell</persName>...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Without the music.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andr. Bell</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Darby</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

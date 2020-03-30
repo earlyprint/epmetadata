@@ -1,24 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious speech to both Houses of Parliament, on Munday the 27th of January, 1689</title>
-         <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
-         <author>William III, King of England, 1650-1702.</author>
-         <author>Mary II, Queen of England, 1662-1694.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>By the heir of Andrew Anderson,</publisher>
-         <pubPlace>Printed at London ;</pubPlace>
-         <pubPlace>And re-printed at Edinburgh :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>William III thanks the House of Peers for funds to wage war.</note>
-         <note>Broadside.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious speech to both Houses of Parliament, on Munday the 27th of January, 1689</title>
+      <author>England and Wales. Sovereign (1689-1694 : William and Mary)</author>
+      <author>William III, King of England, 1650-1702.</author>
+      <author>Mary II, Queen of England, 1662-1694.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">the heir of Andrew Anderson</persName>,</publisher>
+      <pubPlace>Printed at London ;</pubPlace>
+      <pubPlace>And re-printed at Edinburgh :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>William III thanks the House of Peers for funds to wage war.</note>
+      <note>Broadside.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

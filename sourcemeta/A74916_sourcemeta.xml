@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The confession of faith, together with the larger and lesser catechismes. Composed by the reverend Assembly of Divines, sitting at Westminster, presented to both Houses of Parliament. Again published with the Scriptures at large, and the emphasis of the Scriptures in a different character. To which is annexed two sheets of Church-government with the Scriptures at large.</title>
-         <title>Westminster Confession of Faith.</title>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition.</edition>
-      </editionStmt>
-      <extent>[2], 151-254, 105-168, 139-170, 201-209, 300-302, [8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E.M. for the Company of Stationers, and are to be sold by John Rothwel at the Fountain in Cheapside,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Despite numerous errors in pagination, text is continuous.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The confession of faith, together with the larger and lesser catechismes. Composed by the reverend Assembly of Divines, sitting at Westminster, presented to both Houses of Parliament. Again published with the Scriptures at large, and the emphasis of the Scriptures in a different character. To which is annexed two sheets of Church-government with the Scriptures at large.</title>
+      <title>Westminster Confession of Faith.</title>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition.</edition>
+    </editionStmt>
+    <extent>[2], 151-254, 105-168, 139-170, 201-209, 300-302, [8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E.M.</persName> for <persName type="publisher">the Company of Stationers</persName>, and are to be sold by <persName type="bookseller">John Rothwel</persName> at <placeName>the Fountain in Cheapside</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Despite numerous errors in pagination, text is continuous.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the Company of Stationers</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Rothwel</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Fountain in Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

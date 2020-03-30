@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Cornish comedy as it is acted at the Theatre-Royal in Dorset-Garden by His Majesty's servants.</title>
-         <author>Powell, George, 1658?-1714.</author>
-      </titleStmt>
-      <extent>[12], 48 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for D. Brown ... and T. Bennet ... and K. Gately ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed by George Powell, who asserts that the play was given to him by the author.</note>
-         <note>First ed. Cf. BM.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Cornish comedy as it is acted at the Theatre-Royal in Dorset-Garden by His Majesty's servants.</title>
+      <author>Powell, George, 1658?-1714.</author>
+    </titleStmt>
+    <extent>[12], 48 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">D. Brown</persName> ... and <persName type="publisher">T. Bennet</persName> ... and <persName type="publisher">K. Gately</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed by George Powell, who asserts that the play was given to him by the author.</note>
+      <note>First ed. Cf. BM.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>D. Brown</persName>
+    </person>
+    <person type="publisher">
+      <persName>K. Gately</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Bennet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

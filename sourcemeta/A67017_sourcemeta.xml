@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true account of the siege of London-Derry by the Reverend Mr. George Walker ...</title>
-         <author>Walker, George, 1645?-1690.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition corrected.</edition>
-      </editionStmt>
-      <extent>59 [i.e. 67], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Clavel and Ralph Simpson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true account of the siege of London-Derry by the Reverend Mr. George Walker ...</title>
+      <author>Walker, George, 1645?-1690.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition corrected.</edition>
+    </editionStmt>
+    <extent>59 [i.e. 67], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Clavel</persName> and <persName type="publisher">Ralph Simpson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Simpson</persName>
+    </person>
+    <person type="publisher">
+      <persName>Robert Clavel</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

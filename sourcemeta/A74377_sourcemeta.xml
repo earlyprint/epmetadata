@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An additional act for the better observation of the Lords-Day, days of thanksgiving and humiliation. Die Veneris, decimo nono Aprilis, 1650. Ordered by the Parliament, that this act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
-         <author>England and Wales.</author>
-      </titleStmt>
-      <extent>[2], 809-817 [i.e 11] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Edward Husband and Iohn Field, printers to the Parliment of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On 7G2: the last word of first line of text: 'effectual'; first word of line below initial: 'venting'; the last word of last full line of text: 'and'.</note>
-         <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
-         <note>Ornament on t.p.; initial letter; text in black letter.</note>
-         <note>Signatures: 7G&#8308; 7H&#178; .</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An additional act for the better observation of the Lords-Day, days of thanksgiving and humiliation. Die Veneris, decimo nono Aprilis, 1650. Ordered by the Parliament, that this act be forthwith printed and published. Hen: Scobell, Cleric. Parliamenti.</title>
+      <author>England and Wales.</author>
+    </titleStmt>
+    <extent>[2], 809-817 [i.e 11] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">Iohn Field</persName>, printers to <persName type="patron">the Parliment of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On 7G2: the last word of first line of text: 'effectual'; first word of line below initial: 'venting'; the last word of last full line of text: 'and'.</note>
+      <note>Also issued as part of a through-paged folio set with a table for the entire set added.</note>
+      <note>Ornament on t.p.; initial letter; text in black letter.</note>
+      <note>Signatures: 7G&#8308; 7H&#178; .</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliment of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

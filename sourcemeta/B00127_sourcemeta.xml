@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The cruell shrow: or, The patient mans vvoe. Declaring the misery, and the great paine, by his vnquiet wife he doth dayly sustaine. To the tune of Cuckolds all arowe.</title>
-         <author>Halliarg, Arthur.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by M.P. for Henry Gosson on London Bridge neere the Gate,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1640" cert="low">[1640?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed: Arthur Halliarg.</note>
-         <note>Verse: "Come batchelers and maried men ..."</note>
-         <note>Publication date suggested by STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The cruell shrow: or, The patient mans vvoe. Declaring the misery, and the great paine, by his vnquiet wife he doth dayly sustaine. To the tune of Cuckolds all arowe.</title>
+      <author>Halliarg, Arthur.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.P.</persName> for <persName type="publisher">Henry Gosson</persName> on <placeName>London Bridge neere the Gate</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1640" cert="low">[1640?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed: Arthur Halliarg.</note>
+      <note>Verse: "Come batchelers and maried men ..."</note>
+      <note>Publication date suggested by STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Gosson</persName>
+    </person>
+    <person type="printer">
+      <persName>M.P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London Bridge neere the Gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

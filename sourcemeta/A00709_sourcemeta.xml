@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact and curious suruey of all the East Indies, euen to Canton, the chiefe cittie of China all duly performed by land, by Monsieur de Monfart, the like whereof was neuer hetherto, brought to an end. VVherein also are described the huge dominions of the great Mogor, to whom that honorable knight, Sir Thomas Roe, was lately sent ambassador from the King. Newly translated out of the trauailers manuscript.</title>
-         <author>Feynes, Henri de.</author>
-         <author>Loiseau de Tourval, Jean.</author>
-      </titleStmt>
-      <extent>[10], 40, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Dawson, for VVilliam Arondell, in Pauls Church-yard, at the Angell,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1615">1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's dedication signed: [Greek capital delta], i.e. Jean Loiseau de Tourval.</note>
-         <note>Apparently the first edition in any language.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A&#178;  B-G&#8308;.</note>
-         <note>Running title reads: The trauailes of Monsieur de Monfart.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact and curious suruey of all the East Indies, euen to Canton, the chiefe cittie of China all duly performed by land, by Monsieur de Monfart, the like whereof was neuer hetherto, brought to an end. VVherein also are described the huge dominions of the great Mogor, to whom that honorable knight, Sir Thomas Roe, was lately sent ambassador from the King. Newly translated out of the trauailers manuscript.</title>
+      <author>Feynes, Henri de.</author>
+      <author>Loiseau de Tourval, Jean.</author>
+    </titleStmt>
+    <extent>[10], 40, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Dawson</persName>, for <persName type="publisher">VVilliam Arondell</persName>, in <placeName>Pauls Church-yard, at the Angell</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1615">1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's dedication signed: [Greek capital delta], i.e. Jean Loiseau de Tourval.</note>
+      <note>Apparently the first edition in any language.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A&#178;  B-G&#8308;.</note>
+      <note>Running title reads: The trauailes of Monsieur de Monfart.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>VVilliam Arondell</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Dawson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, at the Angell</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

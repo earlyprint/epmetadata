@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>St. George for England: or, a relation of the manner of the election and installation of the knights of the most noble order of St. George, called the Garter. Which is to be solemnized on the 15. 16. and 17. of April next, at the castle of Windsore.</title>
-      </titleStmt>
-      <extent>[2], 12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for James Thrale, and are to be sold at the sign of the Cross-keyes, at Pauls gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Marsh. 29".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>St. George for England: or, a relation of the manner of the election and installation of the knights of the most noble order of St. George, called the Garter. Which is to be solemnized on the 15. 16. and 17. of April next, at the castle of Windsore.</title>
+    </titleStmt>
+    <extent>[2], 12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">James Thrale</persName>, and are to be sold at <placeName>the sign of the Cross-keyes, at Pauls gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Marsh. 29".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Thrale</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Cross-keyes, at Pauls gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

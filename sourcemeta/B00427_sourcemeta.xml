@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An excellent new medly. To to [sic] tune of the Spanish Pauin.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assignes of Thomas Symcocke,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1628" notAfter="1629">[1628 or 9]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "VVhen Philomel begins to sing ..."</note>
-         <note>Date of publication suggested by STC.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An excellent new medly. To to [sic] tune of the Spanish Pauin.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assignes of <persName type="assigns">Thomas Symcocke</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1628" notAfter="1629">[1628 or 9]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "VVhen Philomel begins to sing ..."</note>
+      <note>Date of publication suggested by STC.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="assigns">
+      <persName>Thomas Symcocke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The lords spiritual and temporal, assembled at the House of Lords, Westminster, December 25, 1688</title>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Awnsham and William Churchill ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">M DC LXXX VIII [1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: stained and torn, with slight loss of print.</note>
-         <note>The request of the House of Lords to the Prince of Orange that he accept the care of the nation, and call parliamentary elections.</note>
-         <note>"Published by their lordships order."</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The lords spiritual and temporal, assembled at the House of Lords, Westminster, December 25, 1688</title>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Awnsham</persName> and <persName type="publisher">William Churchill</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">M DC LXXX VIII [1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: stained and torn, with slight loss of print.</note>
+      <note>The request of the House of Lords to the Prince of Orange that he accept the care of the nation, and call parliamentary elections.</note>
+      <note>"Published by their lordships order."</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Awnsham</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Churchill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

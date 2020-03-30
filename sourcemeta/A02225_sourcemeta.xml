@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The burthen of tyre A sermon preach'd at Pauls Crosse, by Iohn Grent, then fellow of New Colledge in Oxford.</title>
-         <author>Grent, John.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by A. Mathewes] for Richard Royston,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1627">1627.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>A variant of the edition with Grismand's name in imprint.</note>
-         <note>Identified as STC 12360a on UMI microfilm.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The burthen of tyre A sermon preach'd at Pauls Crosse, by Iohn Grent, then fellow of New Colledge in Oxford.</title>
+      <author>Grent, John.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">A. Mathewes]</persName> for <persName type="publisher">Richard Royston</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1627">1627.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>A variant of the edition with Grismand's name in imprint.</note>
+      <note>Identified as STC 12360a on UMI microfilm.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Royston</persName>
+    </person>
+    <person type="printer">
+      <persName>A. Mathewes]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

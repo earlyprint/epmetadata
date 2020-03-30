@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>God's anger ; and, Man's comfort two sermons / preached and published by Tho. Adams.</title>
-         <author>Adams, Thomas, fl. 1612-1653.</author>
-      </titleStmt>
-      <extent>[4], 88 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Maxey for Samuel Man ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>God's anger ; and, Man's comfort two sermons / preached and published by Tho. Adams.</title>
+      <author>Adams, Thomas, fl. 1612-1653.</author>
+    </titleStmt>
+    <extent>[4], 88 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Maxey</persName> for <persName type="publisher">Samuel Man</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Maxey</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

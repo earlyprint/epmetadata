@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A list of the several persons in civil offices under the late King in Ireland</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Amery ..., and sold by Randal Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Broadside.</note>
-         <note>"A list of the present Irish sheriffs" and "A letter from Chester, March the first, 1689" on p. [2].</note>
-         <note>Advertisement: p. [2].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A list of the several persons in civil offices under the late King in Ireland</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Amery</persName> ..., and sold by <persName type="bookseller">Randal Taylor</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Broadside.</note>
+      <note>"A list of the present Irish sheriffs" and "A letter from Chester, March the first, 1689" on p. [2].</note>
+      <note>Advertisement: p. [2].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Amery</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Randal Taylor</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

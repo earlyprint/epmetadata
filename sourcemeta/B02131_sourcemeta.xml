@@ -1,23 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties two gracious letters, viz. one sent to the House of Peers, by Sir John Grenville Knight, from Breda. The other, to the Lord Mayor, Aldermen, and Common Council of the city of London.</title>
-         <author>Charles II, King of England, 1630-1685.</author>
-         <author>Sadler, Anthony, b. 1610.</author>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Re-printed by Christopher Higgins in Harts Close, over against the Trone-Church,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>With royal coat of arms and initial letters.</note>
-         <note>Also includes response from the Common Council, "holden the first of May, 1660," expressing "most humble and hearty thanks to his Majesty ...".</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties two gracious letters, viz. one sent to the House of Peers, by Sir John Grenville Knight, from Breda. The other, to the Lord Mayor, Aldermen, and Common Council of the city of London.</title>
+      <author>Charles II, King of England, 1630-1685.</author>
+      <author>Sadler, Anthony, b. 1610.</author>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Re-printed by <persName type="printer">Christopher Higgins</persName> in <placeName>Harts Close, over against the Trone-Church</placeName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>With royal coat of arms and initial letters.</note>
+      <note>Also includes response from the Common Council, "holden the first of May, 1660," expressing "most humble and hearty thanks to his Majesty ...".</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Higgins</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Harts Close, over against the Trone-Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

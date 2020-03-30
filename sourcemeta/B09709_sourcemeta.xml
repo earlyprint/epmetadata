@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>William Rogers's Scourge of Tow fired,</title>
-         <author>Richardson, Richard, 1623?-1689.</author>
-      </titleStmt>
-      <extent>7, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by John Bringhurst ... in Leaden-Hall Mutton-Market,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1684" cert="low">ca. 1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>P 7. signed: Richard Richardson.</note>
-         <note>Place of publication and printer from printer's ad on p. [1] at end.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Reproduction of original in the Haverford College Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>William Rogers's Scourge of Tow fired,</title>
+      <author>Richardson, Richard, 1623?-1689.</author>
+    </titleStmt>
+    <extent>7, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">John Bringhurst</persName></persName> ... in <placeName>Leaden-Hall Mutton-Market</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1684" cert="low">ca. 1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>P 7. signed: Richard Richardson.</note>
+      <note>Place of publication and printer from printer's ad on p. [1] at end.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Reproduction of original in the Haverford College Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Bringhurst</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Bringhurst</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Leaden-Hall Mutton-Market</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

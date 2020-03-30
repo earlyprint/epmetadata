@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon concerning the Epiphany preached at the cathedrall church of Christ in Oxford. By Richard Gardyner, D.D. and canon of the same church.</title>
-         <author>Gardiner, Richard, 1591-1670.</author>
-      </titleStmt>
-      <extent>[6], 31, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield, and are to be sold by Matth. Hunt,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1639">Anno Dom. 1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon concerning the Epiphany preached at the cathedrall church of Christ in Oxford. By Richard Gardyner, D.D. and canon of the same church.</title>
+      <author>Gardiner, Richard, 1591-1670.</author>
+    </titleStmt>
+    <extent>[6], 31, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName>, and are to be sold by <persName type="bookseller">Matth. Hunt</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1639">Anno Dom. 1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Matth. Hunt</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

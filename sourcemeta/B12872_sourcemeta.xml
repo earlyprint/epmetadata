@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation charging all Iesuites, seminaries, &amp;c. to depart the land.</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>2 sheets (versos blank).   </extent>
-      <publicationStmt>
-         <publisher>by Bonham Norton and Iohn Bill, printers to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1624">Anno Dom. M.DC.XXIIII. [1624]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"On the petition of Parliament, all Jesuits, Seminary Priests, and persons in Romish Orders are to leave England before 14th June next on pain of punishment by law. No one to harbour them. All Archbishops, Judges, &amp;c., to be vigilant in execution of this." -- Steele.</note>
-         <note>Caption title.</note>
-         <note>Dated at end: ... Greenewich, the sixt day of May, in the two and twentieth yeere of His Maiesties reigne ... .</note>
-         <note>Imprint from colophon.</note>
-         <note>Steele notation: knowledge, within 2) behalfe they; Arms 12</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation charging all Iesuites, seminaries, &amp;c. to depart the land.</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>2 sheets (versos blank).   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Bonham Norton</persName> and <persName type="printer">Iohn Bill</persName>, printers to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1624">Anno Dom. M.DC.XXIIII. [1624]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"On the petition of Parliament, all Jesuits, Seminary Priests, and persons in Romish Orders are to leave England before 14th June next on pain of punishment by law. No one to harbour them. All Archbishops, Judges, &amp;c., to be vigilant in execution of this." -- Steele.</note>
+      <note>Caption title.</note>
+      <note>Dated at end: ... Greenewich, the sixt day of May, in the two and twentieth yeere of His Maiesties reigne ... .</note>
+      <note>Imprint from colophon.</note>
+      <note>Steele notation: knowledge, within 2) behalfe they; Arms 12</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Bonham Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

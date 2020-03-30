@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the resolutions of His Majesties forces, published by the Marquisse of Clanrickard against the Parliament of England also a declaration signed by the officers in Vlster. And a copy of a letter from Collonell Jones to the Lord Inchequeen.</title>
-         <author>Clanricarde, Ulick de Burgh, Earl of, 1604-1657.</author>
-         <author>Jones, Michael, d. 1649.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for A. H. neer Pye-corner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Aug. 1st".</note>
-         <note>Identified as STC 4121a on UMI microfilm, reel 1129.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the resolutions of His Majesties forces, published by the Marquisse of Clanrickard against the Parliament of England also a declaration signed by the officers in Vlster. And a copy of a letter from Collonell Jones to the Lord Inchequeen.</title>
+      <author>Clanricarde, Ulick de Burgh, Earl of, 1604-1657.</author>
+      <author>Jones, Michael, d. 1649.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A. H.</persName> neer <placeName>Pye-corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Aug. 1st".</note>
+      <note>Identified as STC 4121a on UMI microfilm, reel 1129.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A. H.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pye-corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

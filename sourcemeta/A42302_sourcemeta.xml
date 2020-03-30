@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Gideon's fleece, or, The Sieur de Frisk an heroick poem, written on the cursory perusal of a late book, call'd The conclave of physicians / by a friend to the muses.</title>
-         <author>Guidott, Thomas, fl. 1698.</author>
-      </titleStmt>
-      <extent>[8], 30, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Sam. Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Advertisement: p. [7]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Gideon's fleece, or, The Sieur de Frisk an heroick poem, written on the cursory perusal of a late book, call'd The conclave of physicians / by a friend to the muses.</title>
+      <author>Guidott, Thomas, fl. 1698.</author>
+    </titleStmt>
+    <extent>[8], 30, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Sam. Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Advertisement: p. [7]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sam. Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

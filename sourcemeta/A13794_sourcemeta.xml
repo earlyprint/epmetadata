@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The True lamentable discourse of the burning of Teuerton in Deuon-shire the third day of Aprill last past, about the hower of one of the clocke in the after-noone being Market day, 1598. At what time there was consumed to ashes about the number of 400 houses with all the money and goods that was therein: and fyftie persons burnt aliue through the vehemencie of the same fyer.</title>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Purfoot for Thomas Millington and are to be sould at his shop in Corn-hill, vnder St. Peters Church,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1598">[1598]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-B&#8308; (A1 blank).</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-         <note>Publication date from STC.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The True lamentable discourse of the burning of Teuerton in Deuon-shire the third day of Aprill last past, about the hower of one of the clocke in the after-noone being Market day, 1598. At what time there was consumed to ashes about the number of 400 houses with all the money and goods that was therein: and fyftie persons burnt aliue through the vehemencie of the same fyer.</title>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Purfoot</persName> for <persName type="publisher">Thomas Millington</persName> and are to be sould at <placeName>his shop in Corn-hill, vnder St. Peters Church</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1598">[1598]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-B&#8308; (A1 blank).</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+      <note>Publication date from STC.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Millington</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Purfoot</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Corn-hill, vnder St. Peters Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

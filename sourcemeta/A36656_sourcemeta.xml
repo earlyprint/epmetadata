@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An ode on the death of Mr. Henry Purcell ... the words by Mr. Dryden ; and sett to musick by Dr. Blow.</title>
-         <title>Ode on the death of Mr. Henry Purcell</title>
-         <author>Blow, John, d. 1708.</author>
-         <author>Dryden, John, 1631-1700.</author>
-      </titleStmt>
-      <extent>1 score (30 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Heptinstall for Henry Playford ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>For 2 countertenors, 2 recorders, and continuo.</note>
-         <note>Advertisements: p. 30.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An ode on the death of Mr. Henry Purcell ... the words by Mr. Dryden ; and sett to musick by Dr. Blow.</title>
+      <title>Ode on the death of Mr. Henry Purcell</title>
+      <author>Blow, John, d. 1708.</author>
+      <author>Dryden, John, 1631-1700.</author>
+    </titleStmt>
+    <extent>1 score (30 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Heptinstall</persName> for <persName type="publisher">Henry Playford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>For 2 countertenors, 2 recorders, and continuo.</note>
+      <note>Advertisements: p. 30.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Heptinstall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

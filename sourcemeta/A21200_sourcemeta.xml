@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A balad intituled, the dekaye of the Duke</title>
-         <author>Elderton, William, d. 1592?</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Imprinted at London in Fleetestreate beneath the conduit at the signe signe [sic] of Saynt John Evangelist by Thomas Colwell,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1572">[1572]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Date of publication suggested by STC (2nd ed.)</note>
-         <note>Concerns the fourth Duke of Norfolk -- Cf. STC (2nd ed.)</note>
-         <note>Reproduction of original in the Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A balad intituled, the dekaye of the Duke</title>
+      <author>Elderton, William, d. 1592?</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Imprinted at <placeName>London in Fleetestreate beneath the conduit at the signe signe [sic] of Saynt John Evangelist</placeName> by <persName type="printer">Thomas Colwell</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1572">[1572]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Date of publication suggested by STC (2nd ed.)</note>
+      <note>Concerns the fourth Duke of Norfolk -- Cf. STC (2nd ed.)</note>
+      <note>Reproduction of original in the Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Thomas Colwell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London in Fleetestreate beneath the conduit at the signe signe [sic] of Saynt John Evangelist</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

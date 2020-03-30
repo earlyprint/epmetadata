@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Liberty of conscience explicated and vindicated, and the just limits betwixt it and authority sacred and civil, cleared</title>
-      </titleStmt>
-      <extent>[2], 18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for John Lawrence ... and are to be sold by Richard Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Licensed, March 26, 1689"</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Liberty of conscience explicated and vindicated, and the just limits betwixt it and authority sacred and civil, cleared</title>
+    </titleStmt>
+    <extent>[2], 18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">John Lawrence</persName> ... and are to be sold by <persName type="bookseller">Richard Baldwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Licensed, March 26, 1689"</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Lawrence</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

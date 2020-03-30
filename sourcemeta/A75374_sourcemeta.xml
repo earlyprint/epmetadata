@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An Anniversary ode, upon the Kings birth day. May 29. Written for this yeare 1654. Being his 24 yeare. To his Majesty.</title>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Samuel Brown,</publisher>
-         <pubPlace>Hague :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An Anniversary ode, upon the Kings birth day. May 29. Written for this yeare 1654. Being his 24 yeare. To his Majesty.</title>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Samuel Brown</persName>,</publisher>
+      <pubPlace>Hague :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Brown</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

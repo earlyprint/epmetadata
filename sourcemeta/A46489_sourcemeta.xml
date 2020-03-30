@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Majesties most gracious and general pardon</title>
-         <title>Proclamations. 1688-09-27.</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Charles Bill, Henry Hills, and Thomas Newcomb, printers to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At end: In withness whereof we have caused these our letters to be made patents, witness our self at Westminster the seven and twentieth day of September, in the fourth year of our reign. Signed: Clerke.</note>
-         <note>A general pardon except for a list of specific crimes and excepting those named persons implicated in the Popish Plot.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Majesties most gracious and general pardon</title>
+      <title>Proclamations. 1688-09-27.</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Charles Bill</persName>, <persName type="printer">Henry Hills</persName>, and <persName type="printer">Thomas Newcomb</persName>, printers to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At end: In withness whereof we have caused these our letters to be made patents, witness our self at Westminster the seven and twentieth day of September, in the fourth year of our reign. Signed: Clerke.</note>
+      <note>A general pardon except for a list of specific crimes and excepting those named persons implicated in the Popish Plot.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

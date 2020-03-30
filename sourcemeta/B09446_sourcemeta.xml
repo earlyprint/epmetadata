@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The lovers mad fits and fancies to a delightful new tune.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. Vere, W. Gilbertson and J. Wright,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date notBefore="1663" notAfter="1665">[1663-1665]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Date of publication suggested by Wing (2nd ed.).</note>
-         <note>Right half sheet contains: "the second part to the same tune."</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The lovers mad fits and fancies to a delightful new tune.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Vere</persName>, <persName type="publisher">W. Gilbertson</persName> and <persName type="publisher">J. Wright</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date notBefore="1663" notAfter="1665">[1663-1665]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Date of publication suggested by Wing (2nd ed.).</note>
+      <note>Right half sheet contains: "the second part to the same tune."</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Wright</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Vere</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Gilbertson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

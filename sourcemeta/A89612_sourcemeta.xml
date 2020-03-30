@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A relation of the great victories and successes of the garrison of Plymouth, since the last account, given you in the continuation of the true narration, May 10. Truly expressed from thence in two severall letters, the one from Leivetenant Collonell Martin, commander in chiefe there, to a friend of his in London. The other by a captaine there, to a worthy minister of this citie.</title>
-         <author>Martin, Robert, Lieutenant Colonel.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. P. and are to be sold at the Marigold in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1644">June 4th. 1644.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A relation of the great victories and successes of the garrison of Plymouth, since the last account, given you in the continuation of the true narration, May 10. Truly expressed from thence in two severall letters, the one from Leivetenant Collonell Martin, commander in chiefe there, to a friend of his in London. The other by a captaine there, to a worthy minister of this citie.</title>
+      <author>Martin, Robert, Lieutenant Colonel.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. P.</persName> and are to be sold at <placeName>the Marigold in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1644">June 4th. 1644.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. P.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Marigold in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

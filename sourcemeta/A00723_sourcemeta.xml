@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Amends for ladies VVith the humour of roring. A comedie. As it was acted at the Blacke Fryers, both by the Princes seruants, and the Lady Elizabeths. By Nat. Field.</title>
-         <author>Field, Nathan, 1587-1620?</author>
-      </titleStmt>
-      <extent>[62] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. Eld, for Math. Walbancke, and are to be sold at his shop, at the new gate of Grayes-Inne, or at the old,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-H&#8308; (-A1, +-A2?).</note>
-         <note>Another state (issue?) of STC 10851. The title page is in substantially the same setting.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Amends for ladies VVith the humour of roring. A comedie. As it was acted at the Blacke Fryers, both by the Princes seruants, and the Lady Elizabeths. By Nat. Field.</title>
+      <author>Field, Nathan, 1587-1620?</author>
+    </titleStmt>
+    <extent>[62] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Eld</persName>, for <persName type="publisher">Math. Walbancke</persName>, and are to be sold at <placeName>his shop, at the new gate of Grayes-Inne, or at the old</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-H&#8308; (-A1, +-A2?).</note>
+      <note>Another state (issue?) of STC 10851. The title page is in substantially the same setting.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Math. Walbancke</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the new gate of Grayes-Inne, or at the old</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

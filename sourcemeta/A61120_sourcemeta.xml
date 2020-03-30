@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Kaina kai palaia Things new and old, or, A store-house of similies, sentences, allegories, apophthegms, adagies, apologues, divine, morall, politicall, &amp;c. : with their severall applications / collected and observed from the writings and sayings of the learned in all ages to this present by John Spencer ...</title>
-         <author>Spencer, John, d. 1680.</author>
-         <author>Fuller, Thomas, (1608-1661)</author>
-      </titleStmt>
-      <extent>[14], 679, [35] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Wilson and J. Streater, for John Spencer ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Tho. Fuller.</note>
-         <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Kaina kai palaia Things new and old, or, A store-house of similies, sentences, allegories, apophthegms, adagies, apologues, divine, morall, politicall, &amp;c. : with their severall applications / collected and observed from the writings and sayings of the learned in all ages to this present by John Spencer ...</title>
+      <author>Spencer, John, d. 1680.</author>
+      <author>Fuller, Thomas, (1608-1661)</author>
+    </titleStmt>
+    <extent>[14], 679, [35] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Wilson</persName> and <persName type="printer">J. Streater</persName>, for <persName type="publisher">John Spencer</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Tho. Fuller.</note>
+      <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Spencer</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Streater</persName>
+    </person>
+    <person type="printer">
+      <persName>W. Wilson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

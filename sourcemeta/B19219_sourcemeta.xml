@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>His Maiesties speech to the gentlemen of Yorkshire, on Thursday the fourth of August 1642 also a list of the names of the counsell of war now resident with His Maiesty.</title>
-         <author>Charles I, King of England, 1600-1649.</author>
-      </titleStmt>
-      <extent>[2], 5 p.   </extent>
-      <publicationStmt>
-         <publisher>for Tho. Banks and Will. Ley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Originally published : Yorke : Robert Barker, 1642.</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>His Maiesties speech to the gentlemen of Yorkshire, on Thursday the fourth of August 1642 also a list of the names of the counsell of war now resident with His Maiesty.</title>
+      <author>Charles I, King of England, 1600-1649.</author>
+    </titleStmt>
+    <extent>[2], 5 p.   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">Tho. Banks</persName> and <persName type="publisher">Will. Ley</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Originally published : Yorke : Robert Barker, 1642.</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Banks</persName>
+    </person>
+    <person type="publisher">
+      <persName>Will. Ley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

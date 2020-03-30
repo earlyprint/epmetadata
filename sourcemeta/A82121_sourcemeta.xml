@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the army of the Commonwealth of England, to the people of Scotland. Signed in the name, and by the appointment of his Excellency the Lord General Cromwel and his councel of officers. Jo: Rushworth secr'</title>
-         <author>England and Wales. Army.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Husband and John Field, printers to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">July 23. 1650.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the army of the Commonwealth of England, to the people of Scotland. Signed in the name, and by the appointment of his Excellency the Lord General Cromwel and his councel of officers. Jo: Rushworth secr'</title>
+      <author>England and Wales. Army.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">John Field</persName>, printers to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">July 23. 1650.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

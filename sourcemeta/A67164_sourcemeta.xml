@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the parish church of Solihull in Warwickshire, December 21. 1690 On occasion of the death of Anne, the wife of the reverend and worshipful Henry Greswold; precentor of the Cathedral of Lichfield, &amp;c. and rector of Solihull aforesaid. By John Wright Master of Arts.</title>
-         <author>Wright, John, 1665 or 6-1719.</author>
-      </titleStmt>
-      <extent>[4], 24, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for W. Crooke at the Green-Dragon without Temple-Bar,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">MDCXCI. [1691]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With two final advertisement leaves.</note>
-         <note>Copy closely trimmed; with some print show-through; MS. note following imprint: "11. May.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the parish church of Solihull in Warwickshire, December 21. 1690 On occasion of the death of Anne, the wife of the reverend and worshipful Henry Greswold; precentor of the Cathedral of Lichfield, &amp;c. and rector of Solihull aforesaid. By John Wright Master of Arts.</title>
+      <author>Wright, John, 1665 or 6-1719.</author>
+    </titleStmt>
+    <extent>[4], 24, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">W. Crooke</persName> at <placeName>the Green-Dragon without Temple-Bar</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">MDCXCI. [1691]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With two final advertisement leaves.</note>
+      <note>Copy closely trimmed; with some print show-through; MS. note following imprint: "11. May.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Crooke</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Green-Dragon without Temple-Bar</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

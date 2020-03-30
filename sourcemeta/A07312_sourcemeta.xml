@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden art, or The right way of enriching Comprised in ten rules, proued and confirmed by many places of holy Scripture, and illustrated by diuers notable examples of the same. Very profitable for all such persons in citie or countrie, as doe desire to get, increase, conserue, and vse goods with a good conscience. By I.M. Maister in Arts.</title>
-         <author>Maxwell, James, b. 1581.</author>
-      </titleStmt>
-      <extent>[14], 213, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by F. Kingston] for William Leake, and are to be sold at his shop in Paules Church-yard, at the signe of the Holy Ghost,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1611">1611.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>I.M. = James Maxwell.</note>
-         <note>Printer's name from STC.</note>
-         <note>Running title reads: The golden art of enriching.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden art, or The right way of enriching Comprised in ten rules, proued and confirmed by many places of holy Scripture, and illustrated by diuers notable examples of the same. Very profitable for all such persons in citie or countrie, as doe desire to get, increase, conserue, and vse goods with a good conscience. By I.M. Maister in Arts.</title>
+      <author>Maxwell, James, b. 1581.</author>
+    </titleStmt>
+    <extent>[14], 213, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">F. Kingston]</persName> for <persName type="publisher">William Leake</persName>, and are to be sold at <placeName>his shop in Paules Church-yard, at the signe of the Holy Ghost</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1611">1611.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>I.M. = James Maxwell.</note>
+      <note>Printer's name from STC.</note>
+      <note>Running title reads: The golden art of enriching.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Leake</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Kingston]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Paules Church-yard, at the signe of the Holy Ghost</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

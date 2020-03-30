@@ -1,22 +1,41 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Kings Maiestie at Drayton in Northhamptonshire the sixt day of August. 1605. By that eloquent diuine of famous memorie, Th. Playfere Doctor in Diuninitie</title>
-         <author>Playfere, Thomas, 1561?-1609.</author>
-      </titleStmt>
-      <extent>[2], 21, [3], 23-39, [3], 41-64, [2], 65-87, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Cantrell Legge, printer to the Vniuersitie of Cambridge. 1609. And are to be sold by Samuel Macham in Pauls Churchyard [, London] at the signe of the Bull head,</publisher>
-         <pubPlace>[Cambridge] :</pubPlace>
-         <date when="1609">[1609]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"A sermon preached before the Kings Maiestie that day he entred into Oxford, at Woodstocke, beeing the 27. of August. 1605", "A funerall sermon preached in S. Maries. 10. May. 1605", and "A sermon preached by that eloquent diuine of famous memorie, Th. Playfere" each has separate dated title page; pagination and register are continuous.</note>
-         <note>Sermon 1 was apparently also issued separately.</note>
-         <note>Sermons 3 and 4 identified as STC 20009 on UMI microfilm reel 1252.</note>
-         <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery and the Union Theological Seminary (New York, N.Y.). Library.</note>
-         <note>Appears at reel 970 (Henry E. Huntington Library and Art Gallery copy) and at reel 1252 (Union Theological Seminary (New York, N.Y.). Library copy).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Kings Maiestie at Drayton in Northhamptonshire the sixt day of August. 1605. By that eloquent diuine of famous memorie, Th. Playfere Doctor in Diuninitie</title>
+      <author>Playfere, Thomas, 1561?-1609.</author>
+    </titleStmt>
+    <extent>[2], 21, [3], 23-39, [3], 41-64, [2], 65-87, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Cantrell Legge</persName>, printer to <persName type="patron">the Vniuersitie of Cambridge. 1609. And</persName> are to be sold by <persName type="bookseller">Samuel Macham</persName> in <placeName>Pauls Churchyard [</placeName>, <placeName>London] at the signe of the Bull head</placeName>,</publisher>
+      <pubPlace>[Cambridge] :</pubPlace>
+      <date when="1609">[1609]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"A sermon preached before the Kings Maiestie that day he entred into Oxford, at Woodstocke, beeing the 27. of August. 1605", "A funerall sermon preached in S. Maries. 10. May. 1605", and "A sermon preached by that eloquent diuine of famous memorie, Th. Playfere" each has separate dated title page; pagination and register are continuous.</note>
+      <note>Sermon 1 was apparently also issued separately.</note>
+      <note>Sermons 3 and 4 identified as STC 20009 on UMI microfilm reel 1252.</note>
+      <note>Reproductions of the originals in the Henry E. Huntington Library and Art Gallery and the Union Theological Seminary (New York, N.Y.). Library.</note>
+      <note>Appears at reel 970 (Henry E. Huntington Library and Art Gallery copy) and at reel 1252 (Union Theological Seminary (New York, N.Y.). Library copy).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Cantrell Legge</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Samuel Macham</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniuersitie of Cambridge. 1609. And</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London] at the signe of the Bull head</placeName>
+    </place>
+    <place type="location">
+      <placeName>Pauls Churchyard [</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

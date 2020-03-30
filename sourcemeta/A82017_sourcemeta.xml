@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An exact history of the life of James Naylor with his parents, birth, education, profession, actions, &amp; blaspheemies [sic]. Also how he came first to be a Quaker, and received his commission from heaven (as he saith) when he was in the field at plow. Taken from his own mouth. With the doctrines, tenets and practises of some other of the same sect. / By John Deacon.</title>
-         <author>Deacon, John, 17th cent.</author>
-      </titleStmt>
-      <extent>[6], 58 [i.e. 50] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Thomas, and are to be sold at his house in Green Arbor,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Page 50 misnumbered 58.</note>
-         <note>Annotation on Thomason copy: "12 Febr."; the 7 in imprint date has been crossed out and date altered to 1656.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An exact history of the life of James Naylor with his parents, birth, education, profession, actions, &amp; blaspheemies [sic]. Also how he came first to be a Quaker, and received his commission from heaven (as he saith) when he was in the field at plow. Taken from his own mouth. With the doctrines, tenets and practises of some other of the same sect. / By John Deacon.</title>
+      <author>Deacon, John, 17th cent.</author>
+    </titleStmt>
+    <extent>[6], 58 [i.e. 50] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Thomas</persName>, and are to be sold at <placeName>his house in Green Arbor</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Page 50 misnumbered 58.</note>
+      <note>Annotation on Thomason copy: "12 Febr."; the 7 in imprint date has been crossed out and date altered to 1656.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Thomas</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Green Arbor</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

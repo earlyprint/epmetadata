@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Salvation, every man's great concern written originally in French by Monsieur Rapin ; done into English.</title>
-         <title>Importance de salut. English</title>
-         <author>Rapin, Ren&#233;, 1621-1687.</author>
-      </titleStmt>
-      <extent>[4], 219, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W.O. for Matth. Gillyflower ... and Matth. Wotton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Importance de salut.</note>
-         <note>Advertisements: p. [1] at end.</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Salvation, every man's great concern written originally in French by Monsieur Rapin ; done into English.</title>
+      <title>Importance de salut. English</title>
+      <author>Rapin, Ren&#233;, 1621-1687.</author>
+    </titleStmt>
+    <extent>[4], 219, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W.O.</persName> for <persName type="publisher">Matth. Gillyflower</persName> ... and <persName type="publisher">Matth. Wotton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Importance de salut.</note>
+      <note>Advertisements: p. [1] at end.</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matth. Gillyflower</persName>
+    </person>
+    <person type="publisher">
+      <persName>Matth. Wotton</persName>
+    </person>
+    <person type="printer">
+      <persName>W.O.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

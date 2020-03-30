@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Greeks and Trojans wars ... Tune is, A conscionable caviat.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. VeWright [sic], and L. Clark,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1675" cert="low">[1675?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing, which has publication date = [1674-9].</note>
-         <note>In two parts.</note>
-         <note>Verse - "Of Greece and Troy I shall you tell,".</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Greeks and Trojans wars ... Tune is, A conscionable caviat.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. VeWright [sic]</persName>, and <persName type="publisher">L. Clark</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1675" cert="low">[1675?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing, which has publication date = [1674-9].</note>
+      <note>In two parts.</note>
+      <note>Verse - "Of Greece and Troy I shall you tell,".</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>L. Clark</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. VeWright [sic]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

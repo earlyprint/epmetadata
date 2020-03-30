@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter vvritten by Gregory the XV. Pope of Rome, to the French King To our most dearely beloued son health in Iesus Christ, Louis the 13. the most Christian King of France. According to the French coppie printed at Paris. 1621.</title>
-         <title>Lettre envoy&#233;e au Roy. English and French</title>
-         <author>Gregory XV, Pope, 1554-1623.</author>
-         <author>Louis XIII, King of France, 1601-1643.</author>
-      </titleStmt>
-      <extent>8, 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by Bernard Alsop] for N[athaniel] B[utter],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1621">1621.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's and publisher's names from STC.</note>
-         <note>"Lettre enuoyee au Roy", the French text, has separate pagination and title page with imprint "A Paris. 1621."; register is continuous.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter vvritten by Gregory the XV. Pope of Rome, to the French King To our most dearely beloued son health in Iesus Christ, Louis the 13. the most Christian King of France. According to the French coppie printed at Paris. 1621.</title>
+      <title>Lettre envoy&#233;e au Roy. English and French</title>
+      <author>Gregory XV, Pope, 1554-1623.</author>
+      <author>Louis XIII, King of France, 1601-1643.</author>
+    </titleStmt>
+    <extent>8, 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">Bernard Alsop]</persName> for <persName type="publisher">N[athaniel] B[utter]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1621">1621.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's and publisher's names from STC.</note>
+      <note>"Lettre enuoyee au Roy", the French text, has separate pagination and title page with imprint "A Paris. 1621."; register is continuous.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>N[athaniel] B[utter]</persName>
+    </person>
+    <person type="printer">
+      <persName>Bernard Alsop]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

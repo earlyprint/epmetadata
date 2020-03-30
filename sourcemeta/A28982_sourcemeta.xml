@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A free enquiry into the vulgarly receiv'd notion of nature made in an essay address'd to a friend / by R.B., Fellow of the Royal Society.</title>
-         <author>Boyle, Robert, 1627-1691.</author>
-      </titleStmt>
-      <extent>[24], 412, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Clark for John Taylor ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1686">1685/6 [i.e. 1686]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Library of Congress.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A free enquiry into the vulgarly receiv'd notion of nature made in an essay address'd to a friend / by R.B., Fellow of the Royal Society.</title>
+      <author>Boyle, Robert, 1627-1691.</author>
+    </titleStmt>
+    <extent>[24], 412, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Clark</persName> for <persName type="publisher">John Taylor</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1686">1685/6 [i.e. 1686]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Library of Congress.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Taylor</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Clark</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

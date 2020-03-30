@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An excellent sonnet of the unfortunate loves of Hero and Leander To the tune of, Gerhard's mistress, &amp;c.</title>
-         <author>Crouch, Humphrey, fl. 1635-1671.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
-      <publicationStmt>
-         <publisher>printed by and for W[illiam]. O[nley]. and sold by the booksellers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700" cert="low">[1700?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>By Henry Crouch--Wing.</note>
-         <note>Date of publication and publisher's name from Wing CD-ROM, 1996.</note>
-         <note>Verse - "How fares my dear Leander? O vouchsafe to speak,".</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-         <note>Identified by ESTC as Wing (CD-ROM, 1996) C7278A.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An excellent sonnet of the unfortunate loves of Hero and Leander To the tune of, Gerhard's mistress, &amp;c.</title>
+      <author>Crouch, Humphrey, fl. 1635-1671.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts)  </extent>
+    <publicationStmt>
+      <publisher>printed by and for <persName type="publisher">W[illiam]. O[nley].</persName> and sold by <persName type="bookseller">the booksellers</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700" cert="low">[1700?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>By Henry Crouch--Wing.</note>
+      <note>Date of publication and publisher's name from Wing CD-ROM, 1996.</note>
+      <note>Verse - "How fares my dear Leander? O vouchsafe to speak,".</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+      <note>Identified by ESTC as Wing (CD-ROM, 1996) C7278A.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W[illiam]. O[nley].</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

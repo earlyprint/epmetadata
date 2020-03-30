@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bellamira, or, The mistress a comedy : as it is acted by Their Majesties servants / written by the Honourable Sir Charles Sedley, Baronet.</title>
-         <author>Sedley, Charles, Sir, 1639?-1701.</author>
-         <author>Terence. Eunuchus.</author>
-      </titleStmt>
-      <extent>[8], 63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by D. Mallet for L.C. and Timothy Goodwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Based on: Eunuchus / Terrence.</note>
-         <note>"Licensed, May 24, 1687. Rog. L'Estrange"</note>
-         <note>Advertisement: p. [7].</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bellamira, or, The mistress a comedy : as it is acted by Their Majesties servants / written by the Honourable Sir Charles Sedley, Baronet.</title>
+      <author>Sedley, Charles, Sir, 1639?-1701.</author>
+      <author>Terence. Eunuchus.</author>
+    </titleStmt>
+    <extent>[8], 63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">D. Mallet</persName> for <persName type="publisher">L.C.</persName> and <persName type="publisher">Timothy Goodwin</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Based on: Eunuchus / Terrence.</note>
+      <note>"Licensed, May 24, 1687. Rog. L'Estrange"</note>
+      <note>Advertisement: p. [7].</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>L.C.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Timothy Goodwin</persName>
+    </person>
+    <person type="printer">
+      <persName>D. Mallet</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Patience and its perfect work under sudden &amp; sore tryals</title>
-         <author>Goodwin, Thomas, 1600-1680.</author>
-      </titleStmt>
-      <extent>[2], 170, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by S. Simmons, for Rob. Duncomb, to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing and NUC pre-1956 imprints to Thomas Goodwin.</note>
-         <note>Errata: p. [1] at end.</note>
-         <note>Imperfect: tightly bound and torn.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Patience and its perfect work under sudden &amp; sore tryals</title>
+      <author>Goodwin, Thomas, 1600-1680.</author>
+    </titleStmt>
+    <extent>[2], 170, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">S. Simmons</persName>, for <persName type="publisher">Rob. Duncomb, to be</persName> sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing and NUC pre-1956 imprints to Thomas Goodwin.</note>
+      <note>Errata: p. [1] at end.</note>
+      <note>Imperfect: tightly bound and torn.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Rob. Duncomb, to be</persName>
+    </person>
+    <person type="printer">
+      <persName>S. Simmons</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

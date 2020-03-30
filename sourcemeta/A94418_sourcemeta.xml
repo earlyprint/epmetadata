@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>To his excellency the Lord General Monck, Capt. General of all the armies and forces in England, Scotland, and Ireland, and one of the generals at sea the humble address of the officers in Your Excellencies army, in the name of themselves and their brethren, as it was presented to His Excellency this 2nd day of May, 1660 / by us whose names are subscribed.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Godbid for John Playford,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed with the names of ninety-two officers.</note>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>To his excellency the Lord General Monck, Capt. General of all the armies and forces in England, Scotland, and Ireland, and one of the generals at sea the humble address of the officers in Your Excellencies army, in the name of themselves and their brethren, as it was presented to His Excellency this 2nd day of May, 1660 / by us whose names are subscribed.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Godbid</persName> for <persName type="publisher">John Playford</persName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed with the names of ninety-two officers.</note>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Playford</persName>
+    </person>
+    <person type="printer">
+      <persName>William Godbid</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

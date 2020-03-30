@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An essay concerning Parliaments at a certainty, or, The kalends of May by Samvel Johnson.</title>
-         <author>Johnson, Samuel, 1649-1703.</author>
-      </titleStmt>
-      <extent>[2], ii, 47 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1693">1693.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An essay concerning Parliaments at a certainty, or, The kalends of May by Samvel Johnson.</title>
+      <author>Johnson, Samuel, 1649-1703.</author>
+    </titleStmt>
+    <extent>[2], ii, 47 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1693">1693.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

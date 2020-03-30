@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A divine legacy bequeathed unto all mankind of all ranks, ages, and sexes directing how we may live holily in the fear of God and how we may die happily in the favour of God, both which duties are of universal concern ... / by Christopher Ness ...</title>
-         <author>Ness, Christopher, 1621-1705.</author>
-      </titleStmt>
-      <extent>[8], 383 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.S. and sold by T. Parkhurst ... and J. Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Numerous errors in pagination.</note>
-         <note>Imperfect: pages cropped, tightly bound and faded, with loss of print. Pages 238-283 from Harvard University Library copy spliced at end.</note>
-         <note>Reproduction of original in the Union Theological Seminary.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A divine legacy bequeathed unto all mankind of all ranks, ages, and sexes directing how we may live holily in the fear of God and how we may die happily in the favour of God, both which duties are of universal concern ... / by Christopher Ness ...</title>
+      <author>Ness, Christopher, 1621-1705.</author>
+    </titleStmt>
+    <extent>[8], 383 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.S.</persName> and sold by <persName type="bookseller">T. Parkhurst</persName> ... and <persName type="bookseller">J. Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Numerous errors in pagination.</note>
+      <note>Imperfect: pages cropped, tightly bound and faded, with loss of print. Pages 238-283 from Harvard University Library copy spliced at end.</note>
+      <note>Reproduction of original in the Union Theological Seminary.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T.S.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Robinson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Parkhurst</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

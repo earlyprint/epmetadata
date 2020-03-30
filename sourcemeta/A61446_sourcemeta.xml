@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The shame and humiliation of the Quakers in a remarkable judgment of [...]tuation, already begun upon some of [...]stinate ministers of their second days meeting. With a fair warning and kind admonition to the rest, who are sincere, and desire to escape the snare of deceit, to beware of them. 1. A brief account of the beginning and progress of the difference between George Keith and the other Quakers, and of their meeting at Turners-Hall, April 29, 1697.</title>
-         <author>Stephens, Edward, d. 1706.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>sold by D. Brown, at the Black Swan and Bible without Temple-Bar and R. Smith, at the Angel without Linco[l]ns Inn-Gate, near the Fields,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1697" cert="low">1697?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>By Edward Stephens. Cf. Wing.</note>
-         <note>Advertisement at the foot of p.8.</note>
-         <note>Imperfect; text on title page is obscured by the British Library property stamp.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The shame and humiliation of the Quakers in a remarkable judgment of [...]tuation, already begun upon some of [...]stinate ministers of their second days meeting. With a fair warning and kind admonition to the rest, who are sincere, and desire to escape the snare of deceit, to beware of them. 1. A brief account of the beginning and progress of the difference between George Keith and the other Quakers, and of their meeting at Turners-Hall, April 29, 1697.</title>
+      <author>Stephens, Edward, d. 1706.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>sold by <persName type="bookseller">D. Brown</persName>, at <placeName>the Black Swan</placeName> and Bible without Temple-Bar and <persName type="bookseller">R. Smith</persName>, at <placeName>the Angel without Linco[l]ns Inn-Gate, near the Fields</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1697" cert="low">1697?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>By Edward Stephens. Cf. Wing.</note>
+      <note>Advertisement at the foot of p.8.</note>
+      <note>Imperfect; text on title page is obscured by the British Library property stamp.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>D. Brown</persName>
+    </person>
+    <person type="bookseller">
+      <persName>R. Smith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Angel without Linco[l]ns Inn-Gate, near the Fields</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Black Swan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

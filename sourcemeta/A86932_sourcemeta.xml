@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief exposition of the prophecies of Haggai, Zechariah and Malachi. By George Hutcheson minister at Edenburgh. April the 29th. Imprimatur, Edmund Calamy.</title>
-         <author>Hutcheson, George, 1615-1674.</author>
-      </titleStmt>
-      <extent>[14], 296 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. and E.M. for Ralph Smith, at the Bible in Cornhill, near the Royal Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1654">1654.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Nouemb.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief exposition of the prophecies of Haggai, Zechariah and Malachi. By George Hutcheson minister at Edenburgh. April the 29th. Imprimatur, Edmund Calamy.</title>
+      <author>Hutcheson, George, 1615-1674.</author>
+    </titleStmt>
+    <extent>[14], 296 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> and <persName type="printer">E.M.</persName> for <persName type="publisher">Ralph Smith</persName>, at <placeName>the Bible in Cornhill, near the Royal Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1654">1654.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Nouemb.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ralph Smith</persName>
+    </person>
+    <person type="printer">
+      <persName>E.M.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Cornhill, near the Royal Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A daily exercise for ladies and gentlewomen Whereby they may learne and practice the whole art of making pastes, preserues, marmalades, conserues, tartstuffes, gellies, breads, sucket candies, cordiall vvaters, conceits in sugar-vvorkes of seuerall kindes. As also to dry lemonds, orenges, or other fruits. Newly set forth, according to the now approued receipts, vsed both by honourable and vvorshipfull personages. By Iohn Murrell, professour thereof.</title>
-         <author>Murrell, John, 17th cent.</author>
-      </titleStmt>
-      <extent>[160] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Snodham] for the vvidow Helme, and are to be sould at her shop in S. Dunstans church-yard in Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1617">1617.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A&#185;&#178;  (-A1 and 12, blank?) B-G&#185;&#178;  (-G11-12, blank?).</note>
-         <note>Imperfect: some pages stained and mutilated with some loss of print.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A daily exercise for ladies and gentlewomen Whereby they may learne and practice the whole art of making pastes, preserues, marmalades, conserues, tartstuffes, gellies, breads, sucket candies, cordiall vvaters, conceits in sugar-vvorkes of seuerall kindes. As also to dry lemonds, orenges, or other fruits. Newly set forth, according to the now approued receipts, vsed both by honourable and vvorshipfull personages. By Iohn Murrell, professour thereof.</title>
+      <author>Murrell, John, 17th cent.</author>
+    </titleStmt>
+    <extent>[160] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Snodham]</persName> for <persName type="publisher">the vvidow Helme</persName>, and are to be sould at <placeName>her shop in S. Dunstans church-yard in Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1617">1617.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A&#185;&#178;  (-A1 and 12, blank?) B-G&#185;&#178;  (-G11-12, blank?).</note>
+      <note>Imperfect: some pages stained and mutilated with some loss of print.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the vvidow Helme</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Snodham]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>her shop in S. Dunstans church-yard in Fleetstreet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

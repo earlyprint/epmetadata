@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The foundation of Christian religion, gathered into six principles. And it is to be learned of ignorant people, that they may be fit to heare sermons with profit, and to receive the Lords Supper with comfort.</title>
-         <author>Perkins, William, 1558-1602.</author>
-         <author>Shelton, Thomas, 1601-1650?</author>
-      </titleStmt>
-      <extent>[8], 39, [6] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field, and are to be sold by John Williams ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Perkins by Wing.</note>
-         <note>Title vignette: Cambridge University arms.</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Bound with: To the supream authority of England, Thomas Shelton wisheth heavenly grace and earthly glory.</note>
-         <note>With Biblical citations in marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The foundation of Christian religion, gathered into six principles. And it is to be learned of ignorant people, that they may be fit to heare sermons with profit, and to receive the Lords Supper with comfort.</title>
+      <author>Perkins, William, 1558-1602.</author>
+      <author>Shelton, Thomas, 1601-1650?</author>
+    </titleStmt>
+    <extent>[8], 39, [6] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName>, and are to be sold by <persName type="bookseller">John Williams</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Perkins by Wing.</note>
+      <note>Title vignette: Cambridge University arms.</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Bound with: To the supream authority of England, Thomas Shelton wisheth heavenly grace and earthly glory.</note>
+      <note>With Biblical citations in marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Williams</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

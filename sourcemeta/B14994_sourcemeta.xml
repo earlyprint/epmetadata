@@ -1,22 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A coranto Relating diuers particulars concerning the newes out of Italy, Spaine, Turkey, Persia, Bohemia, Sweden, Poland, Austria, the Pallatinates, the Grisons, and diuers places of the higher and Lower Germanie.</title>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by T. Snodham?] for Nathaniel Butter, Nicholas Bourne, and William Shefford,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name conjectured by STC.</note>
-         <note>At head of title: Nouem. 7. 1622. Numb. 6.</note>
-         <note>Now = Newsbooks 88.</note>
-         <note>Formerly STC 5749.</note>
-         <note>Identified as STC 5749 on UMI microfilm reel 1268.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A coranto Relating diuers particulars concerning the newes out of Italy, Spaine, Turkey, Persia, Bohemia, Sweden, Poland, Austria, the Pallatinates, the Grisons, and diuers places of the higher and Lower Germanie.</title>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">T. Snodham?]</persName> for <persName type="publisher">Nathaniel Butter</persName>, <persName type="publisher">Nicholas Bourne</persName>, and <persName type="publisher">William Shefford</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name conjectured by STC.</note>
+      <note>At head of title: Nouem. 7. 1622. Numb. 6.</note>
+      <note>Now = Newsbooks 88.</note>
+      <note>Formerly STC 5749.</note>
+      <note>Identified as STC 5749 on UMI microfilm reel 1268.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nathaniel Butter</persName>
+    </person>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Shefford</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Snodham?]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

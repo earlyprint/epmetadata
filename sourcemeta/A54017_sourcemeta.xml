@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Some brief observations upon George Keith's earnest expostulation contained in a postscript to a late book of his, entituled, The antichrists and sadducees detected, &amp;c. Offered to the perusal of such as the said expostulation was recommended to. By E. P.</title>
-         <author>Penington, Edward, 1667-1701.</author>
-      </titleStmt>
-      <extent>24 p.   </extent>
-      <publicationStmt>
-         <publisher>printed and sold by T. Sowle, in White-Hart-Court in Gracious-Street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Work signed at end: Edward Penington.</note>
-         <note>Reproduction of the original in the Friends House Library, London.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Some brief observations upon George Keith's earnest expostulation contained in a postscript to a late book of his, entituled, The antichrists and sadducees detected, &amp;c. Offered to the perusal of such as the said expostulation was recommended to. By E. P.</title>
+      <author>Penington, Edward, 1667-1701.</author>
+    </titleStmt>
+    <extent>24 p.   </extent>
+    <publicationStmt>
+      <publisher>printed and sold by <persName type="printer"><persName type="bookseller">T. Sowle</persName></persName>, in <placeName>White-Hart-Court in Gracious-Street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Work signed at end: Edward Penington.</note>
+      <note>Reproduction of the original in the Friends House Library, London.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>T. Sowle</persName>
+    </person>
+    <person type="bookseller">
+      <persName>T. Sowle</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>White-Hart-Court in Gracious-Street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

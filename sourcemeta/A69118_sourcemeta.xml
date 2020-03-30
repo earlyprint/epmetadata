@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Clinton, Purser &amp; Arnold, to their countreymen wheresoeuer Wherein is described by their own hands their vnfeigned penitence for their offences past: their patience in welcoming their death, &amp; their duetiful minds towardes her most excellent Maiestie.</title>
-         <author>Clinton, Atkinson.</author>
-         <author>Walton, Thomas, fl. 1583. aut</author>
-         <author>Arnold, fl. 1583. aut</author>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Iohn Wolfe and are to be sold [by W. Wright] at the middle shop in the Poultry, ioyning S. Mildreds Church,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1583" cert="low">[1583?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>The first poem is signed: Thomas Walton alias Purser.</note>
-         <note>Clinton's full name and bookseller's name from, and publication date conjectured by, STC.</note>
-         <note>Signatures: A&#8308; B&#178; .</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Clinton, Purser &amp; Arnold, to their countreymen wheresoeuer Wherein is described by their own hands their vnfeigned penitence for their offences past: their patience in welcoming their death, &amp; their duetiful minds towardes her most excellent Maiestie.</title>
+      <author>Clinton, Atkinson.</author>
+      <author>Walton, Thomas, fl. 1583. aut</author>
+      <author>Arnold, fl. 1583. aut</author>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Iohn Wolfe</persName> and are to be sold [by <persName type="bookseller">W. Wright]</persName> at <placeName>the middle shop in the Poultry, ioyning S. Mildreds Church</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1583" cert="low">[1583?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>The first poem is signed: Thomas Walton alias Purser.</note>
+      <note>Clinton's full name and bookseller's name from, and publication date conjectured by, STC.</note>
+      <note>Signatures: A&#8308; B&#178; .</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Wolfe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Wright]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the middle shop in the Poultry, ioyning S. Mildreds Church</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

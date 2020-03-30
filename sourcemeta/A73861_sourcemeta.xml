@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The battaile of Agincourt Fought by Henry the fift of that name, King of England, against the whole power of the French: vnder the raigne of their Charles the sixt, anno Dom. 1415. The miseries of Queene Margarite, the infortunate wife, of that most infortunate King Henry the sixt. Nimphidia, the court of Fayrie. The quest of Cinthia. The shepheards Sirena. The moone-calfe. Elegies vpon sundry occasions. By Michaell Drayton, Esquire.</title>
-         <author>Drayton, Michael, 1563-1631.</author>
-      </titleStmt>
-      <extent>[12], 908 [i.e. 308] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by A[ugustine]. M[athewes]. for William Lee, and are to be sold at the Turkes Head in Fleete-Streete, next to the Miter and Ph&#230;nix,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1631">1631.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>P. 308 misnumbered 908.</note>
-         <note>Signatures: A-V.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The battaile of Agincourt Fought by Henry the fift of that name, King of England, against the whole power of the French: vnder the raigne of their Charles the sixt, anno Dom. 1415. The miseries of Queene Margarite, the infortunate wife, of that most infortunate King Henry the sixt. Nimphidia, the court of Fayrie. The quest of Cinthia. The shepheards Sirena. The moone-calfe. Elegies vpon sundry occasions. By Michaell Drayton, Esquire.</title>
+      <author>Drayton, Michael, 1563-1631.</author>
+    </titleStmt>
+    <extent>[12], 908 [i.e. 308] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">A[ugustine]. M[athewes].</persName> for <persName type="publisher">William Lee</persName>, and are to be sold at <placeName>the Turkes Head in Fleete-Streete, next to the Miter</placeName> and Ph&#230;nix,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1631">1631.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>P. 308 misnumbered 908.</note>
+      <note>Signatures: A-V.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Lee</persName>
+    </person>
+    <person type="printer">
+      <persName>A[ugustine]. M[athewes].</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Turkes Head in Fleete-Streete, next to the Miter</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

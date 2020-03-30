@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Humble petition and address of the Lord Mayor, aldermen and commons of the City of London</title>
-         <author>City of London (England). Court of Common Council.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Francis Smith ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1680">MDCLXXX [1680]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Chetham's Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Humble petition and address of the Lord Mayor, aldermen and commons of the City of London</title>
+      <author>City of London (England). Court of Common Council.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Francis Smith</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1680">MDCLXXX [1680]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Chetham's Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Smith</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vincentius redivivus, a funeral sermon preached Octob. 27, 1678 upon the occasion of the much bewailed death of that reverend and eminent servant of Christ, Mr. Thomas Vincent ... / by Samuel Slater.</title>
-         <author>Slater, Samuel, d. 1704.</author>
-      </titleStmt>
-      <extent>[3], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Tho. Parkhurst and T. Cockerill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vincentius redivivus, a funeral sermon preached Octob. 27, 1678 upon the occasion of the much bewailed death of that reverend and eminent servant of Christ, Mr. Thomas Vincent ... / by Samuel Slater.</title>
+      <author>Slater, Samuel, d. 1704.</author>
+    </titleStmt>
+    <extent>[3], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Tho. Parkhurst</persName> and <persName type="publisher">T. Cockerill</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T. Cockerill</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

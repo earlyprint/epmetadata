@@ -1,22 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The catechism for the curats, compos'd by the decree of the Council of Trent, and publish'd by command of Pope Pius the Fifth / faithfully translated into English.</title>
-         <title>Catechismus Romanus. English</title>
-         <author>Catholic Church.</author>
-      </titleStmt>
-      <extent>[22], 554, [30] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hills ... for him and Matthew Turner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Catechismus Romanus.</note>
-         <note>"Permissu Superiorum"</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-         <note>Marginal notes.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The catechism for the curats, compos'd by the decree of the Council of Trent, and publish'd by command of Pope Pius the Fifth / faithfully translated into English.</title>
+      <title>Catechismus Romanus. English</title>
+      <author>Catholic Church.</author>
+    </titleStmt>
+    <extent>[22], 554, [30] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hills</persName> ... for <persName type="publisher">him</persName> and <persName type="publisher">Matthew Turner</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Catechismus Romanus.</note>
+      <note>"Permissu Superiorum"</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+      <note>Marginal notes.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Matthew Turner</persName>
+    </person>
+    <person type="publisher">
+      <persName>him</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

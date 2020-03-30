@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Bee thankfull London and her sisters; or, A sermon of thankfulnesse setting downe the kindnesse of God to vs ... by Robert Abbott ...</title>
-         <author>Abbot, Robert, 1588?-1662?</author>
-      </titleStmt>
-      <extent>[4], 36 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Philemon Stephens and Christopher Meredith, and are to be sold at their shop at the golden Lyon in Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Bee thankfull London and her sisters; or, A sermon of thankfulnesse setting downe the kindnesse of God to vs ... by Robert Abbott ...</title>
+      <author>Abbot, Robert, 1588?-1662?</author>
+    </titleStmt>
+    <extent>[4], 36 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Philemon Stephens</persName> and <persName type="publisher">Christopher Meredith</persName>, and are to be sold at <placeName>their shop at the golden Lyon in Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Christopher Meredith</persName>
+    </person>
+    <person type="publisher">
+      <persName>Philemon Stephens</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>their shop at the golden Lyon in Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An address of thanks to a good prince presented in the panegyrick of Pliny, upon Trajan, the best of Roman Emperours.</title>
-         <title>Panegyricus. English</title>
-         <author>Pliny, the Younger.</author>
-         <author>Kennett, White, 1660-1728.</author>
-      </titleStmt>
-      <extent>[10], v-lxxx, 192 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher for Tho. Fickus ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The epistle dedicatory" signed: White Kennet.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Marginal notes.</note>
-         <note>"The life of Caius Plinius Caecilius Secundus": p. xxiii-lxxx.</note>
-         <note>Imperfect: p. [1]-[10] lacking on film.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An address of thanks to a good prince presented in the panegyrick of Pliny, upon Trajan, the best of Roman Emperours.</title>
+      <title>Panegyricus. English</title>
+      <author>Pliny, the Younger.</author>
+      <author>Kennett, White, 1660-1728.</author>
+    </titleStmt>
+    <extent>[10], v-lxxx, 192 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Tho. Fickus</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The epistle dedicatory" signed: White Kennet.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Marginal notes.</note>
+      <note>"The life of Caius Plinius Caecilius Secundus": p. xxiii-lxxx.</note>
+      <note>Imperfect: p. [1]-[10] lacking on film.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Fickus</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

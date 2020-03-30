@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A complaint and petition of the whole kingdome of England for satisfaction of conscience, and avoiding rebellion.</title>
-      </titleStmt>
-      <extent>[4], 25, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by H. Hall] for W. Webb,</publisher>
-         <pubPlace>[Oxford] :</pubPlace>
-         <date when="1643">1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publisher's name from Madan.</note>
-         <note>Place of publication from Wing CD-ROM, 1996.</note>
-         <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A complaint and petition of the whole kingdome of England for satisfaction of conscience, and avoiding rebellion.</title>
+    </titleStmt>
+    <extent>[4], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">H. Hall]</persName> for <persName type="publisher">W. Webb</persName>,</publisher>
+      <pubPlace>[Oxford] :</pubPlace>
+      <date when="1643">1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publisher's name from Madan.</note>
+      <note>Place of publication from Wing CD-ROM, 1996.</note>
+      <note>Reproduction of original in the Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W. Webb</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hall]</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

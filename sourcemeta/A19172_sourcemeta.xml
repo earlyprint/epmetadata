@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Penelopes complaint: or, A mirrour for wanton minions. Taken out of Homers Odissea, and written in English verse, by Peter Colse</title>
-         <author>Colse, Peter.</author>
-         <author>Homer. Odyssey.</author>
-         <author>Dorrell, Hadrian. Willobie his avisa.</author>
-      </titleStmt>
-      <extent>[64] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [Valentine Simmes for] H. Iackson dwelling in Fleetstreet, and are to be sold at his shop vnder Temple-barre gate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1596">1596.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In fact original verses by Colse based on events in the Odyssey.</note>
-         <note>An imitation of: Dorrell, Hadrian.  Willobie his avisa.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Signatures: A-H&#8308;.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Penelopes complaint: or, A mirrour for wanton minions. Taken out of Homers Odissea, and written in English verse, by Peter Colse</title>
+      <author>Colse, Peter.</author>
+      <author>Homer. Odyssey.</author>
+      <author>Dorrell, Hadrian. Willobie his avisa.</author>
+    </titleStmt>
+    <extent>[64] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[Valentine Simmes</persName> for<persName type="publisher">] H. Iackson</persName> dwelling in <placeName>Fleetstreet</placeName>, and are to be sold at <placeName>his shop vnder Temple-barre gate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1596">1596.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In fact original verses by Colse based on events in the Odyssey.</note>
+      <note>An imitation of: Dorrell, Hadrian.  Willobie his avisa.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Signatures: A-H&#8308;.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] H. Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>[Valentine Simmes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop vnder Temple-barre gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

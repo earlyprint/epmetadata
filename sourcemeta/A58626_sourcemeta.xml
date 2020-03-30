@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Avona, or, A transient view of the benefit of making rivers of this kingdom navigable occasioned by observing the scituation of the city of Salisbury upon the Avon, and the consequence of opening that river to that city : communicated by letter to a friend at London / by R.S.</title>
-         <author>R. S.</author>
-      </titleStmt>
-      <extent>[2], 33 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.R. &amp; N.T. for John Courtney ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1675">1675.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Avona, or, A transient view of the benefit of making rivers of this kingdom navigable occasioned by observing the scituation of the city of Salisbury upon the Avon, and the consequence of opening that river to that city : communicated by letter to a friend at London / by R.S.</title>
+      <author>R. S.</author>
+    </titleStmt>
+    <extent>[2], 33 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.R.</persName> &amp; <persName type="printer">N.T.</persName> for <persName type="publisher">John Courtney</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1675">1675.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Courtney</persName>
+    </person>
+    <person type="printer">
+      <persName>N.T.</persName>
+    </person>
+    <person type="printer">
+      <persName>T.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

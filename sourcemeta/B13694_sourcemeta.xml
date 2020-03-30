@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at St Maries in Oxford on Act Sunday last in the after-noone 1622. By Richard Gardiner student of Christ-Church</title>
-         <author>Gardiner, Richard, 1591-1670.</author>
-      </titleStmt>
-      <extent>[8], 30 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield and Iames Short for William Davis book-seller,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1622">1622.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Cf. Folger catalogue, which gives signatures: [par.]&#8308; A-D&#8308; (-D4).</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at St Maries in Oxford on Act Sunday last in the after-noone 1622. By Richard Gardiner student of Christ-Church</title>
+      <author>Gardiner, Richard, 1591-1670.</author>
+    </titleStmt>
+    <extent>[8], 30 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName> and <persName type="printer">Iames Short</persName> for <persName type="publisher">William Davis</persName> book-seller,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1622">1622.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Cf. Folger catalogue, which gives signatures: [par.]&#8308; A-D&#8308; (-D4).</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Davis</persName>
+    </person>
+    <person type="printer">
+      <persName>Iames Short</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

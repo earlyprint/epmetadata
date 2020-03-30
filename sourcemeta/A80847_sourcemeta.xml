@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The peoples need of a living pastor: asserted and explained in a sermon, preached Novemb. 4. 1656. At the sad and solemn funerals of that late, learned, pious and eminently hopeful minister of the gospel, Mr. John Frost, batchelor in divinity, late fellow of St. Johns Colledge in Cambridge, and pastor of St. Olaves Hart-steeet [sic], London. Together with a narrative of his life and death. By Z. C. minister of the Word at Botolph-Aldgate, London.</title>
-         <author>Crofton, Zachary, 1625 or 6-1672.</author>
-      </titleStmt>
-      <extent>[8], 59, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by E. Cotes, for Thomas Parkhurst at the Three Crowns over against the great conduit at the lower end of Cheapside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Z. C. = Zachary Crofton.</note>
-         <note>Annotation on Thomason copy: "Zach. Crofton" above 'Z.C.'; "Aprill 9".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The peoples need of a living pastor: asserted and explained in a sermon, preached Novemb. 4. 1656. At the sad and solemn funerals of that late, learned, pious and eminently hopeful minister of the gospel, Mr. John Frost, batchelor in divinity, late fellow of St. Johns Colledge in Cambridge, and pastor of St. Olaves Hart-steeet [sic], London. Together with a narrative of his life and death. By Z. C. minister of the Word at Botolph-Aldgate, London.</title>
+      <author>Crofton, Zachary, 1625 or 6-1672.</author>
+    </titleStmt>
+    <extent>[8], 59, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">E. Cotes</persName>, for <persName type="publisher">Thomas Parkhurst</persName> at <placeName>the Three Crowns over against the great conduit at the lower end of Cheapside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Z. C. = Zachary Crofton.</note>
+      <note>Annotation on Thomason copy: "Zach. Crofton" above 'Z.C.'; "Aprill 9".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Crowns over against the great conduit at the lower end of Cheapside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

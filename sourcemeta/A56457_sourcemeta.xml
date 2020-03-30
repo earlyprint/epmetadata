@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Seasonable counsel to an afflicted people in a letter to the distressed inhabitants of Wem in the county of Salop, after the dreadful fire, which consumed that market-town, March 3. 1676/7. Written by Andrew Parsons, M.A. and sometime minister there.</title>
-         <author>Parsons, Andrew, 1615 or 16-1684.</author>
-      </titleStmt>
-      <extent>[2], 46 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for E. Brewster, and Tho. Parkhurst, at the Crane in St. Pauls Church-yard, and at the Bible and three Crowns in Cheapside near Mercers-Chappel,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1677">1677.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata at foot of p. 40.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Seasonable counsel to an afflicted people in a letter to the distressed inhabitants of Wem in the county of Salop, after the dreadful fire, which consumed that market-town, March 3. 1676/7. Written by Andrew Parsons, M.A. and sometime minister there.</title>
+      <author>Parsons, Andrew, 1615 or 16-1684.</author>
+    </titleStmt>
+    <extent>[2], 46 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">E. Brewster</persName>, and <persName type="publisher">Tho. Parkhurst</persName>, at <placeName>the Crane in St. Pauls Church-yard</placeName>, and at <placeName>the Bible</placeName> and three Crowns in <placeName>Cheapside near Mercers-Chappel</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1677">1677.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata at foot of p. 40.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Brewster</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Parkhurst</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cheapside near Mercers-Chappel</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Bible</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Crane in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

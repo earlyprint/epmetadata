@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The great assises holden in Parnassus by Apollo and his assesours: at which session are arraigned Mercurius Britanicus. Mercurius Aulicus. Mercurius Civicus. The scout. The writer of Diurnalls. The intelligencer. The writer of Occurrences. The writer of Passages. The post. The spye. The writer of weekly Accounts. The Scottish dove, &amp;c.</title>
-         <author>Wither, George, 1588-1667.</author>
-      </titleStmt>
-      <extent>[6], 44, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, for Edward Husbands, and are to be sold at his shop in the Middle Temple,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1645">1645.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to George Wither by Wing.</note>
-         <note>The final leaf is blank.</note>
-         <note>In verse.</note>
-         <note>Annotation on Thomason copy: "feb: 11th 1644"; the 5 in imprint date is crossed out.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The great assises holden in Parnassus by Apollo and his assesours: at which session are arraigned Mercurius Britanicus. Mercurius Aulicus. Mercurius Civicus. The scout. The writer of Diurnalls. The intelligencer. The writer of Occurrences. The writer of Passages. The post. The spye. The writer of weekly Accounts. The Scottish dove, &amp;c.</title>
+      <author>Wither, George, 1588-1667.</author>
+    </titleStmt>
+    <extent>[6], 44, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, for <persName type="publisher">Edward Husbands</persName>, and are to be sold at <placeName>his shop in the Middle Temple</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1645">1645.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to George Wither by Wing.</note>
+      <note>The final leaf is blank.</note>
+      <note>In verse.</note>
+      <note>Annotation on Thomason copy: "feb: 11th 1644"; the 5 in imprint date is crossed out.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husbands</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in the Middle Temple</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

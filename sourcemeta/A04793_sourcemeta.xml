@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dutiful inuectiue, against the moste haynous treasons of Ballard and Babington with other their adherents, latelie executed. Together, vvith the horrible attempts and actions of the Q. of Scottes and the sentence pronounced against her at Fodderingay. Newlie compiled and set foorth, in English verses: for a New yeares gifte to all loyall English subiects by W. Kempe.</title>
-         <author>Kempe, William.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>By Richard Iones, dwelling at the signe of the Rose and crowne, neere Holborne Bridge,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1587">1587.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: [par]&#8308;.</note>
-         <note>Reproduction of the original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dutiful inuectiue, against the moste haynous treasons of Ballard and Babington with other their adherents, latelie executed. Together, vvith the horrible attempts and actions of the Q. of Scottes and the sentence pronounced against her at Fodderingay. Newlie compiled and set foorth, in English verses: for a New yeares gifte to all loyall English subiects by W. Kempe.</title>
+      <author>Kempe, William.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Richard Iones</persName>, dwelling at <placeName>the signe of the Rose</placeName> and crowne, neere <placeName>Holborne Bridge</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1587">1587.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: [par]&#8308;.</note>
+      <note>Reproduction of the original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Iones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Holborne Bridge</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of the Rose</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

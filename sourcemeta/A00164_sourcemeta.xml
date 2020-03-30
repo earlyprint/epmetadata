@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lessus in funere Raphaelis Thorii medici et poet&#230; pr&#230;stantissimi, qui Londini peste extinctus bonis et doctis omnibus triste sui desiderium reliquit, Anno 1625.</title>
-         <author>Aytoun, Robert, Sir, 1570-1638.</author>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Allde for Thomas Walkley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1626">1626.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lessus in funere Raphaelis Thorii medici et poet&#230; pr&#230;stantissimi, qui Londini peste extinctus bonis et doctis omnibus triste sui desiderium reliquit, Anno 1625.</title>
+      <author>Aytoun, Robert, Sir, 1570-1638.</author>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Allde</persName> for <persName type="publisher">Thomas Walkley</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1626">1626.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Walkley</persName>
+    </person>
+    <person type="printer">
+      <persName>Edward Allde</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The honest and plaine dealing fa[r]rier or, A present remedy for curing diseases and hurts in horses Gathered and written as well for the good [o]f any that will practise it, as for my self, there being nothing contained therein but what is of my owne experience and practise. By Thomas Grymes.</title>
-         <author>Grymes, Thomas.</author>
-      </titleStmt>
-      <extent>[40] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Wil: Iones for Andrew Kembe, dwelling by St: Margarets hill in long Southwarke,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1636">1636.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Running title reads: A very good remedy for diseases in horses.</note>
-         <note>Signatures: A-B C&#8308;.</note>
-         <note>The first "r" is "farrier" has dropped out on title page; leaves very tightly bound.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The honest and plaine dealing fa[r]rier or, A present remedy for curing diseases and hurts in horses Gathered and written as well for the good [o]f any that will practise it, as for my self, there being nothing contained therein but what is of my owne experience and practise. By Thomas Grymes.</title>
+      <author>Grymes, Thomas.</author>
+    </titleStmt>
+    <extent>[40] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Wil: Iones</persName> for <persName type="publisher">Andrew Kembe</persName>, dwelling by <persName type="printer">St: Margarets hill</persName> in <placeName>long Southwarke</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1636">1636.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Running title reads: A very good remedy for diseases in horses.</note>
+      <note>Signatures: A-B C&#8308;.</note>
+      <note>The first "r" is "farrier" has dropped out on title page; leaves very tightly bound.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Kembe</persName>
+    </person>
+    <person type="printer">
+      <persName>St: Margarets hill</persName>
+    </person>
+    <person type="printer">
+      <persName>Wil: Iones</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>long Southwarke</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

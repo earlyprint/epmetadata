@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King A proclamation James R. Whereas we have for weighty reasons, with the advice of our privy council thought fit to call in all the half crown pieces of copper and brass money, which appear by the stamp upon them to have been coyned within this our kingdom, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Alderman James Malone printer to the King's most excellent Majesty; and are to be sold at his shop in Skinnerrow.,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our court at our castle of Dublin the 15th day of June 1690."</note>
-         <note>Arms 189.</note>
-         <note>The copper half-crowns of May last are called in. Not current in Dublin after 30 June, in Leinster after 15 July, elsewhere after 31 July. They will be exchanged at the mint for the current coin, or by the collectors of revenue.--Steele.</note>
-         <note>Printed on verso: Whereas for the more speedy supply of money to defray our present, great, and necessary expences, we have ordered a quantity of copper and brass to be coyned in crown pieces, ... (Wing J308).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King A proclamation James R. Whereas we have for weighty reasons, with the advice of our privy council thought fit to call in all the half crown pieces of copper and brass money, which appear by the stamp upon them to have been coyned within this our kingdom, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Alderman James Malone</persName> printer to <persName type="patron">the King's most excellent Majesty;</persName> and are to be sold at <placeName>his shop in Skinnerrow.</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our court at our castle of Dublin the 15th day of June 1690."</note>
+      <note>Arms 189.</note>
+      <note>The copper half-crowns of May last are called in. Not current in Dublin after 30 June, in Leinster after 15 July, elsewhere after 31 July. They will be exchanged at the mint for the current coin, or by the collectors of revenue.--Steele.</note>
+      <note>Printed on verso: Whereas for the more speedy supply of money to defray our present, great, and necessary expences, we have ordered a quantity of copper and brass to be coyned in crown pieces, ... (Wing J308).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Alderman James Malone</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Skinnerrow.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

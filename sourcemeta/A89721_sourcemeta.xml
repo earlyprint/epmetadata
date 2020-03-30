@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>H&#230;c &amp; hic; or, The feminine gender more worthy than the masculine. Being a vindication of that ingenious and innocent sex from the biting sarcasms, bitter satyrs, and opprobrious calumnies, wherewith they are daily, tho undeservedly, aspers'd by the virulent tongues and pens of malevolent men. ...</title>
-         <author>Norris, James, fl.1682-1684</author>
-         <author>Harefinch, John, fl. 1682-1690, printer</author>
-      </titleStmt>
-      <extent>[6], 165, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Jo. Harefinch for James Norris, at the Kings Arms without Temple-Bar.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1683">1683..</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to James Norris by Wing (2nd ed.).</note>
-         <note>Reissued 1684 with title: The acomplish'd lady, or Deserving gentlwoman.</note>
-         <note>Advertisement: "Books printed for Ja. Norris at the Kings-Arms without Temple-Bar, 1683." -- p. [1] at end.</note>
-         <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>H&#230;c &amp; hic; or, The feminine gender more worthy than the masculine. Being a vindication of that ingenious and innocent sex from the biting sarcasms, bitter satyrs, and opprobrious calumnies, wherewith they are daily, tho undeservedly, aspers'd by the virulent tongues and pens of malevolent men. ...</title>
+      <author>Norris, James, fl.1682-1684</author>
+      <author>Harefinch, John, fl. 1682-1690, printer</author>
+    </titleStmt>
+    <extent>[6], 165, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Jo. Harefinch</persName> for <persName type="publisher">James Norris</persName>, at <placeName>the Kings Arms without Temple-Bar.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1683">1683..</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to James Norris by Wing (2nd ed.).</note>
+      <note>Reissued 1684 with title: The acomplish'd lady, or Deserving gentlwoman.</note>
+      <note>Advertisement: "Books printed for Ja. Norris at the Kings-Arms without Temple-Bar, 1683." -- p. [1] at end.</note>
+      <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>James Norris</persName>
+    </person>
+    <person type="printer">
+      <persName>Jo. Harefinch</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Arms without Temple-Bar.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

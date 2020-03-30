@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached July, 5th on the occasion of the late rebellion by John Petter.</title>
-         <author>Petter, John, 1661 or 2-1700.</author>
-      </titleStmt>
-      <extent>[2], 23 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Samuel Walsal ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: print showthrough with loss of text.</note>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached July, 5th on the occasion of the late rebellion by John Petter.</title>
+      <author>Petter, John, 1661 or 2-1700.</author>
+    </titleStmt>
+    <extent>[2], 23 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Samuel Walsal</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: print showthrough with loss of text.</note>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Walsal</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

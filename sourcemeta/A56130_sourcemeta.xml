@@ -1,21 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Aurum regin&#230;, or, A compendious tractate and chronological collection of records in the Tower and Court of Exchequer concerning queen-gold evidencing the quiddity, quantity, quality, antiquity, legality of this golden prerogative, duty, and revenue of the queen-consorts of England ... / by William Prynne, Esq. ...</title>
-         <author>Prynne, William, 1600-1669.</author>
-      </titleStmt>
-      <extent>[8], 138, [1], 43 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author by Thomas Ratcliffe, and are to be sold by Edward Thomas ... and Josias Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1668">1668.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata on p. [1] at end.</note>
-         <note>Reproduction of original in Cambridge University Library.</note>
-         <note>Marginal notes.</note>
-         <note>"An additional appendix to Aurum reginae" (43 p. at end) is lacking on film.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Aurum regin&#230;, or, A compendious tractate and chronological collection of records in the Tower and Court of Exchequer concerning queen-gold evidencing the quiddity, quantity, quality, antiquity, legality of this golden prerogative, duty, and revenue of the queen-consorts of England ... / by William Prynne, Esq. ...</title>
+      <author>Prynne, William, 1600-1669.</author>
+    </titleStmt>
+    <extent>[8], 138, [1], 43 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName> by <persName type="printer">Thomas Ratcliffe</persName>, and are to be sold by <persName type="bookseller">Edward Thomas</persName> ... and <persName type="publisher">Josias Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1668">1668.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata on p. [1] at end.</note>
+      <note>Reproduction of original in Cambridge University Library.</note>
+      <note>Marginal notes.</note>
+      <note>"An additional appendix to Aurum reginae" (43 p. at end) is lacking on film.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Josias Robinson</persName>
+    </person>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Ratcliffe</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Edward Thomas</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

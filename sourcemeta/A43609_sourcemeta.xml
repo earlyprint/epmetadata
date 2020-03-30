@@ -1,22 +1,51 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mysterium sigillorum, herbarum &amp; lapidum containing a compleat cure of all sicknesses and diseases of mind and body by means of the influences of the seven planets, adorned with copper plates &amp; figures, shewing the foundation of this astronomical and coelestial science / written originally in Saxon, by ... Israel Hibner ... ; now translated into English for B. Clayton ...</title>
-         <author>Hiebner, Israel.</author>
-         <author>Clayton, B. (Billidge)</author>
-      </titleStmt>
-      <extent>[26], 193, [37] p., 2 leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by W. Downing, and are to be sold by S. Smith ..., A. Roper ..., and P. Buck ..., W. Battersby ..., S. Herrick ..., W. Feltham ..., and by most booksellers about London and Westminster,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [36].</note>
-         <note>Indexes: p. [1]-[32].</note>
-         <note>Advertisement: p. [37].</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mysterium sigillorum, herbarum &amp; lapidum containing a compleat cure of all sicknesses and diseases of mind and body by means of the influences of the seven planets, adorned with copper plates &amp; figures, shewing the foundation of this astronomical and coelestial science / written originally in Saxon, by ... Israel Hibner ... ; now translated into English for B. Clayton ...</title>
+      <author>Hiebner, Israel.</author>
+      <author>Clayton, B. (Billidge)</author>
+    </titleStmt>
+    <extent>[26], 193, [37] p., 2 leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W. Downing</persName>, and are to be sold by <persName type="bookseller">S. Smith</persName> ..., <persName type="bookseller">A. Roper</persName> ..., and <persName type="bookseller">P. Buck</persName> ..., <persName type="bookseller">W. Battersby</persName> ..., <persName type="bookseller">S. Herrick</persName> ..., W. Feltham ..., and by <persName type="printer">most booksellers about London</persName> and <persName type="printer">Westminster</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [36].</note>
+      <note>Indexes: p. [1]-[32].</note>
+      <note>Advertisement: p. [37].</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>W. Downing</persName>
+    </person>
+    <person type="printer">
+      <persName>Westminster</persName>
+    </person>
+    <person type="printer">
+      <persName>most booksellers about London</persName>
+    </person>
+    <person type="bookseller">
+      <persName>A. Roper</persName>
+    </person>
+    <person type="bookseller">
+      <persName>P. Buck</persName>
+    </person>
+    <person type="bookseller">
+      <persName>S. Herrick</persName>
+    </person>
+    <person type="bookseller">
+      <persName>S. Smith</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Battersby</persName>
+    </person>
+    <person type="bookseller">
+      <persName>W. Feltham, and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

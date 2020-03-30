@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tvvo sermons delivered at St. Peters in Exeter. By Rychard Pecke, Master of Arts, and minister of Gods word, at Columpton in Devon</title>
-         <title>Two sermons delivered at St. Peters in Exeter</title>
-         <author>Pecke, Richard.</author>
-      </titleStmt>
-      <extent>[6], 38, [6], 35, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas Harper for Ambrose Ritherdon, and are to bee sold at his shop in Pauls Church-yard at the signe of the Bull-head,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1632">1632.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In two parts, each with its own signatures and pagination.</note>
-         <note>Part 1 has a separate title page, with same imprint, reading: The great day dawning. Or, Christs neerenes to iudgement.</note>
-         <note>Part 2 has a separate title page, with same imprint, reading: The spirituall plowman. Or, the art of spirituall fallowing.</note>
-         <note>Errata on verso of [2nd.] E4, final leaf.</note>
-         <note>Identified as STC 19522a on reel 898.</note>
-         <note>Considerable print show-through.</note>
-         <note>Reproduction of the originals in the Folger Shakespeare Library and the Trinity College Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tvvo sermons delivered at St. Peters in Exeter. By Rychard Pecke, Master of Arts, and minister of Gods word, at Columpton in Devon</title>
+      <title>Two sermons delivered at St. Peters in Exeter</title>
+      <author>Pecke, Richard.</author>
+    </titleStmt>
+    <extent>[6], 38, [6], 35, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas Harper</persName> for <persName type="publisher">Ambrose Ritherdon</persName>, and are to bee sold at <placeName>his shop in Pauls Church-yard at the signe of the Bull-head</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1632">1632.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In two parts, each with its own signatures and pagination.</note>
+      <note>Part 1 has a separate title page, with same imprint, reading: The great day dawning. Or, Christs neerenes to iudgement.</note>
+      <note>Part 2 has a separate title page, with same imprint, reading: The spirituall plowman. Or, the art of spirituall fallowing.</note>
+      <note>Errata on verso of [2nd.] E4, final leaf.</note>
+      <note>Identified as STC 19522a on reel 898.</note>
+      <note>Considerable print show-through.</note>
+      <note>Reproduction of the originals in the Folger Shakespeare Library and the Trinity College Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ambrose Ritherdon</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard at the signe of the Bull-head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

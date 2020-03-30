@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached in the cathedrall church of Worcester vpon Sunday morning, Nouemb. 27. 1636 In the time of pestilence in other places of this land, and now published in the time of the visitation of that citie, with that grevious sicknesse, and by reason of it. By Geo. Stinton,</title>
-         <author>Stinton, George, b. 1599 or 1600.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by L. Lichfield, for H. C. [i.e. Cripps? or Curteyn?] Printer to the Vniversity,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1637">Anno Dom[ini] 1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publishers' names suggested by STC.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached in the cathedrall church of Worcester vpon Sunday morning, Nouemb. 27. 1636 In the time of pestilence in other places of this land, and now published in the time of the visitation of that citie, with that grevious sicknesse, and by reason of it. By Geo. Stinton,</title>
+      <author>Stinton, George, b. 1599 or 1600.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">L. Lichfield</persName>, for <persName type="publisher">H. C. [i.e. Cripps? or Curteyn?]</persName> Printer to <persName type="patron">the Vniversity</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1637">Anno Dom[ini] 1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publishers' names suggested by STC.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. C. [i.e. Cripps? or Curteyn?]</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

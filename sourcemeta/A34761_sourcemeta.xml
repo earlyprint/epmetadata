@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Countreys advice to the late Duke of Monmouth and those in rebellion with him.</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M., for the author ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>In verse.</note>
-         <note>Reproduction of original in Bristol Public Library, Bristol England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Countreys advice to the late Duke of Monmouth and those in rebellion with him.</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName>, for <persName type="publisher">the author</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>In verse.</note>
+      <note>Reproduction of original in Bristol Public Library, Bristol England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

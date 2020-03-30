@@ -1,19 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd at the parish-church of St. Lawrence, London to the natives of Wiltshire, at their yearly feast, November the 12th. 1695. By John Russell, Rector of St. John of Wappin.</title>
-         <author>Russell, John, fl. 1660.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J. Wilkins, for R. Mount at the Postern near the Tower, and sold by J. Whitlock near Stationers Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696" cert="low">[1696?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Publication date conjectured by Wing.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd at the parish-church of St. Lawrence, London to the natives of Wiltshire, at their yearly feast, November the 12th. 1695. By John Russell, Rector of St. John of Wappin.</title>
+      <author>Russell, John, fl. 1660.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J. Wilkins</persName>, for <persName type="publisher">R. Mount</persName> at <placeName>the Postern near the Tower</placeName>, and sold by <persName type="bookseller">J. Whitlock</persName> near <placeName>Stationers Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696" cert="low">[1696?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Publication date conjectured by Wing.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Mount</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Wilkins</persName>
+    </person>
+    <person type="bookseller">
+      <persName>J. Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers Hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Postern near the Tower</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

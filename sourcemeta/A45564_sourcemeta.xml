@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sad prognostick of approaching judgement, or, The happy misery of good men in bad times set forth in a sermon preached at St. Gregories, June the 13th, 1658 / by Nathaniell Hardy ...</title>
-         <author>Hardy, Nathaniel, 1618-1670.</author>
-      </titleStmt>
-      <extent>[8], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by A.M. for Joseph Cranford ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1658">1658.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [8]</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sad prognostick of approaching judgement, or, The happy misery of good men in bad times set forth in a sermon preached at St. Gregories, June the 13th, 1658 / by Nathaniell Hardy ...</title>
+      <author>Hardy, Nathaniel, 1618-1670.</author>
+    </titleStmt>
+    <extent>[8], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">A.M.</persName> for <persName type="publisher">Joseph Cranford</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1658">1658.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [8]</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Cranford</persName>
+    </person>
+    <person type="printer">
+      <persName>A.M.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A seasonable question, in a sermon on Joshua 5.13 preacht on the 18th of June at Kingsnoth ... and on the 27th of July at St. Peters Cornhill, London, by Timothy Wilson ...</title>
-         <author>Wilson, Timothy, 1642-1705.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.S. for Tho. Parkhust ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A seasonable question, in a sermon on Joshua 5.13 preacht on the 18th of June at Kingsnoth ... and on the 27th of July at St. Peters Cornhill, London, by Timothy Wilson ...</title>
+      <author>Wilson, Timothy, 1642-1705.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.S.</persName> for <persName type="publisher">Tho. Parkhust</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Parkhust</persName>
+    </person>
+    <person type="printer">
+      <persName>T.S.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

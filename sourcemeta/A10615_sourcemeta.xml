@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The golden chayne of salvation. Written by that reverend and learned man, maister Herman Renecher. And now translated out of Latine into English</title>
-         <title>Aurea salutis catena. English</title>
-         <author>Rennecher, Hermann.</author>
-         <author>Allibond, Peter, 1559 or 60-1628.</author>
-      </titleStmt>
-      <extent>[8], 275, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Valentine Simmes for Thomas Man, dvvelling in Pater noster row, at the signe of the Talbot,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1604">1604.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translator's preface signed: Peter Allibond.</note>
-         <note>A translation, by Peter Allibond, of: Rennecher, Hermann.  Aurea salutis catena.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The golden chayne of salvation. Written by that reverend and learned man, maister Herman Renecher. And now translated out of Latine into English</title>
+      <title>Aurea salutis catena. English</title>
+      <author>Rennecher, Hermann.</author>
+      <author>Allibond, Peter, 1559 or 60-1628.</author>
+    </titleStmt>
+    <extent>[8], 275, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Valentine Simmes</persName> for <persName type="publisher">Thomas Man</persName>, dvvelling in <placeName>Pater noster row, at the signe of the Talbot</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1604">1604.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translator's preface signed: Peter Allibond.</note>
+      <note>A translation, by Peter Allibond, of: Rennecher, Hermann.  Aurea salutis catena.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Valentine Simmes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pater noster row, at the signe of the Talbot</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

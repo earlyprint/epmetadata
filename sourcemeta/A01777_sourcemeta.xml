@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The tragedy of Albertus VVallenstein late Duke of Fridland, and generall to the Emperor Ferdinand the second. Written by Henry Glapthorne. The scene, Egers. And acted with good allowance at the Globe on the Banke-side, by his Majesties Servants.</title>
-         <author>Glapthorne, Henry.</author>
-      </titleStmt>
-      <extent>[68] p.   </extent>
-      <publicationStmt>
-         <publisher>By Tho. Paine, for George Hutton dwelling at the Turn-stile in Holborne,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1639">1639.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-H&#8308; I&#178; .</note>
-         <note>A variant of the edition dated 1640.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The tragedy of Albertus VVallenstein late Duke of Fridland, and generall to the Emperor Ferdinand the second. Written by Henry Glapthorne. The scene, Egers. And acted with good allowance at the Globe on the Banke-side, by his Majesties Servants.</title>
+      <author>Glapthorne, Henry.</author>
+    </titleStmt>
+    <extent>[68] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Tho. Paine</persName>, for <persName type="publisher">George Hutton</persName> dwelling at <placeName>the Turn-stile in Holborne</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1639">1639.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-H&#8308; I&#178; .</note>
+      <note>A variant of the edition dated 1640.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Hutton</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Paine</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Turn-stile in Holborne</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A briefe account of some expressions in Saint Athanasius his Creed for the satisfaction of those who think themselves thereby oblig'd to believe all things therein contain'd to be absolutely necessary to Salvation.</title>
-         <author>Towerson, Gabriel, 1635?-1697.</author>
-      </titleStmt>
-      <extent>9 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Henry Hall for Tho. Robinson,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1663">1663.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Gabriel Towerson--Wing.</note>
-         <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A briefe account of some expressions in Saint Athanasius his Creed for the satisfaction of those who think themselves thereby oblig'd to believe all things therein contain'd to be absolutely necessary to Salvation.</title>
+      <author>Towerson, Gabriel, 1635?-1697.</author>
+    </titleStmt>
+    <extent>9 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Henry Hall</persName> for <persName type="publisher">Tho. Robinson</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1663">1663.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Gabriel Towerson--Wing.</note>
+      <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>Henry Hall</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

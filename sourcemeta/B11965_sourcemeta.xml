@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Prince, at Richmond, this present yeere. 1606. By B: Charier, D: of Diuinitie, and one of the Prince his chaplaines</title>
-         <author>Carier, Benjamin, 1566-1614.</author>
-      </titleStmt>
-      <extent>[26] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by I. R[oberts] for Edmund Matts, dwelling at the signe of the hand &amp; plough in Fleetstreete,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1606">[1606]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>On James I, 15.</note>
-         <note>Publication date from STC.</note>
-         <note>Signatures: A-C4, D2 (-A1).</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Prince, at Richmond, this present yeere. 1606. By B: Charier, D: of Diuinitie, and one of the Prince his chaplaines</title>
+      <author>Carier, Benjamin, 1566-1614.</author>
+    </titleStmt>
+    <extent>[26] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">I. R[oberts]</persName> for <persName type="publisher">Edmund Matts</persName>, dwelling at <placeName>the signe of the hand &amp; plough in Fleetstreete</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1606">[1606]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>On James I, 15.</note>
+      <note>Publication date from STC.</note>
+      <note>Signatures: A-C4, D2 (-A1).</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edmund Matts</persName>
+    </person>
+    <person type="printer">
+      <persName>I. R[oberts]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the hand &amp; plough in Fleetstreete</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

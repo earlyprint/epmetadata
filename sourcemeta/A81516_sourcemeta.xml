@@ -1,17 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A discourse of sacriledge. Wherein is briefly shewn, 1. The just collation, 2. The unjust ablation of the riches and honours of the clergie.</title>
-      </titleStmt>
-      <extent>[2], 26 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Lowndes, and are to be sold at his shop without Ludgate,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1641. [i.e. 1642]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A discourse of sacriledge. Wherein is briefly shewn, 1. The just collation, 2. The unjust ablation of the riches and honours of the clergie.</title>
+    </titleStmt>
+    <extent>[2], 26 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Lowndes</persName>, and are to be sold at <placeName>his shop without Ludgate</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1641. [i.e. 1642]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Lowndes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop without Ludgate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

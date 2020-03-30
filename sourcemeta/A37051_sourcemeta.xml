@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The divine art of prayer containing the most proper rules to pray well. With divers meditations and prayers suitable to the necessities of Christians, useful in every family. To which are annexed seasonable prayers for souldiers, both in Their Majesties army and fleet. By Marius D'Assigny, B.D.</title>
-         <author>D'Assigny, Marius, 1643-1717.</author>
-      </titleStmt>
-      <extent>[12], 252 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by R. Everingham, and are to be sold by John Everingham, at the Star in Ludgate-street, near the west end of St. Paul's,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1691">1691.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The divine art of prayer containing the most proper rules to pray well. With divers meditations and prayers suitable to the necessities of Christians, useful in every family. To which are annexed seasonable prayers for souldiers, both in Their Majesties army and fleet. By Marius D'Assigny, B.D.</title>
+      <author>D'Assigny, Marius, 1643-1717.</author>
+    </titleStmt>
+    <extent>[12], 252 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">R. Everingham</persName>, and are to be sold by <persName type="bookseller">John Everingham</persName>, at <placeName>the Star in Ludgate-street, near the west end of St. Paul's</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1691">1691.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. Everingham</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Everingham</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Star in Ludgate-street, near the west end of St. Paul's</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

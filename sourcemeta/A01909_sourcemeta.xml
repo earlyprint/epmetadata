@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Eglogs epytaphes, and sonettes. Newly written by Barnabe Googe: 1563. 15. Marche</title>
-         <author>Googe, Barnabe, 1540-1594.</author>
-         <author>Blundeston, Laurence.</author>
-      </titleStmt>
-      <extent>[178] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>By Thomas Colwell, for Raffe Newbery, dwelyng in Fleetstrete a litle aboue the Conduit in the late shop of Thomas Bartelet,</publisher>
-         <pubPlace>Imprynted at London :</pubPlace>
-         <date when="1563">[1563]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by Laurence Blundeston, whose name appears in the heading of the preface.</note>
-         <note>In verse.</note>
-         <note>Signatures: A B&#8308;; &#178; A-B C (C8+"c3") D&#8308; E-K.</note>
-         <note>With a final colophon and errata leaf.</note>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Eglogs epytaphes, and sonettes. Newly written by Barnabe Googe: 1563. 15. Marche</title>
+      <author>Googe, Barnabe, 1540-1594.</author>
+      <author>Blundeston, Laurence.</author>
+    </titleStmt>
+    <extent>[178] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Thomas Colwell</persName>, for <persName type="publisher">Raffe Newbery, dwelyng</persName> in <placeName>Fleetstrete a litle aboue the Conduit in the late shop of Thomas Bartelet</placeName>,</publisher>
+      <pubPlace>Imprynted at London :</pubPlace>
+      <date when="1563">[1563]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by Laurence Blundeston, whose name appears in the heading of the preface.</note>
+      <note>In verse.</note>
+      <note>Signatures: A B&#8308;; &#178; A-B C (C8+"c3") D&#8308; E-K.</note>
+      <note>With a final colophon and errata leaf.</note>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Raffe Newbery, dwelyng</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Colwell</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstrete a litle aboue the Conduit in the late shop of Thomas Bartelet</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

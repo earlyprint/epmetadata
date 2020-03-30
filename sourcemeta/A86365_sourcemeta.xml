@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A gagg to Love's advocate: or, An assertion of the justice of the Parlament in the execution of Mr Love. By J.H. Esq.</title>
-         <author>J. H.</author>
-         <author>Hinde, John, 17th cent.</author>
-      </titleStmt>
-      <extent>[4], 22 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by William Du-Gard printer to the Council of State,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">August 25. 1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "August 29".</note>
-         <note>Reproduction of the original in the British Library.</note>
-         <note>Wing suggests that S.H. = John Hinde.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A gagg to Love's advocate: or, An assertion of the justice of the Parlament in the execution of Mr Love. By J.H. Esq.</title>
+      <author>J. H.</author>
+      <author>Hinde, John, 17th cent.</author>
+    </titleStmt>
+    <extent>[4], 22 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">William Du-Gard</persName> printer to <persName type="patron">the Council of State</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">August 25. 1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "August 29".</note>
+      <note>Reproduction of the original in the British Library.</note>
+      <note>Wing suggests that S.H. = John Hinde.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Du-Gard</persName>
+    </person>
+    <person type="patron">
+      <persName>the Council of State</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

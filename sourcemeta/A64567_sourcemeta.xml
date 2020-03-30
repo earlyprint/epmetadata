@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached before the Right Honourable, the Lords assembled in Parliament, in the abbey church of St. Peters, Westminster upon the fast-day appointed April 10, 1678 by William, Lord Bishop of St. Davids.</title>
-         <author>Thomas, William, 1613-1689.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Newcomb for Tho. Collins and William Leach ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1678">1678.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached before the Right Honourable, the Lords assembled in Parliament, in the abbey church of St. Peters, Westminster upon the fast-day appointed April 10, 1678 by William, Lord Bishop of St. Davids.</title>
+      <author>Thomas, William, 1613-1689.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Newcomb</persName> for <persName type="publisher">Tho. Collins</persName> and <persName type="publisher">William Leach</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1678">1678.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Collins</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Leach</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the new world, or, America, islands and continent and by what people those regions are now inhabited, and what places are there desolate and without inhabitants, and the bays, rivers, capes, forts, cities and their latitudes, the seas by George Gardyner ...</title>
-         <author>Gardyner, George.</author>
-      </titleStmt>
-      <extent>[14], 187, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Leybourn and are to be sold by Thomas Pirrepoint ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1651">1651.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Errata: p. [6].</note>
-         <note>Reproduction of original in Harvard University Libraries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the new world, or, America, islands and continent and by what people those regions are now inhabited, and what places are there desolate and without inhabitants, and the bays, rivers, capes, forts, cities and their latitudes, the seas by George Gardyner ...</title>
+      <author>Gardyner, George.</author>
+    </titleStmt>
+    <extent>[14], 187, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Leybourn</persName> and are to be sold by <persName type="bookseller">Thomas Pirrepoint</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1651">1651.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Errata: p. [6].</note>
+      <note>Reproduction of original in Harvard University Libraries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Leybourn</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Pirrepoint</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

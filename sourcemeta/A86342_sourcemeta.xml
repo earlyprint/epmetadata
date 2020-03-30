@@ -1,22 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A panegyrick to the King. By His Majesties most humble, most loyal, and most obedient subject and servant, Thomas Higgons.</title>
-         <author>Higgons, Thomas, Sir, 1624-1691.</author>
-      </titleStmt>
-      <extent>[2], 11 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Henry Herringman, at the signe of the Anchor in the lower walk of the New-Exchange,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1660">1660]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Imprint from colophon.</note>
-         <note>With a final blank leaf.</note>
-         <note>Annotation on Thomason copy: "June 10 1660".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A panegyrick to the King. By His Majesties most humble, most loyal, and most obedient subject and servant, Thomas Higgons.</title>
+      <author>Higgons, Thomas, Sir, 1624-1691.</author>
+    </titleStmt>
+    <extent>[2], 11 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Henry Herringman</persName>, at <placeName>the signe of the Anchor in the lower walk of the New-Exchange</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1660">1660]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Imprint from colophon.</note>
+      <note>With a final blank leaf.</note>
+      <note>Annotation on Thomason copy: "June 10 1660".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Herringman</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Anchor in the lower walk of the New-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

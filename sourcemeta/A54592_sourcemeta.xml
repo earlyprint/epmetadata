@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Jerub-baal. Being, a three-penny answer to a twelve-penny book Written by William Assheton, D.D. and rector of Beckenham in Kent. Which he is pleased to stile a conference with an anabaptist. In which answer you have his presumptions proved to be no proofs for infant-baptism. By E.P. a preacher of the Gospel.</title>
-         <author>E. P.</author>
-      </titleStmt>
-      <extent>[4], 44 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for the author, and sold by B. Harris, at the upper-end of Grace-church-street, next Corn-hill,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>An answer to: Asshton, William. A conference with an Anabaptist.</note>
-         <note>Caption title on p.1 reads: Jerub-baal. Being, a three-penny answer to Dr. Ashton's Conference, &amp;c.</note>
-         <note>Imperfect: lacking pp.16-17; pages cropped at head, affecting pagination.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Jerub-baal. Being, a three-penny answer to a twelve-penny book Written by William Assheton, D.D. and rector of Beckenham in Kent. Which he is pleased to stile a conference with an anabaptist. In which answer you have his presumptions proved to be no proofs for infant-baptism. By E.P. a preacher of the Gospel.</title>
+      <author>E. P.</author>
+    </titleStmt>
+    <extent>[4], 44 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">the author</persName>, and sold by <persName type="bookseller">B. Harris</persName>, at <placeName>the upper-end of Grace-church-street, next Corn-hill</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>An answer to: Asshton, William. A conference with an Anabaptist.</note>
+      <note>Caption title on p.1 reads: Jerub-baal. Being, a three-penny answer to Dr. Ashton's Conference, &amp;c.</note>
+      <note>Imperfect: lacking pp.16-17; pages cropped at head, affecting pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="bookseller">
+      <persName>B. Harris</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the upper-end of Grace-church-street, next Corn-hill</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

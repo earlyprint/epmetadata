@@ -1,23 +1,39 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rules and orders of the Court of Exchequer</title>
-         <title>Rules, etc.</title>
-         <author>England and Wales. Court of Exchequer.</author>
-      </titleStmt>
-      <extent>[2], 56, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by the assigns of Richard and Edward Atkins esquires, for John Walthoe, and are to be sold at his shop, in the Middle-Temple Cloysters,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With two final advertisement leaves.</note>
-         <note>Caption title on p. 1 reads in part: Orders and rules of proceedings in the office of His Majesty's Remembrancer of His Court of Exchequer at Westminster.</note>
-         <note>Running title: Orders and rules in the Exchequer.</note>
-         <note>Also issued as part of: Ordines cancellari&#230;, being orders of the High Court of Chancery, from the first year of King Charles I, to this present Hillary term, 1697.</note>
-         <note>Reproduction of the original in the Harvard University Law School Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rules and orders of the Court of Exchequer</title>
+      <title>Rules, etc.</title>
+      <author>England and Wales. Court of Exchequer.</author>
+    </titleStmt>
+    <extent>[2], 56, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by the assigns of <persName type="assigns">Richard</persName> and <persName type="assigns">Edward Atkins esquires</persName>, for <persName type="publisher">John Walthoe</persName>, and are to be sold at <placeName>his shop, in the Middle-Temple Cloysters</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With two final advertisement leaves.</note>
+      <note>Caption title on p. 1 reads in part: Orders and rules of proceedings in the office of His Majesty's Remembrancer of His Court of Exchequer at Westminster.</note>
+      <note>Running title: Orders and rules in the Exchequer.</note>
+      <note>Also issued as part of: Ordines cancellari&#230;, being orders of the High Court of Chancery, from the first year of King Charles I, to this present Hillary term, 1697.</note>
+      <note>Reproduction of the original in the Harvard University Law School Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Walthoe</persName>
+    </person>
+    <person type="assigns">
+      <persName>Edward Atkins esquires</persName>
+    </person>
+    <person type="assigns">
+      <persName>Richard</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, in the Middle-Temple Cloysters</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

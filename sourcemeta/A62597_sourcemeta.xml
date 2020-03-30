@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of the Reverend Mr Thomas Gouge, the 4th of Novemb. 1681 at S. Anne's Blackfriars with a brief account of his life / by John Tillotson ...</title>
-         <author>Tillotson, John, 1630-1694.</author>
-      </titleStmt>
-      <extent>[6], 103 p. : port.  </extent>
-      <publicationStmt>
-         <publisher>Printed by M.F. for Brabazon Aylmer ..., and William Rogers ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: frontispiece lacking in filmed copy.</note>
-         <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of the Reverend Mr Thomas Gouge, the 4th of Novemb. 1681 at S. Anne's Blackfriars with a brief account of his life / by John Tillotson ...</title>
+      <author>Tillotson, John, 1630-1694.</author>
+    </titleStmt>
+    <extent>[6], 103 p. : port.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M.F.</persName> for <persName type="publisher">Brabazon Aylmer</persName> ..., and <persName type="publisher">William Rogers</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: frontispiece lacking in filmed copy.</note>
+      <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Brabazon Aylmer</persName>
+    </person>
+    <person type="publisher">
+      <persName>William Rogers</persName>
+    </person>
+    <person type="printer">
+      <persName>M.F.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

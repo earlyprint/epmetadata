@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Speedy advice to all Roman Catholicks; especially, those concerned in Scotland and Ireland</title>
-         <author>Oates, Titus, 1649-1705.</author>
-      </titleStmt>
-      <extent>[2], 21, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed and are to be sold by Richard Baldwin, near the Black-Bull, in the Old-Baily,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Titus Oates.</note>
-         <note>Formerly identified as Wing S4909 (number cancelled).</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Speedy advice to all Roman Catholicks; especially, those concerned in Scotland and Ireland</title>
+      <author>Oates, Titus, 1649-1705.</author>
+    </titleStmt>
+    <extent>[2], 21, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed and are to be sold by <persName type="printer"><persName type="bookseller">Richard Baldwin</persName></persName>, near <placeName>the Black-Bull, in the Old-Baily</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Titus Oates.</note>
+      <note>Formerly identified as Wing S4909 (number cancelled).</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Baldwin</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-Bull, in the Old-Baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

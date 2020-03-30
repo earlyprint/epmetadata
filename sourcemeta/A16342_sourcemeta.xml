@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two sermons preached at Northampton at two severall assises there The one in the time of the shrevalty of Sir Erasmus Dryden Baronet. Anno Domini, 1621. The other in the time of the shrevalty of Sir Henry Robinson Knight, anno Domini, 1629. By Robert Bolton ... Published by E.B.</title>
-         <author>Bolton, Robert, 1572-1631.</author>
-         <author>Bagshaw, Edward, d. 1662.</author>
-      </titleStmt>
-      <extent>[6], 102 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by George Miller dwelling in the Blacke-Fryers,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1635">1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>E.B. = Edward Bagshaw.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two sermons preached at Northampton at two severall assises there The one in the time of the shrevalty of Sir Erasmus Dryden Baronet. Anno Domini, 1621. The other in the time of the shrevalty of Sir Henry Robinson Knight, anno Domini, 1629. By Robert Bolton ... Published by E.B.</title>
+      <author>Bolton, Robert, 1572-1631.</author>
+      <author>Bagshaw, Edward, d. 1662.</author>
+    </titleStmt>
+    <extent>[6], 102 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">George Miller</persName> dwelling in <placeName>the Blacke-Fryers</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1635">1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>E.B. = Edward Bagshaw.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>George Miller</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Blacke-Fryers</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

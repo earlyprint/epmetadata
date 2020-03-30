@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A New ballad of the souldier and Peggy to a new northern tune.</title>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed for F. Coles, T. Vere, and W. Gilbertson,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1654" notAfter="1664">[between 1654 and 1664]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Reproduction of original in Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A New ballad of the souldier and Peggy to a new northern tune.</title>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Vere</persName>, and <persName type="publisher">W. Gilbertson</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1654" notAfter="1664">[between 1654 and 1664]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Reproduction of original in Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>F. Coles</persName>
+    </person>
+    <person type="publisher">
+      <persName>T. Vere</persName>
+    </person>
+    <person type="publisher">
+      <persName>W. Gilbertson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

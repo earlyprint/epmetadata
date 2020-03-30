@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Enfield Common: or, The young damsel cured of the green sickness by a lusty gallant, vvho happen'd to meet her in the mid'st of Enfield Common. To an excellent new tune.</title>
-         <author>Lusty gallant.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Bates at the Sun and Bible in Pye-corner.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1695" cert="low">[1695?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication from Wing.</note>
-         <note>Verse: "On Enfield Common I met a woman ..."</note>
-         <note>Printed in two columns.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Enfield Common: or, The young damsel cured of the green sickness by a lusty gallant, vvho happen'd to meet her in the mid'st of Enfield Common. To an excellent new tune.</title>
+      <author>Lusty gallant.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Bates</persName> at <placeName>the Sun</placeName> and Bible in <placeName>Pye-corner.</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1695" cert="low">[1695?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication from Wing.</note>
+      <note>Verse: "On Enfield Common I met a woman ..."</note>
+      <note>Printed in two columns.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Bates</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pye-corner.</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Sun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

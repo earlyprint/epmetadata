@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Anapausis. Rest for the restlesse soule. By Archibald Symmer, minister of the gospell</title>
-         <author>Symmer, Archibald.</author>
-      </titleStmt>
-      <extent>[16] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Haviland for William Sheres,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1637">1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title in Greek characters.</note>
-         <note>Running title reads: An exhortation to come unto Christ.</note>
-         <note>Signatures: A-B&#8308;.</note>
-         <note>At end: Imprimatur, Tho: Wykes.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Anapausis. Rest for the restlesse soule. By Archibald Symmer, minister of the gospell</title>
+      <author>Symmer, Archibald.</author>
+    </titleStmt>
+    <extent>[16] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Haviland</persName> for <persName type="publisher">William Sheres</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1637">1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title in Greek characters.</note>
+      <note>Running title reads: An exhortation to come unto Christ.</note>
+      <note>Signatures: A-B&#8308;.</note>
+      <note>At end: Imprimatur, Tho: Wykes.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Sheres</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Haviland</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

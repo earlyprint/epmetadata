@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The common principiles of Christian religion clearly proved and singularly improved, or, A practical catechism wherein some of the most concerning-foundations of our faith are solidely laid down, and that doctrine, which is according to godliness, sweetly, yet pungently pressed home and most satisfyingly handled / by that worthy and faithful servant of Jesus Christ, Mr. Hew Binning ...</title>
-         <author>Binning, Hugh, 1627-1653.</author>
-         <author>Gillespie, Patrick, 1617-1675.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The 5[th] impression, carefully corrected &amp; amended.</edition>
-      </editionStmt>
-      <extent>[20], 286 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R.S., printer to the town of Glasgow,</publisher>
-         <pubPlace>[Glasgow] :</pubPlace>
-         <date when="1667">1666 [i.e. 1667]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>From colophon: Glasgow, printed by Robert Sanders, and are to be sold at his shop. M. DC. LXVII. [1667]</note>
-         <note>"To the reader" signed: Patrick Gillespie.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The common principiles of Christian religion clearly proved and singularly improved, or, A practical catechism wherein some of the most concerning-foundations of our faith are solidely laid down, and that doctrine, which is according to godliness, sweetly, yet pungently pressed home and most satisfyingly handled / by that worthy and faithful servant of Jesus Christ, Mr. Hew Binning ...</title>
+      <author>Binning, Hugh, 1627-1653.</author>
+      <author>Gillespie, Patrick, 1617-1675.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The 5[th] impression, carefully corrected &amp; amended.</edition>
+    </editionStmt>
+    <extent>[20], 286 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R.S.</persName>, printer to <persName type="patron">the town of Glasgow</persName>,</publisher>
+      <pubPlace>[Glasgow] :</pubPlace>
+      <date when="1667">1666 [i.e. 1667]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>From colophon: Glasgow, printed by Robert Sanders, and are to be sold at his shop. M. DC. LXVII. [1667]</note>
+      <note>"To the reader" signed: Patrick Gillespie.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R.S.</persName>
+    </person>
+    <person type="patron">
+      <persName>the town of Glasgow</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

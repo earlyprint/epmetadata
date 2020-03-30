@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A brief defence of infant-baptism with an appendix, wherein is shewed that it is not necessary that baptism should be administred by dipping / by John Ollyffe ...</title>
-         <author>Ollyffe, John, 1647-1717.</author>
-      </titleStmt>
-      <extent>68 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Jonathan Robinson ... and are to be sold by John Woolfryes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1694">MDCXCIV [1694]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A brief defence of infant-baptism with an appendix, wherein is shewed that it is not necessary that baptism should be administred by dipping / by John Ollyffe ...</title>
+      <author>Ollyffe, John, 1647-1717.</author>
+    </titleStmt>
+    <extent>68 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Jonathan Robinson</persName> ... and are to be sold by <persName type="bookseller">John Woolfryes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1694">MDCXCIV [1694]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jonathan Robinson</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Woolfryes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

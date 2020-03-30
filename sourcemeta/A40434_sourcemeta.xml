@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd before the Right Honourable the Lord Mayor the aldermen and governors of the several hospitals of the city, at St. Bridget's Church on Easter-Tuesday, 1698, being one of the anniversary spittle-sermons / by Sa. Freemam.</title>
-         <author>Freeman, Samuel, 1643-1700.</author>
-      </titleStmt>
-      <extent>19 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Warren for Thomas Bennet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1698">1698.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd before the Right Honourable the Lord Mayor the aldermen and governors of the several hospitals of the city, at St. Bridget's Church on Easter-Tuesday, 1698, being one of the anniversary spittle-sermons / by Sa. Freemam.</title>
+      <author>Freeman, Samuel, 1643-1700.</author>
+    </titleStmt>
+    <extent>19 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Warren</persName> for <persName type="publisher">Thomas Bennet</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1698">1698.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Bennet</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Warren</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

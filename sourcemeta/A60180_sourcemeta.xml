@@ -1,18 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An account of the Scotish atlas, or, The description of Scotland ancient &amp; modern by His Sacred Majestie's special command to be published presently by Sir Robert Sibbald D.M. His Majestie's physician in ordinary, and geographer for his ancient kingdom of Scotland.</title>
-         <author>Sibbald, Robert, Sir, 1641-1722.</author>
-      </titleStmt>
-      <extent>9, [4] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by David Lindsay, Mr. James Kniblo, Josua van Solingen, and John Colmar,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An account of the Scotish atlas, or, The description of Scotland ancient &amp; modern by His Sacred Majestie's special command to be published presently by Sir Robert Sibbald D.M. His Majestie's physician in ordinary, and geographer for his ancient kingdom of Scotland.</title>
+      <author>Sibbald, Robert, Sir, 1641-1722.</author>
+    </titleStmt>
+    <extent>9, [4] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">David Lindsay</persName>, <persName type="printer">Mr. James Kniblo</persName>, <persName type="printer">Josua van Solingen</persName>, and <persName type="printer">John Colmar</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>David Lindsay</persName>
+    </person>
+    <person type="printer">
+      <persName>John Colmar</persName>
+    </person>
+    <person type="printer">
+      <persName>Josua van Solingen</persName>
+    </person>
+    <person type="printer">
+      <persName>Mr. James Kniblo</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

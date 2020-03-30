@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The first booke of questions and answers vpon Genesis Containing those questions that are most eminent and pertinent, vpon the sixe first chapters of the same booke: collected out of ancient and recent writers; both briefly and subtilly propounded and expounded, by Alexander Rosse, of Aberdine, preacher at Saint Maries neere Southampton, and one of his Maiesites chaplaines.</title>
-         <author>Ross, Alexander, 1591-1654.</author>
-      </titleStmt>
-      <extent>[22], 116 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for Francis Constable, dwelling in Pauls Church-yard, ouer-against the great North doore, at the signe of the white Lyon,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1620">1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes frontispiece, opposite A1, title page.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The first booke of questions and answers vpon Genesis Containing those questions that are most eminent and pertinent, vpon the sixe first chapters of the same booke: collected out of ancient and recent writers; both briefly and subtilly propounded and expounded, by Alexander Rosse, of Aberdine, preacher at Saint Maries neere Southampton, and one of his Maiesites chaplaines.</title>
+      <author>Ross, Alexander, 1591-1654.</author>
+    </titleStmt>
+    <extent>[22], 116 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">Francis Constable</persName>, dwelling in <placeName>Pauls Church-yard, ouer-against the great North doore, at the signe of the white Lyon</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1620">1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes frontispiece, opposite A1, title page.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard, ouer-against the great North doore, at the signe of the white Lyon</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

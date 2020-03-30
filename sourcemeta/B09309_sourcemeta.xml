@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter of advice to a friend about the currency of clipt-money wherein all the material clauses contain'd in the several acts made in these two last sessions of Parliament, for the cure of that evil are recited and now printed for the use of the publick.</title>
-         <author>R. J.</author>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edw. Castle, Next Scotland Yard Gate, near White-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to R. J. Cf. Wing (2nd ed.).</note>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter of advice to a friend about the currency of clipt-money wherein all the material clauses contain'd in the several acts made in these two last sessions of Parliament, for the cure of that evil are recited and now printed for the use of the publick.</title>
+      <author>R. J.</author>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edw. Castle</persName>, <persName type="publisher">Next Scotland</persName> <persName type="publisher">Yard Gate</persName>, near <placeName>White-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to R. J. Cf. Wing (2nd ed.).</note>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edw. Castle</persName>
+    </person>
+    <person type="publisher">
+      <persName>Next Scotland</persName>
+    </person>
+    <person type="publisher">
+      <persName>Yard Gate</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>White-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation concerning building in, and about London and Westminster</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Bill and Christopher Barker ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>At head of title: By the King.</note>
-         <note>At end of text: Given at our court at Whitehal, the sixteenth day of August, 1661, in the thirteenth year our raign.</note>
-         <note>Instructing citizens to build buildings of brick to reduce fire hazards.</note>
-         <note>Broadside.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation concerning building in, and about London and Westminster</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>At head of title: By the King.</note>
+      <note>At end of text: Given at our court at Whitehal, the sixteenth day of August, 1661, in the thirteenth year our raign.</note>
+      <note>Instructing citizens to build buildings of brick to reduce fire hazards.</note>
+      <note>Broadside.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

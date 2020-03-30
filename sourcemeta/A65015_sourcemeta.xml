@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A vindication of Dr. Titus Oates from two late scurrilous libels written to create a dis-belief of the Popish plot : the one entituled A narrative by E. Settle : the other a modest vindication of Titus Oates, the Salamanca doctor, from perjury &amp;c. / by A. Elliot.</title>
-         <author>Oates, Titus, 1649-1705.</author>
-      </titleStmt>
-      <extent>[2], 4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Snowden for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: pages stained and with print show-through.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A vindication of Dr. Titus Oates from two late scurrilous libels written to create a dis-belief of the Popish plot : the one entituled A narrative by E. Settle : the other a modest vindication of Titus Oates, the Salamanca doctor, from perjury &amp;c. / by A. Elliot.</title>
+      <author>Oates, Titus, 1649-1705.</author>
+    </titleStmt>
+    <extent>[2], 4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Snowden</persName> for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: pages stained and with print show-through.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Snowden</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

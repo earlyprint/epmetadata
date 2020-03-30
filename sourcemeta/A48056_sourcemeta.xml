@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Letter from Father La Chaise, confessor to the French King, to Father Peters, confessor to the King of England in which is contained the project and designe of that faction to introduce the Prince of Wales : with some observations on his conception and birth : to which added a letter from Will Penn to Father La Chaise about the affaires of that babe and the ensueing progress of the popish design.</title>
-         <author>La Chaise, Fran&#231;ois d'Aix de, 1624-1709.</author>
-         <author>Penn, William, 1644-1718.</author>
-      </titleStmt>
-      <extent>[15] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed in the City of Philadelphia ... by order of Father Penn and are to be sold by Stephen Lob ...,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1688">[1688]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place and date of publication suggested by Wing.</note>
-         <note>Imperfect: pages are creased, cropped and torn with loss of print.</note>
-         <note>"A letter from Will. Penn to Father La Chaise" dated and signed: Whitehall the 16 day of the fifth month in the year commonly called 1688 -- p. [12-15]</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Letter from Father La Chaise, confessor to the French King, to Father Peters, confessor to the King of England in which is contained the project and designe of that faction to introduce the Prince of Wales : with some observations on his conception and birth : to which added a letter from Will Penn to Father La Chaise about the affaires of that babe and the ensueing progress of the popish design.</title>
+      <author>La Chaise, Fran&#231;ois d'Aix de, 1624-1709.</author>
+      <author>Penn, William, 1644-1718.</author>
+    </titleStmt>
+    <extent>[15] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed in <placeName>the City of Philadelphia</placeName> ... by <persName type="printer">order of Father Penn</persName> and are to be sold by <persName type="bookseller">Stephen Lob</persName> ...,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1688">[1688]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place and date of publication suggested by Wing.</note>
+      <note>Imperfect: pages are creased, cropped and torn with loss of print.</note>
+      <note>"A letter from Will. Penn to Father La Chaise" dated and signed: Whitehall the 16 day of the fifth month in the year commonly called 1688 -- p. [12-15]</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>order of Father Penn</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Stephen Lob</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the City of Philadelphia</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd to the Societies for Reformation of Manners in the citys of London and Westminster. February, 19. 1699. Published at their request. By Thomas Reynolds.</title>
-         <author>Reynolds, Thomas, 1667?-1727.</author>
-      </titleStmt>
-      <extent>[6], 63, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Richard Mount on Tower Hill, and John Lawrence in the Poultrey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd to the Societies for Reformation of Manners in the citys of London and Westminster. February, 19. 1699. Published at their request. By Thomas Reynolds.</title>
+      <author>Reynolds, Thomas, 1667?-1727.</author>
+    </titleStmt>
+    <extent>[6], 63, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Richard Mount</persName> on <placeName>Tower Hill</placeName>, and <persName type="publisher">John Lawrence</persName> in <placeName>the Poultrey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Lawrence</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Mount</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Tower Hill</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Poultrey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

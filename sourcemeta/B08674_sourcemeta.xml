@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A caveat to the three kingdoms:, or, A summary account of the most miserable and deplorable estate and condition of England in the reign of king John, occasioned by his bringing in infinite multitudes of foreign forces : together with the base treachery of Lewis, the French King's son, and his great men, intended against the barons, who invited him in to their assistance : very well worthy to be seriously considered by all true English-men at this time of day / translated out of Matthew Paris.</title>
-         <author>Paris, Matthew, 1200-1259.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E. Whitlock, near Stationers-Hall,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A caveat to the three kingdoms:, or, A summary account of the most miserable and deplorable estate and condition of England in the reign of king John, occasioned by his bringing in infinite multitudes of foreign forces : together with the base treachery of Lewis, the French King's son, and his great men, intended against the barons, who invited him in to their assistance : very well worthy to be seriously considered by all true English-men at this time of day / translated out of Matthew Paris.</title>
+      <author>Paris, Matthew, 1200-1259.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E. Whitlock</persName>, near <placeName>Stationers-Hall</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E. Whitlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Stationers-Hall</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>London's remembrancer, or, A true accompt of every particular weeks christnings and mortality in all the years of pestilence within the cognizance of the bills of mortality, being xviii years.</title>
-         <author>Bell, John.</author>
-         <author>Worshipful Company of Parish Clerks.</author>
-      </titleStmt>
-      <extent>[29] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by E. Cotes, Printer to the Company of Parish Clerks,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>London's remembrancer, or, A true accompt of every particular weeks christnings and mortality in all the years of pestilence within the cognizance of the bills of mortality, being xviii years.</title>
+      <author>Bell, John.</author>
+      <author>Worshipful Company of Parish Clerks.</author>
+    </titleStmt>
+    <extent>[29] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">E. Cotes</persName></persName>, Printer to <persName type="patron">the Company of Parish Clerks</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>E. Cotes</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Cotes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Company of Parish Clerks</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

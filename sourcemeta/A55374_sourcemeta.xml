@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A dialogue between a popish priest, and an English Protestant. Wherein the principal points and arguments of both religions are truly proposed, and fully examined. / By Matthew Poole, author of Synopsis Criticorum.</title>
-         <author>Poole, Matthew, 1624-1679.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The last edition corrected and amended.</edition>
-      </editionStmt>
-      <extent>[15], 234, [5] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.M. for Tho. Passinger, and are to be sold by John Williamson ...,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Handwritten index, p. [5] at end.</note>
-         <note>Misidentified on UMI microfilm as Wing P2830.</note>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Includes bibliographical references.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A dialogue between a popish priest, and an English Protestant. Wherein the principal points and arguments of both religions are truly proposed, and fully examined. / By Matthew Poole, author of Synopsis Criticorum.</title>
+      <author>Poole, Matthew, 1624-1679.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The last edition corrected and amended.</edition>
+    </editionStmt>
+    <extent>[15], 234, [5] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.M.</persName> for <persName type="publisher">Tho. Passinger</persName>, and are to be sold by <persName type="bookseller">John Williamson</persName> ...,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Handwritten index, p. [5] at end.</note>
+      <note>Misidentified on UMI microfilm as Wing P2830.</note>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Includes bibliographical references.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Tho. Passinger</persName>
+    </person>
+    <person type="printer">
+      <persName>T.M.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Williamson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A coat of divers colours fit for Joseph. Or, Piety in variety. By Jos. W. gentleman.</title>
-         <author>W., Jos., Gentleman.</author>
-      </titleStmt>
-      <extent>30, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for J.W.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication suggested by Wing.</note>
-         <note>Imperfect: cropped at head with some loss of text and pagination.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A coat of divers colours fit for Joseph. Or, Piety in variety. By Jos. W. gentleman.</title>
+      <author>W., Jos., Gentleman.</author>
+    </titleStmt>
+    <extent>30, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">J.W.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication suggested by Wing.</note>
+      <note>Imperfect: cropped at head with some loss of text and pagination.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

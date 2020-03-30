@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>These several papers was sent to the Parliament the twentieth day of the fifth moneth, 1659. Being above seven thousand of the names of the hand-maids and daughters of the Lord, and such as feels the oppression of tithes, in the names of many more of the said handmaids and daughters of the Lord, who witness against the oppression of tithes and other things as followeth.</title>
-         <author>Forster, Mary, 1619?-1686.</author>
-      </titleStmt>
-      <extent>[4], 72 p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Mary Westwood, and are to be sold at the Black-spread Eagle at the west end of Pauls,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"To the reader" signed: Mary Forster.</note>
-         <note>Last 4 pages in script.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>These several papers was sent to the Parliament the twentieth day of the fifth moneth, 1659. Being above seven thousand of the names of the hand-maids and daughters of the Lord, and such as feels the oppression of tithes, in the names of many more of the said handmaids and daughters of the Lord, who witness against the oppression of tithes and other things as followeth.</title>
+      <author>Forster, Mary, 1619?-1686.</author>
+    </titleStmt>
+    <extent>[4], 72 p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Mary Westwood</persName>, and are to be sold at <placeName>the Black-spread Eagle at the west end of Pauls</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"To the reader" signed: Mary Forster.</note>
+      <note>Last 4 pages in script.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Mary Westwood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-spread Eagle at the west end of Pauls</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

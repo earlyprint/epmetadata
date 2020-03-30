@@ -1,23 +1,45 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King: A proclamation. James R. Whereas we have thought fit, by the advice of our privy council, to raise the coyn of this our kingdom to a higher value; ... Whereas we have thought fit, by the advice of our privy council, to raise the coyn of this our kingdom to a higher value; ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>3 sheets ([3] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham, assigns of Benjamin Tooke, printer to the King's most excellent Majesty, and are to be sold at at his Majesties printing-house on Ormonde-Key, and at the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at our court at Dublin-Castle the 25th day of March, 1689.".</note>
-         <note>Arms 185.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King: A proclamation. James R. Whereas we have thought fit, by the advice of our privy council, to raise the coyn of this our kingdom to a higher value; ... Whereas we have thought fit, by the advice of our privy council, to raise the coyn of this our kingdom to a higher value; ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>3 sheets ([3] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName>, assigns of <persName type="assigns">Benjamin Tooke</persName>, printer to <persName type="patron">the King's most excellent Majesty</persName>, and are to be sold at <placeName>at his Majesties printing-house on Ormonde-Key</placeName>, and at <placeName>the Colledge-Arms in Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at our court at Dublin-Castle the 25th day of March, 1689.".</note>
+      <note>Arms 185.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>at his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Colledge-Arms in Castle-street.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

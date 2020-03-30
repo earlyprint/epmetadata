@@ -1,24 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Observations upon the Provinces United. And on the state of France. Written by Sr Thomas Overbury.</title>
-         <title>Sir Thomas Overbury his observations in his travailes upon the state of the Xvii. Provinces as they stood anno Dom. 1609.</title>
-         <author>Overbury, Thomas, Sir, 1581-1613.</author>
-         <author>Pass, Simon van de, 1595?-1647, engraver.</author>
-      </titleStmt>
-      <extent>[4], 80 p. : port. (metal cut)  </extent>
-      <publicationStmt>
-         <publisher>Printed by T. Maxey for Richard Marriot, and are to be sold at his shop in S. Dunstan's Church-yard, Fleetstreet,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1650">1651 [i.e. 1650]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The portrait of the author is signed: SP excudit SP fe., i.e. Simon Pass.</note>
-         <note>Originally published in 1626 as: Sir Thomas Overbury his observations in his travailes upon the state of the Xvii. Provinces as they stood anno Dom. 1609.</note>
-         <note>Thomason received his copy in December 1650.</note>
-         <note>Annotation on Thomason copy: "Decemb. 17 1650"; 1 in imprint date crossed through.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Observations upon the Provinces United. And on the state of France. Written by Sr Thomas Overbury.</title>
+      <title>Sir Thomas Overbury his observations in his travailes upon the state of the Xvii. Provinces as they stood anno Dom. 1609.</title>
+      <author>Overbury, Thomas, Sir, 1581-1613.</author>
+      <author>Pass, Simon van de, 1595?-1647, engraver.</author>
+    </titleStmt>
+    <extent>[4], 80 p. : port. (metal cut)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T. Maxey</persName> for <persName type="publisher">Richard Marriot</persName>, and are to be sold at <placeName>his shop in S. Dunstan's Church-yard</placeName>, <placeName>Fleetstreet</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1650">1651 [i.e. 1650]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The portrait of the author is signed: SP excudit SP fe., i.e. Simon Pass.</note>
+      <note>Originally published in 1626 as: Sir Thomas Overbury his observations in his travailes upon the state of the Xvii. Provinces as they stood anno Dom. 1609.</note>
+      <note>Thomason received his copy in December 1650.</note>
+      <note>Annotation on Thomason copy: "Decemb. 17 1650"; 1 in imprint date crossed through.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Marriot</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Maxey</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shop in S. Dunstan's Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

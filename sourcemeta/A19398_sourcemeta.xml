@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>[A dialogue of diuerse quections [sic] demanded of the children to their father very necessary, and profitable both for children, and parents, masters and seruants.]</title>
-         <author>Cotes, William, b. ca. 1560.</author>
-      </titleStmt>
-      <extent>[76] p.   </extent>
-      <publicationStmt>
-         <publisher>By Iohn Charlewood, dwelling in Barbican, at the signe of the halfe Eagle and the keie,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1585">[1585]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title (leaf A6 verso). Imprint from colophon. Publication date from STC.</note>
-         <note>Signatures: A-D E&#8310;.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-         <note>Imperfect; lacks title page.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>[A dialogue of diuerse quections [sic] demanded of the children to their father very necessary, and profitable both for children, and parents, masters and seruants.]</title>
+      <author>Cotes, William, b. ca. 1560.</author>
+    </titleStmt>
+    <extent>[76] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Iohn Charlewood</persName>, dwelling in <placeName>Barbican, at the signe of the halfe Eagle</placeName> and the keie,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1585">[1585]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title (leaf A6 verso). Imprint from colophon. Publication date from STC.</note>
+      <note>Signatures: A-D E&#8310;.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+      <note>Imperfect; lacks title page.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Charlewood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Barbican, at the signe of the halfe Eagle</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

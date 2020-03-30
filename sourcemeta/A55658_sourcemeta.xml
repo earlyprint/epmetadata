@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A president of female perfection Presented to the serious meditation and perusal of all modest women, who desire to live under the government of vertue, and are obedient to her laws. Containing an historicall discourse of the best and pincipallest [sic] for holiness and vertue of that sex. Illustrated with sundry poems and figures, pertinent to the story. By a person of honour.</title>
-         <author>Person of honour.</author>
-      </titleStmt>
-      <extent>[86], 249, [1] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>printed by J.L. and are to be sold by Austin Rice, at the Three Hearts in St Pauls Church-yard, near the west end,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on p. 1 and running title reads: The femall glory, or, The life of the Virgin Mary.</note>
-         <note>Includes errata on A3v.</note>
-         <note>In prose and verse.</note>
-         <note>Tightly bound with some loss of print.</note>
-         <note>Reproduction of the original in the Worcester College Library, Oxford.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A president of female perfection Presented to the serious meditation and perusal of all modest women, who desire to live under the government of vertue, and are obedient to her laws. Containing an historicall discourse of the best and pincipallest [sic] for holiness and vertue of that sex. Illustrated with sundry poems and figures, pertinent to the story. By a person of honour.</title>
+      <author>Person of honour.</author>
+    </titleStmt>
+    <extent>[86], 249, [1] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.L.</persName> and are to be sold by <persName type="bookseller">Austin Rice</persName>, at <placeName>the Three Hearts in St Pauls Church-yard, near the west end</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on p. 1 and running title reads: The femall glory, or, The life of the Virgin Mary.</note>
+      <note>Includes errata on A3v.</note>
+      <note>In prose and verse.</note>
+      <note>Tightly bound with some loss of print.</note>
+      <note>Reproduction of the original in the Worcester College Library, Oxford.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>J.L.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Austin Rice</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Three Hearts in St Pauls Church-yard, near the west end</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

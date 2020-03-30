@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A letter sent to the Earl of Warwick, from the captain, officers, and company of His Majesties ship called the Lyon, declaring their resolution for the service of the Parliament, with the Earl of Warwicks answer thereunto. 7 Julii, 1648. Ordered by the Commons assembled in Parliameut [sic], that this letter from Sir George Ayscue, and the Lord Admirals answer to it, be forthwith printed. H: Elsynge, Cler. Parl. D. Com.</title>
-         <author>Ayscue, George.</author>
-         <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
-         <author>England and Wales. Parliament. House of Commons. aut</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, printer to the Honorable House of Commons,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">July 8. 1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed on A3v: George Ayscue Capt. [and 12 others].</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A letter sent to the Earl of Warwick, from the captain, officers, and company of His Majesties ship called the Lyon, declaring their resolution for the service of the Parliament, with the Earl of Warwicks answer thereunto. 7 Julii, 1648. Ordered by the Commons assembled in Parliameut [sic], that this letter from Sir George Ayscue, and the Lord Admirals answer to it, be forthwith printed. H: Elsynge, Cler. Parl. D. Com.</title>
+      <author>Ayscue, George.</author>
+      <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
+      <author>England and Wales. Parliament. House of Commons. aut</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, printer to <persName type="patron">the Honorable House of Commons</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">July 8. 1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed on A3v: George Ayscue Capt. [and 12 others].</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honorable House of Commons</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

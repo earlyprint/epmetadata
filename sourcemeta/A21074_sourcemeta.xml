@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ariosto's satyres in seuen famous discourses, shewing the state, 1 Of the Court, and courtiers. 2 Of libertie, and the clergie in generall. 3 Of the Romane clergie. 4 Of marriage. 5 Of soldiers, musitians, and louers. 6 Of schoolmasters and scholers. 7 Of honor, and the happiest life. In English, by Garuis Markham.</title>
-         <title>Satires. English</title>
-         <author>Ariosto, Lodovico, 1474-1533.</author>
-         <author>Tofte, Robert, 1561-1620.</author>
-         <author>Markham, Gervase. 1568?-1637.</author>
-      </titleStmt>
-      <extent>[8], 108 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Nicholas Okes, for Roger Iackson, dwelling in Fleet-street, neere the great Conduit,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1608">1608.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In fact translated by Robert Tofte.</note>
-         <note>A variant has "schoolmastrs" for "schoolmasters".</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ariosto's satyres in seuen famous discourses, shewing the state, 1 Of the Court, and courtiers. 2 Of libertie, and the clergie in generall. 3 Of the Romane clergie. 4 Of marriage. 5 Of soldiers, musitians, and louers. 6 Of schoolmasters and scholers. 7 Of honor, and the happiest life. In English, by Garuis Markham.</title>
+      <title>Satires. English</title>
+      <author>Ariosto, Lodovico, 1474-1533.</author>
+      <author>Tofte, Robert, 1561-1620.</author>
+      <author>Markham, Gervase. 1568?-1637.</author>
+    </titleStmt>
+    <extent>[8], 108 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, for <persName type="publisher">Roger Iackson</persName>, dwelling in <placeName>Fleet-street, neere the great Conduit</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1608">1608.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In fact translated by Robert Tofte.</note>
+      <note>A variant has "schoolmastrs" for "schoolmasters".</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Roger Iackson</persName>
+    </person>
+    <person type="printer">
+      <persName>Nicholas Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-street, neere the great Conduit</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

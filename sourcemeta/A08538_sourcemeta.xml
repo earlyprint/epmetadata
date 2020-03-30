@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An epitome of Ortelius his Theater of the vvorld, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions</title>
-         <title>Theatrum orbis terrarum. English. Abridgments</title>
-         <author>Ortelius, Abraham, 1527-1598.</author>
-      </titleStmt>
-      <extent>[4], 110, [3], 13, [1] leaves : maps (metal cuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed by [typis H. Swingenij [for]] Iohn Norton,</publisher>
-         <pubPlace>At London [i.e. Antwerp] :</pubPlace>
-         <date when="1601" cert="low">[1601?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of a Latin abridgment, Antwerp, 1595--STC.</note>
-         <note>Actual place of printing and suggested publication date from STC; actual printer's name from colophon.</note>
-         <note>"An addition of certaine maps vnto this epitome of the theatre of Abraham Ortelius" has separate divisional title and foliation; register is continuous.</note>
-         <note>With a final list of maps.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An epitome of Ortelius his Theater of the vvorld, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions</title>
+      <title>Theatrum orbis terrarum. English. Abridgments</title>
+      <author>Ortelius, Abraham, 1527-1598.</author>
+    </titleStmt>
+    <extent>[4], 110, [3], 13, [1] leaves : maps (metal cuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[typis H. Swingenij [</persName>for<persName type="publisher">]] Iohn Norton</persName>,</publisher>
+      <pubPlace>At London [i.e. Antwerp] :</pubPlace>
+      <date when="1601" cert="low">[1601?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of a Latin abridgment, Antwerp, 1595--STC.</note>
+      <note>Actual place of printing and suggested publication date from STC; actual printer's name from colophon.</note>
+      <note>"An addition of certaine maps vnto this epitome of the theatre of Abraham Ortelius" has separate divisional title and foliation; register is continuous.</note>
+      <note>With a final list of maps.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>]] Iohn Norton</persName>
+    </person>
+    <person type="printer">
+      <persName>[typis H. Swingenij [</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

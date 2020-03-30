@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A ra-ree show to the tune of I am a senceless thing.</title>
-         <author>Colledge, Stephen, 1635?-1681.</author>
-      </titleStmt>
-      <extent>2 leaves : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for B.T., and sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Attributed by Wing and NUC pre-1956 imprints to Colledge.</note>
-         <note>Second leaf contains engraved cartoon entitled: West-ward hoy.</note>
-         <note>Reproduction of the original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A ra-ree show to the tune of I am a senceless thing.</title>
+      <author>Colledge, Stephen, 1635?-1681.</author>
+    </titleStmt>
+    <extent>2 leaves : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">B.T.</persName>, and sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Attributed by Wing and NUC pre-1956 imprints to Colledge.</note>
+      <note>Second leaf contains engraved cartoon entitled: West-ward hoy.</note>
+      <note>Reproduction of the original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B.T.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

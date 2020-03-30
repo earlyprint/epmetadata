@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Orders taken the x. day of October in the thirde yere of the raigne of our Soueraigne Ladye, Elizabeth Quene of Englande, Fraunce and Irelande, defender of the fayth. [and]c. By vertue of her Maiesties letters addressed to her hyghnesse Commissioners for causes ecclesiasticall as foloweth.</title>
-         <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
-         <author>Elizabeth I, Queen of England, 1533-1603.</author>
-      </titleStmt>
-      <extent>[4] p.   </extent>
-      <publicationStmt>
-         <publisher>In Powles Church yarde by Richarde Iugge, printer to the Quenes Maiestie,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1561">[1561]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title from heading A1r.</note>
-         <note>Imprint from colophon; publication date suggested by STC.</note>
-         <note>This work lists the permitted and forbidden alterations to churches and services--STC.</note>
-         <note>Signatures: A&#178; .</note>
-         <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Orders taken the x. day of October in the thirde yere of the raigne of our Soueraigne Ladye, Elizabeth Quene of Englande, Fraunce and Irelande, defender of the fayth. [and]c. By vertue of her Maiesties letters addressed to her hyghnesse Commissioners for causes ecclesiasticall as foloweth.</title>
+      <author>England and Wales. Sovereign (1558-1603 : Elizabeth I)</author>
+      <author>Elizabeth I, Queen of England, 1533-1603.</author>
+    </titleStmt>
+    <extent>[4] p.   </extent>
+    <publicationStmt>
+      <publisher>In Powles Church yarde by <persName type="printer">Richarde Iugge</persName>, printer to <persName type="patron">the Quenes Maiestie</persName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1561">[1561]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title from heading A1r.</note>
+      <note>Imprint from colophon; publication date suggested by STC.</note>
+      <note>This work lists the permitted and forbidden alterations to churches and services--STC.</note>
+      <note>Signatures: A&#178; .</note>
+      <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richarde Iugge</persName>
+    </person>
+    <person type="patron">
+      <persName>the Quenes Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

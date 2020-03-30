@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Two sermons The angell guardian. The light enlightening. Preached by Iohn Bayly ...</title>
-         <author>Bayly, John, 1595 or 6-1633.</author>
-      </titleStmt>
-      <extent>[4], 17, [3]; 14, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Lichfield printer to the famous Vniversity,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1630">a. D. 1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>"The light enlightning" has separate dated title page, pagination and register. (Second title page is actually leaf C4 of first section.).</note>
-         <note>Only the first sermon appears on UMI microfilm.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Two sermons The angell guardian. The light enlightening. Preached by Iohn Bayly ...</title>
+      <author>Bayly, John, 1595 or 6-1633.</author>
+    </titleStmt>
+    <extent>[4], 17, [3]; 14, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Lichfield</persName> printer to <persName type="patron">the famous Vniversity</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1630">a. D. 1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>"The light enlightning" has separate dated title page, pagination and register. (Second title page is actually leaf C4 of first section.).</note>
+      <note>Only the first sermon appears on UMI microfilm.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Iohn Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the famous Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

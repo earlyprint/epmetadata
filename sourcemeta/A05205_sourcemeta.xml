@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Foure sermons preached and publikely taught by Richard Leake, preacher of the word of God at Killington, within the baronrie of Kendall, and countie of Westmerland: immediately after the great visitation of the pestilence in the fore-sayd countie.</title>
-         <author>Leake, Richard.</author>
-      </titleStmt>
-      <extent>[16], 116 p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Felix Kingston, for Thomas Man,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1599">1599.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Each sermon has caption title.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Foure sermons preached and publikely taught by Richard Leake, preacher of the word of God at Killington, within the baronrie of Kendall, and countie of Westmerland: immediately after the great visitation of the pestilence in the fore-sayd countie.</title>
+      <author>Leake, Richard.</author>
+    </titleStmt>
+    <extent>[16], 116 p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Felix Kingston</persName>, for <persName type="publisher">Thomas Man</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1599">1599.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Each sermon has caption title.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Man</persName>
+    </person>
+    <person type="printer">
+      <persName>Felix Kingston</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

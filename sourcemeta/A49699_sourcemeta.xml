@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The power of kings from God a sermon preached in the Cathedral Church of Sarum the XXIX day of June, 1683 upon occasion of the detection of the late horrid plot against the life of His Scared Majesty / by Paul Lathom.</title>
-         <author>Lathom, Paul.</author>
-      </titleStmt>
-      <extent>41 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Clarke, for Joanna Brome,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The power of kings from God a sermon preached in the Cathedral Church of Sarum the XXIX day of June, 1683 upon occasion of the detection of the late horrid plot against the life of His Scared Majesty / by Paul Lathom.</title>
+      <author>Lathom, Paul.</author>
+    </titleStmt>
+    <extent>41 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Clarke</persName>, for <persName type="publisher">Joanna Brome</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joanna Brome</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Clarke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

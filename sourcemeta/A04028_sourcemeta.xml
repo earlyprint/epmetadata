@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon vpon part of the second chapter of the first epistle of S. Iohn: Preached by Thomas Ingmethorp. The summe whereof is briefly comprised in this hexameter  ...</title>
-         <author>Ingmethorpe, Thomas.</author>
-      </titleStmt>
-      <extent>[8], 45, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Ioseph Barnes, printer to the Vniversitie,</publisher>
-         <pubPlace>At Oxford :</pubPlace>
-         <date when="1598">1598.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon vpon part of the second chapter of the first epistle of S. Iohn: Preached by Thomas Ingmethorp. The summe whereof is briefly comprised in this hexameter  ...</title>
+      <author>Ingmethorpe, Thomas.</author>
+    </titleStmt>
+    <extent>[8], 45, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Ioseph Barnes</persName>, printer to <persName type="patron">the Vniversitie</persName>,</publisher>
+      <pubPlace>At Oxford :</pubPlace>
+      <date when="1598">1598.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Ioseph Barnes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Vniversitie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

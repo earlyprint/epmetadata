@@ -1,25 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vignola, or, The compleat architect shewing in a plain and easie way the rules of the five orders of architecture, viz. Tuscan, Dorick, Ionick, Corinthian, and Composite : whereby any that can but read and understand English may readily learn the proportious [sic] that all members in a building have one unto another / set forth by Mr. James Barozzio of Vignola ; translated into English by Joseph Moxon.</title>
-         <title>Regola delli cinque ordini d'architettura. English</title>
-         <author>Vignola, 1507-1573.</author>
-         <author>Moxon, Joseph, 1627-1691.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The third edition,</edition>
-      </editionStmt>
-      <extent>[7], 16-80 p., 19 leaves of plates : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed for Joseph Moxon, and sold at his shop ...,</publisher>
-         <pubPlace>Lonon [i.e. London] :</pubPlace>
-         <date when="1673">1673.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translation of: Regola delli cinque ordini d'architettura.</note>
-         <note>Added engraved t.p. reads: Regula quinque ordinum architectur&#230; / aucthore I. B. Vignola ; aucta et emendata per Josephum Moxon. Londini : Ex officina Josephi Moxon.</note>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vignola, or, The compleat architect shewing in a plain and easie way the rules of the five orders of architecture, viz. Tuscan, Dorick, Ionick, Corinthian, and Composite : whereby any that can but read and understand English may readily learn the proportious [sic] that all members in a building have one unto another / set forth by Mr. James Barozzio of Vignola ; translated into English by Joseph Moxon.</title>
+      <title>Regola delli cinque ordini d'architettura. English</title>
+      <author>Vignola, 1507-1573.</author>
+      <author>Moxon, Joseph, 1627-1691.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The third edition,</edition>
+    </editionStmt>
+    <extent>[7], 16-80 p., 19 leaves of plates : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Joseph Moxon</persName>, and sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>Lonon [i.e. London] :</pubPlace>
+      <date when="1673">1673.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translation of: Regola delli cinque ordini d'architettura.</note>
+      <note>Added engraved t.p. reads: Regula quinque ordinum architectur&#230; / aucthore I. B. Vignola ; aucta et emendata per Josephum Moxon. Londini : Ex officina Josephi Moxon.</note>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Moxon</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

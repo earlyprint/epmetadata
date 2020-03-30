@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ingratitude reveng'd, or, A poem upon the happy victory of His Majesties naval forces against the Dutch, June the 3 and 4, 1665 under the auspicious conduct of His Royal Highness James Duke of York, Lord Admiral of England &amp;c.</title>
-         <author>Smith, William, fl. 1660-1686.</author>
-      </titleStmt>
-      <extent>[2],  8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by T.J. for Dixy Page,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1665">1665.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Epistle dedicatory" signed: William Smith.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ingratitude reveng'd, or, A poem upon the happy victory of His Majesties naval forces against the Dutch, June the 3 and 4, 1665 under the auspicious conduct of His Royal Highness James Duke of York, Lord Admiral of England &amp;c.</title>
+      <author>Smith, William, fl. 1660-1686.</author>
+    </titleStmt>
+    <extent>[2],  8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">T.J.</persName> for <persName type="publisher">Dixy Page</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1665">1665.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Epistle dedicatory" signed: William Smith.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Dixy Page</persName>
+    </person>
+    <person type="printer">
+      <persName>T.J.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

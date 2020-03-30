@@ -1,20 +1,25 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The plain truth, or, A lenitive for the clergy by one Pantophilus.</title>
-         <author>Pantophilus.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Thomas Parkhurst ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The plain truth, or, A lenitive for the clergy by one Pantophilus.</title>
+      <author>Pantophilus.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Thomas Parkhurst</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Parkhurst</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

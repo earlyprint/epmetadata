@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Nature inverted, or, Judgement turned into gall delivered in a sermon at the Cathedral Church of St. Peter in York, upon Monday the 18th of July, 1670, being the summer assize held before the Right Honourable Baron Turner and Baron Littleton, the Right Worshipfull Sr. Philip Monckton, Knight, being then High-sheriff of Yorkshire / by James Johnson ...</title>
-         <author>Johnson, James, 1639 or 40-1704.</author>
-      </titleStmt>
-      <extent>[2], 22 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Hayes ..., for Samuel Simpson ...,</publisher>
-         <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
-         <date when="1670">1670.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Marginal notes.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Nature inverted, or, Judgement turned into gall delivered in a sermon at the Cathedral Church of St. Peter in York, upon Monday the 18th of July, 1670, being the summer assize held before the Right Honourable Baron Turner and Baron Littleton, the Right Worshipfull Sr. Philip Monckton, Knight, being then High-sheriff of Yorkshire / by James Johnson ...</title>
+      <author>Johnson, James, 1639 or 40-1704.</author>
+    </titleStmt>
+    <extent>[2], 22 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Hayes</persName> ..., for <persName type="publisher">Samuel Simpson</persName> ...,</publisher>
+      <pubPlace>Cambridge [Cambridgeshire] :</pubPlace>
+      <date when="1670">1670.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Marginal notes.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuel Simpson</persName>
+    </person>
+    <person type="printer">
+      <persName>John Hayes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

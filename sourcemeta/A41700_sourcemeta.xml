@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The rival sisters, or, The violence of love a tragedy : as it is acted at the Theatre-Royal by His Majesty's servants / written by Mr. Gould.</title>
-         <author>Gould, Robert, d. 1709?</author>
-         <author>Shirley, James, 1596-1666. Maides revenge.</author>
-      </titleStmt>
-      <extent>[11], 56 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Bently ... Francis Saunders ... and James Knapton ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Based on: Maides revenge / James Shirley.</note>
-         <note>Dedication signed: Robert Gould.</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The rival sisters, or, The violence of love a tragedy : as it is acted at the Theatre-Royal by His Majesty's servants / written by Mr. Gould.</title>
+      <author>Gould, Robert, d. 1709?</author>
+      <author>Shirley, James, 1596-1666. Maides revenge.</author>
+    </titleStmt>
+    <extent>[11], 56 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Bently</persName> ... <persName type="publisher">Francis Saunders</persName> ... and <persName type="publisher">James Knapton</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Based on: Maides revenge / James Shirley.</note>
+      <note>Dedication signed: Robert Gould.</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Saunders</persName>
+    </person>
+    <person type="publisher">
+      <persName>James Knapton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Richard Bently</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

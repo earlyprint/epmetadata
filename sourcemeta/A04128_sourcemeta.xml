@@ -1,19 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Seven questions of the sabbath briefly disputed, after the manner of the schooles Wherein such cases, and scruples, as are incident to this subject, are cleared, and resolved, by Gilbert Ironside B.D.</title>
-         <author>Ironside, Gilbert, 1588-1671.</author>
-      </titleStmt>
-      <extent>[24], 297, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leonard Lichfield printer to the famous Vniversity, and are to be sold by Edward Forrest,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1637">Anno salutis M.DC.XXXVII. [1637]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The last leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Seven questions of the sabbath briefly disputed, after the manner of the schooles Wherein such cases, and scruples, as are incident to this subject, are cleared, and resolved, by Gilbert Ironside B.D.</title>
+      <author>Ironside, Gilbert, 1588-1671.</author>
+    </titleStmt>
+    <extent>[24], 297, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leonard Lichfield</persName> printer to <persName type="patron">the famous Vniversity</persName>, and are to be sold by <persName type="bookseller">Edward Forrest</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1637">Anno salutis M.DC.XXXVII. [1637]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The last leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leonard Lichfield</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Edward Forrest</persName>
+    </person>
+    <person type="patron">
+      <persName>the famous Vniversity</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

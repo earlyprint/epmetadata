@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The grounds of obedience and government by Thomas White ...</title>
-         <author>White, Thomas, 1593-1676.</author>
-      </titleStmt>
-      <extent>[10], 183 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Flesher, for Laurence Chapman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1655">1655.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Table of contents: p. [7]-[10]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The grounds of obedience and government by Thomas White ...</title>
+      <author>White, Thomas, 1593-1676.</author>
+    </titleStmt>
+    <extent>[10], 183 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Flesher</persName>, for <persName type="publisher">Laurence Chapman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1655">1655.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Table of contents: p. [7]-[10]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Laurence Chapman</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Flesher</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

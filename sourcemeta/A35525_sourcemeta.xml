@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poetical exercises written upon several occasions presented and dedicated to Her Royal Highness, Mary, Princess of Orange.</title>
-         <author>Cutts, John Cutts, Baron, 1661-1707.</author>
-      </titleStmt>
-      <extent>[16], 63 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bentley, and S. Magnes ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: J. Cutts.</note>
-         <note>"Licensed, March 23, 1686/7. Roger L'Estrange"</note>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poetical exercises written upon several occasions presented and dedicated to Her Royal Highness, Mary, Princess of Orange.</title>
+      <author>Cutts, John Cutts, Baron, 1661-1707.</author>
+    </titleStmt>
+    <extent>[16], 63 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bentley</persName>, and <persName type="publisher">S. Magnes</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: J. Cutts.</note>
+      <note>"Licensed, March 23, 1686/7. Roger L'Estrange"</note>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Bentley</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Magnes</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

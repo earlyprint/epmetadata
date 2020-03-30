@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Academical discourses upon several choice and pleasant subjects / written by the learned and famous Loredano ; Englished by J.B.</title>
-         <author>Loredano, Giovanni Francesco, 1607-1661.</author>
-         <author>L'Estrange, Roger, Sir, 1616-1704.</author>
-         <author>J. B.</author>
-      </titleStmt>
-      <extent>[14], 114 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Tho. Mabb ... and Margaret Shears ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: J.B.</note>
-         <note>Imprimatur signed and dated: Octob. 22, 1663, Robert L'Estrang. -- p. [2]</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Academical discourses upon several choice and pleasant subjects / written by the learned and famous Loredano ; Englished by J.B.</title>
+      <author>Loredano, Giovanni Francesco, 1607-1661.</author>
+      <author>L'Estrange, Roger, Sir, 1616-1704.</author>
+      <author>J. B.</author>
+    </titleStmt>
+    <extent>[14], 114 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Tho. Mabb</persName> ... and <persName type="printer">Margaret Shears</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: J.B.</note>
+      <note>Imprimatur signed and dated: Octob. 22, 1663, Robert L'Estrang. -- p. [2]</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Margaret Shears</persName>
+    </person>
+    <person type="printer">
+      <persName>Tho. Mabb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

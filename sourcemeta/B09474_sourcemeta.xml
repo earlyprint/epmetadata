@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The charge given by Narcissus Lord Arch-Bishop of Casshell to his clergy at his primary visitation helf in the parish church of St. John's in Cashell, July 27, 1692, together with his articles of visitation whereunto are annext three acts of Parliament, which are to be read in every parish church yearly.</title>
-         <author>Church of Ireland. Province of Cashel. Archbishop (1691-1694 : Marsh)</author>
-         <author>Marsh, Narcissus, 1638-1713.</author>
-      </titleStmt>
-      <extent>[4], 47 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Joseph Ray near the Custom-House,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1694">1694.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The charge given by Narcissus Lord Arch-Bishop of Casshell to his clergy at his primary visitation helf in the parish church of St. John's in Cashell, July 27, 1692, together with his articles of visitation whereunto are annext three acts of Parliament, which are to be read in every parish church yearly.</title>
+      <author>Church of Ireland. Province of Cashel. Archbishop (1691-1694 : Marsh)</author>
+      <author>Marsh, Narcissus, 1638-1713.</author>
+    </titleStmt>
+    <extent>[4], 47 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Joseph Ray</persName> near <placeName>the Custom-House</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1694">1694.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Joseph Ray</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Custom-House</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

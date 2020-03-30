@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The history of Prince Erastus, son to the Emperour Dioclesian and these famous philosophers called the seven wife masters of Rome being a full account of all that was ever written of that antient, famous, pleasant, and excellent history / written originally in Italian, then translated into French, and now rendred English by F.K.</title>
-         <title>Seven sages of Rome. English.</title>
-         <author>Kirkman, Francis, 1632-ca. 1680.</author>
-      </titleStmt>
-      <extent>[10], 367, [2] p. : ill.  </extent>
-      <publicationStmt>
-         <publisher>Printed by Aunt Johnson for Fra. Kirkman, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1674">1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Advertisement: p. [1]-[2]</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The history of Prince Erastus, son to the Emperour Dioclesian and these famous philosophers called the seven wife masters of Rome being a full account of all that was ever written of that antient, famous, pleasant, and excellent history / written originally in Italian, then translated into French, and now rendred English by F.K.</title>
+      <title>Seven sages of Rome. English.</title>
+      <author>Kirkman, Francis, 1632-ca. 1680.</author>
+    </titleStmt>
+    <extent>[10], 367, [2] p. : ill.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Aunt Johnson</persName> for <persName type="publisher">Fra. Kirkman</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1674">1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Advertisement: p. [1]-[2]</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fra. Kirkman</persName>
+    </person>
+    <person type="printer">
+      <persName>Aunt Johnson</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

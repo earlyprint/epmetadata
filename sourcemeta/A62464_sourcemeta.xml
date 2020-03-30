@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A funeral sermon upon the much lamented death of Col. Edward Cook who died in London upon January the 29th. and was buried in the chapple at Highnam near Gloucester, on February the 2d. 1683/4. By Edmond Thorne Master of Arts, and Fellow of Oriel College in Oxford.</title>
-         <author>Thorne, Edmund.</author>
-      </titleStmt>
-      <extent>39, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by T.B. for Walter Davies in Amen-Corner,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A funeral sermon upon the much lamented death of Col. Edward Cook who died in London upon January the 29th. and was buried in the chapple at Highnam near Gloucester, on February the 2d. 1683/4. By Edmond Thorne Master of Arts, and Fellow of Oriel College in Oxford.</title>
+      <author>Thorne, Edmund.</author>
+    </titleStmt>
+    <extent>39, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.B.</persName> for <persName type="publisher">Walter Davies</persName> in <placeName>Amen-Corner</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Walter Davies</persName>
+    </person>
+    <person type="printer">
+      <persName>T.B.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Amen-Corner</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

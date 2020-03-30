@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fames roule: or, The names of our dread soveraigne Lord King Charles, his royall Queen Mary, and his most hopefull posterity: together with, the names of the dukes, marquesses, earles, viscounts ... of his three renowned kingdomes, England, Scotland, and Ireland: anagrammatiz'd and expressed by acrosticke lines on their names. By Mistris Mary Fage, wife of Robert Fage the younger, gentleman</title>
-         <author>Fage, Mary.</author>
-      </titleStmt>
-      <extent>[10], 40, 51-103, 94-180, 177-297, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Oulton [for J. Crouch],</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1637">1637.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Publisher's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fames roule: or, The names of our dread soveraigne Lord King Charles, his royall Queen Mary, and his most hopefull posterity: together with, the names of the dukes, marquesses, earles, viscounts ... of his three renowned kingdomes, England, Scotland, and Ireland: anagrammatiz'd and expressed by acrosticke lines on their names. By Mistris Mary Fage, wife of Robert Fage the younger, gentleman</title>
+      <author>Fage, Mary.</author>
+    </titleStmt>
+    <extent>[10], 40, 51-103, 94-180, 177-297, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Oulton [</persName>for <persName type="publisher">J. Crouch]</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1637">1637.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Publisher's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>J. Crouch]</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Oulton [</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

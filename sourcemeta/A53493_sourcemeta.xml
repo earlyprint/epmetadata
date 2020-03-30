@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Politicall reflections upon the government of the Turks ... by the author of the late Advice to a son.</title>
-         <author>Osborne, Francis, 1593-1659.</author>
-      </titleStmt>
-      <extent>[9], 194 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J.G. for Thomas Robinson ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1656">1656.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to Francis Osborne. Cf. BM.</note>
-         <note>Reproduction of original in Yale University Library.</note>
-         <note>(from t.p.) Nicolas Machiavel -- The King of Sweden's descent into Germany -- The conspiracy of Piso and Vindex against Nero -- The greatnesse and corruption of the court of Rome -- The election of Pope Leo the XI -- The defection from the church of Rome -- Martin Luther.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Politicall reflections upon the government of the Turks ... by the author of the late Advice to a son.</title>
+      <author>Osborne, Francis, 1593-1659.</author>
+    </titleStmt>
+    <extent>[9], 194 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J.G.</persName> for <persName type="publisher">Thomas Robinson</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1656">1656.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to Francis Osborne. Cf. BM.</note>
+      <note>Reproduction of original in Yale University Library.</note>
+      <note>(from t.p.) Nicolas Machiavel -- The King of Sweden's descent into Germany -- The conspiracy of Piso and Vindex against Nero -- The greatnesse and corruption of the court of Rome -- The election of Pope Leo the XI -- The defection from the church of Rome -- Martin Luther.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Robinson</persName>
+    </person>
+    <person type="printer">
+      <persName>J.G.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

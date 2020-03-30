@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vox populi, fax populi, or, A discovery of an impudent cheat and forgery put upon the people of England by Elephant Smith, and his author of Vox populi thereby endeavoring to instill the poysonous principles of rebellion into the minds of His Majesties subjects : humbly recommended to all loyal subjects and true Englishmen.</title>
-         <author>Nalson, John, 1638?-1686.</author>
-      </titleStmt>
-      <extent>[2], 13 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by S.R. for Benj. Tooke ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Halkett &amp; Laing misspell the author's name Nelson.</note>
-         <note>Francis Smith was the publisher of Vox populi, or, The peoples claim to their Parliaments sitting ... (1681); in the present piece Nalson hints that he may be the author as well.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vox populi, fax populi, or, A discovery of an impudent cheat and forgery put upon the people of England by Elephant Smith, and his author of Vox populi thereby endeavoring to instill the poysonous principles of rebellion into the minds of His Majesties subjects : humbly recommended to all loyal subjects and true Englishmen.</title>
+      <author>Nalson, John, 1638?-1686.</author>
+    </titleStmt>
+    <extent>[2], 13 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">S.R.</persName> for <persName type="publisher">Benj. Tooke</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Halkett &amp; Laing misspell the author's name Nelson.</note>
+      <note>Francis Smith was the publisher of Vox populi, or, The peoples claim to their Parliaments sitting ... (1681); in the present piece Nalson hints that he may be the author as well.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Benj. Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>S.R.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

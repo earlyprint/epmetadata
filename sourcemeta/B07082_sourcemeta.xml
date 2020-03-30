@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A short account of the expiring Parl--m-nt.</title>
-      </titleStmt>
-      <extent>3 leaves.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Newcomb in Wine-Office-Court, Fleet-street,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1713">1713.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "Some mighty genius how my breast inspire".</note>
-         <note>Drop head title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Printed on one side of the leaf only, the last on the verso.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A short account of the expiring Parl--m-nt.</title>
+    </titleStmt>
+    <extent>3 leaves.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Newcomb</persName> in <placeName>Wine-Office-Court</placeName>, <placeName>Fleet-street</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1713">1713.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "Some mighty genius how my breast inspire".</note>
+      <note>Drop head title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Printed on one side of the leaf only, the last on the verso.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>R. Newcomb</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleet-street</placeName>
+    </place>
+    <place type="location">
+      <placeName>Wine-Office-Court</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

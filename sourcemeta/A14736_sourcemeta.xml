@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A coal from the altar, to kindle the holy fire of zeale In a sermon preached at a generall visitation at Ipswich. By Samuell Ward, Bach. of Diuinity.</title>
-         <author>Ward, Samuel, 1577-1640.</author>
-         <author>Wood, Ambrose.</author>
-      </titleStmt>
-      <extent>[12], 81, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H[umphrey] L[ownes] for Samuell Macham; and are to be sould at his shop in Pauls-church-yard, at the signe of the Buls-head,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1615">1615.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by Ambrose Wood.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A coal from the altar, to kindle the holy fire of zeale In a sermon preached at a generall visitation at Ipswich. By Samuell Ward, Bach. of Diuinity.</title>
+      <author>Ward, Samuel, 1577-1640.</author>
+      <author>Wood, Ambrose.</author>
+    </titleStmt>
+    <extent>[12], 81, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H[umphrey] L[ownes]</persName> for <persName type="publisher">Samuell Macham;</persName> and are to be sould at <placeName>his shop in Pauls-church-yard, at the signe of the Buls-head</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1615">1615.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by Ambrose Wood.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Samuell Macham;</persName>
+    </person>
+    <person type="printer">
+      <persName>H[umphrey] L[ownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls-church-yard, at the signe of the Buls-head</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

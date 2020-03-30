@@ -1,26 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation containing His Majesties gracious pardon and indemnity</title>
-         <author>Scotland. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher> printed by the heir of Andrew Anderson ...,</publisher>
-         <publisher>for Andrew Forrester,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1679">1679 ;</date>
-         <pubPlace>and re-printed at London :</pubPlace>
-         <date when="1679">1679.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Royal arms at head of text; initial letter.</note>
-         <note>Dated at end: Given at Our Court at Windsor Castle, the twenty seventh day of July, one thousand six hundred seventy and nine. And of Our Reign, the thirtieth one year.</note>
-         <note>Imperfect: torn with slight loss of text.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation containing His Majesties gracious pardon and indemnity</title>
+      <author>Scotland. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher> printed by <persName type="printer">the heir of Andrew Anderson</persName> ...,</publisher>
+      <publisher>for Andrew Forrester,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1679">1679 ;</date>
+      <pubPlace>and re-printed at London :</pubPlace>
+      <date when="1679">1679.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Royal arms at head of text; initial letter.</note>
+      <note>Dated at end: Given at Our Court at Windsor Castle, the twenty seventh day of July, one thousand six hundred seventy and nine. And of Our Reign, the thirtieth one year.</note>
+      <note>Imperfect: torn with slight loss of text.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

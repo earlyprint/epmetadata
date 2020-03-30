@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Sarahs sepulture, or A funerall sermon preached for the Right Honourable and vertuous lady, Dorothie Countesse of Northumberland, at Petworth in Sussex. By Richard Chambers Doctor of Diuinitie.</title>
-         <author>Chambers, Richard, b. 1583.</author>
-         <author>R. H., fl. 1620.</author>
-      </titleStmt>
-      <extent>[4], 13 [i.e. 27], [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G. Eld, for George Fairbeard, and are to bee sold at his shop, at the north entrance of the Royall-Exchange,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1620">1620.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's dedication signed: R.H.</note>
-         <note>P. 27 misnumbered 13.</note>
-         <note>Reproduction of the original in Harvard University. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Sarahs sepulture, or A funerall sermon preached for the Right Honourable and vertuous lady, Dorothie Countesse of Northumberland, at Petworth in Sussex. By Richard Chambers Doctor of Diuinitie.</title>
+      <author>Chambers, Richard, b. 1583.</author>
+      <author>R. H., fl. 1620.</author>
+    </titleStmt>
+    <extent>[4], 13 [i.e. 27], [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G. Eld</persName>, for <persName type="publisher">George Fairbeard</persName>, and are to bee sold at <placeName>his shop, at the north entrance of the Royall-Exchange</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1620">1620.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's dedication signed: R.H.</note>
+      <note>P. 27 misnumbered 13.</note>
+      <note>Reproduction of the original in Harvard University. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Fairbeard</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Eld</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop, at the north entrance of the Royall-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

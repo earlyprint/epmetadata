@@ -1,23 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Whole book of Psalms as they are now sung in the churches, with the singing notes of the time and tune set to every syllable, made plain and easie to the understandings of all that can read by the directions in the latter part of the preface, never before done in England.</title>
-         <author>May, Thomas, 1595-1650.</author>
-      </titleStmt>
-      <extent>[34], 419 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Everingham for the Company of Stationers, and are to be sold by E. Brewster ... and S. Keeble ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1688">1688.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Illustrated engraved t.p.</note>
-         <note>The preliminary matter includes a dedication to Robert Boyle, an epistle to the reader, and a preface, all signed by T.M. [i.e. Thomas May]</note>
-         <note>Includes index.</note>
-         <note>Numerous errors in paging.</note>
-         <note>Errata: p. [26]</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Whole book of Psalms as they are now sung in the churches, with the singing notes of the time and tune set to every syllable, made plain and easie to the understandings of all that can read by the directions in the latter part of the preface, never before done in England.</title>
+      <author>May, Thomas, 1595-1650.</author>
+    </titleStmt>
+    <extent>[34], 419 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Everingham</persName> for <persName type="publisher">the Company of Stationers</persName>, and are to be sold by <persName type="bookseller">E. Brewster</persName> ... and <persName type="publisher">S. Keeble</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1688">1688.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Illustrated engraved t.p.</note>
+      <note>The preliminary matter includes a dedication to Robert Boyle, an epistle to the reader, and a preface, all signed by T.M. [i.e. Thomas May]</note>
+      <note>Includes index.</note>
+      <note>Numerous errors in paging.</note>
+      <note>Errata: p. [26]</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Everingham</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Keeble</persName>
+    </person>
+    <person type="publisher">
+      <persName>the Company of Stationers</persName>
+    </person>
+    <person type="bookseller">
+      <persName>E. Brewster</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

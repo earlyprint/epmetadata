@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>All the examinacions of the constante martir of God M. Iohn Bradforde before the Lorde Chauncellour, B. of Winchester the B. of London, [and] other co[m]missioners: whervnto ar annexed, his priuate talk [and] conflictes in prison after his condemnacion, with the Archbishop of york, the B. of Chichester, Alfonsus, and King Philips confessour, two Spanishe freers, and sundry others. With his modest learned and godly answeres. Anno. Domini 1561</title>
-         <author>Bradford, John, 1510?-1555.</author>
-      </titleStmt>
-      <extent>[228] p.   </extent>
-      <publicationStmt>
-         <publisher>In Fleetstrete, at the signe of [the] faucon by William Griffith, and are to be sold at the litle shop in saincte Dunstones churchyard,</publisher>
-         <pubPlace>[Imprinted at London :</pubPlace>
-         <date when="1561">Anno 1561. The .xiii. daie of Maye]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imprint from colophon.</note>
-         <note>Signatures: * [par.] [4 dots] [hand] a A&#8308; B-I K&#8310;.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>All the examinacions of the constante martir of God M. Iohn Bradforde before the Lorde Chauncellour, B. of Winchester the B. of London, [and] other co[m]missioners: whervnto ar annexed, his priuate talk [and] conflictes in prison after his condemnacion, with the Archbishop of york, the B. of Chichester, Alfonsus, and King Philips confessour, two Spanishe freers, and sundry others. With his modest learned and godly answeres. Anno. Domini 1561</title>
+      <author>Bradford, John, 1510?-1555.</author>
+    </titleStmt>
+    <extent>[228] p.   </extent>
+    <publicationStmt>
+      <publisher>In Fleetstrete, at <placeName>the signe of [the] faucon</placeName> by <persName type="printer">William Griffith</persName>, and are to be sold at <placeName>the litle shop in saincte Dunstones churchyard</placeName>,</publisher>
+      <pubPlace>[Imprinted at London :</pubPlace>
+      <date when="1561">Anno 1561. The .xiii. daie of Maye]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imprint from colophon.</note>
+      <note>Signatures: * [par.] [4 dots] [hand] a A&#8308; B-I K&#8310;.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>William Griffith</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the litle shop in saincte Dunstones churchyard</placeName>
+    </place>
+    <place type="location">
+      <placeName>the signe of [the] faucon</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

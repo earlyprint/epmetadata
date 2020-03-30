@@ -1,20 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The ladies priviledge As it was acted with good allowance at the Cock-pit in Drury-lane, and before their Majesties at White-Hall twice. By their Maiesties Servants. The author Henry Glapthorne.</title>
-         <author>Glapthorne, Henry.</author>
-      </titleStmt>
-      <extent>[68] p.   </extent>
-      <publicationStmt>
-         <publisher>By I. Okes, for Francis Constable, and are to be sold at his shops in Kings-street, at the signe of the Goat, and in Westminster-hall,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Signatures: A-H&#8308; J&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The ladies priviledge As it was acted with good allowance at the Cock-pit in Drury-lane, and before their Majesties at White-Hall twice. By their Maiesties Servants. The author Henry Glapthorne.</title>
+      <author>Glapthorne, Henry.</author>
+    </titleStmt>
+    <extent>[68] p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">I. Okes</persName>, for <persName type="publisher">Francis Constable</persName>, and are to be sold at <placeName>his shops in Kings-street, at the signe of the Goat</placeName>, and in <placeName>Westminster-hall</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Signatures: A-H&#8308; J&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Francis Constable</persName>
+    </person>
+    <person type="printer">
+      <persName>I. Okes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Westminster-hall</placeName>
+    </place>
+    <place type="location">
+      <placeName>his shops in Kings-street, at the signe of the Goat</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

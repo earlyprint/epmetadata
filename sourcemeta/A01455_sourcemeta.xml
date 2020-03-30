@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at Paules Crosse the 9. of Iune. 1605 Vpon the 20. of the Reuelation the 12. vers. treating of these seuerall heads. 1. Of the resurrection of the flesh. 2. Of the iudgement of the quicke and dead. 3. Of the communion of saints, 4. Of euerlasting life. By Samuell Gardnier [sic], Doct. of Diuinitie.</title>
-         <author>Gardiner, Samuel, b. 1563 or 4.</author>
-      </titleStmt>
-      <extent>[68] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by E. Allde] for Edward VVhite, and are to be solde at the little North-doore of Saint Paules Church, at the signe of the Gun,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1605">1605.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-H&#8308; I&#178; .</note>
-         <note>Reproduction of the original in the Jesus College (University of Cambridge). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at Paules Crosse the 9. of Iune. 1605 Vpon the 20. of the Reuelation the 12. vers. treating of these seuerall heads. 1. Of the resurrection of the flesh. 2. Of the iudgement of the quicke and dead. 3. Of the communion of saints, 4. Of euerlasting life. By Samuell Gardnier [sic], Doct. of Diuinitie.</title>
+      <author>Gardiner, Samuel, b. 1563 or 4.</author>
+    </titleStmt>
+    <extent>[68] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">E. Allde]</persName> for <persName type="publisher">Edward VVhite</persName>, and are to be solde at <placeName>the little North-doore of Saint Paules Church, at the signe of the Gun</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1605">1605.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-H&#8308; I&#178; .</note>
+      <note>Reproduction of the original in the Jesus College (University of Cambridge). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward VVhite</persName>
+    </person>
+    <person type="printer">
+      <persName>E. Allde]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the little North-doore of Saint Paules Church, at the signe of the Gun</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

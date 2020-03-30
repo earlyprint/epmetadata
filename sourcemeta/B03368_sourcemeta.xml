@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The fox too cunning for the lyon. Or, The foxes feast, wherein is exprest many a witty but most true jest, both old and young of it take a view, and by experience you'l say it's true. To the tune of, The Three cheators.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Tytus on London Bridge.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date notBefore="1659" notAfter="1663">[between 1659-1663]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "A den of foxes on a day ..."</note>
-         <note>Publication date suggested by Wing.</note>
-         <note>Reproduction of original in the Harvard University, Houghton Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The fox too cunning for the lyon. Or, The foxes feast, wherein is exprest many a witty but most true jest, both old and young of it take a view, and by experience you'l say it's true. To the tune of, The Three cheators.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Tytus</persName> on <placeName>London Bridge.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date notBefore="1659" notAfter="1663">[between 1659-1663]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "A den of foxes on a day ..."</note>
+      <note>Publication date suggested by Wing.</note>
+      <note>Reproduction of original in the Harvard University, Houghton Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Tytus</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>London Bridge.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

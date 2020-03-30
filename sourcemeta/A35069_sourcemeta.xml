@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Poems by Hugh Crompton, the son of Bacchus, and god-son of Apollo being a fardle of fancies, or a medley of musick, stewed in four ounces of the oyl of epigrams.</title>
-         <author>Crompton, Hugh, fl. 1657.</author>
-      </titleStmt>
-      <extent>[6], 120 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for E.C. for Tho. Alsop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1657">1657.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Poems by Hugh Crompton, the son of Bacchus, and god-son of Apollo being a fardle of fancies, or a medley of musick, stewed in four ounces of the oyl of epigrams.</title>
+      <author>Crompton, Hugh, fl. 1657.</author>
+    </titleStmt>
+    <extent>[6], 120 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">E.C.</persName> for <persName type="publisher">Tho. Alsop</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1657">1657.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>E.C.</persName>
+    </person>
+    <person type="publisher">
+      <persName>Tho. Alsop</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A godly sermon preached in Latin at great S. Maries in Cambridge, in Marche 1580. by Robert Some: and translated by himselfe into English</title>
-         <author>Some, Robert, 1542-1609.</author>
-      </titleStmt>
-      <extent>[32] p.   </extent>
-      <publicationStmt>
-         <publisher>Imprinted by Henrie Middleton, for George Bishop,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1580">1580.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-B.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A godly sermon preached in Latin at great S. Maries in Cambridge, in Marche 1580. by Robert Some: and translated by himselfe into English</title>
+      <author>Some, Robert, 1542-1609.</author>
+    </titleStmt>
+    <extent>[32] p.   </extent>
+    <publicationStmt>
+      <publisher>Imprinted by <persName type="printer">Henrie Middleton</persName>, for <persName type="publisher">George Bishop</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1580">1580.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-B.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>George Bishop</persName>
+    </person>
+    <person type="printer">
+      <persName>Henrie Middleton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

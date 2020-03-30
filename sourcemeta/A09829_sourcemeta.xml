@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The most noble and famous trauels of Marcus Paulus, one of the nobilitie of the state of Venice, into the east partes of the world, as Armenia, Persia, Arabia, Tartary, with many other kingdoms and prouinces. No lesse pleasant, than profitable, as appeareth by the table, or contents of this booke. Most necessary for all sortes of persons, and especially tor trauellers. Translated into English</title>
-         <title>Travels of Marco Polo. English</title>
-         <author>Polo, Marco, 1254-1323?</author>
-         <author>Frampton, John, fl. 1577-1596.</author>
-      </titleStmt>
-      <extent>[28], 167, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by [H. Bynneman for] Ralph Nevvbery,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1579">Anno. 1579.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Translated by John Frampton.</note>
-         <note>Printer's name from STC.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The most noble and famous trauels of Marcus Paulus, one of the nobilitie of the state of Venice, into the east partes of the world, as Armenia, Persia, Arabia, Tartary, with many other kingdoms and prouinces. No lesse pleasant, than profitable, as appeareth by the table, or contents of this booke. Most necessary for all sortes of persons, and especially tor trauellers. Translated into English</title>
+      <title>Travels of Marco Polo. English</title>
+      <author>Polo, Marco, 1254-1323?</author>
+      <author>Frampton, John, fl. 1577-1596.</author>
+    </titleStmt>
+    <extent>[28], 167, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">[H. Bynneman</persName> for<persName type="publisher">] Ralph Nevvbery</persName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1579">Anno. 1579.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Translated by John Frampton.</note>
+      <note>Printer's name from STC.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Ralph Nevvbery</persName>
+    </person>
+    <person type="printer">
+      <persName>[H. Bynneman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

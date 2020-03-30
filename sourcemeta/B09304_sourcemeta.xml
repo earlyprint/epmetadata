@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the Lord Lieutenant and Council Essex whereas in an act of Parliament, lately passed in this Kingdom, entituled, An act for the explaining of some doubts, a rising upon an entituled, an Act for the better execution of His Majesties gracious declaration for the settlement of his kingdome of Ireland ...</title>
-         <author>Ireland. Lord Lieutenant (1672-1677 : Essex)</author>
-         <author>Essex, Arthur Capel, Earl of, 1631-1683.</author>
-      </titleStmt>
-      <extent>52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Benjamin Tooke, Printer to the King's Most Excellent Majesty and are to be sold by Joseph Wilde ....,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1676">1676.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>"Given at the Council chamber in Dublin the fifteenth day of Bebruary, 1674" -- p.52.</note>
-         <note>Imperfect: pages stained and torn.</note>
-         <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the Lord Lieutenant and Council Essex whereas in an act of Parliament, lately passed in this Kingdom, entituled, An act for the explaining of some doubts, a rising upon an entituled, an Act for the better execution of His Majesties gracious declaration for the settlement of his kingdome of Ireland ...</title>
+      <author>Ireland. Lord Lieutenant (1672-1677 : Essex)</author>
+      <author>Essex, Arthur Capel, Earl of, 1631-1683.</author>
+    </titleStmt>
+    <extent>52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Benjamin Tooke</persName>, Printer to <persName type="patron">the King's Most Excellent Majesty</persName> and are to be sold by Joseph Wilde ....,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1676">1676.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>"Given at the Council chamber in Dublin the fifteenth day of Bebruary, 1674" -- p.52.</note>
+      <note>Imperfect: pages stained and torn.</note>
+      <note>Reproduction of original in: Trinity College (Dublin, Ireland). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Joseph Wilde.</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's Most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

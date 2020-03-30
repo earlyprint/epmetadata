@@ -1,24 +1,46 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A declaration. James R. Whereas Several of our subjects of this our kingdom, not being inlisted in our standing army, have pursuant to a late proclamation, published by us, armed themselves, with gunns, ...</title>
-         <author>England and Wales. Sovereign (1685-1688 : James II)</author>
-         <author>James II, King of England, 1633-1701.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.).   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Crook and Samuel Helsham, assigns of Benjamin Tooke printer to the King's most excellent Majesty; and are to be sold at his Majesties printing-house on Ormonde-Key, and the Colledge-Arms in Castle-street.,</publisher>
-         <pubPlace>Dublin, :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption title and opening lines of text.</note>
-         <note>"Given at our court at Droheda the 3d day of September. 1689."</note>
-         <note>Property taken from rebels by the recent levies to belong to them. Cf. Steele.</note>
-         <note>Arms 188.</note>
-         <note>Reproduction of original in the British Library.</note>
-         <note>Printed on verso: By the King. A declaration. James R. Whereas our affairs require the constant attendance of the officers of our army at their several posts ... (Wing J169).</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A declaration. James R. Whereas Several of our subjects of this our kingdom, not being inlisted in our standing army, have pursuant to a late proclamation, published by us, armed themselves, with gunns, ...</title>
+      <author>England and Wales. Sovereign (1685-1688 : James II)</author>
+      <author>James II, King of England, 1633-1701.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.).   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Crook</persName> and <persName type="printer">Samuel Helsham</persName>, assigns of <persName type="assigns">Benjamin Tooke</persName> printer to <persName type="patron">the King's most excellent Majesty;</persName> and are to be sold at <placeName>his Majesties printing-house on Ormonde-Key</placeName>, and the Colledge-Arms in <placeName>Castle-street.</placeName>,</publisher>
+      <pubPlace>Dublin, :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption title and opening lines of text.</note>
+      <note>"Given at our court at Droheda the 3d day of September. 1689."</note>
+      <note>Property taken from rebels by the recent levies to belong to them. Cf. Steele.</note>
+      <note>Arms 188.</note>
+      <note>Reproduction of original in the British Library.</note>
+      <note>Printed on verso: By the King. A declaration. James R. Whereas our affairs require the constant attendance of the officers of our army at their several posts ... (Wing J169).</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="printer">
+      <persName>Samuel Helsham</persName>
+    </person>
+    <person type="assigns">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majesty;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Castle-street.</placeName>
+    </place>
+    <place type="location">
+      <placeName>his Majesties printing-house on Ormonde-Key</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

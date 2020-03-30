@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The blame of kirk-buriall, tending to persvvade cemiteriall ciuilitie First preached, then penned, and now at last propyned to the Lords inheritance in the Presbyterie of Lanerk, by M. William Birnie the Lord his minister in that ilk, as a pledge of his zeale, and care of that reformation.</title>
-         <author>Birnie, William, 1563-1619.</author>
-      </titleStmt>
-      <extent>[48] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert Charteris printer to the Kings most excellent Maiestie,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1606">1606.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A-F&#8308;.</note>
-         <note>Reproduction of the original in the University of Edinburgh. Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The blame of kirk-buriall, tending to persvvade cemiteriall ciuilitie First preached, then penned, and now at last propyned to the Lords inheritance in the Presbyterie of Lanerk, by M. William Birnie the Lord his minister in that ilk, as a pledge of his zeale, and care of that reformation.</title>
+      <author>Birnie, William, 1563-1619.</author>
+    </titleStmt>
+    <extent>[48] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert Charteris</persName> printer to <persName type="patron">the Kings most excellent Maiestie</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1606">1606.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A-F&#8308;.</note>
+      <note>Reproduction of the original in the University of Edinburgh. Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Charteris</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

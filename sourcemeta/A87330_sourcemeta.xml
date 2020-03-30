@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Rules, orders, and directions appointed by his Majesties Commissioners for executing the Act of Settlement and the Act of Explanation of the same, to be observed by all persons concerned before them.</title>
-         <author>Ireland. Commissioners for executing the Act of Settlement and the Act of Explanation.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by John Crook, printer to the Kings most excellent Majestie,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Rules, orders, and directions appointed by his Majesties Commissioners for executing the Act of Settlement and the Act of Explanation of the same, to be observed by all persons concerned before them.</title>
+      <author>Ireland. Commissioners for executing the Act of Settlement and the Act of Explanation.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Crook</persName>, printer to <persName type="patron">the Kings most excellent Majestie</persName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

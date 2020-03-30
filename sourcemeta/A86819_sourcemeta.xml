@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The humble petition of the Lord Major, aldermen, and commons of the City of London, in Common-Councell assembled, presented to the Right Honourable the Lords and Commons in Parliament assembled: with the answer of the Lords to the said petition.</title>
-         <author>City of London (England). Court of Common Council.</author>
-         <author>England and Wales. Parliament. House of Lords.</author>
-      </titleStmt>
-      <extent>[2], 6 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Cotes, printer to the Honorable City of London,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1648">August 8. 1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Requesting the release of Charles I and the ending of hostilities.</note>
-         <note>The same petition as Wing H3545.</note>
-         <note>The reply is dated 8 Aug. 1648.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The humble petition of the Lord Major, aldermen, and commons of the City of London, in Common-Councell assembled, presented to the Right Honourable the Lords and Commons in Parliament assembled: with the answer of the Lords to the said petition.</title>
+      <author>City of London (England). Court of Common Council.</author>
+      <author>England and Wales. Parliament. House of Lords.</author>
+    </titleStmt>
+    <extent>[2], 6 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Cotes</persName>, printer to <persName type="patron">the Honorable City of London</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1648">August 8. 1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Requesting the release of Charles I and the ending of hostilities.</note>
+      <note>The same petition as Wing H3545.</note>
+      <note>The reply is dated 8 Aug. 1648.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Cotes</persName>
+    </person>
+    <person type="patron">
+      <persName>the Honorable City of London</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

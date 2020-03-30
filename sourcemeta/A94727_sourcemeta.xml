@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Tom Tel-Troths come to town againe with his humors. Vnder which humour is contained these particulars: viz. A rope for a parat. A bable for a foole. A springe for a woodcocke. And a snare for a fox. Collected and published to make honest and wise men merry, or fooles and knaves mad.</title>
-         <author>Taylor, John, 1580-1653, attributed name.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>for Th: Lambert neere the Red Crosse in Little Britaine,</publisher>
-         <pubPlace>Printed at London :</pubPlace>
-         <date when="1643">1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Taylor, the water poet, by Stonehill.</note>
-         <note>Annotation on Thomason copy: "Aprill. 12".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Tom Tel-Troths come to town againe with his humors. Vnder which humour is contained these particulars: viz. A rope for a parat. A bable for a foole. A springe for a woodcocke. And a snare for a fox. Collected and published to make honest and wise men merry, or fooles and knaves mad.</title>
+      <author>Taylor, John, 1580-1653, attributed name.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>for <persName type="publisher">Th: Lambert</persName> neere <placeName>the Red Crosse in Little Britaine</placeName>,</publisher>
+      <pubPlace>Printed at London :</pubPlace>
+      <date when="1643">1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Taylor, the water poet, by Stonehill.</note>
+      <note>Annotation on Thomason copy: "Aprill. 12".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Th: Lambert</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Red Crosse in Little Britaine</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,24 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An act enabling the Lords Commissioners for custody of the Great-Seal, to issue commissions of delegates in cases of pretended marriages.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>p. 1283-1286.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edward Husband and Iohn Field, Printers to the Parliament of England,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1651">1650 [i.e. 1651]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>With an order to print dated 14 Jan. 1650.</note>
-         <note>Signatures: 10B-10B2. Also issued as part of a through-paged set with a table for the entire set added.</note>
-         <note>Last word of first line of text: "Parliament"; first word of line below initial: "and"; last word of last full line on page: "and".</note>
-         <note>Annotation on Thomason copy: "14 January 1650".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An act enabling the Lords Commissioners for custody of the Great-Seal, to issue commissions of delegates in cases of pretended marriages.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>p. 1283-1286.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edward Husband</persName> and <persName type="printer">Iohn Field</persName>, Printers to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1651">1650 [i.e. 1651]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>With an order to print dated 14 Jan. 1650.</note>
+      <note>Signatures: 10B-10B2. Also issued as part of a through-paged set with a table for the entire set added.</note>
+      <note>Last word of first line of text: "Parliament"; first word of line below initial: "and"; last word of last full line on page: "and".</note>
+      <note>Annotation on Thomason copy: "14 January 1650".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Field</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

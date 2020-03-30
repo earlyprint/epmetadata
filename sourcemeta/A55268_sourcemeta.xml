@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A poem to the Right Honourable Sir John Moor, Knight, on his well administration in the office of Lord-Mayor of London</title>
-      </titleStmt>
-      <extent>1 sheet ([2] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for T.P.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of original in University of Pennsylvania Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A poem to the Right Honourable Sir John Moor, Knight, on his well administration in the office of Lord-Mayor of London</title>
+    </titleStmt>
+    <extent>1 sheet ([2] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">T.P.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of original in University of Pennsylvania Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>T.P.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

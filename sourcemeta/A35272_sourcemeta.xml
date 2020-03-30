@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>City politiques a comedy : as it is acted by His Majesties servants / written by Mr. Crown.</title>
-         <author>Crown, Mr. (John), 1640?-1712.</author>
-      </titleStmt>
-      <extent>[8], 79, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for R. Bently ... and Joseph Hindmarsh ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>City politiques a comedy : as it is acted by His Majesties servants / written by Mr. Crown.</title>
+      <author>Crown, Mr. (John), 1640?-1712.</author>
+    </titleStmt>
+    <extent>[8], 79, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">R. Bently</persName> ... and <persName type="publisher">Joseph Hindmarsh</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Hindmarsh</persName>
+    </person>
+    <person type="publisher">
+      <persName>R. Bently</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

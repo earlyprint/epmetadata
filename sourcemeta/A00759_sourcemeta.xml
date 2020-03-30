@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A defence of the liturgie of the Church of England, or, Booke of common prayer In a dialogue betweene Nouatus and Iren&#230;us. By Ambrose Fisher, sometimes of Trinitie Colledge in Cambridge.</title>
-         <author>Fisher, Ambrose, d. 1617.</author>
-         <author>Grant, John, fl. 1630.</author>
-      </titleStmt>
-      <extent>[24], 309, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by W[illiam] S[tansby] for Robert Milbourne in Pauls Church-yard at the signe of the Greyhound,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1630">1630.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's dedication signed: Iohn Grant.</note>
-         <note>Title page in red and black.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf and the last leaf are blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A defence of the liturgie of the Church of England, or, Booke of common prayer In a dialogue betweene Nouatus and Iren&#230;us. By Ambrose Fisher, sometimes of Trinitie Colledge in Cambridge.</title>
+      <author>Fisher, Ambrose, d. 1617.</author>
+      <author>Grant, John, fl. 1630.</author>
+    </titleStmt>
+    <extent>[24], 309, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">W[illiam] S[tansby]</persName> for <persName type="publisher">Robert Milbourne</persName> in <placeName>Pauls Church-yard at the signe of the Greyhound</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1630">1630.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's dedication signed: Iohn Grant.</note>
+      <note>Title page in red and black.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf and the last leaf are blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Milbourne</persName>
+    </person>
+    <person type="printer">
+      <persName>W[illiam] S[tansby]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Pauls Church-yard at the signe of the Greyhound</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

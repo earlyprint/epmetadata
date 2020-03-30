@@ -1,17 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A new song in praise of the Loyal Company of Stationers, who (after the general forfeit,) for their singular loyalty, obtain'd the first Charter of London, Anno 1684. : To the tune of, Winchester wedding.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : music.  </extent>
-      <publicationStmt>
-         <publisher>Printed by N.T. at the entrance into the Old-Spring-Garden,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in: Bodleian Library, Oxford, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A new song in praise of the Loyal Company of Stationers, who (after the general forfeit,) for their singular loyalty, obtain'd the first Charter of London, Anno 1684. : To the tune of, Winchester wedding.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : music.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">N.T.</persName> at <placeName>the entrance into the Old-Spring-Garden</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in: Bodleian Library, Oxford, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>N.T.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the entrance into the Old-Spring-Garden</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

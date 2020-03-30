@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The life of faith Wherein is shewed the general use of faith in all the passages of a Christians life. Together with a discourse of right judgment on Joh.7.24. By H. Lukin.</title>
-         <author>Lukin, H. (Henry), 1628-1719.</author>
-      </titleStmt>
-      <extent>[22], 170, 1-81, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by J.H. for John Allen, at the Rising-Sun in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Text continuous despite pagination.</note>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The life of faith Wherein is shewed the general use of faith in all the passages of a Christians life. Together with a discourse of right judgment on Joh.7.24. By H. Lukin.</title>
+      <author>Lukin, H. (Henry), 1628-1719.</author>
+    </titleStmt>
+    <extent>[22], 170, 1-81, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">J.H.</persName> for <persName type="publisher">John Allen</persName>, at <placeName>the Rising-Sun in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Text continuous despite pagination.</note>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Allen</persName>
+    </person>
+    <person type="printer">
+      <persName>J.H.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Rising-Sun in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

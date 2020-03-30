@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Lectures upon the vvhole Epistle of St. Paul to the Philippians, deliuered in St. Peters Church in Oxford: by the reuerend and faithfull seruant of Christ Henry Airay ... and now published for the vse of Gods Church by C.P. ...</title>
-         <author>Airay, Henry, 1560?-1616.</author>
-      </titleStmt>
-      <extent>[20], 376, 376-598, 592-864, 711-950 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Edw: Griffin [and Richard Field] for William Bladen, and are to be sold at his shoppe in Pauls Church-yard at the signe of the Bible neere the great north doore,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1618">1618.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Editor's dedication signed: Christopher Potter.</note>
-         <note>Richard Field's name supplied from STC.</note>
-         <note>Text contintuous despite pagination.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Lectures upon the vvhole Epistle of St. Paul to the Philippians, deliuered in St. Peters Church in Oxford: by the reuerend and faithfull seruant of Christ Henry Airay ... and now published for the vse of Gods Church by C.P. ...</title>
+      <author>Airay, Henry, 1560?-1616.</author>
+    </titleStmt>
+    <extent>[20], 376, 376-598, 592-864, 711-950 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Edw: Griffin</persName> [and <persName type="printer">Richard Field]</persName> for <persName type="publisher">William Bladen</persName>, and are to be sold at <placeName>his shoppe in Pauls Church-yard at the signe of the Bible neere the great north doore</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1618">1618.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Editor's dedication signed: Christopher Potter.</note>
+      <note>Richard Field's name supplied from STC.</note>
+      <note>Text contintuous despite pagination.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>William Bladen</persName>
+    </person>
+    <person type="printer">
+      <persName>Edw: Griffin</persName>
+    </person>
+    <person type="printer">
+      <persName>Richard Field]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shoppe in Pauls Church-yard at the signe of the Bible neere the great north doore</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

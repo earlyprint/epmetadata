@@ -1,20 +1,33 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The several statutes in force for the observation of Lent: and fish-dayes, at all other times of the year With full and ready notes in the margent, shewing the effect in brief. / Published by a well-wisher to peace, for the information of all persons subject to the violation of the said laws.</title>
-         <author>England and Wales. Parliament.</author>
-      </titleStmt>
-      <extent>[2], 13 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Robert White, and are to be sold by him at his house in Warwick-Lane in Warwick-Court,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With marginal notes.</note>
-         <note>Imperfect: stained with some loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The several statutes in force for the observation of Lent: and fish-dayes, at all other times of the year With full and ready notes in the margent, shewing the effect in brief. / Published by a well-wisher to peace, for the information of all persons subject to the violation of the said laws.</title>
+      <author>England and Wales. Parliament.</author>
+    </titleStmt>
+    <extent>[2], 13 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Robert White</persName>, and are to be sold by <persName type="bookseller">him</persName> at <placeName>his house in Warwick-Lane in Warwick-Court</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With marginal notes.</note>
+      <note>Imperfect: stained with some loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert White</persName>
+    </person>
+    <person type="bookseller">
+      <persName>him</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his house in Warwick-Lane in Warwick-Court</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

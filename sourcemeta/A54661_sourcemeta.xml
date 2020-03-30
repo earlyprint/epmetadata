@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true account of the captivity of Thomas Phelps at Machaness in Barbary and of his strange escape in company of Edmund Baxter and others, as also of the burning two of the greatest pirat-ships belonging to that kingdom in the River of Mamora upon the thirteenth day of June 1685 / by Thomas Phelps.</title>
-         <author>Phelps, Thomas.</author>
-      </titleStmt>
-      <extent>[3], 27 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by H. Hills jun. for Joseph Hindmarsh,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true account of the captivity of Thomas Phelps at Machaness in Barbary and of his strange escape in company of Edmund Baxter and others, as also of the burning two of the greatest pirat-ships belonging to that kingdom in the River of Mamora upon the thirteenth day of June 1685 / by Thomas Phelps.</title>
+      <author>Phelps, Thomas.</author>
+    </titleStmt>
+    <extent>[3], 27 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">H. Hills jun.</persName> for <persName type="publisher">Joseph Hindmarsh</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Joseph Hindmarsh</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Hills jun.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

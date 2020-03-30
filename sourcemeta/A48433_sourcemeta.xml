@@ -1,18 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An handfull of gleanings out of the Book of Exodus probable solution of some of the mainest scruples, and explanation of the hardest places of that Booke ... / by John Lightfoot ...</title>
-         <author>Lightfoot, John, 1602-1675.</author>
-      </titleStmt>
-      <extent>[4], 58 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Cotes for Andrew Crooke, and are to be sold at his shop ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1643">1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An handfull of gleanings out of the Book of Exodus probable solution of some of the mainest scruples, and explanation of the hardest places of that Booke ... / by John Lightfoot ...</title>
+      <author>Lightfoot, John, 1602-1675.</author>
+    </titleStmt>
+    <extent>[4], 58 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Cotes</persName> for <persName type="publisher">Andrew Crooke</persName>, and are to be sold at <placeName>his shop</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1643">1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Andrew Crooke</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Cotes</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

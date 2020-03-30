@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A pindarick congratulatory poem to the Right Honourable George, Lord Jeffreys, Baron of Wem and Lord High Chancellor of England, to the High and Mighty Monarch King James the II &amp;c. by Joshua Barnes ...</title>
-         <author>Barnes, Joshua, 1654-1712.</author>
-      </titleStmt>
-      <extent>7 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by Walter Davis ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A pindarick congratulatory poem to the Right Honourable George, Lord Jeffreys, Baron of Wem and Lord High Chancellor of England, to the High and Mighty Monarch King James the II &amp;c. by Joshua Barnes ...</title>
+      <author>Barnes, Joshua, 1654-1712.</author>
+    </titleStmt>
+    <extent>7 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">Walter Davis</persName></persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Walter Davis</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Walter Davis</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

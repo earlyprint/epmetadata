@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Diuils charter a trag&#230;die conteining the life and death of Pope Alexander the sixt. As it was plaide before the Kings Maiestie, vpon Candlemasse night last: by his Maiesties Seruants. But more exactly reuewed, corrected, and augmented since by the author, for the more pleasure and profit of the reader.</title>
-         <author>Barnes, Barnabe, 1569?-1609.</author>
-      </titleStmt>
-      <extent>[96] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by G[eorge] E[ld] for Iohn Wright, and are to be sold at his shop in New-gate market, neere Christ church gate,</publisher>
-         <pubPlace>At London :</pubPlace>
-         <date when="1607">1607.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Mostly in verse.</note>
-         <note>Printer's name from STC.</note>
-         <note>Signatures: A-M&#8308;.</note>
-         <note>The last leaf is blank.</note>
-         <note>With dedication on verso of title page.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-         <note>E2 cropped.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Diuils charter a trag&#230;die conteining the life and death of Pope Alexander the sixt. As it was plaide before the Kings Maiestie, vpon Candlemasse night last: by his Maiesties Seruants. But more exactly reuewed, corrected, and augmented since by the author, for the more pleasure and profit of the reader.</title>
+      <author>Barnes, Barnabe, 1569?-1609.</author>
+    </titleStmt>
+    <extent>[96] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">G[eorge] E[ld]</persName> for <persName type="publisher">Iohn Wright</persName>, and are to be sold at <placeName>his shop in New-gate market, neere Christ church gate</placeName>,</publisher>
+      <pubPlace>At London :</pubPlace>
+      <date when="1607">1607.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Mostly in verse.</note>
+      <note>Printer's name from STC.</note>
+      <note>Signatures: A-M&#8308;.</note>
+      <note>The last leaf is blank.</note>
+      <note>With dedication on verso of title page.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+      <note>E2 cropped.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>G[eorge] E[ld]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in New-gate market, neere Christ church gate</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

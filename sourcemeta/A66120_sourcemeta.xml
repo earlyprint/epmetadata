@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Commission for Greenwich hospital</title>
-      </titleStmt>
-      <extent>18 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Charles Bill, and the executrix of Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Huntington Library.</note>
-         <note>Imprint from colophon.</note>
-         <note>Half-title.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Commission for Greenwich hospital</title>
+    </titleStmt>
+    <extent>18 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Charles Bill, and the executrix of Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Huntington Library.</note>
+      <note>Imprint from colophon.</note>
+      <note>Half-title.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Charles Bill, and the executrix of Thomas Newcomb</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

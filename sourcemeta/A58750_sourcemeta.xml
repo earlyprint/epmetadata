@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A yoke for the Roman-bulls Being a poem written on the royal proclamation for exiling popish-priests and Jesuits, &amp;c. To which is added, A telescope for the new astrologers: or, A looking-glass for the staring star-gazers. Wherein is a reply to the libellious and seditious censurers of the late fire in the City of London.  By T. S. Licensed according to authority, the 7th. of Decemb. 1666.</title>
-         <author>T. S.</author>
-      </titleStmt>
-      <extent>[2], 10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for S. Speed, at the sign of the Rain-Bow in Fleet-street,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1666">1666.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Place of publication from Wing.</note>
-         <note>In verse.</note>
-         <note>"A looking-glass for staring star-gazers" has caption title on p. 5.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A yoke for the Roman-bulls Being a poem written on the royal proclamation for exiling popish-priests and Jesuits, &amp;c. To which is added, A telescope for the new astrologers: or, A looking-glass for the staring star-gazers. Wherein is a reply to the libellious and seditious censurers of the late fire in the City of London.  By T. S. Licensed according to authority, the 7th. of Decemb. 1666.</title>
+      <author>T. S.</author>
+    </titleStmt>
+    <extent>[2], 10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">S. Speed</persName>, at <placeName>the sign of the Rain-Bow in Fleet-street</placeName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1666">1666.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Place of publication from Wing.</note>
+      <note>In verse.</note>
+      <note>"A looking-glass for staring star-gazers" has caption title on p. 5.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>S. Speed</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the sign of the Rain-Bow in Fleet-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

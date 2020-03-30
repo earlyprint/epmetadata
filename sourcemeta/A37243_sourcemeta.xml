@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Poem upon His Highness the Prince of Orange's expedition into England by J.D.</title>
-         <author>J. D.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for G.C. :</publisher>
-         <publisher>And published by R. Baldwin ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in Bodleian Library.</note>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Poem upon His Highness the Prince of Orange's expedition into England by J.D.</title>
+      <author>J. D.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">G.C.</persName> :</publisher>
+      <publisher>And published by R. Baldwin ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in Bodleian Library.</note>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>G.C.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

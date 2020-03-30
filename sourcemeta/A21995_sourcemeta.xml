@@ -1,23 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King wee haue (before this time) made knowen to our subiects vpon diuers occasions, that we haue receiued so great contentment in their generall conformitie ...</title>
-         <author>England and Wales. Sovereign (1603-1625 : James I)</author>
-         <author>James I, King of England, 1566-1625.</author>
-      </titleStmt>
-      <extent>3 leaves.   </extent>
-      <publicationStmt>
-         <publisher>By Robert Barker, Printer to the Kings most Excellent Maiestie,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1600">Anno 1600.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Other title information from first 3 lines of text.</note>
-         <note>Imprint from colophon.</note>
-         <note>Imperfect: cropped.</note>
-         <note>"Giuen at our Honour of Hapmton Court, the eleuenth day of January, in the first yeere of our reigne of England, France and Ireland, and of Scotland the seuen and thirtieth."</note>
-         <note>Reproduction of original in: Society of Antiquaries.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King wee haue (before this time) made knowen to our subiects vpon diuers occasions, that we haue receiued so great contentment in their generall conformitie ...</title>
+      <author>England and Wales. Sovereign (1603-1625 : James I)</author>
+      <author>James I, King of England, 1566-1625.</author>
+    </titleStmt>
+    <extent>3 leaves.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Robert Barker</persName>, Printer to <persName type="patron">the Kings most Excellent Maiestie</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1600">Anno 1600.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Other title information from first 3 lines of text.</note>
+      <note>Imprint from colophon.</note>
+      <note>Imperfect: cropped.</note>
+      <note>"Giuen at our Honour of Hapmton Court, the eleuenth day of January, in the first yeere of our reigne of England, France and Ireland, and of Scotland the seuen and thirtieth."</note>
+      <note>Reproduction of original in: Society of Antiquaries.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Maiestie</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

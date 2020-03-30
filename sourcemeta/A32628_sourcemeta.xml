@@ -1,21 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King. A proclamation requiring all officers or souldiers that served in the armies of any the late usurped powers, and have been disbanded, cashiered, or turned out, to depart the cities of London and Westminster, before the twentieth day of this instant November.</title>
-         <title>Proclamations. 1664-11-03.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685. aut</author>
-      </titleStmt>
-      <extent>2 sheets   </extent>
-      <publicationStmt>
-         <publisher>printed by John Bill and Christopher Barker, printers to the Kings most excellent Majesty,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1664">1664.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>At bottom of text: Given at the court at Whitehall the third day of November, 1664.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King. A proclamation requiring all officers or souldiers that served in the armies of any the late usurped powers, and have been disbanded, cashiered, or turned out, to depart the cities of London and Westminster, before the twentieth day of this instant November.</title>
+      <title>Proclamations. 1664-11-03.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685. aut</author>
+    </titleStmt>
+    <extent>2 sheets   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">John Bill</persName> and <persName type="printer">Christopher Barker</persName>, printers to <persName type="patron">the Kings most excellent Majesty</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1664">1664.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>At bottom of text: Given at the court at Whitehall the third day of November, 1664.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Christopher Barker</persName>
+    </person>
+    <person type="printer">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

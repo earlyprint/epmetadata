@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Myskotomia, or, The anatomical administration of all the muscles of an humane body, as they arise in dissection as also an analitical table, reducing each muscle to his use and part / collected for private use, by William Molins ... ; and published for the general good of all practitioners in the said art.</title>
-         <author>Molins, William.</author>
-      </titleStmt>
-      <extent>[14], 111 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Field for Edward Husband ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>First word of title in Greek lettering.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the Hunterian Museum.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Myskotomia, or, The anatomical administration of all the muscles of an humane body, as they arise in dissection as also an analitical table, reducing each muscle to his use and part / collected for private use, by William Molins ... ; and published for the general good of all practitioners in the said art.</title>
+      <author>Molins, William.</author>
+    </titleStmt>
+    <extent>[14], 111 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Field</persName> for <persName type="publisher">Edward Husband</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>First word of title in Greek lettering.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the Hunterian Museum.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="printer">
+      <persName>John Field</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

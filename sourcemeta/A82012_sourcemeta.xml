@@ -1,21 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Certaine godly rules coneerning [sic] Christian practice fit to be observed daily in the lives of all those that would be saved. Gathered out of the holy scriptures, for the good of all those which have a purpose within themselves to lead a godly life.</title>
-         <author>Day, John, Rector of St. Mary's, Oxford.</author>
-      </titleStmt>
-      <extent>[16] p., : ill. (woodcut)  </extent>
-      <publicationStmt>
-         <publisher>printed by T.W. for Thomas Knight,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signatures: A.</note>
-         <note>Signed at end: I.D.</note>
-         <note>With marginal notes.</note>
-         <note>Reproduction of original in the Lambeth Palace Library, London, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Certaine godly rules coneerning [sic] Christian practice fit to be observed daily in the lives of all those that would be saved. Gathered out of the holy scriptures, for the good of all those which have a purpose within themselves to lead a godly life.</title>
+      <author>Day, John, Rector of St. Mary's, Oxford.</author>
+    </titleStmt>
+    <extent>[16] p., : ill. (woodcut)  </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">T.W.</persName> for <persName type="publisher">Thomas Knight</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signatures: A.</note>
+      <note>Signed at end: I.D.</note>
+      <note>With marginal notes.</note>
+      <note>Reproduction of original in the Lambeth Palace Library, London, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Knight</persName>
+    </person>
+    <person type="printer">
+      <persName>T.W.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

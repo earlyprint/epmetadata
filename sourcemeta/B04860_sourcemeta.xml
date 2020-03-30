@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Proposals for a pole-bill</title>
-         <author>Scotland. Parliament.</author>
-      </titleStmt>
-      <extent>1 sheet (2 p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heirs and successors of Andrew Anderson, Printer to His most excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1695">Anno Dom. 1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Above imprint on p. 2: By order of Parliament.</note>
-         <note>Imperfect: creased with slight loss of text.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Proposals for a pole-bill</title>
+      <author>Scotland. Parliament.</author>
+    </titleStmt>
+    <extent>1 sheet (2 p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heirs and successors of Andrew Anderson</persName>, Printer to <persName type="patron">His most excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1695">Anno Dom. 1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Above imprint on p. 2: By order of Parliament.</note>
+      <note>Imperfect: creased with slight loss of text.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>the heirs and successors of Andrew Anderson</persName>
+    </person>
+    <person type="patron">
+      <persName>His most excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

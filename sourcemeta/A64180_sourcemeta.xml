@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Mad fashions, od fashions, all out fashions, or, The emblems of these distracted times by John Taylor.</title>
-         <author>Taylor, John, 1580-1653.</author>
-      </titleStmt>
-      <extent>[8] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Iohn Hammond for Thomas Banks,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>In verse.</note>
-         <note>Illustrated t.p.</note>
-         <note>Reproduction of original in Thomason Collection, British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Mad fashions, od fashions, all out fashions, or, The emblems of these distracted times by John Taylor.</title>
+      <author>Taylor, John, 1580-1653.</author>
+    </titleStmt>
+    <extent>[8] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Iohn Hammond</persName> for <persName type="publisher">Thomas Banks</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>In verse.</note>
+      <note>Illustrated t.p.</note>
+      <note>Reproduction of original in Thomason Collection, British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Thomas Banks</persName>
+    </person>
+    <person type="printer">
+      <persName>Iohn Hammond</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A description of the painting of the theater in Oxford</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by Leon. Lichfield, Printer to the University,</publisher>
-         <pubPlace>Oxford :</pubPlace>
-         <date when="1674">Anno Domini 1674.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Imperfect: torn with slight loss of text.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A description of the painting of the theater in Oxford</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Leon. Lichfield</persName>, Printer to <persName type="patron">the University</persName>,</publisher>
+      <pubPlace>Oxford :</pubPlace>
+      <date when="1674">Anno Domini 1674.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Imperfect: torn with slight loss of text.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Leon. Lichfield</persName>
+    </person>
+    <person type="patron">
+      <persName>the University</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

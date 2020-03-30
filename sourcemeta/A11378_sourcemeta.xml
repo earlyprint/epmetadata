@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Holy discoveries and flames. By John Saltmarshe, Mr. of Arts of Magdalen Colledge in Cambridge, and rector of West-Ileslerton in York-shire</title>
-         <author>Saltmarsh, John, d. 1647.</author>
-         <author>W. F., fl. 1640, engraver.</author>
-      </titleStmt>
-      <extent>[14], 225, [1] p. : ill. (metal cuts)  </extent>
-      <publicationStmt>
-         <publisher>Printed by R[obert] Y[oung] for P. Nevill in Ivie-lane,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1640">1640.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>With an additional title page, engraved, signed: WF: sculp:.</note>
-         <note>Cf. Folger catalogue, which gives signatures: A-K&#185;&#178; .</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Holy discoveries and flames. By John Saltmarshe, Mr. of Arts of Magdalen Colledge in Cambridge, and rector of West-Ileslerton in York-shire</title>
+      <author>Saltmarsh, John, d. 1647.</author>
+      <author>W. F., fl. 1640, engraver.</author>
+    </titleStmt>
+    <extent>[14], 225, [1] p. : ill. (metal cuts)  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R[obert] Y[oung]</persName> for <persName type="publisher">P. Nevill</persName> in <placeName>Ivie-lane</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1640">1640.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>With an additional title page, engraved, signed: WF: sculp:.</note>
+      <note>Cf. Folger catalogue, which gives signatures: A-K&#185;&#178; .</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>P. Nevill</persName>
+    </person>
+    <person type="printer">
+      <persName>R[obert] Y[oung]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ivie-lane</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,14 +1,19 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Declaration of several of the people called Anabaptists in and about the city of London</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Livewel Chapman ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Declaration of several of the people called Anabaptists in and about the city of London</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Livewel Chapman</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Livewel Chapman</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

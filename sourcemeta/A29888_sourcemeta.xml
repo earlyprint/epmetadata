@@ -1,18 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Prison thoughts written by Tho. Browning, citiyen [sic] and cook of London, who hath been a prisoner in Ludgate ever since the twelveth day of August, 1680.</title>
-         <author>Browning, Tho. (Thomas)</author>
-      </titleStmt>
-      <extent>52 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by the author in Ludgate (who is still a prisoner there),</publisher>
-         <pubPlace>London  :</pubPlace>
-         <date when="1682">1682.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Prison thoughts written by Tho. Browning, citiyen [sic] and cook of London, who hath been a prisoner in Ludgate ever since the twelveth day of August, 1680.</title>
+      <author>Browning, Tho. (Thomas)</author>
+    </titleStmt>
+    <extent>52 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="bookseller">the author</persName> in <placeName>Ludgate (who is still a prisoner there</placeName>),</publisher>
+      <pubPlace>London  :</pubPlace>
+      <date when="1682">1682.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="bookseller">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Ludgate (who is still a prisoner there</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

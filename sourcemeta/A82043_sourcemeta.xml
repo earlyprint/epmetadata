@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration and motive of the persons trusted, usually meeting at Salters Hall in Breadstreet to all well affected persons in the severall parishes within London, and the parts adjacent, for contributing the value of a meale weekly, towards the forming of some regiments of voluntiers, to be payd during these times of danger.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by R. Oulton and G. Dexter for John Wright in the Old-Baily,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1653">May 6. 1653.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Persons trusted" = a sub-committee appointed by the Committee of the Militia.</note>
-         <note>Signed and dated at end: From the sub-committee for voluntiers, usually sitting at Salters-hall in Breadstreet, this 4th. of May, 1643.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration and motive of the persons trusted, usually meeting at Salters Hall in Breadstreet to all well affected persons in the severall parishes within London, and the parts adjacent, for contributing the value of a meale weekly, towards the forming of some regiments of voluntiers, to be payd during these times of danger.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">R. Oulton</persName> and <persName type="printer">G. Dexter</persName> for <persName type="publisher">John Wright</persName> in <placeName>the Old-Baily</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1653">May 6. 1653.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Persons trusted" = a sub-committee appointed by the Committee of the Militia.</note>
+      <note>Signed and dated at end: From the sub-committee for voluntiers, usually sitting at Salters-hall in Breadstreet, this 4th. of May, 1643.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Wright</persName>
+    </person>
+    <person type="printer">
+      <persName>G. Dexter</persName>
+    </person>
+    <person type="printer">
+      <persName>R. Oulton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-Baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

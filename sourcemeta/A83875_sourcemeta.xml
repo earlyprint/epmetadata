@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Jovis 9&#8304; Septembr. 1641. Whereas it doth appear to this House by certain informations received from divers parts of this kingdom, that the pole-money doth generally come to a far lesse sum, then by the true intent of the act it both might and ought to do ...</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>by Robert Barker, printer to the Kings Most Excellent Majestie: and by the assignes of John Bill,</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Title from caption and opening words of text.</note>
-         <note>With royal seal of Charles I at head of document.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Jovis 9&#8304; Septembr. 1641. Whereas it doth appear to this House by certain informations received from divers parts of this kingdom, that the pole-money doth generally come to a far lesse sum, then by the true intent of the act it both might and ought to do ...</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>by <persName type="printer">Robert Barker</persName>, printer to <persName type="patron">the Kings Most Excellent Majestie: and</persName> by the assignes of <persName type="assigns">John Bill</persName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Title from caption and opening words of text.</note>
+      <note>With royal seal of Charles I at head of document.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Robert Barker</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings Most Excellent Majestie: and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

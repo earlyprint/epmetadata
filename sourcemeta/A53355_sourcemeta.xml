@@ -1,18 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>On the death of the Queen a poem.</title>
-      </titleStmt>
-      <extent>10 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and are to be sold by John Whitlock,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1695">1695.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Not to be confused with On the death of the Queen / by a person of honour [Lord Cutts]; The present work begins "When kingdoms feel such mighty strokes of fate."</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>On the death of the Queen a poem.</title>
+    </titleStmt>
+    <extent>10 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and are to be sold by <persName type="printer"><persName type="bookseller">John Whitlock</persName></persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1695">1695.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Not to be confused with On the death of the Queen / by a person of honour [Lord Cutts]; The present work begins "When kingdoms feel such mighty strokes of fate."</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Whitlock</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Whitlock</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

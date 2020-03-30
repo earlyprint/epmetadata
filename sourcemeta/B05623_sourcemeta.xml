@@ -1,22 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A proclamation, for adjourning the Parliament, to the twenty seventh of March. At Edinburgh, the fifteenth day of March, one thousand six hundred ninety years.</title>
-         <author>Scotland. Privy Council.</author>
-         <author>Eliot, Gilbert, Sir, 1651-1718.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed by the heir of Andrew Anderson, by order of the Privy Council,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1690">1690.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Initial letter.</note>
-         <note>Signed: Gilb. Eliot, Cls. Sti. Concilii.</note>
-         <note>Reproduction of the original in the National Library of Scotland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A proclamation, for adjourning the Parliament, to the twenty seventh of March. At Edinburgh, the fifteenth day of March, one thousand six hundred ninety years.</title>
+      <author>Scotland. Privy Council.</author>
+      <author>Eliot, Gilbert, Sir, 1651-1718.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">the heir of Andrew Anderson</persName>, by <persName type="printer">order of the Privy Council</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1690">1690.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Initial letter.</note>
+      <note>Signed: Gilb. Eliot, Cls. Sti. Concilii.</note>
+      <note>Reproduction of the original in the National Library of Scotland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>order of the Privy Council</persName>
+    </person>
+    <person type="printer">
+      <persName>the heir of Andrew Anderson</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

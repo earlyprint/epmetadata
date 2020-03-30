@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A Most sweet song of an English merchant-man born in Chichester to an excellent new tune.</title>
-         <author>Deloney, Thomas, 1543?-1600.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by and for W.O. and sold by the booksellers of Pye-corner and London-Bridge,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1685" cert="low">[1685?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes attributed to Thomas Deloney.</note>
-         <note>Date of publication suggested by Wing.</note>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A Most sweet song of an English merchant-man born in Chichester to an excellent new tune.</title>
+      <author>Deloney, Thomas, 1543?-1600.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by and for <persName type="publisher">W.O.</persName> and sold by <persName type="bookseller">the booksellers of Pye-corner</persName> and <persName type="bookseller">London-Bridge</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1685" cert="low">[1685?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes attributed to Thomas Deloney.</note>
+      <note>Date of publication suggested by Wing.</note>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>W.O.</persName>
+    </person>
+    <person type="bookseller">
+      <persName>London-Bridge</persName>
+    </person>
+    <person type="bookseller">
+      <persName>the booksellers of Pye-corner</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

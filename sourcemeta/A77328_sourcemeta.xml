@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A full discovery of a foul concealment or A true narrative of the proceedings and transactions of the committee for the accompts for the Common-wealth of England, with William Bagwell and John Brockedon accomptants, discoverers and plaintiffes against the committee of Hartford, the treasurer and paymaster there in the year 1643. Licenced by authority.</title>
-         <author>W. B. (William Bagwell), b. 1593?</author>
-         <author>Brockedon, John.</author>
-      </titleStmt>
-      <extent>[4], 15, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by James Flesher, for Nicholas Bourne, and are to be sold at the South Entrance of the Royal-Exchange,</publisher>
-         <pubPlace>Lodnon [sic] :</pubPlace>
-         <date when="1652">1652.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: Will. Bagwell, John Brockedon.</note>
-         <note>Imperfect: print show-through.</note>
-         <note>Annotation on Thomason copy: "August. 24."</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A full discovery of a foul concealment or A true narrative of the proceedings and transactions of the committee for the accompts for the Common-wealth of England, with William Bagwell and John Brockedon accomptants, discoverers and plaintiffes against the committee of Hartford, the treasurer and paymaster there in the year 1643. Licenced by authority.</title>
+      <author>W. B. (William Bagwell), b. 1593?</author>
+      <author>Brockedon, John.</author>
+    </titleStmt>
+    <extent>[4], 15, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">James Flesher</persName>, for <persName type="publisher">Nicholas Bourne</persName>, and are to be sold at <placeName>the South Entrance of the Royal-Exchange</placeName>,</publisher>
+      <pubPlace>Lodnon [sic] :</pubPlace>
+      <date when="1652">1652.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: Will. Bagwell, John Brockedon.</note>
+      <note>Imperfect: print show-through.</note>
+      <note>Annotation on Thomason copy: "August. 24."</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Nicholas Bourne</persName>
+    </person>
+    <person type="printer">
+      <persName>James Flesher</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the South Entrance of the Royal-Exchange</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

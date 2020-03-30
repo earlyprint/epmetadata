@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Englands caveat: or Warning-piece Shewing her daughters estate and condition she lieth in, for the present, as also to rouze her out of her deadly slumber of a carnall and desperate security: together with the meanes of her recovery and preservation. By Alexander Mingzeis, Minister. Iune 2. 1647. Imprimatur. Ja. Cranford.</title>
-         <author>Mingzeis, Alexander.</author>
-      </titleStmt>
-      <extent>[2], 12, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Thomas Harper, for the author, and his assignes,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1647">1647.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The final leaf is blank.</note>
-         <note>Calls for a return to the Church of England as a cure for England's troubles.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Englands caveat: or Warning-piece Shewing her daughters estate and condition she lieth in, for the present, as also to rouze her out of her deadly slumber of a carnall and desperate security: together with the meanes of her recovery and preservation. By Alexander Mingzeis, Minister. Iune 2. 1647. Imprimatur. Ja. Cranford.</title>
+      <author>Mingzeis, Alexander.</author>
+    </titleStmt>
+    <extent>[2], 12, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Thomas Harper</persName>, for <persName type="publisher">the author, and his</persName> assignes,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1647">1647.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The final leaf is blank.</note>
+      <note>Calls for a return to the Church of England as a cure for England's troubles.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author, and his</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Harper</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

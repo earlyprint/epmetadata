@@ -1,20 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Vinculum societatis, or, The tie of good company being a choice collection of the newest songs now in use : with thorow bass to each song for the harpsichord, theorbo, or bas-viol : the first book of this character.</title>
-         <author>Carr, John, fl. 1672-1695.</author>
-      </titleStmt>
-      <extent>[4], 32 p. : ill., music.  </extent>
-      <publicationStmt>
-         <publisher>Printed by F. Clark, T. Moore, and J. Heptinstall for John Carr and R.C. ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1687">1687.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Dedication signed: John Carr and R.C.</note>
-         <note>Includes index.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Vinculum societatis, or, The tie of good company being a choice collection of the newest songs now in use : with thorow bass to each song for the harpsichord, theorbo, or bas-viol : the first book of this character.</title>
+      <author>Carr, John, fl. 1672-1695.</author>
+    </titleStmt>
+    <extent>[4], 32 p. : ill., music.  </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">F. Clark</persName>, <persName type="printer">T. Moore</persName>, and <persName type="printer">J. Heptinstall</persName> for <persName type="publisher">John Carr</persName> and <persName type="publisher">R.C.</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1687">1687.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Dedication signed: John Carr and R.C.</note>
+      <note>Includes index.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>John Carr</persName>
+    </person>
+    <person type="publisher">
+      <persName>R.C.</persName>
+    </person>
+    <person type="printer">
+      <persName>F. Clark</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Heptinstall</persName>
+    </person>
+    <person type="printer">
+      <persName>T. Moore</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

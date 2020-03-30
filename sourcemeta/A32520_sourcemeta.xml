@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation for the apprehending of Colonel John Rumsey, Richard Rumbold, maltster, Richard Nelthorp, Esq., Edward Wade, Gent., Richard Goodenough, Gent., Captain Walcot, William Thompson, James Burton, and William Hone, joyner</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill, deceas'd, and by Henry Hill[s], and Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1683">1683.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our honour of Hampton Court, this twenty third day of June in the five and thirtieth year of our reign."</note>
-         <note>Reproduction of the original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation for the apprehending of Colonel John Rumsey, Richard Rumbold, maltster, Richard Nelthorp, Esq., Edward Wade, Gent., Richard Goodenough, Gent., Captain Walcot, William Thompson, James Burton, and William Hone, joyner</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill, deceas'd, and</persName> by <persName type="printer">Henry Hill[s]</persName>, and <persName type="printer">Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1683">1683.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our honour of Hampton Court, this twenty third day of June in the five and thirtieth year of our reign."</note>
+      <note>Reproduction of the original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hill[s]</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill, deceas'd, and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

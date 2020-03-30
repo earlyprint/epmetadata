@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The king of terrors metamorphosis. Or, Death transform'd into sleep. A sermon preached at the funeral of Mrs. Elizabeth Nicoll, daughter to that worthy, eminently pious, and charitable citizen of London, Mr. John Walter deceased, and late wife of Mr. William Nicoll of London draper. By Thomas Lye rector of Alhal. Lumbard-street, London.</title>
-         <author>Lye, Thomas, 1621-1684.</author>
-      </titleStmt>
-      <extent>[6], 25, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed by M.S. for Hen. Cripps, and are to be sold at his shop in Popes-head-Alley,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Annotation on Thomason copy: "Decemb. 6.".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The king of terrors metamorphosis. Or, Death transform'd into sleep. A sermon preached at the funeral of Mrs. Elizabeth Nicoll, daughter to that worthy, eminently pious, and charitable citizen of London, Mr. John Walter deceased, and late wife of Mr. William Nicoll of London draper. By Thomas Lye rector of Alhal. Lumbard-street, London.</title>
+      <author>Lye, Thomas, 1621-1684.</author>
+    </titleStmt>
+    <extent>[6], 25, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">M.S.</persName> for <persName type="publisher">Hen. Cripps</persName>, and are to be sold at <placeName>his shop in Popes-head-Alley</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Annotation on Thomason copy: "Decemb. 6.".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Hen. Cripps</persName>
+    </person>
+    <person type="printer">
+      <persName>M.S.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Popes-head-Alley</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

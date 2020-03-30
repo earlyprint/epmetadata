@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Certayne questions demaunded and asked by the noble realme of Englande, of her true naturall chyldren and subiectes of the same</title>
-      </titleStmt>
-      <extent>[12] p.   </extent>
-      <publicationStmt>
-         <publisher>At the earneste requeste and sute of youre graces trewe and faythfull seruaunt Myles Hogherde [i.e. H. Singleton?,</publisher>
-         <pubPlace>Imprinted at London [i.e. Wesel?] :</pubPlace>
-         <date when="1555">1555]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The imprint is sarcastic; actual place of publication and printer conjectured by and publication date from STC.</note>
-         <note>Against Mary's Catholic tendencies and her marriage to Philip of Spaine.</note>
-         <note>Signatures: A&#8310;.</note>
-         <note>Some print show-through.</note>
-         <note>Reproduction of the original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Certayne questions demaunded and asked by the noble realme of Englande, of her true naturall chyldren and subiectes of the same</title>
+    </titleStmt>
+    <extent>[12] p.   </extent>
+    <publicationStmt>
+      <publisher>At <placeName>the earneste requeste</placeName> and sute of youre graces trewe and faythfull seruaunt Myles Hogherde [i.e<persName type="printer">. H. Singleton</persName>?,</publisher>
+      <pubPlace>Imprinted at London [i.e. Wesel?] :</pubPlace>
+      <date when="1555">1555]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The imprint is sarcastic; actual place of publication and printer conjectured by and publication date from STC.</note>
+      <note>Against Mary's Catholic tendencies and her marriage to Philip of Spaine.</note>
+      <note>Signatures: A&#8310;.</note>
+      <note>Some print show-through.</note>
+      <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>. H. Singleton</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the earneste requeste</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

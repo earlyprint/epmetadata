@@ -1,24 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Ovid's Tristia, containing five books of mournful elegies which he sweetly composed in the midst of his adversity, while he liv'd in Tomos, a city of Pontus, where he died after seven years banishment from Rome / translated into English by W.S.</title>
-         <title>Tristia. English</title>
-         <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
-         <author>W. S.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The fourth edition, corrected.</edition>
-      </editionStmt>
-      <extent>[119] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Andrew Clark, and are to be sold by Thomas Williams  ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1672">1672.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Added t.p., engraved.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Ovid's Tristia, containing five books of mournful elegies which he sweetly composed in the midst of his adversity, while he liv'd in Tomos, a city of Pontus, where he died after seven years banishment from Rome / translated into English by W.S.</title>
+      <title>Tristia. English</title>
+      <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+      <author>W. S.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The fourth edition, corrected.</edition>
+    </editionStmt>
+    <extent>[119] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Andrew Clark</persName>, and are to be sold by <persName type="bookseller">Thomas Williams </persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1672">1672.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Added t.p., engraved.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Andrew Clark</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Thomas Williams </persName>
+    </person>
+  </listPerson>
 </sourceDesc>

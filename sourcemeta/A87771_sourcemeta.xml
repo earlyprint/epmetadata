@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The kingdomes case: or, The question resolved, whether the kings subjects of this realm of England may or ought to ayd and assist each other, in repressing the persons now assembled together, under the name of the kings army. Pro lege rege grege adillam propugnandum. informandum. conservandum. By him that prayeth studieth the peace of the King. kingdome. April 24. 1643. It is this day ordered by the committee of the House of Commons in Parliament, concerning printing, that this booke, entituled (The kingdomes case) be printed by Iohn Wright. Iohn White.</title>
-         <author>He that prayeth/studieth the peace of the King/kingdome.</author>
-      </titleStmt>
-      <extent>[2], 13, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Iohn Wright in the Old-baily,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1643">May 1. 1643.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The words "lege..grege", "propagandum..conservandum", "prayeth..studieth", and "king..kingdome" are bracketed together on title page.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The kingdomes case: or, The question resolved, whether the kings subjects of this realm of England may or ought to ayd and assist each other, in repressing the persons now assembled together, under the name of the kings army. Pro lege rege grege adillam propugnandum. informandum. conservandum. By him that prayeth studieth the peace of the King. kingdome. April 24. 1643. It is this day ordered by the committee of the House of Commons in Parliament, concerning printing, that this booke, entituled (The kingdomes case) be printed by Iohn Wright. Iohn White.</title>
+      <author>He that prayeth/studieth the peace of the King/kingdome.</author>
+    </titleStmt>
+    <extent>[2], 13, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Iohn Wright</persName> in <placeName>the Old-baily</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1643">May 1. 1643.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The words "lege..grege", "propagandum..conservandum", "prayeth..studieth", and "king..kingdome" are bracketed together on title page.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Old-baily</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

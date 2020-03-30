@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A perswasive to communion with the Church of England</title>
-         <author>Grove, Robert, 1634-1696.</author>
-      </titleStmt>
-      <extent>[2], 43 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by J. Redmayne, Jun., for Fincham Gardiner ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date notBefore="1682" notAfter="1683">1682/3.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Written by Robert Grove.  Cf. DNB.</note>
-         <note>Marginal notes.</note>
-         <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A perswasive to communion with the Church of England</title>
+      <author>Grove, Robert, 1634-1696.</author>
+    </titleStmt>
+    <extent>[2], 43 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">J. Redmayne</persName>, <persName type="printer">Jun.</persName>, for <persName type="publisher">Fincham Gardiner</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date notBefore="1682" notAfter="1683">1682/3.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Written by Robert Grove.  Cf. DNB.</note>
+      <note>Marginal notes.</note>
+      <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Fincham Gardiner</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Redmayne</persName>
+    </person>
+    <person type="printer">
+      <persName>Jun.</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

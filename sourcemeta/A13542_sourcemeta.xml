@@ -1,24 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A man in Christ, or A new creature To which is added a treatise, containing meditations from the creatures. By Thomas Taylor, Dr. in Diuinity.</title>
-         <author>Taylor, Thomas, 1576-1632.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>The second edition. Corrected by the author.</edition>
-      </editionStmt>
-      <extent>[2], 131, [1]+ p.   </extent>
-      <publicationStmt>
-         <publisher>Printed [by H. Lownes] for I. Bartlet at the gilt Cup in Cheapeside,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1629">1629.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Printer's name from STC.</note>
-         <note>In two parts.</note>
-         <note>Imperfect: consists of part 1 only.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A man in Christ, or A new creature To which is added a treatise, containing meditations from the creatures. By Thomas Taylor, Dr. in Diuinity.</title>
+      <author>Taylor, Thomas, 1576-1632.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>The second edition. Corrected by the author.</edition>
+    </editionStmt>
+    <extent>[2], 131, [1]+ p.   </extent>
+    <publicationStmt>
+      <publisher>Printed [by <persName type="printer">H. Lownes]</persName> for <persName type="publisher">I. Bartlet</persName> at <placeName>the gilt Cup in Cheapeside</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1629">1629.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Printer's name from STC.</note>
+      <note>In two parts.</note>
+      <note>Imperfect: consists of part 1 only.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>I. Bartlet</persName>
+    </person>
+    <person type="printer">
+      <persName>H. Lownes]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the gilt Cup in Cheapeside</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

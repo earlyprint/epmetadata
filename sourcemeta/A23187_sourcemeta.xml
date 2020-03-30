@@ -1,23 +1,36 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Marcus Aurelius Antoninus the Roman emperor, his meditations concerning himselfe treating of a naturall mans happinesse; wherein it consisteth, and of the meanes to attaine unto it. Translated out of the originall Greeke; with notes: by Meric Casaubon ...</title>
-         <title>Meditations. English</title>
-         <author>Marcus Aurelius, Emperor of Rome, 121-180.</author>
-         <author>Casaubon, Meric, 1599-1671.</author>
-      </titleStmt>
-      <extent>[16], 27, [1], 210, 46 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by M. Flesher, for Richard Mynne, in Little Britaine at the signe of S. Paul,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1634">M DC XXXIV [1634]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>The first leaf is blank.</note>
-         <note>"Notes upon Antoninus", 46 p. at end.</note>
-         <note>Running title reads: M. Aurel. Antoninus his meditations.</note>
-         <note>Reproduction of the original in Cambridge University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Marcus Aurelius Antoninus the Roman emperor, his meditations concerning himselfe treating of a naturall mans happinesse; wherein it consisteth, and of the meanes to attaine unto it. Translated out of the originall Greeke; with notes: by Meric Casaubon ...</title>
+      <title>Meditations. English</title>
+      <author>Marcus Aurelius, Emperor of Rome, 121-180.</author>
+      <author>Casaubon, Meric, 1599-1671.</author>
+    </titleStmt>
+    <extent>[16], 27, [1], 210, 46 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">M. Flesher</persName>, for <persName type="publisher">Richard Mynne</persName>, in <placeName>Little Britaine at the signe of S. Paul</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1634">M DC XXXIV [1634]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>The first leaf is blank.</note>
+      <note>"Notes upon Antoninus", 46 p. at end.</note>
+      <note>Running title reads: M. Aurel. Antoninus his meditations.</note>
+      <note>Reproduction of the original in Cambridge University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Mynne</persName>
+    </person>
+    <person type="printer">
+      <persName>M. Flesher</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Little Britaine at the signe of S. Paul</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

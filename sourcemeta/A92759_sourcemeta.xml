@@ -1,21 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A treatise against drunkennesse described in its nature, kindes effects and causes, especially that of drinking of healths. To which are added, two short sermons of S. Augustine's, De tempore. Faithfully translated, by Matthew Scrivener.</title>
-         <author>Scrivener, Matthew.</author>
-         <author>Augustine, Saint, Bishop of Hippo. De tempore.</author>
-         <author>Scrivener, Matthew.</author>
-      </titleStmt>
-      <extent>[12], 193, [3] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Charles Brown, bookseller in Cambridge,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1685">1685.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A treatise against drunkennesse described in its nature, kindes effects and causes, especially that of drinking of healths. To which are added, two short sermons of S. Augustine's, De tempore. Faithfully translated, by Matthew Scrivener.</title>
+      <author>Scrivener, Matthew.</author>
+      <author>Augustine, Saint, Bishop of Hippo. De tempore.</author>
+      <author>Scrivener, Matthew.</author>
+    </titleStmt>
+    <extent>[12], 193, [3] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Charles Brown</persName>, bookseller in <placeName>Cambridge</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1685">1685.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Charles Brown</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Cambridge</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

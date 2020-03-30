@@ -1,18 +1,23 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The muses tears for the loss of the illustrious Princ[e] Henry, Duke of Glocester [sic] deceased on Thursday the 13th of September, 1660 / by J. Crouch.</title>
-         <author>Crouch, John, fl. 1660-1681.</author>
-      </titleStmt>
-      <extent>5 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for the author,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Harvard University Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The muses tears for the loss of the illustrious Princ[e] Henry, Duke of Glocester [sic] deceased on Thursday the 13th of September, 1660 / by J. Crouch.</title>
+      <author>Crouch, John, fl. 1660-1681.</author>
+    </titleStmt>
+    <extent>5 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">the author</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Harvard University Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>the author</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

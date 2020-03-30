@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A declaration of the Earle of VVarwick, Lord High Admirall of England: in answer of a scandalous pamphlet, falsly reflecting upon his Lordships honour and proceedings. Published by speciall command.</title>
-         <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
-      </titleStmt>
-      <extent>[2], 5, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Iohn Wright, at the Kings Head in the Old Bailey,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1648">1648.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A reply to the anonymous: The declaration and resolution of Robert Earle of Warwick, Lord Admirall for the King, Parliament of England, and all the officers, and sea-men a boord, his navie touching the personall treaty.</note>
-         <note>Annotation on Thomason copy: "Nouemb: 17th".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A declaration of the Earle of VVarwick, Lord High Admirall of England: in answer of a scandalous pamphlet, falsly reflecting upon his Lordships honour and proceedings. Published by speciall command.</title>
+      <author>Warwick, Robert Rich, Earl of, 1587-1658.</author>
+    </titleStmt>
+    <extent>[2], 5, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Iohn Wright</persName>, at <placeName>the Kings Head in the Old Bailey</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1648">1648.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A reply to the anonymous: The declaration and resolution of Robert Earle of Warwick, Lord Admirall for the King, Parliament of England, and all the officers, and sea-men a boord, his navie touching the personall treaty.</note>
+      <note>Annotation on Thomason copy: "Nouemb: 17th".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Iohn Wright</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Kings Head in the Old Bailey</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true copie of a paper delivered by the Duke of Hamilton to some of his servants at St James that morning before he suffred, in the presence of Doctor Sibbald.</title>
-         <author>Hamilton, James Hamilton, Duke of, 1606-1649.</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by Samuell Broun English bookeseller, dwelling in the Achter-om at the signe of the English Printing house,</publisher>
-         <pubPlace>[Hage :</pubPlace>
-         <date when="1649">Anno M. DC. XLIX. [1649]]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Jesus College Library, Cambridge.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true copie of a paper delivered by the Duke of Hamilton to some of his servants at St James that morning before he suffred, in the presence of Doctor Sibbald.</title>
+      <author>Hamilton, James Hamilton, Duke of, 1606-1649.</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Samuell Broun English</persName> bookeseller, dwelling in <placeName>the Achter-om at the signe of the English Printing house</placeName>,</publisher>
+      <pubPlace>[Hage :</pubPlace>
+      <date when="1649">Anno M. DC. XLIX. [1649]]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Jesus College Library, Cambridge.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Samuell Broun English</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Achter-om at the signe of the English Printing house</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

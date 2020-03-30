@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A panegyrick on His Most Excellent Majesty King William IIId occasioned by the happy conclusion of the general peace, September the 20th, 1697.</title>
-         <author>G. B.</author>
-      </titleStmt>
-      <extent>12 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Richard Baldwin,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1697">1697.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Signed at end: G.B.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A panegyrick on His Most Excellent Majesty King William IIId occasioned by the happy conclusion of the general peace, September the 20th, 1697.</title>
+      <author>G. B.</author>
+    </titleStmt>
+    <extent>12 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Richard Baldwin</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1697">1697.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Signed at end: G.B.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Richard Baldwin</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

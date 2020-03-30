@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The famous battel between Robin Hood, and the Curtal fryar. To a new northern tune.</title>
-      </titleStmt>
-      <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
-      <publicationStmt>
-         <publisher>Printed for W[illiam]. Thackeray, J[ohn]. Millet, and A[lexander]. Milbourn.,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date notBefore="1689" notAfter="1692">[between 1689-1692]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "In summer time when leaves grow green ..."</note>
-         <note>Date, place of publication and publishers' names from Wing.</note>
-         <note>In two parts.</note>
-         <note>Reproduction of original in the Harvard University, Houghton Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The famous battel between Robin Hood, and the Curtal fryar. To a new northern tune.</title>
+    </titleStmt>
+    <extent>1 sheet ([1] p.) : ill. (woodcuts).  </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">W[illiam]. Thackeray</persName>, <persName type="publisher">J[ohn]. Millet</persName>, and <persName type="publisher">A[lexander]. Milbourn.</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date notBefore="1689" notAfter="1692">[between 1689-1692]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "In summer time when leaves grow green ..."</note>
+      <note>Date, place of publication and publishers' names from Wing.</note>
+      <note>In two parts.</note>
+      <note>Reproduction of original in the Harvard University, Houghton Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A[lexander]. Milbourn.</persName>
+    </person>
+    <person type="publisher">
+      <persName>J[ohn]. Millet</persName>
+    </person>
+    <person type="publisher">
+      <persName>W[illiam]. Thackeray</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

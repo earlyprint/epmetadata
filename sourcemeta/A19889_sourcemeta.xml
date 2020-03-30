@@ -1,22 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Davids troubles remembred in 1. Absolons sheep-shearing. 2. Ioab projecting. 3. Bathsheba bathing. 4. Israel rebelling. 5. Ahitophel hanging. 6. David returning.</title>
-         <author>Aylett, Robert, 1583-1655?, attributed name.</author>
-      </titleStmt>
-      <extent>[3], 59, [1] leaves   </extent>
-      <publicationStmt>
-         <publisher>Printed by Richard Hodgkinsonne, and are to be sold by Daniel Frere, at the signe of the Bull in Little-Britan,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1638">1638.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Sometimes attributed to Robert Aylett.</note>
-         <note>In verse.</note>
-         <note>The numbered lines are bracketed together on the title page.</note>
-         <note>With a final errata leaf.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Davids troubles remembred in 1. Absolons sheep-shearing. 2. Ioab projecting. 3. Bathsheba bathing. 4. Israel rebelling. 5. Ahitophel hanging. 6. David returning.</title>
+      <author>Aylett, Robert, 1583-1655?, attributed name.</author>
+    </titleStmt>
+    <extent>[3], 59, [1] leaves   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Richard Hodgkinsonne</persName>, and are to be sold by <persName type="bookseller">Daniel Frere</persName>, at <placeName>the signe of the Bull in Little-Britan</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1638">1638.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Sometimes attributed to Robert Aylett.</note>
+      <note>In verse.</note>
+      <note>The numbered lines are bracketed together on the title page.</note>
+      <note>With a final errata leaf.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Richard Hodgkinsonne</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Daniel Frere</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the signe of the Bull in Little-Britan</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

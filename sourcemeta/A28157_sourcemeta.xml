@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preach'd to the Society for the reformation of manners in Kingston upon Hull on Wednesday, January the 10th, 1699/700.</title>
-         <author>Billingsley, John, 1657-1722.</author>
-      </titleStmt>
-      <extent>44, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for A. and J. Churchil and Thomas Ryles,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preach'd to the Society for the reformation of manners in Kingston upon Hull on Wednesday, January the 10th, 1699/700.</title>
+      <author>Billingsley, John, 1657-1722.</author>
+    </titleStmt>
+    <extent>44, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">A.</persName> and <persName type="publisher">J. Churchil</persName> and <persName type="publisher">Thomas Ryles</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>A.</persName>
+    </person>
+    <person type="publisher">
+      <persName>J. Churchil</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Ryles</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

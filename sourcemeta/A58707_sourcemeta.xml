@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Fragmenta aulica. Or, Court and state jests in noble drollery True and reall. Ascertained to their times, places and persons. By T. S. Gent.</title>
-         <author>T. S.</author>
-      </titleStmt>
-      <extent>[10], 144, [12] p., [1] leaf of plates   </extent>
-      <publicationStmt>
-         <publisher>printed for H. Marsh at the Princes Armes in Chancery-lane near Fleetstreet; and Jos. Coniers at the Black-Raven in the long walk near ChristChurch,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1662">1662.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Includes engraved frontispiece with title: Curia and incuria.</note>
-         <note>Caption title on p. 10 reads: Court and state jests. Or, Noble drollery.</note>
-         <note>Running title reads: Court and state drollery.</note>
-         <note>Includes index and three final pages of advertisement.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Fragmenta aulica. Or, Court and state jests in noble drollery True and reall. Ascertained to their times, places and persons. By T. S. Gent.</title>
+      <author>T. S.</author>
+    </titleStmt>
+    <extent>[10], 144, [12] p., [1] leaf of plates   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">H. Marsh</persName> at <placeName>the Princes Armes in Chancery-lane near Fleetstreet;</placeName> and <persName type="publisher">Jos. Coniers</persName> at <placeName>the Black-Raven in the long walk near ChristChurch</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1662">1662.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Includes engraved frontispiece with title: Curia and incuria.</note>
+      <note>Caption title on p. 10 reads: Court and state jests. Or, Noble drollery.</note>
+      <note>Running title reads: Court and state drollery.</note>
+      <note>Includes index and three final pages of advertisement.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Marsh</persName>
+    </person>
+    <person type="publisher">
+      <persName>Jos. Coniers</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Black-Raven in the long walk near ChristChurch</placeName>
+    </place>
+    <place type="location">
+      <placeName>the Princes Armes in Chancery-lane near Fleetstreet;</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

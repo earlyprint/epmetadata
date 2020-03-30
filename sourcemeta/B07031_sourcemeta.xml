@@ -1,20 +1,28 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The blue garter no more a sign of honesty than a gilded bush is of good wine.</title>
-      </titleStmt>
-      <extent>3 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed Newcomb in Wine-Court, Fleetstreet,</publisher>
-         <pubPlace>London: :</pubPlace>
-         <date when="1713">1713.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Verse: "In antient times when Britain's warlike sons".</note>
-         <note>Imprint from colophon.</note>
-         <note>Printed on one side of the leaf only.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The blue garter no more a sign of honesty than a gilded bush is of good wine.</title>
+    </titleStmt>
+    <extent>3 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed Newcomb in <placeName>Wine-Court</placeName>, <placeName>Fleetstreet</placeName>,</publisher>
+      <pubPlace>London: :</pubPlace>
+      <date when="1713">1713.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Verse: "In antient times when Britain's warlike sons".</note>
+      <note>Imprint from colophon.</note>
+      <note>Printed on one side of the leaf only.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPlace>
+    <place type="location">
+      <placeName>Fleetstreet</placeName>
+    </place>
+    <place type="location">
+      <placeName>Wine-Court</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

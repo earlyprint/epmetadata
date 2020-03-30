@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A true relation of a brave exploit performed by Captain Richard Dawks, in taking of the Castle of Dover for the King and Parliament, and the safety of the whole kingdom, the quiet of the town of Dover, and all those parts of the country thereabouts, on the 21 of August, 1642. Which was never conquered or taken before, but by that worthy gent', Captain Rich: Dawks aforementioned. And set forth by Nicholas Payne, an inhabitant of Dover, for satisfaction of the whole kingdom: and by the consent of both the honourable Houses of Parliament: they have sent thither to be lieutenant of that castle, the noble and worthy knight, Sir Edward Boyse, one of the members of the House of Commons.</title>
-         <author>Payne, Nicholas.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by L. Norton and J. Field for C. A.,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1642">Sept. 2. 1642.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A true relation of a brave exploit performed by Captain Richard Dawks, in taking of the Castle of Dover for the King and Parliament, and the safety of the whole kingdom, the quiet of the town of Dover, and all those parts of the country thereabouts, on the 21 of August, 1642. Which was never conquered or taken before, but by that worthy gent', Captain Rich: Dawks aforementioned. And set forth by Nicholas Payne, an inhabitant of Dover, for satisfaction of the whole kingdom: and by the consent of both the honourable Houses of Parliament: they have sent thither to be lieutenant of that castle, the noble and worthy knight, Sir Edward Boyse, one of the members of the House of Commons.</title>
+      <author>Payne, Nicholas.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">L. Norton</persName> and <persName type="printer">J. Field</persName> for <persName type="publisher">C. A.</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1642">Sept. 2. 1642.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>C. A.</persName>
+    </person>
+    <person type="printer">
+      <persName>J. Field</persName>
+    </person>
+    <person type="printer">
+      <persName>L. Norton</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

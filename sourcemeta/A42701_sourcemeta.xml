@@ -1,18 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A sermon preached at the funeral of the Reverend Edward Reynolds, D.D. Arch-Deacon of Norfolk and Rector of Kings-Thorp near Northampton / by William Gibbs ...</title>
-         <author>Gibbs, William.</author>
-      </titleStmt>
-      <extent>[4], 32 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by John Astwood for Thomas Cockeril ... and Herbert Walwyn ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A sermon preached at the funeral of the Reverend Edward Reynolds, D.D. Arch-Deacon of Norfolk and Rector of Kings-Thorp near Northampton / by William Gibbs ...</title>
+      <author>Gibbs, William.</author>
+    </titleStmt>
+    <extent>[4], 32 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">John Astwood</persName> for <persName type="publisher">Thomas Cockeril</persName> ... and <persName type="publisher">Herbert Walwyn</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library, Cambridge University.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Herbert Walwyn</persName>
+    </person>
+    <person type="publisher">
+      <persName>Thomas Cockeril</persName>
+    </person>
+    <person type="printer">
+      <persName>John Astwood</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

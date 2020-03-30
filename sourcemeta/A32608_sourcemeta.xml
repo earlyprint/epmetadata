@@ -1,20 +1,31 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>By the King, a proclamation prohibiting the importation of foreign playing-cards, and for seizing such as are or shall be imported</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-         <author>Charles II, King of England, 1630-1685.</author>
-      </titleStmt>
-      <extent>1 broadside.   </extent>
-      <publicationStmt>
-         <publisher>Printed by the assigns of John Bill deceas'd, and by Henry Hills, and Thomas Newcomb ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1684">1684.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"Given at our court at Whitehall, the seventh day of November, 1684, in the six and thirtieth year of our reign."</note>
-         <note>Reproductions of the originals in the Harvard University Library and the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>By the King, a proclamation prohibiting the importation of foreign playing-cards, and for seizing such as are or shall be imported</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+      <author>Charles II, King of England, 1630-1685.</author>
+    </titleStmt>
+    <extent>1 broadside.   </extent>
+    <publicationStmt>
+      <publisher>Printed by the assigns of <persName type="assigns">John Bill deceas'd, and</persName> by <persName type="printer">Henry Hills</persName>, and <persName type="printer">Thomas Newcomb</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1684">1684.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"Given at our court at Whitehall, the seventh day of November, 1684, in the six and thirtieth year of our reign."</note>
+      <note>Reproductions of the originals in the Harvard University Library and the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Henry Hills</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas Newcomb</persName>
+    </person>
+    <person type="assigns">
+      <persName>John Bill deceas'd, and</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

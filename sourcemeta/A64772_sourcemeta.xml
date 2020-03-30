@@ -1,18 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sovles exercise in the daily contemplation of our Saviours birth, life, passion, and resurrection William Vavghan, knight.</title>
-         <author>Vaughan, William, 1577-1641.</author>
-      </titleStmt>
-      <extent>[20], 299 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by Thomas and Rich. Cotes for Humphrey Blunden, and are to be sold at his shop,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1641">1641.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sovles exercise in the daily contemplation of our Saviours birth, life, passion, and resurrection William Vavghan, knight.</title>
+      <author>Vaughan, William, 1577-1641.</author>
+    </titleStmt>
+    <extent>[20], 299 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">Thomas</persName> and <persName type="printer">Rich. Cotes</persName> for <persName type="publisher">Humphrey Blunden</persName>, and are to be sold at <placeName>his shop</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1641">1641.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Humphrey Blunden</persName>
+    </person>
+    <person type="printer">
+      <persName>Rich. Cotes</persName>
+    </person>
+    <person type="printer">
+      <persName>Thomas</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

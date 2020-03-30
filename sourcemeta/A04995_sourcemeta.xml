@@ -1,25 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Archeion, or, A discourse vpon the high courts of iustice in England. Composed by William Lambard, of Lincolnes Inne, Gent</title>
-         <author>Lambarde, William, 1536-1601.</author>
-         <author>Lambarde, Thomas.</author>
-      </titleStmt>
-      <editionStmt>
-         <edition>Newly corrected, and enlarged according to the authors copie.</edition>
-      </editionStmt>
-      <extent>[16], 276 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed by E. P[urslowe] for Henry Seile, dwelling at the Tygers-head in St. Pauls Church-yard,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1635">1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Edited by Thomas Lambarde.</note>
-         <note>Printer's name from STC.</note>
-         <note>The first leaf is blank.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Archeion, or, A discourse vpon the high courts of iustice in England. Composed by William Lambard, of Lincolnes Inne, Gent</title>
+      <author>Lambarde, William, 1536-1601.</author>
+      <author>Lambarde, Thomas.</author>
+    </titleStmt>
+    <editionStmt>
+      <edition>Newly corrected, and enlarged according to the authors copie.</edition>
+    </editionStmt>
+    <extent>[16], 276 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed by <persName type="printer">E. P[urslowe]</persName> for <persName type="publisher">Henry Seile</persName>, dwelling at <placeName>the Tygers-head in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1635">1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Edited by Thomas Lambarde.</note>
+      <note>Printer's name from STC.</note>
+      <note>The first leaf is blank.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Henry Seile</persName>
+    </person>
+    <person type="printer">
+      <persName>E. P[urslowe]</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Tygers-head in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

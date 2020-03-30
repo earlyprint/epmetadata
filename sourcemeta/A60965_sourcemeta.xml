@@ -1,23 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Oroonoko a tragedy, as it is acted at the Theatre-Royal by His Majesty's servants / written by Tho. Southerne.</title>
-         <author>Southerne, Thomas, 1660-1746.</author>
-         <author>Congreve, William, 1670-1729.</author>
-         <author>Behn, Aphra, 1640-1689. Oroonoko.</author>
-      </titleStmt>
-      <extent>[8], 84, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Playford ..., B. Tooke ..., and S. Buckley ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1696">1696.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Based on Mrs. Behn's novel of the same name, which was partly founded on fact.</note>
-         <note>Epilogue by Congreve.</note>
-         <note>First edition.</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Oroonoko a tragedy, as it is acted at the Theatre-Royal by His Majesty's servants / written by Tho. Southerne.</title>
+      <author>Southerne, Thomas, 1660-1746.</author>
+      <author>Congreve, William, 1670-1729.</author>
+      <author>Behn, Aphra, 1640-1689. Oroonoko.</author>
+    </titleStmt>
+    <extent>[8], 84, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Playford</persName> ..., <persName type="publisher">B. Tooke</persName> ..., and <persName type="publisher">S. Buckley</persName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1696">1696.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Based on Mrs. Behn's novel of the same name, which was partly founded on fact.</note>
+      <note>Epilogue by Congreve.</note>
+      <note>First edition.</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>B. Tooke</persName>
+    </person>
+    <person type="publisher">
+      <persName>H. Playford</persName>
+    </person>
+    <person type="publisher">
+      <persName>S. Buckley</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

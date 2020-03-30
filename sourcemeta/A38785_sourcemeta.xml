@@ -1,19 +1,24 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A character of England as it was lately presented in a letter to a noble man of France.</title>
-         <author>Evelyn, John, 1620-1706.</author>
-      </titleStmt>
-      <extent>[8], 71 [i.e. 72] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Jo. Crooke ...,</publisher>
-         <pubPlace>Londons [i.e. London] :</pubPlace>
-         <date when="1659">1659.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed to John Evelyn. Cf. Halkett &amp; Laing (2nd ed.).</note>
-         <note>Reproduction of original in Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A character of England as it was lately presented in a letter to a noble man of France.</title>
+      <author>Evelyn, John, 1620-1706.</author>
+    </titleStmt>
+    <extent>[8], 71 [i.e. 72] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Jo. Crooke</persName> ...,</publisher>
+      <pubPlace>Londons [i.e. London] :</pubPlace>
+      <date when="1659">1659.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed to John Evelyn. Cf. Halkett &amp; Laing (2nd ed.).</note>
+      <note>Reproduction of original in Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Jo. Crooke</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

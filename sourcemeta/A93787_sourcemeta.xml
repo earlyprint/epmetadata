@@ -1,20 +1,30 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A caveat against seducers: as it was preached by Richard Standfast, Mr. of Arts, and rector of Christ-Church in Bristol, whereunto are annexed the blind mans meditations. By the same author.</title>
-         <author>Standfast, Richard, 1608?-1684.</author>
-      </titleStmt>
-      <extent>77, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for H. Mortlock at the Ph&#339;nix in St. Pauls Church-yard, neer the little north-door.,</publisher>
-         <pubPlace>London, :</pubPlace>
-         <date when="1660">1660.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>"The blind mans meditations", in verse, has separate dated title page; pagination and register are continuous.</note>
-         <note>Annotation on Thomason copy: "August".</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A caveat against seducers: as it was preached by Richard Standfast, Mr. of Arts, and rector of Christ-Church in Bristol, whereunto are annexed the blind mans meditations. By the same author.</title>
+      <author>Standfast, Richard, 1608?-1684.</author>
+    </titleStmt>
+    <extent>77, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">H. Mortlock</persName> at <placeName>the Ph&#339;nix in St. Pauls Church-yard, neer the little north-door.</placeName>,</publisher>
+      <pubPlace>London, :</pubPlace>
+      <date when="1660">1660.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>"The blind mans meditations", in verse, has separate dated title page; pagination and register are continuous.</note>
+      <note>Annotation on Thomason copy: "August".</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>H. Mortlock</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Ph&#339;nix in St. Pauls Church-yard, neer the little north-door.</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

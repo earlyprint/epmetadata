@@ -1,19 +1,29 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The Bishop of Worcester his letter to the clergy of his diocess</title>
-         <author>Thomas, William, 1613-1689.</author>
-      </titleStmt>
-      <extent>[2], 5-19, [1] p.   </extent>
-      <publicationStmt>
-         <publisher>printed for Sampson Evans, bookseller in Worcester,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1689">1689.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Bishop of Worcester = William Thomas.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The Bishop of Worcester his letter to the clergy of his diocess</title>
+      <author>Thomas, William, 1613-1689.</author>
+    </titleStmt>
+    <extent>[2], 5-19, [1] p.   </extent>
+    <publicationStmt>
+      <publisher>printed for <persName type="publisher">Sampson Evans</persName>, bookseller in <placeName>Worcester</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1689">1689.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Bishop of Worcester = William Thomas.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Sampson Evans</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Worcester</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

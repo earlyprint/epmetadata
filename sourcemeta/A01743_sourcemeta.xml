@@ -1,21 +1,37 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The sacred philosophie of the Holy Scripture, laid downe as conclusions on the articles of our faith, commonly called the Apostles Creed Proved by the principles or rules taught and received in the light of understanding. Written by Alexander Gil, Master of Pauls Schole.</title>
-         <author>Gill, Alexander, 1565-1635.</author>
-      </titleStmt>
-      <extent>[32], 196, 232 p.   </extent>
-      <publicationStmt>
-         <publisher>By Anne Griffin for Ioyce Norton and Rich. Whitaker [, and are to bee sold at his shop in Pauls Church-yard, at the signe of the Kings-Armes],</publisher>
-         <pubPlace>Imprinted at London :</pubPlace>
-         <date when="1635">1635.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>With a second letterpress title page with imprint giving the address of Whitaker's shop.</note>
-         <note>"Article III. VVhich was conceived by the Holy-Ghost" (caption title) begins new pagination on A[par.]r.</note>
-         <note>"A treatise concerning the trinitie of persons in vnitie of the Deitie. .. The second edition" has separate dated title page; pagination and register are continuous.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The sacred philosophie of the Holy Scripture, laid downe as conclusions on the articles of our faith, commonly called the Apostles Creed Proved by the principles or rules taught and received in the light of understanding. Written by Alexander Gil, Master of Pauls Schole.</title>
+      <author>Gill, Alexander, 1565-1635.</author>
+    </titleStmt>
+    <extent>[32], 196, 232 p.   </extent>
+    <publicationStmt>
+      <publisher>By <persName type="printer">Anne Griffin</persName> for <persName type="publisher">Ioyce Norton</persName> and <persName type="publisher">Rich. Whitaker [</persName>, and are to bee sold at <placeName>his shop in Pauls Church-yard, at the signe of the Kings-Armes]</placeName>,</publisher>
+      <pubPlace>Imprinted at London :</pubPlace>
+      <date when="1635">1635.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>With a second letterpress title page with imprint giving the address of Whitaker's shop.</note>
+      <note>"Article III. VVhich was conceived by the Holy-Ghost" (caption title) begins new pagination on A[par.]r.</note>
+      <note>"A treatise concerning the trinitie of persons in vnitie of the Deitie. .. The second edition" has separate dated title page; pagination and register are continuous.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Ioyce Norton</persName>
+    </person>
+    <person type="publisher">
+      <persName>Rich. Whitaker [</persName>
+    </person>
+    <person type="printer">
+      <persName>Anne Griffin</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>his shop in Pauls Church-yard, at the signe of the Kings-Armes]</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

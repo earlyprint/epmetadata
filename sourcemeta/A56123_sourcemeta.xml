@@ -1,21 +1,34 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Truth unvail'd by scripture-light In three parts. Written for the sake of those that desire to behold it in its native beauty. To which is added, an appendix, which the author desires to leave as a legacy to his children. By a despised follower of the blessed Jesus, Robert Prudom.</title>
-         <author>Prudom, Robert.</author>
-      </titleStmt>
-      <extent>viii, 198, [2] p.   </extent>
-      <publicationStmt>
-         <publisher>printed and sold by John Marshal at the Bible in Grace-Church-street,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1699">1699.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title on pg. 1: Truth unvailed by scripture-light, &amp;c.</note>
-         <note>Running title: Truth unvailed by scripture-light.</note>
-         <note>With final leaf containing a table of contents and an advertisment.</note>
-         <note>Reproduction of the original at the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Truth unvail'd by scripture-light In three parts. Written for the sake of those that desire to behold it in its native beauty. To which is added, an appendix, which the author desires to leave as a legacy to his children. By a despised follower of the blessed Jesus, Robert Prudom.</title>
+      <author>Prudom, Robert.</author>
+    </titleStmt>
+    <extent>viii, 198, [2] p.   </extent>
+    <publicationStmt>
+      <publisher>printed and sold by <persName type="printer"><persName type="bookseller">John Marshal</persName></persName> at <placeName>the Bible in Grace-Church-street</placeName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1699">1699.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title on pg. 1: Truth unvailed by scripture-light, &amp;c.</note>
+      <note>Running title: Truth unvailed by scripture-light.</note>
+      <note>With final leaf containing a table of contents and an advertisment.</note>
+      <note>Reproduction of the original at the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Marshal</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Marshal</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Bible in Grace-Church-street</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

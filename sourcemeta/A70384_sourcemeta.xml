@@ -1,21 +1,26 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The auction, or, A catalogue of some useful books lately published together with a summary of what is treated of in them.</title>
-         <author>Johnston, Nathaniel, 1627-1705.</author>
-      </titleStmt>
-      <extent>8 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed for Robert Hardy,</publisher>
-         <pubPlace>[London?] :</pubPlace>
-         <date when="1690" cert="low">[1690?]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Attributed by Wing to Nathaniel Johnston. Entered as J785 in Wing under Nathaniel Johnson; cancelled in Wing, 2nd. ed. This work not mentioned in DNB article on Johnston.</note>
-         <note>Caption title and imprint; imprint probably false.</note>
-         <note>A satirical list of imaginary books.</note>
-         <note>Reproduction of original in the Huntington Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The auction, or, A catalogue of some useful books lately published together with a summary of what is treated of in them.</title>
+      <author>Johnston, Nathaniel, 1627-1705.</author>
+    </titleStmt>
+    <extent>8 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Robert Hardy</persName>,</publisher>
+      <pubPlace>[London?] :</pubPlace>
+      <date when="1690" cert="low">[1690?]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Attributed by Wing to Nathaniel Johnston. Entered as J785 in Wing under Nathaniel Johnson; cancelled in Wing, 2nd. ed. This work not mentioned in DNB article on Johnston.</note>
+      <note>Caption title and imprint; imprint probably false.</note>
+      <note>A satirical list of imaginary books.</note>
+      <note>Reproduction of original in the Huntington Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Robert Hardy</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

@@ -1,19 +1,32 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>True account of the behaviour, confessions, and last dying words, of Capt. James Watts, Capt. Peter Barnwell, Daniel D'Coiner alias Walker, Richard Jones, and Jane Voss alias Roberts who were executed at Tyburn, on the 19th of December 1684. for robbing on the high way high treason, murther, and fellony, &amp;c. Printed by order, &amp;c.</title>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>printed by E.R. for R. Turner at the Star in St. Pauls Church-yard,</publisher>
-         <pubPlace>[London :</pubPlace>
-         <date when="1684">1684]</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Caption title.</note>
-         <note>Imprint from colophon.</note>
-         <note>Reproduction of the original in the Bodleian Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>True account of the behaviour, confessions, and last dying words, of Capt. James Watts, Capt. Peter Barnwell, Daniel D'Coiner alias Walker, Richard Jones, and Jane Voss alias Roberts who were executed at Tyburn, on the 19th of December 1684. for robbing on the high way high treason, murther, and fellony, &amp;c. Printed by order, &amp;c.</title>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">E.R.</persName> for <persName type="publisher">R. Turner</persName> at <placeName>the Star in St. Pauls Church-yard</placeName>,</publisher>
+      <pubPlace>[London :</pubPlace>
+      <date when="1684">1684]</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Caption title.</note>
+      <note>Imprint from colophon.</note>
+      <note>Reproduction of the original in the Bodleian Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>R. Turner</persName>
+    </person>
+    <person type="printer">
+      <persName>E.R.</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>the Star in St. Pauls Church-yard</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

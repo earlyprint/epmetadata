@@ -1,22 +1,38 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>The deposition of Don Diego Piementellj, cheefe maister of one regiment of the campe of the King of Spayne as hee deposed before, and in the presence of the chiefest lords of the counsaile of the Haghe in Holland. Translated out of Dutch into English, by F.M.</title>
-         <title>Breeder verclaringhe van Don Diego de Piementel. English</title>
-         <author>Carrillo de Mendoza y Pimentel, Diego, 16th/17th cent.</author>
-         <author>F. M., fl. 1588.</author>
-      </titleStmt>
-      <extent>16 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed first at Delfe, and nowe reprinted at London by [John Charlewood for] Iohn VVoolfe,</publisher>
-         <pubPlace>[London] :</pubPlace>
-         <date when="1588">anno. Dom. 1588.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>A translation of: Breeder verclaringhe van Don Diego de Piementel.</note>
-         <note>Actual printer's name from STC.</note>
-         <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>The deposition of Don Diego Piementellj, cheefe maister of one regiment of the campe of the King of Spayne as hee deposed before, and in the presence of the chiefest lords of the counsaile of the Haghe in Holland. Translated out of Dutch into English, by F.M.</title>
+      <title>Breeder verclaringhe van Don Diego de Piementel. English</title>
+      <author>Carrillo de Mendoza y Pimentel, Diego, 16th/17th cent.</author>
+      <author>F. M., fl. 1588.</author>
+    </titleStmt>
+    <extent>16 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed first at <placeName>Delfe</placeName>, and nowe reprinted at <placeName>London</placeName> by <persName type="printer">[John Charlewood</persName> for<persName type="publisher">] Iohn VVoolfe</persName>,</publisher>
+      <pubPlace>[London] :</pubPlace>
+      <date when="1588">anno. Dom. 1588.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>A translation of: Breeder verclaringhe van Don Diego de Piementel.</note>
+      <note>Actual printer's name from STC.</note>
+      <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>] Iohn VVoolfe</persName>
+    </person>
+    <person type="printer">
+      <persName>[John Charlewood</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>Delfe</placeName>
+    </place>
+    <place type="location">
+      <placeName>London</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

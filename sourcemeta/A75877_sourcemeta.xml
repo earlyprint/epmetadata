@@ -1,18 +1,40 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>An address from the justices of the peace of the county of Middlesex as it was ordered by the court at Hicks's Hall, and humbly presented to His Majesty by the body of the said justices, on Monday, the eighteenth of April, 1681. With His Majesties gracious answer.</title>
-         <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
-      </titleStmt>
-      <extent>4 p.   </extent>
-      <publicationStmt>
-         <publisher>reprinted by Benjamin Tooke and John Crook, printers to the King's most excellent Majestie; and are to be sold by Mary Crook and Andrew Crook at His Majesties printing-house in Skinner-Row,</publisher>
-         <pubPlace>Dublin :</pubPlace>
-         <date when="1681">1681.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Reproduction of original in the Trinity College Library, Dublin, Ireland.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>An address from the justices of the peace of the county of Middlesex as it was ordered by the court at Hicks's Hall, and humbly presented to His Majesty by the body of the said justices, on Monday, the eighteenth of April, 1681. With His Majesties gracious answer.</title>
+      <author>England and Wales. Sovereign (1660-1685 : Charles II)</author>
+    </titleStmt>
+    <extent>4 p.   </extent>
+    <publicationStmt>
+      <publisher>reprinted by <persName type="printer">Benjamin Tooke</persName> and <persName type="printer">John Crook</persName>, printers to <persName type="patron">the King's most excellent Majestie;</persName> and are to be sold by <persName type="bookseller">Mary Crook</persName> and <persName type="bookseller">Andrew Crook</persName> at <placeName>His Majesties printing-house in Skinner-Row</placeName>,</publisher>
+      <pubPlace>Dublin :</pubPlace>
+      <date when="1681">1681.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Reproduction of original in the Trinity College Library, Dublin, Ireland.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Benjamin Tooke</persName>
+    </person>
+    <person type="printer">
+      <persName>John Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Andrew Crook</persName>
+    </person>
+    <person type="bookseller">
+      <persName>Mary Crook</persName>
+    </person>
+    <person type="patron">
+      <persName>the King's most excellent Majestie;</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>His Majesties printing-house in Skinner-Row</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

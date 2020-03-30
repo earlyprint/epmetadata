@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>At Edinburgh, the nineteenth day of November, one thousand six hundred and sixty one, the Lords of his Majesties Privy Council considering that since the reformation and establishment of the Protestant religion within this kingdom, ...</title>
-         <author>Scotland. Privy Council.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>printed by Evan Tyler, printer to the Kings most Excellent Majesty,</publisher>
-         <pubPlace>Edinburgh :</pubPlace>
-         <date when="1661">1661.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Steele does not provide a notation. Notation on DFo copy: and and the.</note>
-         <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>At Edinburgh, the nineteenth day of November, one thousand six hundred and sixty one, the Lords of his Majesties Privy Council considering that since the reformation and establishment of the Protestant religion within this kingdom, ...</title>
+      <author>Scotland. Privy Council.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>printed by <persName type="printer">Evan Tyler</persName>, printer to <persName type="patron">the Kings most Excellent Majesty</persName>,</publisher>
+      <pubPlace>Edinburgh :</pubPlace>
+      <date when="1661">1661.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Steele does not provide a notation. Notation on DFo copy: and and the.</note>
+      <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>Evan Tyler</persName>
+    </person>
+    <person type="patron">
+      <persName>the Kings most Excellent Majesty</persName>
+    </person>
+  </listPerson>
 </sourceDesc>

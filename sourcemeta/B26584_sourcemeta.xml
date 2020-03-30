@@ -1,19 +1,35 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>A full and clear account the scripture gives of the Deity and all the mistakes removed relating thereunto : proved that the heaven of heavens and the fall of angels was before the six days creation : with an account where the being of Hell is / by M. Marsin.</title>
-         <author>Marsin, M.</author>
-      </titleStmt>
-      <extent>[2], 92 p.   </extent>
-      <publicationStmt>
-         <publisher>Printed and sold by John Gouge ... at Mrs. Fabian ... at John Clarks ... and at John Gwilliam's ...,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1700">1700.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Advertisement: p. 92.</note>
-         <note>Reproduction of original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>A full and clear account the scripture gives of the Deity and all the mistakes removed relating thereunto : proved that the heaven of heavens and the fall of angels was before the six days creation : with an account where the being of Hell is / by M. Marsin.</title>
+      <author>Marsin, M.</author>
+    </titleStmt>
+    <extent>[2], 92 p.   </extent>
+    <publicationStmt>
+      <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">John Gouge</persName></persName> ... at Mrs. Fabian ... at John Clarks ... and at <placeName>John Gwilliam's</placeName> ...,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1700">1700.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Advertisement: p. 92.</note>
+      <note>Reproduction of original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="printer">
+      <persName>John Gouge</persName>
+    </person>
+    <person type="bookseller">
+      <persName>John Gouge</persName>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place type="location">
+      <placeName>John Gwilliam's</placeName>
+    </place>
+    <place type="location">
+      <placeName>Mrs. Fabianat John Clarks</placeName>
+    </place>
+  </listPlace>
 </sourceDesc>

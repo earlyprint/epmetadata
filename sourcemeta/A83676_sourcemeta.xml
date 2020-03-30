@@ -1,19 +1,27 @@
 <?xml-model href="../schema/sourceDesc_fragment.rnc" type="application/relax-ng-compact-syntax"?>
 <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <biblFull>
-      <titleStmt>
-         <title>Die Veneris, 24 Augusti, 1649. A declaration of the Commons assembled in Parliament, declaring all persons who have served the Parliament of England in Ireland, and have betrayed their trust, or have or shall adhere to, or ayd and assist Charls Stuart, son to the late King, to be traytors &amp; rebels.</title>
-         <author>England and Wales. Parliament. House of Commons.</author>
-      </titleStmt>
-      <extent>1 sheet ([1] p.)   </extent>
-      <publicationStmt>
-         <publisher>Printed for Edward Husband, Printer to the Parliament of England,</publisher>
-         <pubPlace>London :</pubPlace>
-         <date when="1649">1649.</date>
-      </publicationStmt>
-      <notesStmt>
-         <note>Order to print signed: Hen: Scobell, Cleric. Parliamenti.</note>
-         <note>Reproduction of the original in the British Library.</note>
-      </notesStmt>
-   </biblFull>
+  <biblFull>
+    <titleStmt>
+      <title>Die Veneris, 24 Augusti, 1649. A declaration of the Commons assembled in Parliament, declaring all persons who have served the Parliament of England in Ireland, and have betrayed their trust, or have or shall adhere to, or ayd and assist Charls Stuart, son to the late King, to be traytors &amp; rebels.</title>
+      <author>England and Wales. Parliament. House of Commons.</author>
+    </titleStmt>
+    <extent>1 sheet ([1] p.)   </extent>
+    <publicationStmt>
+      <publisher>Printed for <persName type="publisher">Edward Husband</persName>, Printer to <persName type="patron">the Parliament of England</persName>,</publisher>
+      <pubPlace>London :</pubPlace>
+      <date when="1649">1649.</date>
+    </publicationStmt>
+    <notesStmt>
+      <note>Order to print signed: Hen: Scobell, Cleric. Parliamenti.</note>
+      <note>Reproduction of the original in the British Library.</note>
+    </notesStmt>
+  </biblFull>
+  <listPerson>
+    <person type="publisher">
+      <persName>Edward Husband</persName>
+    </person>
+    <person type="patron">
+      <persName>the Parliament of England</persName>
+    </person>
+  </listPerson>
 </sourceDesc>
