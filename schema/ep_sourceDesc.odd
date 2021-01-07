@@ -29,6 +29,19 @@
                 <moduleRef key="header"/>
                 <moduleRef key="textstructure"/>
                 <moduleRef key="namesdates"/>
+                <elementSpec ident="author" mode="change">
+                    <attList>
+                        <attDef ident="gender" mode="add"><datatype><data xmlns="http://relaxng.org/ns/structure/1.0" type="string"/></datatype></attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="person" mode="change">
+                    <classes mode="change">
+                        <memberOf key="att.typed" mode="add"/>
+                    </classes>
+                    <attList>
+                        <attDef ident="gender" mode="add"><datatype><data xmlns="http://relaxng.org/ns/structure/1.0" type="string"/></datatype></attDef>
+                    </attList>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>
