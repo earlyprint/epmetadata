@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A Yorkshire Tragedy</title>
+      <author>anon.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A12030</idno>
+      <idno type="estcid">S106334</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A Yorkshire tragedy Not so new as lamentable and true. Acted by his Maiesties Players at the Globe. VVritten by VV. Shakspeare.</title>
+          <author gender="M">Shakespeare, William, 1564-1616.</author>
+        </titleStmt>
+        <extent>[32] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">R[ichard] B[radock]</persName> for <persName type="publisher">Thomas Pauier</persName> and are to bee sold at <placeName>his shop on Cornhill, neere tot he [sic] exchange</placeName>,</publisher>
+          <pubPlace>At London :</pubPlace>
+          <date when="1608">1608.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Not in fact by Shakespeare.</note>
+          <note>Mostly in verse.</note>
+          <note>Printer's name from STC.</note>
+          <note>Signatures: A-D⁴.</note>
+          <note>Running title reads: A Yorkshiere tragedy.</note>
+          <note>The last leaf is blank.</note>
+          <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Thomas Pauier</persName>
+        </person>
+        <person type="printer">
+          <persName>R[ichard] B[radock]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Shakespeare, William,</persName>
+          <birth>1564</birth>
+          <death>1616</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The fruyte of redemcyon</title>
+      <author>Simon, anchorite of London Wall.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A12248</idno>
+      <idno type="estcid">S107849</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The fruyte of redemcyon</title>
+          <author gender="M">Simon, anchorite of London Wall.</author>
+          <author gender="M">Whitford, Richard, fl. 1495-1555?, attributed name. aut</author>
+        </titleStmt>
+        <extent>[48] p. : ill.  </extent>
+        <publicationStmt>
+          <publisher>Enprynted by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+          <pubPlace>[[London] :</pubPlace>
+          <date when="1514">the yere of our lorde god .M.CCCCC. and .xiiii.] [1514]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>By Simon, the Anker of London Wall.</note>
+          <note>Sometimes attributed to Richard Whitford--STC.</note>
+          <note>Imprint from colophon.</note>
+          <note>Signatures: A B⁴ C D⁴.</note>
+          <note>Reproduction of the original in the Cambridge University Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Wynkyn de Worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Simon <roleName>(Anchorite of London Wall)</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Whitford, Richard,</persName>
+          <floruit>active 1495-1555?,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Spiritual life</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="655a">Devotional literature.</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

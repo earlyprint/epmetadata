@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Virgils Eclogues translated into English: by W.L. Gent</title>
+      <title>Bucolica. English</title>
+      <author>Virgil.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A14497</idno>
+      <idno type="estcid">S119264</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Virgils Eclogues translated into English: by W.L. Gent</title>
+          <title>Bucolica. English</title>
+          <author gender="M">Virgil.</author>
+          <author gender="M">Lathum, William.</author>
+          <author gender="M">Vives, Juan Luis, 1492-1540.</author>
+        </titleStmt>
+        <extent>[16], 63, 66-192, [2] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">William Iones</persName>, dwelling in <placeName>Red-crosse-street</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1628">1628.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>W.L. = William Lathum. Translation wrongly attributed to William Lisle.</note>
+          <note>A translation of: Bucolics.</note>
+          <note>In verse.</note>
+          <note>With a translation of the commentary of Juan Luis Vives.</note>
+          <note>With a final leaf of verses.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+          <note>Lacking last leaf.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>William Iones</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Virgil.</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Lathum, William,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Vives, Juan Luis,</persName>
+          <birth>1492</birth>
+          <death>1540.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

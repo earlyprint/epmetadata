@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The school of patience. Written in Latin by H. Drexelius. And faithfully translated into English, by R.S. Gent</title>
+      <title>Gymnasium patientiae. English</title>
+      <author>Drexel, Jeremias, 1581-1638.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A20863</idno>
+      <idno type="estcid">S109941</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The school of patience. Written in Latin by H. Drexelius. And faithfully translated into English, by R.S. Gent</title>
+          <title>Gymnasium patientiae. English</title>
+          <author gender="M">Drexel, Jeremias, 1581-1638.</author>
+          <author>R. S., gent.</author>
+          <author gender="M">Stanford, Robert, attributed name.</author>
+          <author gender="M">Marshall, William, fl. 1617-1650, engraver.</author>
+        </titleStmt>
+        <extent>[14], 545, [1] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Thomas Harper</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1640">M.DC.XL. [1640]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>R.S. = Robert Stanford?.</note>
+          <note>A translation of: Gymnasium patientiae.</note>
+          <note>With an additional title page, engraved, signed: W. Marshall sculpsit.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Thomas Harper</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Drexel, Jeremias,</persName>
+          <birth>1581</birth>
+          <death>1638.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="tr.">
+          <persName>R. S., <roleName>gent.,</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="engraver.">
+          <persName>Marshall, William,</persName>
+          <floruit>active 1617-1650,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Stanford, Robert,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Patience</item>
+          <item n="650x">Religious aspects</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

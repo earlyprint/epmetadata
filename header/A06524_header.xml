@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A treatise, touching the libertie of a Christian. Written in Latin by Doctor Martine Luther. And translated into English by Iames Bell</title>
+      <title>Von der Freiheit eines Christenmenschen. English</title>
+      <author>Luther, Martin, 1483-1546.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06524</idno>
+      <idno type="estcid">S108948</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A treatise, touching the libertie of a Christian. Written in Latin by Doctor Martine Luther. And translated into English by Iames Bell</title>
+          <title>Von der Freiheit eines Christenmenschen. English</title>
+          <author gender="M">Luther, Martin, 1483-1546.</author>
+          <author gender="M">Bell, James, fl. 1551-1596.</author>
+          <author gender="M">Leo X, Pope, 1475-1521.</author>
+        </titleStmt>
+        <extent>[32], 92, [4] p.   </extent>
+        <publicationStmt>
+          <publisher>Imprinted by <persName type="printer">Ralph Newbery</persName> and <persName type="printer">H. Bynneman</persName>,</publisher>
+          <pubPlace>At London :</pubPlace>
+          <date when="1579">Anno 1579.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A translation of a Latin version of: Von der Freiheit eines Christenmenschen.</note>
+          <note>Includes a letter to Pope Leo X dated Wittenberg, 6 Sept. 1520.</note>
+          <note>Cf. Folger catalogue, which gives signatures: A-H.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>H. Bynneman</persName>
+        </person>
+        <person type="printer">
+          <persName>Ralph Newbery</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Luther, Martin,</persName>
+          <birth>1483</birth>
+          <death>1546.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Leo <roleName>Pope,</roleName> <genName>X,</genName></persName>
+          <birth>1475</birth>
+          <death>1521.</death>
+        </person>
+        <person role="added" type="tr.">
+          <persName>Bell, James,</persName>
+          <floruit>active 1551-1596,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Catholic Church</name>
+          </orgName>
+        </org>
+      </listOrg>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Christian life</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="610v">Controversial literature</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

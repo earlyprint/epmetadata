@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Jack vp Lande compyled by the famous Geoffrey Chaucer</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A18565</idno>
+      <idno type="estcid">S104967</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Jack vp Lande compyled by the famous Geoffrey Chaucer</title>
+          <author gender="M">Chaucer, Geoffrey, d. 1400, attributed name.</author>
+        </titleStmt>
+        <extent>[32] p.   </extent>
+        <publicationStmt>
+          <publisher>Prynted [by <persName type="printer">J. Nicolson]</persName> for <persName type="publisher">Ihon Gough</persName>,</publisher>
+          <pubPlace>[[Southwark] :</pubPlace>
+          <date when="1536" cert="low">[1536?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Not in fact by Chaucer.</note>
+          <note>Publisher's name from colophon; publication date conjectured by STC.</note>
+          <note>Signatures: A-B.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Ihon Gough</persName>
+        </person>
+        <person n="printer">
+          <persName>J. Nicolson]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Chaucer, Geoffrey,</persName>
+          <death>-1400,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Catholic Church</name>
+          </orgName>
+        </org>
+      </listOrg>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="610v">Controversial literature.</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="610z 752b">England</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

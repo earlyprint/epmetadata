@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The famous history of Guy Earl of Warwick by Samuel Smithson.</title>
+      <title>Guy of Warwick (Romance)</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A40852</idno>
+      <idno type="estcid">R8795</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The famous history of Guy Earl of Warwick by Samuel Smithson.</title>
+          <title>Guy of Warwick (Romance)</title>
+          <author gender="M">Smithson, Samuel.</author>
+        </titleStmt>
+        <extent>[24] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">F. Coles</persName>, <persName type="publisher">T. Vere</persName>, <persName type="publisher">J. VVright</persName> and <persName type="publisher">J. Clarke</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date notBefore="1600" notAfter="1699">[16--?]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Reproduction of original in Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>F. Coles</persName>
+        </person>
+        <person n="publisher">
+          <persName>J. Clarke</persName>
+        </person>
+        <person n="publisher">
+          <persName>J. VVright</persName>
+        </person>
+        <person n="publisher">
+          <persName>T. Vere</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="subject">
+          <persName>Guy of Warwick (Legendary character)</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Smithson, Samuel,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

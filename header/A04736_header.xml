@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Greenes funeralls. By RB. Gent</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A04736</idno>
+      <idno type="estcid">S111922</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Greenes funeralls. By RB. Gent</title>
+          <author gender="M">Breton, Nicholas, 1545?-1626?, attributed author.</author>
+          <author gender="M">Barnfield, Richard, 1574-1627, attributed author.</author>
+        </titleStmt>
+        <extent>[24] p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">Iohn Danter</persName>, and are to be sold at <placeName>his house in hosier-lane nere holbourne-conduit</placeName>,</publisher>
+          <pubPlace>Printed at London :</pubPlace>
+          <date when="1594">1594.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed to Richard Barnfield and Nicholas Breton.</note>
+          <note>In verse.</note>
+          <note>Signatures: A-C⁴.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Iohn Danter</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Breton, Nicholas,</persName>
+          <birth>1545?</birth>
+          <death>1626?,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Barnfield, Richard,</persName>
+          <birth>1574</birth>
+          <death>1627,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

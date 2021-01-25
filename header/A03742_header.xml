@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Songes and sonettes, written by the right honorable Lorde Henry Haward late Earle of Surrey, and other</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A03742</idno>
+      <idno type="estcid">S106407</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Songes and sonettes, written by the right honorable Lorde Henry Haward late Earle of Surrey, and other</title>
+          <author gender="M">Surrey, Henry Howard, Earl of, 1517?-1547.</author>
+          <author gender="M">Wyatt, Thomas, Sir, 1503?-1542.</author>
+          <author gender="M">Grimald, Nicholas, 1519-1562.</author>
+          <author gender="M">Tottel, Richard, d. 1594.</author>
+        </titleStmt>
+        <extent>117, [3] leaves   </extent>
+        <publicationStmt>
+          <publisher>Apud <persName type="printer">Richardum Tottel.</persName> Cum priuilegio ad imprimendum solum,</publisher>
+          <pubPlace>[London] :</pubPlace>
+          <date when="1557">1557.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In verse.</note>
+          <note>The first edition contained 271 poems, of which 40 are by Surrey, 96 by Sir Thomas Wyatt, 40 by Nicholas Grimald (also sometimes identified as the editor), and 95 by various authors. This is a somewhat different selection.</note>
+          <note>Known as "Tottel's miscellany".</note>
+          <note>Includes index.</note>
+          <note>With a final colophon leaf.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Richardum Tottel.</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Grimald, Nicholas,</persName>
+          <birth>1519</birth>
+          <death>1562.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Surrey, Henry Howard, <roleName>Earl of,</roleName></persName>
+          <birth>1517?</birth>
+          <death>1547.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="comp.">
+          <persName>Tottel, Richard,</persName>
+          <death>-1594,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Wyatt, Thomas, <roleName>Sir,</roleName></persName>
+          <birth>1503?</birth>
+          <death>1542.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

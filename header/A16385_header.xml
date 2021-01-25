@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[Explicit the book of curtesye]</title>
+      <title>Book of curtesye.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A16385</idno>
+      <idno type="estcid">S117348</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>[Explicit the book of curtesye]</title>
+          <title>Book of curtesye.</title>
+        </titleStmt>
+        <extent>[13] leaves   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">William Caxton</persName>,</publisher>
+          <pubPlace>[Westminster :</pubPlace>
+          <date notBefore="1477" notAfter="1478">1477-1478]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Title from last line of text.</note>
+          <note>First line of text reads: Lytyl Iohn syth your tendre enfancye.</note>
+          <note>Place of publication and printer's name from and publication date conjectured by STC.</note>
+          <note>In verse.</note>
+          <note>Reproduction of the original in the Cambridge University Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>William Caxton</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" type="printer.">
+          <persName>Caxton, William,</persName>
+          <floruit>approximately 1422-1491 or 1492,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Etiquette, Medieval</item>
+          <item n="651x">Social life and customs</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a 752b">England</item>
+          <item n="752a">Great Britain</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

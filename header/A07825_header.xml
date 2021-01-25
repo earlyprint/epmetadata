@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A treatise of the nature of God</title>
+      <author>Morton, Thomas, of Berwick.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A07825</idno>
+      <idno type="estcid">S101314</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A treatise of the nature of God</title>
+          <author gender="M">Morton, Thomas, of Berwick.</author>
+        </titleStmt>
+        <extent>[16], 239, [1] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Tho. Creed</persName> for <persName type="publisher">Robert Dexter</persName>, dwelling in <placeName>Pauls Church-yard, at the signe of the Brazen Serpent</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1599">1599.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>By Thomas Morton of Berwick. Erroneously attributed to Bishop Thomas Morton.</note>
+          <note>A variant of the edition with Ralph Jackson named as publisher in the imprint.</note>
+          <note>Some print faded, some print show-through, and some pages stained and torn.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Robert Dexter</persName>
+        </person>
+        <person type="printer">
+          <persName>Tho. Creed</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Morton, Thomas, <roleName>of Berwick.</roleName></persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">God</item>
+          <item n="650x">Attributes</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

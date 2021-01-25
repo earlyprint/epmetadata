@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The ambassador</title>
+      <title>Ambassadeur. English</title>
+      <author>Hotman, Jean, seigneur de Villers-Saint-Paul, 1552-1636.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A03724</idno>
+      <idno type="estcid">S104251</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The ambassador</title>
+          <title>Ambassadeur. English</title>
+          <author gender="M">Hotman, Jean, seigneur de Villers-Saint-Paul, 1552-1636.</author>
+          <author gender="M">Shawe, James.</author>
+        </titleStmt>
+        <extent>[158] p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">V[alentine] S[immes]</persName> for <persName type="publisher">Iames Shawe</persName>,</publisher>
+          <pubPlace>Printed at London :</pubPlace>
+          <date when="1603">1603.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>The last name of the author, Jean Hotman, appears on A2v.</note>
+          <note>A translation of: L'ambassadeur.</note>
+          <note>Editor's dedication signed: I.S., i.e. James Shawe.</note>
+          <note>Printer's name from STC.</note>
+          <note>Signatures: A⁴ B-D E (-E8, +L2.3) F-K L⁴ (-L2.3).</note>
+          <note>The last leaf is blank except for marginal rules.</note>
+          <note>L2.3 cancel E8. Variant 1: L2.3 in original position, E8 uncancelled. Variant 2: L2.3 missing, E8 uncancelled.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Iames Shawe</persName>
+        </person>
+        <person type="printer">
+          <persName>V[alentine] S[immes]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Hotman, Jean, <roleName>seigneur de Villers-Saint-Paul,</roleName></persName>
+          <birth>1552</birth>
+          <death>1636.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="ed.">
+          <persName>Shawe, James,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Ambassadors</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

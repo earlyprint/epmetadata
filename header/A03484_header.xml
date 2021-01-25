@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Lac puero[rum]. M. holti mylke for chyldren</title>
+      <author>Holte, John, grammarian.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A03484</idno>
+      <idno type="estcid">S109419</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Lac puero[rum]. M. holti mylke for chyldren</title>
+          <author gender="M">Holte, John, grammarian.</author>
+          <author gender="M">More, Thomas, Sir, Saint, 1478-1535.</author>
+        </titleStmt>
+        <extent>[96] p. : ill.  </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">Wynkyn de worde</persName>, in <placeName>Fletestrete in the sygne of the sonne</placeName>,</publisher>
+          <pubPlace>[Enprynted at London :</pubPlace>
+          <date when="1508">[1508]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Imprint from colophon; publication date from STC.</note>
+          <note>Includes two epigrams by Sir Thomas More.</note>
+          <note>In this edition the 95mm. textura types have normal w² --STC.</note>
+          <note>Signatures: A-H·⁴.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Wynkyn de worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Holte, John <roleName>(Grammarian)</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>More, Thomas, <roleName>Sir,</roleName></persName>
+          <birth>1478</birth>
+          <death>1535.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Latin language</item>
+          <item n="650x">Grammar.</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

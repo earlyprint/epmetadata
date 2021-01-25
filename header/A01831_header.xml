@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The regiment of life, whereunto is added a treatise of the pestilence, with the boke of children, newly corrected and enlarged by T. Phayre</title>
+      <title>Sommaire et entretènement de vie. English</title>
+      <author>Goeurot, Jean.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A01831</idno>
+      <idno type="estcid">S109504</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The regiment of life, whereunto is added a treatise of the pestilence, with the boke of children, newly corrected and enlarged by T. Phayre</title>
+          <title>Sommaire et entretènement de vie. English</title>
+          <author gender="M">Goeurot, Jean.</author>
+          <author gender="M">Phayer, Thomas, 1510?-1560.</author>
+          <author>Houssemaine, Nicolas de, d. 1523. Régime contre la peste.</author>
+        </titleStmt>
+        <extent>[400] p.   </extent>
+        <publicationStmt>
+          <publisher>In fletestrete at <placeName>the signe of the Sunne ouer against the condite</placeName>, by <persName type="printer">Edwarde whitchurche</persName>,</publisher>
+          <pubPlace>[Imprinted at Lo[n]don :</pubPlace>
+          <date when="1550">1.5.5.0. [i.e. 1550]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A translation, by Thomas Phayer, of: "Sommaire et entretènement de vie" by Jean Goeurot and "Régime contre la peste" by Nicolas de Houssemaine, each with separate foliation but with continuous register. "The booke of children" is a compilation of several authors.</note>
+          <note>Imprint from colophon.</note>
+          <note>Signatures: A-2B (2B8 is blank).</note>
+          <note>Reproduction of the original in the Cambridge University Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Edwarde whitchurche</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Goeurot, Jean.</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Houssemaine, Nicolas de,</persName>
+          <death>-1523.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Phayer, Thomas,</persName>
+          <birth>1510?</birth>
+          <death>1560,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list type="general">
+          <item n="650a">Medicine</item>
+          <item n="650a">Pediatrics</item>
+          <item n="650a">Plague</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

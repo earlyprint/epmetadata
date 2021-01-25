@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The epistles of Phalaris translated into English from the original Greek by S. Whately ... ; to which is added Sir W. Temple's Character of the epistles of Phalaris ; together with an appendix of some other epistles lately discovered in a French ms.</title>
+      <author>Phalaris, Tyrant of Agrigentum, 6th cent. B.C.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A54647</idno>
+      <idno type="estcid">R36673</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The epistles of Phalaris translated into English from the original Greek by S. Whately ... ; to which is added Sir W. Temple's Character of the epistles of Phalaris ; together with an appendix of some other epistles lately discovered in a French ms.</title>
+          <author gender="M">Phalaris, Tyrant of Agrigentum, 6th cent. B.C.</author>
+          <author gender="M">Whately, Stephen.</author>
+          <author gender="M">Temple, William, Sir, 1628-1699.</author>
+        </titleStmt>
+        <extent>[9], vi-xiii, 223 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Fr. Leach</persName> ... for <persName type="publisher">the author</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1699">1699.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Index: p. [191]-[192]</note>
+          <note>Errata: p. [9]</note>
+          <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>the author</persName>
+        </person>
+        <person n="printer">
+          <persName>Fr. Leach</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Pseudo-Phalaris.</persName>
+          <sex value=""/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Phalaris, <roleName>Tyrant of Agrigentum,</roleName></persName>
+          <floruit>active 6th century B.C.,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Temple, William, <roleName>Sir,</roleName></persName>
+          <birth>1628</birth>
+          <death>1699.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="tr.">
+          <persName>Whately, Stephen,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

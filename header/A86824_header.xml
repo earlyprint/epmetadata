@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Poems by John Hall.</title>
+      <author>Hall, John, 1627-1656.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A86824</idno>
+      <idno type="estcid">R202359</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Poems by John Hall.</title>
+          <author gender="M">Hall, John, 1627-1656.</author>
+          <author gender="M">Marshall, William, fl. 1617-1650, engraver.</author>
+        </titleStmt>
+        <extent>[16], 104 p., plate : port.  </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">[E.G.</persName>, <persName type="printer">London, and] Roger Daniel</persName> printer to <persName type="patron">the Universitie</persName>, <persName type="patron">1646. For J. Rothwell</persName> at <placeName>the Sun in Pauls Church-yard [London</placeName>,</publisher>
+          <pubPlace>Cambridge :</pubPlace>
+          <date when="1647">1647]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>"The second booke of divine poems" has separate title page with imprint "London. Printed by E.G. for J. Rothwell. 1647."; pagination and register are continuous.</note>
+          <note>The portrait of Hall is signed: W. Marshall sculpsit.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>London, and] Roger Daniel</persName>
+        </person>
+        <person type="printer">
+          <persName>[E.G.</persName>
+        </person>
+        <person type="patron">
+          <persName>1646. For J. Rothwell</persName>
+        </person>
+        <person type="patron">
+          <persName>the Universitie</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Hall, John,</persName>
+          <birth>1627</birth>
+          <death>1656.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="engraver.">
+          <persName>Marshall, William,</persName>
+          <floruit>active 1617-1650,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">Cambridge.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

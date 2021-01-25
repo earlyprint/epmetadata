@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The reformed school by John Dury.</title>
+      <author>Dury, John, 1596-1680.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A37084</idno>
+      <idno type="estcid">R8953</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The reformed school by John Dury.</title>
+          <author gender="M">Dury, John, 1596-1680.</author>
+          <author gender="M">Hartlib, Samuel, d. 1662.</author>
+        </titleStmt>
+        <extent>[12], 89, [3] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">R.D.</persName> for <persName type="publisher">Richard Wodnothe</persName> ...,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1649" cert="low">[1649?]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>"The publisher to the reader" (p. [3-11]) is signed: Samuel Hartlib.</note>
+          <note>Date of publication from Wing.</note>
+          <note>Reproduction of original in British Library.</note>
+          <note>"A copy of Mr. John Dury's letter to Samuel Hartlib": [3] p. at end.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Richard Wodnothe</persName>
+        </person>
+        <person type="printer">
+          <persName>R.D.</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Dury, John,</persName>
+          <birth>1596</birth>
+          <death>1680.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Hartlib, Samuel,</persName>
+          <death>-1662.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Education</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

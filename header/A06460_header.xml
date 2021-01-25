@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Tho. Lupsets workes</title>
+      <title>Works</title>
+      <author>Lupset, Thomas, 1495?-1530.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06460</idno>
+      <idno type="estcid">S109651</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Tho. Lupsets workes</title>
+          <title>Works</title>
+          <author gender="M">Lupset, Thomas, 1495?-1530.</author>
+          <author gender="M">Elyot, Thomas, Sir, 1490?-1546.</author>
+          <author>Pico della Mirandola, Giovanni, 1463-1494. Twelve rules. English.</author>
+        </titleStmt>
+        <extent>212 leaves   </extent>
+        <publicationStmt>
+          <publisher>[In ædibus Thomæ Bertheleti typis <persName type="printer">impress.]</persName>,</publisher>
+          <pubPlace>Londini :</pubPlace>
+          <date when="1546">Anno. M.D.XLVI. [1546]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Includes a translation, by Sir Thomas Elyot, of the "Twelve rules" of Giovanni Pico della Mirandola.</note>
+          <note>Printer's name from colophon.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>impress.]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Lupset, Thomas,</persName>
+          <birth>1495?</birth>
+          <death>1530.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Elyot, Thomas, <roleName>Sir,</roleName></persName>
+          <birth>1490?</birth>
+          <death>1546,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Pico della Mirandola, Giovanni,</persName>
+          <birth>1463</birth>
+          <death>1494.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

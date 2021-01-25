@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A pastoral letter from the four Catholic bishops to the lay-Catholics of England</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A56565</idno>
+      <idno type="estcid">R13713</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A pastoral letter from the four Catholic bishops to the lay-Catholics of England</title>
+          <author gender="M">Leyburn, John, 1620-1702.</author>
+          <author gender="M">Giffard, Bonaventure, 1642-1734.</author>
+          <author gender="M">Smith, James, 1645-1711.</author>
+          <author gender="M">Ellis, Philip, 1652-1726.</author>
+        </titleStmt>
+        <extent>8 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Henry Hills</persName> ...,</publisher>
+          <pubPlace>[London :</pubPlace>
+          <date when="1688">1688]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Caption title.</note>
+          <note>Imprint from colophon.</note>
+          <note>Signed at end: John Bishop of Adramite. V.A., Bonaventure Bishop of Madaura. V.A., Philip Bishop of Aureliople. V.A., James Bishop of Callipoli. V.A.</note>
+          <note>Reproduction of original in Cambridge University Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Henry Hills</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Leyburn, John,</persName>
+          <birth>1620</birth>
+          <death>1702.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Giffard, Bonaventure,</persName>
+          <birth>1642</birth>
+          <death>1734.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Smith, James,</persName>
+          <birth>1645</birth>
+          <death>1711.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Ellis, Philip,</persName>
+          <birth>1652</birth>
+          <death>1726.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Catholic Church</name>
+          </orgName>
+        </org>
+      </listOrg>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="610z 752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

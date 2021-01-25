@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The history of the world</title>
+      <author>Raleigh, Sir, Walter, 1552?-1618.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A10357</idno>
+      <idno type="estcid">S112960</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The history of the world</title>
+          <author gender="M">Raleigh, Sir, Walter, 1552?-1618.</author>
+        </titleStmt>
+        <extent>[146], 1430 p. : maps  </extent>
+        <publicationStmt>
+          <publisher>Printed [by <persName type="printer">William Stansby]</persName> for <persName type="publisher">Walter Burre[</persName>, and are to be sold at <placeName>his Shop in Paules Church-yard at the signe of the Crane</placeName>,</publisher>
+          <pubPlace>At London :</pubPlace>
+          <date when="1617">1614 [i.e. 1617]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In two parts.</note>
+          <note>Printer's name, publisher's address, and actual date of publication from colophon.</note>
+          <note>Contains 8 folding (double-page) maps.</note>
+          <note>This engraved title page also found in STC 20637-41.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Walter Burre[</persName>
+        </person>
+        <person type="printer">
+          <persName>William Stansby]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Raleigh, Walter, <roleName>Sir,</roleName></persName>
+          <birth>1552?</birth>
+          <death>1618.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="publisher.">
+          <persName>Burre, Walter,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Stansby, William,</persName>
+          <floruit>active 1597-1638,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">History, Ancient</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

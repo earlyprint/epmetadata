@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Tabula</title>
+      <title>Chronicles of England.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A23592</idno>
+      <idno type="estcid">S121402</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Tabula</title>
+          <title>Chronicles of England.</title>
+          <author>Higden, Ranulf, d. 1364. Polycronicon. English. Selections.</author>
+          <author gender="M">Trevisa, Johncd. 1402.</author>
+        </titleStmt>
+        <extent>[194] leaves   </extent>
+        <publicationStmt>
+          <publisher>[Enprynted by <persName type="printer">one some tyme scole mayster of saynt Albons, vppon whoos soule god haue mercy. Amen. And newely</persName> in <placeName>the yere of our lorde god. M.CCCCC.ii. Enprynted in fleete strete in [the] sygne of the sone. By me Wynkyn de Worde</placeName>,</publisher>
+          <pubPlace>[London :</pubPlace>
+          <date when="1502">[1502]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Printer's name and publication date from colophon.</note>
+          <note>Heading, 2a2r: Here begynneth a short [and] a breue table on these Cronycles, .. .</note>
+          <note>Also known as "Brut".</note>
+          <note>In two parts, each with separate register; part 2 reprints STC 13440b: Higden, Ranulf.  "The descrypcyon of Englonde" (selections, translated by John Trevisa, from "Polycronicon").</note>
+          <note>Signatures: 2A⁶, a-z⁶, [par.]⁶ 2a-2b⁶ 2c A-C⁶ D⁴.</note>
+          <note>Leaves 2A1, 2C8 and D4 are blank.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>one some tyme scole mayster of saynt Albons, vppon whoos soule god haue mercy. Amen. And newely</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Higden, Ranulf,</persName>
+          <death>-1364.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Trevisa, Johncd. 1402,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="651x">Description and travel</item>
+          <item n="651x">History</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="651y">To 1485</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a 752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

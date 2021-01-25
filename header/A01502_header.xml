@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Antonius</title>
+      <author>Garnier, Robert</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A01502</idno>
+      <idno type="estcid">S105701</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The tragedie of Antonie. Doone into English by the Countesse of Pembroke</title>
+          <title>Marc Antoine. English</title>
+          <author gender="M">Garnier, Robert, 1544-1590.</author>
+          <author gender="F">Pembroke, Mary Sidney Herbert, Countess of, 1561-1621.</author>
+        </titleStmt>
+        <extent>[112] p.   </extent>
+        <publicationStmt>
+          <publisher>[By <persName type="printer">P. Short]</persName> for <persName type="publisher">William Ponsonby</persName>,</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1595">1595.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A translation of: Garnier, Robert.  Marc Antoine.</note>
+          <note>Colophon reads "Printed at London by P.S. for William Ponsonby. 1595."; printer's name from STC.</note>
+          <note>Signatures: A-G.</note>
+          <note>The last leaf is blank.</note>
+          <note>Running title reads: Antonius.</note>
+          <note>First published with Philippe de Mornay's "A discourse of life and death", 1592.</note>
+          <note>Variant: title page has "Done into englishe".</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>William Ponsonby</persName>
+        </person>
+        <person type="printer">
+          <persName>P. Short]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Garnier, Robert,</persName>
+          <birth>1544</birth>
+          <death>1590.</death>
+          <sex value="M"/>
+    </person>
+        <person role="subject">
+          <persName>Antonius, Marcus,</persName>
+          <floruit>83 B.C.?-30 B.C.</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Pembroke, Mary Sidney Herbert, <roleName>Countess of,</roleName></persName>
+          <birth>1561</birth>
+          <death>1621,</death>
+          <sex value="F"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="600v">Drama</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

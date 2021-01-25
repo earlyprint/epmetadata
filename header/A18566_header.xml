@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[The Ploughman's tale]</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A18566</idno>
+      <idno type="estcid">S286</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>[The Ploughman's tale]</title>
+          <author gender="M">Chaucer, Geoffrey, d. 1400.</author>
+        </titleStmt>
+        <extent>[38]+ p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">Thomas Godfray</persName>,</publisher>
+          <pubPlace>Printed at London :</pubPlace>
+          <date when="1535" cert="low">[ca. 1535]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In verse.</note>
+          <note>Title suggested by STC (2nd ed.).</note>
+          <note>Sometimes attributed to Geoffrey Chaucer.</note>
+          <note>Imprint from colophon.</note>
+          <note>Date of imprint suggested by STC (2nd ed.).</note>
+          <note>"Cum priuilegio"--Colophon.</note>
+          <note>Signatures: A⁶ B⁴ C⁶ D⁴.</note>
+          <note>Marginal notes.</note>
+          <note>Imperfect: t.p. lacking.</note>
+          <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Thomas Godfray</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Brampton, Thomas,</persName>
+          <floruit>active 1414,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Chaucer, Geoffrey,</persName>
+          <death>-1400,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

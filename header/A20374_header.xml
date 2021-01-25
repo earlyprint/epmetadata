@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[An apologie of the Earle of Essex]</title>
+      <author>Essex, Robert Devereux, Earl of, 1566-1601.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A20374</idno>
+      <idno type="estcid">S341</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>[An apologie of the Earle of Essex]</title>
+          <author gender="M">Essex, Robert Devereux, Earl of, 1566-1601.</author>
+          <author>Rich, Penelope, Lady, 1562?-1607. Lady Rich to Her Maiestie in the behalfe of the Earle of Essex.</author>
+        </titleStmt>
+        <extent>[37]+ p.   </extent>
+        <publicationStmt>
+          <publisher>For <persName type="publisher">J. Smethwick</persName>?,</publisher>
+          <pubPlace>[London? :</pubPlace>
+          <date when="1600" cert="low">1600?]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Running title.</note>
+          <note>Imprint suggested by STC (2nd ed.).</note>
+          <note>Includes "La. Rich to Her Maiestie in the behalfe of the Earle of Essex."</note>
+          <note>Imperfect: t.p. lacking; tightly bound, with slight loss of print.</note>
+          <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>J. Smethwick</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Essex, Robert Devereux, <roleName>Earl of,</roleName></persName>
+          <birth>1566</birth>
+          <death>1601.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Rich, Penelope, <roleName>Lady,</roleName></persName>
+          <birth>1562?</birth>
+          <death>1607.</death>
+          <sex value="F"/>
+    </person>
+        <person role="added">
+          <persName>Bacon, Anthony,</persName>
+          <birth>1558</birth>
+          <death>1601.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="651x">Politics and government</item>
+          <item n="651x">History</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="651y">1558-1603</item>
+          <item n="651y">Elizabeth, 1558-1603</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a 752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

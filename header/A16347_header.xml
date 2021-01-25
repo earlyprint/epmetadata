@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Incipit Speculum vite Cristi</title>
+      <title>Meditationes vitae Christi. English.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A16347</idno>
+      <idno type="estcid">S111579</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Incipit Speculum vite Cristi</title>
+          <title>Meditationes vitae Christi. English.</title>
+          <author gender="M">Love, Nicholas, fl. 1410.</author>
+          <author gender="M">Bonaventure, Saint, Cardinal, ca. 1217-1274, attributed name.</author>
+        </titleStmt>
+        <extent>[292] p. : ill.  </extent>
+        <publicationStmt>
+          <publisher>[Enprynted by <persName type="printer">wynkyn the worth [sic]]</persName>,</publisher>
+          <pubPlace>[Impressu[m] Westmonasterii :</pubPlace>
+          <date when="1494">Anno d[omi]ni M. CCCC. lxxxxiiii] [1494]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Caption title on a2r.</note>
+          <note>Sometimes attributed to St. Bonaventure.</note>
+          <note>A translation, by Nicholas Love, of: Meditationes vitae Christi.</note>
+          <note>Place of publication and date from colophon; printer's name on t5v.</note>
+          <note>Printer's device (McKerrow 1b) on t6v.</note>
+          <note>Signatures: a-q r-t⁶.</note>
+          <note>Reproduction of the original in the British Library (Holkham Hall copy).</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>wynkyn the worth [sic]]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="subject">
+          <persName>Jesus Christ</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Bonaventure, <roleName>Saint, Cardinal,</roleName></persName>
+          <floruit>approximately 1217-1274,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="translator.">
+          <persName>Love, Nicholas,</persName>
+          <floruit>active 1410,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="600v">Biography</item>
+          <item n="600v">Meditations</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

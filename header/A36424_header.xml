@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A voyage to the world of Cartesius written originally in French, and now translated into English.</title>
+      <title>Voyage du monde de Descartes. English</title>
+      <author>Daniel, Gabriel, 1649-1728.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A36424</idno>
+      <idno type="estcid">R5098</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A voyage to the world of Cartesius written originally in French, and now translated into English.</title>
+          <title>Voyage du monde de Descartes. English</title>
+          <author gender="M">Daniel, Gabriel, 1649-1728.</author>
+          <author gender="M">Taylor, Thomas, 1669 or 70-1735.</author>
+          <author gender="M">Defoe, Daniel, 1661?-1731.</author>
+        </titleStmt>
+        <extent>[16], 298, [6] p. : ill.  </extent>
+        <publicationStmt>
+          <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">Thomas Bennet</persName></persName> ...,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1692">1692.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Translation of: Voyage du monde Descartes.</note>
+          <note>Dedication signed: T. Taylor.</note>
+          <note>Sometimes attributed to Daniel Defoe.</note>
+          <note>First edition in English.</note>
+          <note>Errata: p. [15].</note>
+          <note>Advertisement: p. [16].</note>
+          <note>Reproduction of original in Huntington Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Thomas Bennet</persName>
+        </person>
+        <person type="bookseller">
+          <persName>Thomas Bennet</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Daniel, Gabriel,</persName>
+          <birth>1649</birth>
+          <death>1728.</death>
+          <sex value="M"/>
+    </person>
+        <person role="subject">
+          <persName>Descartes, René,</persName>
+          <birth>1596</birth>
+          <death>1650</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Taylor, Thomas,</persName>
+          <floruit>1669 or 1670-1735,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Philosophy</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

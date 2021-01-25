@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The Countesse of Pembrokes Arcadia, written by Sir Philippe Sidnei</title>
+      <title>Arcadia</title>
+      <author>Sidney, Philip, Sir, 1554-1586.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A12229</idno>
+      <idno type="estcid">S110920</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The Countesse of Pembrokes Arcadia, written by Sir Philippe Sidnei</title>
+          <title>Arcadia</title>
+          <author gender="M">Sidney, Philip, Sir, 1554-1586.</author>
+          <author gender="M">Gwinne, Matthew, 1558?-1627, attributed name.</author>
+          <author gender="M">Greville, Fulke, Baron Brooke, 1554-1628, attributed name.</author>
+        </titleStmt>
+        <extent>[4], 360 leaves   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Iohn Windet</persName> for <persName type="publisher">william Ponsonbie</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1590">Anno Domini, 1590.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Possibly edited by Matthew Gwinne and Fulke Greville.</note>
+          <note>The first leaf is blank.</note>
+          <note>A4v has a printer's note. Variant: A4v blank.</note>
+          <note>A variant (STC 22539a) lacks printer's name in imprint.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>william Ponsonbie</persName>
+        </person>
+        <person n="printer">
+          <persName>Iohn Windet</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Sidney, Philip, <roleName>Sir,</roleName></persName>
+          <birth>1554</birth>
+          <death>1586.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Gwinne, Matthew,</persName>
+          <birth>1558?</birth>
+          <death>1627,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Greville, Fulke, <roleName>Baron Brooke,</roleName></persName>
+          <birth>1554</birth>
+          <death>1628,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

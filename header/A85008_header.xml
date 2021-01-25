@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Antheologia or The speech of flowers.</title>
+      <author>Fuller, Thomas, 1608-1661.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A85008</idno>
+      <idno type="estcid">R209092</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Antheologia or The speech of flowers.</title>
+          <author gender="M">Fuller, Thomas, 1608-1661.</author>
+          <author gender="M">Stafford, John, bookseller in London,</author>
+        </titleStmt>
+        <extent>[8], 90 p. : ill.  </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">John Stafford</persName>, and are to be sold at <placeName>his house, at the George at Fleet-bridge.</placeName>,</publisher>
+          <pubPlace>Lonon, [sic] :</pubPlace>
+          <date when="1655">1655.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed to Thomas Fuller. Dedication signed: J.S. [i.e. John Stafford?].</note>
+          <note>With engraved frontispiece representing a garden.</note>
+          <note>A discussion in the form of a dialogue between flowers with some reference to events in Turkish occupied Greece.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>John Stafford</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Fuller, Thomas,</persName>
+          <birth>1608</birth>
+          <death>1661,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Stafford, John, <roleName>bookseller in London,</roleName></persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[Here endeth the boke of Iohn Maunduyle knyght of wayes to Ierusalem [and] of marueylys of y5xx]</title>
+      <title>Itinerarium. English</title>
+      <author>Mandeville, John, Sir.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06811</idno>
+      <idno type="estcid">S120604</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>[Here endeth the boke of Iohn Maunduyle knyght of wayes to Ierusalem [and] of marueylys of y5xx]</title>
+          <title>Itinerarium. English</title>
+          <author gender="M">Mandeville, John, Sir.</author>
+          <author gender="M">Jean, d'Outremeuse, 1338-ca. 1399, attributed name.</author>
+        </titleStmt>
+        <extent>[144] p.   </extent>
+        <publicationStmt>
+          <publisher>[Emprented by <persName type="printer">Richard Pynson</persName>,</publisher>
+          <pubPlace>[London] :</pubPlace>
+          <date when="1496">[1496]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed to John Mandeville, but in fact an English version of a text known as "Itinerarium". The original was probably written in Anglo-Norman French and has been attributed to Jean d'Outremeuse.</note>
+          <note>Title from k4r; publication date from STC; printer's name from colophon.</note>
+          <note>Signatures: a-i.</note>
+          <note>Imperfect; title page, other leaves lacking.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Richard Pynson</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Mandeville, John, <roleName>Sir.</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Jean, <roleName>d'Outremeuse,</roleName></persName>
+          <floruit>1338-approximately 1399,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Pynson, Richard,</persName>
+          <death>-1530,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Voyages and travels</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

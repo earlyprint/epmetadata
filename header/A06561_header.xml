@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The p[ro]uerbes of Lydgate</title>
+      <author>Lydgate, John, 1370?-1451?</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06561</idno>
+      <idno type="estcid">S120597</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The p[ro]uerbes of Lydgate</title>
+          <author gender="M">Lydgate, John, 1370?-1451?</author>
+          <author>Boccaccio, Giovanni, 1313-1375. De casibus virorum illustrium. aut</author>
+        </titleStmt>
+        <extent>[14] leaves   </extent>
+        <publicationStmt>
+          <publisher>In Flete strete at <placeName>the sygne of the sonne</placeName> by <persName type="printer">Wykyn de Worde</persName>,</publisher>
+          <pubPlace>[Enprynted at London :</pubPlace>
+          <date when="1510" cert="low">[1510?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Consists largely of extracts from STC 3175: Boccaccio, Giovanni.  De casibus illustrium virorum.</note>
+          <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+          <note>Colophon: Here endeth the prouerbes of Lydgate vpon the fall of prynces.</note>
+          <note>Signatures: a⁶ b.</note>
+          <note>Reproduction of the original in the Pierpont Morgan Library, New York City.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Wykyn de Worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Lydgate, John,</persName>
+          <birth>1370?</birth>
+          <death>1451?.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Boccaccio, Giovanni,</persName>
+          <birth>1313</birth>
+          <death>1375.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Kings and rulers</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="650v">Poetry</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

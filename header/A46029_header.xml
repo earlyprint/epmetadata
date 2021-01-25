@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>[Tou agiou Ignatiou epistolai. = Sancti Ignatii epistolæ]</title>
+      <author gender="M">Ignatius, Saint, Bishop of Antioch, d. ca. 110.</author>
+      <author gender="M">Pearson, John, 1613-1686.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A46029</idno>
+      <idno type="estcid">R215983</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>[Tou agiou Ignatiou epistolai. = Sancti Ignatii epistolæ]</title>
+          <author gender="M">Ignatius, Saint, Bishop of Antioch, d. ca. 110.</author>
+          <author gender="M">Pearson, John, 1613-1686.</author>
+        </titleStmt>
+        <extent>[2] p.   </extent>
+        <publicationStmt>
+          <publisher>e <persName type="printer">theatro Sheldoniano</persName>,</publisher>
+          <pubPlace>[Oxonii :</pubPlace>
+          <date when="1696">1696]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Title from caption title (page 3); imprint from Wing.</note>
+          <note>With annotations by John Pearson, bishop of Chester.</note>
+          <note>The first four words of the title are in Greek characters.</note>
+          <note>Imperfect: a fragment; first page is numbered '3' and consists only of his letter to the Smyrneans.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>theatro Sheldoniano</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Ignatius, <roleName>Saint, Bishop of Antioch,</roleName></persName>
+          <death>-approximately 110.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="ed.">
+          <persName>Pearson, John,</persName>
+          <birth>1613</birth>
+          <death>1686,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">Oxford.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

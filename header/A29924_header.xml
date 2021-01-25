@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A journey into Spain</title>
+      <author>Brunel, Antoine de, 1622-1696.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A29924</idno>
+      <idno type="estcid">R25951</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A journey into Spain</title>
+          <author gender="M">Brunel, Antoine de, 1622-1696.</author>
+          <author gender="M">Aerssen, François van, 1630-1658.</author>
+        </titleStmt>
+        <extent>[6], 247 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">Henry Herringman</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1670">1670.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A free and abridged translation of "Voyage d'Espagne curieux, historique, et politique."  The authorship has been attributed to François van Aerssen, 1572-1641, and to his grandson François van Aerssen, 1630-1658.  The latter was the traveler, accompanied by Antoine de Brunel, who seems to have been the author (cf. Foulché-Delbose. Bibl. des voyages en Espagne et en Portugal, p. 63-65).</note>
+          <note>Reproduction of original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Henry Herringman</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>[Brunel, Antoine de]</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>[Aerssen, François van,</persName>
+          <birth>1630</birth>
+          <death>1658],</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Aerssen, François van,</persName>
+          <birth>1572</birth>
+          <death>1641,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="651x">Description and travel</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a">Spain</item>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

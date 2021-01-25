@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The Reign of King Edward the Third</title>
+      <author>anon.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A21144</idno>
+      <idno type="estcid">S106297</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The raigne of King Edvvard the third as it hath bin sundrie times plaied about the citie of London.</title>
+          <title>Edward III (Drama)</title>
+        </titleStmt>
+        <extent>[74] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed [by <persName type="printer">T. Scarlet]</persName> for <persName type="publisher">Cuthbert Burby</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1596">1596.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Misattributed to William Shakespeare.</note>
+          <note>In verse.</note>
+          <note>Printer's name from STC.</note>
+          <note>Signatures: [A]⁴ B-I⁴ K²  (-[A]1).</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Cuthbert Burby</persName>
+        </person>
+        <person type="printer">
+          <persName>T. Scarlet]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="subject">
+          <persName>Edward <roleName>King of England,</roleName> <genName>III,</genName></persName>
+          <birth>1312</birth>
+          <death>1377</death>
+        </person>
+        <person role="added">
+          <persName>Shakespeare, William,</persName>
+          <birth>1564</birth>
+          <death>1616.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Scarlett, Thomas,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="bookseller.">
+          <persName>Burby, Cuthbert,</persName>
+          <death>-1607,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="655a">Plays.</item>
+          <item n="600v">Drama.</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

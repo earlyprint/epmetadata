@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The birth of Merlin</title>
+      <author>Rowley, William</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A57763</idno>
+      <idno type="estcid">R7261</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The birth of Merlin, or, The childe hath found his father as it hath been several times acted with great applause / written by William Shakespear and William Rowley.</title>
+          <author gender="M">Rowley, William, 1585?-1642?</author>
+          <author gender="M">Shakespeare, William, 1564-1616.</author>
+          <author>Birmingham Shakespeare Library.</author>
+        </titleStmt>
+        <extent>[55] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Tho. Johnson</persName> for <persName type="publisher">Francis Kirkman</persName> and <persName type="publisher">Henry Marsh</persName> ...,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1662">1662.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>The ascription to Shakespeare is not generally accepted.</note>
+          <note>Reproduction of original in Huntington Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Francis Kirkman</persName>
+        </person>
+        <person n="publisher">
+          <persName>Henry Marsh</persName>
+        </person>
+        <person n="printer">
+          <persName>Tho. Johnson</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Rowley, William,</persName>
+          <birth>1585?</birth>
+          <death>1642?.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Shakespeare, William,</persName>
+          <birth>1564</birth>
+          <death>1616,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

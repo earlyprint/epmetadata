@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Some dialogues between Mr. G. and others with reflections upon a book called Pax vobis.</title>
+      <author>Lynford, Thomas, 1650-1724.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A49520</idno>
+      <idno type="estcid">R218147</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Some dialogues between Mr. G. and others with reflections upon a book called Pax vobis.</title>
+          <author gender="M">Lynford, Thomas, 1650-1724.</author>
+          <author gender="M">Griffith, Evan, A.M., Minister of Alderly. Pax vobis.</author>
+        </titleStmt>
+        <extent>[14], 48 p.   </extent>
+        <publicationStmt>
+          <publisher>printed for <persName type="publisher">Randall Taylor</persName>, near <placeName>Stationers-Hall</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1687">1687.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed by Wing to Thomas Lynford.</note>
+          <note>Running title: Reflections upon Pax vobis.</note>
+          <note>Mr. G. = Evan Griffith.</note>
+          <note>Cf. Wing G1990: Griffith, Evan.  Pax vobis.</note>
+          <note>Reproduction of the original at the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Randall Taylor</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Lynford, Thomas,</persName>
+          <birth>1650</birth>
+          <death>1724.</death>
+          <sex value="M"/>
+    </person>
+        <person role="subject">
+          <persName>Griffith, Evan, <roleName>A.M., Minister of Alderly.</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Griffith, Evan, <roleName>Minister of Alderly.</roleName></persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

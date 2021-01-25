@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The book of fame made by Gefferey Chaucer</title>
+      <title>House of fame</title>
+      <author>Chaucer, Geoffrey, d. 1400.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A18553</idno>
+      <idno type="estcid">S108768</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The book of fame made by Gefferey Chaucer</title>
+          <title>House of fame</title>
+          <author gender="M">Chaucer, Geoffrey, d. 1400.</author>
+        </titleStmt>
+        <extent>[64] p.   </extent>
+        <publicationStmt>
+          <publisher>Enprynted by <persName type="printer">Wylliam Caxton</persName>,</publisher>
+          <pubPlace>[[Westminster] :</pubPlace>
+          <date when="1483">[1483]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Caption title.</note>
+          <note>Printer's name from colophon; place and date of publication from STC.</note>
+          <note>Edited by William Caxton.--STC.</note>
+          <note>In verse.</note>
+          <note>Signatures: a-d (a1 and d8 are blanks).</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Wylliam Caxton</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Chaucer, Geoffrey,</persName>
+          <death>-1400.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Caxton, William,</persName>
+          <floruit>approximately 1422-1491 or 1492,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

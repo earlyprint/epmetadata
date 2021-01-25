@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A Larum for London, or The Siege of Antwerp</title>
+      <author>anon.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06270</idno>
+      <idno type="estcid">S122090</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A larum for London, or The siedge of Antwerpe VVith the ventrous actes and valorous deeds of the lame soldier. As it hath been playde by the right Honorable the Lord Chamberlaine his Seruants.</title>
+          <author>Gascoigne, George, 1542?-1577. Spoyle of Antwerpe.</author>
+          <author>Lodge, Thomas, 1558?-1625, attributed name.</author>
+        </titleStmt>
+        <extent>[52] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed [by <persName type="printer">Edward Allde]</persName> for <persName type="publisher">William Ferbrand</persName>, and are to be sold at <placeName>his shop in Popes-head Alley, ouer against the Tauerne doore, neere the Royall-Exchange</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1602">1602.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Possibly in part by Thomas Lodge.</note>
+          <note>Based on: Gascoigne, George.  The spoyle of Antwerpe.</note>
+          <note>In verse.</note>
+          <note>Printer's name from STC.</note>
+          <note>Signatures: A-F⁴ G² .</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>William Ferbrand</persName>
+        </person>
+        <person n="printer">
+          <persName>Edward Allde]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Gascoigne, George,</persName>
+          <birth>1542?</birth>
+          <death>1577.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Lodge, Thomas,</persName>
+          <birth>1558?</birth>
+          <death>1625,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

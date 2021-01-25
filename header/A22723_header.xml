@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Twelue sermons of Saynt Augustine, now lately translated into English by Tho. Paynel</title>
+      <author>Augustine, Saint, Bishop of Hippo.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A22723</idno>
+      <idno type="estcid">S115408</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Twelue sermons of Saynt Augustine, now lately translated into English by Tho. Paynel</title>
+          <author gender="M">Augustine, Saint, Bishop of Hippo.</author>
+          <author gender="M">Paynell, Thomas.</author>
+        </titleStmt>
+        <extent>[176] p.   </extent>
+        <publicationStmt>
+          <publisher>In Powles church yarde at <placeName>the sygne of the holye goost</placeName> by <persName type="printer">Ihon Cawood</persName>, prynter to the Quenes Maiestie. Cum priuilegio ad imprimendum solum,</publisher>
+          <pubPlace>[Imprinted at London :</pubPlace>
+          <date when="1553">[1553]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Place of publication and printer's name from colophon; publication date from STC.</note>
+          <note>Signatures: A-L.</note>
+          <note>Imperfect; title page faked; some leaves tightly bound.</note>
+          <note>Reproduction of the original in the Harvard University. Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Ihon Cawood</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Augustine, <roleName>Saint, Bishop of Hippo.</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Paynell, Thomas,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Sermons, English</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="650y">16th century.</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

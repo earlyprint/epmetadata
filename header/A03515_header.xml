@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Homer's Odysses. Translated according to ye Greeke by. Geo: Chapman</title>
+      <title>Odyssey. Book 1-24. English. Chapman</title>
+      <author>Homer.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A03515</idno>
+      <idno type="estcid">S118235</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Homer's Odysses. Translated according to ye Greeke by. Geo: Chapman</title>
+          <title>Odyssey. Book 1-24. English. Chapman</title>
+          <author gender="M">Homer.</author>
+          <author gender="M">Chapman, George, 1559?-1634.</author>
+        </titleStmt>
+        <extent>[10], 194, [2], 195-376, [2] p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">Rich: Field</persName> [and <persName type="printer">W. Jaggard]</persName>, for <persName type="publisher">Nathaniell Butter</persName>,</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1615" cert="low">[1615?]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Another issue, adding books 13-24, of the 1614 edition which includes only books 1-12.</note>
+          <note>In verse.</note>
+          <note>Printer's name supplied and publication date conjectured by STC.</note>
+          <note>The title page is engraved.</note>
+          <note>A cancel letterpress title page is occasionally found, but properly belongs with STC 13624.5.--STC.</note>
+          <note>Imperfect; lacks leaf R8.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Nathaniell Butter</persName>
+        </person>
+        <person type="printer">
+          <persName>Rich: Field</persName>
+        </person>
+        <person type="printer">
+          <persName>W. Jaggard]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Homer.</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Chapman, George,</persName>
+          <birth>1559?</birth>
+          <death>1634,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Greek poetry</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="650v">Translations into English</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The Psalmes of King David: translated by King Iames</title>
+      <title>Bible. O.T. Psalms. English. Alexander.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A73472</idno>
+      <idno type="estcid">S122902</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The Psalmes of King David: translated by King Iames</title>
+          <title>Bible. O.T. Psalms. English. Alexander.</title>
+          <author gender="M">Stirling, William Alexander, Earl of, 1567 or 8-1640.</author>
+          <author gender="M">James I, King of England, 1566-1625.</author>
+        </titleStmt>
+        <extent>[2], 147, [1] p.   </extent>
+        <publicationStmt>
+          <publisher>printed by <persName type="printer">Thomas Harper</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1636">1636.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In fact mainly translated by William Alexander, Earl of Stirling.</note>
+          <note>Reproduction of original in the Folger Shakespeare Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Thomas Harper</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" type="tr.">
+          <persName>James <roleName>King of England,</roleName> <genName>I,</genName></persName>
+          <birth>1566</birth>
+          <death>1625,</death>
+        </person>
+        <person role="added" type="tr.">
+          <persName>Stirling, William Alexander, <roleName>Earl of,</roleName></persName>
+          <floruit>1567 or 1568-1640,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

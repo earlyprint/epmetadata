@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Monsieur Thomas A comedy. Acted at the Private House in Blacke Fryers. The author, Iohn Fletcher, Gent.</title>
+      <author>Fletcher, John, 1579-1625.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">B13574</idno>
+      <idno type="estcid">S102365</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Monsieur Thomas A comedy. Acted at the Private House in Blacke Fryers. The author, Iohn Fletcher, Gent.</title>
+          <author gender="M">Fletcher, John, 1579-1625.</author>
+          <author gender="M">Brome, Richard, d. 1652?</author>
+        </titleStmt>
+        <extent>[96] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Thomas Harper</persName>, for <persName type="publisher">Iohn Waterson</persName>, and are to be sold at <placeName>his shop in Pauls Church-yard, at the signe of the Crowne</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1639">1639.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Editor's dedication signed: Richard Brome.</note>
+          <note>In verse.</note>
+          <note>Signatures: [pi]¹ A²  B-M⁴ N¹ ([pi]1 prob. = N2).</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Iohn Waterson</persName>
+        </person>
+        <person type="printer">
+          <persName>Thomas Harper</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Fletcher, John,</persName>
+          <birth>1579</birth>
+          <death>1625.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="ed.">
+          <persName>Brome, Richard,</persName>
+          <death>-1652?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The plouumans tale compylled by syr Geffrey Chaucher knyght</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A18571</idno>
+      <idno type="estcid">S104968</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The plouumans tale compylled by syr Geffrey Chaucher knyght</title>
+          <author gender="M">Chaucer, Geoffrey, d. 1400, attributed name.</author>
+          <author gender="M">Brampton, Thomas, fl. 1414, attributed name.</author>
+        </titleStmt>
+        <extent>[64] p.   </extent>
+        <publicationStmt>
+          <publisher>In Paules churche yarde at <placeName>the sygne of the Hyll</placeName> by <persName type="printer">Wyllyam Hyll</persName>,</publisher>
+          <pubPlace>[Imprinted at London :</pubPlace>
+          <date when="1548" cert="low">[1548?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Not in fact by Chaucer. Also misattributed to Thomas Brampton. "A.N. Wawn, Yearbook of English studies, 2 (1972) 21-40, and BJRL, 56 (1973) 174-92, argues that the work was originally a Lollard tract written in the early 15th century, subsequently revised and gaining the addition of the prologue and lines 205-28 in the 16th century"--Halkett &amp; Laing (3rd ed.).</note>
+          <note>In verse.</note>
+          <note>Publisher's name from colophon; publication date conjectured by STC.</note>
+          <note>Signatures: A-D.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Wyllyam Hyll</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Brampton, Thomas,</persName>
+          <floruit>active 1414,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Chaucer, Geoffrey,</persName>
+          <death>-1400,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

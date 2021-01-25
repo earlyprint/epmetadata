@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A Saxon historie, of the admirable adventures of Clodoaldus and his three children. Translated out of French, by Sr. T.H.</title>
+      <author>N. C.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A17476</idno>
+      <idno type="estcid">S107367</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A Saxon historie, of the admirable adventures of Clodoaldus and his three children. Translated out of French, by Sr. T.H.</title>
+          <author>N. C.</author>
+          <author gender="M">T.H., Sir (Thomas Hawkins), d. 1640.</author>
+          <author gender="M">Caussin, Nicolas, 1583-1651, attributed name.</author>
+        </titleStmt>
+        <extent>[8], 104, [4]  p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">E[lizabeth] P[urslowe]</persName> for <persName type="publisher">Henry Seile</persName>, and are to be sold at <placeName>the signe of the Tygers-head, in St. Pauls Church-yard</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1634">1634.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Dedication signed: N.C.</note>
+          <note>Sometimes attributed to Nicholas Caussin.</note>
+          <note>T.H. = Thomas Hawkins.</note>
+          <note>French original not traced.</note>
+          <note>Printer's name from STC.</note>
+          <note>With a final imprimatur leaf.</note>
+          <note>Running title reads: The admirable adventures of Clodoaldus.</note>
+          <note>Reproduction of the original in Yale University. Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Henry Seile</persName>
+        </person>
+        <person n="printer">
+          <persName>E[lizabeth] P[urslowe]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>[N.C.].</persName>
+          <sex value=""/>
+    </person>
+        <person role="subject">
+          <persName>Cloud, <roleName>Saint,</roleName></persName>
+          <floruit>552-560</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="tr.">
+          <persName>T.H., <roleName>Sir</roleName></persName>
+          <name>(Thomas Hawkins),</name>
+          <death>-1640,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Caussin, Nicholas,</persName>
+          <birth>1583</birth>
+          <death>1651,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

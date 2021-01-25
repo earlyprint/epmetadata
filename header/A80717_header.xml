@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Poems, by several persons</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A80717</idno>
+      <idno type="estcid">R224548</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Poems, by several persons</title>
+          <author gender="M">Cowley, Abraham, 1618-1667.</author>
+        </titleStmt>
+        <extent>[8], 54, [2] p.   </extent>
+        <publicationStmt>
+          <publisher>printed by <persName type="printer">John Crooke</persName>, printer to <persName type="patron">the Kings Most Excellent Majesty</persName>, for <persName type="publisher">Samuel Dancer next door to the Bear</persName> and <persName type="publisher">Ragged-Staffe</persName> in <placeName>Castle-street</placeName>,</publisher>
+          <pubPlace>Dublin :</pubPlace>
+          <date when="1663">1663.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed to Abraham Cowley by Wing (CD-ROM edition).</note>
+          <note>In verse.</note>
+          <note>Reproduction of original in the Folger Shakespeare Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Ragged-Staffe</persName>
+        </person>
+        <person type="publisher">
+          <persName>Samuel Dancer next door to the Bear</persName>
+        </person>
+        <person type="printer">
+          <persName>John Crooke</persName>
+        </person>
+        <person type="patron">
+          <persName>the Kings Most Excellent Majesty</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>Cowley, Abraham,</persName>
+          <birth>1618</birth>
+          <death>1667.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Ireland</item>
+          <item n="752d">Dublin.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

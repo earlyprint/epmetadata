@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A looking glasse for London and England. Made by Thomas Lodge Gentleman, and Robert Greene. In Artibus Magister</title>
+      <author>Lodge, Thomas, 1558?-1625.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A06185</idno>
+      <idno type="estcid">S109578</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A looking glasse for London and England. Made by Thomas Lodge Gentleman, and Robert Greene. In Artibus Magister</title>
+          <author gender="M">Lodge, Thomas, 1558?-1625.</author>
+          <author>Greene, Robert, 1558?-1592. aut</author>
+        </titleStmt>
+        <extent>[70] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Thomas Creede</persName>, and are to be sold by <persName type="bookseller">William Barley</persName>, at <placeName>his shop in Gratious streete</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1594">1594.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Mostly in verse.</note>
+          <note>Signatures: A-I⁴ (-A1).</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Thomas Creede</persName>
+        </person>
+        <person type="bookseller">
+          <persName>William Barley</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Lodge, Thomas,</persName>
+          <birth>1558?</birth>
+          <death>1625.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Greene, Robert,</persName>
+          <birth>1558</birth>
+          <death>1592.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

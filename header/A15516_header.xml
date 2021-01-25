@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The Pedlar's Prophecy</title>
+      <author>anon</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A15516</idno>
+      <idno type="estcid">S111811</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The pedlers prophecie</title>
+          <author gender="M">Wilson, Robert, d. 1600.</author>
+        </titleStmt>
+        <extent>[48] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">Tho. Creede</persName>, and are to be sold by <persName type="bookseller">William Barley</persName>, at <placeName>his shop in Gratious streete</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1595">1595.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>By Robert Wilson.</note>
+          <note>In verse.</note>
+          <note>Signatures: A-F⁴.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Tho. Creede</persName>
+        </person>
+        <person type="bookseller">
+          <persName>William Barley</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Wilson, Robert,</persName>
+          <death>-1600.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

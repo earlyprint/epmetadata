@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>John Bon and Mast Person</title>
+      <author gender="M">Shepherd, Luke, fl. 1548.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">B11668</idno>
+      <idno type="estcid">S211</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>John Bon and Mast Person</title>
+          <author gender="M">Shepherd, Luke, fl. 1548.</author>
+        </titleStmt>
+        <extent>[8] p.   </extent>
+        <publicationStmt>
+          <publisher>Imprinted by <persName type="printer">J. Daye</persName> and <persName type="printer">W. Seres</persName>,</publisher>
+          <pubPlace>[London :</pubPlace>
+          <date when="1548" cert="low">1548?]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A satirical dialogue in verse.</note>
+          <note>Attributed to Shepherd by NUC pre-1956 imprints.</note>
+          <note>Illustrated t.p.</note>
+          <note>Imprint suggested by NUC pre-1956 imprints and STC (2nd ed.).</note>
+          <note>Reproduction of original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>J. Daye</persName>
+        </person>
+        <person type="printer">
+          <persName>W. Seres</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Shepherd, Luke,</persName>
+          <floruit>active 1548.</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

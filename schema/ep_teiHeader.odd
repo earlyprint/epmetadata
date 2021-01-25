@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EarlyPrint teiHeader fragment schema</title>
+                <author></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.w3.org/1999/xhtml</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>EarlyPrint project.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>A schema to validate teiHeader fragments for the EarlyPrint project.</p>
+            <schemaSpec ident="ep_teiHeader" docLang="en" prefix="tei_" xml:lang="en" start="TEI teiHeader">
+                <moduleRef key="core"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="namesdates"/>
+                <elementSpec ident="author" mode="change">
+                    <attList>
+                        <attDef ident="gender" mode="add"><datatype><data xmlns="http://relaxng.org/ns/structure/1.0" type="string"/></datatype></attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="person" mode="change">
+                    <classes mode="change">
+                        <memberOf key="att.typed" mode="add"/>
+                    </classes>
+                    <attList>
+                        <attDef ident="gender" mode="add"><datatype><data xmlns="http://relaxng.org/ns/structure/1.0" type="string"/></datatype></attDef>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

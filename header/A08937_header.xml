@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Diues [et] pauper</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A08937</idno>
+      <idno type="estcid">S104285</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Diues [et] pauper</title>
+          <author gender="M">Parker, Henry, d. 1470, attributed name.</author>
+        </titleStmt>
+        <extent>[53] leaves   </extent>
+        <publicationStmt>
+          <publisher>E[m]prentyd by <persName type="printer">me Wynkyn de worde</persName>,</publisher>
+          <pubPlace>[Westmonstre :</pubPlace>
+          <date when="1496">1496]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Often attributed to, but probably not by, Henry Parker--STC.</note>
+          <note>Place of publication and printer's name from colophon; publication date from STC.</note>
+          <note>"Of holy pouerte" has caption title.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>me Wynkyn de worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Parker, Henry,</persName>
+          <death>-1470,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Conduct of life</item>
+          <item n="650a">Dialogues, English</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

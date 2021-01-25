@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Hobson's choice a poem in answer to The choice / written by a Person of quality.</title>
+      <author>Person of quality.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A44028</idno>
+      <idno type="estcid">R40993</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Hobson's choice a poem in answer to The choice / written by a Person of quality.</title>
+          <author>Person of quality.</author>
+          <author gender="M">Brown, Thomas, 1663-1704.</author>
+        </titleStmt>
+        <extent>8 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed and sold by <persName type="printer"><persName type="bookseller">John Nutt</persName></persName> ...,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1700">M DCC [1700]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>"Attributed to Thomas Brown in Wrenn Catalogue"--NUC pre-1956 imprints.</note>
+          <note>"The choice" was written by John Pomfret.</note>
+          <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>John Nutt</persName>
+        </person>
+        <person n="bookseller">
+          <persName>John Nutt</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="subject">
+          <persName>Pomfret, John,</persName>
+          <birth>1667</birth>
+          <death>1702.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Brown, Thomas,</persName>
+          <birth>1663</birth>
+          <death>1704,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Here begynnethe the lanterne of lyght</title>
+      <title>Lanterne of lyght.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A05083</idno>
+      <idno type="estcid">S108268</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Here begynnethe the lanterne of lyght</title>
+          <title>Lanterne of lyght.</title>
+          <author gender="M">Grime, John, attributed name.</author>
+          <author gender="M">Hardy, William, fl. 1535, attributed name.</author>
+        </titleStmt>
+        <extent>lxxiii, [1] leaves   </extent>
+        <publicationStmt>
+          <publisher>In Fletestrete, by <persName type="printer">me Robert Redman</persName>, dwellyng at <placeName>the sygne of the George, nexte to Saynt Dunstones church</placeName>,</publisher>
+          <pubPlace>[Imprynted at London :</pubPlace>
+          <date when="1535" cert="low">[1535?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Attributed to John Grime and to William Hardy.</note>
+          <note>Printer's name and address from colophon; publication date conjectured by STC.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>me Robert Redman</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Grime, John,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Hardy, William,</persName>
+          <floruit>active 1535,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Antichrist</item>
+          <item n="650a">Church</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

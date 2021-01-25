@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The beggars bush written by Francis Beavmont and John Fletcher.</title>
+      <author>Fletcher, John, 1579-1625.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A27179</idno>
+      <idno type="estcid">R6179</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The beggars bush written by Francis Beavmont and John Fletcher.</title>
+          <author gender="M">Fletcher, John, 1579-1625.</author>
+          <author gender="M">Beaumont, Francis, 1584-1616.</author>
+          <author gender="M">Massinger, Philip, 1583-1640.</author>
+        </titleStmt>
+        <extent>[2], 35, [1] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">Humphrey Robinson</persName>, and <persName type="publisher">Anne Mosely</persName> ... ,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1661">1661.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Beaumont's joint authorship is doubtful.</note>
+          <note>Beaumont's contribution to this is doubtful.  Attributed to Fletcher and Massinger.  Cf. Camb. hist. Eng. lit; Fleay, Biog. chron.; encyc. brit. 11th ed.</note>
+          <note>Reproduction of original in Huntington Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Anne Mosely</persName>
+        </person>
+        <person n="publisher">
+          <persName>Humphrey Robinson</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Beaumont, Francis,</persName>
+          <birth>1584</birth>
+          <death>1616.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Massinger, Philip,</persName>
+          <birth>1583</birth>
+          <death>1640,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Fletcher, John,</persName>
+          <birth>1579</birth>
+          <death>1625.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

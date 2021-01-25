@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Here begynneth a litell treatise of the knight of curtesy and the lady of Faguell</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A13922</idno>
+      <idno type="estcid">S102650</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Here begynneth a litell treatise of the knight of curtesy and the lady of Faguell</title>
+        </titleStmt>
+        <extent>[20] p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">me Wyllyam Copland</persName>,</publisher>
+          <pubPlace>[Imprynted at London :</pubPlace>
+          <date when="1556" cert="low">[1556?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Imprint from colophon.</note>
+          <note>Publication date conjectured by STC.</note>
+          <note>In verse.</note>
+          <note>Signatures: A¹⁰.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>me Wyllyam Copland</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="subject">
+          <persName>Guy, <roleName>de Coucy,</roleName></persName>
+          <death>-1203.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

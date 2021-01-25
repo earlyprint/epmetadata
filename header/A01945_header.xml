@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The gospelles of dystaues</title>
+      <title>Evangiles des quenouilles. English.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A01945</idno>
+      <idno type="estcid">S105756</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The gospelles of dystaues</title>
+          <title>Evangiles des quenouilles. English.</title>
+          <author gender="M">Watson, Henry, fl. 1500-1518.</author>
+          <author gender="M">Fouquart, de Cambray, maistre, attributed name.</author>
+          <author gender="M">Duval, Antoine, attributed name.</author>
+          <author gender="M">Jean, d'Arras, 14th cent, attributed name.</author>
+        </titleStmt>
+        <extent>[60] p. : woodcut ill.  </extent>
+        <publicationStmt>
+          <publisher>Enprynted at <placeName>London in Flete strete at the sygne of the sonne</placeName> by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+          <pubPlace>[[London] :</pubPlace>
+          <date when="1510" cert="low">[ca. 1510]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>A translation of "Les evangiles des quenouilles", which is sometimes attributed jointly to Fouquart de Cambray, Antoine Duval, and Jean d'Arras.</note>
+          <note>Translated by Henry Watson, whose initials appear on A2r.</note>
+          <note>Printer's name and address from colophon; publication date estimated by STC.</note>
+          <note>Signatures: A-D·⁴ E⁶.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Wynkyn de Worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Fouquart, <roleName>de Cambray, maistre,</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Jean, <roleName>d'Arras,</roleName></persName>
+          <floruit>active 14th century,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Duval, Antoine,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="tr.">
+          <persName>Watson, Henry,</persName>
+          <floruit>active 1500-1518,</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Women</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="650v">Humor</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

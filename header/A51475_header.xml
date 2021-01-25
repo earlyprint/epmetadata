@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The history of the League written in French by Monsieur Maimbourg ; translated into English by His Majesty's command by Mr. Dryden.</title>
+      <author>Maimbourg, Louis, 1610-1686.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A51475</idno>
+      <idno type="estcid">R25491</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The history of the League written in French by Monsieur Maimbourg ; translated into English by His Majesty's command by Mr. Dryden.</title>
+          <author gender="M">Maimbourg, Louis, 1610-1686.</author>
+          <author gender="M">Dryden, John, 1631-1700.</author>
+        </titleStmt>
+        <extent>[58], 966 [i.e. 760], 49, [42] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">M. Flesher</persName> for <persName type="publisher">Jacob Tonson</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1684">1684.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Includes index.</note>
+          <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Jacob Tonson</persName>
+        </person>
+        <person type="printer">
+          <persName>M. Flesher</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Maimbourg, Louis,</persName>
+          <birth>1610</birth>
+          <death>1686.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="tr.">
+          <persName>Dryden, John,</persName>
+          <birth>1631</birth>
+          <death>1700,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="engraver.">
+          <persName>Burghers, Michael,</persName>
+          <floruit>1647 or 1648-1727,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Sainte Ligue (1576-1593)</name>
+          </orgName>
+        </org>
+      </listOrg>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="651x">History</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="651y">Wars of the Huguenots, 1562-1598</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a">France</item>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

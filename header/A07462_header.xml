@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A pleasaunt dialogue, concerning phisicke and phisitions</title>
+      <author>Mexía, Pedro, 1496?-1552?</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A07462</idno>
+      <idno type="estcid">S120389</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A pleasaunt dialogue, concerning phisicke and phisitions</title>
+          <author gender="M">Mexía, Pedro, 1496?-1552?</author>
+          <author gender="M">Newton, Thomas, 1542?-1607, attributed name.</author>
+        </titleStmt>
+        <extent>[80] p.   </extent>
+        <publicationStmt>
+          <publisher>By <persName type="printer">Iohn Charlewood</persName>,</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1580">1580.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>With an additional title page: A delectable dialogue: .. Translated out of the Castlin tongue. By T.N.</note>
+          <note>T.N. = Thomas Newton? --STC.</note>
+          <note>A translation of Mexía's "Dialogo de los medicos" from his "Dialogos o coloquios".</note>
+          <note>Signatures: A-E.</note>
+          <note>Running title reads: A dialogue concerning phisick and phisitions.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>Iohn Charlewood</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Mexía, Pedro,</persName>
+          <birth>1496?</birth>
+          <death>1552?.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Newton, Thomas,</persName>
+          <birth>1542?</birth>
+          <death>1607,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Medicine</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

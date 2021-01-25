@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The booke of honor and armes</title>
+      <author>Jones, Richard, fl. 1564-1602.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A11862</idno>
+      <idno type="estcid">S116992</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The booke of honor and armes</title>
+          <author gender="M">Jones, Richard, fl. 1564-1602.</author>
+          <author gender="M">Segar, William, Sir, d. 1633, attributed name.</author>
+          <author gender="M">Saviolo, Vincentio.</author>
+        </titleStmt>
+        <extent>[12], 104, 75, [1] p. : ill. (woodcuts)  </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">[Thomas Orwin</persName> for<persName type="publisher">] Richard Ihones</persName>, dwelling at <placeName>the signe of the Rose</placeName> and Crowne neere <placeName>Hoburne Conduit</placeName>,</publisher>
+          <pubPlace>At London :</pubPlace>
+          <date when="1590">1590.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Probably a compilation by Richard Jones, the publisher, of material borrowed from Sir William Segar, Vincentio Saviolo, and others. Sometimes attributed to Segar, whose name appears on 2N3v.</note>
+          <note>With an additional title page, lacking imprint: The booke of honor and armes. VVherein is discoursed the causes of quarrell ..</note>
+          <note>Actual printer's name from STC.</note>
+          <note>"The fift booke" begins new pagination on O1r.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+          <note>P4-Q3 bound after O3.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>] Richard Ihones</persName>
+        </person>
+        <person n="printer">
+          <persName>[Thomas Orwin</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Jones, Richard,</persName>
+          <floruit>active 1564-1602.</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Saviolo, Vincentio.</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Segar, William, <roleName>Sir,</roleName></persName>
+          <death>-1633,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Knights and knighthood</item>
+          <item n="650a">Precedence</item>
+          <item n="650a">Titles of honor and nobility</item>
+          <item n="650a">Tournaments</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

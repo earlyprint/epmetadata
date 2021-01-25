@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The boke of Codrus and Mynalcas</title>
+      <title>Eclogue. 4</title>
+      <author>Barclay, Alexander, 1475?-1552.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A03727</idno>
+      <idno type="estcid">S104475</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The boke of Codrus and Mynalcas</title>
+          <title>Eclogue. 4</title>
+          <author gender="M">Barclay, Alexander, 1475?-1552.</author>
+          <author>Baptista, Mantuanus, 1448-1516. Bucolica. 5.</author>
+        </titleStmt>
+        <extent>[44] p. : ill. (woodcuts), port.  </extent>
+        <publicationStmt>
+          <publisher>Emprinted by <persName type="printer">Richarde Pynson, pri[n]ter to the kynges noble grace</persName>,</publisher>
+          <pubPlace>[[London] :</pubPlace>
+          <date when="1521" cert="low">[1521?]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In verse.</note>
+          <note>Designated Barclay's fourth eclogue in the headings and colophon.</note>
+          <note>Based on: Baptista Mantuanus.  Bucolica. 5.</note>
+          <note>Caption title.</note>
+          <note>Printer's name from colophon; publication date conjectured by STC.</note>
+          <note>Signatures: a⁶ b⁴ c-d⁶.</note>
+          <note>The last leaf bears a printer's mark.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>Richarde Pynson, pri[n]ter to the kynges noble grace</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Barclay, Alexander,</persName>
+          <birth>1475?</birth>
+          <death>1552.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>Baptista, <roleName>Mantuanus,</roleName></persName>
+          <birth>1448</birth>
+          <death>1516.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Pynson, Richard,</persName>
+          <death>-1530,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

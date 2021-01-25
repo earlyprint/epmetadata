@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A poem upon the coronation by J. Baber ...</title>
+      <author>Baber, John.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A27822</idno>
+      <idno type="estcid">R3067</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A poem upon the coronation by J. Baber ...</title>
+          <author gender="M">Baber, John.</author>
+        </titleStmt>
+        <extent>[2], 5 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed by <persName type="printer">R. Everingham</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1685">1685.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Reproduction of original in Huntington Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="printer">
+          <persName>R. Everingham</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Baber, John.</persName>
+          <sex value="M"/>
+    </person>
+        <person role="subject">
+          <persName>James <roleName>King of England,</roleName> <genName>II,</genName></persName>
+          <birth>1633</birth>
+          <death>1701</death>
+        </person>
+        <person role="added" type="printer.">
+          <persName>Everingham, Robert,</persName>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="600v">Poetry</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

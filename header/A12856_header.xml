@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Accedence</title>
+      <title>Long accidence.</title>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A12856</idno>
+      <idno type="estcid">S117924</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Accedence</title>
+          <title>Long accidence.</title>
+          <author gender="M">Stanbridge, John, 1463-1510, attributed name.</author>
+          <author gender="M">Donatus, Aelius, attributed name.</author>
+        </titleStmt>
+        <extent>[28] p.   </extent>
+        <publicationStmt>
+          <publisher>In Caxtons hous by <persName type="printer">wynkyn de worde</persName>,</publisher>
+          <pubPlace>[Prynted at westmynstre :</pubPlace>
+          <date when="1499">[1499]]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Sometimes attributed to John Stanbridge and to Aelius Donatus.</note>
+          <note>Place of publication and printer's name from colophon; publication date conjectured by STC.</note>
+          <note>Signatures: A B⁴.</note>
+          <note>Formerly STC 7010.</note>
+          <note>Identified as STC 7010 on UMI microfilm reel 61.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="printer">
+          <persName>wynkyn de worde</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="added" n="attributed name.">
+          <persName>Stanbridge, John,</persName>
+          <birth>1463</birth>
+          <death>1510,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Donatus, Aelius,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Latin language</item>
+          <item n="650x">Grammar</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

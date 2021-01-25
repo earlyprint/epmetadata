@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A true iournall of the Sally fleet vvith the proceedings of the voyage. Published by Iohn Dunton, London mariner, master of the admirall call'd the Leopard. Whereunto is annexed a list of Sally captives names, and the places where they dwell, and a description of the three townes in a card.</title>
+      <author>Dunton, John, mariner.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A20982</idno>
+      <idno type="estcid">S111090</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A true iournall of the Sally fleet vvith the proceedings of the voyage. Published by Iohn Dunton, London mariner, master of the admirall call'd the Leopard. Whereunto is annexed a list of Sally captives names, and the places where they dwell, and a description of the three townes in a card.</title>
+          <author gender="M">Dunton, John, mariner.</author>
+          <author gender="M">Simson, Richard, ill.</author>
+          <author gender="M">Hall, Ralph, fl. 1637, engraver.</author>
+        </titleStmt>
+        <extent>[4], 26, [18] p., plate : map  </extent>
+        <publicationStmt>
+          <publisher>printed by <persName type="printer">Iohn Dawson</persName> for <persName type="publisher">Thomas Nicholes</persName>, and are to be sold at <placeName>the signe of the Bible in Popes-head alley</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1637">1637.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>The plate is signed "Richard Simson fecet [sic] Ao: 1637" and "Ralph Hall sculpt.".</note>
+          <note>Reproduction of the original in Harvard University. Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Thomas Nicholes</persName>
+        </person>
+        <person type="printer">
+          <persName>Iohn Dawson</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Dunton, John <roleName>(Mariner)</roleName></persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="printer.">
+          <persName>Dawson, John,</persName>
+          <death>-1648?,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="bookseller.">
+          <persName>Nicholls, Thomas,</persName>
+          <death>-1641,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="illustrator.">
+          <persName>Simson, Richard,</persName>
+          <sex value="M"/>
+    </person>
+        <person role="added" type="engraver.">
+          <persName>Hall, Ralph,</persName>
+          <floruit>active 1637,</floruit>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Pirates</item>
+          <item n="651x">History</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="651a">Salé (Morocco)</item>
+          <item n="650z">Morocco</item>
+          <item n="650z">Salé</item>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

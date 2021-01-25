@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Brittain's Ida. Written by that renowned poët, Edmond Spencer</title>
+      <author>Fletcher, Phineas, 1582-1650.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A00973</idno>
+      <idno type="estcid">S105620</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Brittain's Ida. Written by that renowned poët, Edmond Spencer</title>
+          <author gender="M">Fletcher, Phineas, 1582-1650.</author>
+          <author gender="M">Spenser, Edmund, 1552?-1599, attributed name.</author>
+          <author gender="M">Fletcher, Giles, 1588?-1623, attributed name.</author>
+        </titleStmt>
+        <extent>[38] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed [by <persName type="printer">Nicholas Okes]</persName> for <persName type="publisher">Thomas Walkley</persName>, and are to be sold at <placeName>his shop at the Eagle</placeName> and Child in <placeName>Brittaines Bursse</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1628">1628.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Not in fact by Edmund Spenser, but by Phineas Fletcher. Also sometimes attributed to Giles Fletcher the younger.</note>
+          <note>In verse.</note>
+          <note>Printer's name from STC.</note>
+          <note>Signatures: A⁴ B-C (-A1).</note>
+          <note>Identified as STC 11057 on UMI microfilm.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Thomas Walkley</persName>
+        </person>
+        <person n="printer">
+          <persName>Nicholas Okes]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Fletcher, Phineas,</persName>
+          <birth>1582</birth>
+          <death>1650.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Spenser, Edmund,</persName>
+          <birth>1552?</birth>
+          <death>1599,</death>
+          <sex value="M"/>
+    </person>
+        <person role="added" n="attributed name.">
+          <persName>Fletcher, Giles,</persName>
+          <birth>1588?</birth>
+          <death>1623,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

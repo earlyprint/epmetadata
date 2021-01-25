@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>A pastoral essay lamenting the death of our most gracious Queen Mary, of blessed memory by Mr. Manning.</title>
+      <author>Manning, Mr. (Francis), fl. 1688-1716.</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A51807</idno>
+      <idno type="estcid">R32048</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>A pastoral essay lamenting the death of our most gracious Queen Mary, of blessed memory by Mr. Manning.</title>
+          <author gender="M">Manning, Mr. (Francis), fl. 1688-1716.</author>
+        </titleStmt>
+        <extent>10 p.   </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">J. Weld</persName> ... and are to be sold by <persName type="bookseller">J. Whitlock</persName> ...,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1695">MDCXCV [1695]</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>In verse.</note>
+          <note>Errata: p. 10.</note>
+          <note>Imperfect: print show-through.</note>
+          <note>Reproduction of original in the Cambridge University Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>J. Weld</persName>
+        </person>
+        <person type="bookseller">
+          <persName>J. Whitlock</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Manning, <roleName>Mr.</roleName></persName>
+          <name>(Francis),</name>
+          <floruit>active 1688-1716.</floruit>
+          <sex value="M"/>
+    </person>
+        <person role="subject">
+          <persName>Mary <roleName>Queen of England,</roleName> <genName>II,</genName></persName>
+          <birth>1662</birth>
+          <death>1694</death>
+        </person>
+        <person role="added" type="bookseller.">
+          <persName>Whitlock, John,</persName>
+          <death>-1695?,</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="form">
+        <list>
+          <item n="600v">Poetry</item>
+        </list>
+      </keywords>
+      <keywords n="geographic">
+        <list>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>

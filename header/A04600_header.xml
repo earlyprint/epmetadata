@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>The Temple of Love</title>
+      <author>Davenant, William</author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>EarlyPrint project</publisher>
+      <idno type="tcpid">A04600</idno>
+      <idno type="estcid">S107859</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>The temple of love A masque. Presented by the Queenes Majesty, and her ladies, at White-hall on Shrove-Tuesday, 1634. By Inigo Iones, surveyor of his Maties. workes, and William Davenant, her Maties. servant.</title>
+          <author gender="M">Jones, Inigo, 1573-1652.</author>
+          <author>D'Avenant, William, Sir, 1606-1668. aut</author>
+        </titleStmt>
+        <extent>[26] p.   </extent>
+        <publicationStmt>
+          <publisher>Printed for <persName type="publisher">Thomas Walkley</persName>, and are to be sold at <placeName>his shop neare White-hall</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1634">1634.</date>
+        </publicationStmt>
+        <notesStmt>
+          <note>Signatures: A-B⁴ (-B4) C⁴ D² .</note>
+          <note>B4 was intended to be cancelled, but persists in most copies.</note>
+          <note>Variant: title page in an earlier version, with "surveyour of his Majesties workes" and other differences.</note>
+          <note>Reproduction of the original in the British Library.</note>
+        </notesStmt>
+      </biblFull>
+      <listPerson type="tcp_ep">
+        <person type="publisher">
+          <persName>Thomas Walkley</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Jones, Inigo,</persName>
+          <birth>1573</birth>
+          <death>1652.</death>
+          <sex value="M"/>
+    </person>
+        <person role="added">
+          <persName>D'Avenant, William, <roleName>Sir,</roleName></persName>
+          <birth>1606</birth>
+          <death>1668.</death>
+          <sex value="M"/>
+    </person>
+      </listPerson>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <textClass>
+      <keywords n="geographic">
+        <list type="geographic">
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
+</teiHeader>
