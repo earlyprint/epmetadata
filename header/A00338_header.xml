@@ -1,48 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>The necessity of faith; or, Nothing more necessarie for a Christian, than a true sauing faith Preached before the Prince His Highnesse at S. Iames, the fiue and twentith [sic] of Ianuary, 1623. By Robert Iohnson, Batchelor of Diuinity, and one of his Majesties chaplains in ordinary.</title>
-      <title>Necessity of faith; or, Nothing more necessarie for a Christian, than a true saving faith.</title>
-      <author gender="M">Johnson, Ro. (Robert)</author>
+      <title>A very pleasaunt [and] fruitful diologe called the Epicure, made by that famous clerke Erasmus of Roterodame, newly translated. 1545</title>
+      <title>Colloquia. English. Selections</title>
+      <author>Erasmus, Desiderius, d. 1536.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A04575</idno>
+      <idno type="tcpid">A00338</idno>
       <idno type="estcid">S113434</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>The necessity of faith; or, Nothing more necessarie for a Christian, than a true sauing faith Preached before the Prince His Highnesse at S. Iames, the fiue and twentith [sic] of Ianuary, 1623. By Robert Iohnson, Batchelor of Diuinity, and one of his Majesties chaplains in ordinary.</title>
-          <title>Necessity of faith; or, Nothing more necessarie for a Christian, than a true saving faith.</title>
-          <author gender="M">Johnson, Ro. (Robert)</author>
+          <title>A very pleasaunt [and] fruitful diologe called the Epicure, made by that famous clerke Erasmus of Roterodame, newly translated. 1545</title>
+          <title>Colloquia. English. Selections</title>
+          <author gender="M">Erasmus, Desiderius, d. 1536.</author>
+          <author gender="M">Gerrard, Philip.</author>
         </titleStmt>
-        <extent>[6], 32 p.   </extent>
+        <extent>[96] p.   </extent>
         <publicationStmt>
-          <publisher>Printed by <persName type="printer">H[umphrey] L[ownes]</persName> for <persName type="publisher">Mathew Lownes</persName>, and are to be sold at <placeName>his shop in Pauls Churchyard, at the signe of the Bishops head</placeName>,</publisher>
-          <pubPlace>London :</pubPlace>
-          <date when="1624">1624.</date>
+          <publisher>VVithin the precinct of the late dissolued house of the gray Friers, by <persName type="printer">Richarde Grafton, printer too the princes grace</persName>,</publisher>
+          <pubPlace>[Imprinted at London :</pubPlace>
+          <date when="1545">the. XXIX. daie of Iuly, the yere of our Lorde. M.D.XLV. [1545]]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Printer's name from STC.</note>
-          <note>Some print show-through.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>A translation, by Philip Gerrard, of the original by Desiderius Erasmus.</note>
+          <note>Running title reads: The epicure.</note>
+          <note>F8, final leaf, is blank.</note>
+          <note>Signatures: A-F.</note>
+          <note>Reproduction of the original in the Folger Shakespeare Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>Mathew Lownes</persName>
-        </person>
-        <person type="printer">
-          <persName>H[umphrey] L[ownes]</persName>
+        <person n="printer">
+          <persName>Richarde Grafton, printer too the princes grace</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Johnson, Ro.</persName>
-          <name>(Robert).</name>
+          <persName>Erasmus, Desiderius,</persName>
+          <death>-1536.</death>
           <sex value="M"/>
-    </person>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Gerrard, Philip,</persName>
+          <sex value="M"/>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -50,13 +55,7 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Sermons, English</item>
-          <item n="650a">Faith</item>
-        </list>
-      </keywords>
-      <keywords n="temporal">
-        <list>
-          <item n="650y">17th century.</item>
+          <item n="650a">Dialogues, English</item>
         </list>
       </keywords>
       <keywords n="geographic">

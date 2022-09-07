@@ -1,64 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Galens bookes of elementes, as they be in the epitome (whiche may very aptly, in my iudgement, be entituled, for the better vnderstanding of the readers, the originall of all thinges naturall in the vvhole vvorlde confuting, as well the errours of all them that went before time, as that hath, or shal folowe hereafter of the Paracelcians : marueilous pleasaunt, and most acceptable for all sharpe wittes, desirous of wisedome) / published foorth of Latine into English, by John Jones ...</title>
-      <author gender="M">Jones, John, physician.</author>
+      <title>Articles to be enquired of, 1548</title>
+      <author>Church of England. Diocese of Canterbury.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A01417</idno>
+      <idno type="tcpid">A00154</idno>
       <idno type="estcid">S2093</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Galens bookes of elementes, as they be in the epitome (whiche may very aptly, in my iudgement, be entituled, for the better vnderstanding of the readers, the originall of all thinges naturall in the vvhole vvorlde confuting, as well the errours of all them that went before time, as that hath, or shal folowe hereafter of the Paracelcians : marueilous pleasaunt, and most acceptable for all sharpe wittes, desirous of wisedome) / published foorth of Latine into English, by John Jones ...</title>
-          <author gender="M">Jones, John, physician.</author>
+          <title>Articles to be enquired of, 1548</title>
+          <author gender="I">Church of England. Diocese of Canterbury.</author>
         </titleStmt>
-        <extent>[8], 6 [i.e. 12] p.   </extent>
+        <extent>[16] p.   </extent>
         <publicationStmt>
-          <publisher>By <persName type="printer">VVilliam Iones</persName>, dwelling in <placeName>Paules Churche yarde, at the southvvest doore of Paules</placeName>, and are there to be solde,</publisher>
+          <publisher>... by <persName type="printer">Richard Grafton</persName>,</publisher>
           <pubPlace>Imprinted at London :</pubPlace>
-          <date when="1574">1574.</date>
+          <date when="1548">the laste daie of August M.D.xlviii ... [31 Aug. 1548]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Based on Galen's De elementis. Cf. NUC pre-1956 imprints.</note>
-          <note>Signatures: A-B4 C2.</note>
-          <note>Pages numbered consecutively on recto only.</note>
-          <note>Item at reel 420:15 identified as STC 14725.</note>
-          <note>Reproductions of original in the Henry E. Huntington Library and Art Gallery.</note>
+          <note>Caption title: Articles to be enquired of, in visitacions to bee had, within the Diocesse of Cantorbury ...</note>
+          <note>Signatures: A-B⁴.</note>
+          <note>Title within ornamental border.</note>
+          <note>Reproduction of original in the Harvard University. Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="printer">
-          <persName>VVilliam Iones</persName>
+        <person n="printer">
+          <persName>Richard Grafton</persName>
         </person>
       </listPerson>
-      <listPerson type="estc_ep">
-        <person role="creator">
-          <persName>Galen.</persName>
-          <sex value="M"/>
-    </person>
-        <person role="added" type="tr.">
-          <persName>Jones, John,</persName>
-          <floruit>active 1562-1579,</floruit>
-          <sex value="M"/>
-    </person>
-      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Church of England.</name>
+            <name>Diocese of Canterbury.</name>
+          </orgName>
+        </org>
+        <org>
+          <orgName>
+            <name>Church of England</name>
+          </orgName>
+        </org>
+      </listOrg>
     </sourceDesc>
   </fileDesc>
   <profileDesc>
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Medicine, Ancient</item>
-          <item n="650a">Philosophy, Ancient.</item>
+          <item n="650a">Visitations, Ecclesiastical</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="610v">Pastoral letters and charges</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="650z 752b">England</item>
           <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
           <item n="752d">London.</item>
         </list>
       </keywords>

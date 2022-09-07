@@ -1,35 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>The Oppugnation and fierce siege of Ostend by  the Arch-duke Albertus his forces, commanded by the Duke of Ossuna, who came before the said towne, the fift day of Iune last past (after their writing) shewing what hath hapned since the time of the saide siege.</title>
+      <title>A second parallel together with a vvrit of error sued against the appealer.</title>
+      <author>Featley, Daniel, 1582-1645.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A08573</idno>
+      <idno type="tcpid">A00601</idno>
       <idno type="estcid">S101878</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>The Oppugnation and fierce siege of Ostend by  the Arch-duke Albertus his forces, commanded by the Duke of Ossuna, who came before the said towne, the fift day of Iune last past (after their writing) shewing what hath hapned since the time of the saide siege.</title>
+          <title>A second parallel together with a vvrit of error sued against the appealer.</title>
+          <author gender="M">Featley, Daniel, 1582-1645.</author>
         </titleStmt>
-        <extent>[13] p.   </extent>
+        <extent>[16], 95, [1], 97, [1] p.   </extent>
         <publicationStmt>
-          <publisher>V.S. for <persName type="publisher">T. Pavier</persName>,</publisher>
-          <pubPlace>[London :</pubPlace>
-          <date when="1601">1601]</date>
+          <publisher>Printed [by <persName type="printer">J. Haviland]</persName> for <persName type="publisher">Robert Milbourne</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1626">M.DC.XXVI. [1626]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Caption title.</note>
-          <note>Imprint from STC (2nd ed.).</note>
-          <note>Imperfect: title page lacking. Best copy available for photographing.</note>
-          <note>Signatures: A-B⁴.</note>
-          <note>Reproduction of original in: Harvard University. Library.</note>
+          <note>By Daniel Featley.</note>
+          <note>A reply to: Montagu, Richard.  Appello Caesarem.</note>
+          <note>A continuation of: Parallelismus nov-antiqui erroris Pelagiarminiani.</note>
+          <note>Printer's name from STC.</note>
+          <note>"A second tablet" begins new pagination and signature Aa..</note>
+          <note>Reproduction of the original in the British Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>T. Pavier</persName>
+        <person n="publisher">
+          <persName>Robert Milbourne</persName>
+        </person>
+        <person n="printer">
+          <persName>J. Haviland]</persName>
+        </person>
+      </listPerson>
+      <listPerson type="estc_ep">
+        <person role="creator">
+          <persName>Featley, Daniel,</persName>
+          <birth>1582</birth>
+          <death>1645.</death>
+          <sex value="M"/>
+        </person>
+        <person role="subject">
+          <persName>Montagu, Richard,</persName>
+          <birth>1577</birth>
+          <death>1641.</death>
+          <sex value="M"/>
         </person>
       </listPerson>
     </sourceDesc>
@@ -38,13 +59,17 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="651x">History</item>
-          <item n="651x">Siege, 1601-1604.</item>
+          <item n="650a">Pelagianism</item>
+          <item n="650a">Arminianism</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="600v 650v">Controversial literature</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
-          <item n="651a">Ostend (Belgium)</item>
           <item n="752a">Great Britain</item>
           <item n="752b">England</item>
           <item n="752d">London.</item>

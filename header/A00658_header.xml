@@ -1,49 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>A dictionarie in Spanish and English, first published into the English tongue by Ric. Perciuale Gent. Now enlarged and amplified with many thousand words, as by this marke * to each of them prefixed may appeere; together with the accenting of euery worde throughout the whole dictionarie, for the true pronunciation of the language, as also for the diuers signification of one and the selfsame word: and for the learners ease and furtherance, the declining of all hard and irregular verbs; and for the same cause the former order of the alphabet is altered, diuers hard and vncouth phrases and speeches out of sundry of the best authors explained, with diuers necessarie notes and especiall directions for all such as shall be desirous to attaine the perfection of the Spanish tongue. All done by Iohn Minsheu professor of languages in London. Hereunto ... is annexed an ample English dictionarie ... by the same Iohn Minsheu  ...</title>
-      <author gender="M">Perceval, Richard, 1550-1620.</author>
-      <author gender="M">Minsheu, John. aut</author>
+      <title>A forme of Christian pollicie drawne out of French by Geffray Fenton. A worke very necessary to al sorts of people generally, as wherein is contayned doctrine, both vniuersall, and special touching the institution of al Christian profession: and also conuenient perticularly for all magistrates and gouernours of common weales, for their more happy regiment according to God</title>
+      <title>Police chrestienne. English</title>
+      <author>Talpin, Jean.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A09309</idno>
+      <idno type="tcpid">A00658</idno>
       <idno type="estcid">S101953</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>A dictionarie in Spanish and English, first published into the English tongue by Ric. Perciuale Gent. Now enlarged and amplified with many thousand words, as by this marke * to each of them prefixed may appeere; together with the accenting of euery worde throughout the whole dictionarie, for the true pronunciation of the language, as also for the diuers signification of one and the selfsame word: and for the learners ease and furtherance, the declining of all hard and irregular verbs; and for the same cause the former order of the alphabet is altered, diuers hard and vncouth phrases and speeches out of sundry of the best authors explained, with diuers necessarie notes and especiall directions for all such as shall be desirous to attaine the perfection of the Spanish tongue. All done by Iohn Minsheu professor of languages in London. Hereunto ... is annexed an ample English dictionarie ... by the same Iohn Minsheu  ...</title>
-          <author gender="M">Perceval, Richard, 1550-1620.</author>
-          <author gender="M">Minsheu, John. aut</author>
+          <title>A forme of Christian pollicie drawne out of French by Geffray Fenton. A worke very necessary to al sorts of people generally, as wherein is contayned doctrine, both vniuersall, and special touching the institution of al Christian profession: and also conuenient perticularly for all magistrates and gouernours of common weales, for their more happy regiment according to God</title>
+          <title>Police chrestienne. English</title>
+          <author gender="M">Talpin, Jean.</author>
+          <author gender="M">Fenton, Geoffrey, Sir, 1539?-1608.</author>
         </titleStmt>
-        <extent>[8], 391, [1] p.   </extent>
+        <extent>[16], 352 [i.e. 408] p.   </extent>
         <publicationStmt>
-          <publisher>By <persName type="printer">Edm. Bollifant</persName>,</publisher>
+          <publisher>By <persName type="printer">H. Middelton</persName> for <persName type="publisher">Rafe Newbery</persName>, dwelling in <placeName>Fleetestreat a little aboue the Conduit</placeName>,</publisher>
           <pubPlace>Imprinted at London :</pubPlace>
-          <date when="1599">1599.</date>
+          <date when="1574">Anno. 1574.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Issued with "A Spanish grammar", 1599.</note>
+          <note>Translation of: Talpin, Jean.  La police chrestienne.</note>
+          <note>Numerous errors in pagination.</note>
+          <note>Variant: title page has "gathered out of French".</note>
           <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="printer">
-          <persName>Edm. Bollifant</persName>
+        <person n="publisher">
+          <persName>Rafe Newbery</persName>
+        </person>
+        <person n="printer">
+          <persName>H. Middelton</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Perceval, Richard,</persName>
-          <birth>1550</birth>
-          <death>1620.</death>
+          <persName>Talpin, Jean.</persName>
           <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Minsheu, John.</persName>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Fenton, Geoffrey, <roleName>Sir,</roleName></persName>
+          <birth>1539?</birth>
+          <death>1608,</death>
           <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -51,15 +58,12 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Spanish language</item>
-          <item n="650a">English language</item>
-          <item n="650x">English</item>
-          <item n="650x">Spanish</item>
+          <item n="650a">Conduct of life</item>
         </list>
       </keywords>
       <keywords n="form">
         <list>
-          <item n="650v">Dictionaries</item>
+          <item n="650v">Early works to 1900.</item>
         </list>
       </keywords>
       <keywords n="geographic">

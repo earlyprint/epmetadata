@@ -1,47 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Iacobi à Falckenburgk, Germani, Casimirus, siue, De concertatione Eliæ cum Baalistis paraphrasis sacra pro cultus solius Iehovæ viui defensione &amp; idololatriæ detestatione cupidiss, ad sereniss augustiss. q[uae] principem ac Dominam Dn. Elizabetham Angliæ, Franciæ &amp; Hiberniæ Reginam gloriosiss. fidei defensatricem opt. max. Dominam suam longè clementiss. : in secundos &amp; prosperrimos regiminis anni 21 incarnationis Christi 1579, auspicij, Maiestatem ipsius illustrissimo Palatino Rheni Iohanne Casimiro Duce Bauariæ, fœliciss. illo ex belli Belgici Castris accedente, &amp; aliquot Europæ procerum legatis de rebus Christianitatis grauissimis consultationum nomine apud eandem præsentibus successus, subiectionis humilimæ adeoq[ue] afflictorum commiserationis ergò F.D.P.</title>
-      <author>Falckenburg, Jakob.</author>
+      <title>Considerations vpon the treaty of marriage between England and Spain</title>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A00533</idno>
+      <idno type="tcpid">A00008</idno>
       <idno type="estcid">S113665</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Iacobi à Falckenburgk, Germani, Casimirus, siue, De concertatione Eliæ cum Baalistis paraphrasis sacra pro cultus solius Iehovæ viui defensione &amp; idololatriæ detestatione cupidiss, ad sereniss augustiss. q[uae] principem ac Dominam Dn. Elizabetham Angliæ, Franciæ &amp; Hiberniæ Reginam gloriosiss. fidei defensatricem opt. max. Dominam suam longè clementiss. : in secundos &amp; prosperrimos regiminis anni 21 incarnationis Christi 1579, auspicij, Maiestatem ipsius illustrissimo Palatino Rheni Iohanne Casimiro Duce Bauariæ, fœliciss. illo ex belli Belgici Castris accedente, &amp; aliquot Europæ procerum legatis de rebus Christianitatis grauissimis consultationum nomine apud eandem præsentibus successus, subiectionis humilimæ adeoq[ue] afflictorum commiserationis ergò F.D.P.</title>
-          <author>Falckenburg, Jakob.</author>
+          <title>Considerations vpon the treaty of marriage between England and Spain</title>
+          <author gender="M">Wood, William, fl. 1623, attributed name.</author>
         </titleStmt>
-        <extent>[14] p.   </extent>
+        <extent>13, [1] p.   </extent>
         <publicationStmt>
-          <publisher>Typis <persName type="printer">Richardi Graphei</persName>,</publisher>
-          <pubPlace>Londini :</pubPlace>
-          <date when="1579">22 Ianuarij die mihi nigra &amp; notabili, anno CI[C].I[C]. LXXTX [i.e. 22 Jan. 1579]</date>
+          <publisher>S.n],</publisher>
+          <pubPlace>[The Netherlands? :</pubPlace>
+          <date when="1623">[1623]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Latin verse.</note>
-          <note>Imprint date contains inverted C's.</note>
-          <note>Formerly pt. 2 of STC 10673--Cf. STC (2nd ed.).</note>
-          <note>Reproduction of original in the Wadham College. Library.</note>
+          <note>Attributed to William Wood.</note>
+          <note>Suggested place of publication and publication date from STC.</note>
+          <note>Reproduction of the original in the Folger Shakespeare Library.</note>
         </notesStmt>
       </biblFull>
-      <listPerson type="tcp_ep">
-        <person type="printer">
-          <persName>Richardi Graphei</persName>
-        </person>
-      </listPerson>
       <listPerson type="estc_ep">
-        <person role="creator">
-          <persName>Falckenburg, Jakob.</persName>
+        <person role="added" n="attributed name.">
+          <persName>Wood, William,</persName>
+          <floruit>active 1623,</floruit>
           <sex value="M"/>
-    </person>
-        <person role="subject">
-          <persName>Elijah <roleName>(Biblical prophet)</roleName></persName>
-          <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -49,19 +40,14 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Christian poetry, Latin.</item>
-        </list>
-      </keywords>
-      <keywords n="form">
-        <list>
-          <item n="600v">Poetry.</item>
+          <item n="651x">Foreign relations</item>
+          <item n="651x">Spain.</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
-          <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
-          <item n="752d">London.</item>
+          <item n="651a">Great Britain</item>
+          <item n="752a">Netherlands.</item>
         </list>
       </keywords>
     </textClass>

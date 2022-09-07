@@ -1,47 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>[Dialogue or communicacion betwene our sauiour Ihesu Chryste and a sinner, lately translated out of the Latin tonge in to englyshe.]</title>
+      <title>The censure and iudgement of the famous clark Erasmus of Roterodam: whyther dyuorsemente betwene man and wyfe stondeth with the lawe of God With diuers causes wherfore it is permitted, with the mynde of the olde doctours, wrytten by the said Erasmus in the booke of his Annotations, vpon these wordes of Paule. i. cor, vii. She is delyuered fro[m] the bond of the lawe, let her marry to whom she wyll, translated by Nycolas Lesse.</title>
+      <title>Annotationes in Novum Testamentum. English. Selections</title>
+      <author>Erasmus, Desiderius, d. 1536.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A04424</idno>
+      <idno type="tcpid">A00327</idno>
       <idno type="estcid">S105526</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>[Dialogue or communicacion betwene our sauiour Ihesu Chryste and a sinner, lately translated out of the Latin tonge in to englyshe.]</title>
+          <title>The censure and iudgement of the famous clark Erasmus of Roterodam: whyther dyuorsemente betwene man and wyfe stondeth with the lawe of God With diuers causes wherfore it is permitted, with the mynde of the olde doctours, wrytten by the said Erasmus in the booke of his Annotations, vpon these wordes of Paule. i. cor, vii. She is delyuered fro[m] the bond of the lawe, let her marry to whom she wyll, translated by Nycolas Lesse.</title>
+          <title>Annotationes in Novum Testamentum. English. Selections</title>
+          <author gender="M">Erasmus, Desiderius, d. 1536.</author>
+          <author gender="M">Lesse, Nicholas.</author>
         </titleStmt>
-        <extent>[64] p.   </extent>
+        <extent>[160] p.   </extent>
         <publicationStmt>
-          <publisher>In south wark by <persName type="printer">Johan Redman</persName>, for <persName type="publisher">Robert Redman</persName>,</publisher>
-          <pubPlace>[Newly imprynted at London :</pubPlace>
-          <date when="1539" cert="low">[1539?]]</date>
+          <publisher>In Aldersgate strete, by <persName type="printer">the wydowe of Ihon Herforde</persName>, for <persName type="publisher">Robert Stoughton</persName>, dwellyng by <persName type="printer">Ludgate</persName> at <placeName>the sygne of the Byshops Myter</placeName>,</publisher>
+          <pubPlace>[Printed at London :</pubPlace>
+          <date when="1550" cert="low">[1550?]]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Title from leaf D8v, which reads: Thus endeth the Dialogue or communicacion betwene our sauiour Ihesu Chryste and a sinner.</note>
-          <note>Caption title, leaf A2r, reads: Here after foloweth the prologue, to the jentyll and loueynge readers hereof, that in the merites of Christes passion delyteth.</note>
-          <note>Imprint from colophon; publication date suggested by STC.</note>
-          <note>Signatures: A-D.</note>
-          <note>Imperfect; lacks title page.</note>
-          <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+          <note>Translation of a section of: Annotationes in Novum Testamentum.</note>
+          <note>Translated by Nicholas Lesse, whose name appears in the heading of "To the reader".</note>
+          <note>Printer's name and address from colophon; publication date conjectured by STC.</note>
+          <note>Signatures: A-K.</note>
+          <note>Running title reads: Erasmus vpon diuorsement.</note>
+          <note>Reproduction of the original in the British Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
         <person n="publisher">
-          <persName>Robert Redman</persName>
+          <persName>Robert Stoughton</persName>
         </person>
         <person n="printer">
-          <persName>Johan Redman</persName>
+          <persName>Ludgate</persName>
+        </person>
+        <person n="printer">
+          <persName>the wydowe of Ihon Herforde</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
-        <person role="added" n="attributed name.">
-          <persName>Jacobus, <roleName>de Gruytrode,</roleName></persName>
-          <floruit>active 1440-1475,</floruit>
+        <person role="creator">
+          <persName>Erasmus, Desiderius,</persName>
+          <death>-1536.</death>
           <sex value="M"/>
-    </person>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Lesse, Nicholas,</persName>
+          <sex value="M"/>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -49,13 +62,7 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Jesus Christ</item>
-          <item n="650x">Devotional literature</item>
-        </list>
-      </keywords>
-      <keywords n="form">
-        <list>
-          <item n="655a">Broadside poems.</item>
+          <item n="650a">Divorce</item>
         </list>
       </keywords>
       <keywords n="geographic">

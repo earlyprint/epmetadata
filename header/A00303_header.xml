@@ -1,49 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Basilikon dōron. Or His Majesties instructions to his dearest sonne, Henry the prince</title>
-      <author gender="M">James I, King of England, 1566-1625.</author>
+      <title>Epictetus his manuall. And Cebes his table. Out of the Greeke originall, by Io: Healey</title>
+      <title>Manual. English</title>
+      <author>Epictetus.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A04230</idno>
+      <idno type="tcpid">A00303</idno>
       <idno type="estcid">S101646</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Basilikon dōron. Or His Majesties instructions to his dearest sonne, Henry the prince</title>
-          <author gender="M">James I, King of England, 1566-1625.</author>
+          <title>Epictetus his manuall. And Cebes his table. Out of the Greeke originall, by Io: Healey</title>
+          <title>Manual. English</title>
+          <author gender="M">Epictetus.</author>
+          <author gender="M">Cebes, of Thebes, attributed name.</author>
+          <author gender="M">Healey, John, d. 1610.</author>
         </titleStmt>
-        <extent>[38], 128, 149-154, [2] p.   </extent>
+        <extent>[12], 103, [65] p.   </extent>
         <publicationStmt>
-          <publisher>Printed by <persName type="printer">Robert VValde-graue</persName> printer to <persName type="patron">the Kings Majestie</persName>,</publisher>
-          <pubPlace>Edinburgh :</pubPlace>
-          <date when="1603">M.D.C.III. [1603]</date>
+          <publisher>Printed [by <persName type="printer">G. Eld]</persName> for <persName type="publisher">E. Blunt</persName> and <persName type="publisher">W. Barret</persName>,</publisher>
+          <pubPlace>At London :</pubPlace>
+          <date when="1610">1610.</date>
         </publicationStmt>
         <notesStmt>
-          <note>By James I, King of England.</note>
-          <note>Revised from the first edition.</note>
-          <note>First two words of title in Greek characters.</note>
-          <note>The roman numeral date is made with turned C's.</note>
-          <note>"From the method of leaf signatures this appears to have been only partly pr[inted]. by Waldegrave himself"--STC.</note>
-          <note>The last leaf is blank.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>A translation of "Enchiridion" by Epictetus, and the "Pinax" erroneously attributed to Cebes.</note>
+          <note>Signatures: A⁶ B-H¹² .</note>
+          <note>The first leaf is blank.</note>
+          <note>A variant of the 1610 edition with "Th. Thorpe" in the imprint.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="printer">
-          <persName>Robert VValde-graue</persName>
+        <person n="publisher">
+          <persName>E. Blunt</persName>
         </person>
-        <person type="patron">
-          <persName>the Kings Majestie</persName>
+        <person n="publisher">
+          <persName>W. Barret</persName>
+        </person>
+        <person n="printer">
+          <persName>G. Eld]</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>James <roleName>King of England,</roleName> <genName>I,</genName></persName>
-          <birth>1566</birth>
-          <death>1625.</death>
+          <persName>Epictetus.</persName>
+          <sex value="M"/>
+        </person>
+        <person role="added" n="attributed name.">
+          <persName>Cebes, <roleName>of Thebes,</roleName></persName>
+          <sex value="M"/>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Healey, John,</persName>
+          <death>-1610,</death>
+          <sex value="M"/>
         </person>
       </listPerson>
     </sourceDesc>
@@ -52,16 +66,14 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Education of princes</item>
-          <item n="650a">Kings and rulers</item>
-          <item n="650x">Duties</item>
+          <item n="650a">Ethics, Ancient</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
           <item n="752a">Great Britain</item>
-          <item n="752b">Scotland</item>
-          <item n="752d">Edinburgh.</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
         </list>
       </keywords>
     </textClass>

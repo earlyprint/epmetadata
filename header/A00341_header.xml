@@ -1,51 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Consilium collegii medici Parisiensis de mania G. Eglishemii, quam prodidit scripto cui titulus, Duellum poëticum pro dignitate paraphraseos Psalmi CIIII decertantibus G. [brace] Eglishemio Medico, Buchanano Pædonomo [brace] regio, quod Parisiensis Academiæ iudicio submisit.</title>
-      <author gender="M">Johnstoun, Arthur, 1587-1641.</author>
+      <title>The comparation of a vyrgin and a martyr</title>
+      <title>Virginis et martyris comparatio. English</title>
+      <author>Erasmus, Desiderius, d. 1536.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A04589</idno>
+      <idno type="tcpid">A00341</idno>
       <idno type="estcid">S116236</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Consilium collegii medici Parisiensis de mania G. Eglishemii, quam prodidit scripto cui titulus, Duellum poëticum pro dignitate paraphraseos Psalmi CIIII decertantibus G. [brace] Eglishemio Medico, Buchanano Pædonomo [brace] regio, quod Parisiensis Academiæ iudicio submisit.</title>
-          <author gender="M">Johnstoun, Arthur, 1587-1641.</author>
+          <title>The comparation of a vyrgin and a martyr</title>
+          <title>Virginis et martyris comparatio. English</title>
+          <author gender="M">Erasmus, Desiderius, d. 1536.</author>
+          <author gender="M">Paynell, Thomas.</author>
         </titleStmt>
-        <extent>15 p.   </extent>
+        <extent>39 leaves   </extent>
         <publicationStmt>
-          <publisher>Excudebat <persName type="printer">Andreas Hart</persName>,</publisher>
-          <pubPlace>Edinburgi :</pubPlace>
-          <date when="1619">1619.</date>
+          <publisher>In aedibus Thomae Bertheleti regii impressoris],</publisher>
+          <pubPlace>[Londini :</pubPlace>
+          <date when="1537">An. M.D.XXXVII. [1537]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Latin verse.</note>
-          <note>Attributed to Johnstoun by STC (2nd ed.) and NUC pre-1956 imprints.</note>
-          <note>Signatures: A⁸.</note>
-          <note>Imperfect: cropped and tightly bound, with slight loss of print.</note>
-          <note>Reproduction of original in the British Library.</note>
+          <note>A translation, by Thomas Paynell, of: Erasmus, Desiderius.  Virginis et martyris comparatio.</note>
+          <note>Place of publication and printer's name from colophon.</note>
+          <note>Running title reads: The comparison of a virgin and martyr.</note>
+          <note>Reproduction of the original in the Folger Shakespeare Library.</note>
         </notesStmt>
       </biblFull>
-      <listPerson type="tcp_ep">
-        <person type="printer">
-          <persName>Andreas Hart</persName>
-        </person>
-      </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Johnstoun, Arthur,</persName>
-          <birth>1587</birth>
-          <death>1641.</death>
+          <persName>Erasmus, Desiderius,</persName>
+          <death>-1536.</death>
           <sex value="M"/>
-    </person>
-        <person role="subject">
-          <persName>Eglisham, George,</persName>
-          <floruit>active 1612-1642.</floruit>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Paynell, Thomas,</persName>
           <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -53,20 +49,14 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Mental illness</item>
-          <item n="650a">Scottish poetry</item>
-        </list>
-      </keywords>
-      <keywords n="temporal">
-        <list>
-          <item n="650y">To 1700.</item>
+          <item n="650a">Virginity</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
           <item n="752a">Great Britain</item>
-          <item n="752b">Scotland</item>
-          <item n="752d">Edinburgh.</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
         </list>
       </keywords>
     </textClass>

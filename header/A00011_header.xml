@@ -1,52 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Fasciculus myrrhæ. Or a briefe treatise of our Lord and Sauiours passion. Written by the R. Fa. I. F. of the Society of Iesus</title>
-      <author gender="M">Falconer, John, 1577-1656.</author>
+      <title>Englands complaint to Iesus Christ, against the bishops canons of the late sinfull synod, a seditious conuenticle, a packe of hypocrites, a sworne confederacy, a traiterous conspiracy ... In this complaint are specified those impieties and insolencies, which are most notorious, scattered through the canons and constitutions of the said sinfull synod. And confuted by arguments annexed hereunto.</title>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A00536</idno>
+      <idno type="tcpid">A00011</idno>
       <idno type="estcid">S101178</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Fasciculus myrrhæ. Or a briefe treatise of our Lord and Sauiours passion. Written by the R. Fa. I. F. of the Society of Iesus</title>
-          <author gender="M">Falconer, John, 1577-1656.</author>
+          <title>Englands complaint to Iesus Christ, against the bishops canons of the late sinfull synod, a seditious conuenticle, a packe of hypocrites, a sworne confederacy, a traiterous conspiracy ... In this complaint are specified those impieties and insolencies, which are most notorious, scattered through the canons and constitutions of the said sinfull synod. And confuted by arguments annexed hereunto.</title>
         </titleStmt>
-        <extent>120, [2] p.   </extent>
+        <extent>[52] p.   </extent>
         <publicationStmt>
-          <publisher>English College Press],</publisher>
-          <pubPlace>[Saint-Omer :</pubPlace>
-          <date when="1633">1633.</date>
+          <publisher>Printed [at <placeName>the Cloppenburg Press?]</placeName>,</publisher>
+          <pubPlace>[Amsterdam] :</pubPlace>
+          <date when="1640">anno Dom. 1640.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Place of publication and printer from STC.</note>
-          <note>At foot of title page: Permissu superiorum.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>A reply to the Thirty-nine Articles of 1563.</note>
+          <note>Printer conjectured by STC.</note>
+          <note>Signatures: A-F⁴ G² .</note>
+          <note>Reproduction of the original in Cambridge University Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="estc_ep">
-        <person role="creator">
-          <persName>Falconer, John,</persName>
-          <birth>1577</birth>
-          <death>1656.</death>
-          <sex value="M"/>
-    </person>
         <person role="subject">
-          <persName>Jesus Christ</persName>
+          <persName>Laud, William,</persName>
+          <birth>1573</birth>
+          <death>1645</death>
           <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Church of England</name>
+          </orgName>
+        </org>
+      </listOrg>
     </sourceDesc>
   </fileDesc>
   <profileDesc>
     <textClass>
+      <keywords n="general">
+        <list>
+          <item n="650a">Canon law</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="600v 610v">Controversial literature</item>
+        </list>
+      </keywords>
       <keywords n="geographic">
         <list>
-          <item n="752a">France</item>
-          <item n="752d">Saint-Omer.</item>
+          <item n="752a">Netherlands</item>
+          <item n="752d">Amsterdam.</item>
         </list>
       </keywords>
     </textClass>

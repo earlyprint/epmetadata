@@ -1,49 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>The recantation of a Brownist. Or A reformed puritan. Written by one that hath altogether, bin led in the same erronious oppinions for many yeeres together: and now since his conuersion, hath measured the pretended holy discipline, by pastors, doctors, elders and deacons, (which the disciplinarian malecontents would obtrude vpon our Church,) and hath found it far shorter, then the discipline vsed either in the primitiue Church, or in this our Church of England: if all antiquitie be not reiected</title>
-      <author>Fairlambe, Peter.</author>
+      <title>The Cronycles of Englonde with the dedes of popes and emperours, and also the descripcyon of Englonde</title>
+      <title>Saint Albans chronicle.</title>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A00530</idno>
+      <idno type="tcpid">A00007</idno>
       <idno type="estcid">S108645</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>The recantation of a Brownist. Or A reformed puritan. Written by one that hath altogether, bin led in the same erronious oppinions for many yeeres together: and now since his conuersion, hath measured the pretended holy discipline, by pastors, doctors, elders and deacons, (which the disciplinarian malecontents would obtrude vpon our Church,) and hath found it far shorter, then the discipline vsed either in the primitiue Church, or in this our Church of England: if all antiquitie be not reiected</title>
-          <author>Fairlambe, Peter.</author>
+          <title>The Cronycles of Englonde with the dedes of popes and emperours, and also the descripcyon of Englonde</title>
+          <title>Saint Albans chronicle.</title>
+          <author>Higden, Ranulf, d. 1364. Polycronicon.</author>
         </titleStmt>
-        <extent>[60] p.   </extent>
+        <extent>[6], C.lxiii, [22] leaves   </extent>
         <publicationStmt>
-          <publisher>Printed [by <persName type="printer">R. Blower]</persName> for <persName type="publisher">Henry Gosson</persName>, and are to be sold at <placeName>the signe of the Sunne, in Paternoster rowe</placeName>,</publisher>
-          <pubPlace>At London :</pubPlace>
-          <date when="1606">1606.</date>
+          <publisher>In Fletestrete at <placeName>the sygne of the Sonne</placeName> by <persName type="printer">Wynkyn de Worde</persName>,</publisher>
+          <pubPlace>[Imprynted at London :</pubPlace>
+          <date when="1528">the yere of our lorde god. M.CCCCC. [et] xxviij. the .ix. daye of Apryll] [1528]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Dedication signed: Peter Fairlambe.</note>
-          <note>Printer's name from STC.</note>
-          <note>Signatures: A-G⁴ H² .</note>
-          <note>The first leaf is blank.</note>
-          <note>The title page is probably a cancel. Variant (probably the cancellandum): title page partly in a different setting, reading: .. and now since his conuersion, hath and doth approue, the holy discipline ..</note>
+          <note>Known as "the Saint Albans chronicle"; not the same compilation as the "Chronicles of England" first printed by Caxton (STC 9991-4).</note>
+          <note>Imprint from colophon.</note>
+          <note>Includes "The descripcyon of Englonde", an excerpt from Higden, Ranulf.   Polycronicon.</note>
           <note>Reproduction of the original in the British Library.</note>
-          <note>Variant.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>Henry Gosson</persName>
-        </person>
-        <person type="printer">
-          <persName>R. Blower]</persName>
+        <person n="printer">
+          <persName>Wynkyn de Worde</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
-        <person role="creator">
-          <persName>Fairlambe, Peter.</persName>
+        <person role="added">
+          <persName>Higden, Ranulf,</persName>
+          <death>-1364.</death>
           <sex value="M"/>
-    </person>
+        </person>
+        <person role="added" n="printer.">
+          <persName>Worde, Wynkyn de,</persName>
+          <death>-1534?,</death>
+          <sex value="M"/>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -51,18 +53,19 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Brownists</item>
+          <item n="651x">Description and travel</item>
+          <item n="651x">History</item>
         </list>
       </keywords>
-      <keywords n="form">
+      <keywords n="temporal">
         <list>
-          <item n="650v">Controversial literature</item>
+          <item n="651y">To 1485</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
-          <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
+          <item n="651a 752b">England</item>
+          <item n="651a 752a">Great Britain</item>
           <item n="752d">London.</item>
         </list>
       </keywords>

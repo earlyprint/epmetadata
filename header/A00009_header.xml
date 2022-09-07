@@ -1,52 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Fasciculus myrrhæ. Or a briefe treatise of our Lord and Sauiours passion. Written by the R. Fa. I. F. of the Society of Iesus</title>
-      <author gender="M">Falconer, John, 1577-1656.</author>
+      <title>The coppie of a letter sent into England by a gentleman, from the towne of Saint Denis in France Wherein is truely set forth the good successe of the Kings Maiesties forces against the Leaguers and the Prince of Parmas power. With the taking of a conuoie of victuals sent by the enemie to succour Paris. And the grieuous estate of the said citie at this present.</title>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A00536</idno>
+      <idno type="tcpid">A00009</idno>
       <idno type="estcid">S118410</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Fasciculus myrrhæ. Or a briefe treatise of our Lord and Sauiours passion. Written by the R. Fa. I. F. of the Society of Iesus</title>
-          <author gender="M">Falconer, John, 1577-1656.</author>
+          <title>The coppie of a letter sent into England by a gentleman, from the towne of Saint Denis in France Wherein is truely set forth the good successe of the Kings Maiesties forces against the Leaguers and the Prince of Parmas power. With the taking of a conuoie of victuals sent by the enemie to succour Paris. And the grieuous estate of the said citie at this present.</title>
         </titleStmt>
-        <extent>120, [2] p.   </extent>
+        <extent>12, 15-23, [1] p.   </extent>
         <publicationStmt>
-          <publisher>English College Press],</publisher>
-          <pubPlace>[Saint-Omer :</pubPlace>
-          <date when="1633">1633.</date>
+          <publisher>By <persName type="printer">Thomas Scarlet</persName> for <persName type="publisher">Thomas Nelson</persName>,</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1590">1590.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Place of publication and printer from STC.</note>
-          <note>At foot of title page: Permissu superiorum.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>2nd part, "A treatise concerning the extreme famine of the citie of Paris at this present" has caption title on B3r.</note>
+          <note>Pages 13, 14 are missing in number only.</note>
+          <note>2nd part formerly also STC 19199.</note>
+          <note>2nd part identified as STC 19199 on UMI microfilm, reel 1553.</note>
+          <note>Reproductions of the originals in the British Library (parts 1 and 2) and in the Bodleian Library (part 2 only).</note>
+          <note>Appears at reel 422 (British Library copy, parts 1 and 2) and at reel 1553 (Bodleian Library, part 2 only).</note>
         </notesStmt>
       </biblFull>
-      <listPerson type="estc_ep">
-        <person role="creator">
-          <persName>Falconer, John,</persName>
-          <birth>1577</birth>
-          <death>1656.</death>
-          <sex value="M"/>
-    </person>
-        <person role="subject">
-          <persName>Jesus Christ</persName>
-          <sex value="M"/>
-    </person>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Thomas Nelson</persName>
+        </person>
+        <person n="printer">
+          <persName>Thomas Scarlet</persName>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
   <profileDesc>
     <textClass>
+      <keywords n="general">
+        <list>
+          <item n="651x">History</item>
+          <item n="651x">Siege, 1590</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="651y">Wars of the Huguenots, 1562-1598</item>
+        </list>
+      </keywords>
       <keywords n="geographic">
         <list>
-          <item n="752a">France</item>
-          <item n="752d">Saint-Omer.</item>
+          <item n="651a">Paris (France)</item>
+          <item n="651a">France</item>
+          <item n="752a">Great Britain</item>
+          <item n="752b">England</item>
+          <item n="752d">London.</item>
         </list>
       </keywords>
     </textClass>

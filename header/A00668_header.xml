@@ -1,46 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Egluryn phraethineb. sebh, dosparth ar retoreg, vn oʻr saith gelbhydhyd, yn dysculhuniaith ymadrodh, aʻi pherthynassau</title>
-      <author>[Perry, Henry].</author>
-      <author gender="M">Salesbury, William, 1520?-1600?</author>
+      <title>A sermon of simonie and sacriledge preached at Pauls Crosse March 18: by Roger Fenton preacher of Graise Inne.</title>
+      <author>Fenton, Roger, 1565-1616.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A09492</idno>
+      <idno type="tcpid">A00668</idno>
       <idno type="estcid">S105579</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Egluryn phraethineb. sebh, dosparth ar retoreg, vn oʻr saith gelbhydhyd, yn dysculhuniaith ymadrodh, aʻi pherthynassau</title>
-          <author>[Perry, Henry].</author>
-          <author gender="M">Salesbury, William, 1520?-1600?</author>
+          <title>A sermon of simonie and sacriledge preached at Pauls Crosse March 18: by Roger Fenton preacher of Graise Inne.</title>
+          <author gender="M">Fenton, Roger, 1565-1616.</author>
         </titleStmt>
-        <extent>[20], 103, [5] p.   </extent>
+        <extent>[8], 64 p.   </extent>
         <publicationStmt>
-          <publisher>Printiedig gann Ioan Danter yn Lhundain,</publisher>
-          <pubPlace>[London] :</pubPlace>
-          <date when="1595">1595.</date>
+          <publisher>Printed by <persName type="printer">Arnold Hatfield [</persName>for <persName type="publisher">Felix Norton]</persName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1604">1604.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Dedication signed: Henricus Perræus.</note>
-          <note>"A Welsh treatise on rhetoric, the outlines of which had previously been written by William Salesbury"--DNB.</note>
-          <note>Includes index.</note>
-          <note>Reproduction of the original in the National Library of Wales.</note>
+          <note>Publisher's name from STC.</note>
+          <note>Reproduction of the original in the British Library.</note>
         </notesStmt>
       </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>Felix Norton]</persName>
+        </person>
+        <person n="printer">
+          <persName>Arnold Hatfield [</persName>
+        </person>
+      </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>[Perry, Henry].</persName>
+          <persName>Fenton, Roger,</persName>
+          <birth>1565</birth>
+          <death>1616.</death>
           <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Salesbury, William,</persName>
-          <birth>1520?</birth>
-          <death>1600?.</death>
-          <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -48,12 +49,14 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Rhetoric</item>
+          <item n="650a">Simony</item>
+          <item n="650a">Sacrilege</item>
+          <item n="650a">Sermons, English</item>
         </list>
       </keywords>
       <keywords n="temporal">
         <list>
-          <item n="650y">1500-1800.</item>
+          <item n="650y">17th century.</item>
         </list>
       </keywords>
       <keywords n="geographic">

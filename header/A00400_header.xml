@@ -1,45 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>The mappe of mans mortality and vanity A sermon, preached at the solemne funerall of Abraham Iacob Esquire, in the church of St. Leonards-Bromley by Stratford-Bow. May. 8. 1629. By Edmund Layfielde Bachelour in Divinity, and preacher there.</title>
-      <author gender="M">Layfield, Edmund.</author>
+      <title>A discourse of the nauigation which the Portugales doe make to the realmes and prouinces of the east partes of the worlde and of the knowledge that growes by them of the great thinges, which are in the dominions of China. Written by Barnardine of Escalanta, of the realme of Galisia priest. Translated out of Spanish into English, by Iohn Frampton.</title>
+      <title>Discurso de la navegacion que los portugueses hazen à los reinos y provincias del Oriente. English</title>
+      <author>Escalante, Bernardino de, 16th cent.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A05198</idno>
+      <idno type="tcpid">A00400</idno>
       <idno type="estcid">S101702</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>The mappe of mans mortality and vanity A sermon, preached at the solemne funerall of Abraham Iacob Esquire, in the church of St. Leonards-Bromley by Stratford-Bow. May. 8. 1629. By Edmund Layfielde Bachelour in Divinity, and preacher there.</title>
-          <author gender="M">Layfield, Edmund.</author>
+          <title>A discourse of the nauigation which the Portugales doe make to the realmes and prouinces of the east partes of the worlde and of the knowledge that growes by them of the great thinges, which are in the dominions of China. Written by Barnardine of Escalanta, of the realme of Galisia priest. Translated out of Spanish into English, by Iohn Frampton.</title>
+          <title>Discurso de la navegacion que los portugueses hazen à los reinos y provincias del Oriente. English</title>
+          <author gender="M">Escalante, Bernardino de, 16th cent.</author>
+          <author gender="M">Frampton, John, fl. 1577-1596.</author>
         </titleStmt>
-        <extent>[10], 95, [1] p.   </extent>
+        <extent>46 [i.e. 47], [1] leaves   </extent>
         <publicationStmt>
-          <publisher>Printed [by <persName type="printer">Miles Flesher]</persName> for <persName type="publisher">Nicolas Bourne</persName>, and are to be sold at <placeName>his shop, at the south entrance of the Royall Exchange</placeName>,</publisher>
-          <pubPlace>London :</pubPlace>
-          <date when="1630">1630.</date>
+          <publisher>At <placeName>the three Cranes in the Vinetree</placeName>, by <persName type="printer">Thomas Dawson</persName>,</publisher>
+          <pubPlace>Imprinted in London :</pubPlace>
+          <date when="1579">1579.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Printer's name from STC.</note>
-          <note>Running title reads: The map of mans mortalitie and vanitie.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>Translation of: Discurso de la navegacion que los portugueses hazen à los reinos y provincias del Oriente.</note>
+          <note>Running title reads: The conquest of the East Indias.</note>
+          <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>Nicolas Bourne</persName>
-        </person>
-        <person type="printer">
-          <persName>Miles Flesher]</persName>
+        <person n="printer">
+          <persName>Thomas Dawson</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Layfield, Edmund.</persName>
+          <persName>Escalante, Bernardino de,</persName>
+          <floruit>active 16th century.</floruit>
           <sex value="M"/>
-    </person>
+        </person>
+        <person role="added" n="tr.">
+          <persName>Frampton, John,</persName>
+          <floruit>active 1577-1596,</floruit>
+          <sex value="M"/>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -47,22 +54,19 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Funeral sermons</item>
-          <item n="650a">Sermons, English</item>
-        </list>
-      </keywords>
-      <keywords n="form">
-        <list>
-          <item n="630v">Sermons</item>
+          <item n="651x">Description and travel</item>
+          <item n="651x">History</item>
         </list>
       </keywords>
       <keywords n="temporal">
         <list>
-          <item n="650y">17th century.</item>
+          <item n="651y">Period of discoveries, 1385-1580</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="651a">Asia</item>
+          <item n="651a">Portugal</item>
           <item n="752a">Great Britain</item>
           <item n="752b">England</item>
           <item n="752d">London.</item>

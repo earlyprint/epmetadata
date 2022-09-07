@@ -1,72 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Ane breif gathering of the halie signes, sacrifices and sacramentis institutit of God sen the creation of the warlde. And of the trew originall of the sacrifice of the messe. Translatit out of Frenche into Scottis be ane faithful brother</title>
-      <title>Sommaire recueil des signes sacrez. English.</title>
-      <author>Stewart, William, d. 1569.</author>
-      <author>Bèze, Théodore de, 1519-1605, attributed name.</author>
+      <title>Articles to be enquired of in the diocesse of Carlile, in the visitation of the reuerend father in God, Francis, Lord Bishop of Carlile</title>
+      <author>Church of England. Diocese of Carlisle. Bishop (1626-1629 : White)</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A01556</idno>
+      <idno type="tcpid">A00167</idno>
       <idno type="estcid">S2634</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Ane breif gathering of the halie signes, sacrifices and sacramentis institutit of God sen the creation of the warlde. And of the trew originall of the sacrifice of the messe. Translatit out of Frenche into Scottis be ane faithful brother</title>
-          <title>Sommaire recueil des signes sacrez. English.</title>
-          <author>Stewart, William, d. 1569.</author>
-          <author>Bèze, Théodore de, 1519-1605, attributed name.</author>
+          <title>Articles to be enquired of in the diocesse of Carlile, in the visitation of the reuerend father in God, Francis, Lord Bishop of Carlile</title>
+          <author gender="I">Church of England. Diocese of Carlisle. Bishop (1626-1629 : White)</author>
+          <author gender="M">White, Francis, 1564?-1638.</author>
         </titleStmt>
-        <extent>46 leaves   </extent>
+        <extent>[14] p.   </extent>
         <publicationStmt>
-          <publisher>By <persName type="printer">Robert Lekprevik</persName>,</publisher>
-          <pubPlace>Imprintit at Edinburgh :</pubPlace>
-          <date when="1565">M. D. LXV. [1565]</date>
+          <publisher>[G. Purslowe],</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1627">1627.</date>
         </publicationStmt>
         <notesStmt>
-          <note>A translation, by William Stewart, from "Sommaire recueil des signes sacrez", 1561, which is erroneously attributed to Theodore de Bèze.</note>
-          <note>Reproduction of the original in the Union Theological Seminary (New York, N.Y.). Library.</note>
+          <note>"Anno Dom. [blank] &amp; Consecrationis suæ [blank]".</note>
+          <note>Publisher suggested by STC (2nd ed.).</note>
+          <note>Signatures: A-B⁴ (last leaf blank).</note>
+          <note>Reproduction of original in the Bodleian Library.</note>
         </notesStmt>
       </biblFull>
-      <listPerson type="tcp_ep">
-        <person n="printer">
-          <persName>Robert Lekprevik</persName>
+      <listPerson type="estc_ep">
+        <person role="added">
+          <persName>White, Francis,</persName>
+          <birth>1564?</birth>
+          <death>1638.</death>
+          <sex value="M"/>
         </person>
       </listPerson>
-      <listPerson type="estc_ep">
-        <person role="added" n="attributed name.">
-          <persName>Bèze, Théodore de,</persName>
-          <birth>1519</birth>
-          <death>1605,</death>
-          <sex value="M"/>
-    </person>
-        <person role="added" n="tr.">
-          <persName>Stewart, William,</persName>
-          <death>-1569,</death>
-          <sex value="M"/>
-    </person>
-      </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Church of England.</name>
+            <name>Diocese of Carlisle.</name>
+            <name>Bishop (1626-1629 : White)</name>
+          </orgName>
+        </org>
+        <org>
+          <orgName>
+            <name>Church of England</name>
+          </orgName>
+        </org>
+      </listOrg>
     </sourceDesc>
   </fileDesc>
   <profileDesc>
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Mass</item>
+          <item n="650a">Visitations, Ecclesiastical</item>
         </list>
       </keywords>
       <keywords n="form">
         <list>
-          <item n="650v">Controversial literature.</item>
+          <item n="655a">Letters.</item>
+          <item n="610v">Pastoral letters and charges</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="650z 752b">England</item>
           <item n="752a">Great Britain</item>
-          <item n="752b">Scotland</item>
-          <item n="752d">Edinburgh.</item>
+          <item n="752d">London.</item>
         </list>
       </keywords>
     </textClass>

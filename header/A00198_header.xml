@@ -1,64 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Disputatio inter clericum et miletem super potestate prelatis ecclesiæ atq[us] principibus terrarum commissa sub forma dialogi</title>
-      <author gender="M">William, of Ockham, ca. 1285-ca. 1349, attributed name.</author>
-      <author gender="M">Dubois, Pierre, fl. 1300, attributed name.</author>
+      <title>Articles to be enquired of in the generall visitation of Edmonde Bisshoppe of London exercised by him the yeare of oure Lorde. 1.5.5.4. in the citie and diocese of London ...</title>
+      <title>Visitation articles. 1554</title>
+      <author>Church of England. Diocese of London. Bishop (1539-1549, 1553-1559 : Bonner)</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A02379</idno>
+      <idno type="tcpid">A00198</idno>
       <idno type="estcid">S101624</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Disputatio inter clericum et miletem super potestate prelatis ecclesiæ atq[us] principibus terrarum commissa sub forma dialogi</title>
-          <author gender="M">William, of Ockham, ca. 1285-ca. 1349, attributed name.</author>
-          <author gender="M">Dubois, Pierre, fl. 1300, attributed name.</author>
+          <title>Articles to be enquired of in the generall visitation of Edmonde Bisshoppe of London exercised by him the yeare of oure Lorde. 1.5.5.4. in the citie and diocese of London ...</title>
+          <title>Visitation articles. 1554</title>
+          <author gender="M">Church of England. Diocese of London. Bishop (1539-1549, 1553-1559 : Bonner)</author>
+          <author gender="M">Bonner, Edmund, 1500?-1569.</author>
         </titleStmt>
-        <extent>[28] p.   </extent>
+        <extent>[38] p.   </extent>
         <publicationStmt>
-          <publisher>In ædibus Thome Bertheleti,</publisher>
-          <pubPlace>Londini :</pubPlace>
-          <date when="1531">[1531]</date>
+          <publisher>In ædibus Iohannis Cawodi typographi Regiæ Maiestatis,</publisher>
+          <pubPlace>[Excusum Londini :</pubPlace>
+          <date when="1554">Anno. M.D.LIIII. mense Septembri]</date>
         </publicationStmt>
         <notesStmt>
-          <note>Variously attributed to William of Ockham and Pierre Dubois.</note>
-          <note>Imprint from colophon; publication date conjectured by STC.</note>
-          <note>Title page is in the same setting as STC 12510--STC.</note>
-          <note>Catchword on a6r reads: sit--STC.</note>
-          <note>Signatures: ab⁶.</note>
-          <note>Identified as STC 12510 on UMI microfilm reel 102.</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>Imprint from colophon.</note>
+          <note>Signatures: A-E⁴ (-E4).</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="estc_ep">
-        <person role="added" n="attributed name.">
-          <persName>William, <roleName>of Ockham,</roleName></persName>
-          <floruit>approximately 1285-approximately 1349,</floruit>
+        <person role="added">
+          <persName>Bonner, Edmund,</persName>
+          <birth>1500?</birth>
+          <death>1569.</death>
           <sex value="M"/>
-    </person>
-        <person role="added" n="attributed name.">
-          <persName>Dubois, Pierre,</persName>
-          <floruit>active 1300,</floruit>
-          <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
+      <listOrg type="estc_ep">
+        <org>
+          <orgName>
+            <name>Church of England.</name>
+            <name>Diocese of London.</name>
+            <name>Bishop (1539-1549, 1553-1559 : Bonner)</name>
+          </orgName>
+        </org>
+        <org>
+          <orgName>
+            <name>Church of England.</name>
+            <name>Diocese of London</name>
+          </orgName>
+        </org>
+      </listOrg>
     </sourceDesc>
   </fileDesc>
   <profileDesc>
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Church and state</item>
+          <item n="650a">Visitations, Ecclesiastical</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="650z 752b">England</item>
+          <item n="650z 752d">London.</item>
           <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
-          <item n="752d">London.</item>
         </list>
       </keywords>
     </textClass>

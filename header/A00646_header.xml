@@ -1,57 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>Llyfr y resolusion yr hvvn sydd yn dysguini bawb wneuthur ein goreu, a rhoi cwbl o'n bryd a'n meddwl ar fod yn wir Gristianogion, hynny ydyw ar ymadael a'n drwg uchedd, a throi ar ddaioni a duwioldeb; Wedi ei gyfieithu yn Gymraeg y gan I.D. er lles i'w blwyfolion;</title>
-      <title>Booke of Christian exercise. Part 2. Welsh.</title>
-      <author>Davies, John, 1567-1644.</author>
-      <author>Parsons, Robert, 1546-1610. Christian directory.</author>
-      <author>Parsons, Robert, 1546-1610. First booke of the Christian exercise.</author>
+      <title>The compters common-wealth, or A voiage made to an infernall iland long since discouered by many captaines, seafaring-men, gentlemen, marchants, and other tradesmen but the conditions, natures, and qualities of the people there inhabiting, and of those that trafficke with them, were neuer so truly expressed or liuely set foorth as by William Fennor His Maiesties servant.</title>
+      <author>Fennor, William.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A09093</idno>
+      <idno type="tcpid">A00646</idno>
       <idno type="estcid">S102012</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>Llyfr y resolusion yr hvvn sydd yn dysguini bawb wneuthur ein goreu, a rhoi cwbl o'n bryd a'n meddwl ar fod yn wir Gristianogion, hynny ydyw ar ymadael a'n drwg uchedd, a throi ar ddaioni a duwioldeb; Wedi ei gyfieithu yn Gymraeg y gan I.D. er lles i'w blwyfolion;</title>
-          <title>Booke of Christian exercise. Part 2. Welsh.</title>
-          <author>Davies, John, 1567-1644.</author>
-          <author>Parsons, Robert, 1546-1610. Christian directory.</author>
-          <author>Parsons, Robert, 1546-1610. First booke of the Christian exercise.</author>
+          <title>The compters common-wealth, or A voiage made to an infernall iland long since discouered by many captaines, seafaring-men, gentlemen, marchants, and other tradesmen but the conditions, natures, and qualities of the people there inhabiting, and of those that trafficke with them, were neuer so truly expressed or liuely set foorth as by William Fennor His Maiesties servant.</title>
+          <author gender="M">Fennor, William.</author>
         </titleStmt>
-        <extent>[12], 520, [8] p.   </extent>
+        <extent>[6], 85, [1] p.   </extent>
         <publicationStmt>
-          <publisher>Yn nhy Iohn Beale tros yr un I. D[avies],</publisher>
-          <pubPlace>A'i brintio yn Llundain :</pubPlace>
-          <date when="1632">1632.</date>
+          <publisher>Printed by <persName type="printer">Edward Griffin</persName> for <persName type="publisher">George Gibbes</persName> and are to be sold at <placeName>his shoppe in Pauls Churchyard at the signe of the Floure-de-luce</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1617">1617.</date>
         </publicationStmt>
         <notesStmt>
-          <note>A translation, by I.D., i.e. John Davies, of Mallwyd, of "The seconde parte of the booke of Christian exercise", an anonymous Protestant adaptation of "A Christian directorie", an enlarged edition of Parsons' "The first booke of the Christian exercise".</note>
-          <note>Davies' name in imprint from STC.</note>
+          <note>Describes his experience as a prisoner for debt.</note>
+          <note>The words "by William Fennor His Maiesties servant" are bracketed together on the title page.</note>
           <note>Reproduction of the original in the British Library.</note>
         </notesStmt>
       </biblFull>
+      <listPerson type="tcp_ep">
+        <person n="publisher">
+          <persName>George Gibbes</persName>
+        </person>
+        <person n="printer">
+          <persName>Edward Griffin</persName>
+        </person>
+      </listPerson>
       <listPerson type="estc_ep">
-        <person role="added" type="tr.">
-          <persName>Davies, John,</persName>
-          <birth>1567</birth>
-          <death>1644,</death>
+        <person role="creator">
+          <persName>Fennor, William.</persName>
           <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Parsons, Robert,</persName>
-          <birth>1546</birth>
-          <death>1610.</death>
-          <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Parsons, Robert,</persName>
-          <birth>1546</birth>
-          <death>1610.</death>
-          <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -59,14 +48,20 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Christian life</item>
-          <item n="650x">Protestant authors</item>
+          <item n="650a">Debt, Imprisonment for</item>
+          <item n="651x">Social life and customs</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="651y">17th century.</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="651a">London (England)</item>
+          <item n="650z 752b">England</item>
           <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
           <item n="752d">London.</item>
         </list>
       </keywords>

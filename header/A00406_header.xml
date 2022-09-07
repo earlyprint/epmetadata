@@ -1,63 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>La copie d'une lettre en voyee d'Angleterre a Dom Bernardin de Mendoze ambassadeur en France pour le Roy d'Espagne par laquelle est declare l'estat du Roiaume d'Angleterre, contre l'attente de Dom Bernardin &amp; de tous ses partizans Espagnols &amp; aultres : encores que ceste lettre fust enuoiée à Dom Bernardin de Mendoze, toutesfois de bon heur, la copie d'icelle, tant en Anglois qu'en François, a esté trouuée en la chambre de Richard Leygh seminaire, lequel n'agueres fut executé pour crime de leze maiesté &amp; trahison commise au temps que l'armeé d'Espagne estoit en mer.</title>
-      <author gender="M">Burghley, William Cecil, Baron, 1520-1598.</author>
-      <author gender="M">Mendoza, Bernardino de, 1540 or 41-1604.</author>
-      <author gender="M">Leigh, Richard, 1561?-1588.</author>
+      <title>The right rule of a religious life: or, The glasse of godlinesse Wherein euery man may behold his imperfections, how farre hee is out of the way of true Godlinesse, and learne to reduce his wandring steppes into the pathes of true pietie. In certaine lectures vpon the first chapter of the Epistle of S. Iames. The first part. By William Est preacher of Gods Word.</title>
+      <author>Est, William, 1546 or 7-1625.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A05270</idno>
+      <idno type="tcpid">A00406</idno>
       <idno type="estcid">S118323</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>La copie d'une lettre en voyee d'Angleterre a Dom Bernardin de Mendoze ambassadeur en France pour le Roy d'Espagne par laquelle est declare l'estat du Roiaume d'Angleterre, contre l'attente de Dom Bernardin &amp; de tous ses partizans Espagnols &amp; aultres : encores que ceste lettre fust enuoiée à Dom Bernardin de Mendoze, toutesfois de bon heur, la copie d'icelle, tant en Anglois qu'en François, a esté trouuée en la chambre de Richard Leygh seminaire, lequel n'agueres fut executé pour crime de leze maiesté &amp; trahison commise au temps que l'armeé d'Espagne estoit en mer.</title>
-          <author gender="M">Burghley, William Cecil, Baron, 1520-1598.</author>
-          <author gender="M">Mendoza, Bernardino de, 1540 or 41-1604.</author>
-          <author gender="M">Leigh, Richard, 1561?-1588.</author>
+          <title>The right rule of a religious life: or, The glasse of godlinesse Wherein euery man may behold his imperfections, how farre hee is out of the way of true Godlinesse, and learne to reduce his wandring steppes into the pathes of true pietie. In certaine lectures vpon the first chapter of the Epistle of S. Iames. The first part. By William Est preacher of Gods Word.</title>
+          <author gender="M">Est, William, 1546 or 7-1625.</author>
         </titleStmt>
-        <extent>[2], 64, [32] p.   </extent>
+        <extent>[16], 318 p.   </extent>
         <publicationStmt>
-          <publisher>J. Vautrollier for <persName type="publisher">R. Field</persName>,</publisher>
-          <pubPlace>[London :</pubPlace>
-          <date when="1588">1588]</date>
+          <publisher>Printed by <persName type="printer">Nicholas Okes</persName>, and are to bee sold by <persName type="bookseller">Richard Lea</persName> at <placeName>his shop on the North entry of the Royall Exchange</placeName>,</publisher>
+          <pubPlace>London :</pubPlace>
+          <date when="1616">1616.</date>
         </publicationStmt>
         <notesStmt>
-          <note>In two pts.</note>
-          <note>Second pt. has caption title: Depuis l'impression de ceste derniere sueille ...</note>
-          <note>Written by William Burghley, sometimes ascribed to Richard Leigh-- Cf. Brit. Mus. Cat. (photolith. ed. to 1955).</note>
-          <note>"Nouuellement Imprimé."</note>
-          <note>Imprint suggested by STC (2nd ed.).</note>
-          <note>Signatures: A-D⁸ E-G⁴ H⁶ (last leaf blank).</note>
-          <note>Reproduction of original in the Harvard University. Library.</note>
+          <note>In spite of the title the text is apparently complete--STC.</note>
+          <note>Reproduction of the original in the Bodleian Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>R. Field</persName>
+        <person n="printer">
+          <persName>Nicholas Okes</persName>
+        </person>
+        <person n="bookseller">
+          <persName>Richard Lea</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Burghley, William Cecil, <roleName>Baron,</roleName></persName>
-          <birth>1520</birth>
-          <death>1598.</death>
+          <persName>Est, William,</persName>
+          <floruit>1546 or 1547-1625.</floruit>
           <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Leigh, Richard,</persName>
-          <birth>1561?</birth>
-          <death>1588.</death>
+        </person>
+        <person role="added" n="printer.">
+          <persName>Okes, Nicholas,</persName>
           <sex value="M"/>
-    </person>
-        <person role="added">
-          <persName>Mendoza, Bernardino de,</persName>
-          <floruit>1540 or 1541-1604.</floruit>
-          <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -65,7 +52,18 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Armada, 1588.</item>
+          <item n="650a">Sermons, English</item>
+        </list>
+      </keywords>
+      <keywords n="form">
+        <list>
+          <item n="655a">Sermons</item>
+          <item n="630v">Commentaries.</item>
+        </list>
+      </keywords>
+      <keywords n="temporal">
+        <list>
+          <item n="650y">17th century.</item>
         </list>
       </keywords>
       <keywords n="geographic">

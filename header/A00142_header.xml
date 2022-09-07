@@ -1,49 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
-      <title>A worthy practise of the moste learned phisition Maister Leonerd Fuchsius, Doctor in phisicke, moste necessary in this needfull tyme of our visitation, for the comforte of all good and faythfull people, both olde and yonge, bothe for the sicke and for them that woulde auoyde the daunger of the contagion</title>
-      <author gender="M">Fuchs, Leonhart, 1501-1566.</author>
+      <title>A historie contayning the vvarres, treaties, marriages, and other occurrents betweene England and Scotland from King William the Conqueror, vntill the happy vnion of them both in our gratious King Iames. With a briefe declaration of the first inhabitants of this island: and what seuerall nations haue sithence settled them-selues therein one after an other</title>
+      <author>Ayscu, Edward.</author>
     </titleStmt>
     <publicationStmt>
       <publisher>EarlyPrint project</publisher>
-      <idno type="tcpid">A01285</idno>
+      <idno type="tcpid">A00142</idno>
       <idno type="estcid">S100373</idno>
     </publicationStmt>
     <sourceDesc>
       <biblFull>
         <titleStmt>
-          <title>A worthy practise of the moste learned phisition Maister Leonerd Fuchsius, Doctor in phisicke, moste necessary in this needfull tyme of our visitation, for the comforte of all good and faythfull people, both olde and yonge, bothe for the sicke and for them that woulde auoyde the daunger of the contagion</title>
-          <author gender="M">Fuchs, Leonhart, 1501-1566.</author>
+          <title>A historie contayning the vvarres, treaties, marriages, and other occurrents betweene England and Scotland from King William the Conqueror, vntill the happy vnion of them both in our gratious King Iames. With a briefe declaration of the first inhabitants of this island: and what seuerall nations haue sithence settled them-selues therein one after an other</title>
+          <author gender="M">Ayscu, Edward.</author>
         </titleStmt>
-        <extent>[28] p.   </extent>
+        <extent>[16], 108, 113-396 p.   </extent>
         <publicationStmt>
-          <publisher>By <persName type="printer">Rouland Hall</persName>, for <persName type="publisher">Michell Lobley</persName> in <placeName>Poules Churchyeard at the corner shop on the right hand as ye come oute of Chepe</placeName>,</publisher>
-          <pubPlace>Printed at London :</pubPlace>
-          <date when="1563">[1563]</date>
+          <publisher>By <persName type="printer">G. Eld</persName>,</publisher>
+          <pubPlace>Imprinted at London :</pubPlace>
+          <date when="1607">1607.</date>
         </publicationStmt>
         <notesStmt>
-          <note>Publication date from STC.</note>
-          <note>Running title reads: A regiment for the plague.</note>
-          <note>Leaves Av and Biiii missigned Bv.</note>
-          <note>Signatures: A-B(-B7-8).</note>
-          <note>Reproduction of the original in the British Library.</note>
+          <note>Dedicatory epistle and preface signed: Edward Ayscu.</note>
+          <note>The first leaf and the leaf before p. 1 are blank.</note>
+          <note>Reproduction of the original in Cambridge University Library.</note>
         </notesStmt>
       </biblFull>
       <listPerson type="tcp_ep">
-        <person type="publisher">
-          <persName>Michell Lobley</persName>
-        </person>
-        <person type="printer">
-          <persName>Rouland Hall</persName>
+        <person n="printer">
+          <persName>G. Eld</persName>
         </person>
       </listPerson>
       <listPerson type="estc_ep">
         <person role="creator">
-          <persName>Fuchs, Leonhard,</persName>
-          <birth>1501</birth>
-          <death>1566.</death>
+          <persName>Ayscu, Edward.</persName>
           <sex value="M"/>
-    </person>
+        </person>
       </listPerson>
     </sourceDesc>
   </fileDesc>
@@ -51,13 +45,14 @@
     <textClass>
       <keywords n="general">
         <list>
-          <item n="650a">Sweating-sickness</item>
+          <item n="651x">Foreign relations</item>
         </list>
       </keywords>
       <keywords n="geographic">
         <list>
+          <item n="651a 651z">Scotland</item>
+          <item n="651a 651z 752b">England</item>
           <item n="752a">Great Britain</item>
-          <item n="752b">England</item>
           <item n="752d">London.</item>
         </list>
       </keywords>
