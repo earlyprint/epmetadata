@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
       <title>A sermon of simonie and sacriledge preached at Pauls Crosse March 18: by Roger Fenton preacher of Graise Inne.</title>
@@ -28,7 +28,7 @@
       </biblFull>
       <listPerson type="tcp_ep">
         <person type="publisher">
-          <persName>Felix Norton]</persName>
+          <persName><choice><orig>Felix Norton]</orig><reg>Norton, Felix</reg></choice></persName>
         </person>
         <person type="printer">
           <persName>Arnold Hatfield [</persName>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:marc="http://www.loc.gov/MARC21/slim">
   <fileDesc>
     <titleStmt>
       <title>A forme of Christian pollicie drawne out of French by Geffray Fenton. A worke very necessary to al sorts of people generally, as wherein is contayned doctrine, both vniuersall, and special touching the institution of al Christian profession: and also conuenient perticularly for all magistrates and gouernours of common weales, for their more happy regiment according to God</title>
@@ -33,7 +33,7 @@
       </biblFull>
       <listPerson type="tcp_ep">
         <person type="publisher">
-          <persName>Rafe Newbery</persName>
+          <persName><choice><orig>Rafe Newbery</orig><reg>Newbery, Ralph</reg></choice></persName>
         </person>
         <person type="printer">
           <persName>H. Middelton</persName>
