@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>Anno Regni Jacobi II, Regis Angliae, Scotiae, Franciae, &amp; Hiberniae, primo at the Parliament begun at Westminster the nineteenth day of May, anno Dom. 1685, in the first year of the reign of our Most Gracious Sovereign Lord James, by the grace of God of England, Scotland, France, and Ireland King, defender of the faith &amp;c.</title>
@@ -78,7 +78,7 @@
           <item n="650a">Law reports, digests, etc.</item>
           <item n="651x">History</item>
           <item n="651x">Politics and government</item>
-        </list>
+        <item n="650a">Law</item></list>
       </keywords>
       <keywords n="temporal">
         <list>
@@ -92,6 +92,6 @@
           <item n="752d">London.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="form"><list><item n="655a">Session laws.</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>

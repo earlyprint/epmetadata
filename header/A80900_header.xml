@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>A declaration of His Highness the Lord Protector and the Parlam'ent [sic] of the Common-wealth of England, Scotland, &amp; Ireland, for a day of solemn fasting &amp; humiliation in the three nations.</title>
@@ -69,13 +69,13 @@
           <item n="650a">Humiliation</item>
           <item n="651x">History</item>
           <item n="651x">Politics and government</item>
-        </list>
+        <item n="650a">Fasting</item></list>
       </keywords>
       <keywords n="temporal">
         <list>
           <item n="651y">Commonwealth and Protectorate, 1649-1660.</item>
           <item n="651y">1649-1660.</item>
-        </list>
+        <item n="651y">Commonwealth and Protectorate, 1649-1660</item><item n="651y">1649-1660</item></list>
       </keywords>
       <keywords n="geographic">
         <list>
@@ -85,6 +85,6 @@
           <item n="752d">London.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="form"><list><item n="655a">Fast day proclamations.</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>

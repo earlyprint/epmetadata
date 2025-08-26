@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>Minima vis potest movere maximum pondus ; Aurifica alchymia non est impostura</title>
@@ -40,7 +40,7 @@
         <list>
           <item n="650a">Poetry, Latin.</item>
           <item n="650a">College verse, English.</item>
-        </list>
+        <item n="650a">Latin poetry, Medieval and modern</item><item n="650a">Alchemy</item></list>
       </keywords>
       <keywords n="geographic">
         <list>
@@ -49,6 +49,6 @@
           <item n="752d">Cambridge.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="form"><list><item n="650v">Poetry</item></list></keywords><keywords n="form"><list><item n="655a">Broadside poems.</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>

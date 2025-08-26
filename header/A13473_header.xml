@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>The needles excellency a new booke wherin are diuers admirable workes wrought with the needle ; newly inuented and cut in copper for the pleasure and profit of the industrious.</title>
@@ -51,7 +51,7 @@
         <list>
           <item n="650a">Needlework</item>
           <item n="650x">Patterns.</item>
-        </list>
+        <item n="650x">Patterns</item></list>
       </keywords>
       <keywords n="geographic">
         <list>
@@ -60,6 +60,6 @@
           <item n="752d">London.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="form"><list><item n="655a">Pattern books.</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>

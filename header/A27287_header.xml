@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>The Dutch lover a comedy acted at the Dvkes theatre / written by Mrs. A. Bhen [sic]</title>
@@ -51,12 +51,12 @@
       <keywords n="form">
         <list>
           <item n="655a">Comedies</item>
-        </list>
+        <item n="655a">Comedies.</item></list>
       </keywords>
       <keywords n="temporal">
         <list>
           <item n="655y">17th century.</item>
-        </list>
+        <item n="650y">17th century.</item><item n="650y">Restoration, 1660-1700.</item></list>
       </keywords>
       <keywords n="geographic">
         <list>
@@ -65,6 +65,6 @@
           <item n="752d">London.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="general"><list><item n="650a">English drama</item></list></keywords><keywords n="general"><list><item n="650a">English drama (Comedy)</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>

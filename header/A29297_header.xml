@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/ep_teiHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
   <fileDesc>
     <titleStmt>
       <title>The pilgrim a pleasant piece of gallantry / written in French by M.S. Bremond ; translated into English by P. Belon.</title>
@@ -58,7 +58,7 @@
       <keywords n="general">
         <list>
           <item n="650a">Christian life</item>
-        </list>
+        <item n="650a">Pilgrims and pilgrimages</item></list>
       </keywords>
       <keywords n="geographic">
         <list>
@@ -67,6 +67,6 @@
           <item n="752d">London.</item>
         </list>
       </keywords>
-    </textClass>
+    <keywords n="form"><list><item n="650v">Fiction.</item></list></keywords><keywords n="form"><list><item n="655a">Fiction.</item></list></keywords></textClass>
   </profileDesc>
 </teiHeader>
